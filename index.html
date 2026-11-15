@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Uutiset</title>
+<title>SUCKMYNEWS</title>
 <style>
 :root{--bg:#fff;--box:#edebeb;--text:#1a1919;--imp:#631515;--who:#b5b5b5;--line:rgba(26,25,25,.15);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 *{box-sizing:border-box}
@@ -16,7 +16,12 @@
 :root[data-theme="dark"]{--bg:#161515;--box:#2b2929;--text:#ece9e9;--line:rgba(255,255,255,.18);color-scheme:dark}
 html{scroll-padding-top:env(safe-area-inset-top,0px)}
 body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
-main{max-width:640px;margin:0 auto;padding:16px 14px 110px}
+@font-face{font-family:"bolobolu";src:url("bolobolu-Regular.otf") format("opentype"),url("bolobolu-Regular.ttf") format("truetype");font-display:swap}
+main{width:100%;max-width:600px;margin:0 auto;padding:92px 14px 110px}
+#logo{position:fixed;top:calc(8px + env(safe-area-inset-top,0px));left:50%;transform:translateX(-50%);z-index:15;pointer-events:none}
+#logo a{display:block;width:190px;height:76px;color:var(--text);pointer-events:auto;transition:opacity .25s ease,transform .25s ease}
+#logo svg{display:block}
+#logo text{font-family:"bolobolu",Impact,"Arial Black",sans-serif;font-size:34px;fill:var(--text)}
 h1{font-size:calc(1.3rem + 5px);margin:8px 0 16px}
 hr.div{border:0;height:1px;background:var(--line);margin:26px 3px 6px}
 h2{font-size:.95rem;margin:22px 0 8px;opacity:.7;text-transform:uppercase;letter-spacing:.04em}
@@ -39,9 +44,17 @@ h2{font-size:.95rem;margin:22px 0 8px;opacity:.7;text-transform:uppercase;letter
 #menu .row .grip{flex:none;cursor:grab;touch-action:none;padding:6px 8px;font-size:1.1rem;opacity:.6;user-select:none}
 #menu .row.drag{position:relative;z-index:30;background:var(--bg);border-radius:10px;box-shadow:0 8px 22px rgba(0,0,0,.28)}
 #menu .edit{display:block;width:100%;margin-top:6px;padding:10px 12px;border:0;border-top:1px solid var(--box);background:none;text-align:left;font:inherit;font-size:.85rem;opacity:.75;cursor:pointer;color:var(--text)}
+@media (min-width:900px){
+#logo{left:calc(50% - 430px);transform:none}
+main{margin-left:calc(50% - 170px);margin-right:0;padding-top:20px;border-left:1px solid var(--line);border-right:1px solid var(--line);min-height:100vh}
+#ball{display:none}
+#menu{display:block;position:fixed;left:calc(50% - 430px);top:110px;bottom:auto;width:240px;min-width:0;background:none;border:0;box-shadow:none;padding:0}
+#menu a,#menu .edit{font-size:1.05rem}
+}
 </style>
 </head>
 <body>
+<div id="logo"><a href="#koti" aria-label="SUCKMYNEWS, kotisivu"><svg viewBox="0 0 190 76" width="190" height="76"><text x="95" y="49" text-anchor="middle" textLength="176" lengthAdjust="spacingAndGlyphs">SUCKMYNEWS</text></svg></a></div>
 <main id="app"></main>
 <div id="fab"><div id="menu"></div><button id="ball" aria-label="Valikko">☰</button></div>
 <script>
@@ -77,7 +90,7 @@ function save(){try{localStorage.setItem("order",JSON.stringify(ORDER))}catch(e)
 var DRAFT=null,drag=null;
 function menu(k){var h='<a href="#koti" class="'+(!CATS[k]?'on':'')+'">Koti</a>';
 (EDIT?DRAFT:ORDER).forEach(function(c){h+=EDIT?'<div class="row" data-c="'+c+'"><span class="grip" aria-label="Vedä siirtääksesi">⠿</span><span>'+CATS[c]+'</span></div>':'<a href="#'+c+'" class="'+(c===k?'on':'')+'">'+CATS[c]+'</a>'});
-return h+'<button class="edit" id="dysbtn">'+(DYS?"Lukihäiriötila: päällä":"Lukihäiriötila: pois")+'</button><button class="edit" id="themebtn">'+(THEME==="dark"?"Vaalea teema":"Tumma teema")+'</button><button class="edit" id="editbtn">'+(EDIT?'Valmis':'Muokkaa järjestystä')+'</button>'}
+return h+'<a href="prototyyppi.html" target="_blank" rel="noopener">Prototyyppi: lisää kategoria ↗</a><button class="edit" id="dysbtn">'+(DYS?"Lukihäiriötila: päällä":"Lukihäiriötila: pois")+'</button><button class="edit" id="themebtn">'+(THEME==="dark"?"Vaalea teema":"Tumma teema")+'</button><button class="edit" id="editbtn">'+(EDIT?'Valmis':'Muokkaa järjestystä')+'</button>'}
 function route(keep){var k=(location.hash||"#koti").slice(1);
 document.getElementById('app').innerHTML=CATS[k]?cat(k):home();
 document.getElementById('menu').innerHTML=menu(k);
@@ -98,6 +111,9 @@ function endDrag(){if(!drag)return;drag.style.transform='';drag.classList.remove
 M.addEventListener('pointerup',endDrag);M.addEventListener('pointercancel',endDrag);
 document.addEventListener('pointerdown',function(e){if(drag||document.getElementById('fab').contains(e.target))return;M.classList.remove('open');if(EDIT){EDIT=false;route(true)}});
 document.getElementById('ball').onclick=function(){document.getElementById('menu').classList.toggle('open')};
+var LG=document.querySelector('#logo a');
+function fade(){var p=Math.min(Math.max(window.scrollY/160,0),1);LG.style.opacity=1-p;LG.style.transform='translateY('+(-p*36)+'px)';LG.style.pointerEvents=p>.9?'none':'auto'}
+window.addEventListener('scroll',fade,{passive:true});fade();
 window.addEventListener('hashchange',route);load().then(route).catch(function(){document.getElementById('app').textContent='Uutisten lataus epäonnistui.'});
 </script>
 </body>
