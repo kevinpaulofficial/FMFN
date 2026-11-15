@@ -35,7 +35,7 @@ var H=3600000,D=86400000,T=Date.UTC(2026,10,15,8,0,0);
 var CATS={suomi:"Suomen uutiset",jalkapallo:"Jalkapallo",teknologia:"Teknologia",maailma:"Maailman uutiset",musiikki:"Musiikki"};
 var DATA={};
 function two(t){var m=(t||"").match(/[^.!?]+[.!?]+/g);return m?m.slice(0,2).join(" ").trim():(t||"")}
-function load(){return fetch("news.json?"+Date.now()).then(function(r){return r.json()}).then(function(j){Object.keys(CATS).forEach(function(k){DATA[k]=(j[k]||[]).map(function(x){return{t:x.title,s:two(x.description),u:x.link,p:Date.parse(x.published)||Date.now(),imp:false,who:"",img:x.image}})})})}
+function load(){return fetch("news.json?"+Date.now()).then(function(r){return r.json()}).then(function(j){Object.keys(CATS).forEach(function(k){DATA[k]=(j[k]||[]).map(function(x){return{t:x.title,s:two(x.description),u:x.link,p:Date.parse(x.published)||Date.now(),imp:!!x.important,who:"",img:x.image}})})})}
 function age(p){var s=Math.max(0,Math.floor((Date.now()-p)/1000));
 if(s<60)return s+"s";if(s<3600)return Math.floor(s/60)+"m";if(s<86400)return Math.floor(s/3600)+"h";return Math.floor(s/86400)+"d"}
 var ICON={suomi:"🇫🇮",jalkapallo:"⚽",teknologia:"💻",maailma:"🌍",musiikki:"🎵"};
