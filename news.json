@@ -1,132 +1,177 @@
 {
  "suomi": [
   {
-   "title": "Sudenmetsästys | Suomen susilaumoja aiotaan hävittää kyseenalaisin perustein",
-   "link": "https://www.hs.fi/nakemys/art-2000012410748.html",
-   "published": "2026-11-15T17:15:00+00:00",
-   "description": "Sudenmetsästykselle esitettyjen perustelujen taso on selvästi laskenut, ja se voi pitkällä aikavälillä romahduttaa koko Suomen susikannan.",
+   "title": "Jääkiekko | IIHF päätti: Venäjä ulos nuorten MM-kisoista",
+   "link": "https://www.hs.fi/urheilu/art-2000012414204.html",
+   "published": "2026-11-15T17:53:00+00:00",
+   "description": "IIHF tiedottaa asiasta sunnuntai-iltana.",
+   "image": "https://images.sanoma-sndp.fi/871c2cd213acd19c766faec1a3eb993e/normal/1440.jpg",
+   "important": true,
+   "hot": true
+  },
+  {
+   "title": "Venäjä ulos jääkiekon nuorten MM-kisoista",
+   "link": "https://yle.fi/a/74-20257101?origin=rss",
+   "published": "2026-11-15T17:52:57+00:00",
+   "description": "Kansainvälinen jääkiekkoliitto paljasti merkittävän tiedon.",
+   "image": null,
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Miksi Suomessa marssii satoja tai tuhansia, kun muualla Euroopassa kaduille lähtee satojatuhansia?",
+   "link": "https://yle.fi/a/74-20257087?origin=rss",
+   "published": "2026-11-15T17:51:41+00:00",
+   "description": "Poliittisen sosiologian tutkijan Georg Boldtin mukaan yhteisöjen merkitys on Suomessa vähentynyt.",
    "image": null,
    "important": false,
    "hot": false
   },
   {
-   "title": "Erik Tammenpää, 27, lopetti jääkiekon juuri, kun alkoi olla hyvä – nyt hänellä on hurja unelma",
-   "link": "https://www.is.fi/esports/art-2000012359319.html",
-   "published": "2026-11-15T17:14:00+00:00",
-   "description": "Erik Tammenpää voitti 19-vuotiaana NHL-videopelin maailmanmestaruuden. Nyt vuosia myöhemmin hän yrittää toteuttaa vanhan unelmansa oikeassa jääkiekossa. Välissä vakava sairastelu vei häneltä kyvyn urheilla kolmeksi vuodeksi.",
-   "image": "https://images.sanoma-sndp.fi/da583a613584cccfa04c5024410480f1/normal/1440.jpg",
+   "title": "Venäjä ulos nuorten MM-kisoista",
+   "link": "https://www.is.fi/jaakiekko/art-2000012414194.html",
+   "published": "2026-11-15T17:49:00+00:00",
+   "description": "IIHF tiedottaa asiasta.",
+   "image": "https://images.sanoma-sndp.fi/871c2cd213acd19c766faec1a3eb993e/normal/1440.jpg",
    "important": false,
-   "hot": false
-  },
-  {
-   "title": "Konserttiarvostelu | Isac Elliotista tuli isä, ja se näkyi myös Nokia-areenan lavalla",
-   "link": "https://www.hs.fi/popkulttuuri/art-2000012386089.html",
-   "published": "2026-11-15T17:13:00+00:00",
-   "description": "Isac Elliot paljasti lauantaina esiintyvänsä Helsingin olympiastadionilla ensi vuoden elokuussa.",
-   "image": "https://images.sanoma-sndp.fi/87333775705f19411bad581372cbfdbf/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Sara ja Mikko Parikka muuttivat uuteen kotiin – tästä toiveesta piti tinkiä",
-   "link": "https://www.is.fi/viihde/art-2000012414086.html",
-   "published": "2026-11-15T17:13:00+00:00",
-   "description": "Sara Parikka kertoo, millaiseen kotiin on perheineen muuttanut.",
-   "image": "https://images.sanoma-sndp.fi/fba111c33ac6d60deb685ddf088b89f5/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Jalkapallo | Suomi siirtyi heti johtoon San Marinoa vastaan",
-   "link": "https://www.hs.fi/urheilu/art-2000012413990.html",
-   "published": "2026-11-15T17:10:00+00:00",
-   "description": "HS seuraa Huuhkajien kamppailua piskuista San Marinoa vastaan.",
-   "image": "https://images.sanoma-sndp.fi/dab6f56ce44eff2a5ad7d55594fd5f6a/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Unelma-alku! Huuhkajat heti johtoon",
-   "link": "https://www.is.fi/huuhkajat/art-2000012413963.html",
-   "published": "2026-11-15T17:10:00+00:00",
-   "description": "IS seuraa Huuhkajien kamppailua piskuista San Marinoa vastaan.",
-   "image": "https://images.sanoma-sndp.fi/dab6f56ce44eff2a5ad7d55594fd5f6a/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Naton huippukokous perutaan – karu syy",
-   "link": "https://www.is.fi/ulkomaat/art-2000012414109.html",
-   "published": "2026-11-15T17:06:00+00:00",
-   "description": "Huippukokous oli tarkoitus järjestää Albanian Tiranassa.",
-   "image": "https://images.sanoma-sndp.fi/9a845c5ce36acd0b0747035011449ea2/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Isku drooniyritykseen | Viro aikoo sulkea Venäjän-vastaisen rajansa",
-   "link": "https://www.hs.fi/alueet/art-2000012413742.html",
-   "published": "2026-11-15T17:05:00+00:00",
-   "description": "Viron suojelupoliisin johtajan Margo Pallosonin mukaan tuhopolttoyritys oli Venäjän sotilastiedustelupalvelu GRU:n koordinoima.",
-   "image": "https://images.sanoma-sndp.fi/ad361253ed41bc46b5048445ec8ca7c6/normal/1440.jpg",
-   "important": true,
    "hot": true
   },
   {
-   "title": "Minja Koskela hämmästyi Antti Häkkäsen vaatimuksesta",
-   "link": "https://www.is.fi/politiikka/art-2000012413973.html",
-   "published": "2026-11-15T17:03:00+00:00",
-   "description": "Häkkänen sanoi Ylelle, että puolustusmenoista olisi parempi keskustella vaalien alla kulisseissa.",
-   "image": "https://images.sanoma-sndp.fi/d21bb3f53d2f229ddb938577fc75a9cd/normal/1440.jpg",
+   "title": "Milloin kannattaa aloittaa lintujen talviruokinta? Biologi kertoo kaiken olennaisen",
+   "link": "https://yle.fi/a/74-20256126?origin=rss",
+   "published": "2026-11-15T17:48:03+00:00",
+   "description": "Lintututkija Vesa Hyyryläinen tarjoaa kotipihallaan linnuille siemeniä, viljaa ja rasvaa. Tärkein neuvo on jatkaa aloitettua ruokintaa kevääseen asti.",
+   "image": null,
    "important": false,
    "hot": false
   },
   {
-   "title": "Ilvekseltä hurja kiinnitys SM-liigassa",
-   "link": "https://www.is.fi/sm-liiga/art-2000012413753.html",
-   "published": "2026-11-15T17:01:00+00:00",
-   "description": "Ilves sai pidettyä kiinni kanadalaisesta tähtipelaajastaan.",
-   "image": "https://images.sanoma-sndp.fi/5578cb1e858875b3184d8e07e9bc00d9/normal/1440.jpg",
+   "title": "Asiantuntija Viron toimista: \"Raja voidaan aidata taivaaseen saakka, uhkat eivät poistu\"",
+   "link": "https://www.mtvuutiset.fi/artikkeli/asiantuntija-viron-toimista-raja-voidaan-aidata-taivaaseen-saakka-uhkat-eivat-poistu/9421586",
+   "published": "2026-11-15T17:43:06+00:00",
+   "description": "Asiantuntijan mielestä Viron päätös sulkea raja on oikeansuuntainen, mutta riittämätön toimi.",
+   "image": "https://api.mtvuutiset.fi/graphql/caas/v1/media/9421608/data/5ded333f60d7379605386cda69fd4b3b/landscape16_9/1024/laine.png",
    "important": false,
    "hot": false
   },
   {
-   "title": "Muoti | Yksi Linnan juhlien puku teki Aura Ritolasta halutun suunnittelijan",
-   "link": "https://www.hs.fi/popkulttuuri/art-2000012337277.html",
-   "published": "2026-11-15T17:00:00+00:00",
-   "description": "Muotisuunnittelija ja ompelija Aura Ritolan asuissa korsetit edustavat naisellista voimaa, eivät sortoa.",
-   "image": "https://images.sanoma-sndp.fi/25db2ec1a457bab18ab8db1959a26b62/normal/1440.jpg",
+   "title": "Droonitehdas yritettiin räjäyttää Virossa – nyt Latviassa tehtiin hurja löytö",
+   "link": "https://www.is.fi/ulkomaat/art-2000012414175.html",
+   "published": "2026-11-15T17:40:00+00:00",
+   "description": "Latvian turvallisuuspalvelu teki kotietsintöjä yhdeksässä paikassa. Viranomaisten mukaan Venäjä värvää yhä enemmän ulkomaiden kansalaisia toteuttamaan sabotaasi-iskuja.",
+   "image": "https://images.sanoma-sndp.fi/fea9b3367218fa26bd5da6e843a7ad33/normal/1440.jpg",
    "important": false,
    "hot": false
   },
   {
-   "title": "Natalee, 18, katosi lomamatkalla – kammottava tunnustus tuli julki",
-   "link": "https://www.is.fi/tv-ja-elokuvat/art-2000012393497.html",
-   "published": "2026-11-15T17:00:00+00:00",
-   "description": "Natalee Holloway katosi lomamatkalla Aruballa vuonna 2005. Hänen katoamistaan käsitellään Netflixin uudessa dokumenttisarjassa Taken: Natalee Holloway.",
-   "image": "https://images.sanoma-sndp.fi/38f82a6068d05f6792a258a434f08d0f/normal/1440.jpg",
+   "title": "Jalkapallo | Suomi ryöpyttää San Marinoa Helsingissä",
+   "link": "https://www.hs.fi/urheilu/art-2000012413990.html",
+   "published": "2026-11-15T17:39:00+00:00",
+   "description": "HS seuraa Huuhkajien kamppailua piskuista San Marinoa vastaan.",
+   "image": "https://images.sanoma-sndp.fi/be3662a36cd1a97ef6b4da45c6184e4d/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Rajua ryöpytystä! Huuhkajat ei anna armoa – yksi shokkihetki San Marinoa vastaan",
+   "link": "https://www.is.fi/huuhkajat/art-2000012413963.html",
+   "published": "2026-11-15T17:38:00+00:00",
+   "description": "IS seuraa Huuhkajien kamppailua piskuista San Marinoa vastaan.",
+   "image": "https://images.sanoma-sndp.fi/be3662a36cd1a97ef6b4da45c6184e4d/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Luitko käyttöohjeen? Voit rikkoa kalliit silmälasisi parin­kympin laitteella",
+   "link": "https://www.is.fi/digitoday/art-2000012403593.html",
+   "published": "2026-11-15T17:34:00+00:00",
+   "description": "Puhdistustapaan liittyy riskejä etenkin tietyissä tilanteissa.",
+   "image": "https://images.sanoma-sndp.fi/c4e9cb6cd9937ec18b58837f210503e4/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Sadat tuhannet tshekit vyöryivät Prahan kaduille – ”Todistamme tänään täällä jotakin poikkeuksellista”",
+   "link": "https://www.is.fi/ulkomaat/art-2000012414066.html",
+   "published": "2026-11-15T17:33:00+00:00",
+   "description": "Mielenosoittajat vaativat Tshekin hallitusta perääntymään suunnitelmasta, jota on verrattu Unkarin ex-pääministerin Viktor Orbanin toimiin median kontrolloimiseksi.",
+   "image": "https://images.sanoma-sndp.fi/0620abf2fbd835f1d63bceff8e4b5c8c/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Alppihiihto | Brasilian supertähti ylisti suomalais­faneja ja nimesi palkintoporon isoäitinsä mukaan",
+   "link": "https://www.hs.fi/urheilu/art-2000012413909.html",
+   "published": "2026-11-15T17:32:00+00:00",
+   "description": "Brasilialainen Lucas Pinheiro Braathen otti toisen peräkkäisen voittonsa Levin maailmancupissa.",
+   "image": "https://images.sanoma-sndp.fi/8a7d302394d6ca7170486bdfeaad15a1/normal/1440.jpg",
    "important": false,
    "hot": false
   }
  ],
  "jalkapallo": [
   {
+   "title": "Spain vs England build-up LIVE!",
+   "link": "https://www.skysports.com/football/spain-vs-england/live/554117",
+   "published": "2026-11-15T17:45:00+00:00",
+   "description": "",
+   "image": "https://e0.365dm.com/26/09/1920x1080/skysports-kane-harry-england_7362124.jpg?20260926210443",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Arsenal v London City Lionesses: Women’s Super League – live",
+   "link": "https://www.theguardian.com/football/live/2026/nov/15/arsenal-v-london-city-lionesses-womens-super-league-live",
+   "published": "2026-11-15T17:44:21+00:00",
+   "description": "Updates from 4.30pm (GMT) kick-off at the Emirates StadiumGet in touch: email John and follow us on BlueSkyCharles Antaki gets in touch: “Renee Slegers under pressure indeed. Arsenal’s form this season has been nothing short of alarming, and there is a distinct danger of failing to qualify for next year’s women’s Champions League. For the moment, for stability’s sake, better that Renee should stay",
+   "image": "https://i.guim.co.uk/img/media/4e062c72884593f8a099f1bcd50e4a58025887ac/244_0_4060_3248/master/4060.jpg?width=140&quality=85&auto=format&fit=max&s=284e88895f49fffe4a5149a929e1ad2b",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "NFL: Lions thump Patriots in Munich on St Brown's German homecoming",
+   "link": "https://www.skysports.com/nfl/news/12040/13612478/nfl-detorit-lions-thump-new-england-patriots-in-germany-after-drake-maye-injury-as-amon-ra-st-brown-and-jahmyr-gibbs-star",
+   "published": "2026-11-15T17:38:00+00:00",
+   "description": "Jahmyr Gibbs was unstoppable and Amon-Ra St Brown starred on his German homecoming as the Detroit Lions torched the Drake Maye-less New England Patriots 35-10 at the Allianz Arena in Munich on Sunday.",
+   "image": "https://e0.365dm.com/26/11/1920x1080/skysports-detroit-lions-nfl_7407182.jpg?20261115172807",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "AS FAR retain Women's African Champions League title",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ckdd10v6vqjpo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-15T17:23:45+00:00",
+   "description": "Imane Touriss scores twice as Moroccan club AS FAR beat Mamelodi Sundowns 3-1 to retain the Women's African Champions League title.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b7e6/live/8463b3a0-e117-11f1-a7db-d90284d21c62.jpg",
+   "important": true,
+   "hot": true
+  },
+  {
+   "title": "AS FAR retain Women's African Champions League title",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ckdd10v6vqjpo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-15T17:23:45+00:00",
+   "description": "Imane Touriss scores twice as Moroccan club AS FAR beat Mamelodi Sundowns 3-1 to retain the Women's African Champions League title.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b7e6/live/8463b3a0-e117-11f1-a7db-d90284d21c62.jpg",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Fisher wants fight with AJ dangerman Prenga early next year",
+   "link": "https://www.skysports.com/boxing/news/12040/13612527/johnny-fisher-wants-to-fight-kristian-prenga-the-man-who-almost-derailed-tyson-fury-vs-anthony-joshua-early-next-year",
+   "published": "2026-11-15T17:12:00+00:00",
+   "description": "Johnny Fisher is looking to return to action early in 2027 and wants to fight Kristian Prenga, the man who almost derailed the Tyson Fury vs Anthony Joshua mega-fight.",
+   "image": "https://e1.365dm.com/26/09/1920x1080/skysports-johnny-fisher-michael-pirotton_7360947.jpg?20260925103032",
+   "important": false,
+   "hot": false
+  },
+  {
    "title": "Chapecoense crash survivor wins promotion in final game",
    "link": "https://www.bbc.co.uk/sport/football/articles/ckp8017p1e3go?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-15T17:10:24+00:00",
    "description": "Alan Ruschel, one of six survivors in the 2016 plane crash that was carrying members of the Chapecoense team, wins promotion to Brazil‘s Serie A in his final match before retiring.",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/306d/live/586b44a0-e10f-11f1-b3df-4961589d9b68.jpg",
-   "important": true,
-   "hot": false
-  },
-  {
-   "title": "Arsenal v London City Lionesses: Women’s Super League – live",
-   "link": "https://www.theguardian.com/football/live/2026/nov/15/arsenal-v-london-city-lionesses-womens-super-league-live",
-   "published": "2026-11-15T16:59:58+00:00",
-   "description": "Updates from 4.30pm (GMT) kick-off at the Emirates StadiumGet in touch: email John and follow us on BlueSkyCharles Antaki gets in touch: “Renee Slegers under pressure indeed. Arsenal’s form this season has been nothing short of alarming, and there is a distinct danger of failing to qualify for next year’s women’s Champions League. For the moment, for stability’s sake, better that Renee should stay",
-   "image": "https://i.guim.co.uk/img/media/ec30227afed8a199e55a5e72df43b74aa7203465/183_0_4260_3408/master/4260.jpg?width=140&quality=85&auto=format&fit=max&s=73e205a54026d4e31f404124f1bbd228",
    "important": false,
-   "hot": true
+   "hot": false
   },
   {
    "title": "London City Lionesses hit back minutes after Arsenal take the lead!",
@@ -147,7 +192,7 @@
    "hot": false
   },
   {
-   "title": "Zverev begins ATP Finals with straight sets victory over Jodar",
+   "title": "Zverev begins ATP Finals with straight-sets victory over Jodar",
    "link": "https://www.skysports.com/tennis/news/12040/13612522/atp-finals-world-no-1-alexander-zverev-begins-campaign-with-convincing-straight-sets-victory-over-rafael-jodar",
    "published": "2026-11-15T16:37:00+00:00",
    "description": "Alexander Zverev began his ATP Finals campaign with a 6-4 6-4 victory over rising star Rafael Jodar, who was competing in the event for the first time.",
@@ -170,51 +215,6 @@
    "published": "2026-11-15T16:09:00+00:00",
    "description": "Andrew Gilding punished Charlie Manby's wayward finishing to win their Grand Slam match on the bullseye after averaging barely over 81.",
    "image": "https://e0.365dm.com/26/11/1920x1080/skysports-andrew-gilding-finish_7407142.jpg?20261115162405",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Why Northern Ireland won't focus on point they need in Hungary",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cm1ew79gnxnxo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T16:04:45+00:00",
-   "description": "A draw in Hungary on Tuesday would secure Nations League promotion for Northern Ireland, but they are targeting all three points in Budapest.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/53e4/live/2360fe80-e0ce-11f1-9e51-e12509ba597c.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "DP World Tour announce date to confirm plans over invites to ex-LIV golfers",
-   "link": "https://www.skysports.com/golf/news/12040/13612501/dp-world-tour-chief-executive-explains-why-including-ex-liv-golf-members-in-2027-is-huge-opportunity-to-strengthen-events",
-   "published": "2026-11-15T16:00:00+00:00",
-   "description": "DP World Tour chief executive Guy Kinnings insists welcoming LIV Golfers back as part of their tournaments is a &#8216;huge opportunity&#8217; to strengthen its events next season.",
-   "image": "https://e0.365dm.com/26/11/1920x1080/skysports-guy-kinnings-golf_7407144.jpg?20261115163148",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "You are Scotland boss Pocognoli - what would you do?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cklyw2qzzd44o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T15:58:56+00:00",
-   "description": "Put yourself in the shoes of Scotland head coach Sebastien Pocognoli as he picks his starting XI for the visit to Switzerland.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78b7/live/86435770-b746-11f1-8846-e70401199dae.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Saves at either end as Arsenal and London City hunt for next goal LIVE!",
-   "link": "https://www.skysports.com/football/arsenal-women-vs-london-city-lionesses/live/575818",
-   "published": "2026-11-15T15:20:00+00:00",
-   "description": "",
-   "image": "https://e0.365dm.com/26/11/1920x1080/skysports-isobel-goodwin-wsl_7407159.jpg?20261115164910",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Hatton targets Ryder Cup return and majors after Dubai victory",
-   "link": "https://www.skysports.com/golf/news/12040/13612487/tyrrell-hatton-targets-ryder-cup-return-for-team-europe-and-major-breakthrough-after-dp-world-tour-championship-win",
-   "published": "2026-11-15T15:00:00+00:00",
-   "description": "Tyrrell Hatton has set his sights on a Ryder Cup return and challenging for majors next season after storming to a five-shot victory at the DP World Tour Championship.",
-   "image": "https://e1.365dm.com/26/11/1920x1080/skysports-tyrrell-hatton-golf_7407060.jpg?20261115145449",
    "important": false,
    "hot": false
   }
@@ -331,12 +331,66 @@
  ],
  "maailma": [
   {
-   "title": "‘No such thing as a free lunch,’ says Milburn as he warns it will take a decade for UK benefits bill to come down",
+   "title": "Nearly 1,500 migrants reach Spain’s Canary Islands in one day",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/nearly-1500-migrants-reach-spains-canary-islands-in-one-day?traffic_source=rss",
+   "published": "2026-11-15T17:39:23+00:00",
+   "description": "Nearly 1,500 migrants reach Spain’s Canary Islands in one day",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Iran launches drone attacks against US military base in Bahrain",
+   "link": "https://www.theguardian.com/world/2026/nov/15/iran-launches-drone-attacks-against-us-military-base-in-bahrain",
+   "published": "2026-11-15T17:36:09+00:00",
+   "description": "Strikes cast further doubt on peace talks between Tehran and Washington with increasing risk of escalation Iran has launched drone attacks against a US military base in Bahrain, casting further doubt on peace talks between Tehran and Washington and raising the spectre of escalation.Blasts sounded over the Gulf nation on Sunday in the second Iranian drone attack in three days in retaliation for US ",
+   "image": "https://i.guim.co.uk/img/media/8639b2a492926c5d0ccbdbab7179b3d592cdb751/0_37_1091_873/master/1091.jpg?width=140&quality=85&auto=format&fit=max&s=578cbc0307286c00098fc0760a78406b",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Morocco becomes first Arab nation in FIFA’s top five men’s rankings",
+   "link": "https://www.aljazeera.com/sports/2026/11/15/morocco-becomes-first-arab-nation-in-fifas-top-five-mens-rankings?traffic_source=rss",
+   "published": "2026-11-15T17:33:03+00:00",
+   "description": "Morocco moved past former Euro champions Portugal and record World Cup winners Brazil to achieve its best FIFA ranking.",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Yemeni government forces redeploy from Bab al-Mandeb to defend Aden",
+   "link": "https://www.aljazeera.com/news/2026/11/15/yemeni-government-forces-redeploy-from-bab-al-mandeb-to-defend-aden?traffic_source=rss",
+   "published": "2026-11-15T17:33:00+00:00",
+   "description": "Spokesman for the Southern Armed Forces says group is repositioning from Dhubab airport and areas around Bab al-Mandeb.",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "The hidden costs of the US AI boom",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/the-hidden-costs-of-the-us-ai-boom?traffic_source=rss",
+   "published": "2026-11-15T17:24:59+00:00",
+   "description": "The hidden costs of the US AI boom",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Czechs rally against plan to switch funding of public media",
+   "link": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-15T17:23:40+00:00",
+   "description": "Protesters say the move will stifle media freedom, while the government insists broadcasters need to cut costs.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6233/live/1841dbb0-e118-11f1-a7db-d90284d21c62.jpg",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Burnham pledges early intervention and ‘benefits backstop’ to tackle youth jobs crisis",
    "link": "https://www.theguardian.com/society/2026/nov/15/no-free-lunch-milburn-mcfadden-kuenssberg-uk-benefits-youth-unemployment-neet",
    "published": "2026-11-15T17:04:55+00:00",
-   "description": "Author of major review into youth unemployment rejects ‘crude cuts’ to payments and downplays opposition to his proposals within LabourAndy Burnham has pledged to intervene as early as childhood to tackle youth unemployment before a watershed review, promising “a root-and-branch rethink of how we support childhood in the modern world”.Burnham said the government would intervene at all the stages o",
-   "image": "https://i.guim.co.uk/img/media/c641e402d808f00f61489b84a29a01069fdf14bf/732_0_3668_2934/master/3668.jpg?width=140&quality=85&auto=format&fit=max&s=aded45acaa33a2eb854ceafca8e9fd05",
-   "important": true,
+   "description": "Prime minister promises ‘root-and-branch rethink’ of support for young people as Milburn report advises sweeping changes to some benefitsAndy Burnham: The crisis facing Britain’s young people is politicians’ fault. To fix it, we need a generational responseAndy Burnham has pledged to intervene as early as childhood to tackle youth unemployment before a watershed review, promising “a root-and-branc",
+   "image": "https://i.guim.co.uk/img/media/b9948bd228b02aa56a0356f2a3f2713b85d83833/290_0_4473_3579/master/4473.jpg?width=140&quality=85&auto=format&fit=max&s=ac37a8f6dd0b557e724874bc86532ce8",
+   "important": false,
    "hot": false
   },
   {
@@ -358,10 +412,10 @@
    "hot": false
   },
   {
-   "title": "LIVE: Spain vs England – UEFA Nations League",
+   "title": "Spain vs England live: UEFA Nations League",
    "link": "https://www.aljazeera.com/sports/liveblog/2026/11/15/live-spain-vs-england-uefa-nations-league?traffic_source=rss",
    "published": "2026-11-15T16:45:00+00:00",
-   "description": "Previews, team news and live text commentary as England and Spain vie for top spot in final Nations League group game.",
+   "description": "Team news , score and live text commentary as England and Spain vie for top spot in final Nations League group game.",
    "image": null,
    "important": false,
    "hot": false
@@ -376,15 +430,6 @@
    "hot": true
   },
   {
-   "title": "Czechs rally against plan to switch funding of public media",
-   "link": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T16:36:42+00:00",
-   "description": "Protesters say the move will stifle media freedom, while the coalition government insists broadcasters need to cut costs.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d10d/live/fe22eed0-e10e-11f1-b441-2b33b063138f.jpg",
-   "important": false,
-   "hot": true
-  },
-  {
    "title": "Thousands rally in Czech Republic against state media funding changes",
    "link": "https://www.aljazeera.com/news/2026/11/15/thousands-rally-in-czech-republic-against-state-media-funding-changes?traffic_source=rss",
    "published": "2026-11-15T16:32:22+00:00",
@@ -392,54 +437,36 @@
    "image": null,
    "important": false,
    "hot": true
-  },
-  {
-   "title": "Transportation secretary Sean Duffy blames prior presidents and Congress for flight stoppage",
-   "link": "https://www.theguardian.com/us-news/2026/nov/15/transportation-secretary-sean-duffy-faa-flight-stoppag",
-   "published": "2026-11-15T16:18:49+00:00",
-   "description": "Democratic senator Chris Van Hollen says Trump administration hasn’t properly invested existing fundsDonald Trump’s administration on Sunday blamed the travel chaos stemming from Friday’s four-hour nationwide flight stoppage on prior presidents as well as a lack of congressional funding – though a Democratic senator argued that the Trump administration hasn’t properly invested all of the funds it ",
-   "image": "https://i.guim.co.uk/img/media/a09839dd38148bdd17475e10c93caf952fd6b7f0/557_0_6663_5330/master/6663.jpg?width=140&quality=85&auto=format&fit=max&s=625834678800cdf432db16929672492d",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "British tourist smashes Jesus statue outside Vilnius church",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/british-tourist-smashes-jesus-statue-outside-vilnius-church?traffic_source=rss",
-   "published": "2026-11-15T16:04:22+00:00",
-   "description": "A man removed a statue of the crucified Jesus from a church in Vilnius and it smashed to the ground.",
-   "image": null,
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Saudi Arabia, Qatar, Jordan, Egypt condemn Iranian attack on Bahrain - as it happened",
-   "link": "https://www.theguardian.com/world/live/2026/nov/15/middle-east-crisis-live-iran-bahrain-strikes-gulf-donald-trump-us-israel-yemen-houthis",
-   "published": "2026-11-15T15:59:04+00:00",
-   "description": "Iran has targeted airbase in Bahrain in latest resumption of strikes since septemberThe state-run Bahrain news agency is also carrying the statements of each country in the region responding to Iran’s actions targeting their Gulf neighbour this morning.Jordan, Egypt, Saudi Arabia, and Qatar have all strongly condemned the attack and expressed solidarity with Bahrain.The Kingdom affirms that the Ir",
-   "image": "https://i.guim.co.uk/img/media/8639b2a492926c5d0ccbdbab7179b3d592cdb751/0_37_1091_873/master/1091.jpg?width=140&quality=85&auto=format&fit=max&s=578cbc0307286c00098fc0760a78406b",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Judge blocks Trump closure of 'Trash Island' Washington DC golf course on Sunday",
-   "link": "https://www.bbc.co.uk/news/articles/c6j9mn7l14y0o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T15:57:03+00:00",
-   "description": "The temporary order is part of a months-long challenge to the US president's plans to upgrade East Potomac Golf Links into a championship course.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4be0/live/054b94d0-e09e-11f1-a701-fddedf244c16.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Two planes collide on taxiway at Miami airport one day after national grounding",
-   "link": "https://www.theguardian.com/us-news/2026/nov/15/miami-airport-planes-collide",
-   "published": "2026-11-15T15:40:04+00:00",
-   "description": "Two people injured after wingtip of Copa Airlines Boeing 737 struck nose of United Parcel Service Boeing 767Two planes collided with one another on a taxiway at Miami’s international airport on Saturday night – a day after the Federal Aviation Administration (FAA) issued an hours-long nationwide ground stop due to communication issues affecting multiple air traffic control centers.In a statement, ",
-   "image": "https://i.guim.co.uk/img/media/2268d8ddd3bcce1ac57e4531e97ad0d576a953b9/386_0_2367_1893/master/2367.jpg?width=140&quality=85&auto=format&fit=max&s=4b04d24e85d7e5b7e7d675f05f6e24b8",
-   "important": false,
-   "hot": false
   }
  ],
  "musiikki": [
+  {
+   "title": "Iron Maidenille tehtiin kunniaa Rock and Roll Hall of Fame -gaalassa melkoisen kokoonpanon voimin",
+   "link": "https://www.soundi.fi/uutiset/iron-maidenille-tehtiin-kunniaa-rock-and-roll-hall-of-fame-gaalassa-melkoisen-kokoonpanon-voimin/",
+   "published": "2026-11-15T17:37:19+00:00",
+   "description": "Iron Maiden&#160;lisättiin viimein lauantaina Rock &#38; Roll Hall of Fameen Los Angelesin Peacock Theaterissa järjestetyssä seremoniassa. Yhtye ei kuitenkaan ollut paikalla vastaanottamassa kunnianosoitusta, sillä se esiintyi samaan aikaan Australiassa Run for Your Lives -kiertueen merkeissä. Iron Maidenille nostettiin kuitenkin gaalassa hattua esityksellä, jonka puitteissa lavalle nousi melkoine",
+   "image": null,
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Kommentti: Irlannin valmentajan kommentit tekosyiden hakua! Pikkuhuuhkajien aika järjestää pyllymyräkkä",
+   "link": "https://www.klangi.fi/uutiset/pikkuhuuhkajien-hiljennettava-irlanti/",
+   "published": "2026-11-15T17:21:39+00:00",
+   "description": "Pikkuhuuhkajien on käännettävä Irlannin päävalmentajan kommentit Tammelan stadionilla koetun tappion jälkeen edukseen, koska selvästi Irlannissa tappiolle on haettu tekosyitä. Harvoin\nArtikkeli Kommentti: Irlannin valmentajan kommentit tekosyiden hakua! Pikkuhuuhkajien aika järjestää pyllymyräkkä julkaistiin ensimmäisen kerran Klangi.",
+   "image": "https://www.klangi.fi/wp-content/uploads/2026/11/Mika-Lehkosuo-Pikkuhuuhkajat-AOP-2026-Klangi-1024x683.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Watch Wu-Tang Clan Perform at the Rock & Roll Hall of Fame 2026 Induction Ceremony",
+   "link": "https://pitchfork.com/story/watch-wu-tang-clan-perform-at-the-rock-and-roll-hall-of-fame-2026-induction-ceremony/",
+   "published": "2026-11-15T17:14:57+00:00",
+   "description": "RZA, GZA, Method Man, Raekwon, Ghostface Killah, and co. broke out the hits for the occasion",
+   "image": "https://media.pitchfork.com/photos/6af9e3fdc3ef3a8ed8a8ca8f/master/pass/GettyImages-2305179706.jpg",
+   "important": false,
+   "hot": true
+  },
   {
    "title": "U2 yllätti Rock and Roll Hall of Fame -gaalan yleisön – yhtyeen esiintymisestä ei hiiskuttu etukäteen",
    "link": "https://www.soundi.fi/uutiset/u2-yllatti-rock-and-roll-hall-of-fame-gaalan-yleison-yhtyeen-esiintymisesta-ei-hiiskuttu-etukateen/",
@@ -492,7 +519,7 @@
    "description": "The post Tyler, The Creator Performs Live Debuts And Rarities At Camp Flog Gnaw 2026 appeared first on Stereogum.",
    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/Screenshot-2026-11-15-at-2.43.25-PM.png?w=564",
    "important": false,
-   "hot": true
+   "hot": false
   },
   {
    "title": "Watch Travis Barker and Cynthia Erivo perform ‘In The Air Tonight’ as Phil Collins tells Rock & Roll Hall Of Fame: “You haven’t heard the last of me”",
@@ -518,33 +545,6 @@
    "published": "2026-11-15T13:57:27+00:00",
    "description": "Slayer&#160;esiintyi lauantaina 14. marraskuuta loppuunmyydyllä, 17 500 katsojaa vetävällä Kia Forumilla osana vuoden 1986&#160;Reign in Blood&#160;-albumin 40-vuotisjuhlakiertuetta. Yhtye oli ehtinyt soittaa ensimmäisen settinsä kahdeksanteen kappaleeseen asti, kun laulaja-basisti Tom Araya huomasi osan yleisöstä riehuvan siihen malliin, että keikkapaikalle alkoi syntyä vahinkoa. Araya keskeytti ",
    "image": null,
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Watch Red Hot Chili Peppers dress as Rick Rubin for Rock & Roll Hall Of Fame performance as he declares: “You can’t kill rock ‘n’ roll”",
-   "link": "https://www.nme.com/news/music/watch-red-hot-chili-peppers-dress-rick-rubin-rock-roll-hall-fame-performance-3975998",
-   "published": "2026-11-15T13:54:14+00:00",
-   "description": "Neil Young inducted the legendary producer, before the Chili Peppers paid tribute with a rendition of ‘Give It Away’\nThe post Watch Red Hot Chili Peppers dress as Rick Rubin for Rock &#038; Roll Hall Of Fame performance as he declares: &#8220;You can&#8217;t kill rock &#8216;n&#8217; roll&#8221; appeared first on NME.",
-   "image": null,
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Red Hot Chili Peppers Perform As Rick Rubins At Rock & Roll Hall Of Fame 2026",
-   "link": "https://stereogum.com/2518085/red-hot-chili-peppers-perform-as-rick-rubins-at-rock-roll-hall-of-fame-2026/news/",
-   "published": "2026-11-15T13:30:02+00:00",
-   "description": "The post Red Hot Chili Peppers Perform As Rick Rubins At Rock &amp; Roll Hall Of Fame 2026 appeared first on Stereogum.",
-   "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/GettyImages-2305181904.jpg?w=564",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Isac Elliot valloittaa Olympiastadionin ja tekee sen nuorempana kuin kukaan ennen häntä",
-   "link": "https://www.klangi.fi/uutiset/isac-elliot-olympiastadion-konsertti-liput/",
-   "published": "2026-11-15T13:16:33+00:00",
-   "description": "Ennätysvuoden keskellä artisti myöntää, ettei tiedä, kuinka kauan haluaa vielä jatkaa. Isac Elliot esiintyy Helsingin Olympiastadionilla lauantaina 28. elokuuta 2027.\nArtikkeli Isac Elliot valloittaa Olympiastadionin ja tekee sen nuorempana kuin kukaan ennen häntä julkaistiin ensimmäisen kerran Klangi.",
-   "image": "https://www.klangi.fi/wp-content/uploads/2026/11/Isac-Elliot-Olympiastadion-2026-Klangi-1024x683.jpg",
    "important": false,
    "hot": false
   }
