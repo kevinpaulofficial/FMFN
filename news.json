@@ -1,16 +1,52 @@
 {
  "suomi": [
   {
-   "title": "Vakoiluskandaali | FT: Jensen Huang harkitsee jo paluuta Nvidiaan",
+   "title": "Jalkapallo | Englanti katkaisi Espanjan 43 ottelun tappiottoman putken",
+   "link": "https://www.hs.fi/urheilu/art-2000012414507.html",
+   "published": "2026-11-15T21:54:00+00:00",
+   "description": "Espanja hävisi kilpailullisen ottelun varsinaisella peliajalla ensimmäistä kertaa sitten vuoden 2023.",
+   "image": "https://images.sanoma-sndp.fi/86069e138da4b8f22b9949edee689312/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Englannilta jymypaukku Kansojen liigassa! Tätä ei ole nähty pitkään aikaan",
+   "link": "https://www.is.fi/jalkapallo/art-2000012414494.html",
+   "published": "2026-11-15T21:50:00+00:00",
+   "description": "Espanja hävisi.",
+   "image": "https://images.sanoma-sndp.fi/86069e138da4b8f22b9949edee689312/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Poliisilla usean partion tehtävä Tampereella: \"Henkilöitä otettu kiinni\"",
+   "link": "https://www.mtvuutiset.fi/artikkeli/poliisilla-usean-partion-tehtava-tampereella-henkiloita-otettu-kiinni/9421668",
+   "published": "2026-11-15T21:43:38+00:00",
+   "description": "Poliisilla on ollut usean partion tehtävä Tampoereen Linnainmaalla.",
+   "image": "https://api.mtvuutiset.fi/graphql/caas/v1/media/9391400/data/82d4a0bfe36cd8b1665e26ce0c2e96b6/landscape16_9/1024/aop-112.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Poliisilla henkeen ja terveyteen kohdistuva tehtävä Tampereella",
+   "link": "https://www.is.fi/tampereen-seutu/art-2000012414498.html",
+   "published": "2026-11-15T21:39:00+00:00",
+   "description": "Poliisi on tehnyt kiinniottoja tapahtumiin liittyen.",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Vakoiluskandaali | FT: Jensen Huang harkitsee paluuta Nvidiaan, muut teknologia­miljardöörit tukevat",
    "link": "https://www.hs.fi/visio/art-2000012414440.html",
    "published": "2026-11-15T21:07:00+00:00",
-   "description": "Teknologiajättien johtajat ovat antaneet laajasti tukensa suhdekohuissa ryvettyneelle Huangille.",
+   "description": "Huang erosi torstaina siruyhtiö Nvidian toimitus­johtajan paikalta. Aiemmin paljastui, että Huangilla on ollut avioliiton ulkopuolinen suhde naiseen, jota epäillään Kiinan vakoojaksi.",
    "image": "https://images.sanoma-sndp.fi/f20ae5af47612adfb9d285207b271e40/normal/1440.jpg",
    "important": false,
    "hot": true
   },
   {
-   "title": "Trump julisti Iranin sodan voitetuksi – nyt liittolainen perääntyy tärkeästä öljy­salmesta",
+   "title": "Trump julisti Iranin sodan voitetuksi – nyt liittolainen perääntyy tärkeästä öljysalmesta",
    "link": "https://www.is.fi/ulkomaat/art-2000012414225.html",
    "published": "2026-11-15T21:00:00+00:00",
    "description": "Yhdysvaltain presidentti julisti jälleen viime keskiviikkona Iranin voitetuksi sodassa. Lähi-idästä kuuluu toisenlaista viestiä.",
@@ -71,51 +107,24 @@
    "image": "https://api.mtvuutiset.fi/graphql/caas/v1/media/8439962/data/7ac9ba9743647b87daaad3ea7840b05f/landscape16_9/1024/aop-kuokkalan-kirkko.jpg",
    "important": false,
    "hot": false
-  },
-  {
-   "title": "Jääkiekko | Suomi romahti MM-välierässä, pronssiottelussa vastaan Ruotsi",
-   "link": "https://www.hs.fi/urheilu/art-2000012413752.html",
-   "published": "2026-11-15T20:36:00+00:00",
-   "description": "Naisleijonat pelasi paikasta MM-finaaliin. HS seurasi hetki hetkeltä.",
-   "image": "https://images.sanoma-sndp.fi/b4cebc355fa7627828a9db16d1f5bcda/normal/1440.jpg",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Naisleijonat murskattiin MM-välierässä – pronssiottelussa vastaan Ruotsi",
-   "link": "https://www.is.fi/jaakiekko/art-2000012413693.html",
-   "published": "2026-11-15T20:36:00+00:00",
-   "description": "Naisleijonat pelasi paikasta MM-finaaliin. IS seurasi hetki hetkeltä.",
-   "image": "https://images.sanoma-sndp.fi/9f742d2b52cf5db8ec10eac452be6173/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Artturi Lehkosesta poikkeuksellista hehkutusta: ”Täydellinen”",
-   "link": "https://www.is.fi/nhl/art-2000012413407.html",
-   "published": "2026-11-15T20:34:00+00:00",
-   "description": "Artturi Lehkosen huippuvire kirvoitti kanadalaisilta NHL-asiantuntijoilta vuolaita kehuja.",
-   "image": "https://images.sanoma-sndp.fi/0f8fb0adad9145fc0eb822b99a534779/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Diplomaatti löi pöytään ”vaatimuksia” Venäjälle – tutkijalta karu arvio",
-   "link": "https://www.is.fi/ulkomaat/art-2000012413667.html",
-   "published": "2026-11-15T20:30:00+00:00",
-   "description": "Tutkija Joel Linnainmäki arvioi, että Venäjällä tuskin nykyisessä tilanteessa on minkäänlaisia intressejä suostua vaatimuksiin.",
-   "image": "https://images.sanoma-sndp.fi/17402a43050a9fb0039f3f59a1fa5318/normal/1440.jpg",
-   "important": false,
-   "hot": false
   }
  ],
  "jalkapallo": [
   {
+   "title": "Ten-man England hold on to claim famous win over Spain",
+   "link": "https://www.skysports.com/football/spain-vs-england/report/554117",
+   "published": "2026-11-15T21:45:00+00:00",
+   "description": "England withstood a Spain fightback after Elliot Anderson's red card to secure a famous 3-2 victory and finish above the world champions at the top of their Nations League group.",
+   "image": "https://e2.365dm.com/26/11/1920x1080/skysports-ezri-konsa-england_7407324.jpg?20261115211138",
+   "important": false,
+   "hot": true
+  },
+  {
    "title": "Spain v England: Nations League – live",
    "link": "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-live",
-   "published": "2026-11-15T21:13:45+00:00",
+   "published": "2026-11-15T21:41:58+00:00",
    "description": "Updates from 7.45pm (GMT) kick-off in MadridGet in touch: email Daniel and follow us on BlueSkyTuchel speaks, telling ITV that “it’s a beautiful match”. They’ve qualified, done their homework and now can try and top the group.Quansah keeps his place for doing well, while he wants to see White under pressure and cites his club partnership with Konsa as a reason for picking him, just as last game, h",
-   "image": "https://i.guim.co.uk/img/media/4dcf55afc8f3132d016fcfdf2c9b6d9e2776147c/509_216_4188_3350/master/4188.jpg?width=140&quality=85&auto=format&fit=max&s=56d11379a045c518178ac639b3a18c66",
+   "image": "https://i.guim.co.uk/img/media/91c8647b529619a3436068dd28b6e50f8a157393/128_88_2006_1605/master/2006.jpg?width=140&quality=85&auto=format&fit=max&s=0ae4db644755c41abce52e997870a3cb",
    "important": false,
    "hot": true
   },
@@ -177,7 +186,7 @@
    "title": "Red Brawl New York: Fighting and six red cards mar ‘friendly’ v Club América",
    "link": "https://www.theguardian.com/football/2026/nov/15/red-bulls-club-america-brawl-friendly",
    "published": "2026-11-15T19:29:41+00:00",
-   "description": "Game played without veterans and stars on both sidesRed Bulls’ MLS season is already overOne hallmark of Mauricio Pochettino’s time in international management was been his refusal to embrace the term “friendly.” His preferred branding is “unofficial games”.His spin gained a bit of validity on Saturday, in the New York Red Bulls’ “friendly” against Club América, marred by a mass brawl between the ",
+   "description": "Game played without veterans and stars on both sidesRed Bulls’ MLS season is already overOne hallmark of Mauricio Pochettino’s time in international management has been his refusal to embrace the term “friendly”. His preferred branding is “unofficial games”.His spin gained a bit of validity on Saturday, in the New York Red Bulls’ “friendly” against Club América, marred by a mass brawl between the ",
    "image": "https://i.guim.co.uk/img/media/c19f6fef45f589cf16e2866d06679fa4f492848b/456_0_2993_2394/master/2993.jpg?width=140&quality=85&auto=format&fit=max&s=4f58cc143692fd290fa5e5a44a1dd5fc",
    "important": false,
    "hot": false
@@ -208,18 +217,18 @@
    "image": "https://e0.365dm.com/26/11/1920x1080/skysports-chadd-sayers_7406867.jpg?20261115191123",
    "important": false,
    "hot": false
-  },
-  {
-   "title": "Grand Slam of Darts LIVE! Greaves in must-win clash with Evans, Smith also playing",
-   "link": "https://www.skysports.com/darts/live-blog/12040/13612309/grand-slam-of-darts-commentary-updates-scores-analysis-with-jonny-clayton-josh-rock-ross-smith-in-action",
-   "published": "2026-11-15T18:40:00+00:00",
-   "description": "",
-   "image": "https://e0.365dm.com/26/11/1920x1080/skysports-darts-beau-greaves_7404960.jpg?20261112123559",
-   "important": false,
-   "hot": false
   }
  ],
  "teknologia": [
+  {
+   "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+   "link": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+   "published": "2026-11-15T21:56:35+00:00",
+   "description": "\"Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.\"",
+   "image": null,
+   "important": false,
+   "hot": true
+  },
   {
    "title": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
    "link": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
@@ -318,18 +327,18 @@
    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/image-1-989x648.jpeg",
    "important": false,
    "hot": false
-  },
-  {
-   "title": "Winemakers are learning that conservation can be good for business",
-   "link": "https://arstechnica.com/science/2026/11/winemakers-are-learning-that-conservation-can-be-good-for-business/",
-   "published": "2026-11-14T12:05:51+00:00",
-   "description": "Healthy soils, native plants, and fewer chemicals are helping vineyards adapt.",
-   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/savineyard1-1152x640.jpg",
-   "important": false,
-   "hot": false
   }
  ],
  "maailma": [
+  {
+   "title": "Yemen’s Houthis unilaterally release 600 war detainees",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/yemens-houthis-unilaterally-release-600-war-detainees?traffic_source=rss",
+   "published": "2026-11-15T21:19:08+00:00",
+   "description": "Yemen’s Houthis have released 600 people imprisoned during the country’s civil war.",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
   {
    "title": "Somali-American Uber driver brutally assaulted in alleged hate crime in Minnesota",
    "link": "https://www.theguardian.com/us-news/2026/nov/15/somali-american-uber-driver-attack-minnesota",
@@ -424,17 +433,8 @@
    "title": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
    "link": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-15T19:32:39+00:00",
-   "description": "The Ukrainian president says restrictions are still in place and making it difficult to stop Russian attacks.",
+   "description": "The Ukrainian president says the slowed-down internet is making it difficult to stop Russian attacks.",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8bb5/live/938b6e20-e114-11f1-a7db-d90284d21c62.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Ronaldinho makes comeback in Ravenna win",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ckregz4g823xo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T19:31:48+00:00",
-   "description": "Brazil legend Ronaldinho makes his comeback aged 46 for Ravenna, playing the first half of their Italian third-tier derby against Forli.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/45e6/live/30f37df0-e116-11f1-a7db-d90284d21c62.jpg",
    "important": false,
    "hot": false
   }
@@ -489,7 +489,7 @@
    "title": "Debyyttialbumiaan valmisteleva Raama julkaisi uuden singlen – “Tää biisi on syntynyt siitä turhautumisesta”",
    "link": "https://www.rumba.fi/uutiset/debyyttialbumiaan-valmisteleva-raama-julkaisi-uuden-singlen-taa-biisi-on-syntynyt-siita-turhautumisesta/",
    "published": "2026-11-15T18:06:18+00:00",
-   "description": "Viime vuonna Tuntemattomii-kappaleella debytoinut popartisti Raama on julkaissut uuden singlen. Viime perjantaina nähty Mä en oo sun äiti on viides ja samalla viimeinen sinkkujulkaisu tulevalta, ensi vuonna ilmestyvältä debyyttialbumilta. Kyseessä on napakka asennebiisi ihmissuhteesta, jossa vastuu ja huolenpito jakautuvat epätasaisesti. Raama on kappaleesta ja sen taustoista seuraavaa: “Biisi ker",
+   "description": "Viime vuonna Tuntemattomii-kappaleella debytoinut popartisti Raama on julkaissut uuden singlen. Viime perjantaina nähty Mä en oo sun äiti on viides ja samalla viimeinen sinkkujulkaisu tulevalta, ensi vuonna ilmestyvältä debyyttialbumilta. Kyseessä on napakka asennebiisi ihmissuhteesta, jossa vastuu ja huolenpito jakautuvat epätasaisesti. Raama on kertonut kappaleesta ja sen taustoista seuraavaa: “",
    "image": null,
    "important": false,
    "hot": false
