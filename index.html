@@ -29,7 +29,8 @@ h2{font-size:.95rem;margin:22px 0 8px;opacity:.7;text-transform:uppercase;letter
 #menu a:hover,#menu a.on{background:var(--box)}
 #menu .row{display:flex;align-items:center;gap:6px;padding:4px 12px}
 #menu .row span{flex:1;font-size:.95rem}
-#menu .row button{border:0;background:var(--box);border-radius:8px;width:34px;height:34px;cursor:pointer;color:var(--text)}
+#menu .row .grip{flex:none;cursor:grab;touch-action:none;padding:6px 8px;font-size:1.1rem;opacity:.6;user-select:none}
+#menu .row.drag{background:var(--box);border-radius:8px}
 #menu .edit{display:block;width:100%;margin-top:6px;padding:10px 12px;border:0;border-top:1px solid var(--box);background:none;text-align:left;font:inherit;font-size:.85rem;opacity:.75;cursor:pointer;color:var(--text)}
 </style>
 </head>
@@ -60,16 +61,24 @@ return '<h1>'+CATS[k]+'</h1>'+top.concat(rest).map(function(n){return card(n,k,t
 var ORDER=Object.keys(CATS),EDIT=false;
 try{var sv=JSON.parse(localStorage.getItem("order")||"[]");if(Array.isArray(sv)){var ok=sv.filter(function(c){return CATS[c]});Object.keys(CATS).forEach(function(c){if(ok.indexOf(c)<0)ok.push(c)});ORDER=ok}}catch(e){}
 function save(){try{localStorage.setItem("order",JSON.stringify(ORDER))}catch(e){}}
-function move(c,d){var i=ORDER.indexOf(c),j=i+d;if(j<0||j>=ORDER.length)return;ORDER.splice(i,1);ORDER.splice(j,0,c);save();route(true)}
+var DRAFT=null,drag=null;
 function menu(k){var h='<a href="#koti" class="'+(!CATS[k]?'on':'')+'">Koti</a>';
-ORDER.forEach(function(c){h+=EDIT?'<div class="row"><span>'+CATS[c]+'</span><button data-c="'+c+'" data-d="-1" aria-label="Siirrä ylös">▲</button><button data-c="'+c+'" data-d="1" aria-label="Siirrä alas">▼</button></div>':'<a href="#'+c+'" class="'+(c===k?'on':'')+'">'+CATS[c]+'</a>'});
+(EDIT?DRAFT:ORDER).forEach(function(c){h+=EDIT?'<div class="row" data-c="'+c+'"><span class="grip" aria-label="Vedä siirtääksesi">⠿</span><span>'+CATS[c]+'</span></div>':'<a href="#'+c+'" class="'+(c===k?'on':'')+'">'+CATS[c]+'</a>'});
 return h+'<button class="edit" id="editbtn">'+(EDIT?'Valmis':'Muokkaa järjestystä')+'</button>'}
 function route(keep){var k=(location.hash||"#koti").slice(1);
 document.getElementById('app').innerHTML=CATS[k]?cat(k):home();
 document.getElementById('menu').innerHTML=menu(k);
 if(keep===true)return;
 document.getElementById('menu').classList.remove('open');window.scrollTo(0,0)}
-document.getElementById('menu').onclick=function(e){var t=e.target;if(t.dataset&&t.dataset.d){move(t.dataset.c,+t.dataset.d)}else if(t.id==="editbtn"){EDIT=!EDIT;route(true)}};
+var M=document.getElementById('menu');
+M.addEventListener('click',function(e){if(e.target.id!=="editbtn")return;
+if(EDIT){ORDER=DRAFT.slice();save();EDIT=false}else{DRAFT=ORDER.slice();EDIT=true}route(true)});
+M.addEventListener('pointerdown',function(e){var g=e.target.closest&&e.target.closest('.grip');if(!g)return;drag=g.parentNode;drag.classList.add('drag');g.setPointerCapture(e.pointerId);e.preventDefault()});
+M.addEventListener('pointermove',function(e){if(!drag)return;var rows=[].slice.call(M.querySelectorAll('.row')).filter(function(r){return r!==drag});
+for(var i=0;i<rows.length;i++){var b=rows[i].getBoundingClientRect();if(e.clientY<b.top+b.height/2){M.insertBefore(drag,rows[i]);return}}
+var l=rows[rows.length-1];l.parentNode.insertBefore(drag,l.nextSibling)});
+function endDrag(){if(!drag)return;drag.classList.remove('drag');drag=null;DRAFT=[].map.call(M.querySelectorAll('.row'),function(r){return r.dataset.c})}
+M.addEventListener('pointerup',endDrag);M.addEventListener('pointercancel',endDrag);
 document.getElementById('ball').onclick=function(){document.getElementById('menu').classList.toggle('open')};
 window.addEventListener('hashchange',route);load().then(route).catch(function(){document.getElementById('app').textContent='Uutisten lataus epäonnistui.'});
 </script>
