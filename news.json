@@ -1,115 +1,187 @@
 {
  "suomi": [
   {
-   "title": "Jääkiekko | IIHF päätti: Venäjä ulos nuorten MM-kisoista",
-   "link": "https://www.hs.fi/urheilu/art-2000012414204.html",
-   "published": "2026-11-15T17:53:00+00:00",
-   "description": "IIHF tiedottaa asiasta sunnuntai-iltana.",
-   "image": "https://images.sanoma-sndp.fi/871c2cd213acd19c766faec1a3eb993e/normal/1440.jpg",
+   "title": "TTK:ssa buuauskonsertti – somelta tyly tuomio",
+   "link": "https://www.is.fi/viihde/art-2000012414254.html",
+   "published": "2026-11-15T18:25:00+00:00",
+   "description": "Jaakon ja Kastanjan rumba sai vaatimattomat pisteet.",
+   "image": "https://images.sanoma-sndp.fi/4efa335a388a78ecc9846224771140dd/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Viro sulkee Venäjän-vastaisen rajansa – ulkoministeri vahvistaa",
+   "link": "https://www.is.fi/ulkomaat/art-2000012413905.html",
+   "published": "2026-11-15T18:21:00+00:00",
+   "description": "Raja menee kiinni 1. joulukuuta.",
+   "image": "https://images.sanoma-sndp.fi/0448200c1cf0025d1147c95118caf6a8/normal/1440.jpg",
    "important": true,
    "hot": true
   },
   {
-   "title": "Venäjä ulos jääkiekon nuorten MM-kisoista",
-   "link": "https://yle.fi/a/74-20257101?origin=rss",
-   "published": "2026-11-15T17:52:57+00:00",
-   "description": "Kansainvälinen jääkiekkoliitto paljasti merkittävän tiedon.",
-   "image": null,
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Miksi Suomessa marssii satoja tai tuhansia, kun muualla Euroopassa kaduille lähtee satojatuhansia?",
-   "link": "https://yle.fi/a/74-20257087?origin=rss",
-   "published": "2026-11-15T17:51:41+00:00",
-   "description": "Poliittisen sosiologian tutkijan Georg Boldtin mukaan yhteisöjen merkitys on Suomessa vähentynyt.",
-   "image": null,
+   "title": "Trumpin hallinnosta jyrähdys Nvidialle – 10 päivää aikaa selvittää tilanne",
+   "link": "https://www.is.fi/ulkomaat/art-2000012413999.html",
+   "published": "2026-11-15T18:19:00+00:00",
+   "description": "Tekoälyjätin pitkäaikainen johtaja erosi hiljattain suhdekohun vuoksi.",
+   "image": "https://images.sanoma-sndp.fi/7d919661e16a7302d2788428cd94b8cc/normal/1440.jpg",
    "important": false,
    "hot": false
   },
   {
-   "title": "Venäjä ulos nuorten MM-kisoista",
-   "link": "https://www.is.fi/jaakiekko/art-2000012414194.html",
-   "published": "2026-11-15T17:49:00+00:00",
-   "description": "IIHF tiedottaa asiasta.",
+   "title": "Suomi romahti MM-kisoissa – Tero Lehterältä suora arvio: ”Täytyy sanoa”",
+   "link": "https://www.is.fi/jaakiekko/art-2000012414100.html",
+   "published": "2026-11-15T18:16:00+00:00",
+   "description": "Tero Lehterä ei ollut maansa myyneenä median edessä.",
+   "image": "https://images.sanoma-sndp.fi/b7405730b2e62d00694f90aab2c33ba9/normal/1440.jpg",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Anssi Heikkilä liikuttui suorassa TTK-lähetyksessä",
+   "link": "https://www.is.fi/viihde/art-2000012414214.html",
+   "published": "2026-11-15T18:13:00+00:00",
+   "description": "Anssi Heikkilä kehui vuolaasti tanssipariaan Anni Ihamäkeä TTK-lähetyksessä.",
+   "image": "https://images.sanoma-sndp.fi/b9fdaa6b0cd29cedc8da8ace2865affc/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Ukrainalainen paljasti Suomessa kylmäävän tiedon drooneista: \"Vain yksi nappula\"",
+   "link": "https://www.mtvuutiset.fi/artikkeli/ukrainalainen-paljasti-suomessa-kylmaavan-tiedon-drooneista-vain-yksi-nappula/9421616",
+   "published": "2026-11-15T18:10:14+00:00",
+   "description": "Ukrainalaiset teknologiayritykset ovat olleet Suomessa hakemassa drooni-kumppanuuksia.",
+   "image": "https://api.mtvuutiset.fi/graphql/caas/v1/media/9421618/data/5d6641d471cb58e5feae874cd810096a/landscape16_9/1024/screenshot-2026-11-15-195655.png",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Jalkapallo | Suomi ryöpyttää San Marinoa Helsingissä, Roman Eremenko palasi maajoukkueeseen",
+   "link": "https://www.hs.fi/urheilu/art-2000012413990.html",
+   "published": "2026-11-15T18:08:00+00:00",
+   "description": "HS seuraa Huuhkajien kamppailua piskuista San Marinoa vastaan.",
+   "image": "https://images.sanoma-sndp.fi/577fb9725061669fd1d67db4983f28e5/normal/1440.jpg",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Tätä ei ole nähty kymmeneen vuoteen: Roman Eremenko palasi Huuhkajiin",
+   "link": "https://www.is.fi/huuhkajat/art-2000012413963.html",
+   "published": "2026-11-15T18:07:00+00:00",
+   "description": "IS seuraa Huuhkajien kamppailua piskuista San Marinoa vastaan.",
+   "image": "https://images.sanoma-sndp.fi/577fb9725061669fd1d67db4983f28e5/normal/1440.jpg",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Jääkiekko | IIHF päätti: Venäjä ulos nuorten MM-kisoista",
+   "link": "https://www.hs.fi/urheilu/art-2000012414204.html",
+   "published": "2026-11-15T18:06:00+00:00",
+   "description": "IIHF tiedotti asiasta sunnuntai-iltana.",
    "image": "https://images.sanoma-sndp.fi/871c2cd213acd19c766faec1a3eb993e/normal/1440.jpg",
    "important": false,
-   "hot": true
+   "hot": false
   },
   {
-   "title": "Milloin kannattaa aloittaa lintujen talviruokinta? Biologi kertoo kaiken olennaisen",
-   "link": "https://yle.fi/a/74-20256126?origin=rss",
-   "published": "2026-11-15T17:48:03+00:00",
-   "description": "Lintututkija Vesa Hyyryläinen tarjoaa kotipihallaan linnuille siemeniä, viljaa ja rasvaa. Tärkein neuvo on jatkaa aloitettua ruokintaa kevääseen asti.",
+   "title": "Pelit | Suomea uhkaa konsolipula, kun GTA-julkistus lähestyy",
+   "link": "https://www.hs.fi/visio/art-2000012404782.html",
+   "published": "2026-11-15T18:00:00+00:00",
+   "description": "GTA 6 -pelin julkistus on innostanut monet konsoliostoksille, ja esimerkiksi Playstation Prota on nyt vaikea löytää Suomesta. Myös verkkoliikenteessä on nähty piikkejä, kun suurpeliä on ladattu ennakkoon.",
+   "image": "https://images.sanoma-sndp.fi/cd94e291b1bfd8eb5063447681118ecd/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Lotta Kuusisto oli valmis katkaisemaan välit äitiinsä – sitten paljastui, mistä äidin käytös johtui",
+   "link": "https://www.is.fi/menaiset/ihmiset-ja-suhteet/art-2000012307543.html",
+   "published": "2026-11-15T18:00:00+00:00",
+   "description": "Tanssija ja näyttelijä Lotta Kuusisto on oppinut, että surun keskellä tarvitaan myös huumoria, että rakkaus kantaa myös vaikeiden aikojen yli ja että koskaan ei ole liian myöhäistä oppia ymmärtämään omia vanhempiaan.",
+   "image": "https://images.sanoma-sndp.fi/61fa0e08c19e1442fe7f29c89803c00f/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Metsäjätin johtajalta suorat sanat suomalaisille: ”En oikein ymmärrä”",
+   "link": "https://www.kauppalehti.fi/uutiset/a/a3384e8a-a193-4909-b814-2bbd709139c9?utm_source=rss",
+   "published": "2026-11-15T18:00:00+00:00",
+   "description": "Metsä Groupin pääjohtaja Jussi Vanhanen uskoo metsäteollisuuden tarvitsevan uusia puupohjaisia innovaatioita, mutta muistuttaa vanhojen menestystuotteiden kantavan alaa vielä pitkään. Suurimpana uhkana hän pitää maailmankaupan vaikeutumista.",
    "image": null,
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Asiantuntija Viron toimista: \"Raja voidaan aidata taivaaseen saakka, uhkat eivät poistu\"",
-   "link": "https://www.mtvuutiset.fi/artikkeli/asiantuntija-viron-toimista-raja-voidaan-aidata-taivaaseen-saakka-uhkat-eivat-poistu/9421586",
-   "published": "2026-11-15T17:43:06+00:00",
-   "description": "Asiantuntijan mielestä Viron päätös sulkea raja on oikeansuuntainen, mutta riittämätön toimi.",
-   "image": "https://api.mtvuutiset.fi/graphql/caas/v1/media/9421608/data/5ded333f60d7379605386cda69fd4b3b/landscape16_9/1024/laine.png",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Droonitehdas yritettiin räjäyttää Virossa – nyt Latviassa tehtiin hurja löytö",
-   "link": "https://www.is.fi/ulkomaat/art-2000012414175.html",
-   "published": "2026-11-15T17:40:00+00:00",
-   "description": "Latvian turvallisuuspalvelu teki kotietsintöjä yhdeksässä paikassa. Viranomaisten mukaan Venäjä värvää yhä enemmän ulkomaiden kansalaisia toteuttamaan sabotaasi-iskuja.",
-   "image": "https://images.sanoma-sndp.fi/fea9b3367218fa26bd5da6e843a7ad33/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Jalkapallo | Suomi ryöpyttää San Marinoa Helsingissä",
-   "link": "https://www.hs.fi/urheilu/art-2000012413990.html",
-   "published": "2026-11-15T17:39:00+00:00",
-   "description": "HS seuraa Huuhkajien kamppailua piskuista San Marinoa vastaan.",
-   "image": "https://images.sanoma-sndp.fi/be3662a36cd1a97ef6b4da45c6184e4d/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Rajua ryöpytystä! Huuhkajat ei anna armoa – yksi shokkihetki San Marinoa vastaan",
-   "link": "https://www.is.fi/huuhkajat/art-2000012413963.html",
-   "published": "2026-11-15T17:38:00+00:00",
-   "description": "IS seuraa Huuhkajien kamppailua piskuista San Marinoa vastaan.",
-   "image": "https://images.sanoma-sndp.fi/be3662a36cd1a97ef6b4da45c6184e4d/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Luitko käyttöohjeen? Voit rikkoa kalliit silmälasisi parin­kympin laitteella",
-   "link": "https://www.is.fi/digitoday/art-2000012403593.html",
-   "published": "2026-11-15T17:34:00+00:00",
-   "description": "Puhdistustapaan liittyy riskejä etenkin tietyissä tilanteissa.",
-   "image": "https://images.sanoma-sndp.fi/c4e9cb6cd9937ec18b58837f210503e4/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Sadat tuhannet tshekit vyöryivät Prahan kaduille – ”Todistamme tänään täällä jotakin poikkeuksellista”",
-   "link": "https://www.is.fi/ulkomaat/art-2000012414066.html",
-   "published": "2026-11-15T17:33:00+00:00",
-   "description": "Mielenosoittajat vaativat Tshekin hallitusta perääntymään suunnitelmasta, jota on verrattu Unkarin ex-pääministerin Viktor Orbanin toimiin median kontrolloimiseksi.",
-   "image": "https://images.sanoma-sndp.fi/0620abf2fbd835f1d63bceff8e4b5c8c/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Alppihiihto | Brasilian supertähti ylisti suomalais­faneja ja nimesi palkintoporon isoäitinsä mukaan",
-   "link": "https://www.hs.fi/urheilu/art-2000012413909.html",
-   "published": "2026-11-15T17:32:00+00:00",
-   "description": "Brasilialainen Lucas Pinheiro Braathen otti toisen peräkkäisen voittonsa Levin maailmancupissa.",
-   "image": "https://images.sanoma-sndp.fi/8a7d302394d6ca7170486bdfeaad15a1/normal/1440.jpg",
    "important": false,
    "hot": false
   }
  ],
  "jalkapallo": [
+  {
+   "title": "Frick named new head coach at Aberdeen",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cqrmgz9ypvwko?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-15T18:27:08+00:00",
+   "description": "Former Liechtenstein striker Mario Frick is announced as the new head coach of Aberdeen.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eb7a/live/5c0f70d0-6139-11ee-ac8c-9d18dbc280ea.png",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Children's tournament abandoned for parents' behaviour",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cmp867d026nno?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-15T18:24:54+00:00",
+   "description": "A football tournament for nine and 10-year-olds in Italy is suspended because of parents fighting, spitting and shouting homophobic abuse at a child and a referee.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d368/live/30545390-e11d-11f1-a7a2-7bb21fac8f0b.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Arsenal v London City Lionesses: Women’s Super League – live",
+   "link": "https://www.theguardian.com/football/live/2026/nov/15/arsenal-v-london-city-lionesses-womens-super-league-live",
+   "published": "2026-11-15T18:14:46+00:00",
+   "description": "Updates from 4.30pm (GMT) kick-off at the Emirates StadiumGet in touch: email John and follow us on BlueSkyCharles Antaki gets in touch: “Renee Slegers under pressure indeed. Arsenal’s form this season has been nothing short of alarming, and there is a distinct danger of failing to qualify for next year’s women’s Champions League. For the moment, for stability’s sake, better that Renee should stay",
+   "image": "https://i.guim.co.uk/img/media/4e062c72884593f8a099f1bcd50e4a58025887ac/244_0_4060_3248/master/4060.jpg?width=140&quality=85&auto=format&fit=max&s=284e88895f49fffe4a5149a929e1ad2b",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Sule strikes late as Scotland U21s snatch draw against USA",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c6894vj39g33o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-15T18:11:08+00:00",
+   "description": "St Mirren forward Eseosa Sule came off the bench to score a late penalty as Scotland U21s drew 1-1 with USA U23s in Spain.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7146/live/d7b69920-e11f-11f1-a7a2-7bb21fac8f0b.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Ronaldinho makes comeback for Ravenna",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ckregz4g823xo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-15T18:01:25+00:00",
+   "description": "Brazil legend Ronaldinho makes his comeback aged 46 for Ravenna, playing the first half of their Italian third-tier derby against Forli.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/45e6/live/30f37df0-e116-11f1-a7db-d90284d21c62.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Why 'inspiring' Van Gaal influences Scotland head coach Pocognoli",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cw1mdl14dzx8o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-15T17:56:57+00:00",
+   "description": "Scotland head coach Sebastien Pocognoli says he draws on the influence of iconic manager Louis van Gaal in his own coaching career.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/94b0/live/8883ed70-e11b-11f1-a7a2-7bb21fac8f0b.jpg",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Why 'inspiring' Van Gaal influences Scotland head coach Pocognoli",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cw1mdl14dzx8o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-15T17:56:57+00:00",
+   "description": "Scotland head coach Sebastien Pocognoli says he draws on the influence of iconic manager Louis van Gaal in his own coaching career.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/94b0/live/8883ed70-e11b-11f1-a7a2-7bb21fac8f0b.jpg",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Scotland edge out Australia in Nations Championship",
+   "link": "https://www.skysports.com/rugby-union/news/12040/13612547/nations-championship-scotland-edge-out-australia-at-murrayfield-to-move-above-wales-in-northern-hemisphere-table",
+   "published": "2026-11-15T17:53:00+00:00",
+   "description": "Scotland eked out a hard-fought 15-12 win over Australia but were unable to get the bonus point they craved in a Nations Championship match that failed to catch fire.",
+   "image": "https://e0.365dm.com/26/11/1920x1080/skysports-scotland-finn-russell_7407207.jpg?20261115174528",
+   "important": false,
+   "hot": false
+  },
   {
    "title": "Spain vs England build-up LIVE!",
    "link": "https://www.skysports.com/football/spain-vs-england/live/554117",
@@ -120,16 +192,7 @@
    "hot": true
   },
   {
-   "title": "Arsenal v London City Lionesses: Women’s Super League – live",
-   "link": "https://www.theguardian.com/football/live/2026/nov/15/arsenal-v-london-city-lionesses-womens-super-league-live",
-   "published": "2026-11-15T17:44:21+00:00",
-   "description": "Updates from 4.30pm (GMT) kick-off at the Emirates StadiumGet in touch: email John and follow us on BlueSkyCharles Antaki gets in touch: “Renee Slegers under pressure indeed. Arsenal’s form this season has been nothing short of alarming, and there is a distinct danger of failing to qualify for next year’s women’s Champions League. For the moment, for stability’s sake, better that Renee should stay",
-   "image": "https://i.guim.co.uk/img/media/4e062c72884593f8a099f1bcd50e4a58025887ac/244_0_4060_3248/master/4060.jpg?width=140&quality=85&auto=format&fit=max&s=284e88895f49fffe4a5149a929e1ad2b",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "NFL: Lions thump Patriots in Munich on St Brown's German homecoming",
+   "title": "Lions thump Patriots in Munich on St Brown's German homecoming",
    "link": "https://www.skysports.com/nfl/news/12040/13612478/nfl-detorit-lions-thump-new-england-patriots-in-germany-after-drake-maye-injury-as-amon-ra-st-brown-and-jahmyr-gibbs-star",
    "published": "2026-11-15T17:38:00+00:00",
    "description": "Jahmyr Gibbs was unstoppable and Amon-Ra St Brown starred on his German homecoming as the Detroit Lions torched the Drake Maye-less New England Patriots 35-10 at the Allianz Arena in Munich on Sunday.",
@@ -154,69 +217,6 @@
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b7e6/live/8463b3a0-e117-11f1-a7db-d90284d21c62.jpg",
    "important": false,
    "hot": true
-  },
-  {
-   "title": "Fisher wants fight with AJ dangerman Prenga early next year",
-   "link": "https://www.skysports.com/boxing/news/12040/13612527/johnny-fisher-wants-to-fight-kristian-prenga-the-man-who-almost-derailed-tyson-fury-vs-anthony-joshua-early-next-year",
-   "published": "2026-11-15T17:12:00+00:00",
-   "description": "Johnny Fisher is looking to return to action early in 2027 and wants to fight Kristian Prenga, the man who almost derailed the Tyson Fury vs Anthony Joshua mega-fight.",
-   "image": "https://e1.365dm.com/26/09/1920x1080/skysports-johnny-fisher-michael-pirotton_7360947.jpg?20260925103032",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Chapecoense crash survivor wins promotion in final game",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ckp8017p1e3go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T17:10:24+00:00",
-   "description": "Alan Ruschel, one of six survivors in the 2016 plane crash that was carrying members of the Chapecoense team, wins promotion to Brazil‘s Serie A in his final match before retiring.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/306d/live/586b44a0-e10f-11f1-b3df-4961589d9b68.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "London City Lionesses hit back minutes after Arsenal take the lead!",
-   "link": "https://www.skysports.com/watch/video/13612525/wsl-london-city-lionesses-hit-back-minutes-after-arsenal-take-the-lead",
-   "published": "2026-11-15T16:48:00+00:00",
-   "description": "London City Lionesses were not behind for long as Isobel Goodwin cancelled out Frida Maanum's opener.",
-   "image": "https://e0.365dm.com/26/11/1920x1080/skysports-lcl-arsenal_7407161.jpg?20261115165417",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Tenerife return to action after death of De Miguel",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cqx2xn535yj8o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T16:38:51+00:00",
-   "description": "Tenerife play their first game since the death of striker Jesus de Miguel on an emotional day at the Heliodoro Rodriguez Lopez stadium.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4e2a/live/47c33310-e10f-11f1-b3df-4961589d9b68.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Zverev begins ATP Finals with straight-sets victory over Jodar",
-   "link": "https://www.skysports.com/tennis/news/12040/13612522/atp-finals-world-no-1-alexander-zverev-begins-campaign-with-convincing-straight-sets-victory-over-rafael-jodar",
-   "published": "2026-11-15T16:37:00+00:00",
-   "description": "Alexander Zverev began his ATP Finals campaign with a 6-4 6-4 victory over rising star Rafael Jodar, who was competing in the event for the first time.",
-   "image": "https://e0.365dm.com/26/11/1920x1080/skysports-alexander-zverev_7407145.jpg?20261115163735",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Pioneer Pete sparks jubilant Greatwood scenes at Cheltenham",
-   "link": "https://www.skysports.com/racing/news/12040/13612521/cheltenham-pioneer-pete-sparks-jubilant-greatwood-scenes-at-november-meeting",
-   "published": "2026-11-15T16:34:00+00:00",
-   "description": "Pioneer Pete could have the County Hurdle back at Cheltenham in March as a target after continuing his charge up the two-mile hurdling rankings in the Unibet Greatwood Handicap Hurdle.",
-   "image": "https://e1.365dm.com/26/11/1920x1080/skysports-pioneer-pete-racing_7407146.jpg?20261115163827",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Andrew Gilding pins BULLSEYE finish to defeat Charlie Manby!",
-   "link": "https://www.skysports.com/watch/video/13612515/andrew-gilding-pins-bullseye-finish-to-defeat-charlie-manby",
-   "published": "2026-11-15T16:09:00+00:00",
-   "description": "Andrew Gilding punished Charlie Manby's wayward finishing to win their Grand Slam match on the bullseye after averaging barely over 81.",
-   "image": "https://e0.365dm.com/26/11/1920x1080/skysports-andrew-gilding-finish_7407142.jpg?20261115162405",
-   "important": false,
-   "hot": false
   }
  ],
  "teknologia": [
@@ -331,6 +331,24 @@
  ],
  "maailma": [
   {
+   "title": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
+   "link": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-15T18:08:20+00:00",
+   "description": "The Ukrainian president says restrictions are still in place and making it difficult to stop Russian attacks.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8bb5/live/938b6e20-e114-11f1-a7db-d90284d21c62.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Iran launches drone attacks against US military base in Bahrain",
+   "link": "https://www.theguardian.com/world/2026/nov/15/iran-launches-drone-attacks-against-us-military-base-in-bahrain",
+   "published": "2026-11-15T18:03:56+00:00",
+   "description": "Strikes cast further doubt on peace talks between Tehran and Washington with increasing risk of escalation Iran has launched drone attacks against a US military base in Bahrain, casting further doubt on peace talks between Tehran and Washington and raising the spectre of escalation.Blasts sounded over the Gulf nation on Sunday in the second Iranian drone attack in three days in retaliation for US ",
+   "image": "https://i.guim.co.uk/img/media/90f87dd962175485473368db89ae4da6cfcd0981/425_0_4577_3662/master/4577.jpg?width=140&quality=85&auto=format&fit=max&s=a186d5c5f515b7ca0b75c2c9875cf564",
+   "important": false,
+   "hot": true
+  },
+  {
    "title": "Nearly 1,500 migrants reach Spain’s Canary Islands in one day",
    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/nearly-1500-migrants-reach-spains-canary-islands-in-one-day?traffic_source=rss",
    "published": "2026-11-15T17:39:23+00:00",
@@ -338,15 +356,6 @@
    "image": null,
    "important": false,
    "hot": false
-  },
-  {
-   "title": "Iran launches drone attacks against US military base in Bahrain",
-   "link": "https://www.theguardian.com/world/2026/nov/15/iran-launches-drone-attacks-against-us-military-base-in-bahrain",
-   "published": "2026-11-15T17:36:09+00:00",
-   "description": "Strikes cast further doubt on peace talks between Tehran and Washington with increasing risk of escalation Iran has launched drone attacks against a US military base in Bahrain, casting further doubt on peace talks between Tehran and Washington and raising the spectre of escalation.Blasts sounded over the Gulf nation on Sunday in the second Iranian drone attack in three days in retaliation for US ",
-   "image": "https://i.guim.co.uk/img/media/8639b2a492926c5d0ccbdbab7179b3d592cdb751/0_37_1091_873/master/1091.jpg?width=140&quality=85&auto=format&fit=max&s=578cbc0307286c00098fc0760a78406b",
-   "important": false,
-   "hot": true
   },
   {
    "title": "Morocco becomes first Arab nation in FIFA’s top five men’s rankings",
@@ -380,7 +389,7 @@
    "link": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-15T17:23:40+00:00",
    "description": "Protesters say the move will stifle media freedom, while the government insists broadcasters need to cut costs.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6233/live/1841dbb0-e118-11f1-a7db-d90284d21c62.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0f9f/live/b7b68ac0-e121-11f1-9705-e15ce514cc96.jpg",
    "important": false,
    "hot": true
   },
@@ -424,22 +433,22 @@
    "title": "Hundreds of thousands of Czechs protest in Prague over media freedom",
    "link": "https://www.theguardian.com/world/2026/nov/15/czechia-protest-prague-media-freedom",
    "published": "2026-11-15T16:40:04+00:00",
-   "description": "Estimated 350,000 people rally against plan to scrap licence fees and fund broadcasters from state budgetHundreds of thousands of Czechs are rallying in Prague to protest against what they say is a government attempt to stifle media freedom.The gathering on Sunday to save the mandatory licence fees that fund Czechia’s public broadcasters could be one of the biggest in the country’s history, organi",
+   "description": "Estimated 350,000 people rally against plan to scrap licence fees and fund broadcasters from state budgetHundreds of thousands of Czechs have rallied in Prague to protest against a perceived government attempt to stifle media freedom.The gathering on Sunday to save the mandatory licence fees that fund Czechia’s public broadcasters drew more than 350,000 people, making it one of the biggest in the ",
    "image": "https://i.guim.co.uk/img/media/95975b1bec64815ceed42fb90d5215d3bbf2f3f8/543_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=ee2294d72c354e735186b306b7fe1328",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Thousands rally in Czech Republic against state media funding changes",
-   "link": "https://www.aljazeera.com/news/2026/11/15/thousands-rally-in-czech-republic-against-state-media-funding-changes?traffic_source=rss",
-   "published": "2026-11-15T16:32:22+00:00",
-   "description": "Critics say proposed funding changes will give the government more control of state media.",
-   "image": null,
    "important": false,
    "hot": true
   }
  ],
  "musiikki": [
+  {
+   "title": "Debyyttialbumiaan valmisteleva Raama julkaisi uuden singlen – “Tää biisi on syntynyt siitä turhautumisesta”",
+   "link": "https://www.rumba.fi/uutiset/debyyttialbumiaan-valmisteleva-raama-julkaisi-uuden-singlen-taa-biisi-on-syntynyt-siita-turhautumisesta/",
+   "published": "2026-11-15T18:06:18+00:00",
+   "description": "Viime vuonna Tuntemattomii-kappaleella debytoinut popartisti Raama on julkaissut uuden singlen. Viime perjantaina nähty Mä en oo sun äiti on viides ja samalla viimeinen sinkkujulkaisu tulevalta, ensi vuonna ilmestyvältä debyyttialbumilta. Kyseessä on napakka asennebiisi ihmissuhteesta, jossa vastuu ja huolenpito jakautuvat epätasaisesti. Raama on kappaleesta ja sen taustoista seuraavaa: “Biisi ker",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
   {
    "title": "Iron Maidenille tehtiin kunniaa Rock and Roll Hall of Fame -gaalassa melkoisen kokoonpanon voimin",
    "link": "https://www.soundi.fi/uutiset/iron-maidenille-tehtiin-kunniaa-rock-and-roll-hall-of-fame-gaalassa-melkoisen-kokoonpanon-voimin/",
@@ -536,15 +545,6 @@
    "published": "2026-11-15T14:01:50+00:00",
    "description": "The post Slayer&#8217;s Tom Araya Scolds Crowd Over Behavior At LA Show appeared first on Stereogum.",
    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/Screenshot-2026-11-15-at-2.00.40-PM.png?w=564",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Slayer keskeytti keikkansa – Tom Araya piti puhuttelun yli-innokkaille katsojille: ”Jos tällainen meno jatkuu, me lähdemme kotiin”",
-   "link": "https://www.soundi.fi/uutiset/slayer-keskeytti-keikkansa-tom-araya-piti-puhuttelun-yli-innokkaille-katsojille-jos-tallainen-meno-jatkuu-me-lahdemme-kotiin/",
-   "published": "2026-11-15T13:57:27+00:00",
-   "description": "Slayer&#160;esiintyi lauantaina 14. marraskuuta loppuunmyydyllä, 17 500 katsojaa vetävällä Kia Forumilla osana vuoden 1986&#160;Reign in Blood&#160;-albumin 40-vuotisjuhlakiertuetta. Yhtye oli ehtinyt soittaa ensimmäisen settinsä kahdeksanteen kappaleeseen asti, kun laulaja-basisti Tom Araya huomasi osan yleisöstä riehuvan siihen malliin, että keikkapaikalle alkoi syntyä vahinkoa. Araya keskeytti ",
-   "image": null,
    "important": false,
    "hot": false
   }
