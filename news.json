@@ -1,10 +1,46 @@
 {
  "suomi": [
   {
+   "title": "Koripallo | Susiladies nappasi kovan voiton loppuunmyydyn yleisön edessä, Awak Kuier pitelemätön",
+   "link": "https://www.hs.fi/urheilu/art-2000012393423.html",
+   "published": "2026-11-15T16:53:00+00:00",
+   "description": "Susiladies kaatoi Liettuan loppuunmyydyssä Urhea-hallissa.",
+   "image": "https://images.sanoma-sndp.fi/75cbf9ef6f39447e21134a4e5bdc7f3f/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Suomi romahti MM-välierässä – USA finaaliin",
+   "link": "https://www.is.fi/jaakiekko/art-2000012413693.html",
+   "published": "2026-11-15T16:47:00+00:00",
+   "description": "Naisleijonat pelasi paikasta MM-finaaliin. IS seurasi hetki hetkeltä.",
+   "image": "https://images.sanoma-sndp.fi/9f742d2b52cf5db8ec10eac452be6173/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Rangaistukset | Yhdyskuntapalvelu on vaarassa järjestöleikkausten takia",
+   "link": "https://www.hs.fi/mielipide/art-2000012398727.html",
+   "published": "2026-11-15T16:45:00+00:00",
+   "description": "Järjestöihin ja hyvinvointialueisiin kohdistuvat leikkaukset vaarantavat suorituspaikkaverkoston, jonka varaan koko seuraamusmuoto rakentuu.",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Petteri muutti metsään – huolestui painonsa nopeasta tippumisesta: ”Päälle 23 kiloa”",
+   "link": "https://www.is.fi/kotimaa/art-2000012402598.html",
+   "published": "2026-11-15T16:45:00+00:00",
+   "description": "Petteri Veijonen, 34, on elänyt metsässä yli 50 päivää pelkillä luonnon antimilla. Erityisesti yksi asia huolettaa kokenutta selviytyjää.",
+   "image": "https://images.sanoma-sndp.fi/1bff2fcd3b7338e91b92cb4fc00ed6b7/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
    "title": "Kommentti | Suomen naiskiekko on tuuliajolla",
    "link": "https://www.hs.fi/urheilu/art-2000012414069.html",
    "published": "2026-11-15T16:39:00+00:00",
-   "description": "Suomalainen naiskiekko on kääntynyt alamäkeen, kirjoittaa toimittaja Sasha Huttunen.",
+   "description": "Suomella on maanantaina edessä pronssipeli, mutta sen tulos ei muuta isoa kuvaa, kirjoittaa toimittaja Sasha Huttunen.",
    "image": "https://images.sanoma-sndp.fi/71063cf84925489cce358feead60e47f/normal/1440.jpg",
    "important": false,
    "hot": false
@@ -28,16 +64,7 @@
    "hot": false
   },
   {
-   "title": "Tylyt numerot: Suomi romahti MM-välierässä",
-   "link": "https://www.is.fi/jaakiekko/art-2000012413693.html",
-   "published": "2026-11-15T16:33:00+00:00",
-   "description": "Naisleijonat pelasi paikasta MM-finaaliin. IS seurasi hetki hetkeltä.",
-   "image": "https://images.sanoma-sndp.fi/9f742d2b52cf5db8ec10eac452be6173/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Töölössä leijailee kuvottava löyhkä – ”Sille, että täällä olisi kuollut ihminen”",
+   "title": "Helsingin paraatipaikka muuttui löyhkääväksi ”sota­tantereeksi”",
    "link": "https://www.is.fi/kotimaa/art-2000012413850.html",
    "published": "2026-11-15T16:30:00+00:00",
    "description": "”Sitä itseään”, kuvailee alueen asukas.",
@@ -55,7 +82,7 @@
    "hot": false
   },
   {
-   "title": "Kommentti: Ranskalainen lausui tylyt sanat Suomesta – ja on täysin oikeassa",
+   "title": "Kommentti: Tyly totuus tuli ranskalaisen suusta – Suomi on nolossa jamassa",
    "link": "https://www.is.fi/jaakiekko/art-2000012413589.html",
    "published": "2026-11-15T16:29:00+00:00",
    "description": "Suomen naiskiekko on tuuliajolla, eikä tulevaisuus näytä valoisalta, kirjoittaa toimittaja Sasha Huttunen.",
@@ -64,7 +91,7 @@
    "hot": false
   },
   {
-   "title": "Alisa Vainio ilmestyi TTK:hon – näin hän kommentoi Janne Saarista",
+   "title": "Janne Saariseen yhdistetty Alisa Vainio saapui TTK:hon – näin vastaa romanssihuhuihin",
    "link": "https://www.is.fi/viihde/art-2000012414044.html",
    "published": "2026-11-15T16:27:00+00:00",
    "description": "Alisa Vainio kommentoi suhteensa laatua TTK-semifinalisti Janne Saariseen.",
@@ -78,33 +105,6 @@
    "published": "2026-11-15T16:21:00+00:00",
    "description": "Suomen tiettävästi viimeinen elossa oleva talvisodassa palvellut mies on Salossa asuva Ilmari Koppinen.",
    "image": "https://images.sanoma-sndp.fi/a81fcffa78b2bbce92309c47252b9ac0/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Isku drooniyritykseen | Viro aikoo sulkea Venäjän-vastaisen rajansa",
-   "link": "https://www.hs.fi/alueet/art-2000012413742.html",
-   "published": "2026-11-15T16:12:00+00:00",
-   "description": "Viron suojelupoliisin johtajan Margo Pallosonin mukaan tuhopolttoyritys oli Venäjän sotilastiedustelupalvelu GRU:n koordinoima.",
-   "image": "https://images.sanoma-sndp.fi/1371128032346b19d3bc4320ff8b0f18/normal/1440.jpg",
-   "important": true,
-   "hot": true
-  },
-  {
-   "title": "Taas voitto! Suomi huudatti loppuunmyytyä kotihallia",
-   "link": "https://www.is.fi/koripallo/art-2000012414027.html",
-   "published": "2026-11-15T16:10:00+00:00",
-   "description": "Susiladies kaatoi Liettuan loppuunmyydyssä Urhea-hallissa.",
-   "image": "https://images.sanoma-sndp.fi/75cbf9ef6f39447e21134a4e5bdc7f3f/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Golf | Oliver Lindell nappasi paikan PGA Tourille: ”Piikki on auki”",
-   "link": "https://www.hs.fi/urheilu/art-2000012413802.html",
-   "published": "2026-11-15T16:09:00+00:00",
-   "description": "Oliver Lindellin unelma toteutui sunnuntaina.",
-   "image": "https://images.sanoma-sndp.fi/6adae9fef4f91b4dcd218062dc2fa658/normal/1440.jpg",
    "important": false,
    "hot": false
   }
@@ -331,6 +331,15 @@
  ],
  "maailma": [
   {
+   "title": "Czechs rally against plan to switch funding of public media",
+   "link": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-15T16:36:42+00:00",
+   "description": "Protesters say the move will stifle media freedom, while the coalition government insists broadcasters need to cut costs.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d10d/live/fe22eed0-e10e-11f1-b441-2b33b063138f.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
    "title": "Judge blocks Trump closure of 'Trash Island' Washington DC golf course on Sunday",
    "link": "https://www.bbc.co.uk/news/articles/c6j9mn7l14y0o?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-15T15:57:03+00:00",
@@ -372,7 +381,7 @@
    "published": "2026-11-15T13:42:58+00:00",
    "description": "It marks the second attack on the country in three days and comes as the US and Iran remain locked in a stand-off over the Strait of Hormuz.",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0351/live/2e8de2e0-e106-11f1-93e1-3b657b665bcf.jpg",
-   "important": true,
+   "important": false,
    "hot": false
   },
   {
@@ -417,7 +426,7 @@
    "published": "2026-11-15T08:17:41+00:00",
    "description": "Both Hamas and IDF officials confirm the death of Samir Abu Younis, commander of the Rafah Brigade.",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c19/live/fcdf6660-e0ce-11f1-a701-fddedf244c16.jpg",
-   "important": false,
+   "important": true,
    "hot": false
   },
   {
@@ -426,15 +435,6 @@
    "published": "2026-11-15T07:10:31+00:00",
    "description": "The US government is trying to find out whether the chaos was caused by \"incompetence\" or faulty equipment.",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3177/live/2aeb3c20-e0c3-11f1-b441-2b33b063138f.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "My mother told me I would die if I sought treatment for Ebola - I am proof you can survive",
-   "link": "https://www.bbc.co.uk/news/articles/cmvg2e2q28w1o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T00:06:55+00:00",
-   "description": "Fear and misinformation surrounds the Ebola outbreak in DR Congo - Dr Kamwanga's mother was not immune.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/94d8/live/8fe15d90-df82-11f1-b441-2b33b063138f.jpg",
    "important": false,
    "hot": false
   }
