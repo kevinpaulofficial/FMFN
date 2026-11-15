@@ -111,6 +111,24 @@
  ],
  "jalkapallo": [
   {
+   "title": "Papers: Guardiola to reject USA approach to replace Pochettino",
+   "link": "https://www.skysports.com/football/news/12040/13612630/pep-guardiola-usa-approach-to-replace-mauricio-pochettino-to-be-rejected-by-ex-man-city-boss-paper-talk",
+   "published": "2026-11-15T22:45:00+00:00",
+   "description": "The top stories and transfer rumours from Monday's newspapers...",
+   "image": "https://e2.365dm.com/26/08/1920x1080/skysports-paper-talk-football_7317647.jpg?20260809160824",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Duncan wins first LPGA title in 222 starts",
+   "link": "https://www.skysports.com/golf/news/12040/13612626/the-annika-lindy-duncan-wins-her-first-lpga-tour-title-after-222-starts",
+   "published": "2026-11-15T22:20:00+00:00",
+   "description": "Lindy Duncan was victorious for the first time on the LPGA Tour when she won The Annika on Sunday.",
+   "image": "https://e0.365dm.com/26/11/1920x1080/skysports-lindy-duncan-the-annika_7407346.jpg?20261115213244",
+   "important": false,
+   "hot": false
+  },
+  {
    "title": "Who swaggered around like he owned the place? Spain v England ratings",
    "link": "https://www.bbc.co.uk/sport/football/articles/cjg46lrpllrpo?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-15T22:12:55+00:00",
@@ -132,7 +150,7 @@
    "title": "England fend off fiery Spain fightback after Anderson’s red to top Nations League group",
    "link": "https://www.theguardian.com/football/2026/nov/15/spain-england-nations-league-match-report",
    "published": "2026-11-15T21:56:41+00:00",
-   "description": "It was the game to show Thomas Tuchel where his rebooted England team had got to; surely the ultimate test in international football. Spain in Spain. A world champion team who, in Tuchel’s words, had “forgotten how to lose.” Before this Nations League tie, they had been beaten only once in 43 matches – on penalties to Portugal in the final of this competition last year.What England produced for 65",
+   "description": "It was the game to show Thomas Tuchel where his rebooted England team had got to; surely the ultimate test in international football. Spain in Spain. A world champion team who, in Tuchel’s words, had “forgotten how to lose”. Before this Nations League tie, they had been beaten only once in 43 matches – on penalties by Portugal in the final of this competition last year.What England produced for 65",
    "image": "https://i.guim.co.uk/img/media/d0c1c28e0b0cd6e4f5291e64cc41835ff422e868/341_0_2559_2049/master/2559.jpg?width=140&quality=85&auto=format&fit=max&s=c7b8e55c901f0cfc60f98da5123d4d58",
    "important": false,
    "hot": true
@@ -197,24 +215,6 @@
    "published": "2026-11-15T19:31:48+00:00",
    "description": "Brazil legend Ronaldinho makes his comeback aged 46 for Ravenna, playing the first half of their Italian third-tier derby against Forli.",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/45e6/live/30f37df0-e116-11f1-a7db-d90284d21c62.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Red Brawl New York: Fighting and six red cards mar ‘friendly’ v Club América",
-   "link": "https://www.theguardian.com/football/2026/nov/15/red-bulls-club-america-brawl-friendly",
-   "published": "2026-11-15T19:29:41+00:00",
-   "description": "Game played without veterans and stars on both sidesRed Bulls’ MLS season is already overOne hallmark of Mauricio Pochettino’s time in international management has been his refusal to embrace the term “friendly”. His preferred branding is “unofficial games”.His spin gained a bit of validity on Saturday, in the New York Red Bulls’ “friendly” against Club América, marred by a mass brawl between the ",
-   "image": "https://i.guim.co.uk/img/media/c19f6fef45f589cf16e2866d06679fa4f492848b/456_0_2993_2394/master/2993.jpg?width=140&quality=85&auto=format&fit=max&s=4f58cc143692fd290fa5e5a44a1dd5fc",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Ronaldinho makes debut for Italian side Ravenna after 11-year hiatus in playing career",
-   "link": "https://www.theguardian.com/football/2026/nov/15/ronaldinho-debut-italian-side-ravenna-after-11-year-hiatus-playing-career",
-   "published": "2026-11-15T19:20:08+00:00",
-   "description": "Brazil legend plays first half for Serie C club at age 46‘Is this my last one? I don’t know,’ Ronaldinho saysRonaldinho played 45 minutes on his return to professional football in Italy. The 46-year-old Brazil great announced in June that he had signed for the Serie C side Ravenna, 11 years after he appeared to have brought his illustrious career to a close with Fluminense.Five months later, he wa",
-   "image": "https://i.guim.co.uk/img/media/b2be739bdd0e9308285d11bc9c739bc5df1d96f9/410_226_4067_3253/master/4067.jpg?width=140&quality=85&auto=format&fit=max&s=b3a41a9af1c7f166ff792a536502813c",
    "important": false,
    "hot": false
   }
@@ -331,6 +331,42 @@
  ],
  "maailma": [
   {
+   "title": "England stun Spain to end La Roja’s 43-game unbeaten run",
+   "link": "https://www.aljazeera.com/sports/2026/11/15/england-stun-spain-to-end-la-rojas-43-game-unbeaten-run?traffic_source=rss",
+   "published": "2026-11-15T22:40:01+00:00",
+   "description": "Spain suffer first defeat since March 2024 after losing 3-2 to England in Madrid despite grandstand finish.",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Cut national insurance for under-25s to create jobs, Milburn report to say",
+   "link": "https://www.bbc.co.uk/news/articles/c6p9dzmj514ko?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-15T22:30:03+00:00",
+   "description": "The report being launched this week will suggest gradually reducing employment costs over five years.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ad4a/live/a30d20c0-e117-11f1-a7db-d90284d21c62.png",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Police ban protests near 10 schools and five universities in Paris",
+   "link": "https://www.bbc.co.uk/news/articles/cqm2j0jvep4eo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-15T22:28:54+00:00",
+   "description": "The order will be in place from 16 to 20 November, Paris police chief Patrice Faure says.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ff1f/live/556dd490-e13a-11f1-9d9b-d15c0ae9fc2e.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Australia, UK, Canada and Italy urge Israel to allow critical aid to Gaza ahead of winter",
+   "link": "https://www.theguardian.com/australia-news/2026/nov/16/australia-uk-canada-italy-urge-israel-critical-aid-gaza-winter-ntwnfb",
+   "published": "2026-11-15T22:28:02+00:00",
+   "description": "Four countries call situation ‘entirely reversible’ in joint statement as flooding exacerbates humanitarian crisisAustralia, Canada, the United Kingdom and Italy have urged Israel to allow critical humanitarian aid to enter Gaza, describing the situation on the ground as “dire”.The four countries released a joint statement on Monday morning, urging Israel to allow 150,000 tents and other vital sup",
+   "image": "https://i.guim.co.uk/img/media/682a0487f17cbff2735306182cdbb7ec07b2d56c/785_0_3912_3131/master/3912.jpg?width=140&quality=85&auto=format&fit=max&s=f7bf201bcb081c3480d5b33a65ba7ba5",
+   "important": true,
+   "hot": true
+  },
+  {
    "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
    "link": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-15T22:24:20+00:00",
@@ -363,7 +399,7 @@
    "published": "2026-11-15T22:06:38+00:00",
    "description": "The countries accuse Israel of preventing tents and other supplies from entering Gaza, despite the humanitarian crisis.",
    "image": null,
-   "important": true,
+   "important": false,
    "hot": true
   },
   {
@@ -385,15 +421,6 @@
    "hot": false
   },
   {
-   "title": "Australia, UK, Canada and Italy urge Israel to allow critical aid to Gaza ahead of winter",
-   "link": "https://www.theguardian.com/australia-news/2026/nov/16/australia-uk-canada-italy-urge-israel-critical-aid-gaza-winter-ntwnfb",
-   "published": "2026-11-15T21:57:21+00:00",
-   "description": "Four countries call situation ‘entirely reversible’ in joint statement as flooding exacerbates humanitarian crisisGet our daily political email, free app or daily news podcastIn a joint statement the foreign ministers of Australia, Canada, the United Kingdom and Italy have urged Israel to allow critical humanitarian aid to enter Gaza, describing the situation on the ground as “dire”.The four relea",
-   "image": "https://i.guim.co.uk/img/media/682a0487f17cbff2735306182cdbb7ec07b2d56c/785_0_3912_3131/master/3912.jpg?width=140&quality=85&auto=format&fit=max&s=f7bf201bcb081c3480d5b33a65ba7ba5",
-   "important": false,
-   "hot": true
-  },
-  {
    "title": "US Treasury chief calls for outsider to lead embattled tech firm Nvidia",
    "link": "https://www.aljazeera.com/news/2026/11/15/us-treasury-chief-calls-for-outsider-to-lead-embattled-tech-firm-nvidia?traffic_source=rss",
    "published": "2026-11-15T21:47:47+00:00",
@@ -407,33 +434,6 @@
    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/yemens-houthis-unilaterally-release-600-war-detainees?traffic_source=rss",
    "published": "2026-11-15T21:19:08+00:00",
    "description": "Yemen’s Houthis have released 600 people imprisoned during the country’s civil war.",
-   "image": null,
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Somali-American Uber driver brutally assaulted in alleged hate crime in Minnesota",
-   "link": "https://www.theguardian.com/us-news/2026/nov/15/somali-american-uber-driver-attack-minnesota",
-   "published": "2026-11-15T21:10:38+00:00",
-   "description": "Mohamed Yusuf is fighting for his life after alleged attack by passenger who said he did not like driver’s first nameA Somali-American Uber driver was allegedly brutally assaulted by a passenger in Hopkins, Minnesota, on Saturday, in what his family says “appears to be a hate crime”.The driver, Mohamed Yusuf, is currently hospitalized and fighting for his life, his family told the Somali Brief, a ",
-   "image": "https://i.guim.co.uk/img/media/eaf70ca42983b5c08eef285f4fbbbd931e425378/15_0_4680_3744/master/4680.jpg?width=140&quality=85&auto=format&fit=max&s=298cc8090b56056a7a6f8025484c0d67",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Czechs rally against plan to switch funding of public media",
-   "link": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T21:03:40+00:00",
-   "description": "Protesters say the move will stifle media freedom, while the government insists broadcasters need to cut costs.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0f9f/live/b7b68ac0-e121-11f1-9705-e15ce514cc96.jpg",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Photos: Pope Leo visits Peru’s Amazon and Andean regions during 12-day tour",
-   "link": "https://www.aljazeera.com/gallery/2026/11/15/photos-pope-leo-visits-perus-amazon-and-andean-regions-during-12-day-tour?traffic_source=rss",
-   "published": "2026-11-15T20:54:13+00:00",
-   "description": "The pope has called for the preservation of Indigenous traditions in Peru as he wraps up a 12-day tour of Latin America.",
    "image": null,
    "important": false,
    "hot": false
