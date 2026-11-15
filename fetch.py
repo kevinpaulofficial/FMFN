@@ -6,15 +6,25 @@ from email.utils import parsedate_to_datetime
 NS = {"media": "http://search.yahoo.com/mrss/"}
 
 KEYWORDS = {
-    "suomi": ["hallitus", "eduskunta", "presidentti", "stubb", "orpo", "vaali",
-              "onnettomuus", "poliisi", "pakote", "raja", "budjetti", "inflaatio"],
-    "jalkapallo": ["premier league", "champions league", "world cup", "mm-",
-                   "final", "finaali", "transfer", "sacked", "title"],
+    "suomi": ["hallitus", "eduskunta", "orpo", "stubb", "budjetti", "vero",
+              "työttömyys", "työllisyys", "irtisanom", "yt-neuvottelu",
+              "inflaatio", "korko", "raja", "rajavartio", "nato", "venäjä",
+              "turvallisuus", "pakote", "vaali", "eurovision", "euroviisut",
+              "idols", "tangomarkkinat", "emma-gaala"],
+    "jalkapallo": ["premier league", "champions league", "uefa", "world cup",
+                   "mm-kisat", "mm-", "euro 20", "final", "finaali",
+                   "ballon d'or", "derby", "clasico"],
     "teknologia": ["quantum", "kvantti", "tekoäly", "artificial intelligence",
-                   "openai", "anthropic", "nvidia", "breakthrough", "chip", "launch"],
-    "maailma": ["war", "ceasefire", "election", "earthquake", "summit",
-                "attack", "president", "sanctions", "crisis"],
-    "musiikki": ["album", "tour", "festival", "grammy", "announces", "dies", "reunion"],
+                   "language model", "llm", "openai", "anthropic", "deepmind",
+                   "gemini", "chatgpt", "claude", "cybersecurity", "kyber",
+                   "hack", "breach", "ransomware", "vulnerability", "tietomurto"],
+    "maailma": ["war", "ceasefire", "ukraine", "gaza", "israel", "russia",
+                "china", "taiwan", "election", "sanctions", "tariff",
+                "inflation", "recession", "interest rate", "central bank",
+                "energy", "oil"],
+    "musiikki": ["album", "debut", "tour", "festival", "announces", "reunion",
+                 "dies", "electronic", "techno", "house", "rave", "suomi",
+                 "finnish", "breakthrough", "rising"],
 }
 
 STOP = set("the a an of to in on for and with from at by is are was were be as it its this that after over into new says say ja on ei että oli ovat se tai kuin mutta jo vai myös".split())
