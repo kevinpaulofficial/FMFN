@@ -30,7 +30,7 @@ h2{font-size:.95rem;margin:22px 0 8px;opacity:.7;text-transform:uppercase;letter
 #menu .row{display:flex;align-items:center;gap:6px;padding:4px 12px}
 #menu .row span{flex:1;font-size:.95rem}
 #menu .row .grip{flex:none;cursor:grab;touch-action:none;padding:6px 8px;font-size:1.1rem;opacity:.6;user-select:none}
-#menu .row.drag{background:var(--box);border-radius:8px}
+#menu .row.drag{position:relative;z-index:30;background:#fff;border-radius:10px;box-shadow:0 8px 22px rgba(0,0,0,.28)}
 #menu .edit{display:block;width:100%;margin-top:6px;padding:10px 12px;border:0;border-top:1px solid var(--box);background:none;text-align:left;font:inherit;font-size:.85rem;opacity:.75;cursor:pointer;color:var(--text)}
 </style>
 </head>
@@ -73,11 +73,15 @@ document.getElementById('menu').classList.remove('open');window.scrollTo(0,0)}
 var M=document.getElementById('menu');
 M.addEventListener('click',function(e){if(e.target.id!=="editbtn")return;
 if(EDIT){ORDER=DRAFT.slice();save();EDIT=false}else{DRAFT=ORDER.slice();EDIT=true}route(true)});
-M.addEventListener('pointerdown',function(e){var g=e.target.closest&&e.target.closest('.grip');if(!g)return;drag=g.parentNode;drag.classList.add('drag');g.setPointerCapture(e.pointerId);e.preventDefault()});
-M.addEventListener('pointermove',function(e){if(!drag)return;var rows=[].slice.call(M.querySelectorAll('.row')).filter(function(r){return r!==drag});
-for(var i=0;i<rows.length;i++){var b=rows[i].getBoundingClientRect();if(e.clientY<b.top+b.height/2){M.insertBefore(drag,rows[i]);return}}
-var l=rows[rows.length-1];l.parentNode.insertBefore(drag,l.nextSibling)});
-function endDrag(){if(!drag)return;drag.classList.remove('drag');drag=null;DRAFT=[].map.call(M.querySelectorAll('.row'),function(r){return r.dataset.c})}
+var grab=0;
+M.addEventListener('pointerdown',function(e){var g=e.target.closest&&e.target.closest('.grip');if(!g)return;drag=g.parentNode;grab=e.clientY-drag.getBoundingClientRect().top;drag.classList.add('drag');g.setPointerCapture(e.pointerId);e.preventDefault()});
+M.addEventListener('pointermove',function(e){if(!drag)return;
+drag.style.transform='';var top=e.clientY-grab,center=top+drag.offsetHeight/2;
+var rows=[].slice.call(M.querySelectorAll('.row')).filter(function(r){return r!==drag});
+var before=null;for(var i=0;i<rows.length;i++){var b=rows[i].getBoundingClientRect();if(center<b.top+b.height/2){before=rows[i];break}}
+if(before)M.insertBefore(drag,before);else{var l=rows[rows.length-1];l.parentNode.insertBefore(drag,l.nextSibling)}
+drag.style.transform='translateY('+(top-drag.getBoundingClientRect().top)+'px) scale(1.03)'});
+function endDrag(){if(!drag)return;drag.style.transform='';drag.classList.remove('drag');drag=null;DRAFT=[].map.call(M.querySelectorAll('.row'),function(r){return r.dataset.c})}
 M.addEventListener('pointerup',endDrag);M.addEventListener('pointercancel',endDrag);
 document.getElementById('ball').onclick=function(){document.getElementById('menu').classList.toggle('open')};
 window.addEventListener('hashchange',route);load().then(route).catch(function(){document.getElementById('app').textContent='Uutisten lataus epäonnistui.'});
