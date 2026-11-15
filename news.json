@@ -1,6 +1,24 @@
 {
  "suomi": [
   {
+   "title": "Jalkapallo | Suomi siirtyi heti johtoon San Marinoa vastaan",
+   "link": "https://www.hs.fi/urheilu/art-2000012413990.html",
+   "published": "2026-11-15T17:10:00+00:00",
+   "description": "HS seuraa Huuhkajien kamppailua piskuista San Marinoa vastaan.",
+   "image": "https://images.sanoma-sndp.fi/dab6f56ce44eff2a5ad7d55594fd5f6a/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Unelma-alku! Huuhkajat heti johtoon",
+   "link": "https://www.is.fi/huuhkajat/art-2000012413963.html",
+   "published": "2026-11-15T17:10:00+00:00",
+   "description": "IS seuraa Huuhkajien kamppailua piskuista San Marinoa vastaan.",
+   "image": "https://images.sanoma-sndp.fi/dab6f56ce44eff2a5ad7d55594fd5f6a/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
    "title": "Naton huippukokous perutaan – karu syy",
    "link": "https://www.is.fi/ulkomaat/art-2000012414109.html",
    "published": "2026-11-15T17:06:00+00:00",
@@ -24,15 +42,6 @@
    "published": "2026-11-15T17:03:00+00:00",
    "description": "Häkkänen sanoi Ylelle, että puolustusmenoista olisi parempi keskustella vaalien alla kulisseissa.",
    "image": "https://images.sanoma-sndp.fi/d21bb3f53d2f229ddb938577fc75a9cd/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Murskaako Huuhkajat San Marinon? Isoja muutoksia kokoonpanossa",
-   "link": "https://www.is.fi/huuhkajat/art-2000012413963.html",
-   "published": "2026-11-15T17:03:00+00:00",
-   "description": "IS seuraa Huuhkajien kamppailua piskuista San Marinoa vastaan.",
-   "image": "https://images.sanoma-sndp.fi/dab6f56ce44eff2a5ad7d55594fd5f6a/normal/1440.jpg",
    "important": false,
    "hot": false
   },
@@ -98,22 +107,13 @@
    "image": "https://images.sanoma-sndp.fi/1bff2fcd3b7338e91b92cb4fc00ed6b7/normal/1440.jpg",
    "important": false,
    "hot": false
-  },
-  {
-   "title": "Kommentti | Suomen naiskiekko on tuuliajolla",
-   "link": "https://www.hs.fi/urheilu/art-2000012414069.html",
-   "published": "2026-11-15T16:39:00+00:00",
-   "description": "Suomella on maanantaina edessä pronssipeli, mutta sen tulos ei muuta isoa kuvaa, kirjoittaa toimittaja Sasha Huttunen.",
-   "image": "https://images.sanoma-sndp.fi/71063cf84925489cce358feead60e47f/normal/1440.jpg",
-   "important": false,
-   "hot": false
   }
  ],
  "jalkapallo": [
   {
    "title": "Chapecoense crash survivor wins promotion in final game",
    "link": "https://www.bbc.co.uk/sport/football/articles/ckp8017p1e3go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T17:00:35+00:00",
+   "published": "2026-11-15T17:10:24+00:00",
    "description": "Alan Ruschel, one of six survivors in the 2016 plane crash that was carrying members of the Chapecoense team, wins promotion to Brazil‘s Serie A in his final match before retiring.",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/306d/live/586b44a0-e10f-11f1-b3df-4961589d9b68.jpg",
    "important": true,
@@ -134,15 +134,6 @@
    "published": "2026-11-15T16:48:00+00:00",
    "description": "London City Lionesses were not behind for long as Isobel Goodwin cancelled out Frida Maanum's opener.",
    "image": "https://e0.365dm.com/26/11/1920x1080/skysports-lcl-arsenal_7407161.jpg?20261115165417",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Live updates, reaction as Brazil legend Ronaldinho comes out of retirement at Ravenna to chase 300th goal",
-   "link": "https://www.espn.com/soccer/story/_/id/50489043/ronaldinho-ravenna-brazil-barcelona-serie-c",
-   "published": "2026-11-15T16:47:15+00:00",
-   "description": "Ronaldinho came out of retirement to play for Italian Serie C side Ravenna at age 46 in a bid to score his 300th career goal. Here's what happened.",
-   "image": null,
    "important": false,
    "hot": true
   },
@@ -210,13 +201,22 @@
    "hot": false
   },
   {
-   "title": "Departing Pochettino predicts 'amazing future' for USMNT after rout of Haiti",
-   "link": "https://www.espn.com/soccer/story/_/id/50484170/usa-haiti-christian-pulisic-goal-mauricio-pochettino",
-   "published": "2026-11-15T15:37:46+00:00",
-   "description": "Mauricio Pochettino said the USMNT has an \"amazing future\" after securing a 6-0 victory over Haiti in his penultimate game in charge of the team.",
-   "image": null,
+   "title": "Saves at either as Arsenal and London City hunt for next goal LIVE!",
+   "link": "https://www.skysports.com/football/arsenal-women-vs-london-city-lionesses/live/575818",
+   "published": "2026-11-15T15:20:00+00:00",
+   "description": "",
+   "image": "https://e0.365dm.com/26/11/1920x1080/skysports-isobel-goodwin-wsl_7407159.jpg?20261115164910",
    "important": false,
    "hot": true
+  },
+  {
+   "title": "Hatton targets Ryder Cup return and majors after Dubai victory",
+   "link": "https://www.skysports.com/golf/news/12040/13612487/tyrrell-hatton-targets-ryder-cup-return-for-team-europe-and-major-breakthrough-after-dp-world-tour-championship-win",
+   "published": "2026-11-15T15:00:00+00:00",
+   "description": "Tyrrell Hatton has set his sights on a Ryder Cup return and challenging for majors next season after storming to a five-shot victory at the DP World Tour Championship.",
+   "image": "https://e1.365dm.com/26/11/1920x1080/skysports-tyrrell-hatton-golf_7407060.jpg?20261115145449",
+   "important": false,
+   "hot": false
   }
  ],
  "teknologia": [
@@ -331,11 +331,38 @@
  ],
  "maailma": [
   {
+   "title": "Burnham pledges early intervention and ‘benefits backstop’ to tackle youth jobs crisis",
+   "link": "https://www.theguardian.com/society/2026/nov/15/no-free-lunch-milburn-mcfadden-kuenssberg-uk-benefits-youth-unemployment-neet",
+   "published": "2026-11-15T17:04:55+00:00",
+   "description": "Prime minister promises ‘root-and-branch rethink’ of support for young people as Milburn report advises sweeping changes to some benefitsAndy Burnham has pledged to intervene as early as childhood to tackle youth unemployment before a watershed review, promising “a root-and-branch rethink of how we support childhood in the modern world”.Burnham said the government would intervene at all the stages",
+   "image": "https://i.guim.co.uk/img/media/b9948bd228b02aa56a0356f2a3f2713b85d83833/290_0_4473_3579/master/4473.jpg?width=140&quality=85&auto=format&fit=max&s=ac37a8f6dd0b557e724874bc86532ce8",
+   "important": false,
+   "hot": false
+  },
+  {
    "title": "Planned asylum seeker detention centre next to Oxfordshire sewage works criticised",
    "link": "https://www.theguardian.com/uk-news/2026/nov/15/planned-asylum-seeker-detention-centre-next-to-oxfordshire-sewage-works-criticised",
    "published": "2026-11-15T16:47:39+00:00",
    "description": "Thames Water says detainees at proposed accommodation should expect to experience insect swarms and strong smellsA Home Office plan to build asylum seeker detention facilities next to a sewage pump is facing objections after water company officials warned that detainees should expect to experience insect swarms and strong smells.Proposed secure accommodation blocks at Campsfield House immigration ",
    "image": "https://i.guim.co.uk/img/media/d09ed18d9dd0cdd685e28614ca19c5a774a69750/268_0_2268_1816/master/2268.jpg?width=140&quality=85&auto=format&fit=max&s=a94ae645f7999f7bde5d4240fd8be790",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Somalia: We would not have recovered without the international community",
+   "link": "https://www.aljazeera.com/video/talk-to-al-jazeera/2026/11/15/somalia-we-would-not-have-recovered-without-the-international-community?traffic_source=rss",
+   "published": "2026-11-15T16:47:36+00:00",
+   "description": "Somalia continues to face al-Shabab rebellion and political friction, leading officials to urge international support.",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "LIVE: Spain vs England – UEFA Nations League",
+   "link": "https://www.aljazeera.com/sports/liveblog/2026/11/15/live-spain-vs-england-uefa-nations-league?traffic_source=rss",
+   "published": "2026-11-15T16:45:00+00:00",
+   "description": "Previews, team news and live text commentary as England and Spain vie for top spot in final Nations League group game.",
+   "image": null,
    "important": false,
    "hot": false
   },
@@ -410,33 +437,6 @@
    "image": "https://i.guim.co.uk/img/media/2268d8ddd3bcce1ac57e4531e97ad0d576a953b9/386_0_2367_1893/master/2367.jpg?width=140&quality=85&auto=format&fit=max&s=4b04d24e85d7e5b7e7d675f05f6e24b8",
    "important": false,
    "hot": false
-  },
-  {
-   "title": "70 bodies recovered from Gaza rubble, thousands still missing",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/70-bodies-recovered-from-gaza-rubble-thousands-still-missing?traffic_source=rss",
-   "published": "2026-11-15T15:32:43+00:00",
-   "description": "70 bodies recovered from Gaza rubble, thousands still missing",
-   "image": null,
-   "important": true,
-   "hot": false
-  },
-  {
-   "title": "Will Iraq’s oil smuggling crackdown disarm militias without a conflict?",
-   "link": "https://www.aljazeera.com/news/2026/11/15/will-iraqs-oil-smuggllng-crackdown-disarm-militias-without-a-conflict?traffic_source=rss",
-   "published": "2026-11-15T15:21:21+00:00",
-   "description": "Iraq has dismantled an alleged smuggling ring in Jurf al-Sakhar which could squeeze militias and avert internal strife",
-   "image": null,
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "20 years of Al Jazeera English: Our story is still being written",
-   "link": "https://www.aljazeera.com/opinions/2026/11/15/20-years-of-al-jazeera-english-our-story-is-still-being-written?traffic_source=rss",
-   "published": "2026-11-15T15:21:12+00:00",
-   "description": "As we celebrate our 20th anniversary, we remain committed to our values and the quality of our journalism.",
-   "image": null,
-   "important": false,
-   "hot": true
   }
  ],
  "musiikki": [
