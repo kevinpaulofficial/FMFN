@@ -1,6 +1,42 @@
 {
  "suomi": [
   {
+   "title": "Sudenmetsästys | Suomen susilaumoja aiotaan hävittää kyseenalaisin perustein",
+   "link": "https://www.hs.fi/nakemys/art-2000012410748.html",
+   "published": "2026-11-15T17:15:00+00:00",
+   "description": "Sudenmetsästykselle esitettyjen perustelujen taso on selvästi laskenut, ja se voi pitkällä aikavälillä romahduttaa koko Suomen susikannan.",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Erik Tammenpää, 27, lopetti jääkiekon juuri, kun alkoi olla hyvä – nyt hänellä on hurja unelma",
+   "link": "https://www.is.fi/esports/art-2000012359319.html",
+   "published": "2026-11-15T17:14:00+00:00",
+   "description": "Erik Tammenpää voitti 19-vuotiaana NHL-videopelin maailmanmestaruuden. Nyt vuosia myöhemmin hän yrittää toteuttaa vanhan unelmansa oikeassa jääkiekossa. Välissä vakava sairastelu vei häneltä kyvyn urheilla kolmeksi vuodeksi.",
+   "image": "https://images.sanoma-sndp.fi/da583a613584cccfa04c5024410480f1/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Konserttiarvostelu | Isac Elliotista tuli isä, ja se näkyi myös Nokia-areenan lavalla",
+   "link": "https://www.hs.fi/popkulttuuri/art-2000012386089.html",
+   "published": "2026-11-15T17:13:00+00:00",
+   "description": "Isac Elliot paljasti lauantaina esiintyvänsä Helsingin olympiastadionilla ensi vuoden elokuussa.",
+   "image": "https://images.sanoma-sndp.fi/87333775705f19411bad581372cbfdbf/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Sara ja Mikko Parikka muuttivat uuteen kotiin – tästä toiveesta piti tinkiä",
+   "link": "https://www.is.fi/viihde/art-2000012414086.html",
+   "published": "2026-11-15T17:13:00+00:00",
+   "description": "Sara Parikka kertoo, millaiseen kotiin on perheineen muuttanut.",
+   "image": "https://images.sanoma-sndp.fi/fba111c33ac6d60deb685ddf088b89f5/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
    "title": "Jalkapallo | Suomi siirtyi heti johtoon San Marinoa vastaan",
    "link": "https://www.hs.fi/urheilu/art-2000012413990.html",
    "published": "2026-11-15T17:10:00+00:00",
@@ -69,42 +105,6 @@
    "published": "2026-11-15T17:00:00+00:00",
    "description": "Natalee Holloway katosi lomamatkalla Aruballa vuonna 2005. Hänen katoamistaan käsitellään Netflixin uudessa dokumenttisarjassa Taken: Natalee Holloway.",
    "image": "https://images.sanoma-sndp.fi/38f82a6068d05f6792a258a434f08d0f/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Koripallo | Susiladies nappasi kovan voiton loppuunmyydyn yleisön edessä, Awak Kuier pitelemätön",
-   "link": "https://www.hs.fi/urheilu/art-2000012393423.html",
-   "published": "2026-11-15T16:53:00+00:00",
-   "description": "Susiladies kaatoi Liettuan loppuunmyydyssä Urhea-hallissa.",
-   "image": "https://images.sanoma-sndp.fi/75cbf9ef6f39447e21134a4e5bdc7f3f/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Suomi romahti MM-välierässä – USA finaaliin",
-   "link": "https://www.is.fi/jaakiekko/art-2000012413693.html",
-   "published": "2026-11-15T16:47:00+00:00",
-   "description": "Naisleijonat pelasi paikasta MM-finaaliin. IS seurasi hetki hetkeltä.",
-   "image": "https://images.sanoma-sndp.fi/9f742d2b52cf5db8ec10eac452be6173/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Rangaistukset | Yhdyskuntapalvelu on vaarassa järjestöleikkausten takia",
-   "link": "https://www.hs.fi/mielipide/art-2000012398727.html",
-   "published": "2026-11-15T16:45:00+00:00",
-   "description": "Järjestöihin ja hyvinvointialueisiin kohdistuvat leikkaukset vaarantavat suorituspaikkaverkoston, jonka varaan koko seuraamusmuoto rakentuu.",
-   "image": null,
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Petteri muutti metsään – huolestui painonsa nopeasta tippumisesta: ”Päälle 23 kiloa”",
-   "link": "https://www.is.fi/kotimaa/art-2000012402598.html",
-   "published": "2026-11-15T16:45:00+00:00",
-   "description": "Petteri Veijonen, 34, on elänyt metsässä yli 50 päivää pelkillä luonnon antimilla. Erityisesti yksi asia huolettaa kokenutta selviytyjää.",
-   "image": "https://images.sanoma-sndp.fi/1bff2fcd3b7338e91b92cb4fc00ed6b7/normal/1440.jpg",
    "important": false,
    "hot": false
   }
@@ -201,7 +201,7 @@
    "hot": false
   },
   {
-   "title": "Saves at either as Arsenal and London City hunt for next goal LIVE!",
+   "title": "Saves at either end as Arsenal and London City hunt for next goal LIVE!",
    "link": "https://www.skysports.com/football/arsenal-women-vs-london-city-lionesses/live/575818",
    "published": "2026-11-15T15:20:00+00:00",
    "description": "",
@@ -331,12 +331,12 @@
  ],
  "maailma": [
   {
-   "title": "Burnham pledges early intervention and ‘benefits backstop’ to tackle youth jobs crisis",
+   "title": "‘No such thing as a free lunch,’ says Milburn as he warns it will take a decade for UK benefits bill to come down",
    "link": "https://www.theguardian.com/society/2026/nov/15/no-free-lunch-milburn-mcfadden-kuenssberg-uk-benefits-youth-unemployment-neet",
    "published": "2026-11-15T17:04:55+00:00",
-   "description": "Prime minister promises ‘root-and-branch rethink’ of support for young people as Milburn report advises sweeping changes to some benefitsAndy Burnham has pledged to intervene as early as childhood to tackle youth unemployment before a watershed review, promising “a root-and-branch rethink of how we support childhood in the modern world”.Burnham said the government would intervene at all the stages",
-   "image": "https://i.guim.co.uk/img/media/b9948bd228b02aa56a0356f2a3f2713b85d83833/290_0_4473_3579/master/4473.jpg?width=140&quality=85&auto=format&fit=max&s=ac37a8f6dd0b557e724874bc86532ce8",
-   "important": false,
+   "description": "Author of major review into youth unemployment rejects ‘crude cuts’ to payments and downplays opposition to his proposals within LabourAndy Burnham has pledged to intervene as early as childhood to tackle youth unemployment before a watershed review, promising “a root-and-branch rethink of how we support childhood in the modern world”.Burnham said the government would intervene at all the stages o",
+   "image": "https://i.guim.co.uk/img/media/c641e402d808f00f61489b84a29a01069fdf14bf/732_0_3668_2934/master/3668.jpg?width=140&quality=85&auto=format&fit=max&s=aded45acaa33a2eb854ceafca8e9fd05",
+   "important": true,
    "hot": false
   },
   {
