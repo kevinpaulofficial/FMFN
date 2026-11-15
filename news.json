@@ -1,6 +1,87 @@
 {
  "suomi": [
   {
+   "title": "Nvidia-kohussa uskomaton käänne – FT: Jensen Huang aikoo takaisin yhtiön johtoon",
+   "link": "https://www.is.fi/ulkomaat/art-2000012414356.html",
+   "published": "2026-11-15T19:57:00+00:00",
+   "description": "Kohun keskellä eronnut Jensen Huang harkitsee paluuta Nvidian toimitusjohtajaksi vain päiviä lähtönsä jälkeen. Teknologiamaailman vaikutusvaltaiset nimet kampanjoivat hänen puolestaan.",
+   "image": "https://images.sanoma-sndp.fi/09d9fb2559928c30fb376d21c6e2167d/normal/1440.jpg",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Jalkapallo | Jacob Friis otti kantaa asemaansa Huuhkajissa: ”Näen itseni oikeana henkilönä”",
+   "link": "https://www.hs.fi/urheilu/art-2000012414387.html",
+   "published": "2026-11-15T19:56:00+00:00",
+   "description": "Friisin mielestä olisi erikoista, jos hänen työtään alettaisiin arvioida muilla perusteilla kuin niillä, joiden vuoksi hänet palkattiin.",
+   "image": "https://images.sanoma-sndp.fi/b7a86b7f387eb2f10e846d143793b3dd/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "NRK: Asejätti Nammon tietoja saattanut vuotaa Elon Muskin yhtiöstä",
+   "link": "https://www.is.fi/ulkomaat/art-2000012414323.html",
+   "published": "2026-11-15T19:52:00+00:00",
+   "description": "Nammon mukaan mitään arkaluontoisia tietoja ei ole vuotanut.",
+   "image": "https://images.sanoma-sndp.fi/bae963fee612e16d41cebc601f10e70d/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Otto Virtanen: turnausvoitto Ranskassa",
+   "link": "https://www.is.fi/tennis/art-2000012414341.html",
+   "published": "2026-11-15T19:43:00+00:00",
+   "description": "Otto Virtanen voitti juuri ennen Helsingin kotiturnausta.",
+   "image": "https://images.sanoma-sndp.fi/6098a885e004cba9e245b54a18fe9805/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Tennis | Otto Virtaselta musertava esitys finaalissa: ottelu päättyi alle tunnissa",
+   "link": "https://www.hs.fi/urheilu/art-2000012414368.html",
+   "published": "2026-11-15T19:35:00+00:00",
+   "description": "Otto Virtanen voitti juuri ennen Helsingin kotiturnausta.",
+   "image": "https://images.sanoma-sndp.fi/6098a885e004cba9e245b54a18fe9805/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Suomessa vahva reaktio Viron toimiin itärajalla – asian­tuntijalta vakava viesti Venäjälle",
+   "link": "https://www.is.fi/kotimaa/art-2000012414099.html",
+   "published": "2026-11-15T19:31:00+00:00",
+   "description": "Viron päätös sulkea Venäjän-vastainen rajansa saa kiitosta suomalaisilta turvallisuuspolitiikan asiantuntijoilta ja poliitikoilta.",
+   "image": "https://images.sanoma-sndp.fi/0448200c1cf0025d1147c95118caf6a8/normal/1440.jpg",
+   "important": true,
+   "hot": false
+  },
+  {
+   "title": "Kuollut mies voittamassa vaalit Kaliforniassa",
+   "link": "https://www.is.fi/ulkomaat/art-2000012414195.html",
+   "published": "2026-11-15T19:30:00+00:00",
+   "description": "Edesmenneen ehdokkaan kampanjatiimi halusi varmistaa, ettei vastaehdokas voita.",
+   "image": "https://images.sanoma-sndp.fi/ac0f3ce524243abddc6609a07b83a3ab/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Analyysi: Jacob Friisin aika on ohi – pahin ratkaisu olisi katastrofi Huuhkajille",
+   "link": "https://www.is.fi/huuhkajat/art-2000012408667.html",
+   "published": "2026-11-15T19:24:00+00:00",
+   "description": "Suomen miesten jalkapallomaajoukkue on sukeltanut aallonpohjaan, jollainen nähtiin viimeksi kymmenen vuotta sitten. Palloliiton johdon päätöksentekokyky mitataan nyt toden teolla, kirjoittaa Tuukka Kotimäki analyysissään.",
+   "image": "https://images.sanoma-sndp.fi/b0cdfe048cb893b3301bfddbe9089385/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "He putosivat TTK:sta",
+   "link": "https://www.is.fi/viihde/art-2000012414183.html",
+   "published": "2026-11-15T19:22:00+00:00",
+   "description": "TTK lähenee loppuaan, jäljellä on enää kolme paria.",
+   "image": "https://images.sanoma-sndp.fi/5712810191236b0c009371e54a497d8e/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
    "title": "Jorma Uotisen nuiva kommentti Jaakko Parkkalille ihmetyttää – ”Asenneongelma”",
    "link": "https://www.is.fi/viihde/art-2000012414316.html",
    "published": "2026-11-15T19:14:00+00:00",
@@ -15,118 +96,91 @@
    "published": "2026-11-15T19:07:00+00:00",
    "description": "Perumisen taustalla on uutistoimistojen mukaan jäsenmaiden väliset jännittet. Seuraava huippukokous järjestetään aikaisintaan vuonna 2028.",
    "image": null,
-   "important": true,
+   "important": false,
    "hot": false
   },
   {
-   "title": "Venäjä ulos nuorten MM-kisoista – nyt puhuu asiantuntija: ”Iso voitto”",
+   "title": "Venäjä ulos nuorten MM-kisoista – päätöksellä iso seuraus?",
    "link": "https://www.is.fi/jaakiekko/art-2000012414235.html",
    "published": "2026-11-15T19:06:00+00:00",
    "description": "IIHF päätti, ettei Venäjä pelaa nuorten MM-kisoissa.",
    "image": "https://images.sanoma-sndp.fi/afe94bbcdb58cc597aaef9cd45b3305a/normal/1440.jpg",
    "important": false,
    "hot": true
-  },
-  {
-   "title": "Selviytyjistä pudonnut puhkeaa itkuun – pelkää menettäneensä jotain korvaamatonta",
-   "link": "https://www.is.fi/tv-ja-elokuvat/art-2000012410151.html",
-   "published": "2026-11-15T19:01:00+00:00",
-   "description": "Tuoreessa Selviytyjät Suomi -jaksossa Tommi Manninen putosi kilpailusta ja siirtyi toisena kilpailijana heimoneuvostoon. Hän vuodattaa kyyneleitä puhuessaan kameroille vaimostaan ja lapsestaan. Miehen takaraivossa kytee huoli siitä, että hän on jäänyt paitsi perheensä ainutlaatuisesta hetkestä.",
-   "image": "https://images.sanoma-sndp.fi/499a9592338d8e7332425337b6edfa21/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Puheenvuoro | Suomalaiset eivät hevin lähde heittelemään kiviä, professori sanoo",
-   "link": "https://www.hs.fi/nakemys/art-2000012362202.html",
-   "published": "2026-11-15T19:00:00+00:00",
-   "description": "Ranskassa mielenosoitukset voivat kaataa hallituksia, Suomessa protestit toimivat toisin. Sosiologian professori Eeva Luhtakallion mukaan ero johtuu kansalaisten suhteesta valtioon.",
-   "image": "https://images.sanoma-sndp.fi/e6f3a3e4b02e1c24b59842c17527d888/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Pääkirjoitus: Microsoftin häiriö näytti todeksi sen, miten riippuvaisia olemme yksittäisistä toimijoista",
-   "link": "https://www.is.fi/paakirjoitus/art-2000012413566.html",
-   "published": "2026-11-15T19:00:00+00:00",
-   "description": "Eurooppalaisilla ei juuri ole omia järjestelmiä, joten olemme pitkälti yhdysvaltalaisten teknojättien varassa.",
-   "image": "https://images.sanoma-sndp.fi/b29e21e7c40a8bcb8d95e9cb2586ffad/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Datakeskusten sähköstä iso osa menee hukkaan: Suomalaisyhtiö sai miljoonapotin hävikin pienentämiseksi",
-   "link": "https://www.kauppalehti.fi/uutiset/a/b48aea3b-e6f7-4923-98ca-893b5bdb5bda?utm_source=rss",
-   "published": "2026-11-15T19:00:00+00:00",
-   "description": "Suomalaisyhtiö aikoo aloittaa tehokonvertterien sarjatuotannon ensi vuoden aikana.",
-   "image": null,
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Pesukarhu ryntäsi viinakauppaan ja sammui Virginiassa – eläinyhdistys on netonnut 300 000 dollaria",
-   "link": "https://yle.fi/a/74-20257071?origin=rss",
-   "published": "2026-11-15T18:56:42+00:00",
-   "description": "Pesukarhun pikkujoulut päättyivät vessan lattialle ja meemiksi internettiin viime joulukuussa.",
-   "image": null,
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Tällaisen yhtiön drooni­tehtaan Venäjän epäillään yrittäneen räjäyttää Virossa",
-   "link": "https://www.is.fi/ulkomaat/art-2000012414213.html",
-   "published": "2026-11-15T18:56:00+00:00",
-   "description": "Virolaisyhtiö on kasvanut nopeasti. Järjestelmät ovat olleet Ukrainan käytössä jo vuosia. Ja yksi asiakkaista on Suomi.",
-   "image": "https://images.sanoma-sndp.fi/2e913fe7012365baf200520df61a6de9/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Kommentti: Murskavoitto ei pelasta Jacob Friisiä",
-   "link": "https://www.is.fi/huuhkajat/art-2000012413738.html",
-   "published": "2026-11-15T18:56:00+00:00",
-   "description": "Ennen kokematon ilo vaihtui seitsemässä vuodessa turhauttavaksi tempoiluksi, kirjoittaa toimittaja Janne Kosunen Töölön Bolt-areenalta.",
-   "image": "https://images.sanoma-sndp.fi/ab51096b09c3adc201ae957e44a39496/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Jalkapallo | Suomelle murskavoitto 7–2, San Marinolle harvinainen saavutus: kaksi maalia",
-   "link": "https://www.hs.fi/urheilu/art-2000012413990.html",
-   "published": "2026-11-15T18:53:00+00:00",
-   "description": "HS seurasi Huuhkajien kamppailua piskuista San Marinoa vastaan.",
-   "image": "https://images.sanoma-sndp.fi/5b3b9666d43b531e17ce4551e5c04c7a/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Huuhkajille murskavoitto! San Marino onnistui harvinaisessa tempussa",
-   "link": "https://www.is.fi/huuhkajat/art-2000012413963.html",
-   "published": "2026-11-15T18:53:00+00:00",
-   "description": "IS seurasi Huuhkajien kamppailua piskuista San Marinoa vastaan.",
-   "image": "https://images.sanoma-sndp.fi/5b3b9666d43b531e17ce4551e5c04c7a/normal/1440.jpg",
-   "important": false,
-   "hot": false
   }
  ],
  "jalkapallo": [
   {
+   "title": "Aston Villa beat Birmingham in WSL derby",
+   "link": "https://www.bbc.co.uk/sport/football/videos/cjp3v5pndyz1o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-15T19:47:37+00:00",
+   "description": "Mathilde Harviken scores the only goal as Aston Villa beat Birmingham City in their first Women's Super League derby since May 2022.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2b5a/live/dbf1e190-e10e-11f1-a2d0-ff163dc3689d.jpg",
+   "important": true,
+   "hot": false
+  },
+  {
    "title": "Spain v England: Nations League – live",
    "link": "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-live",
-   "published": "2026-11-15T18:58:54+00:00",
-   "description": "Updates from 7.45pm (GMT) kick-off in MadridGet in touch: email Daniel and follow us on BlueSkyEmail! “Thanks for putting up the squad list,” says Edan Tal. “Delighted that Clint Hill finally managed his long awaited call up.”Shaun Derry next. Or Dan Burn. Continue reading...",
+   "published": "2026-11-15T19:45:12+00:00",
+   "description": "Updates from 7.45pm (GMT) kick-off in MadridGet in touch: email Daniel and follow us on BlueSkyTuchel speaks, telling ITV that “it’s a beautiful match”. They’ve qualified, done their homework and now can try and top the group.Quansah keeps his place for doing well, while he wants to see White under pressure and cites his club partnership with Konsa as a reason for picking him, just as last game, h",
    "image": "https://i.guim.co.uk/img/media/eb25859a484613d72c89348a46cf89f5e6032344/252_0_2497_1998/master/2497.jpg?width=140&quality=85&auto=format&fit=max&s=e3687b3721512af69b3aaf271a206b0e",
    "important": false,
    "hot": true
+  },
+  {
+   "title": "Struggling Charlton make WSL history after defeat at West Ham",
+   "link": "https://www.bbc.co.uk/sport/football/videos/c6kg7rpkr3jlo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-15T19:43:57+00:00",
+   "description": "Charlton Athletic become the first team in Women's Super League history to lose their opening 10 matches of the season as Viviane Asseyi scores twice to guide West Ham United to victory.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ede/live/02b680b0-e10f-11f1-93e1-3b657b665bcf.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Ronaldinho makes comeback in Ravenna win",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ckregz4g823xo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-15T19:31:48+00:00",
+   "description": "Brazil legend Ronaldinho makes his comeback aged 46 for Ravenna, playing the first half of their Italian third-tier derby against Forli.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/45e6/live/30f37df0-e116-11f1-a7db-d90284d21c62.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Five red cards issued for mass brawl in New York Red Bulls v Club América friendly",
+   "link": "https://www.theguardian.com/football/2026/nov/15/red-bulls-club-america-brawl-friendly",
+   "published": "2026-11-15T19:29:41+00:00",
+   "description": "Game played without veterans and stars on both sidesRed Bulls’ MLS season is already overOne hallmark of Mauricio Pochettino’s time in international management was been his refusal to embrace the term “friendly.” His preferred branding is “unofficial games”.His spin gained a bit of validity on Saturday, in the New York Red Bulls’ “friendly” against Club América, marred by a mass brawl between the ",
+   "image": "https://i.guim.co.uk/img/media/c19f6fef45f589cf16e2866d06679fa4f492848b/456_0_2993_2394/master/2993.jpg?width=140&quality=85&auto=format&fit=max&s=4f58cc143692fd290fa5e5a44a1dd5fc",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Ronaldinho makes debut for Italian side Ravenna after 11-year hiatus in playing career",
+   "link": "https://www.theguardian.com/football/2026/nov/15/ronaldinho-debut-italian-side-ravenna-after-11-year-hiatus-playing-career",
+   "published": "2026-11-15T19:20:08+00:00",
+   "description": "Brazil legend plays first half for Serie C club at age 46‘Is this my last one? I don’t know,’ Ronaldinho saysRonaldinho played 45 minutes on his return to professional football in Italy. The 46-year-old Brazil great announced in June that he had signed for the Serie C side Ravenna, 11 years after he appeared to have brought his illustrious career to a close with Fluminense.Five months later, he wa",
+   "image": "https://i.guim.co.uk/img/media/b2be739bdd0e9308285d11bc9c739bc5df1d96f9/410_226_4067_3253/master/4067.jpg?width=140&quality=85&auto=format&fit=max&s=b3a41a9af1c7f166ff792a536502813c",
+   "important": false,
+   "hot": false
   },
   {
    "title": "Mary Earps frustrates Arsenal as London City Lionesses earn battling draw",
    "link": "https://www.theguardian.com/football/2026/nov/15/arsenal-london-city-lionesses-womens-super-league-wsl-match-report",
    "published": "2026-11-15T18:53:08+00:00",
    "description": "Arsenal and London City Lionesses played out an entertaining 1-1 draw but the result did little to bolster European qualification hopes for Renée Slegers’s side as the visitors’ goalkeeper Mary Earps produced a fine display to thwart the north London side.Frida Maanum finished off a superb team move for Arsenal to open the scoring early on but her goal was quickly cancelled out by a terrific finis",
-   "image": "https://i.guim.co.uk/img/media/275d5ab2d560622a6980ea938389fceff9026a27/419_0_4186_3349/master/4186.jpg?width=140&quality=85&auto=format&fit=max&s=6ed2084c21d709a677746ca4578d7f4f",
+   "image": "https://i.guim.co.uk/img/media/f766c814f43fc2252f70407636afd83f120af270/8_0_2641_2113/master/2641.jpg?width=140&quality=85&auto=format&fit=max&s=44de5dba32d707c5c309cc0756b15737",
    "important": false,
    "hot": true
+  },
+  {
+   "title": "Ex-Aussie bowler rejects Cummins' sandpapergate claim: 'Everyone knew'",
+   "link": "https://www.skysports.com/cricket/news/12040/13612567/chadd-sayers-former-australian-bowler-rejects-pat-cummins-claims-about-sandpapergate-everyone-knew-what-was-going-on",
+   "published": "2026-11-15T18:49:00+00:00",
+   "description": "Former Australia bowler Chadd Sayers has challenged Pat Cummins' account of the sandpaper scandal, restating his belief that \"everyone in that side\" was aware of the ball tampering plot.",
+   "image": "https://e0.365dm.com/26/11/1920x1080/skysports-chadd-sayers_7406867.jpg?20261115191123",
+   "important": false,
+   "hot": false
   },
   {
    "title": "Grand Slam of Darts LIVE! Greaves in must-win clash with Evans, Smith also playing",
@@ -138,22 +192,13 @@
    "hot": false
   },
   {
-   "title": "Earps masterclass helps London City deny Arsenal first WSL home win",
+   "title": "Earps stars as London City frustrate Arsenal to seal point at Emirates",
    "link": "https://www.skysports.com/watch/video/13612562/arsenal-1-1-london-city-lionesses-wsl-highlights",
    "published": "2026-11-15T18:37:00+00:00",
    "description": "Highlights of the Women's Super League match between Arsenal and London City Lionesses.",
    "image": "https://e2.365dm.com/26/11/1920x1080/skysports-arsenal-lcl-wsl_7407250.jpg?20261115182624",
    "important": false,
    "hot": true
-  },
-  {
-   "title": "Ronaldinho makes comeback in Ravenna win",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ckregz4g823xo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T18:33:36+00:00",
-   "description": "Brazil legend Ronaldinho makes his comeback aged 46 for Ravenna, playing the first half of their Italian third-tier derby against Forli.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/45e6/live/30f37df0-e116-11f1-a7db-d90284d21c62.jpg",
-   "important": false,
-   "hot": false
   },
   {
    "title": "Arsenal's wait for home WSL win goes on after Earps masterclass",
@@ -165,56 +210,11 @@
    "hot": true
   },
   {
-   "title": "Frick named new head coach at Aberdeen",
+   "title": "Aberdeen appoint Liechtenstein's Frick as head coach",
    "link": "https://www.bbc.co.uk/sport/football/articles/cqrmgz9ypvwko?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-15T18:27:08+00:00",
    "description": "Former Liechtenstein striker Mario Frick is announced as the new head coach of Aberdeen.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/212b/live/2366df60-e125-11f1-9198-73c27e618086.jpg",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Frick named new head coach at Aberdeen",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cqrmgz9ypvwko?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T18:27:08+00:00",
-   "description": "Former Liechtenstein striker Mario Frick is announced as the new head coach of Aberdeen.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/212b/live/2366df60-e125-11f1-9198-73c27e618086.jpg",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Children's tournament abandoned for parents' behaviour",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cmp867d026nno?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T18:24:54+00:00",
-   "description": "A football tournament for nine and 10-year-olds in Italy is suspended because of parents fighting, spitting and shouting homophobic abuse at a child and a referee.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d368/live/30545390-e11d-11f1-a7a2-7bb21fac8f0b.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Sule strikes late as Scotland U21s snatch draw against USA",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c6894vj39g33o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T18:11:08+00:00",
-   "description": "St Mirren forward Eseosa Sule came off the bench to score a late penalty as Scotland U21s drew 1-1 with USA U23s in Spain.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7146/live/d7b69920-e11f-11f1-a7a2-7bb21fac8f0b.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Why 'inspiring' Van Gaal influences Scotland head coach Pocognoli",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cw1mdl14dzx8o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T17:56:57+00:00",
-   "description": "Scotland head coach Sebastien Pocognoli says he draws on the influence of iconic manager Louis van Gaal in his own coaching career.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/94b0/live/8883ed70-e11b-11f1-a7a2-7bb21fac8f0b.jpg",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Why 'inspiring' Van Gaal influences Scotland head coach Pocognoli",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cw1mdl14dzx8o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T17:56:57+00:00",
-   "description": "Scotland head coach Sebastien Pocognoli says he draws on the influence of iconic manager Louis van Gaal in his own coaching career.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/94b0/live/8883ed70-e11b-11f1-a7a2-7bb21fac8f0b.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d041/live/dc9e92f0-e127-11f1-9d32-63e01ae9cf36.jpg",
    "important": false,
    "hot": true
   }
@@ -331,6 +331,33 @@
  ],
  "maailma": [
   {
+   "title": "LSU star MiLaysia Fulwiley arrested after allegedly striking police officer with car",
+   "link": "https://www.theguardian.com/sport/2026/nov/15/lsu-star-milaysia-fulwiley-arrested-after-allegedly-striking-police-officer-with-car",
+   "published": "2026-11-15T19:53:07+00:00",
+   "description": "Guard allegedly tried to flee traffic stop in Baton RougeTigers say they are aware of situation involving playerLSU guard MiLaysia Fulwiley, one of the ninth-ranked Tigers’ leading scorers, was arrested after allegedly striking a police officer while attempting to flee from a traffic stop.LSU’s athletic department, in a written statement provided to The Associated Press, said university officials ",
+   "image": "https://i.guim.co.uk/img/media/d0cdc7ba293e89a7643406bdac809c2973100068/510_0_2548_2039/master/2548.jpg?width=140&quality=85&auto=format&fit=max&s=6f16fa20cf5b814f547ed279890aee40",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
+   "link": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-15T19:32:39+00:00",
+   "description": "The Ukrainian president says restrictions are still in place and making it difficult to stop Russian attacks.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8bb5/live/938b6e20-e114-11f1-a7db-d90284d21c62.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Texas puts to death man who beheaded three children, hours after Oklahoma execution",
+   "link": "https://www.theguardian.com/us-news/2026/nov/15/texas-execution-john-allen-rubio-oklahoma-james-pavatt",
+   "published": "2026-11-15T19:27:24+00:00",
+   "description": "Oklahoma man, 73, executed for killing ex’s estranged husband, as US nears 40 executions for second straight yearA Texas man convicted of fatally stabbing and beheading his three young children in a squalid, windowless apartment in 2003 was recently executed.John Allen Rubio, 46, was pronounced dead at 6.47 pm on Thursday after a lethal injection at the state prison in Huntsville, Texas. His killi",
+   "image": "https://i.guim.co.uk/img/media/d4d6a76c012facd782c4b989badcf7516260404c/0_69_3352_2682/master/3352.jpg?width=140&quality=85&auto=format&fit=max&s=3df23a284c8724fefc52ded224b26c9d",
+   "important": false,
+   "hot": false
+  },
+  {
    "title": "Israeli drone filmed flying low outside homes in southern Lebanon",
    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/israeli-drone-filmed-flying-low-outside-homes-in-southern-lebanon?traffic_source=rss",
    "published": "2026-11-15T19:02:21+00:00",
@@ -344,7 +371,7 @@
    "link": "https://www.theguardian.com/uk-news/2026/nov/15/trident-nuclear-submarine-hms-vengeance-record-tour",
    "published": "2026-11-15T18:50:33+00:00",
    "description": "HMS Vengeance’s seven-month patrol prompts concerns about slow pace of maintenance of ageing fleet and impact on crewA Trident nuclear submarine has concluded a record seven-month deployment, returning to the Faslane naval base in Scotland where its crew was greeted by the defence secretary, Wes Streeting.HMS Vengeance began its patrol on 12 April and spent 217 days submerged before returning on S",
-   "image": "https://i.guim.co.uk/img/media/f5e678146cc65995b5212627db9370abe77833fe/487_0_3000_2400/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=060b100512481e4a203df065f811f89d",
+   "image": "https://i.guim.co.uk/img/media/092370dd24a52c58bc3c62c308a112aa0c5eccdc/426_0_2757_2206/master/2757.jpg?width=140&quality=85&auto=format&fit=max&s=c00ae2720ed98d34faa562fd4079d8f6",
    "important": false,
    "hot": false
   },
@@ -403,15 +430,6 @@
    "hot": true
   },
   {
-   "title": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
-   "link": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T18:08:20+00:00",
-   "description": "The Ukrainian president says restrictions are still in place and making it difficult to stop Russian attacks.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8bb5/live/938b6e20-e114-11f1-a7db-d90284d21c62.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
    "title": "Christian priest says US denied him a visa for being Palestinian",
    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/christian-priest-says-us-denied-him-a-visa-for-being-palestinian?traffic_source=rss",
    "published": "2026-11-15T18:07:32+00:00",
@@ -419,27 +437,27 @@
    "image": null,
    "important": false,
    "hot": false
-  },
-  {
-   "title": "Estonia to close border crossings with Russia after attack on drone maker",
-   "link": "https://www.aljazeera.com/news/2026/11/15/estonia-to-close-border-crossings-with-russia-after-attack-on-drone-maker?traffic_source=rss",
-   "published": "2026-11-15T18:07:02+00:00",
-   "description": "Eight arrests made in connection with an attempted arson, which Tallinn says was ordered by Russian intelligence.",
-   "image": null,
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Iran launches drone attacks against US military base in Bahrain",
-   "link": "https://www.theguardian.com/world/2026/nov/15/iran-launches-drone-attacks-against-us-military-base-in-bahrain",
-   "published": "2026-11-15T18:03:56+00:00",
-   "description": "Strikes cast further doubt on peace talks between Tehran and Washington with increasing risk of escalation Iran has launched drone attacks against a US military base in Bahrain, casting further doubt on peace talks between Tehran and Washington and raising the spectre of escalation.Blasts sounded over the Gulf nation on Sunday in the second Iranian drone attack in three days in retaliation for US ",
-   "image": "https://i.guim.co.uk/img/media/90f87dd962175485473368db89ae4da6cfcd0981/425_0_4577_3662/master/4577.jpg?width=140&quality=85&auto=format&fit=max&s=a186d5c5f515b7ca0b75c2c9875cf564",
-   "important": false,
-   "hot": true
   }
  ],
  "musiikki": [
+  {
+   "title": "Floor Jansen kärsi loppuunpalamisesta kun sai kutsun Nightwishiin – ”Jos he olisivat soittaneet minulle kuukautta aikaisemmin…”",
+   "link": "https://www.soundi.fi/uutiset/floor-jansen-karsi-loppuunpalamisesta-kun-sai-kutsun-nightwishiin-jos-he-olisivat-soittaneet-minulle-kuukautta-aikaisemmin/",
+   "published": "2026-11-15T19:48:16+00:00",
+   "description": "Entinen&#160;Nightwishin&#160;laulaja&#160;Floor Jansen&#160;sanoo, että yhtyeeseen liittyminen auttoi häntä aikoinaan toipumaan loppuunpalamisesta. Jansen liittyi sinfonisen metallin jättiläisen riveihin vuonna 2013. Hän oli kiertänyt yhtyeen kanssa jo edellisenä vuonna Yhdysvalloissa edeltäjäänsä Anette Olzonia tuuraten. Jansen nimettiin virallisesti yhtyeen uudeksi laulajaksi seuraavana vuonna.",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Portion Boys julkaisi uutta musiikkia – “Halusimme tehdä ep:n, jolta jokainen löytää jotain itselleen”",
+   "link": "https://www.rumba.fi/uutiset/portion-boys-julkaisi-uutta-musiikkia-halusimme-tehda-epn-jolta-jokainen-loytaa-jotain-itselleen/",
+   "published": "2026-11-15T19:29:23+00:00",
+   "description": "Pitkän uran tehnyt Portion Boys on julkaissut uutta musiikkia ep-levyn muodossa. Perjantaina ilmestynyt Hiljenee -niminen levy pitää sisällään kolme kappaletta, joihin lukeutuvat fokusraita Hiljenee sekä CTRL+ALT+DEL ja Hallitus kaatuu. Levyn fokusraita avaa yhtyeen tarinaa ja vuosien yhteistä matkaa kohti tähänastisen uran suurinta hetkeä, 5. joulukuuta Tampereen Nokia Arenalla järjestettävää kon",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
   {
    "title": "Debyyttialbumiaan valmisteleva Raama julkaisi uuden singlen – “Tää biisi on syntynyt siitä turhautumisesta”",
    "link": "https://www.rumba.fi/uutiset/debyyttialbumiaan-valmisteleva-raama-julkaisi-uuden-singlen-taa-biisi-on-syntynyt-siita-turhautumisesta/",
@@ -527,24 +545,6 @@
    "published": "2026-11-15T14:48:07+00:00",
    "description": "The post Tyler, The Creator Performs Live Debuts And Rarities At Camp Flog Gnaw 2026 appeared first on Stereogum.",
    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/Screenshot-2026-11-15-at-2.43.25-PM.png?w=564",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Watch Travis Barker and Cynthia Erivo perform ‘In The Air Tonight’ as Phil Collins tells Rock & Roll Hall Of Fame: “You haven’t heard the last of me”",
-   "link": "https://www.nme.com/news/music/travis-barker-cynthia-erivo-in-the-air-tonight-phil-collins-rock-roll-hall-fame-3976002",
-   "published": "2026-11-15T14:39:54+00:00",
-   "description": "The former Genesis frontman became a two-time inductee at an emotional ceremony in Los Angeles, where he received a standing ovation\nThe post Watch Travis Barker and Cynthia Erivo perform ‘In The Air Tonight’ as Phil Collins tells Rock &#038; Roll Hall Of Fame: “You haven’t heard the last of me” appeared first on NME.",
-   "image": null,
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Slayer’s Tom Araya Scolds Crowd Over Behavior At LA Show",
-   "link": "https://stereogum.com/2518093/slayers-tom-araya-scolds-crowd-over-behavior-at-la-show/news/",
-   "published": "2026-11-15T14:01:50+00:00",
-   "description": "The post Slayer&#8217;s Tom Araya Scolds Crowd Over Behavior At LA Show appeared first on Stereogum.",
-   "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/Screenshot-2026-11-15-at-2.00.40-PM.png?w=564",
    "important": false,
    "hot": false
   }
