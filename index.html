@@ -7,6 +7,12 @@
 <style>
 :root{--bg:#fff;--box:#edebeb;--text:#1a1919;--imp:#631515;--who:#b5b5b5;--line:rgba(26,25,25,.15);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 *{box-sizing:border-box}
+@font-face{font-family:"OpenDyslexic";src:url("OpenDyslexic-Regular.otf") format("opentype");font-weight:400;font-display:swap}
+@font-face{font-family:"OpenDyslexic";src:url("OpenDyslexic-Bold.otf") format("opentype");font-weight:700;font-display:swap}
+:root[data-dys="1"] body{font-family:"OpenDyslexic",system-ui,sans-serif;line-height:1.7;letter-spacing:.03em;word-spacing:.12em}
+:root[data-dys="1"] .card p{display:none}
+:root[data-dys="1"] .card{margin-top:26px}
+:root[data-dys="1"] .card b{line-height:1.5}
 :root[data-theme="dark"]{--bg:#161515;--box:#2b2929;--text:#ece9e9;--line:rgba(255,255,255,.18);color-scheme:dark}
 html{scroll-padding-top:env(safe-area-inset-top,0px)}
 body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
@@ -24,7 +30,7 @@ h2{font-size:.95rem;margin:22px 0 8px;opacity:.7;text-transform:uppercase;letter
 .pic{height:140px;border-radius:10px;margin-top:10px;display:flex;align-items:center;justify-content:center;font-size:3rem}
 #fab{position:fixed;left:max(16px,env(safe-area-inset-left,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:20}
 #ball{width:52px;height:52px;border-radius:50%;border:0;background:var(--text);color:var(--bg);font-size:1.4rem;cursor:pointer;box-shadow:0 3px 10px rgba(0,0,0,.3)}
-#menu{display:none;position:absolute;bottom:62px;left:0;background:var(--bg);border:1px solid var(--box);border-radius:14px;box-shadow:0 6px 20px rgba(0,0,0,.2);padding:6px;min-width:190px}
+#menu{display:none;position:absolute;bottom:62px;left:0;background:var(--bg);border:1px solid var(--box);border-radius:14px;box-shadow:0 6px 20px rgba(0,0,0,.2);padding:6px;min-width:240px}
 #menu.open{display:block}
 #menu a{display:block;padding:10px 12px;border-radius:8px;color:var(--text);text-decoration:none;font-size:.95rem}
 #menu a:hover,#menu a.on{background:var(--box)}
@@ -42,6 +48,9 @@ h2{font-size:.95rem;margin:22px 0 8px;opacity:.7;text-transform:uppercase;letter
 var THEME="light";try{THEME=localStorage.getItem("theme")==="dark"?"dark":"light"}catch(e){}
 function setTheme(t){THEME=t;document.documentElement.setAttribute("data-theme",t);try{localStorage.setItem("theme",t)}catch(e){}}
 setTheme(THEME);
+var DYS=false;try{DYS=localStorage.getItem("dys")==="1"}catch(e){}
+function setDys(v){DYS=v;document.documentElement.setAttribute("data-dys",v?"1":"0");try{localStorage.setItem("dys",v?"1":"0")}catch(e){}}
+setDys(DYS);
 var H=3600000,D=86400000,T=Date.UTC(2026,10,15,8,0,0);
 var CATS={suomi:"Suomen uutiset",jalkapallo:"Jalkapallo",teknologia:"Teknologia",maailma:"Maailman uutiset",musiikki:"Musiikki"};
 var DATA={};
@@ -68,14 +77,14 @@ function save(){try{localStorage.setItem("order",JSON.stringify(ORDER))}catch(e)
 var DRAFT=null,drag=null;
 function menu(k){var h='<a href="#koti" class="'+(!CATS[k]?'on':'')+'">Koti</a>';
 (EDIT?DRAFT:ORDER).forEach(function(c){h+=EDIT?'<div class="row" data-c="'+c+'"><span class="grip" aria-label="Vedä siirtääksesi">⠿</span><span>'+CATS[c]+'</span></div>':'<a href="#'+c+'" class="'+(c===k?'on':'')+'">'+CATS[c]+'</a>'});
-return h+'<button class="edit" id="themebtn">'+(THEME==="dark"?"Vaalea teema":"Tumma teema")+'</button><button class="edit" id="editbtn">'+(EDIT?'Valmis':'Muokkaa järjestystä')+'</button>'}
+return h+'<button class="edit" id="dysbtn">'+(DYS?"Lukihäiriötila: päällä":"Lukihäiriötila: pois")+'</button><button class="edit" id="themebtn">'+(THEME==="dark"?"Vaalea teema":"Tumma teema")+'</button><button class="edit" id="editbtn">'+(EDIT?'Valmis':'Muokkaa järjestystä')+'</button>'}
 function route(keep){var k=(location.hash||"#koti").slice(1);
 document.getElementById('app').innerHTML=CATS[k]?cat(k):home();
 document.getElementById('menu').innerHTML=menu(k);
 if(keep===true)return;
 document.getElementById('menu').classList.remove('open');window.scrollTo(0,0)}
 var M=document.getElementById('menu');
-M.addEventListener('click',function(e){if(e.target.id==="themebtn"){setTheme(THEME==="dark"?"light":"dark");route(true);return}if(e.target.id!=="editbtn")return;
+M.addEventListener('click',function(e){if(e.target.id==="dysbtn"){setDys(!DYS);route(true);return}if(e.target.id==="themebtn"){setTheme(THEME==="dark"?"light":"dark");route(true);return}if(e.target.id!=="editbtn")return;
 if(EDIT){ORDER=DRAFT.slice();save();EDIT=false}else{DRAFT=ORDER.slice();EDIT=true}route(true)});
 var grab=0;
 M.addEventListener('pointerdown',function(e){var g=e.target.closest&&e.target.closest('.grip');if(!g)return;drag=g.parentNode;grab=e.clientY-drag.getBoundingClientRect().top;drag.classList.add('drag');g.setPointerCapture(e.pointerId);e.preventDefault()});
