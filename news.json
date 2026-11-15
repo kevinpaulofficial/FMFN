@@ -1,121 +1,184 @@
 {
  "suomi": [
   {
-   "title": "TTK:ssa buuauskonsertti – somelta tyly tuomio",
-   "link": "https://www.is.fi/viihde/art-2000012414254.html",
-   "published": "2026-11-15T18:25:00+00:00",
-   "description": "Jaakon ja Kastanjan rumba sai vaatimattomat pisteet.",
-   "image": "https://images.sanoma-sndp.fi/4efa335a388a78ecc9846224771140dd/normal/1440.jpg",
+   "title": "Jorma Uotisen nuiva kommentti Jaakko Parkkalille ihmetyttää – ”Asenneongelma”",
+   "link": "https://www.is.fi/viihde/art-2000012414316.html",
+   "published": "2026-11-15T19:14:00+00:00",
+   "description": "Jorma Uotinen ei villiintynyt Jaakko Parkkalin ja Kastanja Rauhalan foxtrotista.",
+   "image": "https://images.sanoma-sndp.fi/8a776d0d8a7e06612a94ccc2cdb07243/normal/1440.jpg",
    "important": false,
    "hot": false
   },
   {
-   "title": "Viro sulkee Venäjän-vastaisen rajansa – ulkoministeri vahvistaa",
-   "link": "https://www.is.fi/ulkomaat/art-2000012413905.html",
-   "published": "2026-11-15T18:21:00+00:00",
-   "description": "Raja menee kiinni 1. joulukuuta.",
-   "image": "https://images.sanoma-sndp.fi/0448200c1cf0025d1147c95118caf6a8/normal/1440.jpg",
-   "important": true,
-   "hot": true
-  },
-  {
-   "title": "Trumpin hallinnosta jyrähdys Nvidialle – 10 päivää aikaa selvittää tilanne",
-   "link": "https://www.is.fi/ulkomaat/art-2000012413999.html",
-   "published": "2026-11-15T18:19:00+00:00",
-   "description": "Tekoälyjätin pitkäaikainen johtaja erosi hiljattain suhdekohun vuoksi.",
-   "image": "https://images.sanoma-sndp.fi/7d919661e16a7302d2788428cd94b8cc/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Suomi romahti MM-kisoissa – Tero Lehterältä suora arvio: ”Täytyy sanoa”",
-   "link": "https://www.is.fi/jaakiekko/art-2000012414100.html",
-   "published": "2026-11-15T18:16:00+00:00",
-   "description": "Tero Lehterä ei ollut maansa myyneenä median edessä.",
-   "image": "https://images.sanoma-sndp.fi/b7405730b2e62d00694f90aab2c33ba9/normal/1440.jpg",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Anssi Heikkilä liikuttui suorassa TTK-lähetyksessä",
-   "link": "https://www.is.fi/viihde/art-2000012414214.html",
-   "published": "2026-11-15T18:13:00+00:00",
-   "description": "Anssi Heikkilä kehui vuolaasti tanssipariaan Anni Ihamäkeä TTK-lähetyksessä.",
-   "image": "https://images.sanoma-sndp.fi/b9fdaa6b0cd29cedc8da8ace2865affc/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Ukrainalainen paljasti Suomessa kylmäävän tiedon drooneista: \"Vain yksi nappula\"",
-   "link": "https://www.mtvuutiset.fi/artikkeli/ukrainalainen-paljasti-suomessa-kylmaavan-tiedon-drooneista-vain-yksi-nappula/9421616",
-   "published": "2026-11-15T18:10:14+00:00",
-   "description": "Ukrainalaiset teknologiayritykset ovat olleet Suomessa hakemassa drooni-kumppanuuksia.",
-   "image": "https://api.mtvuutiset.fi/graphql/caas/v1/media/9421618/data/5d6641d471cb58e5feae874cd810096a/landscape16_9/1024/screenshot-2026-11-15-195655.png",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Jalkapallo | Suomi ryöpyttää San Marinoa Helsingissä, Roman Eremenko palasi maajoukkueeseen",
-   "link": "https://www.hs.fi/urheilu/art-2000012413990.html",
-   "published": "2026-11-15T18:08:00+00:00",
-   "description": "HS seuraa Huuhkajien kamppailua piskuista San Marinoa vastaan.",
-   "image": "https://images.sanoma-sndp.fi/577fb9725061669fd1d67db4983f28e5/normal/1440.jpg",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Tätä ei ole nähty kymmeneen vuoteen: Roman Eremenko palasi Huuhkajiin",
-   "link": "https://www.is.fi/huuhkajat/art-2000012413963.html",
-   "published": "2026-11-15T18:07:00+00:00",
-   "description": "IS seuraa Huuhkajien kamppailua piskuista San Marinoa vastaan.",
-   "image": "https://images.sanoma-sndp.fi/577fb9725061669fd1d67db4983f28e5/normal/1440.jpg",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Jääkiekko | IIHF päätti: Venäjä ulos nuorten MM-kisoista",
-   "link": "https://www.hs.fi/urheilu/art-2000012414204.html",
-   "published": "2026-11-15T18:06:00+00:00",
-   "description": "IIHF tiedotti asiasta sunnuntai-iltana.",
-   "image": "https://images.sanoma-sndp.fi/871c2cd213acd19c766faec1a3eb993e/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Pelit | Suomea uhkaa konsolipula, kun GTA-julkistus lähestyy",
-   "link": "https://www.hs.fi/visio/art-2000012404782.html",
-   "published": "2026-11-15T18:00:00+00:00",
-   "description": "GTA 6 -pelin julkistus on innostanut monet konsoliostoksille, ja esimerkiksi Playstation Prota on nyt vaikea löytää Suomesta. Myös verkkoliikenteessä on nähty piikkejä, kun suurpeliä on ladattu ennakkoon.",
-   "image": "https://images.sanoma-sndp.fi/cd94e291b1bfd8eb5063447681118ecd/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Lotta Kuusisto oli valmis katkaisemaan välit äitiinsä – sitten paljastui, mistä äidin käytös johtui",
-   "link": "https://www.is.fi/menaiset/ihmiset-ja-suhteet/art-2000012307543.html",
-   "published": "2026-11-15T18:00:00+00:00",
-   "description": "Tanssija ja näyttelijä Lotta Kuusisto on oppinut, että surun keskellä tarvitaan myös huumoria, että rakkaus kantaa myös vaikeiden aikojen yli ja että koskaan ei ole liian myöhäistä oppia ymmärtämään omia vanhempiaan.",
-   "image": "https://images.sanoma-sndp.fi/61fa0e08c19e1442fe7f29c89803c00f/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Metsäjätin johtajalta suorat sanat suomalaisille: ”En oikein ymmärrä”",
-   "link": "https://www.kauppalehti.fi/uutiset/a/a3384e8a-a193-4909-b814-2bbd709139c9?utm_source=rss",
-   "published": "2026-11-15T18:00:00+00:00",
-   "description": "Metsä Groupin pääjohtaja Jussi Vanhanen uskoo metsäteollisuuden tarvitsevan uusia puupohjaisia innovaatioita, mutta muistuttaa vanhojen menestystuotteiden kantavan alaa vielä pitkään. Suurimpana uhkana hän pitää maailmankaupan vaikeutumista.",
+   "title": "Kansainväliset suhteet | Nato peruu ensi vuoden huippu­kokouksen",
+   "link": "https://www.hs.fi/maailma/art-2000012414207.html",
+   "published": "2026-11-15T19:07:00+00:00",
+   "description": "Perumisen taustalla on uutistoimistojen mukaan jäsenmaiden väliset jännittet. Seuraava huippukokous järjestetään aikaisintaan vuonna 2028.",
    "image": null,
+   "important": true,
+   "hot": false
+  },
+  {
+   "title": "Venäjä ulos nuorten MM-kisoista – nyt puhuu asiantuntija: ”Iso voitto”",
+   "link": "https://www.is.fi/jaakiekko/art-2000012414235.html",
+   "published": "2026-11-15T19:06:00+00:00",
+   "description": "IIHF päätti, ettei Venäjä pelaa nuorten MM-kisoissa.",
+   "image": "https://images.sanoma-sndp.fi/afe94bbcdb58cc597aaef9cd45b3305a/normal/1440.jpg",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Selviytyjistä pudonnut puhkeaa itkuun – pelkää menettäneensä jotain korvaamatonta",
+   "link": "https://www.is.fi/tv-ja-elokuvat/art-2000012410151.html",
+   "published": "2026-11-15T19:01:00+00:00",
+   "description": "Tuoreessa Selviytyjät Suomi -jaksossa Tommi Manninen putosi kilpailusta ja siirtyi toisena kilpailijana heimoneuvostoon. Hän vuodattaa kyyneleitä puhuessaan kameroille vaimostaan ja lapsestaan. Miehen takaraivossa kytee huoli siitä, että hän on jäänyt paitsi perheensä ainutlaatuisesta hetkestä.",
+   "image": "https://images.sanoma-sndp.fi/499a9592338d8e7332425337b6edfa21/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Puheenvuoro | Suomalaiset eivät hevin lähde heittelemään kiviä, professori sanoo",
+   "link": "https://www.hs.fi/nakemys/art-2000012362202.html",
+   "published": "2026-11-15T19:00:00+00:00",
+   "description": "Ranskassa mielenosoitukset voivat kaataa hallituksia, Suomessa protestit toimivat toisin. Sosiologian professori Eeva Luhtakallion mukaan ero johtuu kansalaisten suhteesta valtioon.",
+   "image": "https://images.sanoma-sndp.fi/e6f3a3e4b02e1c24b59842c17527d888/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Pääkirjoitus: Microsoftin häiriö näytti todeksi sen, miten riippuvaisia olemme yksittäisistä toimijoista",
+   "link": "https://www.is.fi/paakirjoitus/art-2000012413566.html",
+   "published": "2026-11-15T19:00:00+00:00",
+   "description": "Eurooppalaisilla ei juuri ole omia järjestelmiä, joten olemme pitkälti yhdysvaltalaisten teknojättien varassa.",
+   "image": "https://images.sanoma-sndp.fi/b29e21e7c40a8bcb8d95e9cb2586ffad/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Datakeskusten sähköstä iso osa menee hukkaan: Suomalaisyhtiö sai miljoonapotin hävikin pienentämiseksi",
+   "link": "https://www.kauppalehti.fi/uutiset/a/b48aea3b-e6f7-4923-98ca-893b5bdb5bda?utm_source=rss",
+   "published": "2026-11-15T19:00:00+00:00",
+   "description": "Suomalaisyhtiö aikoo aloittaa tehokonvertterien sarjatuotannon ensi vuoden aikana.",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Pesukarhu ryntäsi viinakauppaan ja sammui Virginiassa – eläinyhdistys on netonnut 300 000 dollaria",
+   "link": "https://yle.fi/a/74-20257071?origin=rss",
+   "published": "2026-11-15T18:56:42+00:00",
+   "description": "Pesukarhun pikkujoulut päättyivät vessan lattialle ja meemiksi internettiin viime joulukuussa.",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Tällaisen yhtiön drooni­tehtaan Venäjän epäillään yrittäneen räjäyttää Virossa",
+   "link": "https://www.is.fi/ulkomaat/art-2000012414213.html",
+   "published": "2026-11-15T18:56:00+00:00",
+   "description": "Virolaisyhtiö on kasvanut nopeasti. Järjestelmät ovat olleet Ukrainan käytössä jo vuosia. Ja yksi asiakkaista on Suomi.",
+   "image": "https://images.sanoma-sndp.fi/2e913fe7012365baf200520df61a6de9/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Kommentti: Murskavoitto ei pelasta Jacob Friisiä",
+   "link": "https://www.is.fi/huuhkajat/art-2000012413738.html",
+   "published": "2026-11-15T18:56:00+00:00",
+   "description": "Ennen kokematon ilo vaihtui seitsemässä vuodessa turhauttavaksi tempoiluksi, kirjoittaa toimittaja Janne Kosunen Töölön Bolt-areenalta.",
+   "image": "https://images.sanoma-sndp.fi/ab51096b09c3adc201ae957e44a39496/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Jalkapallo | Suomelle murskavoitto 7–2, San Marinolle harvinainen saavutus: kaksi maalia",
+   "link": "https://www.hs.fi/urheilu/art-2000012413990.html",
+   "published": "2026-11-15T18:53:00+00:00",
+   "description": "HS seurasi Huuhkajien kamppailua piskuista San Marinoa vastaan.",
+   "image": "https://images.sanoma-sndp.fi/5b3b9666d43b531e17ce4551e5c04c7a/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Huuhkajille murskavoitto! San Marino onnistui harvinaisessa tempussa",
+   "link": "https://www.is.fi/huuhkajat/art-2000012413963.html",
+   "published": "2026-11-15T18:53:00+00:00",
+   "description": "IS seurasi Huuhkajien kamppailua piskuista San Marinoa vastaan.",
+   "image": "https://images.sanoma-sndp.fi/5b3b9666d43b531e17ce4551e5c04c7a/normal/1440.jpg",
    "important": false,
    "hot": false
   }
  ],
  "jalkapallo": [
   {
+   "title": "Spain v England: Nations League – live",
+   "link": "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-live",
+   "published": "2026-11-15T18:58:54+00:00",
+   "description": "Updates from 7.45pm (GMT) kick-off in MadridGet in touch: email Daniel and follow us on BlueSkyEmail! “Thanks for putting up the squad list,” says Edan Tal. “Delighted that Clint Hill finally managed his long awaited call up.”Shaun Derry next. Or Dan Burn. Continue reading...",
+   "image": "https://i.guim.co.uk/img/media/eb25859a484613d72c89348a46cf89f5e6032344/252_0_2497_1998/master/2497.jpg?width=140&quality=85&auto=format&fit=max&s=e3687b3721512af69b3aaf271a206b0e",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Mary Earps frustrates Arsenal as London City Lionesses earn battling draw",
+   "link": "https://www.theguardian.com/football/2026/nov/15/arsenal-london-city-lionesses-womens-super-league-wsl-match-report",
+   "published": "2026-11-15T18:53:08+00:00",
+   "description": "Arsenal and London City Lionesses played out an entertaining 1-1 draw but the result did little to bolster European qualification hopes for Renée Slegers’s side as the visitors’ goalkeeper Mary Earps produced a fine display to thwart the north London side.Frida Maanum finished off a superb team move for Arsenal to open the scoring early on but her goal was quickly cancelled out by a terrific finis",
+   "image": "https://i.guim.co.uk/img/media/275d5ab2d560622a6980ea938389fceff9026a27/419_0_4186_3349/master/4186.jpg?width=140&quality=85&auto=format&fit=max&s=6ed2084c21d709a677746ca4578d7f4f",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Grand Slam of Darts LIVE! Greaves in must-win clash with Evans, Smith also playing",
+   "link": "https://www.skysports.com/darts/live-blog/12040/13612309/grand-slam-of-darts-commentary-updates-scores-analysis-with-jonny-clayton-josh-rock-ross-smith-in-action",
+   "published": "2026-11-15T18:40:00+00:00",
+   "description": "",
+   "image": "https://e0.365dm.com/26/11/1920x1080/skysports-darts-beau-greaves_7404960.jpg?20261112123559",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Earps masterclass helps London City deny Arsenal first WSL home win",
+   "link": "https://www.skysports.com/watch/video/13612562/arsenal-1-1-london-city-lionesses-wsl-highlights",
+   "published": "2026-11-15T18:37:00+00:00",
+   "description": "Highlights of the Women's Super League match between Arsenal and London City Lionesses.",
+   "image": "https://e2.365dm.com/26/11/1920x1080/skysports-arsenal-lcl-wsl_7407250.jpg?20261115182624",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Ronaldinho makes comeback in Ravenna win",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ckregz4g823xo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-15T18:33:36+00:00",
+   "description": "Brazil legend Ronaldinho makes his comeback aged 46 for Ravenna, playing the first half of their Italian third-tier derby against Forli.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/45e6/live/30f37df0-e116-11f1-a7db-d90284d21c62.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Arsenal's wait for home WSL win goes on after Earps masterclass",
+   "link": "https://www.skysports.com/football/arsenal-women-vs-london-city-lionesses/report/575818",
+   "published": "2026-11-15T18:30:00+00:00",
+   "description": "Arsenal's wait for a home WSL win continues as they drew 1-1 against London City Lionesses on Sunday - their fifth draw in a row at the Emirates this season - with an inspired Mary Earps denying the Gunners victory.",
+   "image": "https://e2.365dm.com/26/11/1920x1080/skysports-wsl-womens-super-league_7407153.jpg?20261115164523",
+   "important": false,
+   "hot": true
+  },
+  {
    "title": "Frick named new head coach at Aberdeen",
    "link": "https://www.bbc.co.uk/sport/football/articles/cqrmgz9ypvwko?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-15T18:27:08+00:00",
    "description": "Former Liechtenstein striker Mario Frick is announced as the new head coach of Aberdeen.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eb7a/live/5c0f70d0-6139-11ee-ac8c-9d18dbc280ea.png",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/212b/live/2366df60-e125-11f1-9198-73c27e618086.jpg",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Frick named new head coach at Aberdeen",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cqrmgz9ypvwko?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-15T18:27:08+00:00",
+   "description": "Former Liechtenstein striker Mario Frick is announced as the new head coach of Aberdeen.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/212b/live/2366df60-e125-11f1-9198-73c27e618086.jpg",
    "important": false,
    "hot": true
   },
@@ -129,15 +192,6 @@
    "hot": false
   },
   {
-   "title": "Arsenal v London City Lionesses: Women’s Super League – live",
-   "link": "https://www.theguardian.com/football/live/2026/nov/15/arsenal-v-london-city-lionesses-womens-super-league-live",
-   "published": "2026-11-15T18:14:46+00:00",
-   "description": "Updates from 4.30pm (GMT) kick-off at the Emirates StadiumGet in touch: email John and follow us on BlueSkyCharles Antaki gets in touch: “Renee Slegers under pressure indeed. Arsenal’s form this season has been nothing short of alarming, and there is a distinct danger of failing to qualify for next year’s women’s Champions League. For the moment, for stability’s sake, better that Renee should stay",
-   "image": "https://i.guim.co.uk/img/media/4e062c72884593f8a099f1bcd50e4a58025887ac/244_0_4060_3248/master/4060.jpg?width=140&quality=85&auto=format&fit=max&s=284e88895f49fffe4a5149a929e1ad2b",
-   "important": false,
-   "hot": true
-  },
-  {
    "title": "Sule strikes late as Scotland U21s snatch draw against USA",
    "link": "https://www.bbc.co.uk/sport/football/articles/c6894vj39g33o?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-15T18:11:08+00:00",
@@ -147,15 +201,6 @@
    "hot": false
   },
   {
-   "title": "Ronaldinho makes comeback for Ravenna",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ckregz4g823xo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T18:01:25+00:00",
-   "description": "Brazil legend Ronaldinho makes his comeback aged 46 for Ravenna, playing the first half of their Italian third-tier derby against Forli.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/45e6/live/30f37df0-e116-11f1-a7db-d90284d21c62.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
    "title": "Why 'inspiring' Van Gaal influences Scotland head coach Pocognoli",
    "link": "https://www.bbc.co.uk/sport/football/articles/cw1mdl14dzx8o?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-15T17:56:57+00:00",
@@ -170,51 +215,6 @@
    "published": "2026-11-15T17:56:57+00:00",
    "description": "Scotland head coach Sebastien Pocognoli says he draws on the influence of iconic manager Louis van Gaal in his own coaching career.",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/94b0/live/8883ed70-e11b-11f1-a7a2-7bb21fac8f0b.jpg",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Scotland edge out Australia in Nations Championship",
-   "link": "https://www.skysports.com/rugby-union/news/12040/13612547/nations-championship-scotland-edge-out-australia-at-murrayfield-to-move-above-wales-in-northern-hemisphere-table",
-   "published": "2026-11-15T17:53:00+00:00",
-   "description": "Scotland eked out a hard-fought 15-12 win over Australia but were unable to get the bonus point they craved in a Nations Championship match that failed to catch fire.",
-   "image": "https://e0.365dm.com/26/11/1920x1080/skysports-scotland-finn-russell_7407207.jpg?20261115174528",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Spain vs England build-up LIVE!",
-   "link": "https://www.skysports.com/football/spain-vs-england/live/554117",
-   "published": "2026-11-15T17:45:00+00:00",
-   "description": "",
-   "image": "https://e0.365dm.com/26/09/1920x1080/skysports-kane-harry-england_7362124.jpg?20260926210443",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Lions thump Patriots in Munich on St Brown's German homecoming",
-   "link": "https://www.skysports.com/nfl/news/12040/13612478/nfl-detorit-lions-thump-new-england-patriots-in-germany-after-drake-maye-injury-as-amon-ra-st-brown-and-jahmyr-gibbs-star",
-   "published": "2026-11-15T17:38:00+00:00",
-   "description": "Jahmyr Gibbs was unstoppable and Amon-Ra St Brown starred on his German homecoming as the Detroit Lions torched the Drake Maye-less New England Patriots 35-10 at the Allianz Arena in Munich on Sunday.",
-   "image": "https://e0.365dm.com/26/11/1920x1080/skysports-detroit-lions-nfl_7407182.jpg?20261115172807",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "AS FAR retain Women's African Champions League title",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ckdd10v6vqjpo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T17:23:45+00:00",
-   "description": "Imane Touriss scores twice as Moroccan club AS FAR beat Mamelodi Sundowns 3-1 to retain the Women's African Champions League title.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b7e6/live/8463b3a0-e117-11f1-a7db-d90284d21c62.jpg",
-   "important": true,
-   "hot": true
-  },
-  {
-   "title": "AS FAR retain Women's African Champions League title",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ckdd10v6vqjpo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T17:23:45+00:00",
-   "description": "Imane Touriss scores twice as Moroccan club AS FAR beat Mamelodi Sundowns 3-1 to retain the Women's African Champions League title.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b7e6/live/8463b3a0-e117-11f1-a7db-d90284d21c62.jpg",
    "important": false,
    "hot": true
   }
@@ -331,6 +331,78 @@
  ],
  "maailma": [
   {
+   "title": "Israeli drone filmed flying low outside homes in southern Lebanon",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/israeli-drone-filmed-flying-low-outside-homes-in-southern-lebanon?traffic_source=rss",
+   "published": "2026-11-15T19:02:21+00:00",
+   "description": "Video shows an Israeli drone flying at low altitude over a residential area in southern Lebanon.",
+   "image": null,
+   "important": true,
+   "hot": false
+  },
+  {
+   "title": "Trident nuclear submarine concludes record underwater deployment",
+   "link": "https://www.theguardian.com/uk-news/2026/nov/15/trident-nuclear-submarine-hms-vengeance-record-tour",
+   "published": "2026-11-15T18:50:33+00:00",
+   "description": "HMS Vengeance’s seven-month patrol prompts concerns about slow pace of maintenance of ageing fleet and impact on crewA Trident nuclear submarine has concluded a record seven-month deployment, returning to the Faslane naval base in Scotland where its crew was greeted by the defence secretary, Wes Streeting.HMS Vengeance began its patrol on 12 April and spent 217 days submerged before returning on S",
+   "image": "https://i.guim.co.uk/img/media/f5e678146cc65995b5212627db9370abe77833fe/487_0_3000_2400/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=060b100512481e4a203df065f811f89d",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Senator-elect Scott Colom vows to ensure Trump follows through on his promises",
+   "link": "https://www.theguardian.com/us-news/2026/nov/15/scott-colom-mississippi-senate-trump",
+   "published": "2026-11-15T18:48:10+00:00",
+   "description": "Mississippi Democrat points to commitments Trump made: lower prices, halt endless wars and release Epstein filesAfter recently becoming the first Mississippi Democrat elected to the US Senate in more than four decades, Scott Colom pledged to try to ensure Donald Trump “follows through on the commitments” he made while successfully running for a second presidency in 2024.Colom, while being intervie",
+   "image": "https://i.guim.co.uk/img/media/4abbdc3b45c3f90c56abf04023eb18752ef75fce/750_0_6515_5212/master/6515.jpg?width=140&quality=85&auto=format&fit=max&s=c2aa9252e91f0fe2ac6aa483b2825c0b",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Chris Van Hollen says he has path to win Senate leader over Chuck Schumer",
+   "link": "https://www.theguardian.com/us-news/2026/nov/15/chris-van-hollen-senate-majority-leader",
+   "published": "2026-11-15T18:46:49+00:00",
+   "description": "Progressive US senator calling for more inclusion within Democratic caucus cites openness to change among peersDemocratic US senator Chris Van Hollen on Sunday escalated his bid to lead his party’s incoming Senate majority rather than Chuck Schumer, asserting that he has a path to victory amid a dedicated campaign that includes a series of television appearances.Van Hollen, a Maryland progressive,",
+   "image": "https://i.guim.co.uk/img/media/6e0a2c263ff4be7091b975eef0135a62230b8800/0_103_4566_3653/master/4566.jpg?width=140&quality=85&auto=format&fit=max&s=a098af7d36b89b145008f118d1b496b7",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Labour rebellion over Rosebank oilfield expected to top 100 MPs",
+   "link": "https://www.theguardian.com/business/2026/nov/15/rosebank-oilfield-mps-rebellion",
+   "published": "2026-11-15T18:35:10+00:00",
+   "description": "Total of 75 have already signed letter to Burnham opposing plans as discontent also grows over Europe and welfare changesAs many as 100 Labour MPs could sign a letter opposing the giant Rosebank oilfield, as discontent among backbenchers looks likely to surge this week, with rebellions also brewing over Europe and welfare changes.A total of 75 MPs have already signed the private letter, which is e",
+   "image": "https://i.guim.co.uk/img/media/4ecc02fb0d0fc19818ecb0509a94abb8c809af8d/283_0_6172_4940/master/6172.jpg?width=140&quality=85&auto=format&fit=max&s=087ed29827ad9a46cb71ef1906d4ef63",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Prince Harry in Ukraine meeting Invictus 2027 hopefuls",
+   "link": "https://www.aljazeera.com/news/2026/11/15/prince-harry-in-ukraine-meeting-invictus-2027-hopefuls?traffic_source=rss",
+   "published": "2026-11-15T18:31:52+00:00",
+   "description": "British royal says he&#039;s &#039;taken a risk&#039; in his fourth surprise visit to Ukraine since 2022 to meet wounded veterans.",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Estonia to close all border crossings with Russia after attack on drone maker",
+   "link": "https://www.theguardian.com/world/2026/nov/15/estonia-to-close-all-border-crossings-with-russia-after-attack-on-drone-maker",
+   "published": "2026-11-15T18:23:12+00:00",
+   "description": "Authorities say Russian intelligence service ordered attack Estonian PM links to Tallinn’s support for UkraineEstonia will close all its border crossings with Russia from 1 December after a suspected sabotage attack on a drone maker in the Baltic state over the weekend, which authorities said was ordered by Russia’s GRU military intelligence service.On Saturday morning, eight people were detained ",
+   "image": "https://i.guim.co.uk/img/media/871b52d53845d358d898e60304c0661c3bf28013/293_0_4672_3738/master/4672.jpg?width=140&quality=85&auto=format&fit=max&s=4699c1636ab8599033326f36694ff0a4",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Hundreds of thousands of Czechs protest in Prague over media freedom",
+   "link": "https://www.theguardian.com/world/2026/nov/15/czechia-protest-prague-media-freedom",
+   "published": "2026-11-15T18:20:36+00:00",
+   "description": "Estimated 350,000 people rally against plan to scrap licence fees and fund broadcasters from state budgetHundreds of thousands of Czechs have rallied in Prague to protest against a perceived government attempt to stifle media freedom.The gathering on Sunday to save the mandatory licence fees that fund Czechia’s public broadcasters drew more than 350,000 people, making it one of the biggest in the ",
+   "image": "https://i.guim.co.uk/img/media/95975b1bec64815ceed42fb90d5215d3bbf2f3f8/543_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=ee2294d72c354e735186b306b7fe1328",
+   "important": false,
+   "hot": true
+  },
+  {
    "title": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
    "link": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-15T18:08:20+00:00",
@@ -340,101 +412,29 @@
    "hot": false
   },
   {
+   "title": "Christian priest says US denied him a visa for being Palestinian",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/christian-priest-says-us-denied-him-a-visa-for-being-palestinian?traffic_source=rss",
+   "published": "2026-11-15T18:07:32+00:00",
+   "description": "A Christian priest from Bethlehem, the birthplace of Jesus, says the US denied him a visa because he is Palestinian.",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Estonia to close border crossings with Russia after attack on drone maker",
+   "link": "https://www.aljazeera.com/news/2026/11/15/estonia-to-close-border-crossings-with-russia-after-attack-on-drone-maker?traffic_source=rss",
+   "published": "2026-11-15T18:07:02+00:00",
+   "description": "Eight arrests made in connection with an attempted arson, which Tallinn says was ordered by Russian intelligence.",
+   "image": null,
+   "important": false,
+   "hot": true
+  },
+  {
    "title": "Iran launches drone attacks against US military base in Bahrain",
    "link": "https://www.theguardian.com/world/2026/nov/15/iran-launches-drone-attacks-against-us-military-base-in-bahrain",
    "published": "2026-11-15T18:03:56+00:00",
    "description": "Strikes cast further doubt on peace talks between Tehran and Washington with increasing risk of escalation Iran has launched drone attacks against a US military base in Bahrain, casting further doubt on peace talks between Tehran and Washington and raising the spectre of escalation.Blasts sounded over the Gulf nation on Sunday in the second Iranian drone attack in three days in retaliation for US ",
    "image": "https://i.guim.co.uk/img/media/90f87dd962175485473368db89ae4da6cfcd0981/425_0_4577_3662/master/4577.jpg?width=140&quality=85&auto=format&fit=max&s=a186d5c5f515b7ca0b75c2c9875cf564",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Nearly 1,500 migrants reach Spain’s Canary Islands in one day",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/nearly-1500-migrants-reach-spains-canary-islands-in-one-day?traffic_source=rss",
-   "published": "2026-11-15T17:39:23+00:00",
-   "description": "Nearly 1,500 migrants reach Spain’s Canary Islands in one day",
-   "image": null,
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Morocco becomes first Arab nation in FIFA’s top five men’s rankings",
-   "link": "https://www.aljazeera.com/sports/2026/11/15/morocco-becomes-first-arab-nation-in-fifas-top-five-mens-rankings?traffic_source=rss",
-   "published": "2026-11-15T17:33:03+00:00",
-   "description": "Morocco moved past former Euro champions Portugal and record World Cup winners Brazil to achieve its best FIFA ranking.",
-   "image": null,
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Yemeni government forces redeploy from Bab al-Mandeb to defend Aden",
-   "link": "https://www.aljazeera.com/news/2026/11/15/yemeni-government-forces-redeploy-from-bab-al-mandeb-to-defend-aden?traffic_source=rss",
-   "published": "2026-11-15T17:33:00+00:00",
-   "description": "Spokesman for the Southern Armed Forces says group is repositioning from Dhubab airport and areas around Bab al-Mandeb.",
-   "image": null,
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "The hidden costs of the US AI boom",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/the-hidden-costs-of-the-us-ai-boom?traffic_source=rss",
-   "published": "2026-11-15T17:24:59+00:00",
-   "description": "The hidden costs of the US AI boom",
-   "image": null,
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Czechs rally against plan to switch funding of public media",
-   "link": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T17:23:40+00:00",
-   "description": "Protesters say the move will stifle media freedom, while the government insists broadcasters need to cut costs.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0f9f/live/b7b68ac0-e121-11f1-9705-e15ce514cc96.jpg",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Burnham pledges early intervention and ‘benefits backstop’ to tackle youth jobs crisis",
-   "link": "https://www.theguardian.com/society/2026/nov/15/no-free-lunch-milburn-mcfadden-kuenssberg-uk-benefits-youth-unemployment-neet",
-   "published": "2026-11-15T17:04:55+00:00",
-   "description": "Prime minister promises ‘root-and-branch rethink’ of support for young people as Milburn report advises sweeping changes to some benefitsAndy Burnham: The crisis facing Britain’s young people is politicians’ fault. To fix it, we need a generational responseAndy Burnham has pledged to intervene as early as childhood to tackle youth unemployment before a watershed review, promising “a root-and-branc",
-   "image": "https://i.guim.co.uk/img/media/b9948bd228b02aa56a0356f2a3f2713b85d83833/290_0_4473_3579/master/4473.jpg?width=140&quality=85&auto=format&fit=max&s=ac37a8f6dd0b557e724874bc86532ce8",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Planned asylum seeker detention centre next to Oxfordshire sewage works criticised",
-   "link": "https://www.theguardian.com/uk-news/2026/nov/15/planned-asylum-seeker-detention-centre-next-to-oxfordshire-sewage-works-criticised",
-   "published": "2026-11-15T16:47:39+00:00",
-   "description": "Thames Water says detainees at proposed accommodation should expect to experience insect swarms and strong smellsA Home Office plan to build asylum seeker detention facilities next to a sewage pump is facing objections after water company officials warned that detainees should expect to experience insect swarms and strong smells.Proposed secure accommodation blocks at Campsfield House immigration ",
-   "image": "https://i.guim.co.uk/img/media/d09ed18d9dd0cdd685e28614ca19c5a774a69750/268_0_2268_1816/master/2268.jpg?width=140&quality=85&auto=format&fit=max&s=a94ae645f7999f7bde5d4240fd8be790",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Somalia: We would not have recovered without the international community",
-   "link": "https://www.aljazeera.com/video/talk-to-al-jazeera/2026/11/15/somalia-we-would-not-have-recovered-without-the-international-community?traffic_source=rss",
-   "published": "2026-11-15T16:47:36+00:00",
-   "description": "Somalia continues to face al-Shabab rebellion and political friction, leading officials to urge international support.",
-   "image": null,
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Spain vs England live: UEFA Nations League",
-   "link": "https://www.aljazeera.com/sports/liveblog/2026/11/15/live-spain-vs-england-uefa-nations-league?traffic_source=rss",
-   "published": "2026-11-15T16:45:00+00:00",
-   "description": "Team news , score and live text commentary as England and Spain vie for top spot in final Nations League group game.",
-   "image": null,
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Hundreds of thousands of Czechs protest in Prague over media freedom",
-   "link": "https://www.theguardian.com/world/2026/nov/15/czechia-protest-prague-media-freedom",
-   "published": "2026-11-15T16:40:04+00:00",
-   "description": "Estimated 350,000 people rally against plan to scrap licence fees and fund broadcasters from state budgetHundreds of thousands of Czechs have rallied in Prague to protest against a perceived government attempt to stifle media freedom.The gathering on Sunday to save the mandatory licence fees that fund Czechia’s public broadcasters drew more than 350,000 people, making it one of the biggest in the ",
-   "image": "https://i.guim.co.uk/img/media/95975b1bec64815ceed42fb90d5215d3bbf2f3f8/543_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=ee2294d72c354e735186b306b7fe1328",
    "important": false,
    "hot": true
   }
