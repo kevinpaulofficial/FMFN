@@ -47,7 +47,12 @@ function home(){var h='<h1>Koti</h1>';
 Object.keys(CATS).forEach(function(k,i){var a=DATA[k].slice().sort(function(x,y){return y.p-x.p});
 var imp=a.filter(function(n){return n.imp})[0];if(!imp)imp=a[1];var last=a.filter(function(n){return n!==imp})[0];
 h+=(i?'<hr class="div">':'')+'<h2>'+CATS[k]+'</h2>'+(imp?card(imp,k):'')+(last?card(last,k):'')});return h}
-function cat(k){return '<h1>'+CATS[k]+'</h1>'+DATA[k].slice().sort(function(x,y){return y.p-x.p}).map(function(n){return card(n,k,true)}).join('')}
+function cat(k){var a=DATA[k].slice().sort(function(x,y){return y.p-x.p});
+var imp=a.filter(function(n){return n.imp})[0];
+var hot=a.filter(function(n){return n.hot&&n!==imp}).slice(0,2);
+var top=(imp?[imp]:[]).concat(hot);
+var rest=a.filter(function(n){return top.indexOf(n)<0}).map(function(n){n.hot=false;return n});
+return '<h1>'+CATS[k]+'</h1>'+top.concat(rest).map(function(n){return card(n,k,true)}).join('')}
 function route(){var k=(location.hash||"#koti").slice(1);
 document.getElementById('app').innerHTML=CATS[k]?cat(k):home();
 document.getElementById('menu').innerHTML='<a href="#koti" class="'+(!CATS[k]?'on':'')+'">Koti</a>'+Object.keys(CATS).map(function(c){return '<a href="#'+c+'" class="'+(c===k?'on':'')+'">'+CATS[c]+'</a>'}).join('');
