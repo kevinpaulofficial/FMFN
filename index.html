@@ -27,6 +27,10 @@ h2{font-size:.95rem;margin:22px 0 8px;opacity:.7;text-transform:uppercase;letter
 #menu.open{display:block}
 #menu a{display:block;padding:10px 12px;border-radius:8px;color:var(--text);text-decoration:none;font-size:.95rem}
 #menu a:hover,#menu a.on{background:var(--box)}
+#menu .row{display:flex;align-items:center;gap:6px;padding:4px 12px}
+#menu .row span{flex:1;font-size:.95rem}
+#menu .row button{border:0;background:var(--box);border-radius:8px;width:34px;height:34px;cursor:pointer;color:var(--text)}
+#menu .edit{display:block;width:100%;margin-top:6px;padding:10px 12px;border:0;border-top:1px solid var(--box);background:none;text-align:left;font:inherit;font-size:.85rem;opacity:.75;cursor:pointer;color:var(--text)}
 </style>
 </head>
 <body>
@@ -44,7 +48,7 @@ var ICON={suomi:"🇫🇮",jalkapallo:"⚽",teknologia:"💻",maailma:"🌍",mus
 function pic(n,k){if(n.img)return '<img class="pic" src="'+n.img+'" alt="" style="width:100%;object-fit:cover" onerror="this.style.display=\'none\'">';var h=0;for(var i=0;i<n.t.length;i++)h=(h+n.t.charCodeAt(i))%360;return '<div class="pic" style="background:linear-gradient(135deg,hsl('+h+',35%,60%),hsl('+((h+40)%360)+',35%,38%))">'+ICON[k]+'</div>'}
 function card(n,k,hot){return '<a class="card'+(n.imp?' imp':(hot&&n.hot?' hot':''))+'" href="'+n.u+'" target="_blank" rel="noopener"><span class="age">'+age(n.p)+'</span><b>'+n.t+'</b><p>'+n.s+'</p>'+pic(n,k)+'</a>'+(n.who?'<div class="who">'+n.who+'</div>':'')}
 function home(){var h='<h1>Koti</h1>';
-Object.keys(CATS).forEach(function(k,i){var a=DATA[k].slice().sort(function(x,y){return y.p-x.p});
+ORDER.forEach(function(k,i){var a=DATA[k].slice().sort(function(x,y){return y.p-x.p});
 var imp=a.filter(function(n){return n.imp})[0];if(!imp)imp=a[1];var last=a.filter(function(n){return n!==imp})[0];
 h+=(i?'<hr class="div">':'')+'<h2>'+CATS[k]+'</h2>'+(imp?card(imp,k):'')+(last?card(last,k):'')});return h}
 function cat(k){var a=DATA[k].slice().sort(function(x,y){return y.p-x.p});
@@ -53,10 +57,19 @@ var hot=a.filter(function(n){return n.hot&&n!==imp}).slice(0,2);
 var top=(imp?[imp]:[]).concat(hot);
 var rest=a.filter(function(n){return top.indexOf(n)<0}).map(function(n){n.hot=false;return n});
 return '<h1>'+CATS[k]+'</h1>'+top.concat(rest).map(function(n){return card(n,k,true)}).join('')}
-function route(){var k=(location.hash||"#koti").slice(1);
+var ORDER=Object.keys(CATS),EDIT=false;
+try{var sv=JSON.parse(localStorage.getItem("order")||"[]");if(Array.isArray(sv)){var ok=sv.filter(function(c){return CATS[c]});Object.keys(CATS).forEach(function(c){if(ok.indexOf(c)<0)ok.push(c)});ORDER=ok}}catch(e){}
+function save(){try{localStorage.setItem("order",JSON.stringify(ORDER))}catch(e){}}
+function move(c,d){var i=ORDER.indexOf(c),j=i+d;if(j<0||j>=ORDER.length)return;ORDER.splice(i,1);ORDER.splice(j,0,c);save();route(true)}
+function menu(k){var h='<a href="#koti" class="'+(!CATS[k]?'on':'')+'">Koti</a>';
+ORDER.forEach(function(c){h+=EDIT?'<div class="row"><span>'+CATS[c]+'</span><button data-c="'+c+'" data-d="-1" aria-label="Siirrä ylös">▲</button><button data-c="'+c+'" data-d="1" aria-label="Siirrä alas">▼</button></div>':'<a href="#'+c+'" class="'+(c===k?'on':'')+'">'+CATS[c]+'</a>'});
+return h+'<button class="edit" id="editbtn">'+(EDIT?'Valmis':'Muokkaa järjestystä')+'</button>'}
+function route(keep){var k=(location.hash||"#koti").slice(1);
 document.getElementById('app').innerHTML=CATS[k]?cat(k):home();
-document.getElementById('menu').innerHTML='<a href="#koti" class="'+(!CATS[k]?'on':'')+'">Koti</a>'+Object.keys(CATS).map(function(c){return '<a href="#'+c+'" class="'+(c===k?'on':'')+'">'+CATS[c]+'</a>'}).join('');
+document.getElementById('menu').innerHTML=menu(k);
+if(keep===true)return;
 document.getElementById('menu').classList.remove('open');window.scrollTo(0,0)}
+document.getElementById('menu').onclick=function(e){var t=e.target;if(t.dataset&&t.dataset.d){move(t.dataset.c,+t.dataset.d)}else if(t.id==="editbtn"){EDIT=!EDIT;route(true)}};
 document.getElementById('ball').onclick=function(){document.getElementById('menu').classList.toggle('open')};
 window.addEventListener('hashchange',route);load().then(route).catch(function(){document.getElementById('app').textContent='Uutisten lataus epäonnistui.'});
 </script>
