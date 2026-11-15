@@ -1,60 +1,68 @@
 {
  "suomi": [
   {
-   "title": "Valtava roihu Venäjällä – Ukraina sanoo iskeneensä öljyn­jalostamoon",
-   "link": "https://www.is.fi/ulkomaat/art-2000012409263.html",
-   "published": "2026-11-15T14:50:00+00:00",
-   "description": "IS seuraa tässä artikkelissa tilannetta Ukrainan sodassa sekä siihen liittyviä tapahtumia.",
-   "image": "https://images.sanoma-sndp.fi/03cf032345ef92ffbe97ab6306ad87d5/normal/1440.jpg"
+   "title": "Viro sulkee Venäjän-vastaisen rajansa – ulkoministeri vahvistaa",
+   "link": "https://www.is.fi/ulkomaat/art-2000012413905.html",
+   "published": "2026-11-15T15:10:00+00:00",
+   "description": "Asian vahvistaa Viron ulkoministeri Margus Tsahkna.",
+   "image": null,
+   "important": true
   },
   {
-   "title": "Lapset ja nuoret | Pienituloisuus kasvattaa lasten välistä eriarvoisuutta",
-   "link": "https://www.hs.fi/mielipide/art-2000012383232.html",
-   "published": "2026-11-15T14:45:00+00:00",
-   "description": "Nuorilla köyhyys näkyy esimerkiksi siinä, että harrastus jää aloittamatta tai sen joutuu lopettamaan.",
-   "image": null
+   "title": "Suomalaisten toiminta Levillä meni supertähden tunteisiin – herkistyi silminnähden: ”Kauniit suomalaiset”",
+   "link": "https://www.is.fi/alppihiihto/art-2000012413811.html",
+   "published": "2026-11-15T15:02:00+00:00",
+   "description": "Lucas Pinheiro Braathen otti toisen peräkkäisen voittonsa Levin maailmancupissa.",
+   "image": "https://images.sanoma-sndp.fi/8a7d302394d6ca7170486bdfeaad15a1/normal/1440.jpg",
+   "important": false
   },
   {
-   "title": "Yhdysvaltain liikenneministeri: Lentoliikenne palautuu normaaliksi maanantaina",
-   "link": "https://yle.fi/a/74-20257081?origin=rss",
-   "published": "2026-11-15T14:42:46+00:00",
-   "description": "Lentoja on sunnuntaina peruttu jo yli 900.",
-   "image": null
+   "title": "Viro sulkee Venäjän-vastaisen rajansa",
+   "link": "https://yle.fi/a/74-20257086?origin=rss",
+   "published": "2026-11-15T15:01:41+00:00",
+   "description": "",
+   "image": null,
+   "important": false
   },
   {
-   "title": "HS seuraa | Suomelta vahva alku MM-välierässä, Yhdysvallat rokotti silti",
-   "link": "https://www.hs.fi/urheilu/art-2000012413752.html",
-   "published": "2026-11-15T14:39:00+00:00",
-   "description": "Naisleijonat pelaa paikasta MM-finaaliin.",
-   "image": "https://images.sanoma-sndp.fi/9f742d2b52cf5db8ec10eac452be6173/normal/1440.jpg"
+   "title": "Prinsessa Catherine kuuli sairaalassa pysäyttävät sanat – harvinainen avautuminen syöpähoidoista",
+   "link": "https://www.is.fi/kuninkaalliset/art-2000012407924.html",
+   "published": "2026-11-15T15:01:00+00:00",
+   "description": "Prinsessalle yhteys luontoon on ollut tärkeää paranemisen aikana.",
+   "image": "https://images.sanoma-sndp.fi/2d6000bc8300310bada80752e87dc351/normal/1440.jpg",
+   "important": false
   },
   {
-   "title": "Suomelta upea alku MM-välierässä – sitten tuli karu virhe",
-   "link": "https://www.is.fi/jaakiekko/art-2000012413693.html",
-   "published": "2026-11-15T14:39:00+00:00",
-   "description": "Naisleijonat pelaa paikasta MM-finaaliin. IS seuraa hetki hetkeltä.",
-   "image": "https://images.sanoma-sndp.fi/9f742d2b52cf5db8ec10eac452be6173/normal/1440.jpg"
+   "title": "Kysy Ainolta | Miksi alusvaatteiden vilauttaminen on samaan aikaan muodikasta ja häpeällistä?",
+   "link": "https://www.hs.fi/kulttuuri/art-2000012409720.html",
+   "published": "2026-11-15T15:00:00+00:00",
+   "description": "Säännöt eivät ole samat kaikille eivätkä kaikissa tilanteissa. Kysy Ainolta -palstalla selitetään, miksi.",
+   "image": "https://images.sanoma-sndp.fi/4daccb3e522c10ce2b3daf8a989ed45c/normal/1440.jpg",
+   "important": false
   },
   {
-   "title": "Viro | Drooniyritys yritettiin polttaa, Viro harkitsee Venäjän-vastaisen rajan sulkemista",
-   "link": "https://www.hs.fi/alueet/art-2000012413742.html",
-   "published": "2026-11-15T14:36:00+00:00",
-   "description": "Viron suojelupoliisin johtajan Margo Pallosonin mukaan tuhopolttoyritys oli Venäjän sotilastiedustelupalvelu GRU:n koordinoima.",
-   "image": "https://images.sanoma-sndp.fi/5dd1bb60ee3c2609e5091ccbc0b04498/normal/1440.jpg"
+   "title": "Nyrkkeily | Eva Wahlström, 46, palaa kehään: vanhan valmentajan ensireaktio oli järkytys",
+   "link": "https://www.hs.fi/urheilu/art-2000012413735.html",
+   "published": "2026-11-15T14:56:00+00:00",
+   "description": "Eva Wahlström pohti paluutaan pitkään ja tuli siihen tulokseen, että haluaa vielä testata itseään nyrkkeilykehässä.",
+   "image": "https://images.sanoma-sndp.fi/47cd8dcacbdf6fa453782a886155aefe/normal/1440.jpg",
+   "important": false
   },
   {
-   "title": "550 euron naapurisota paisui 12 000 euron laskuksi",
-   "link": "https://www.is.fi/taloussanomat/art-2000012404150.html",
-   "published": "2026-11-15T14:30:00+00:00",
-   "description": "Paritalossa naapureiden välit tulehtuivat niin pahoin, etteivät yhteiset asiat enää sujuneet. Lopulta riitaa ratkottiin oikeudessa, ja lasku nousi moninkertaiseksi alkuperäisiin saataviin nähden.",
-   "image": "https://images.sanoma-sndp.fi/cf1e3bb4c3a4e625e48b4117e0254464/normal/1440.jpg"
+   "title": "Kokoomusnuoret: Seksityö laillistettava, kehitysapu lakkautettava, Ylelle 400 miljoonan leikkaukset",
+   "link": "https://www.is.fi/politiikka/art-2000012413784.html",
+   "published": "2026-11-15T14:55:00+00:00",
+   "description": "Seksillä Suomi nousuun -aloite hyväksyttiin yksimielisesti.",
+   "image": "https://images.sanoma-sndp.fi/73e350cc214ce618fda42f9d1f7c05e3/normal/1440.jpg",
+   "important": false
   },
   {
-   "title": "Auto törmäsi jalan­kulkijoihin suojatiellä Tampereella",
-   "link": "https://www.is.fi/tampereen-seutu/art-2000012413853.html",
-   "published": "2026-11-15T14:27:00+00:00",
-   "description": "Jalankulkijat loukkaantuivat.",
-   "image": null
+   "title": "Joulupukin Pajakylän livekameraan tallentui erikoinen näky – herätti huolta Yhdysvalloissa asti",
+   "link": "https://www.is.fi/kotimaa/art-2000012413692.html",
+   "published": "2026-11-15T14:55:00+00:00",
+   "description": "Joulupukin Pajakylän livekameran katsojat kummastuivat, kun henkilö asettui yöpuulle keskelle lumista aukiota.",
+   "image": "https://images.sanoma-sndp.fi/23af1dc77de4340679d80c6e2734fc72/normal/1440.jpg",
+   "important": false
   }
  ],
  "jalkapallo": [
@@ -63,56 +71,64 @@
    "link": "https://www.bbc.co.uk/sport/football/articles/cm98xd2dpjd7o?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-15T14:06:19+00:00",
    "description": "Hendon's first match since the death of midfielder Ezekiel Williams is abandoned because of a serious injury to Ethan Creary.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a7a/live/05560230-e0f8-11f1-97b9-9110abfffc70.png"
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a7a/live/05560230-e0f8-11f1-97b9-9110abfffc70.png",
+   "important": false
   },
   {
    "title": "Bristol Rovers being let down by poor players - Evans",
    "link": "https://www.bbc.co.uk/sport/football/articles/cx1l0g217veqo?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-15T13:55:09+00:00",
    "description": "Steve Evans insists he will leave Bristol Rovers if he is not wanted but says his players have been \"inconsistent\" and \"poor\".",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/49c7/live/affda860-e0f2-11f1-97b9-9110abfffc70.jpg"
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/49c7/live/affda860-e0f2-11f1-97b9-9110abfffc70.jpg",
+   "important": false
   },
   {
    "title": "Pitch perimeters under review after Vigar death",
    "link": "https://www.bbc.co.uk/sport/football/articles/c5y4jn2zw3yno?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-15T13:49:17+00:00",
    "description": "The Premier League, English Football League and Women's Super League are reviewing pitch perimeters after the death of Billy Vigar last year.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/541a/live/e9fcbc60-e0f5-11f1-97b9-9110abfffc70.jpg"
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/541a/live/e9fcbc60-e0f5-11f1-97b9-9110abfffc70.jpg",
+   "important": false
   },
   {
    "title": "Branthwaite, Garner and King omitted for Spain game",
    "link": "https://www.bbc.co.uk/sport/football/articles/cq4gn7014x76o?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-15T13:15:15+00:00",
    "description": "England manager Thomas Tuchel omits Josh King, James Garner and Jarrad Branthwaite from his squad to face Spain on Sunday night.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/77b7/live/b6cfa6a0-e0f4-11f1-93e1-3b657b665bcf.png"
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/77b7/live/b6cfa6a0-e0f4-11f1-93e1-3b657b665bcf.png",
+   "important": false
   },
   {
    "title": "Wenger decides not to challenge Fifa chief Infantino",
    "link": "https://www.bbc.co.uk/sport/football/articles/c539gn33z1l3o?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-15T11:28:25+00:00",
    "description": "Arsene Wenger decides against running for the Fifa presidency, in a boost to Gianni Infantino's hopes of a fourth term.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ecc3/live/a18afd20-e0e1-11f1-8175-3108136b4191.jpg"
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ecc3/live/a18afd20-e0e1-11f1-8175-3108136b4191.jpg",
+   "important": false
   },
   {
    "title": "Celtic have eye on midfielder Ebonog - gossip",
    "link": "https://www.bbc.co.uk/sport/football/articles/cvglr4d04x2go?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-15T10:45:52+00:00",
    "description": "Two possible January targets for Celtic as Turkish club maintain interest in Rangers midfielder...",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3d12/live/9d213a60-e0e1-11f1-93e1-3b657b665bcf.png"
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3d12/live/9d213a60-e0e1-11f1-93e1-3b657b665bcf.png",
+   "important": false
   },
   {
    "title": "How Spain's humble superstar Simon became world's best keeper",
    "link": "https://www.bbc.co.uk/sport/football/articles/cqvg23nv0jw2o?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-15T07:29:30+00:00",
    "description": "As Spain prepare to host England in the Nations League, BBC Sport columnist Guillem Balague charts the rise of Unai Simon to become the world's best keeper.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/41cb/live/396f38d0-dddc-11f1-b865-d17d8611efca.jpg"
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/41cb/live/396f38d0-dddc-11f1-b865-d17d8611efca.jpg",
+   "important": false
   },
   {
    "title": "How Aston Villa are reclaiming their identity",
    "link": "https://www.bbc.co.uk/sport/football/articles/cm4gkgnkkn9zo?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-15T07:12:05+00:00",
    "description": "Aston Villa Women are celebrating an important 30-year milestone on Sunday - but how are they trying to reclaim their identity?",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2d8a/live/a96f30c0-e009-11f1-9fd4-8b3c9f9dfc89.jpg"
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2d8a/live/a96f30c0-e009-11f1-9fd4-8b3c9f9dfc89.jpg",
+   "important": false
   }
  ],
  "teknologia": [
@@ -121,114 +137,130 @@
    "link": "https://arstechnica.com/science/2026/11/how-the-worlds-fires-changed-while-humanity-hit-pause/",
    "published": "2026-11-15T12:07:34+00:00",
    "description": "COVID-19 lockdowns cut global fire activity by 12.3 percent.",
-   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2293683755-1024x648.jpg"
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2293683755-1024x648.jpg",
+   "important": false
   },
   {
    "title": "SpaceX returned its Starship rocket on Saturday—but there's a catch",
    "link": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world/",
    "published": "2026-11-15T00:40:59+00:00",
    "description": "It felt like stepping into the future.",
-   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2304631389-1024x648.jpg"
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2304631389-1024x648.jpg",
+   "important": false
   },
   {
    "title": "James Webb telescope finds ice older than the star it orbits",
    "link": "https://arstechnica.com/science/2026/11/james-webb-telescope-finds-ice-older-than-the-star-it-orbits/",
    "published": "2026-11-14T12:15:48+00:00",
    "description": "Radiation and collisions reshape the planetary building materials.",
-   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/image-1-989x648.jpeg"
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/image-1-989x648.jpeg",
+   "important": false
   },
   {
    "title": "Winemakers are learning that conservation can be good for business",
    "link": "https://arstechnica.com/science/2026/11/winemakers-are-learning-that-conservation-can-be-good-for-business/",
    "published": "2026-11-14T12:05:51+00:00",
    "description": "Healthy soils, native plants, and fewer chemicals are helping vineyards adapt.",
-   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/savineyard1-1152x640.jpg"
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/savineyard1-1152x640.jpg",
+   "important": false
   },
   {
    "title": "Starship flight 15 powers to orbit—setting up a possible catch on Saturday",
    "link": "https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday/",
    "published": "2026-11-14T00:49:13+00:00",
    "description": "One way or another, the company will get some more data on Saturday.",
-   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2305018954-1024x648.jpg"
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2305018954-1024x648.jpg",
+   "important": false
   },
   {
    "title": "FAA has lifted its third-ever nationwide ground stop",
    "link": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/",
    "published": "2026-11-13T23:17:38+00:00",
    "description": "Secretary of Transportation Sean Duffy blamed obsolete equipment for the outage.",
-   "image": "https://cdn.arstechnica.net/wp-content/uploads/2022/10/air-traffic-1000x648.jpg"
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2022/10/air-traffic-1000x648.jpg",
+   "important": false
   },
   {
    "title": "Millions of Americans are not taking their GLP-1 drugs as prescribed",
    "link": "https://arstechnica.com/health/2026/11/millions-in-us-use-unapproved-glp-1s-and-use-them-in-unapproved-ways/",
    "published": "2026-11-13T21:59:01+00:00",
    "description": "Cost and access barriers are pushing people to modified use and unapproved versions.",
-   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2291507729-1152x648.jpg"
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2291507729-1152x648.jpg",
+   "important": false
   },
   {
    "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
    "link": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
    "published": "2026-11-13T21:20:47+00:00",
    "description": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
-   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Pilots-during-DFW-departure-1152x648.jpg"
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Pilots-during-DFW-departure-1152x648.jpg",
+   "important": false
   }
  ],
  "maailma": [
+  {
+   "title": "How telecoms upgrade work sparked US flight chaos",
+   "link": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-15T14:57:15+00:00",
+   "description": "US officials say the disruption was caused by old equipment overloading and not a cyber-attack.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/14ef/live/f4aae840-dfd7-11f1-b441-2b33b063138f.jpg",
+   "important": false
+  },
+  {
+   "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+   "link": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-15T14:56:21+00:00",
+   "description": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cdfb/live/3e3fdc00-e103-11f1-b441-2b33b063138f.jpg",
+   "important": false
+  },
   {
    "title": "New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision",
    "link": "https://www.bbc.co.uk/news/articles/cwe89y2r5j20o?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-15T14:33:59+00:00",
    "description": "The lawsuit filed by New Orleans officials also requests that the tanker involved in the collision with the cruise ship be seized and sold to pay for damages.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6592/live/907a90a0-e090-11f1-a701-fddedf244c16.jpg"
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6592/live/907a90a0-e090-11f1-a701-fddedf244c16.jpg",
+   "important": false
   },
   {
    "title": "Iran targets US military base in Bahrain with drone attack",
    "link": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-15T13:42:58+00:00",
    "description": "It marks the second attack on the country in three days and comes as the US and Iran remain locked in a stand-off over the Strait of Hormuz.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/adcc/live/783de3c0-e0f4-11f1-b441-2b33b063138f.jpg"
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0351/live/2e8de2e0-e106-11f1-93e1-3b657b665bcf.jpg",
+   "important": true
   },
   {
    "title": "South Korea's top scorer in tax accountancy exam admits cheating",
    "link": "https://www.bbc.co.uk/news/articles/ckvg2ezvpe08o?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-15T13:37:45+00:00",
    "description": "Han Won-seok, 34, confessed to using a hidden camera and AI to get a near-perfect mark on the significant test.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/32ab/live/d67148b0-e0ef-11f1-97b9-9110abfffc70.png"
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/32ab/live/d67148b0-e0ef-11f1-97b9-9110abfffc70.png",
+   "important": false
   },
   {
    "title": "Three men sentenced to death in Jordan over fatal church mass shooting",
    "link": "https://www.bbc.co.uk/news/articles/c3rrg9xgqlwpo?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-15T11:06:32+00:00",
    "description": "The attack on funeral at a Greek Orthodox church killed nine and injured 34 others last month.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0fb0/live/ed275c50-e0dd-11f1-a701-fddedf244c16.jpg"
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0fb0/live/ed275c50-e0dd-11f1-a701-fddedf244c16.jpg",
+   "important": false
   },
   {
    "title": "Pope Leo speaks of community 'suffering' on visit to remote Andes town",
    "link": "https://www.bbc.co.uk/news/articles/cr4gnz0lv2vlo?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-15T09:57:25+00:00",
    "description": "Santa Cruz de Succhabamba is part of the Diocese of Chiclayo, where the Pope served as bishop from 2015 to 2023.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/80df/live/ea970890-e09d-11f1-a298-b1f4784d44cc.jpg"
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/80df/live/ea970890-e09d-11f1-a298-b1f4784d44cc.jpg",
+   "important": false
   },
   {
    "title": "Fifth Canadian soldier dies from injuries caused by large fire at military base",
    "link": "https://www.bbc.co.uk/news/articles/cmrlgn4x2xw8o?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-15T09:26:37+00:00",
    "description": "Pte William Douglas Dal Bianco died from his injuries on Friday, a month after a fire that tore through CFB Wainwright.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f7a2/live/a4d3cf40-e0d0-11f1-9e51-e12509ba597c.jpg"
-  },
-  {
-   "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
-   "link": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T08:17:41+00:00",
-   "description": "Both Hamas and IDF officials confirm the death of Samir Abu Younis, commander of the Rafah Brigade.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c19/live/fcdf6660-e0ce-11f1-a701-fddedf244c16.jpg"
-  },
-  {
-   "title": "Copper wire upgrade behind US flight suspension, transport secretary says",
-   "link": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T07:10:31+00:00",
-   "description": "The US government is trying to find out whether the chaos was caused by \"incompetence\" or faulty equipment.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3177/live/2aeb3c20-e0c3-11f1-b441-2b33b063138f.jpg"
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f7a2/live/a4d3cf40-e0d0-11f1-9e51-e12509ba597c.jpg",
+   "important": false
   }
  ],
  "musiikki": [
@@ -237,56 +269,64 @@
    "link": "https://pitchfork.com/story/camp-flog-gnaw-2026-amazon-music-livestream-schedule-and-details/",
    "published": "2026-11-13T19:58:27+00:00",
    "description": "Turnstile, Don Toliver, Syd, Gena, and more artists will be available to watch",
-   "image": "https://media.pitchfork.com/photos/6af773a169ea943d7abe9036/master/pass/Camp-Flog-Gnaw.jpeg"
+   "image": "https://media.pitchfork.com/photos/6af773a169ea943d7abe9036/master/pass/Camp-Flog-Gnaw.jpeg",
+   "important": false
   },
   {
    "title": "Panda Bear Remixes Grace Ives’ “Stupid Bitches”",
    "link": "https://pitchfork.com/story/panda-bear-remixes-grace-ives-stupid-bitches/",
    "published": "2026-11-13T18:14:46+00:00",
    "description": "Noah Lennox gives Girlfriend’s standout closer a near-total overhaul",
-   "image": "https://media.pitchfork.com/photos/6af748addf86836dcc15cd36/master/pass/Grace-Ives-Panda-Bear.jpg"
+   "image": "https://media.pitchfork.com/photos/6af748addf86836dcc15cd36/master/pass/Grace-Ives-Panda-Bear.jpg",
+   "important": false
   },
   {
    "title": "Shygirl, Brutalismus 3000, Nirosta Steel Feature on Club Kid Companion EP",
    "link": "https://pitchfork.com/story/shygirl-brutalismus-3000-nirosta-steel-feature-on-club-kid-ep/",
    "published": "2026-11-13T16:59:26+00:00",
    "description": "Out now, the record includes two covers of Arthur Russell’s “Boy With a Smile”",
-   "image": "https://media.pitchfork.com/photos/6af72987829743962fb4ec21/master/pass/unnamed%20(71).jpg"
+   "image": "https://media.pitchfork.com/photos/6af72987829743962fb4ec21/master/pass/unnamed%20(71).jpg",
+   "important": false
   },
   {
    "title": "Hayley Williams Brings Out Seu Jorge to Cover David Bowie",
    "link": "https://pitchfork.com/story/hayley-williams-brings-out-seu-jorge-to-cover-david-bowie/",
    "published": "2026-11-13T16:29:24+00:00",
    "description": "The Paramore singer and Life Aquatic star also duetted on “Zissou” in São Paulo",
-   "image": "https://media.pitchfork.com/photos/6af73aae829743962fb4ed74/master/pass/hayley-williams-seu-jorge-bowie.jpg"
+   "image": "https://media.pitchfork.com/photos/6af73aae829743962fb4ed74/master/pass/hayley-williams-seu-jorge-bowie.jpg",
+   "important": false
   },
   {
    "title": "Drake Updates Take Care With New Song “Hate Sleeping Alone”",
    "link": "https://pitchfork.com/story/drake-updates-take-care-with-new-song-hate-sleeping-alone/",
    "published": "2026-11-13T15:53:48+00:00",
    "description": "Get your brood on with an unearthed cut from the 2011 album",
-   "image": "https://media.pitchfork.com/photos/6af723dcdf86836dcc15cb36/master/pass/GettyImages-2301207783.jpg"
+   "image": "https://media.pitchfork.com/photos/6af723dcdf86836dcc15cb36/master/pass/GettyImages-2301207783.jpg",
+   "important": false
   },
   {
    "title": "9 New Albums You Should Listen to Now: 2hollis, Armand Hammer, and More",
    "link": "https://pitchfork.com/story/9-new-albums-you-should-listen-to-now-2hollis-armand-hammer-and-more/",
    "published": "2026-11-13T14:59:02+00:00",
    "description": "Stream new releases from 2hollis, Ecco2k, Armand Hammer, and U2",
-   "image": "https://media.pitchfork.com/photos/6af4f0b7123cd98d0879ec7f/master/pass/2hollis%20%E2%80%94%20Pitchfork.jpg"
+   "image": "https://media.pitchfork.com/photos/6af4f0b7123cd98d0879ec7f/master/pass/2hollis%20%E2%80%94%20Pitchfork.jpg",
+   "important": true
   },
   {
    "title": "Zsela Invites You to The Party With New Album",
    "link": "https://pitchfork.com/story/zsela-invites-you-to-the-party-with-new-album/",
    "published": "2026-11-13T12:44:36+00:00",
    "description": "Listen to “Real Romantic” from the Los Angeles singer’s new LP for Nice Life",
-   "image": "https://media.pitchfork.com/photos/6af76aba48625867721cd45c/master/pass/Zsela.jpeg"
+   "image": "https://media.pitchfork.com/photos/6af76aba48625867721cd45c/master/pass/Zsela.jpeg",
+   "important": false
   },
   {
    "title": "Hear U2’s Posthumous Dolly Parton Duet",
    "link": "https://pitchfork.com/story/hear-u2s-posthumous-dolly-parton-duet/",
    "published": "2026-11-13T05:01:36+00:00",
    "description": "“Torn” is the closing track off the band’s new album, Carnaval de Luz",
-   "image": "https://media.pitchfork.com/photos/6af71a3e829743962fb4eb11/master/pass/Dolly%20Parton%20Bono.png"
+   "image": "https://media.pitchfork.com/photos/6af71a3e829743962fb4eb11/master/pass/Dolly%20Parton%20Bono.png",
+   "important": false
   }
  ]
 }
