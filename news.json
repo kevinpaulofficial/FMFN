@@ -1,6 +1,51 @@
 {
  "suomi": [
   {
+   "title": "Naton huippukokous perutaan – karu syy",
+   "link": "https://www.is.fi/ulkomaat/art-2000012414109.html",
+   "published": "2026-11-15T17:06:00+00:00",
+   "description": "Huippukokous oli tarkoitus järjestää Albanian Tiranassa.",
+   "image": "https://images.sanoma-sndp.fi/9a845c5ce36acd0b0747035011449ea2/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Isku drooniyritykseen | Viro aikoo sulkea Venäjän-vastaisen rajansa",
+   "link": "https://www.hs.fi/alueet/art-2000012413742.html",
+   "published": "2026-11-15T17:05:00+00:00",
+   "description": "Viron suojelupoliisin johtajan Margo Pallosonin mukaan tuhopolttoyritys oli Venäjän sotilastiedustelupalvelu GRU:n koordinoima.",
+   "image": "https://images.sanoma-sndp.fi/ad361253ed41bc46b5048445ec8ca7c6/normal/1440.jpg",
+   "important": true,
+   "hot": true
+  },
+  {
+   "title": "Minja Koskela hämmästyi Antti Häkkäsen vaatimuksesta",
+   "link": "https://www.is.fi/politiikka/art-2000012413973.html",
+   "published": "2026-11-15T17:03:00+00:00",
+   "description": "Häkkänen sanoi Ylelle, että puolustusmenoista olisi parempi keskustella vaalien alla kulisseissa.",
+   "image": "https://images.sanoma-sndp.fi/d21bb3f53d2f229ddb938577fc75a9cd/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Murskaako Huuhkajat San Marinon? Isoja muutoksia kokoonpanossa",
+   "link": "https://www.is.fi/huuhkajat/art-2000012413963.html",
+   "published": "2026-11-15T17:03:00+00:00",
+   "description": "IS seuraa Huuhkajien kamppailua piskuista San Marinoa vastaan.",
+   "image": "https://images.sanoma-sndp.fi/dab6f56ce44eff2a5ad7d55594fd5f6a/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Ilvekseltä hurja kiinnitys SM-liigassa",
+   "link": "https://www.is.fi/sm-liiga/art-2000012413753.html",
+   "published": "2026-11-15T17:01:00+00:00",
+   "description": "Ilves sai pidettyä kiinni kanadalaisesta tähtipelaajastaan.",
+   "image": "https://images.sanoma-sndp.fi/5578cb1e858875b3184d8e07e9bc00d9/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
    "title": "Muoti | Yksi Linnan juhlien puku teki Aura Ritolasta halutun suunnittelijan",
    "link": "https://www.hs.fi/popkulttuuri/art-2000012337277.html",
    "published": "2026-11-15T17:00:00+00:00",
@@ -62,60 +107,78 @@
    "image": "https://images.sanoma-sndp.fi/71063cf84925489cce358feead60e47f/normal/1440.jpg",
    "important": false,
    "hot": false
-  },
-  {
-   "title": "HS seuraa | Suomi romahti MM-välierässä, tie vie pronssiotteluun",
-   "link": "https://www.hs.fi/urheilu/art-2000012413752.html",
-   "published": "2026-11-15T16:36:00+00:00",
-   "description": "Naisleijonat pelasi paikasta MM-finaaliin. HS seurasi hetki hetkeltä.",
-   "image": "https://images.sanoma-sndp.fi/b4cebc355fa7627828a9db16d1f5bcda/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Konsertit | Björkin vuosia valmisteltu keikka Oulussa toteutui, vaikka viime hetkillä oli käydä huonosti",
-   "link": "https://www.hs.fi/popkulttuuri/art-2000012413437.html",
-   "published": "2026-11-15T16:36:00+00:00",
-   "description": "Keikka oli vaarassa peruuntua tapahtumapaikan lattiavaurion takia.",
-   "image": "https://images.sanoma-sndp.fi/4419bb48983282e0bcf8980cfdf80811/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Helsingin paraatipaikka muuttui löyhkääväksi ”sota­tantereeksi”",
-   "link": "https://www.is.fi/kotimaa/art-2000012413850.html",
-   "published": "2026-11-15T16:30:00+00:00",
-   "description": "”Sitä itseään”, kuvailee alueen asukas.",
-   "image": "https://images.sanoma-sndp.fi/1d8b1743e6496ffd0735db14ea7d4c80/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Tunnistatko metsän eläimet kuvista? Jos saat kaikki oikein, hoksottimesi ovat monella tapaa kunnossa",
-   "link": "https://www.is.fi/menaiset/vapaalla/art-2000012408311.html",
-   "published": "2026-11-15T16:30:00+00:00",
-   "description": "Tämä testi vaatii hyvää muistia ja eläintietämystä.",
-   "image": "https://images.sanoma-sndp.fi/2b0d9e6998c1d784a3364569903c4571/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Kommentti: Tyly totuus tuli ranskalaisen suusta – Suomi on nolossa jamassa",
-   "link": "https://www.is.fi/jaakiekko/art-2000012413589.html",
-   "published": "2026-11-15T16:29:00+00:00",
-   "description": "Suomen naiskiekko on tuuliajolla, eikä tulevaisuus näytä valoisalta, kirjoittaa toimittaja Sasha Huttunen.",
-   "image": "https://images.sanoma-sndp.fi/6f5726119c815604a90168421e97e8dc/normal/1440.jpg",
-   "important": false,
-   "hot": false
   }
  ],
  "jalkapallo": [
+  {
+   "title": "Chapecoense crash survivor wins promotion in final game",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ckp8017p1e3go?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-15T17:00:35+00:00",
+   "description": "Alan Ruschel, one of six survivors in the 2016 plane crash that was carrying members of the Chapecoense team, wins promotion to Brazil‘s Serie A in his final match before retiring.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/306d/live/586b44a0-e10f-11f1-b3df-4961589d9b68.jpg",
+   "important": true,
+   "hot": false
+  },
+  {
+   "title": "Arsenal v London City Lionesses: Women’s Super League – live",
+   "link": "https://www.theguardian.com/football/live/2026/nov/15/arsenal-v-london-city-lionesses-womens-super-league-live",
+   "published": "2026-11-15T16:59:58+00:00",
+   "description": "Updates from 4.30pm (GMT) kick-off at the Emirates StadiumGet in touch: email John and follow us on BlueSkyCharles Antaki gets in touch: “Renee Slegers under pressure indeed. Arsenal’s form this season has been nothing short of alarming, and there is a distinct danger of failing to qualify for next year’s women’s Champions League. For the moment, for stability’s sake, better that Renee should stay",
+   "image": "https://i.guim.co.uk/img/media/ec30227afed8a199e55a5e72df43b74aa7203465/183_0_4260_3408/master/4260.jpg?width=140&quality=85&auto=format&fit=max&s=73e205a54026d4e31f404124f1bbd228",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "London City Lionesses hit back minutes after Arsenal take the lead!",
+   "link": "https://www.skysports.com/watch/video/13612525/wsl-london-city-lionesses-hit-back-minutes-after-arsenal-take-the-lead",
+   "published": "2026-11-15T16:48:00+00:00",
+   "description": "London City Lionesses were not behind for long as Isobel Goodwin cancelled out Frida Maanum's opener.",
+   "image": "https://e0.365dm.com/26/11/1920x1080/skysports-lcl-arsenal_7407161.jpg?20261115165417",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Live updates, reaction as Brazil legend Ronaldinho comes out of retirement at Ravenna to chase 300th goal",
+   "link": "https://www.espn.com/soccer/story/_/id/50489043/ronaldinho-ravenna-brazil-barcelona-serie-c",
+   "published": "2026-11-15T16:47:15+00:00",
+   "description": "Ronaldinho came out of retirement to play for Italian Serie C side Ravenna at age 46 in a bid to score his 300th career goal. Here's what happened.",
+   "image": null,
+   "important": false,
+   "hot": true
+  },
   {
    "title": "Tenerife return to action after death of De Miguel",
    "link": "https://www.bbc.co.uk/sport/football/articles/cqx2xn535yj8o?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-15T16:38:51+00:00",
    "description": "Tenerife play their first game since the death of striker Jesus de Miguel on an emotional day at the Heliodoro Rodriguez Lopez stadium.",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4e2a/live/47c33310-e10f-11f1-b3df-4961589d9b68.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Zverev begins ATP Finals with straight sets victory over Jodar",
+   "link": "https://www.skysports.com/tennis/news/12040/13612522/atp-finals-world-no-1-alexander-zverev-begins-campaign-with-convincing-straight-sets-victory-over-rafael-jodar",
+   "published": "2026-11-15T16:37:00+00:00",
+   "description": "Alexander Zverev began his ATP Finals campaign with a 6-4 6-4 victory over rising star Rafael Jodar, who was competing in the event for the first time.",
+   "image": "https://e0.365dm.com/26/11/1920x1080/skysports-alexander-zverev_7407145.jpg?20261115163735",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Pioneer Pete sparks jubilant Greatwood scenes at Cheltenham",
+   "link": "https://www.skysports.com/racing/news/12040/13612521/cheltenham-pioneer-pete-sparks-jubilant-greatwood-scenes-at-november-meeting",
+   "published": "2026-11-15T16:34:00+00:00",
+   "description": "Pioneer Pete could have the County Hurdle back at Cheltenham in March as a target after continuing his charge up the two-mile hurdling rankings in the Unibet Greatwood Handicap Hurdle.",
+   "image": "https://e1.365dm.com/26/11/1920x1080/skysports-pioneer-pete-racing_7407146.jpg?20261115163827",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Andrew Gilding pins BULLSEYE finish to defeat Charlie Manby!",
+   "link": "https://www.skysports.com/watch/video/13612515/andrew-gilding-pins-bullseye-finish-to-defeat-charlie-manby",
+   "published": "2026-11-15T16:09:00+00:00",
+   "description": "Andrew Gilding punished Charlie Manby's wayward finishing to win their Grand Slam match on the bullseye after averaging barely over 81.",
+   "image": "https://e0.365dm.com/26/11/1920x1080/skysports-andrew-gilding-finish_7407142.jpg?20261115162405",
    "important": false,
    "hot": false
   },
@@ -129,6 +192,15 @@
    "hot": false
   },
   {
+   "title": "DP World Tour announce date to confirm plans over invites to ex-LIV golfers",
+   "link": "https://www.skysports.com/golf/news/12040/13612501/dp-world-tour-chief-executive-explains-why-including-ex-liv-golf-members-in-2027-is-huge-opportunity-to-strengthen-events",
+   "published": "2026-11-15T16:00:00+00:00",
+   "description": "DP World Tour chief executive Guy Kinnings insists welcoming LIV Golfers back as part of their tournaments is a &#8216;huge opportunity&#8217; to strengthen its events next season.",
+   "image": "https://e0.365dm.com/26/11/1920x1080/skysports-guy-kinnings-golf_7407144.jpg?20261115163148",
+   "important": false,
+   "hot": false
+  },
+  {
    "title": "You are Scotland boss Pocognoli - what would you do?",
    "link": "https://www.bbc.co.uk/sport/football/articles/cklyw2qzzd44o?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-15T15:58:56+00:00",
@@ -138,85 +210,13 @@
    "hot": false
   },
   {
-   "title": "Club's first match since player's death abandoned because of serious injury",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cm98xd2dpjd7o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T14:06:19+00:00",
-   "description": "Hendon's first match since the death of midfielder Ezekiel Williams is abandoned because of a serious injury to Ethan Creary.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a7a/live/05560230-e0f8-11f1-97b9-9110abfffc70.png",
+   "title": "Departing Pochettino predicts 'amazing future' for USMNT after rout of Haiti",
+   "link": "https://www.espn.com/soccer/story/_/id/50484170/usa-haiti-christian-pulisic-goal-mauricio-pochettino",
+   "published": "2026-11-15T15:37:46+00:00",
+   "description": "Mauricio Pochettino said the USMNT has an \"amazing future\" after securing a 6-0 victory over Haiti in his penultimate game in charge of the team.",
+   "image": null,
    "important": false,
-   "hot": false
-  },
-  {
-   "title": "Bristol Rovers being let down by poor players - Evans",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cx1l0g217veqo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T13:55:09+00:00",
-   "description": "Steve Evans insists he will leave Bristol Rovers if he is not wanted but says his players have been \"inconsistent\" and \"poor\".",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/49c7/live/affda860-e0f2-11f1-97b9-9110abfffc70.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Pitch perimeters under review after Vigar death",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c5y4jn2zw3yno?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T13:49:17+00:00",
-   "description": "The Premier League, English Football League and Women's Super League are reviewing pitch perimeters after the death of Billy Vigar last year.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/541a/live/e9fcbc60-e0f5-11f1-97b9-9110abfffc70.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Branthwaite, Garner and King omitted for Spain game",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cq4gn7014x76o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T13:15:15+00:00",
-   "description": "England manager Thomas Tuchel omits Josh King, James Garner and Jarrad Branthwaite from his squad to face Spain on Sunday night.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/77b7/live/b6cfa6a0-e0f4-11f1-93e1-3b657b665bcf.png",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Wenger decides not to challenge Fifa chief Infantino",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c539gn33z1l3o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T11:28:25+00:00",
-   "description": "Arsene Wenger decides against running for the Fifa presidency, in a boost to Gianni Infantino's hopes of a fourth term.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ecc3/live/a18afd20-e0e1-11f1-8175-3108136b4191.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Celtic have eye on midfielder Ebonog - gossip",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cvglr4d04x2go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T10:45:52+00:00",
-   "description": "Two possible January targets for Celtic as Turkish club maintain interest in Rangers midfielder...",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3d12/live/9d213a60-e0e1-11f1-93e1-3b657b665bcf.png",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "How Spain's humble superstar Simon became world's best keeper",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cqvg23nv0jw2o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T07:29:30+00:00",
-   "description": "As Spain prepare to host England in the Nations League, BBC Sport columnist Guillem Balague charts the rise of Unai Simon to become the world's best keeper.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/41cb/live/396f38d0-dddc-11f1-b865-d17d8611efca.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Who am I? Guess WSL star No 12",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c32l8yzvjgx7o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T07:01:31+00:00",
-   "description": "Work out the identity of today's Women's Super League player in as few attempts as possible.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/70d9/live/eb25ea50-9afd-11f1-b792-a710e56a11dc.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Who am I? Guess WSL star No 12",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c32l8yzvjgx7o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T07:01:31+00:00",
-   "description": "Work out the identity of today's Women's Super League player in as few attempts as possible.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/70d9/live/eb25ea50-9afd-11f1-b792-a710e56a11dc.jpg",
-   "important": false,
-   "hot": false
+   "hot": true
   }
  ],
  "teknologia": [
@@ -230,11 +230,74 @@
    "hot": false
   },
   {
+   "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
+   "link": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
+   "published": "2026-11-15T11:27:31+00:00",
+   "description": "Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post.\n\nThe Garante, Italy's data protection authority, found that the feature was enabled by default and that the app accessed Italian users' photos, videos, and related metadata without their explicit consent.\n\nThe company has 60 days to",
+   "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdTCjpbsG3Dp62JM1KZqfSvZpuBnxwaCxXsplW3dAt2b4Ym0KAWPfxkHf4DT-02VK3jJESLmgasdE6D36qGegWu7dk9YSLN4DZxRVsgrM9lIEXXHUvQ0VzaZ1_gFqpjtA4cP3rlt82g5WnK2sXNZHJd5F_rEk4VSTGnMKOuXziSM1R85Vqhway3lajwTA/s1600/facebook-fine.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+   "link": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+   "published": "2026-11-15T08:22:04+00:00",
+   "description": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI.\n\n\"An attacker obtained an access key we had issued to Fireworks,\" Cursor said in a Friday update. \"The key was exposed by Fireworks, and the attacker used it to copy data from a read-only",
+   "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg16ACawbG7rP_kT-8Boo4xdTje3BeTWyFSnNXwHhr5cvy2-1X3Ljhrc1IuZlseWd55tN8E1yjQ9ldhTnjWTU-GJBpX_Zen36YiLQGsRSRAoteqHyxx7mn_w0QgLfMKDLItA4p_jpHajucbglLnCR_zWBY_t82YvFkLa9dQFBfjP1BrTlrNdYufsGMSZiGn/s1600/cursor.jpg",
+   "important": true,
+   "hot": false
+  },
+  {
    "title": "SpaceX returned its Starship rocket on Saturday—but there's a catch",
    "link": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world/",
    "published": "2026-11-15T00:40:59+00:00",
    "description": "It felt like stepping into the future.",
    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2304631389-1024x648.jpg",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Where was Nvidia’s security team?",
+   "link": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+   "published": "2026-11-15T00:08:07+00:00",
+   "description": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday conversations, which most corporate security teams are poorly equipped to catch.",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+   "link": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+   "published": "2026-11-14T21:41:22+00:00",
+   "description": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
+   "image": null,
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+   "link": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+   "published": "2026-11-14T17:30:00+00:00",
+   "description": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+   "link": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+   "published": "2026-11-14T16:34:15+00:00",
+   "description": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
+   "image": null,
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+   "link": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+   "published": "2026-11-14T12:38:35+00:00",
+   "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation.\n\nThe vulnerability, tracked as CVE-2026-114713 (CVSS score: 8.6), is a case of improper neutralization of delimiters",
+   "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuvSsWcsJ9736KXp_0s-6__-CiI5PD71VReembVHAB4cfnv3Qti8td9WR54UnRH96bz30dvbTQxwG3WbxDkWRq_eFJPYLgxbAzRD5k3MJSISbW2VDI-Fr7nlX4j8NyJkXqLHylMZMXpynEHVV8ovZ2YPC-WGCFCcrOZOeGc5Wsy-jRjjbcyYTzojI9Nudw/s1600/cisaa.jpg",
    "important": false,
    "hot": true
   },
@@ -264,78 +327,69 @@
    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2305018954-1024x648.jpg",
    "important": false,
    "hot": true
-  },
-  {
-   "title": "FAA has lifted its third-ever nationwide ground stop",
-   "link": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/",
-   "published": "2026-11-13T23:17:38+00:00",
-   "description": "Secretary of Transportation Sean Duffy blamed obsolete equipment for the outage.",
-   "image": "https://cdn.arstechnica.net/wp-content/uploads/2022/10/air-traffic-1000x648.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Millions of Americans are not taking their GLP-1 drugs as prescribed",
-   "link": "https://arstechnica.com/health/2026/11/millions-in-us-use-unapproved-glp-1s-and-use-them-in-unapproved-ways/",
-   "published": "2026-11-13T21:59:01+00:00",
-   "description": "Cost and access barriers are pushing people to modified use and unapproved versions.",
-   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2291507729-1152x648.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
-   "link": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
-   "published": "2026-11-13T21:20:47+00:00",
-   "description": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
-   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Pilots-during-DFW-departure-1152x648.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "In elephants, the resilience of communities has its limits",
-   "link": "https://arstechnica.com/science/2026/11/in-elephants-the-resilience-of-communities-has-its-limits/",
-   "published": "2026-11-13T20:03:13+00:00",
-   "description": "In Sri Lanka, ecological change is shrinking a park's elephant population.",
-   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2290156609-1024x648.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Kalshi ditches Trump Jr. as advisor; CEO admitted \"optics\" weren't good",
-   "link": "https://arstechnica.com/tech-policy/2026/11/trump-jr-out-as-kalshi-advisor-after-his-firms-big-investment-in-polymarket/",
-   "published": "2026-11-13T19:49:16+00:00",
-   "description": "Trump son advised Kalshi and got equity while Trump admin helped Kalshi in lawsuits.",
-   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/donald-trump-jr-1152x648.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
-   "link": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
-   "published": "2026-11-13T17:25:45+00:00",
-   "description": "Researcher traces a path from AI reward hacking to potential human extinction.",
-   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-destination-1152x648.jpg",
-   "important": true,
-   "hot": false
-  },
-  {
-   "title": "Windows 0-day dropped by disgruntled researcher hands hackers System rights",
-   "link": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
-   "published": "2026-11-13T16:26:32+00:00",
-   "description": "\"SignDrop\" exploit lets local users gain all-powerful System rights.",
-   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-1237693734-1152x648-1783631068.jpg",
-   "important": false,
-   "hot": false
   }
  ],
  "maailma": [
+  {
+   "title": "Planned asylum seeker detention centre next to Oxfordshire sewage works criticised",
+   "link": "https://www.theguardian.com/uk-news/2026/nov/15/planned-asylum-seeker-detention-centre-next-to-oxfordshire-sewage-works-criticised",
+   "published": "2026-11-15T16:47:39+00:00",
+   "description": "Thames Water says detainees at proposed accommodation should expect to experience insect swarms and strong smellsA Home Office plan to build asylum seeker detention facilities next to a sewage pump is facing objections after water company officials warned that detainees should expect to experience insect swarms and strong smells.Proposed secure accommodation blocks at Campsfield House immigration ",
+   "image": "https://i.guim.co.uk/img/media/d09ed18d9dd0cdd685e28614ca19c5a774a69750/268_0_2268_1816/master/2268.jpg?width=140&quality=85&auto=format&fit=max&s=a94ae645f7999f7bde5d4240fd8be790",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Hundreds of thousands of Czechs protest in Prague over media freedom",
+   "link": "https://www.theguardian.com/world/2026/nov/15/czechia-protest-prague-media-freedom",
+   "published": "2026-11-15T16:40:04+00:00",
+   "description": "Estimated 350,000 people rally against plan to scrap licence fees and fund broadcasters from state budgetHundreds of thousands of Czechs are rallying in Prague to protest against what they say is a government attempt to stifle media freedom.The gathering on Sunday to save the mandatory licence fees that fund Czechia’s public broadcasters could be one of the biggest in the country’s history, organi",
+   "image": "https://i.guim.co.uk/img/media/95975b1bec64815ceed42fb90d5215d3bbf2f3f8/543_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=ee2294d72c354e735186b306b7fe1328",
+   "important": false,
+   "hot": true
+  },
   {
    "title": "Czechs rally against plan to switch funding of public media",
    "link": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-15T16:36:42+00:00",
    "description": "Protesters say the move will stifle media freedom, while the coalition government insists broadcasters need to cut costs.",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d10d/live/fe22eed0-e10e-11f1-b441-2b33b063138f.jpg",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Thousands rally in Czech Republic against state media funding changes",
+   "link": "https://www.aljazeera.com/news/2026/11/15/thousands-rally-in-czech-republic-against-state-media-funding-changes?traffic_source=rss",
+   "published": "2026-11-15T16:32:22+00:00",
+   "description": "Critics say proposed funding changes will give the government more control of state media.",
+   "image": null,
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Transportation secretary Sean Duffy blames prior presidents and Congress for flight stoppage",
+   "link": "https://www.theguardian.com/us-news/2026/nov/15/transportation-secretary-sean-duffy-faa-flight-stoppag",
+   "published": "2026-11-15T16:18:49+00:00",
+   "description": "Democratic senator Chris Van Hollen says Trump administration hasn’t properly invested existing fundsDonald Trump’s administration on Sunday blamed the travel chaos stemming from Friday’s four-hour nationwide flight stoppage on prior presidents as well as a lack of congressional funding – though a Democratic senator argued that the Trump administration hasn’t properly invested all of the funds it ",
+   "image": "https://i.guim.co.uk/img/media/a09839dd38148bdd17475e10c93caf952fd6b7f0/557_0_6663_5330/master/6663.jpg?width=140&quality=85&auto=format&fit=max&s=625834678800cdf432db16929672492d",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "British tourist smashes Jesus statue outside Vilnius church",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/british-tourist-smashes-jesus-statue-outside-vilnius-church?traffic_source=rss",
+   "published": "2026-11-15T16:04:22+00:00",
+   "description": "A man removed a statue of the crucified Jesus from a church in Vilnius and it smashed to the ground.",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Saudi Arabia, Qatar, Jordan, Egypt condemn Iranian attack on Bahrain - as it happened",
+   "link": "https://www.theguardian.com/world/live/2026/nov/15/middle-east-crisis-live-iran-bahrain-strikes-gulf-donald-trump-us-israel-yemen-houthis",
+   "published": "2026-11-15T15:59:04+00:00",
+   "description": "Iran has targeted airbase in Bahrain in latest resumption of strikes since septemberThe state-run Bahrain news agency is also carrying the statements of each country in the region responding to Iran’s actions targeting their Gulf neighbour this morning.Jordan, Egypt, Saudi Arabia, and Qatar have all strongly condemned the attack and expressed solidarity with Bahrain.The Kingdom affirms that the Ir",
+   "image": "https://i.guim.co.uk/img/media/8639b2a492926c5d0ccbdbab7179b3d592cdb751/0_37_1091_873/master/1091.jpg?width=140&quality=85&auto=format&fit=max&s=578cbc0307286c00098fc0760a78406b",
    "important": false,
    "hot": false
   },
@@ -349,103 +403,76 @@
    "hot": false
   },
   {
-   "title": "How telecoms upgrade work sparked US flight chaos",
-   "link": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T14:57:15+00:00",
-   "description": "US officials say the disruption was caused by old equipment overloading and not a cyber-attack.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/14ef/live/f4aae840-dfd7-11f1-b441-2b33b063138f.jpg",
+   "title": "Two planes collide on taxiway at Miami airport one day after national grounding",
+   "link": "https://www.theguardian.com/us-news/2026/nov/15/miami-airport-planes-collide",
+   "published": "2026-11-15T15:40:04+00:00",
+   "description": "Two people injured after wingtip of Copa Airlines Boeing 737 struck nose of United Parcel Service Boeing 767Two planes collided with one another on a taxiway at Miami’s international airport on Saturday night – a day after the Federal Aviation Administration (FAA) issued an hours-long nationwide ground stop due to communication issues affecting multiple air traffic control centers.In a statement, ",
+   "image": "https://i.guim.co.uk/img/media/2268d8ddd3bcce1ac57e4531e97ad0d576a953b9/386_0_2367_1893/master/2367.jpg?width=140&quality=85&auto=format&fit=max&s=4b04d24e85d7e5b7e7d675f05f6e24b8",
    "important": false,
    "hot": false
   },
   {
-   "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
-   "link": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T14:56:21+00:00",
-   "description": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa43/live/e2a9a870-e10d-11f1-93e1-3b657b665bcf.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision",
-   "link": "https://www.bbc.co.uk/news/articles/cwe89y2r5j20o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T14:33:59+00:00",
-   "description": "The lawsuit filed by New Orleans officials also requests that the tanker involved in the collision with the cruise ship be seized and sold to pay for damages.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6592/live/907a90a0-e090-11f1-a701-fddedf244c16.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Iran targets US military base in Bahrain with drone attack",
-   "link": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T13:42:58+00:00",
-   "description": "It marks the second attack on the country in three days and comes as the US and Iran remain locked in a stand-off over the Strait of Hormuz.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0351/live/2e8de2e0-e106-11f1-93e1-3b657b665bcf.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "South Korea's top scorer in tax accountancy exam admits cheating",
-   "link": "https://www.bbc.co.uk/news/articles/ckvg2ezvpe08o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T13:37:45+00:00",
-   "description": "Han Won-seok, 34, confessed to using a hidden camera and AI to get a near-perfect mark on the significant test.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/32ab/live/d67148b0-e0ef-11f1-97b9-9110abfffc70.png",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Three men sentenced to death in Jordan over fatal church mass shooting",
-   "link": "https://www.bbc.co.uk/news/articles/c3rrg9xgqlwpo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T11:06:32+00:00",
-   "description": "The attack on funeral at a Greek Orthodox church killed nine and injured 34 others last month.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0fb0/live/ed275c50-e0dd-11f1-a701-fddedf244c16.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Pope Leo speaks of community 'suffering' on visit to remote Andes town",
-   "link": "https://www.bbc.co.uk/news/articles/cr4gnz0lv2vlo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T09:57:25+00:00",
-   "description": "Santa Cruz de Succhabamba is part of the Diocese of Chiclayo, where the Pope served as bishop from 2015 to 2023.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/80df/live/ea970890-e09d-11f1-a298-b1f4784d44cc.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Fifth Canadian soldier dies from injuries caused by large fire at military base",
-   "link": "https://www.bbc.co.uk/news/articles/cmrlgn4x2xw8o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T09:26:37+00:00",
-   "description": "Pte William Douglas Dal Bianco died from his injuries on Friday, a month after a fire that tore through CFB Wainwright.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f7a2/live/a4d3cf40-e0d0-11f1-9e51-e12509ba597c.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
-   "link": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T08:17:41+00:00",
-   "description": "Both Hamas and IDF officials confirm the death of Samir Abu Younis, commander of the Rafah Brigade.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c19/live/fcdf6660-e0ce-11f1-a701-fddedf244c16.jpg",
+   "title": "70 bodies recovered from Gaza rubble, thousands still missing",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/70-bodies-recovered-from-gaza-rubble-thousands-still-missing?traffic_source=rss",
+   "published": "2026-11-15T15:32:43+00:00",
+   "description": "70 bodies recovered from Gaza rubble, thousands still missing",
+   "image": null,
    "important": true,
    "hot": false
   },
   {
-   "title": "Copper wire upgrade behind US flight suspension, transport secretary says",
-   "link": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T07:10:31+00:00",
-   "description": "The US government is trying to find out whether the chaos was caused by \"incompetence\" or faulty equipment.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3177/live/2aeb3c20-e0c3-11f1-b441-2b33b063138f.jpg",
+   "title": "Will Iraq’s oil smuggling crackdown disarm militias without a conflict?",
+   "link": "https://www.aljazeera.com/news/2026/11/15/will-iraqs-oil-smuggllng-crackdown-disarm-militias-without-a-conflict?traffic_source=rss",
+   "published": "2026-11-15T15:21:21+00:00",
+   "description": "Iraq has dismantled an alleged smuggling ring in Jurf al-Sakhar which could squeeze militias and avert internal strife",
+   "image": null,
    "important": false,
    "hot": false
+  },
+  {
+   "title": "20 years of Al Jazeera English: Our story is still being written",
+   "link": "https://www.aljazeera.com/opinions/2026/11/15/20-years-of-al-jazeera-english-our-story-is-still-being-written?traffic_source=rss",
+   "published": "2026-11-15T15:21:12+00:00",
+   "description": "As we celebrate our 20th anniversary, we remain committed to our values and the quality of our journalism.",
+   "image": null,
+   "important": false,
+   "hot": true
   }
  ],
  "musiikki": [
+  {
+   "title": "U2 yllätti Rock and Roll Hall of Fame -gaalan yleisön – yhtyeen esiintymisestä ei hiiskuttu etukäteen",
+   "link": "https://www.soundi.fi/uutiset/u2-yllatti-rock-and-roll-hall-of-fame-gaalan-yleison-yhtyeen-esiintymisesta-ei-hiiskuttu-etukateen/",
+   "published": "2026-11-15T16:21:02+00:00",
+   "description": "U2 yllätti yleisön vuoden 2026 Rock &#38; Roll Hall of Fame -gaalassa lauantai-iltana 14. marraskuuta.&#160;Yhtye avasi Los Angelesin Peacock Theaterissa järjestetyn tilaisuuden kahden kappaleen setillä vain päivää uuden&#160;Carnaval De Luz&#160;-albuminsa julkaisun jälkeen. Vuonna 2005 Hall of Fameen nimetty U2 ei kuulunut illan viralliseen esiintyjäkaartiin. Siitä huolimatta se käynnisti illan,",
+   "image": null,
+   "important": false,
+   "hot": true
+  },
   {
    "title": "Phil Collins Gets Rare Two-Time Inductee Status at Rock & Roll Hall of Fame",
    "link": "https://pitchfork.com/story/phil-collins-gets-rare-two-time-inductee-status-at-rock-and-roll-hall-of-fame/",
    "published": "2026-11-15T16:18:14+00:00",
    "description": "The Genesis musician was celebrated for his solo career at the 2026 Induction Ceremony",
    "image": "https://media.pitchfork.com/photos/6af9d1067b1affb62d7f5367/master/pass/GettyImages-2304674894.jpg",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Historiallinen suomalaispäivä! Oliver Lindell PGA Tourille, Sami Välimäki taistelee miljoonapotista",
+   "link": "https://www.klangi.fi/uutiset/oliver-lindell-pga-tourille-suomi-historiaa/",
+   "published": "2026-11-15T16:17:36+00:00",
+   "description": "Oliver Lindell PGA Tourille: suomalaisgolfari liittyy parhaillaan miljoonapotista Teksasissa kamppailevan Sami Välimäen rinnalle maailman arvostetuimmalle golfkiertueelle. Se on siinä: Oliver\nArtikkeli Historiallinen suomalaispäivä! Oliver Lindell PGA Tourille, Sami Välimäki taistelee miljoonapotista julkaistiin ensimmäisen kerran Klangi.",
+   "image": "https://www.klangi.fi/wp-content/uploads/2026/11/Oliver-Lindell-AOP-2026-Klangi-1024x683.jpg",
+   "important": true,
+   "hot": false
+  },
+  {
+   "title": "Eminemin talliin liittyi uusi räppäri – J Dillan biitti ei ole yhteissinglen ainoa Dilla-yllätys",
+   "link": "https://www.klangi.fi/uutiset/idk-shady-records-eminem-welcome-j-dilla/",
+   "published": "2026-11-15T15:44:48+00:00",
+   "description": "Shady Records -tallin uutena nimenä IDK saa kertosäkeeseen Eminemin ja biitin edesmenneeltä J Dillalta. Brittiläis-yhdysvaltalainen räppäri ja tuottaja IDK on\nArtikkeli Eminemin talliin liittyi uusi räppäri – J Dillan biitti ei ole yhteissinglen ainoa Dilla-yllätys julkaistiin ensimmäisen kerran Klangi.",
+   "image": "https://www.youtube.com/embed/zT104EktdOc",
    "important": false,
    "hot": false
   },
@@ -459,94 +486,67 @@
    "hot": true
   },
   {
-   "title": "Camp Flog Gnaw 2026: Amazon Music Livestream Schedule & Details",
-   "link": "https://pitchfork.com/story/camp-flog-gnaw-2026-amazon-music-livestream-schedule-and-details/",
-   "published": "2026-11-13T19:58:27+00:00",
-   "description": "Turnstile, Don Toliver, Syd, Gena, and more artists will be available to watch",
-   "image": "https://media.pitchfork.com/photos/6af773a169ea943d7abe9036/master/pass/Camp-Flog-Gnaw.jpeg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Panda Bear Remixes Grace Ives’ “Stupid Bitches”",
-   "link": "https://pitchfork.com/story/panda-bear-remixes-grace-ives-stupid-bitches/",
-   "published": "2026-11-13T18:14:46+00:00",
-   "description": "Noah Lennox gives Girlfriend’s standout closer a near-total overhaul",
-   "image": "https://media.pitchfork.com/photos/6af748addf86836dcc15cd36/master/pass/Grace-Ives-Panda-Bear.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Shygirl, Brutalismus 3000, Nirosta Steel Feature on Club Kid Companion EP",
-   "link": "https://pitchfork.com/story/shygirl-brutalismus-3000-nirosta-steel-feature-on-club-kid-ep/",
-   "published": "2026-11-13T16:59:26+00:00",
-   "description": "Out now, the record includes two covers of Arthur Russell’s “Boy With a Smile”",
-   "image": "https://media.pitchfork.com/photos/6af72987829743962fb4ec21/master/pass/unnamed%20(71).jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Hayley Williams Brings Out Seu Jorge to Cover David Bowie",
-   "link": "https://pitchfork.com/story/hayley-williams-brings-out-seu-jorge-to-cover-david-bowie/",
-   "published": "2026-11-13T16:29:24+00:00",
-   "description": "The Paramore singer and Life Aquatic star also duetted on “Zissou” in São Paulo",
-   "image": "https://media.pitchfork.com/photos/6af73aae829743962fb4ed74/master/pass/hayley-williams-seu-jorge-bowie.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Drake Updates Take Care With New Song “Hate Sleeping Alone”",
-   "link": "https://pitchfork.com/story/drake-updates-take-care-with-new-song-hate-sleeping-alone/",
-   "published": "2026-11-13T15:53:48+00:00",
-   "description": "Get your brood on with an unearthed cut from the 2011 album",
-   "image": "https://media.pitchfork.com/photos/6af723dcdf86836dcc15cb36/master/pass/GettyImages-2301207783.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "9 New Albums You Should Listen to Now: 2hollis, Armand Hammer, and More",
-   "link": "https://pitchfork.com/story/9-new-albums-you-should-listen-to-now-2hollis-armand-hammer-and-more/",
-   "published": "2026-11-13T14:59:02+00:00",
-   "description": "Stream new releases from 2hollis, Ecco2k, Armand Hammer, and U2",
-   "image": "https://media.pitchfork.com/photos/6af4f0b7123cd98d0879ec7f/master/pass/2hollis%20%E2%80%94%20Pitchfork.jpg",
-   "important": true,
-   "hot": false
-  },
-  {
-   "title": "Zsela Invites You to The Party With New Album",
-   "link": "https://pitchfork.com/story/zsela-invites-you-to-the-party-with-new-album/",
-   "published": "2026-11-13T12:44:36+00:00",
-   "description": "Listen to “Real Romantic” from the Los Angeles singer’s new LP for Nice Life",
-   "image": "https://media.pitchfork.com/photos/6af76aba48625867721cd45c/master/pass/Zsela.jpeg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Hear U2’s Posthumous Dolly Parton Duet",
-   "link": "https://pitchfork.com/story/hear-u2s-posthumous-dolly-parton-duet/",
-   "published": "2026-11-13T05:01:36+00:00",
-   "description": "“Torn” is the closing track off the band’s new album, Carnaval de Luz",
-   "image": "https://media.pitchfork.com/photos/6af71a3e829743962fb4eb11/master/pass/Dolly%20Parton%20Bono.png",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Watch Rosalía Perform a Lux Medley at the 2026 Latin Grammys",
-   "link": "https://pitchfork.com/story/watch-rosalia-perform-a-lux-medley-at-the-2026-latin-grammys/",
-   "published": "2026-11-13T02:33:11+00:00",
-   "description": "Her 2025 album is up for seven statuettes tonight",
-   "image": "https://media.pitchfork.com/photos/6af670a2caedaca0313055df/master/pass/GettyImages-2304857045.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Saba and Pivot Gang Set 2027 North American Tour",
-   "link": "https://pitchfork.com/story/saba-and-pivot-gang-set-2027-north-american-tour/",
-   "published": "2026-11-12T23:15:44+00:00",
-   "description": "The All My Friends Tour is the Chicago rap collective’s first proper run since 2019",
-   "image": "https://media.pitchfork.com/photos/6af6473acaedaca0313053f6/master/pass/Pivot%20Photo%20for%20Tour%20PR%20by%20@therealraeven.png",
+   "title": "Tyler, The Creator Performs Live Debuts And Rarities At Camp Flog Gnaw 2026",
+   "link": "https://stereogum.com/2518102/tyler-the-creator-performs-live-debuts-and-rarities-at-camp-flog-gnaw-2026/news/",
+   "published": "2026-11-15T14:48:07+00:00",
+   "description": "The post Tyler, The Creator Performs Live Debuts And Rarities At Camp Flog Gnaw 2026 appeared first on Stereogum.",
+   "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/Screenshot-2026-11-15-at-2.43.25-PM.png?w=564",
    "important": false,
    "hot": true
+  },
+  {
+   "title": "Watch Travis Barker and Cynthia Erivo perform ‘In The Air Tonight’ as Phil Collins tells Rock & Roll Hall Of Fame: “You haven’t heard the last of me”",
+   "link": "https://www.nme.com/news/music/travis-barker-cynthia-erivo-in-the-air-tonight-phil-collins-rock-roll-hall-fame-3976002",
+   "published": "2026-11-15T14:39:54+00:00",
+   "description": "The former Genesis frontman became a two-time inductee at an emotional ceremony in Los Angeles, where he received a standing ovation\nThe post Watch Travis Barker and Cynthia Erivo perform ‘In The Air Tonight’ as Phil Collins tells Rock &#038; Roll Hall Of Fame: “You haven’t heard the last of me” appeared first on NME.",
+   "image": null,
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Slayer’s Tom Araya Scolds Crowd Over Behavior At LA Show",
+   "link": "https://stereogum.com/2518093/slayers-tom-araya-scolds-crowd-over-behavior-at-la-show/news/",
+   "published": "2026-11-15T14:01:50+00:00",
+   "description": "The post Slayer&#8217;s Tom Araya Scolds Crowd Over Behavior At LA Show appeared first on Stereogum.",
+   "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/Screenshot-2026-11-15-at-2.00.40-PM.png?w=564",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Slayer keskeytti keikkansa – Tom Araya piti puhuttelun yli-innokkaille katsojille: ”Jos tällainen meno jatkuu, me lähdemme kotiin”",
+   "link": "https://www.soundi.fi/uutiset/slayer-keskeytti-keikkansa-tom-araya-piti-puhuttelun-yli-innokkaille-katsojille-jos-tallainen-meno-jatkuu-me-lahdemme-kotiin/",
+   "published": "2026-11-15T13:57:27+00:00",
+   "description": "Slayer&#160;esiintyi lauantaina 14. marraskuuta loppuunmyydyllä, 17 500 katsojaa vetävällä Kia Forumilla osana vuoden 1986&#160;Reign in Blood&#160;-albumin 40-vuotisjuhlakiertuetta. Yhtye oli ehtinyt soittaa ensimmäisen settinsä kahdeksanteen kappaleeseen asti, kun laulaja-basisti Tom Araya huomasi osan yleisöstä riehuvan siihen malliin, että keikkapaikalle alkoi syntyä vahinkoa. Araya keskeytti ",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Watch Red Hot Chili Peppers dress as Rick Rubin for Rock & Roll Hall Of Fame performance as he declares: “You can’t kill rock ‘n’ roll”",
+   "link": "https://www.nme.com/news/music/watch-red-hot-chili-peppers-dress-rick-rubin-rock-roll-hall-fame-performance-3975998",
+   "published": "2026-11-15T13:54:14+00:00",
+   "description": "Neil Young inducted the legendary producer, before the Chili Peppers paid tribute with a rendition of ‘Give It Away’\nThe post Watch Red Hot Chili Peppers dress as Rick Rubin for Rock &#038; Roll Hall Of Fame performance as he declares: &#8220;You can&#8217;t kill rock &#8216;n&#8217; roll&#8221; appeared first on NME.",
+   "image": null,
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Red Hot Chili Peppers Perform As Rick Rubins At Rock & Roll Hall Of Fame 2026",
+   "link": "https://stereogum.com/2518085/red-hot-chili-peppers-perform-as-rick-rubins-at-rock-roll-hall-of-fame-2026/news/",
+   "published": "2026-11-15T13:30:02+00:00",
+   "description": "The post Red Hot Chili Peppers Perform As Rick Rubins At Rock &amp; Roll Hall Of Fame 2026 appeared first on Stereogum.",
+   "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/GettyImages-2305181904.jpg?w=564",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Isac Elliot valloittaa Olympiastadionin ja tekee sen nuorempana kuin kukaan ennen häntä",
+   "link": "https://www.klangi.fi/uutiset/isac-elliot-olympiastadion-konsertti-liput/",
+   "published": "2026-11-15T13:16:33+00:00",
+   "description": "Ennätysvuoden keskellä artisti myöntää, ettei tiedä, kuinka kauan haluaa vielä jatkaa. Isac Elliot esiintyy Helsingin Olympiastadionilla lauantaina 28. elokuuta 2027.\nArtikkeli Isac Elliot valloittaa Olympiastadionin ja tekee sen nuorempana kuin kukaan ennen häntä julkaistiin ensimmäisen kerran Klangi.",
+   "image": "https://www.klangi.fi/wp-content/uploads/2026/11/Isac-Elliot-Olympiastadion-2026-Klangi-1024x683.jpg",
+   "important": false,
+   "hot": false
   }
  ]
 }
