@@ -83,6 +83,7 @@ if(before)M.insertBefore(drag,before);else{var l=rows[rows.length-1];l.parentNod
 drag.style.transform='translateY('+(top-drag.getBoundingClientRect().top)+'px) scale(1.03)'});
 function endDrag(){if(!drag)return;drag.style.transform='';drag.classList.remove('drag');drag=null;DRAFT=[].map.call(M.querySelectorAll('.row'),function(r){return r.dataset.c})}
 M.addEventListener('pointerup',endDrag);M.addEventListener('pointercancel',endDrag);
+document.addEventListener('pointerdown',function(e){if(drag||document.getElementById('fab').contains(e.target))return;M.classList.remove('open');if(EDIT){EDIT=false;route(true)}});
 document.getElementById('ball').onclick=function(){document.getElementById('menu').classList.toggle('open')};
 window.addEventListener('hashchange',route);load().then(route).catch(function(){document.getElementById('app').textContent='Uutisten lataus epäonnistui.'});
 </script>
