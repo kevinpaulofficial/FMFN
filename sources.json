@@ -1,7 +1,6 @@
 {
   "suomi": [
     "https://yle.fi/rss/uutiset/paauutiset",
-    "https://yle.fi/rss/uutiset/talous",
     "https://www.hs.fi/rss/tuoreimmat.xml",
     "https://www.is.fi/rss/tuoreimmat.xml",
     "https://feeds.kauppalehti.fi/rss/main",
@@ -10,9 +9,7 @@
   "jalkapallo": [
     "https://feeds.bbci.co.uk/sport/football/rss.xml",
     "https://www.theguardian.com/football/rss",
-    "https://www.skysports.com/rss/12040",
-    "https://www.espn.com/espn/rss/soccer/news",
-    "https://yle.fi/rss/uutiset/urheilu"
+    "https://www.skysports.com/rss/12040"
   ],
   "teknologia": [
     "https://feeds.arstechnica.com/arstechnica/index",
@@ -26,9 +23,7 @@
     "https://feeds.bbci.co.uk/news/world/rss.xml",
     "https://feeds.bbci.co.uk/news/business/rss.xml",
     "https://www.theguardian.com/world/rss",
-    "https://www.aljazeera.com/xml/rss/all.xml",
-    "https://rss.dw.com/rdf/rss-en-all",
-    "https://yle.fi/rss/uutiset/ulkomaat"
+    "https://www.aljazeera.com/xml/rss/all.xml"
   ],
   "musiikki": [
     "https://pitchfork.com/feed/feed-news/rss",
@@ -36,7 +31,6 @@
     "https://www.klangi.fi/feed/",
     "https://soundi.fi/feed/",
     "https://www.rumba.fi/feed/",
-    "https://ra.co/xml/news.xml",
     "https://www.stereogum.com/feed/",
     "https://www.nme.com/feed"
   ]
