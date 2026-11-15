@@ -1,12 +1,44 @@
 {
  "suomi": [
   {
+   "title": "HS seuraa | Suomi romahti MM-välierässä, Yhdysvallat karkasi hetkessä",
+   "link": "https://www.hs.fi/urheilu/art-2000012413752.html",
+   "published": "2026-11-15T15:26:00+00:00",
+   "description": "Naisleijonat pelaa paikasta MM-finaaliin.",
+   "image": "https://images.sanoma-sndp.fi/9f742d2b52cf5db8ec10eac452be6173/normal/1440.jpg",
+   "important": false
+  },
+  {
+   "title": "Suomi romahti MM-välierässä – jäällä todella ikävä näky",
+   "link": "https://www.is.fi/jaakiekko/art-2000012413693.html",
+   "published": "2026-11-15T15:26:00+00:00",
+   "description": "Naisleijonat pelaa paikasta MM-finaaliin. IS seuraa hetki hetkeltä.",
+   "image": "https://images.sanoma-sndp.fi/9f742d2b52cf5db8ec10eac452be6173/normal/1440.jpg",
+   "important": false
+  },
+  {
+   "title": "Isku drooniyritykseen | Viro aikoo sulkea Venäjän-vastaisen rajansa",
+   "link": "https://www.hs.fi/alueet/art-2000012413742.html",
+   "published": "2026-11-15T15:25:00+00:00",
+   "description": "Viron suojelupoliisin johtajan Margo Pallosonin mukaan tuhopolttoyritys oli Venäjän sotilastiedustelupalvelu GRU:n koordinoima.",
+   "image": "https://images.sanoma-sndp.fi/5dd1bb60ee3c2609e5091ccbc0b04498/normal/1440.jpg",
+   "important": true
+  },
+  {
+   "title": "Elokuva-arvio | Arvosteluissa lytätty ja yleisön hylkäämä Klara ja aurinko jättää jälkeensä syvän hämmennyksen",
+   "link": "https://www.hs.fi/popkulttuuri/art-2000012403960.html",
+   "published": "2026-11-15T15:17:00+00:00",
+   "description": "Taika Waititin elokuvasovitus Kazuo Ishiguron scifiromaanista jää ohueksi ja tunnetasolla epäloogiseksi.",
+   "image": "https://images.sanoma-sndp.fi/4e8dd15feddb3e007242220d945acc95/normal/1440.jpg",
+   "important": false
+  },
+  {
    "title": "Viro sulkee Venäjän-vastaisen rajansa – ulkoministeri vahvistaa",
    "link": "https://www.is.fi/ulkomaat/art-2000012413905.html",
-   "published": "2026-11-15T15:10:00+00:00",
-   "description": "Asian vahvistaa Viron ulkoministeri Margus Tsahkna.",
-   "image": null,
-   "important": true
+   "published": "2026-11-15T15:15:00+00:00",
+   "description": "Raja menee kiinni 1. joulukuuta.",
+   "image": "https://images.sanoma-sndp.fi/0448200c1cf0025d1147c95118caf6a8/normal/1440.jpg",
+   "important": false
   },
   {
    "title": "Suomalaisten toiminta Levillä meni supertähden tunteisiin – herkistyi silminnähden: ”Kauniit suomalaiset”",
@@ -17,51 +49,19 @@
    "important": false
   },
   {
-   "title": "Viro sulkee Venäjän-vastaisen rajansa",
-   "link": "https://yle.fi/a/74-20257086?origin=rss",
-   "published": "2026-11-15T15:01:41+00:00",
-   "description": "",
+   "title": "Prahassa valtava mielenosoitus demokratian puolesta – ”Näpit irti mediastamme!”",
+   "link": "https://yle.fi/a/74-20256774?origin=rss",
+   "published": "2026-11-15T15:01:43+00:00",
+   "description": "Yleisradion riippumattomuuden puolesta on osoitettu mieltä jo useasti tänä syksynä Tšekissä. Nyt protesti on kaikkein suurin. (?)",
    "image": null,
    "important": false
   },
   {
-   "title": "Prinsessa Catherine kuuli sairaalassa pysäyttävät sanat – harvinainen avautuminen syöpähoidoista",
-   "link": "https://www.is.fi/kuninkaalliset/art-2000012407924.html",
-   "published": "2026-11-15T15:01:00+00:00",
-   "description": "Prinsessalle yhteys luontoon on ollut tärkeää paranemisen aikana.",
-   "image": "https://images.sanoma-sndp.fi/2d6000bc8300310bada80752e87dc351/normal/1440.jpg",
-   "important": false
-  },
-  {
-   "title": "Kysy Ainolta | Miksi alusvaatteiden vilauttaminen on samaan aikaan muodikasta ja häpeällistä?",
-   "link": "https://www.hs.fi/kulttuuri/art-2000012409720.html",
-   "published": "2026-11-15T15:00:00+00:00",
-   "description": "Säännöt eivät ole samat kaikille eivätkä kaikissa tilanteissa. Kysy Ainolta -palstalla selitetään, miksi.",
-   "image": "https://images.sanoma-sndp.fi/4daccb3e522c10ce2b3daf8a989ed45c/normal/1440.jpg",
-   "important": false
-  },
-  {
-   "title": "Nyrkkeily | Eva Wahlström, 46, palaa kehään: vanhan valmentajan ensireaktio oli järkytys",
-   "link": "https://www.hs.fi/urheilu/art-2000012413735.html",
-   "published": "2026-11-15T14:56:00+00:00",
-   "description": "Eva Wahlström pohti paluutaan pitkään ja tuli siihen tulokseen, että haluaa vielä testata itseään nyrkkeilykehässä.",
-   "image": "https://images.sanoma-sndp.fi/47cd8dcacbdf6fa453782a886155aefe/normal/1440.jpg",
-   "important": false
-  },
-  {
-   "title": "Kokoomusnuoret: Seksityö laillistettava, kehitysapu lakkautettava, Ylelle 400 miljoonan leikkaukset",
-   "link": "https://www.is.fi/politiikka/art-2000012413784.html",
-   "published": "2026-11-15T14:55:00+00:00",
-   "description": "Seksillä Suomi nousuun -aloite hyväksyttiin yksimielisesti.",
-   "image": "https://images.sanoma-sndp.fi/73e350cc214ce618fda42f9d1f7c05e3/normal/1440.jpg",
-   "important": false
-  },
-  {
-   "title": "Joulupukin Pajakylän livekameraan tallentui erikoinen näky – herätti huolta Yhdysvalloissa asti",
-   "link": "https://www.is.fi/kotimaa/art-2000012413692.html",
-   "published": "2026-11-15T14:55:00+00:00",
-   "description": "Joulupukin Pajakylän livekameran katsojat kummastuivat, kun henkilö asettui yöpuulle keskelle lumista aukiota.",
-   "image": "https://images.sanoma-sndp.fi/23af1dc77de4340679d80c6e2734fc72/normal/1440.jpg",
+   "title": "Viro sulkee Venäjän-vastaisen rajansa",
+   "link": "https://yle.fi/a/74-20257086?origin=rss",
+   "published": "2026-11-15T15:01:41+00:00",
+   "description": "Viron ulkoministerin Margus Tsahknan mukaan rajanylityspaikat suljetaan joulukuun alussa.",
+   "image": null,
    "important": false
   }
  ],
@@ -265,6 +265,14 @@
  ],
  "musiikki": [
   {
+   "title": "Watch St. Vincent, Metallica, More Cover Iron Maiden at Rock & Roll Hall of Fame 2026 Induction Ceremony",
+   "link": "https://pitchfork.com/story/watch-st-vincent-metallica-more-cover-iron-maiden-at-rock-and-roll-hall-of-fame-2026-induction-ceremony/",
+   "published": "2026-11-15T15:11:40+00:00",
+   "description": "Rage Against the Machine’s Brad Wilk, Mötley Crüe’s John 5, and Jack Black joined the all-star lineup to perform “The Trooper”",
+   "image": "https://media.pitchfork.com/photos/6af9c7337b1affb62d7f5343/master/pass/GettyImages-2305186486.jpg",
+   "important": false
+  },
+  {
    "title": "Camp Flog Gnaw 2026: Amazon Music Livestream Schedule & Details",
    "link": "https://pitchfork.com/story/camp-flog-gnaw-2026-amazon-music-livestream-schedule-and-details/",
    "published": "2026-11-13T19:58:27+00:00",
@@ -318,14 +326,6 @@
    "published": "2026-11-13T12:44:36+00:00",
    "description": "Listen to “Real Romantic” from the Los Angeles singer’s new LP for Nice Life",
    "image": "https://media.pitchfork.com/photos/6af76aba48625867721cd45c/master/pass/Zsela.jpeg",
-   "important": false
-  },
-  {
-   "title": "Hear U2’s Posthumous Dolly Parton Duet",
-   "link": "https://pitchfork.com/story/hear-u2s-posthumous-dolly-parton-duet/",
-   "published": "2026-11-13T05:01:36+00:00",
-   "description": "“Torn” is the closing track off the band’s new album, Carnaval de Luz",
-   "image": "https://media.pitchfork.com/photos/6af71a3e829743962fb4eb11/master/pass/Dolly%20Parton%20Bono.png",
    "important": false
   }
  ]
