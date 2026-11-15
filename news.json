@@ -1,110 +1,110 @@
 {
  "suomi": [
   {
-   "title": "Diplomaatti löi pöytään ”vaatimuksia” Venäjälle – tutkijalta selvä näkemys",
+   "title": "Vakoiluskandaali | FT: Jensen Huang harkitsee jo paluuta Nvidiaan",
+   "link": "https://www.hs.fi/visio/art-2000012414440.html",
+   "published": "2026-11-15T21:07:00+00:00",
+   "description": "Teknologiajättien johtajat ovat antaneet laajasti tukensa suhdekohuissa ryvettyneelle Huangille.",
+   "image": "https://images.sanoma-sndp.fi/f20ae5af47612adfb9d285207b271e40/normal/1440.jpg",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Trump julisti Iranin sodan voitetuksi – nyt liittolainen perääntyy tärkeästä öljy­salmesta",
+   "link": "https://www.is.fi/ulkomaat/art-2000012414225.html",
+   "published": "2026-11-15T21:00:00+00:00",
+   "description": "Yhdysvaltain presidentti julisti jälleen viime keskiviikkona Iranin voitetuksi sodassa. Lähi-idästä kuuluu toisenlaista viestiä.",
+   "image": "https://images.sanoma-sndp.fi/70a78b6d9c5c70c937992fcca50d0149/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "TTK:sta pudonneiden Jaakko Parkkalin ja Kastanja Rauhalan välit puhuttavat – tämä oli vastaus suhdehuhuihin",
+   "link": "https://www.is.fi/viihde/art-2000012414466.html",
+   "published": "2026-11-15T20:59:00+00:00",
+   "description": "Jaakko Parkkali ja Kastanja Rauhala aikovat pitää yhteyttä myös kisan jälkeen.",
+   "image": "https://images.sanoma-sndp.fi/9e383ee25535649cb11a2b1e388e5603/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "HS Virossa | Hubert Kudeviita näki ikkunasta, kun naapurissa sijaitsevan drooni­tehtaan tuho­poltto­yritystä selvitettiin",
+   "link": "https://www.hs.fi/alueet/art-2000012413998.html",
+   "published": "2026-11-15T20:52:00+00:00",
+   "description": "Viro syyttää Venäjän tilanneen tuho­poltto­yrityksen drooneja valmistavan yrityksen tehtaalle. Vastauksena Viron hallitus aikoo sulkea itärajan joulukuun alusta alkaen.",
+   "image": "https://images.sanoma-sndp.fi/686c044091cd86e0433eefced91e9b21/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Ruotsin urheilun superpari: kihlat",
+   "link": "https://www.is.fi/yleisurheilu/art-2000012414401.html",
+   "published": "2026-11-15T20:45:00+00:00",
+   "description": "Daniel Ståhl ja Fanny Roos ovat menossa naimisiin.",
+   "image": "https://images.sanoma-sndp.fi/844302c2ea887d062b9b8f27d84f7cbc/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Viro sulkee itärajansa – nyt tuli kommentti Venäjältä",
+   "link": "https://www.is.fi/ulkomaat/art-2000012414434.html",
+   "published": "2026-11-15T20:44:00+00:00",
+   "description": "Viron päätöksen syynä on drooneja valmistavaan tehtaaseen kohdistunut sabotaasi-iskun yritys, josta se syyttää Venäjää.",
+   "image": "https://images.sanoma-sndp.fi/67b9f3972d7a8c5db289aa3d2c3c99ff/normal/1440.jpg",
+   "important": true,
+   "hot": true
+  },
+  {
+   "title": "Nyt puhuu Alisa Vainion paitaan ilmestynyt Janne Saarinen",
+   "link": "https://www.is.fi/viihde/art-2000012414461.html",
+   "published": "2026-11-15T20:43:00+00:00",
+   "description": "Janne Saarinen päätyi maratonin Euroopan mestarin t-paitaan. Tätä mieltä hän on kunnianosoituksesta.",
+   "image": "https://images.sanoma-sndp.fi/9649d7bfbcaf7f2d7173a65e61204e39/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "MTV paikalla seurakuntavaaleissa: \"Pieni omantunnon kolkutus oli\"",
+   "link": "https://www.mtvuutiset.fi/artikkeli/mtv-paikalla-seurakuntavaaleissa-pieni-omantunnon-kolkutus-oli/9421632",
+   "published": "2026-11-15T20:36:43+00:00",
+   "description": "Seurakuntavaaleissa valittiin noin 6300 henkilö luottamustoimiin.",
+   "image": "https://api.mtvuutiset.fi/graphql/caas/v1/media/8439962/data/7ac9ba9743647b87daaad3ea7840b05f/landscape16_9/1024/aop-kuokkalan-kirkko.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Jääkiekko | Suomi romahti MM-välierässä, pronssiottelussa vastaan Ruotsi",
+   "link": "https://www.hs.fi/urheilu/art-2000012413752.html",
+   "published": "2026-11-15T20:36:00+00:00",
+   "description": "Naisleijonat pelasi paikasta MM-finaaliin. HS seurasi hetki hetkeltä.",
+   "image": "https://images.sanoma-sndp.fi/b4cebc355fa7627828a9db16d1f5bcda/normal/1440.jpg",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Naisleijonat murskattiin MM-välierässä – pronssiottelussa vastaan Ruotsi",
+   "link": "https://www.is.fi/jaakiekko/art-2000012413693.html",
+   "published": "2026-11-15T20:36:00+00:00",
+   "description": "Naisleijonat pelasi paikasta MM-finaaliin. IS seurasi hetki hetkeltä.",
+   "image": "https://images.sanoma-sndp.fi/9f742d2b52cf5db8ec10eac452be6173/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Artturi Lehkosesta poikkeuksellista hehkutusta: ”Täydellinen”",
+   "link": "https://www.is.fi/nhl/art-2000012413407.html",
+   "published": "2026-11-15T20:34:00+00:00",
+   "description": "Artturi Lehkosen huippuvire kirvoitti kanadalaisilta NHL-asiantuntijoilta vuolaita kehuja.",
+   "image": "https://images.sanoma-sndp.fi/0f8fb0adad9145fc0eb822b99a534779/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Diplomaatti löi pöytään ”vaatimuksia” Venäjälle – tutkijalta karu arvio",
    "link": "https://www.is.fi/ulkomaat/art-2000012413667.html",
    "published": "2026-11-15T20:30:00+00:00",
    "description": "Tutkija Joel Linnainmäki arvioi, että Venäjällä tuskin nykyisessä tilanteessa on minkäänlaisia intressejä suostua vaatimuksiin.",
    "image": "https://images.sanoma-sndp.fi/17402a43050a9fb0039f3f59a1fa5318/normal/1440.jpg",
-   "important": true,
-   "hot": false
-  },
-  {
-   "title": "Roman Eremenko ei ollut pysyä nahoissaan – ”Kuin pikkulapsi”",
-   "link": "https://www.is.fi/huuhkajat/art-2000012413854.html",
-   "published": "2026-11-15T20:24:00+00:00",
-   "description": "Roman Eremenko pelasi A-maajoukkueessa yli kymmenen vuoden tauon jälkeen.",
-   "image": "https://images.sanoma-sndp.fi/9e8d35e7f8a7713e646022d701d34ebf/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Yllätyskäänne: Jensen Huang pohtii palaamista Nvidian ruoriin?",
-   "link": "https://www.mtvuutiset.fi/artikkeli/yllatyskaanne-jensen-huang-pohtii-palaamista-nvidian-ruoriin/9421666",
-   "published": "2026-11-15T20:21:42+00:00",
-   "description": "Jensen Huangin kerrotaan harkitsevan paluuta Nvidian toimitusjohtajaksi.",
-   "image": "https://api.mtvuutiset.fi/graphql/caas/v1/media/8961676/data/43970846bc7d8fc713ae54e0a8d81906/landscape16_9/1024/29-12271639.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Lintuinfluenssaa löydetty jo seitsemältä tilalta Norjassa",
-   "link": "https://www.is.fi/ulkomaat/art-2000012414220.html",
-   "published": "2026-11-15T20:20:00+00:00",
-   "description": "Yli 100 000 lintua on lopetettu tai määrätty lopetettavaksi.",
-   "image": "https://images.sanoma-sndp.fi/c57191929104c7e9fe98b7e2c3d50e14/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Ukraina iski Laukaansuun satamaan – satelliitti­kuvat näyttävät tuhon",
-   "link": "https://www.is.fi/ulkomaat/art-2000012409263.html",
-   "published": "2026-11-15T20:16:00+00:00",
-   "description": "IS seuraa tässä artikkelissa tilannetta Ukrainan sodassa sekä siihen liittyviä tapahtumia.",
-   "image": "https://images.sanoma-sndp.fi/03cf032345ef92ffbe97ab6306ad87d5/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Venäjä vastasi Viron päätökseen: ”Hillitöntä russofobiaa”",
-   "link": "https://www.mtvuutiset.fi/artikkeli/venaja-vastasi-viron-paatokseen-hillitonta-russofobiaa/9421662",
-   "published": "2026-11-15T20:12:20+00:00",
-   "description": "Venäjä on kommentoinut viron päätöstä sulkea Venäjän vastaisen rajansa.",
-   "image": "https://api.mtvuutiset.fi/graphql/caas/v1/media/9302228/data/eebe74b0932e14952b104278be2b9809/landscape16_9/1024/aop-marija-zaharova.jpg",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Jacob Friis otti kantaa asemaansa Huuhkajissa: ”Näen itseni oikeana henkilönä”",
-   "link": "https://www.is.fi/huuhkajat/art-2000012414416.html",
-   "published": "2026-11-15T20:11:00+00:00",
-   "description": "Friisin mielestä olisi erikoista, jos hänen työtään alettaisiin arvioida muilla perusteilla kuin niillä, joiden vuoksi hänet palkattiin.",
-   "image": "https://images.sanoma-sndp.fi/b7a86b7f387eb2f10e846d143793b3dd/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Venäjä ulos MM-kisoista – nyt tuli jyrkkä vastaus",
-   "link": "https://www.is.fi/jaakiekko/art-2000012414369.html",
-   "published": "2026-11-15T20:08:00+00:00",
-   "description": "Venäjä ei sulata kohtaloaan.",
-   "image": "https://images.sanoma-sndp.fi/444653266694259eb1cc7fc334b47bb8/normal/1440.jpg",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Mies kävi aivoleikkauksessa ja alkoi nähdä todella outoja asioita",
-   "link": "https://www.mtvuutiset.fi/artikkeli/mies-kavi-aivoleikkauksessa-ja-alkoi-nahda-todella-outoja-asioita/9421648",
-   "published": "2026-11-15T20:03:13+00:00",
-   "description": "Häiriöt aivoissa saattavat aiheuttaa todella kummallisia kokemuksia.",
-   "image": "https://api.mtvuutiset.fi/graphql/caas/v1/media/7295642/data/748b965e930758cd277e86ace4294ee6/landscape16_9/1024/silma-aop.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Polttoaine kallistuu – Lentoyhtiö kertoo hyötyvänsä",
-   "link": "https://www.kauppalehti.fi/uutiset/a/6863c6e9-e728-45f8-a392-1c80df344a49?utm_source=rss",
-   "published": "2026-11-15T20:00:00+00:00",
-   "description": "Uudempi kalusto merkitsee pienempää polttoaineenkulutusta, jos tekniikka pelaa.",
-   "image": null,
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Nvidia-kohussa uskomaton käänne – FT: Jensen Huang aikoo takaisin yhtiön johtoon",
-   "link": "https://www.is.fi/ulkomaat/art-2000012414356.html",
-   "published": "2026-11-15T19:57:00+00:00",
-   "description": "Kohun keskellä eronnut Jensen Huang harkitsee paluuta Nvidian toimitusjohtajaksi vain päiviä lähtönsä jälkeen. Teknologiamaailman vaikutusvaltaiset nimet kampanjoivat hänen puolestaan.",
-   "image": "https://images.sanoma-sndp.fi/09d9fb2559928c30fb376d21c6e2167d/normal/1440.jpg",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Jalkapallo | Jacob Friis otti kantaa asemaansa Huuhkajissa: ”Näen itseni oikeana henkilönä”",
-   "link": "https://www.hs.fi/urheilu/art-2000012414387.html",
-   "published": "2026-11-15T19:56:00+00:00",
-   "description": "Friisin mielestä olisi erikoista, jos hänen työtään alettaisiin arvioida muilla perusteilla kuin niillä, joiden vuoksi hänet palkattiin.",
-   "image": "https://images.sanoma-sndp.fi/b7a86b7f387eb2f10e846d143793b3dd/normal/1440.jpg",
    "important": false,
    "hot": false
   }
@@ -113,11 +113,20 @@
   {
    "title": "Spain v England: Nations League – live",
    "link": "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-live",
-   "published": "2026-11-15T20:15:10+00:00",
+   "published": "2026-11-15T21:13:45+00:00",
    "description": "Updates from 7.45pm (GMT) kick-off in MadridGet in touch: email Daniel and follow us on BlueSkyTuchel speaks, telling ITV that “it’s a beautiful match”. They’ve qualified, done their homework and now can try and top the group.Quansah keeps his place for doing well, while he wants to see White under pressure and cites his club partnership with Konsa as a reason for picking him, just as last game, h",
-   "image": "https://i.guim.co.uk/img/media/083e746d283d6ba8ad4a69115356404436725c27/853_331_2429_1944/master/2429.jpg?width=140&quality=85&auto=format&fit=max&s=6355054736b9660bf44945c7a502415a",
+   "image": "https://i.guim.co.uk/img/media/4dcf55afc8f3132d016fcfdf2c9b6d9e2776147c/509_216_4188_3350/master/4188.jpg?width=140&quality=85&auto=format&fit=max&s=56d11379a045c518178ac639b3a18c66",
    "important": false,
    "hot": true
+  },
+  {
+   "title": "Man Utd target Fulham's Bassey - Monday's gossip",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cklyegvq86w8o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-15T20:47:44+00:00",
+   "description": "Manchester United target Fulham's Calvin Bassey and Brentford's Nathan Collins, AC Milan want Real Madrid's Endrick on loan, plus more.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a569/live/89f0acc0-e12f-11f1-ac15-d140d3bbd516.png",
+   "important": false,
+   "hot": false
   },
   {
    "title": "London City's 'bravery' paying off in top three pursuit",
@@ -165,7 +174,7 @@
    "hot": false
   },
   {
-   "title": "Red Brawl New York: Fighting and five red cards mar ‘friendly’ v Club América",
+   "title": "Red Brawl New York: Fighting and six red cards mar ‘friendly’ v Club América",
    "link": "https://www.theguardian.com/football/2026/nov/15/red-bulls-club-america-brawl-friendly",
    "published": "2026-11-15T19:29:41+00:00",
    "description": "Game played without veterans and stars on both sidesRed Bulls’ MLS season is already overOne hallmark of Mauricio Pochettino’s time in international management was been his refusal to embrace the term “friendly.” His preferred branding is “unofficial games”.His spin gained a bit of validity on Saturday, in the New York Red Bulls’ “friendly” against Club América, marred by a mass brawl between the ",
@@ -186,7 +195,7 @@
    "title": "Mary Earps frustrates Arsenal as London City Lionesses earn battling draw",
    "link": "https://www.theguardian.com/football/2026/nov/15/arsenal-london-city-lionesses-womens-super-league-wsl-match-report",
    "published": "2026-11-15T18:53:08+00:00",
-   "description": "Arsenal and London City Lionesses played out an entertaining 1-1 draw but the result did little to bolster European qualification hopes for Renée Slegers’s side as the visitors’ goalkeeper Mary Earps produced a fine display to thwart the north London side.Frida Maanum finished off a superb team move for Arsenal to open the scoring early on but her goal was quickly cancelled out by a terrific finis",
+   "description": "Arsenal’s fifth draw from five home games in the Women’s Super League left them frustrated once again but this was a wholly different story to the previous four, as they played out an entertaining 1-1 draw with a London City Lionesses side inspired by their goalkeeper Mary Earps.Aston Villa, Birmingham, Manchester United and Crystal Palace all came to this stadium for a point, defending resolutely",
    "image": "https://i.guim.co.uk/img/media/f766c814f43fc2252f70407636afd83f120af270/8_0_2641_2113/master/2641.jpg?width=140&quality=85&auto=format&fit=max&s=44de5dba32d707c5c309cc0756b15737",
    "important": false,
    "hot": true
@@ -208,15 +217,6 @@
    "image": "https://e0.365dm.com/26/11/1920x1080/skysports-darts-beau-greaves_7404960.jpg?20261112123559",
    "important": false,
    "hot": false
-  },
-  {
-   "title": "Earps stars as London City frustrate Arsenal to seal point at Emirates",
-   "link": "https://www.skysports.com/watch/video/13612562/arsenal-1-1-london-city-lionesses-wsl-highlights",
-   "published": "2026-11-15T18:37:00+00:00",
-   "description": "Highlights of the Women's Super League match between Arsenal and London City Lionesses.",
-   "image": "https://e2.365dm.com/26/11/1920x1080/skysports-arsenal-lcl-wsl_7407250.jpg?20261115182624",
-   "important": false,
-   "hot": true
   }
  ],
  "teknologia": [
@@ -331,6 +331,60 @@
  ],
  "maailma": [
   {
+   "title": "Somali-American Uber driver brutally assaulted in alleged hate crime in Minnesota",
+   "link": "https://www.theguardian.com/us-news/2026/nov/15/somali-american-uber-driver-attack-minnesota",
+   "published": "2026-11-15T21:10:38+00:00",
+   "description": "Mohamed Yusuf is fighting for his life after alleged attack by passenger who said he did not like driver’s first nameA Somali-American Uber driver was allegedly brutally assaulted by a passenger in Hopkins, Minnesota, on Saturday, in what his family says “appears to be a hate crime”.The driver, Mohamed Yusuf, is currently hospitalized and fighting for his life, his family told the Somali Brief, a ",
+   "image": "https://i.guim.co.uk/img/media/eaf70ca42983b5c08eef285f4fbbbd931e425378/15_0_4680_3744/master/4680.jpg?width=140&quality=85&auto=format&fit=max&s=298cc8090b56056a7a6f8025484c0d67",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Czechs rally against plan to switch funding of public media",
+   "link": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-15T21:03:40+00:00",
+   "description": "Protesters say the move will stifle media freedom, while the government insists broadcasters need to cut costs.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0f9f/live/b7b68ac0-e121-11f1-9705-e15ce514cc96.jpg",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Photos: Pope Leo visits Peru’s Amazon and Andean regions during 12-day tour",
+   "link": "https://www.aljazeera.com/gallery/2026/11/15/photos-pope-leo-visits-perus-amazon-and-andean-regions-during-12-day-tour?traffic_source=rss",
+   "published": "2026-11-15T20:54:13+00:00",
+   "description": "The pope has called for the preservation of Indigenous traditions in Peru as he wraps up a 12-day tour of Latin America.",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Palestinians reclaim Gaza’s shores with a swim for hope",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/palestinians-reclaim-gazas-shores-with-a-swim-for-hope?traffic_source=rss",
+   "published": "2026-11-15T20:50:15+00:00",
+   "description": "For the first time in more than three years, Gaza’s swimming federation has held a competition.",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Who can force Israel to implement Gaza ceasefire deal?",
+   "link": "https://www.aljazeera.com/video/inside-story/2026/11/15/who-can-force-israel-to-implement-gaza-ceasefire-deal?traffic_source=rss",
+   "published": "2026-11-15T20:37:43+00:00",
+   "description": "Storms batter Palestinian territory as Israel restricts entry of aid.",
+   "image": null,
+   "important": true,
+   "hot": false
+  },
+  {
+   "title": "Estonia to close border crossings with Russia after alleged arson attack",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/estonia-to-close-border-crossings-with-russia-after-alleged-arson-attack?traffic_source=rss",
+   "published": "2026-11-15T20:31:18+00:00",
+   "description": "Estonia is closing its border crossings with Russia following an alleged arson attempt at a drone factory.",
+   "image": null,
+   "important": false,
+   "hot": true
+  },
+  {
    "title": "Jordan sentences three men to death over deadly church attack in Karak",
    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/jordan-sentences-three-men-to-death-over-deadly-church-attack-in-karak?traffic_source=rss",
    "published": "2026-11-15T20:12:38+00:00",
@@ -361,7 +415,7 @@
    "title": "‘Pull back the curtain’ on treatment of sexual assault victims in court, says UK government adviser",
    "link": "https://www.theguardian.com/law/2026/nov/15/examine-courts-treatment-sexual-assault-victims-says-government-adviser",
    "published": "2026-11-15T19:40:23+00:00",
-   "description": "Professor calls on ministers to use awareness triggered by Russell Brand conviction to examine use of rape myths in trialsThe debate triggered by high profile cases must “pull back the curtain” on the treatment of people making allegations of sexual offences in the criminal justice system in England and Wales, the government’s independent adviser on rape has told the Guardian.Prof Katrin Hohl, who",
+   "description": "Professor urges ministers to use awareness triggered by Russell Brand conviction to examine use of rape myths in trialsThe debate triggered by high-profile cases must “pull back the curtain” on the treatment of people making allegations of sexual offences in the criminal justice system in England and Wales, the government’s independent adviser on rape has told the Guardian.Prof Katrin Hohl, who ha",
    "image": "https://i.guim.co.uk/img/media/70da16c077d52bf4ba97063e669ba34a16329c85/645_0_2907_2326/master/2907.jpg?width=140&quality=85&auto=format&fit=max&s=16427c154be1f5d516fa4caa85b7d6e4",
    "important": false,
    "hot": false
@@ -383,63 +437,18 @@
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/45e6/live/30f37df0-e116-11f1-a7db-d90284d21c62.jpg",
    "important": false,
    "hot": false
-  },
-  {
-   "title": "Texas puts to death man who beheaded three children, hours after Oklahoma execution",
-   "link": "https://www.theguardian.com/us-news/2026/nov/15/texas-execution-john-allen-rubio-oklahoma-james-pavatt",
-   "published": "2026-11-15T19:27:24+00:00",
-   "description": "Oklahoma man, 73, executed for killing ex’s estranged husband, as US nears 40 executions for second straight yearA Texas man convicted of fatally stabbing and beheading his three young children in a squalid, windowless apartment in 2003 was recently executed.John Allen Rubio, 46, was pronounced dead at 6.47 pm on Thursday after a lethal injection at the state prison in Huntsville, Texas. His killi",
-   "image": "https://i.guim.co.uk/img/media/d4d6a76c012facd782c4b989badcf7516260404c/0_69_3352_2682/master/3352.jpg?width=140&quality=85&auto=format&fit=max&s=3df23a284c8724fefc52ded224b26c9d",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Thousands of US flights still cancelled or delayed two days after grounding of planes nationwide",
-   "link": "https://www.bbc.co.uk/news/articles/cw1mdlv0k2r4o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T19:20:53+00:00",
-   "description": "The US transport secretary says that normal air-traffic operations may not be restored until Monday.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1b00/live/90c0ff50-e11b-11f1-a7a2-7bb21fac8f0b.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Israeli drone filmed flying low outside homes in southern Lebanon",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/israeli-drone-filmed-flying-low-outside-homes-in-southern-lebanon?traffic_source=rss",
-   "published": "2026-11-15T19:02:21+00:00",
-   "description": "Video shows an Israeli drone flying at low altitude over a residential area in southern Lebanon.",
-   "image": null,
-   "important": true,
-   "hot": false
-  },
-  {
-   "title": "Trident nuclear submarine concludes record underwater deployment",
-   "link": "https://www.theguardian.com/uk-news/2026/nov/15/trident-nuclear-submarine-hms-vengeance-record-tour",
-   "published": "2026-11-15T18:50:33+00:00",
-   "description": "HMS Vengeance’s seven-month patrol prompts concerns about slow pace of maintenance of ageing fleet and impact on crewA Trident nuclear submarine has concluded a record seven-month deployment, returning to the Faslane naval base in Scotland where its crew was greeted by the defence secretary, Wes Streeting.HMS Vengeance began its patrol on 12 April and spent 217 days submerged before returning on S",
-   "image": "https://i.guim.co.uk/img/media/092370dd24a52c58bc3c62c308a112aa0c5eccdc/426_0_2757_2206/master/2757.jpg?width=140&quality=85&auto=format&fit=max&s=c00ae2720ed98d34faa562fd4079d8f6",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Senator-elect Scott Colom vows to ensure Trump follows through on his promises",
-   "link": "https://www.theguardian.com/us-news/2026/nov/15/scott-colom-mississippi-senate-trump",
-   "published": "2026-11-15T18:48:10+00:00",
-   "description": "Mississippi Democrat points to commitments Trump made: lower prices, halt endless wars and release Epstein filesAfter recently becoming the first Mississippi Democrat elected to the US Senate in more than four decades, Scott Colom pledged to try to ensure Donald Trump “follows through on the commitments” he made while successfully running for a second presidency in 2024.Colom, while being intervie",
-   "image": "https://i.guim.co.uk/img/media/4abbdc3b45c3f90c56abf04023eb18752ef75fce/750_0_6515_5212/master/6515.jpg?width=140&quality=85&auto=format&fit=max&s=c2aa9252e91f0fe2ac6aa483b2825c0b",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Chris Van Hollen says he has path to win Senate leader over Chuck Schumer",
-   "link": "https://www.theguardian.com/us-news/2026/nov/15/chris-van-hollen-senate-majority-leader",
-   "published": "2026-11-15T18:46:49+00:00",
-   "description": "Progressive US senator calling for more inclusion within Democratic caucus cites openness to change among peersDemocratic US senator Chris Van Hollen on Sunday escalated his bid to lead his party’s incoming Senate majority rather than Chuck Schumer, asserting that he has a path to victory amid a dedicated campaign that includes a series of television appearances.Van Hollen, a Maryland progressive,",
-   "image": "https://i.guim.co.uk/img/media/6e0a2c263ff4be7091b975eef0135a62230b8800/0_103_4566_3653/master/4566.jpg?width=140&quality=85&auto=format&fit=max&s=a098af7d36b89b145008f118d1b496b7",
-   "important": false,
-   "hot": false
   }
  ],
  "musiikki": [
+  {
+   "title": "Ciryl Gane säilytti mestaruutensa – Josh Hokit pyytää uusintaottelua",
+   "link": "https://www.klangi.fi/uutiset/ciryl-gane-sailytti-mestaruutensa/",
+   "published": "2026-11-15T21:14:37+00:00",
+   "description": "Ciryl Gane puolusti raskaan sarjan mestaruuttaan ja kukisti Josh Hokitin viiden erän kamppailussa UFC 334 -tapahtumassa New Yorkissa. Ranskalainen vapaaottelija\nArtikkeli Ciryl Gane säilytti mestaruutensa – Josh Hokit pyytää uusintaottelua julkaistiin ensimmäisen kerran Klangi.",
+   "image": "https://www.klangi.fi/wp-content/uploads/2026/11/Ciryl-Gane-Wikimedia-Klangi-2026-1024x683.png",
+   "important": false,
+   "hot": false
+  },
   {
    "title": "Watch Phoebe Bridgers Play “Bobby” and “Still Standing” on Saturday Night Live",
    "link": "https://pitchfork.com/story/watch-phoebe-bridgers-play-bobby-and-still-standing-on-saturday-night-live/",
@@ -466,6 +475,15 @@
    "image": null,
    "important": false,
    "hot": false
+  },
+  {
+   "title": "Peter Hook, Lauren Mayberry, Deftones Play Joy Division and New Order Songs at 2026 Rock Hall",
+   "link": "https://pitchfork.com/story/deftones-lauren-mayberry-peter-hook-play-joy-division-and-new-order-songs-at-2026-rock-hall/",
+   "published": "2026-11-15T18:36:24+00:00",
+   "description": "They christened the 2026 induction ceremony with “Love Will Tear Us Apart” and “Bizarre Love Triangle”",
+   "image": "https://media.pitchfork.com/photos/6af9f2bec11e02ee7f005b7e/master/pass/GettyImages-2304682563.jpg",
+   "important": false,
+   "hot": true
   },
   {
    "title": "Debyyttialbumiaan valmisteleva Raama julkaisi uuden singlen – “Tää biisi on syntynyt siitä turhautumisesta”",
@@ -529,24 +547,6 @@
    "image": "https://www.klangi.fi/wp-content/uploads/2026/11/Oliver-Lindell-AOP-2026-Klangi-1024x683.jpg",
    "important": true,
    "hot": false
-  },
-  {
-   "title": "Eminemin talliin liittyi uusi räppäri – J Dillan biitti ei ole yhteissinglen ainoa Dilla-yllätys",
-   "link": "https://www.klangi.fi/uutiset/idk-shady-records-eminem-welcome-j-dilla/",
-   "published": "2026-11-15T15:44:48+00:00",
-   "description": "Shady Records -tallin uutena nimenä IDK saa kertosäkeeseen Eminemin ja biitin edesmenneeltä J Dillalta. Brittiläis-yhdysvaltalainen räppäri ja tuottaja IDK on\nArtikkeli Eminemin talliin liittyi uusi räppäri – J Dillan biitti ei ole yhteissinglen ainoa Dilla-yllätys julkaistiin ensimmäisen kerran Klangi.",
-   "image": "https://www.youtube.com/embed/zT104EktdOc",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Watch St. Vincent, Metallica, More Cover Iron Maiden at Rock & Roll Hall of Fame 2026 Induction Ceremony",
-   "link": "https://pitchfork.com/story/watch-st-vincent-metallica-more-cover-iron-maiden-at-rock-and-roll-hall-of-fame-2026-induction-ceremony/",
-   "published": "2026-11-15T15:11:40+00:00",
-   "description": "Rage Against the Machine’s Brad Wilk, Mötley Crüe’s John 5, and Jack Black joined the all-star lineup to perform “The Trooper”",
-   "image": "https://media.pitchfork.com/photos/6af9c7337b1affb62d7f5343/master/pass/GettyImages-2305186486.jpg",
-   "important": false,
-   "hot": true
   }
  ]
 }
