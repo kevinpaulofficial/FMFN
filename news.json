@@ -1,71 +1,79 @@
 {
  "suomi": [
   {
-   "title": "HS seuraa | Suomi romahti MM-välierässä, Yhdysvallat karkasi hetkessä",
+   "title": "Trump soitti yllättäen suoraan lähetykseen – sitten linjalta kuului mystinen ääni",
+   "link": "https://www.is.fi/viihde/art-2000012413274.html",
+   "published": "2026-11-15T16:05:00+00:00",
+   "description": "Trumpin puhelun aiheuttama ”kikatusjupakka” on puhuttanut yhdysvaltalaismediassa.",
+   "image": "https://images.sanoma-sndp.fi/cca31cfd0f8326c2a64acbc1f3c2a1fb/normal/1440.jpg",
+   "important": false
+  },
+  {
+   "title": "HS seuraa | Suomi romahti MM-välierässä, Yhdysvallat karkasi kahdessa minuutissa",
    "link": "https://www.hs.fi/urheilu/art-2000012413752.html",
-   "published": "2026-11-15T15:26:00+00:00",
+   "published": "2026-11-15T16:02:00+00:00",
    "description": "Naisleijonat pelaa paikasta MM-finaaliin.",
-   "image": "https://images.sanoma-sndp.fi/9f742d2b52cf5db8ec10eac452be6173/normal/1440.jpg",
+   "image": "https://images.sanoma-sndp.fi/b4cebc355fa7627828a9db16d1f5bcda/normal/1440.jpg",
    "important": false
   },
   {
-   "title": "Suomi romahti MM-välierässä – jäällä todella ikävä näky",
-   "link": "https://www.is.fi/jaakiekko/art-2000012413693.html",
-   "published": "2026-11-15T15:26:00+00:00",
-   "description": "Naisleijonat pelaa paikasta MM-finaaliin. IS seuraa hetki hetkeltä.",
-   "image": "https://images.sanoma-sndp.fi/9f742d2b52cf5db8ec10eac452be6173/normal/1440.jpg",
+   "title": "Koripallo | Susiladies kaatoi Liettuan toistamiseen, loppuunmyyty Urhea-halli villiintyi",
+   "link": "https://www.hs.fi/urheilu/art-2000012393423.html",
+   "published": "2026-11-15T16:02:00+00:00",
+   "description": "Susiladies kaatoi Liettuan loppuunmyydyssä Urhea-hallissa.",
+   "image": "https://images.sanoma-sndp.fi/75cbf9ef6f39447e21134a4e5bdc7f3f/normal/1440.jpg",
    "important": false
   },
   {
-   "title": "Isku drooniyritykseen | Viro aikoo sulkea Venäjän-vastaisen rajansa",
-   "link": "https://www.hs.fi/alueet/art-2000012413742.html",
-   "published": "2026-11-15T15:25:00+00:00",
-   "description": "Viron suojelupoliisin johtajan Margo Pallosonin mukaan tuhopolttoyritys oli Venäjän sotilastiedustelupalvelu GRU:n koordinoima.",
-   "image": "https://images.sanoma-sndp.fi/5dd1bb60ee3c2609e5091ccbc0b04498/normal/1440.jpg",
-   "important": true
-  },
-  {
-   "title": "Elokuva-arvio | Arvosteluissa lytätty ja yleisön hylkäämä Klara ja aurinko jättää jälkeensä syvän hämmennyksen",
-   "link": "https://www.hs.fi/popkulttuuri/art-2000012403960.html",
-   "published": "2026-11-15T15:17:00+00:00",
-   "description": "Taika Waititin elokuvasovitus Kazuo Ishiguron scifiromaanista jää ohueksi ja tunnetasolla epäloogiseksi.",
-   "image": "https://images.sanoma-sndp.fi/4e8dd15feddb3e007242220d945acc95/normal/1440.jpg",
+   "title": "Huuhkajat: kaikki uusiksi – IS seuraa",
+   "link": "https://www.is.fi/huuhkajat/art-2000012413963.html",
+   "published": "2026-11-15T16:01:00+00:00",
+   "description": "IS seuraa Huuhkajien kamppailua piskuista San Marinoa vastaan.",
+   "image": "https://images.sanoma-sndp.fi/dab6f56ce44eff2a5ad7d55594fd5f6a/normal/1440.jpg",
    "important": false
   },
   {
-   "title": "Viro sulkee Venäjän-vastaisen rajansa – ulkoministeri vahvistaa",
-   "link": "https://www.is.fi/ulkomaat/art-2000012413905.html",
-   "published": "2026-11-15T15:15:00+00:00",
-   "description": "Raja menee kiinni 1. joulukuuta.",
-   "image": "https://images.sanoma-sndp.fi/0448200c1cf0025d1147c95118caf6a8/normal/1440.jpg",
+   "title": "Jalkapallo | Suomi kohtaa San Marinon Helsingissä, lähes koko avaus­kokoonpano uusiksi",
+   "link": "https://www.hs.fi/urheilu/art-2000012413990.html",
+   "published": "2026-11-15T16:00:00+00:00",
+   "description": "HS seuraa Huuhkajien kamppailua piskuista San Marinoa vastaan.",
+   "image": "https://images.sanoma-sndp.fi/dab6f56ce44eff2a5ad7d55594fd5f6a/normal/1440.jpg",
    "important": false
   },
   {
-   "title": "Suomalaisten toiminta Levillä meni supertähden tunteisiin – herkistyi silminnähden: ”Kauniit suomalaiset”",
-   "link": "https://www.is.fi/alppihiihto/art-2000012413811.html",
-   "published": "2026-11-15T15:02:00+00:00",
-   "description": "Lucas Pinheiro Braathen otti toisen peräkkäisen voittonsa Levin maailmancupissa.",
-   "image": "https://images.sanoma-sndp.fi/8a7d302394d6ca7170486bdfeaad15a1/normal/1440.jpg",
-   "important": false
-  },
-  {
-   "title": "Prahassa valtava mielenosoitus demokratian puolesta – ”Näpit irti mediastamme!”",
-   "link": "https://yle.fi/a/74-20256774?origin=rss",
-   "published": "2026-11-15T15:01:43+00:00",
-   "description": "Yleisradion riippumattomuuden puolesta on osoitettu mieltä jo useasti tänä syksynä Tšekissä. Nyt protesti on kaikkein suurin. (?)",
+   "title": "Politiikan lyhytnäköisyys käy nuorille kalliiksi",
+   "link": "https://www.hs.fi/paakirjoitukset/art-2000012403432.html",
+   "published": "2026-11-15T16:00:00+00:00",
+   "description": "Vaikka Suomessa osataan ennakoida tulevaisuutta, tieto ei vaikuta riittävästi päätöksentekoon. Tulevien sukupolvien edut tarvitsevat vahvemman aseman.",
    "image": null,
    "important": false
   },
   {
-   "title": "Viro sulkee Venäjän-vastaisen rajansa",
-   "link": "https://yle.fi/a/74-20257086?origin=rss",
-   "published": "2026-11-15T15:01:41+00:00",
-   "description": "Viron ulkoministerin Margus Tsahknan mukaan rajanylityspaikat suljetaan joulukuun alussa.",
-   "image": null,
+   "title": "Rikas elämä | 79-vuotias Marit Hohtokari kertoo, mitä hän nuorena luuli vanhuudesta väärin",
+   "link": "https://www.hs.fi/elama/art-2000012297470.html",
+   "published": "2026-11-15T16:00:00+00:00",
+   "description": "Marit Hohtokari, 79, kuvitteli nuorena, ettei seitsemänkymppisenä elämässä olisi mitään kiinnostavaa. Nyt hänet pitää kiireisenä lastenkirja, hyppylautapilates, murhamysteeri ja nuorten urien edistäminen.",
+   "image": "https://images.sanoma-sndp.fi/0dbf4302fcea70708086479f1b8cd072/normal/1440.jpg",
+   "important": false
+  },
+  {
+   "title": "Tässä on Suomen kaunein etu­nimi – selvä suosikki",
+   "link": "https://www.is.fi/perhe/art-2000012398918.html",
+   "published": "2026-11-15T16:00:00+00:00",
+   "description": "Perinteikäs mutta ajaton nimi on monen suomalaisen suosikki.",
+   "image": "https://images.sanoma-sndp.fi/045bb710d1e4eb377c53cabd1cefcfd8/normal/1440.jpg",
    "important": false
   }
  ],
  "jalkapallo": [
+  {
+   "title": "You are Scotland boss Pocognoli - what would you do?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cklyw2qzzd44o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-15T15:58:56+00:00",
+   "description": "Put yourself in the shoes of Scotland head coach Sebastien Pocognoli as he picks his starting XI for the visit to Switzerland.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78b7/live/86435770-b746-11f1-8846-e70401199dae.jpg",
+   "important": false
+  },
   {
    "title": "Club's first match since player's death abandoned because of serious injury",
    "link": "https://www.bbc.co.uk/sport/football/articles/cm98xd2dpjd7o?at_medium=RSS&at_campaign=rss",
@@ -120,14 +128,6 @@
    "published": "2026-11-15T07:29:30+00:00",
    "description": "As Spain prepare to host England in the Nations League, BBC Sport columnist Guillem Balague charts the rise of Unai Simon to become the world's best keeper.",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/41cb/live/396f38d0-dddc-11f1-b865-d17d8611efca.jpg",
-   "important": false
-  },
-  {
-   "title": "How Aston Villa are reclaiming their identity",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cm4gkgnkkn9zo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T07:12:05+00:00",
-   "description": "Aston Villa Women are celebrating an important 30-year milestone on Sunday - but how are they trying to reclaim their identity?",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2d8a/live/a96f30c0-e009-11f1-9fd4-8b3c9f9dfc89.jpg",
    "important": false
   }
  ],
@@ -199,6 +199,14 @@
  ],
  "maailma": [
   {
+   "title": "Judge blocks Trump closure of 'Trash Island' Washington DC golf course on Sunday",
+   "link": "https://www.bbc.co.uk/news/articles/c6j9mn7l14y0o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-15T15:57:03+00:00",
+   "description": "The temporary order is part of a months-long challenge to the US president's plans to upgrade East Potomac Golf Links into a championship course.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4be0/live/054b94d0-e09e-11f1-a701-fddedf244c16.jpg",
+   "important": false
+  },
+  {
    "title": "How telecoms upgrade work sparked US flight chaos",
    "link": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-15T14:57:15+00:00",
@@ -211,7 +219,7 @@
    "link": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-15T14:56:21+00:00",
    "description": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cdfb/live/3e3fdc00-e103-11f1-b441-2b33b063138f.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa43/live/e2a9a870-e10d-11f1-93e1-3b657b665bcf.jpg",
    "important": false
   },
   {
@@ -252,14 +260,6 @@
    "published": "2026-11-15T09:57:25+00:00",
    "description": "Santa Cruz de Succhabamba is part of the Diocese of Chiclayo, where the Pope served as bishop from 2015 to 2023.",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/80df/live/ea970890-e09d-11f1-a298-b1f4784d44cc.jpg",
-   "important": false
-  },
-  {
-   "title": "Fifth Canadian soldier dies from injuries caused by large fire at military base",
-   "link": "https://www.bbc.co.uk/news/articles/cmrlgn4x2xw8o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T09:26:37+00:00",
-   "description": "Pte William Douglas Dal Bianco died from his injuries on Friday, a month after a fire that tore through CFB Wainwright.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f7a2/live/a4d3cf40-e0d0-11f1-9e51-e12509ba597c.jpg",
    "important": false
   }
  ],
