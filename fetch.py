@@ -17,14 +17,19 @@ KEYWORDS = {
     "musiikki": ["album", "tour", "festival", "grammy", "announces", "dies", "reunion"],
 }
 
+STOP = set("the a an of to in on for and with from at by is are was were be as it its this that after over into new says say ja on ei että oli ovat se tai kuin mutta jo vai myös".split())
+
+
 def clean(t):
     return re.sub(r"<[^>]+>", "", t or "").strip()
+
 
 def parse_date(s):
     try:
         return parsedate_to_datetime(s).astimezone(timezone.utc).isoformat()
     except Exception:
         return None
+
 
 def image(item):
     for tag in ("media:content", "media:thumbnail"):
@@ -36,6 +41,7 @@ def image(item):
         return e.get("url")
     return None
 
+
 def read_feed(url):
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     root = ET.fromstring(urllib.request.urlopen(req, timeout=20).read())
@@ -46,11 +52,25 @@ def read_feed(url):
         "description": clean(it.findtext("description"))[:400],
         "image": image(it),
         "important": False,
+        "hot": False,
     } for it in root.iter("item")]
+
 
 def score(item, words):
     title = item["title"].lower()
     return sum(1 for w in words if re.search(r"\b" + re.escape(w), title))
+
+
+def words(title):
+    return {w for w in re.findall(r"\w{4,}", title.lower()) if w not in STOP}
+
+
+def mark_hot(items):
+    ws = [words(i["title"]) for i in items]
+    for n, a in enumerate(items):
+        shared = sum(1 for m, b in enumerate(ws) if m != n and len(ws[n] & b) >= 2)
+        a["hot"] = shared >= 2
+
 
 sources = json.load(open("sources.json"))
 result = {}
@@ -64,7 +84,8 @@ for cat, urls in sources.items():
         except Exception as e:
             print(cat, url, "VIRHE", e)
     items.sort(key=lambda x: x["published"] or "", reverse=True)
-    items = items[:8]
+    mark_hot(items)
+    items = items[:12]
     best = max(items, key=lambda x: score(x, KEYWORDS.get(cat, [])), default=None)
     if best and score(best, KEYWORDS.get(cat, [])) > 0:
         best["important"] = True
