@@ -1,78 +1,141 @@
 {
  "suomi": [
   {
-   "title": "Trump soitti yllättäen suoraan lähetykseen – sitten linjalta kuului mystinen ääni",
-   "link": "https://www.is.fi/viihde/art-2000012413274.html",
-   "published": "2026-11-15T16:05:00+00:00",
-   "description": "Trumpin puhelun aiheuttama ”kikatusjupakka” on puhuttanut yhdysvaltalaismediassa.",
-   "image": "https://images.sanoma-sndp.fi/cca31cfd0f8326c2a64acbc1f3c2a1fb/normal/1440.jpg",
-   "important": false
+   "title": "Kommentti | Suomen naiskiekko on tuuliajolla",
+   "link": "https://www.hs.fi/urheilu/art-2000012414069.html",
+   "published": "2026-11-15T16:39:00+00:00",
+   "description": "Suomalainen naiskiekko on kääntynyt alamäkeen, kirjoittaa toimittaja Sasha Huttunen.",
+   "image": "https://images.sanoma-sndp.fi/71063cf84925489cce358feead60e47f/normal/1440.jpg",
+   "important": false,
+   "hot": false
   },
   {
-   "title": "HS seuraa | Suomi romahti MM-välierässä, Yhdysvallat karkasi kahdessa minuutissa",
+   "title": "HS seuraa | Suomi romahti MM-välierässä, tie vie pronssiotteluun",
    "link": "https://www.hs.fi/urheilu/art-2000012413752.html",
-   "published": "2026-11-15T16:02:00+00:00",
-   "description": "Naisleijonat pelaa paikasta MM-finaaliin.",
+   "published": "2026-11-15T16:36:00+00:00",
+   "description": "Naisleijonat pelasi paikasta MM-finaaliin. HS seurasi hetki hetkeltä.",
    "image": "https://images.sanoma-sndp.fi/b4cebc355fa7627828a9db16d1f5bcda/normal/1440.jpg",
-   "important": false
+   "important": false,
+   "hot": false
   },
   {
-   "title": "Koripallo | Susiladies kaatoi Liettuan toistamiseen, loppuunmyyty Urhea-halli villiintyi",
-   "link": "https://www.hs.fi/urheilu/art-2000012393423.html",
-   "published": "2026-11-15T16:02:00+00:00",
+   "title": "Konsertit | Björkin vuosia valmisteltu keikka Oulussa toteutui, vaikka viime hetkillä oli käydä huonosti",
+   "link": "https://www.hs.fi/popkulttuuri/art-2000012413437.html",
+   "published": "2026-11-15T16:36:00+00:00",
+   "description": "Keikka oli vaarassa peruuntua tapahtumapaikan lattiavaurion takia.",
+   "image": "https://images.sanoma-sndp.fi/4419bb48983282e0bcf8980cfdf80811/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Tylyt numerot: Suomi romahti MM-välierässä",
+   "link": "https://www.is.fi/jaakiekko/art-2000012413693.html",
+   "published": "2026-11-15T16:33:00+00:00",
+   "description": "Naisleijonat pelasi paikasta MM-finaaliin. IS seurasi hetki hetkeltä.",
+   "image": "https://images.sanoma-sndp.fi/9f742d2b52cf5db8ec10eac452be6173/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Töölössä leijailee kuvottava löyhkä – ”Sille, että täällä olisi kuollut ihminen”",
+   "link": "https://www.is.fi/kotimaa/art-2000012413850.html",
+   "published": "2026-11-15T16:30:00+00:00",
+   "description": "”Sitä itseään”, kuvailee alueen asukas.",
+   "image": "https://images.sanoma-sndp.fi/1d8b1743e6496ffd0735db14ea7d4c80/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Tunnistatko metsän eläimet kuvista? Jos saat kaikki oikein, hoksottimesi ovat monella tapaa kunnossa",
+   "link": "https://www.is.fi/menaiset/vapaalla/art-2000012408311.html",
+   "published": "2026-11-15T16:30:00+00:00",
+   "description": "Tämä testi vaatii hyvää muistia ja eläintietämystä.",
+   "image": "https://images.sanoma-sndp.fi/2b0d9e6998c1d784a3364569903c4571/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Kommentti: Ranskalainen lausui tylyt sanat Suomesta – ja on täysin oikeassa",
+   "link": "https://www.is.fi/jaakiekko/art-2000012413589.html",
+   "published": "2026-11-15T16:29:00+00:00",
+   "description": "Suomen naiskiekko on tuuliajolla, eikä tulevaisuus näytä valoisalta, kirjoittaa toimittaja Sasha Huttunen.",
+   "image": "https://images.sanoma-sndp.fi/6f5726119c815604a90168421e97e8dc/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Alisa Vainio ilmestyi TTK:hon – näin hän kommentoi Janne Saarista",
+   "link": "https://www.is.fi/viihde/art-2000012414044.html",
+   "published": "2026-11-15T16:27:00+00:00",
+   "description": "Alisa Vainio kommentoi suhteensa laatua TTK-semifinalisti Janne Saariseen.",
+   "image": "https://images.sanoma-sndp.fi/41eab0f8238e8359f97f21d683fee1f5/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Kuolleet | Talvisodan veteraani Mauno Tulijoki on kuollut, elossa enää yksi",
+   "link": "https://www.hs.fi/suomi/art-2000012413769.html",
+   "published": "2026-11-15T16:21:00+00:00",
+   "description": "Suomen tiettävästi viimeinen elossa oleva talvisodassa palvellut mies on Salossa asuva Ilmari Koppinen.",
+   "image": "https://images.sanoma-sndp.fi/a81fcffa78b2bbce92309c47252b9ac0/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Isku drooniyritykseen | Viro aikoo sulkea Venäjän-vastaisen rajansa",
+   "link": "https://www.hs.fi/alueet/art-2000012413742.html",
+   "published": "2026-11-15T16:12:00+00:00",
+   "description": "Viron suojelupoliisin johtajan Margo Pallosonin mukaan tuhopolttoyritys oli Venäjän sotilastiedustelupalvelu GRU:n koordinoima.",
+   "image": "https://images.sanoma-sndp.fi/1371128032346b19d3bc4320ff8b0f18/normal/1440.jpg",
+   "important": true,
+   "hot": true
+  },
+  {
+   "title": "Taas voitto! Suomi huudatti loppuunmyytyä kotihallia",
+   "link": "https://www.is.fi/koripallo/art-2000012414027.html",
+   "published": "2026-11-15T16:10:00+00:00",
    "description": "Susiladies kaatoi Liettuan loppuunmyydyssä Urhea-hallissa.",
    "image": "https://images.sanoma-sndp.fi/75cbf9ef6f39447e21134a4e5bdc7f3f/normal/1440.jpg",
-   "important": false
+   "important": false,
+   "hot": false
   },
   {
-   "title": "Huuhkajat: kaikki uusiksi – IS seuraa",
-   "link": "https://www.is.fi/huuhkajat/art-2000012413963.html",
-   "published": "2026-11-15T16:01:00+00:00",
-   "description": "IS seuraa Huuhkajien kamppailua piskuista San Marinoa vastaan.",
-   "image": "https://images.sanoma-sndp.fi/dab6f56ce44eff2a5ad7d55594fd5f6a/normal/1440.jpg",
-   "important": false
-  },
-  {
-   "title": "Jalkapallo | Suomi kohtaa San Marinon Helsingissä, lähes koko avaus­kokoonpano uusiksi",
-   "link": "https://www.hs.fi/urheilu/art-2000012413990.html",
-   "published": "2026-11-15T16:00:00+00:00",
-   "description": "HS seuraa Huuhkajien kamppailua piskuista San Marinoa vastaan.",
-   "image": "https://images.sanoma-sndp.fi/dab6f56ce44eff2a5ad7d55594fd5f6a/normal/1440.jpg",
-   "important": false
-  },
-  {
-   "title": "Politiikan lyhytnäköisyys käy nuorille kalliiksi",
-   "link": "https://www.hs.fi/paakirjoitukset/art-2000012403432.html",
-   "published": "2026-11-15T16:00:00+00:00",
-   "description": "Vaikka Suomessa osataan ennakoida tulevaisuutta, tieto ei vaikuta riittävästi päätöksentekoon. Tulevien sukupolvien edut tarvitsevat vahvemman aseman.",
-   "image": null,
-   "important": false
-  },
-  {
-   "title": "Rikas elämä | 79-vuotias Marit Hohtokari kertoo, mitä hän nuorena luuli vanhuudesta väärin",
-   "link": "https://www.hs.fi/elama/art-2000012297470.html",
-   "published": "2026-11-15T16:00:00+00:00",
-   "description": "Marit Hohtokari, 79, kuvitteli nuorena, ettei seitsemänkymppisenä elämässä olisi mitään kiinnostavaa. Nyt hänet pitää kiireisenä lastenkirja, hyppylautapilates, murhamysteeri ja nuorten urien edistäminen.",
-   "image": "https://images.sanoma-sndp.fi/0dbf4302fcea70708086479f1b8cd072/normal/1440.jpg",
-   "important": false
-  },
-  {
-   "title": "Tässä on Suomen kaunein etu­nimi – selvä suosikki",
-   "link": "https://www.is.fi/perhe/art-2000012398918.html",
-   "published": "2026-11-15T16:00:00+00:00",
-   "description": "Perinteikäs mutta ajaton nimi on monen suomalaisen suosikki.",
-   "image": "https://images.sanoma-sndp.fi/045bb710d1e4eb377c53cabd1cefcfd8/normal/1440.jpg",
-   "important": false
+   "title": "Golf | Oliver Lindell nappasi paikan PGA Tourille: ”Piikki on auki”",
+   "link": "https://www.hs.fi/urheilu/art-2000012413802.html",
+   "published": "2026-11-15T16:09:00+00:00",
+   "description": "Oliver Lindellin unelma toteutui sunnuntaina.",
+   "image": "https://images.sanoma-sndp.fi/6adae9fef4f91b4dcd218062dc2fa658/normal/1440.jpg",
+   "important": false,
+   "hot": false
   }
  ],
  "jalkapallo": [
+  {
+   "title": "Tenerife return to action after death of De Miguel",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cqx2xn535yj8o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-15T16:38:51+00:00",
+   "description": "Tenerife play their first game since the death of striker Jesus de Miguel on an emotional day at the Heliodoro Rodriguez Lopez stadium.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4e2a/live/47c33310-e10f-11f1-b3df-4961589d9b68.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Why Northern Ireland won't focus on point they need in Hungary",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cm1ew79gnxnxo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-15T16:04:45+00:00",
+   "description": "A draw in Hungary on Tuesday would secure Nations League promotion for Northern Ireland, but they are targeting all three points in Budapest.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/53e4/live/2360fe80-e0ce-11f1-9e51-e12509ba597c.jpg",
+   "important": false,
+   "hot": false
+  },
   {
    "title": "You are Scotland boss Pocognoli - what would you do?",
    "link": "https://www.bbc.co.uk/sport/football/articles/cklyw2qzzd44o?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-15T15:58:56+00:00",
    "description": "Put yourself in the shoes of Scotland head coach Sebastien Pocognoli as he picks his starting XI for the visit to Switzerland.",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78b7/live/86435770-b746-11f1-8846-e70401199dae.jpg",
-   "important": false
+   "important": false,
+   "hot": false
   },
   {
    "title": "Club's first match since player's death abandoned because of serious injury",
@@ -80,7 +143,8 @@
    "published": "2026-11-15T14:06:19+00:00",
    "description": "Hendon's first match since the death of midfielder Ezekiel Williams is abandoned because of a serious injury to Ethan Creary.",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a7a/live/05560230-e0f8-11f1-97b9-9110abfffc70.png",
-   "important": false
+   "important": false,
+   "hot": false
   },
   {
    "title": "Bristol Rovers being let down by poor players - Evans",
@@ -88,7 +152,8 @@
    "published": "2026-11-15T13:55:09+00:00",
    "description": "Steve Evans insists he will leave Bristol Rovers if he is not wanted but says his players have been \"inconsistent\" and \"poor\".",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/49c7/live/affda860-e0f2-11f1-97b9-9110abfffc70.jpg",
-   "important": false
+   "important": false,
+   "hot": false
   },
   {
    "title": "Pitch perimeters under review after Vigar death",
@@ -96,7 +161,8 @@
    "published": "2026-11-15T13:49:17+00:00",
    "description": "The Premier League, English Football League and Women's Super League are reviewing pitch perimeters after the death of Billy Vigar last year.",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/541a/live/e9fcbc60-e0f5-11f1-97b9-9110abfffc70.jpg",
-   "important": false
+   "important": false,
+   "hot": false
   },
   {
    "title": "Branthwaite, Garner and King omitted for Spain game",
@@ -104,7 +170,8 @@
    "published": "2026-11-15T13:15:15+00:00",
    "description": "England manager Thomas Tuchel omits Josh King, James Garner and Jarrad Branthwaite from his squad to face Spain on Sunday night.",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/77b7/live/b6cfa6a0-e0f4-11f1-93e1-3b657b665bcf.png",
-   "important": false
+   "important": false,
+   "hot": false
   },
   {
    "title": "Wenger decides not to challenge Fifa chief Infantino",
@@ -112,7 +179,8 @@
    "published": "2026-11-15T11:28:25+00:00",
    "description": "Arsene Wenger decides against running for the Fifa presidency, in a boost to Gianni Infantino's hopes of a fourth term.",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ecc3/live/a18afd20-e0e1-11f1-8175-3108136b4191.jpg",
-   "important": false
+   "important": false,
+   "hot": false
   },
   {
    "title": "Celtic have eye on midfielder Ebonog - gossip",
@@ -120,7 +188,8 @@
    "published": "2026-11-15T10:45:52+00:00",
    "description": "Two possible January targets for Celtic as Turkish club maintain interest in Rangers midfielder...",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3d12/live/9d213a60-e0e1-11f1-93e1-3b657b665bcf.png",
-   "important": false
+   "important": false,
+   "hot": false
   },
   {
    "title": "How Spain's humble superstar Simon became world's best keeper",
@@ -128,7 +197,26 @@
    "published": "2026-11-15T07:29:30+00:00",
    "description": "As Spain prepare to host England in the Nations League, BBC Sport columnist Guillem Balague charts the rise of Unai Simon to become the world's best keeper.",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/41cb/live/396f38d0-dddc-11f1-b865-d17d8611efca.jpg",
-   "important": false
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Who am I? Guess WSL star No 12",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c32l8yzvjgx7o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-15T07:01:31+00:00",
+   "description": "Work out the identity of today's Women's Super League player in as few attempts as possible.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/70d9/live/eb25ea50-9afd-11f1-b792-a710e56a11dc.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Who am I? Guess WSL star No 12",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c32l8yzvjgx7o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-15T07:01:31+00:00",
+   "description": "Work out the identity of today's Women's Super League player in as few attempts as possible.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/70d9/live/eb25ea50-9afd-11f1-b792-a710e56a11dc.jpg",
+   "important": false,
+   "hot": false
   }
  ],
  "teknologia": [
@@ -138,7 +226,8 @@
    "published": "2026-11-15T12:07:34+00:00",
    "description": "COVID-19 lockdowns cut global fire activity by 12.3 percent.",
    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2293683755-1024x648.jpg",
-   "important": false
+   "important": false,
+   "hot": false
   },
   {
    "title": "SpaceX returned its Starship rocket on Saturday—but there's a catch",
@@ -146,7 +235,8 @@
    "published": "2026-11-15T00:40:59+00:00",
    "description": "It felt like stepping into the future.",
    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2304631389-1024x648.jpg",
-   "important": false
+   "important": false,
+   "hot": true
   },
   {
    "title": "James Webb telescope finds ice older than the star it orbits",
@@ -154,7 +244,8 @@
    "published": "2026-11-14T12:15:48+00:00",
    "description": "Radiation and collisions reshape the planetary building materials.",
    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/image-1-989x648.jpeg",
-   "important": false
+   "important": false,
+   "hot": false
   },
   {
    "title": "Winemakers are learning that conservation can be good for business",
@@ -162,7 +253,8 @@
    "published": "2026-11-14T12:05:51+00:00",
    "description": "Healthy soils, native plants, and fewer chemicals are helping vineyards adapt.",
    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/savineyard1-1152x640.jpg",
-   "important": false
+   "important": false,
+   "hot": false
   },
   {
    "title": "Starship flight 15 powers to orbit—setting up a possible catch on Saturday",
@@ -170,7 +262,8 @@
    "published": "2026-11-14T00:49:13+00:00",
    "description": "One way or another, the company will get some more data on Saturday.",
    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2305018954-1024x648.jpg",
-   "important": false
+   "important": false,
+   "hot": true
   },
   {
    "title": "FAA has lifted its third-ever nationwide ground stop",
@@ -178,7 +271,8 @@
    "published": "2026-11-13T23:17:38+00:00",
    "description": "Secretary of Transportation Sean Duffy blamed obsolete equipment for the outage.",
    "image": "https://cdn.arstechnica.net/wp-content/uploads/2022/10/air-traffic-1000x648.jpg",
-   "important": false
+   "important": false,
+   "hot": false
   },
   {
    "title": "Millions of Americans are not taking their GLP-1 drugs as prescribed",
@@ -186,7 +280,8 @@
    "published": "2026-11-13T21:59:01+00:00",
    "description": "Cost and access barriers are pushing people to modified use and unapproved versions.",
    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2291507729-1152x648.jpg",
-   "important": false
+   "important": false,
+   "hot": false
   },
   {
    "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
@@ -194,7 +289,44 @@
    "published": "2026-11-13T21:20:47+00:00",
    "description": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Pilots-during-DFW-departure-1152x648.jpg",
-   "important": false
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "In elephants, the resilience of communities has its limits",
+   "link": "https://arstechnica.com/science/2026/11/in-elephants-the-resilience-of-communities-has-its-limits/",
+   "published": "2026-11-13T20:03:13+00:00",
+   "description": "In Sri Lanka, ecological change is shrinking a park's elephant population.",
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2290156609-1024x648.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Kalshi ditches Trump Jr. as advisor; CEO admitted \"optics\" weren't good",
+   "link": "https://arstechnica.com/tech-policy/2026/11/trump-jr-out-as-kalshi-advisor-after-his-firms-big-investment-in-polymarket/",
+   "published": "2026-11-13T19:49:16+00:00",
+   "description": "Trump son advised Kalshi and got equity while Trump admin helped Kalshi in lawsuits.",
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/donald-trump-jr-1152x648.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
+   "link": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
+   "published": "2026-11-13T17:25:45+00:00",
+   "description": "Researcher traces a path from AI reward hacking to potential human extinction.",
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-destination-1152x648.jpg",
+   "important": true,
+   "hot": false
+  },
+  {
+   "title": "Windows 0-day dropped by disgruntled researcher hands hackers System rights",
+   "link": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
+   "published": "2026-11-13T16:26:32+00:00",
+   "description": "\"SignDrop\" exploit lets local users gain all-powerful System rights.",
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-1237693734-1152x648-1783631068.jpg",
+   "important": false,
+   "hot": false
   }
  ],
  "maailma": [
@@ -204,7 +336,8 @@
    "published": "2026-11-15T15:57:03+00:00",
    "description": "The temporary order is part of a months-long challenge to the US president's plans to upgrade East Potomac Golf Links into a championship course.",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4be0/live/054b94d0-e09e-11f1-a701-fddedf244c16.jpg",
-   "important": false
+   "important": false,
+   "hot": false
   },
   {
    "title": "How telecoms upgrade work sparked US flight chaos",
@@ -212,7 +345,8 @@
    "published": "2026-11-15T14:57:15+00:00",
    "description": "US officials say the disruption was caused by old equipment overloading and not a cyber-attack.",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/14ef/live/f4aae840-dfd7-11f1-b441-2b33b063138f.jpg",
-   "important": false
+   "important": false,
+   "hot": false
   },
   {
    "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
@@ -220,7 +354,8 @@
    "published": "2026-11-15T14:56:21+00:00",
    "description": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa43/live/e2a9a870-e10d-11f1-93e1-3b657b665bcf.jpg",
-   "important": false
+   "important": false,
+   "hot": false
   },
   {
    "title": "New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision",
@@ -228,7 +363,8 @@
    "published": "2026-11-15T14:33:59+00:00",
    "description": "The lawsuit filed by New Orleans officials also requests that the tanker involved in the collision with the cruise ship be seized and sold to pay for damages.",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6592/live/907a90a0-e090-11f1-a701-fddedf244c16.jpg",
-   "important": false
+   "important": false,
+   "hot": false
   },
   {
    "title": "Iran targets US military base in Bahrain with drone attack",
@@ -236,7 +372,8 @@
    "published": "2026-11-15T13:42:58+00:00",
    "description": "It marks the second attack on the country in three days and comes as the US and Iran remain locked in a stand-off over the Strait of Hormuz.",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0351/live/2e8de2e0-e106-11f1-93e1-3b657b665bcf.jpg",
-   "important": true
+   "important": true,
+   "hot": false
   },
   {
    "title": "South Korea's top scorer in tax accountancy exam admits cheating",
@@ -244,7 +381,8 @@
    "published": "2026-11-15T13:37:45+00:00",
    "description": "Han Won-seok, 34, confessed to using a hidden camera and AI to get a near-perfect mark on the significant test.",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/32ab/live/d67148b0-e0ef-11f1-97b9-9110abfffc70.png",
-   "important": false
+   "important": false,
+   "hot": false
   },
   {
    "title": "Three men sentenced to death in Jordan over fatal church mass shooting",
@@ -252,7 +390,8 @@
    "published": "2026-11-15T11:06:32+00:00",
    "description": "The attack on funeral at a Greek Orthodox church killed nine and injured 34 others last month.",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0fb0/live/ed275c50-e0dd-11f1-a701-fddedf244c16.jpg",
-   "important": false
+   "important": false,
+   "hot": false
   },
   {
    "title": "Pope Leo speaks of community 'suffering' on visit to remote Andes town",
@@ -260,17 +399,64 @@
    "published": "2026-11-15T09:57:25+00:00",
    "description": "Santa Cruz de Succhabamba is part of the Diocese of Chiclayo, where the Pope served as bishop from 2015 to 2023.",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/80df/live/ea970890-e09d-11f1-a298-b1f4784d44cc.jpg",
-   "important": false
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Fifth Canadian soldier dies from injuries caused by large fire at military base",
+   "link": "https://www.bbc.co.uk/news/articles/cmrlgn4x2xw8o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-15T09:26:37+00:00",
+   "description": "Pte William Douglas Dal Bianco died from his injuries on Friday, a month after a fire that tore through CFB Wainwright.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f7a2/live/a4d3cf40-e0d0-11f1-9e51-e12509ba597c.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
+   "link": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-15T08:17:41+00:00",
+   "description": "Both Hamas and IDF officials confirm the death of Samir Abu Younis, commander of the Rafah Brigade.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c19/live/fcdf6660-e0ce-11f1-a701-fddedf244c16.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Copper wire upgrade behind US flight suspension, transport secretary says",
+   "link": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-15T07:10:31+00:00",
+   "description": "The US government is trying to find out whether the chaos was caused by \"incompetence\" or faulty equipment.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3177/live/2aeb3c20-e0c3-11f1-b441-2b33b063138f.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "My mother told me I would die if I sought treatment for Ebola - I am proof you can survive",
+   "link": "https://www.bbc.co.uk/news/articles/cmvg2e2q28w1o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-15T00:06:55+00:00",
+   "description": "Fear and misinformation surrounds the Ebola outbreak in DR Congo - Dr Kamwanga's mother was not immune.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/94d8/live/8fe15d90-df82-11f1-b441-2b33b063138f.jpg",
+   "important": false,
+   "hot": false
   }
  ],
  "musiikki": [
+  {
+   "title": "Phil Collins Gets Rare Two-Time Inductee Status at Rock & Roll Hall of Fame",
+   "link": "https://pitchfork.com/story/phil-collins-gets-rare-two-time-inductee-status-at-rock-and-roll-hall-of-fame/",
+   "published": "2026-11-15T16:18:14+00:00",
+   "description": "The Genesis musician was celebrated for his solo career at the 2026 Induction Ceremony",
+   "image": "https://media.pitchfork.com/photos/6af9d1067b1affb62d7f5367/master/pass/GettyImages-2304674894.jpg",
+   "important": false,
+   "hot": false
+  },
   {
    "title": "Watch St. Vincent, Metallica, More Cover Iron Maiden at Rock & Roll Hall of Fame 2026 Induction Ceremony",
    "link": "https://pitchfork.com/story/watch-st-vincent-metallica-more-cover-iron-maiden-at-rock-and-roll-hall-of-fame-2026-induction-ceremony/",
    "published": "2026-11-15T15:11:40+00:00",
    "description": "Rage Against the Machine’s Brad Wilk, Mötley Crüe’s John 5, and Jack Black joined the all-star lineup to perform “The Trooper”",
    "image": "https://media.pitchfork.com/photos/6af9c7337b1affb62d7f5343/master/pass/GettyImages-2305186486.jpg",
-   "important": false
+   "important": false,
+   "hot": true
   },
   {
    "title": "Camp Flog Gnaw 2026: Amazon Music Livestream Schedule & Details",
@@ -278,7 +464,8 @@
    "published": "2026-11-13T19:58:27+00:00",
    "description": "Turnstile, Don Toliver, Syd, Gena, and more artists will be available to watch",
    "image": "https://media.pitchfork.com/photos/6af773a169ea943d7abe9036/master/pass/Camp-Flog-Gnaw.jpeg",
-   "important": false
+   "important": false,
+   "hot": false
   },
   {
    "title": "Panda Bear Remixes Grace Ives’ “Stupid Bitches”",
@@ -286,7 +473,8 @@
    "published": "2026-11-13T18:14:46+00:00",
    "description": "Noah Lennox gives Girlfriend’s standout closer a near-total overhaul",
    "image": "https://media.pitchfork.com/photos/6af748addf86836dcc15cd36/master/pass/Grace-Ives-Panda-Bear.jpg",
-   "important": false
+   "important": false,
+   "hot": false
   },
   {
    "title": "Shygirl, Brutalismus 3000, Nirosta Steel Feature on Club Kid Companion EP",
@@ -294,7 +482,8 @@
    "published": "2026-11-13T16:59:26+00:00",
    "description": "Out now, the record includes two covers of Arthur Russell’s “Boy With a Smile”",
    "image": "https://media.pitchfork.com/photos/6af72987829743962fb4ec21/master/pass/unnamed%20(71).jpg",
-   "important": false
+   "important": false,
+   "hot": false
   },
   {
    "title": "Hayley Williams Brings Out Seu Jorge to Cover David Bowie",
@@ -302,7 +491,8 @@
    "published": "2026-11-13T16:29:24+00:00",
    "description": "The Paramore singer and Life Aquatic star also duetted on “Zissou” in São Paulo",
    "image": "https://media.pitchfork.com/photos/6af73aae829743962fb4ed74/master/pass/hayley-williams-seu-jorge-bowie.jpg",
-   "important": false
+   "important": false,
+   "hot": false
   },
   {
    "title": "Drake Updates Take Care With New Song “Hate Sleeping Alone”",
@@ -310,7 +500,8 @@
    "published": "2026-11-13T15:53:48+00:00",
    "description": "Get your brood on with an unearthed cut from the 2011 album",
    "image": "https://media.pitchfork.com/photos/6af723dcdf86836dcc15cb36/master/pass/GettyImages-2301207783.jpg",
-   "important": false
+   "important": false,
+   "hot": false
   },
   {
    "title": "9 New Albums You Should Listen to Now: 2hollis, Armand Hammer, and More",
@@ -318,7 +509,8 @@
    "published": "2026-11-13T14:59:02+00:00",
    "description": "Stream new releases from 2hollis, Ecco2k, Armand Hammer, and U2",
    "image": "https://media.pitchfork.com/photos/6af4f0b7123cd98d0879ec7f/master/pass/2hollis%20%E2%80%94%20Pitchfork.jpg",
-   "important": true
+   "important": true,
+   "hot": false
   },
   {
    "title": "Zsela Invites You to The Party With New Album",
@@ -326,7 +518,35 @@
    "published": "2026-11-13T12:44:36+00:00",
    "description": "Listen to “Real Romantic” from the Los Angeles singer’s new LP for Nice Life",
    "image": "https://media.pitchfork.com/photos/6af76aba48625867721cd45c/master/pass/Zsela.jpeg",
-   "important": false
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Hear U2’s Posthumous Dolly Parton Duet",
+   "link": "https://pitchfork.com/story/hear-u2s-posthumous-dolly-parton-duet/",
+   "published": "2026-11-13T05:01:36+00:00",
+   "description": "“Torn” is the closing track off the band’s new album, Carnaval de Luz",
+   "image": "https://media.pitchfork.com/photos/6af71a3e829743962fb4eb11/master/pass/Dolly%20Parton%20Bono.png",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Watch Rosalía Perform a Lux Medley at the 2026 Latin Grammys",
+   "link": "https://pitchfork.com/story/watch-rosalia-perform-a-lux-medley-at-the-2026-latin-grammys/",
+   "published": "2026-11-13T02:33:11+00:00",
+   "description": "Her 2025 album is up for seven statuettes tonight",
+   "image": "https://media.pitchfork.com/photos/6af670a2caedaca0313055df/master/pass/GettyImages-2304857045.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Saba and Pivot Gang Set 2027 North American Tour",
+   "link": "https://pitchfork.com/story/saba-and-pivot-gang-set-2027-north-american-tour/",
+   "published": "2026-11-12T23:15:44+00:00",
+   "description": "The All My Friends Tour is the Chicago rap collective’s first proper run since 2019",
+   "image": "https://media.pitchfork.com/photos/6af6473acaedaca0313053f6/master/pass/Pivot%20Photo%20for%20Tour%20PR%20by%20@therealraeven.png",
+   "important": false,
+   "hot": true
   }
  ]
 }
