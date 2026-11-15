@@ -1,0 +1,19 @@
+{
+  "suomi": [
+    "https://yle.fi/rss/uutiset/paauutiset",
+    "https://www.hs.fi/rss/tuoreimmat.xml",
+    "https://www.is.fi/rss/tuoreimmat.xml"
+  ],
+  "jalkapallo": [
+    "https://feeds.bbci.co.uk/sport/football/rss.xml"
+  ],
+  "teknologia": [
+    "https://feeds.arstechnica.com/arstechnica/index"
+  ],
+  "maailma": [
+    "https://feeds.bbci.co.uk/news/world/rss.xml"
+  ],
+  "musiikki": [
+    "https://pitchfork.com/feed/feed-news/rss"
+  ]
+}
