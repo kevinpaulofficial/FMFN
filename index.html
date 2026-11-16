@@ -146,15 +146,15 @@ M.addEventListener('pointerup',endDrag);M.addEventListener('pointercancel',endDr
 document.addEventListener('pointerdown',function(e){if(drag||document.getElementById('fab').contains(e.target)||e.target.closest('#ov'))return;M.classList.remove('open');if(EDIT){EDIT=false;route(true)}});
 document.getElementById('ball').onclick=function(){document.getElementById('menu').classList.toggle('open')};
 var WCAT=[];try{fetch("lahteet.json").then(function(r){return r.json()}).then(function(j){WCAT=j.lahteet||[]}).catch(function(){})}catch(e){}
-var WVOC={"kvanttitietokone":["kvanttitietokoneet","kvanttitietokoneen","kvantti","quantum computer","quantum computing"],"kyberturvallisuus":["kyberuhka","tietoturva","tietomurto","cybersecurity","ransomware"],"tekoäly":["tekoälyn","tekoälyä","artificial intelligence","AI model","LLM"],"premier league":["valioliiga","EPL"],"mestarien liiga":["Champions League","UCL"],"inflaatio":["inflaation","hintojen nousu","inflation"],"korko":["korot","korkojen","interest rate"],"konemusiikki":["techno","house","electronic music","rave"],"albumi":["albumit","albumin","uusi albumi","album release"],"festivaali":["festivaalit","festivaalin","festival"],"ukraina":["Ukrainan","Ukraine"]};
+var WTOP=[];try{fetch("aiheet.json").then(function(r){return r.json()}).then(function(j){(j.aiheet||[]).forEach(function(p){(p.alaaiheet||[]).forEach(function(x){WTOP.push({id:x.id,nimi:x.nimi,paa:p.nimi,sanat:x.hakusanat||[]})})})}).catch(function(){})}catch(e){}
 var WD=null,wstep=1;
 function $w(i){return document.getElementById(i)}
 function wesc(t){return String(t).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
-function wstem(w){var p=w.split(" "),l=p.pop(),n=l.length,c=n>=8?2:n>=5?1:0;return p.concat([l.slice(0,n-c)]).join(" ")+(c?"*":"")}
+function wstem(w){var p=w.split(" "),l=p.pop(),n=l.length,c=n>=8?2:n>=6?1:0;return p.concat([l.slice(0,n-c)]).join(" ")+(c?"*":"")}
 function persist(){try{localStorage.setItem("custom",JSON.stringify(CUSTOM));localStorage.setItem("del",JSON.stringify(DEL));localStorage.setItem("order",JSON.stringify(ORDER))}catch(e){}}
-function wTerms(kws){var t=[];kws.forEach(function(k){t.push(k.k);if(k.t)k.v.forEach(function(v){t.push(v)})});return t.map(function(x){return wstem(x).replace("*","").toLowerCase()}).filter(Boolean)}
-function wFind(kws){var T=wTerms(kws),seen={},out=[];if(!T.length)return out;
-Object.keys(DATA).forEach(function(c){if(CUSTOM[c])return;(DATA[c]||[]).forEach(function(n){if(seen[n.u])return;var s=(n.t+" "+n.s).toLowerCase();if(T.some(function(w){return s.indexOf(w)>-1})){seen[n.u]=1;out.push(n)}})});
+function wTerms(kws){var t=[];kws.forEach(function(k){if(k.t){k.v.forEach(function(v){t.push(v)});if(!k.id)t.push(k.k)}else t.push(k.k)});return t.map(function(x){return wstem(x).replace("*","").toLowerCase()}).filter(Boolean)}
+function wFind(kws){var T=wTerms(kws),seen={},out=[];if(!T.length)return out;var R=T.map(function(w){return new RegExp("(^|[^\\p{L}\\p{N}])"+w.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),"iu")});
+Object.keys(DATA).forEach(function(c){if(CUSTOM[c])return;(DATA[c]||[]).forEach(function(n){if(seen[n.u])return;var s=n.t+" "+n.s;if(R.some(function(r){return r.test(s)})){seen[n.u]=1;out.push(n)}})});
 return out.sort(function(a,b){return b.p-a.p})}
 function buildCustom(){Object.keys(CUSTOM).forEach(function(id){DATA[id]=wFind(CUSTOM[id].kws).map(function(n){return{t:n.t,s:n.s,u:n.u,p:n.p,imp:false,hot:false,who:"",img:n.img}})})}
 function wOpen(){WD={name:"",src:[{t:"",ok:false}],kws:[]};wstep=1;M.classList.remove("open");$w("ov").classList.add("open");wDraw()}
@@ -166,7 +166,10 @@ function wSrcRow(s,i){return '<div class="wsrc"><input data-i="'+i+'" placeholde
 function wkwl(){var h="";WD.kws.forEach(function(k,i){h+='<div class="wkw"><span class="wchip"><span class="wtag">'+(k.t?"Aihe":"Tarkka")+'</span><b>'+wesc(k.k)+'</b><button data-rk="'+i+'" aria-label="Poista">×</button></span>';
 if(k.v.length){h+="<div>";k.v.forEach(function(v,j){h+='<span class="wchip v">'+wesc(v)+'<button data-rv="'+i+"-"+j+'" aria-label="Poista">×</button></span>'});h+="</div>"}
 else h+='<div class="whint">'+(k.t?"Aiheella ei ole vielä liittyviä sanoja.":"Etsitään alkuosalla: <b>"+wesc(wstem(k.k))+"</b>")+'</div>';h+="</div>"});$w("wkwl").innerHTML=h}
-function wAddKw(w,topic){w=w.trim().toLowerCase();if(!w||WD.kws.some(function(k){return k.k==w}))return;WD.kws.push({k:w,t:!!topic,v:topic?(WVOC[w]||[]).slice():[]});wkwl()}
+function wAddKw(w){w=w.trim().toLowerCase();if(!w||WD.kws.some(function(k){return !k.t&&k.k==w}))return;WD.kws.push({k:w,t:false,v:[]});wkwl()}
+function wAddTopic(id){var x=WTOP.filter(function(o){return o.id===id})[0];if(!x||WD.kws.some(function(k){return k.id===id}))return;WD.kws.push({k:x.nimi,id:x.id,t:true,v:x.sanat.slice()});wkwl()}
+function wTopFind(q){q=q.trim().toLowerCase();if(q.length<2)return[];var r=new RegExp("(^|[^\\p{L}\\p{N}])"+q.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),"iu");
+var a=WTOP.filter(function(x){return r.test(x.nimi)||r.test(x.paa)}),b=WTOP.filter(function(x){return a.indexOf(x)<0&&x.sanat.some(function(w){return r.test(w)})});return a.concat(b).slice(0,8)}
 function wSrcFind(q){q=q.trim().toLowerCase();return q?WCAT.filter(function(x){return x.nimi.toLowerCase().indexOf(q)>-1||x.id.indexOf(q)>-1}).slice(0,6):[]}
 function wMatch(list,q){q=q.toLowerCase();return q?list.filter(function(x){return x.toLowerCase().indexOf(q)>-1}).slice(0,5):[]}
 function wPreview(){var h="<h3>"+wesc(WD.name)+"</h3>";
@@ -178,7 +181,7 @@ f.slice(0,4).forEach(function(n){h+='<div class="card"><span class="age">'+age(n
 function wDraw(){var h='<div class="wstep">'+(wstep<4?"Vaihe "+wstep+" / 3":"Esikatselu")+'</div>';
 if(wstep==1)h+='<h3>Nimeä kategoria</h3><input id="wnm" placeholder="Esim. Kyberturvallisuus" value="'+wesc(WD.name)+'" maxlength="30"><div class="whint">Nimi näkyy etusivulla ja valikossa.</div>';
 if(wstep==2){h+='<h3>Lisää uutislähteet</h3><div id="wsrcs">';WD.src.forEach(function(s,i){h+=wSrcRow(s,i)});h+='</div><button class="wbtn" id="wmoresrc">+ Lisää uutislähde</button><div class="whint">Kirjoita sivuston nimi tai liitä sen osoite. Huom: omien lähteiden uutisia ei vielä haeta, joten kategoria etsii osumia nykyisistä uutisistasi.</div>'}
-if(wstep==3)h+='<h3>Hakusanat</h3><input id="wkw" placeholder="Kirjoita aihe tai tarkka hakusana" autocomplete="off"><div class="wsug" id="wksug"></div><div id="wkwl"></div><div class="whint">Napauta aihetta, niin siihen liittyvät sanat tulevat mukaan. Pilkku tai Enter lisää tarkan hakusanan. Poista väärät sanat rastista.</div>';
+if(wstep==3)h+='<h3>Hakusanat</h3><input id="wkw" placeholder="Kirjoita aihe tai tarkka hakusana" autocomplete="off"><div class="wsug" id="wksug"></div><div id="wkwl"></div><div class="whint">Kirjoita esim. jalkapallo ja napauta sopivaa aihetta, niin sen hakusanat tulevat mukaan. Pilkku tai Enter lisää tarkan hakusanan. Poista väärät sanat rastista.</div>';
 if(wstep==4)h+=wPreview();
 h+='<div class="wrow"><button class="wbtn" id="wback">'+(wstep==1?"Peruuta":"Takaisin")+'</button><button class="wbtn p" id="wnext">'+(wstep==3?"Esikatsele":wstep==4?"Tallenna kategoria":"Seuraava")+'</button></div>';
 $w("dlg").innerHTML=h;if(wstep==3)wkwl();var f=$w("wnm")||$w("wkw");if(f)f.focus()}
@@ -187,9 +190,9 @@ if(t.id==="wnm")WD.name=t.value;
 if(t.dataset&&t.dataset.i!==undefined){var i=+t.dataset.i,v=t.value;WD.src[i].t=v;WD.src[i].ok=false;$w("wst"+i).className="wst";$w("wst"+i).textContent="";
 $w("wsg"+i).innerHTML=wSrcFind(v).map(function(x){return '<button data-pick="'+i+'" data-id="'+wesc(x.id)+'">'+wesc(x.nimi)+'<small>'+(x.kieli==="fi"?"Suomi":"EN")+(x.testattu?" · ✓":"")+'</small></button>'}).join("");
 if(/^(https?:\/\/)?[\w-]+(\.[\w-]+)+/i.test(v)){$w("wst"+i).textContent="Etsitään syötettä…";setTimeout(function(){if(WD&&WD.src[i]&&WD.src[i].t===v&&wstep==2){WD.src[i].ok=true;$w("wst"+i).className="wst ok";$w("wst"+i).textContent="✓ Syöte löytyi (esimerkki)"}},700)}}
-if(t.id==="wkw"){var q=t.value;if(q.indexOf(",")>-1){q.split(",").forEach(function(w){wAddKw(w,false)});t.value="";$w("wksug").innerHTML="";return}
-var sg=wMatch(Object.keys(WVOC),q).map(function(k){return '<button data-add="'+wesc(k)+'"><b>'+wesc(k)+'</b><small>Aihe · '+(WVOC[k].length+1)+' sanaa</small></button>'}).join("");if(q.trim())sg+='<button data-exact="'+wesc(q.trim())+'">Lisää tarkka hakusana: <b>'+wesc(q.trim())+'</b></button>';$w("wksug").innerHTML=sg}});
-document.addEventListener("keydown",function(e){if(e.key==="Enter"&&e.target.id==="wkw"){wAddKw(e.target.value,false);e.target.value="";$w("wksug").innerHTML=""}});
+if(t.id==="wkw"){var q=t.value;if(q.indexOf(",")>-1){q.split(",").forEach(function(w){wAddKw(w)});t.value="";$w("wksug").innerHTML="";return}
+var sg=wTopFind(q).map(function(x){return '<button data-add="'+wesc(x.id)+'"><b>'+wesc(x.nimi)+'</b><small>'+wesc(x.paa)+' · '+x.sanat.length+' sanaa</small></button>'}).join("");if(q.trim())sg+='<button data-exact="'+wesc(q.trim())+'">Lisää tarkka hakusana: <b>'+wesc(q.trim())+'</b></button>';$w("wksug").innerHTML=sg}});
+document.addEventListener("keydown",function(e){if(e.key==="Enter"&&e.target.id==="wkw"){wAddKw(e.target.value);e.target.value="";$w("wksug").innerHTML=""}});
 document.addEventListener("click",function(e){var t=e.target,d=t.dataset||{};
 var dl=t.closest("[data-del]");if(dl){confirmDel(dl.dataset.del);return}
 if(t.closest("[data-addcat]")){wOpen();return}
@@ -197,8 +200,8 @@ if(d.dodel!==undefined){doDel(d.dodel);return}
 if(d.cancel!==undefined||t.id==="ov"){wClose();return}
 if(!WD)return;
 if(d.pick!==undefined){var i=+d.pick,x=WCAT.filter(function(c){return c.id===d.id})[0];if(!x)return;WD.src[i]={t:x.nimi,ok:true,id:x.id,rss:x.rss};$w("dlg").querySelector('input[data-i="'+i+'"]').value=x.nimi;$w("wst"+i).className="wst ok";$w("wst"+i).textContent="✓ Lähde valittu";$w("wsg"+i).innerHTML="";return}
-if(d.exact!==undefined){wAddKw(d.exact,false);$w("wkw").value="";$w("wksug").innerHTML="";$w("wkw").focus();return}
-if(d.add!==undefined){wAddKw(d.add,true);$w("wkw").value="";$w("wksug").innerHTML="";$w("wkw").focus();return}
+if(d.exact!==undefined){wAddKw(d.exact);$w("wkw").value="";$w("wksug").innerHTML="";$w("wkw").focus();return}
+if(d.add!==undefined){wAddTopic(d.add);$w("wkw").value="";$w("wksug").innerHTML="";$w("wkw").focus();return}
 if(d.rk!==undefined){WD.kws.splice(+d.rk,1);return wkwl()}
 if(d.rv!==undefined){var p=d.rv.split("-");WD.kws[+p[0]].v.splice(+p[1],1);return wkwl()}
 if(t.id==="wmoresrc"){WD.src.push({t:"",ok:false});$w("wsrcs").insertAdjacentHTML("beforeend",wSrcRow(WD.src[WD.src.length-1],WD.src.length-1));return}

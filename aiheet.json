@@ -1,0 +1,1126 @@
+{
+ "versio": 1,
+ "huom": "Aiheet ja niiden ehdotetut hakusanat kategorian lisäysikkunan vaiheeseen 3. Käyttäjä voi poistaa sanoja valinnan jälkeen.",
+ "aiheet": [
+  {
+   "id": "politiikka",
+   "nimi": "Politiikka ja vaalit",
+   "alaaiheet": [
+    {
+     "id": "suomen-politiikka",
+     "nimi": "Suomen politiikka",
+     "hakusanat": [
+      "eduskunta",
+      "hallitus",
+      "pääministeri",
+      "ministeri"
+     ]
+    },
+    {
+     "id": "suomen-vaalit",
+     "nimi": "Suomen vaalit",
+     "hakusanat": [
+      "eduskuntavaalit",
+      "kuntavaalit",
+      "presidentinvaalit",
+      "vaalikone"
+     ]
+    },
+    {
+     "id": "eu-politiikka",
+     "nimi": "EU-politiikka",
+     "hakusanat": [
+      "Euroopan unioni",
+      "European Union",
+      "Euroopan komissio",
+      "European Commission",
+      "europarlamentti"
+     ]
+    },
+    {
+     "id": "yhdysvaltain-politiikka",
+     "nimi": "Yhdysvaltain politiikka",
+     "hakusanat": [
+      "Valkoinen talo",
+      "White House",
+      "Congress",
+      "kongressi",
+      "senaatti"
+     ]
+    },
+    {
+     "id": "yhdysvaltain-vaalit",
+     "nimi": "Yhdysvaltain vaalit",
+     "hakusanat": [
+      "presidential election",
+      "midterm",
+      "välivaalit",
+      "Republican",
+      "Democrat"
+     ]
+    },
+    {
+     "id": "iso-britannian-politiikka",
+     "nimi": "Iso-Britannian politiikka",
+     "hakusanat": [
+      "Downing Street",
+      "Labour",
+      "Conservative",
+      "Westminster"
+     ]
+    },
+    {
+     "id": "venajan-politiikka",
+     "nimi": "Venäjän politiikka",
+     "hakusanat": [
+      "Kreml",
+      "Kremlin",
+      "Putin"
+     ]
+    },
+    {
+     "id": "kiinan-politiikka",
+     "nimi": "Kiinan politiikka",
+     "hakusanat": [
+      "Kiina",
+      "China",
+      "Beijing",
+      "Peking",
+      "Xi Jinping"
+     ]
+    },
+    {
+     "id": "vaalit-maailmalla",
+     "nimi": "Vaalit maailmalla",
+     "hakusanat": [
+      "vaalit",
+      "election",
+      "kansanäänestys",
+      "referendum"
+     ]
+    },
+    {
+     "id": "puolueet-ja-kannatus",
+     "nimi": "Puolueet ja kannatus",
+     "hakusanat": [
+      "puolue",
+      "kannatusmittaus",
+      "gallup",
+      "opinion poll"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "konfliktit",
+   "nimi": "Sodat ja konfliktit",
+   "alaaiheet": [
+    {
+     "id": "ukrainan-sota",
+     "nimi": "Ukrainan sota",
+     "hakusanat": [
+      "Ukraina",
+      "Ukraine",
+      "Kiova",
+      "Kyiv",
+      "Zelensky"
+     ]
+    },
+    {
+     "id": "lahi-ita",
+     "nimi": "Lähi-itä",
+     "hakusanat": [
+      "Israel",
+      "Gaza",
+      "Iran",
+      "Libanon",
+      "Lebanon"
+     ]
+    },
+    {
+     "id": "venaja-ja-turvallisuus",
+     "nimi": "Venäjä ja turvallisuus",
+     "hakusanat": [
+      "Venäjä",
+      "Russia",
+      "hybridivaikuttaminen",
+      "sabotaasi",
+      "sabotage"
+     ]
+    },
+    {
+     "id": "nato-ja-puolustusliitot",
+     "nimi": "Nato ja puolustusliitot",
+     "hakusanat": [
+      "Nato",
+      "puolustusliitto",
+      "puolustusministeri",
+      "defence minister"
+     ]
+    },
+    {
+     "id": "tulitauot-ja-rauhanneuvottelut",
+     "nimi": "Tulitauot ja rauhanneuvottelut",
+     "hakusanat": [
+      "tulitauko",
+      "ceasefire",
+      "rauhanneuvottelut",
+      "peace talks",
+      "rauhansopimus"
+     ]
+    },
+    {
+     "id": "afrikan-konfliktit",
+     "nimi": "Afrikan konfliktit",
+     "hakusanat": [
+      "Sudan",
+      "Sahel",
+      "Kongo",
+      "Congo",
+      "Somalia"
+     ]
+    },
+    {
+     "id": "aasian-jannitteet",
+     "nimi": "Aasian jännitteet",
+     "hakusanat": [
+      "Taiwan",
+      "Etelä-Kiinan meri",
+      "South China Sea",
+      "Pohjois-Korea",
+      "North Korea"
+     ]
+    },
+    {
+     "id": "terrorismi",
+     "nimi": "Terrorismi",
+     "hakusanat": [
+      "terrori",
+      "terrorism",
+      "ääriliike",
+      "extremist"
+     ]
+    },
+    {
+     "id": "puolustus-ja-asevarustelu",
+     "nimi": "Puolustus ja asevarustelu",
+     "hakusanat": [
+      "puolustusvoimat",
+      "puolustusbudjetti",
+      "defence spending",
+      "drooni",
+      "drone"
+     ]
+    },
+    {
+     "id": "pakolaiset-ja-humanitaarinen-kriisi",
+     "nimi": "Pakolaiset ja humanitaarinen kriisi",
+     "hakusanat": [
+      "pakolainen",
+      "refugee",
+      "humanitaarinen",
+      "humanitarian",
+      "nälänhätä"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "urheilu",
+   "nimi": "Urheilu",
+   "alaaiheet": [
+    {
+     "id": "jalkapallo-uutiset",
+     "nimi": "Jalkapallo (uutiset)",
+     "hakusanat": [
+      "jalkapallo",
+      "football",
+      "soccer"
+     ]
+    },
+    {
+     "id": "jalkapallo-premier-league",
+     "nimi": "Jalkapallo (Premier League)",
+     "hakusanat": [
+      "Premier League",
+      "valioliiga",
+      "Arsenal",
+      "Liverpool",
+      "Manchester"
+     ]
+    },
+    {
+     "id": "jalkapallo-mestarien-liiga",
+     "nimi": "Jalkapallo (Mestarien liiga)",
+     "hakusanat": [
+      "Mestarien liiga",
+      "Champions League",
+      "Eurooppa-liiga",
+      "Europa League"
+     ]
+    },
+    {
+     "id": "jalkapallo-turnaukset",
+     "nimi": "Jalkapallo (turnaukset)",
+     "hakusanat": [
+      "MM-kisat",
+      "World Cup",
+      "EM-kisat",
+      "FIFA",
+      "UEFA"
+     ]
+    },
+    {
+     "id": "jalkapallo-siirrot",
+     "nimi": "Jalkapallo (siirrot)",
+     "hakusanat": [
+      "siirtoikkuna",
+      "pelaajasiirto",
+      "transfer",
+      "signing"
+     ]
+    },
+    {
+     "id": "jaakiekko-liiga-ja-leijonat",
+     "nimi": "Jääkiekko (Liiga ja Leijonat)",
+     "hakusanat": [
+      "jääkiekko",
+      "Leijonat",
+      "Liiga",
+      "SM-liiga"
+     ]
+    },
+    {
+     "id": "jaakiekko-nhl",
+     "nimi": "Jääkiekko (NHL)",
+     "hakusanat": [
+      "NHL",
+      "Stanley Cup",
+      "ice hockey"
+     ]
+    },
+    {
+     "id": "formula-1",
+     "nimi": "Formula 1",
+     "hakusanat": [
+      "Formula 1",
+      "Formula One",
+      "F1",
+      "Grand Prix"
+     ]
+    },
+    {
+     "id": "tennis",
+     "nimi": "Tennis",
+     "hakusanat": [
+      "tennis",
+      "Wimbledon",
+      "Grand Slam",
+      "ATP",
+      "WTA"
+     ]
+    },
+    {
+     "id": "koripallo-nba",
+     "nimi": "Koripallo (NBA)",
+     "hakusanat": [
+      "koripallo",
+      "NBA",
+      "basketball"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "talous",
+   "nimi": "Talous ja rahoitus",
+   "alaaiheet": [
+    {
+     "id": "suomen-talous",
+     "nimi": "Suomen talous",
+     "hakusanat": [
+      "Suomen talous",
+      "talouskasvu",
+      "bruttokansantuote",
+      "taantuma"
+     ]
+    },
+    {
+     "id": "osakemarkkinat",
+     "nimi": "Osakemarkkinat",
+     "hakusanat": [
+      "pörssi",
+      "osake",
+      "stock market",
+      "Wall Street",
+      "Nasdaq"
+     ]
+    },
+    {
+     "id": "korot-ja-keskuspankit",
+     "nimi": "Korot ja keskuspankit",
+     "hakusanat": [
+      "korko",
+      "korkotaso",
+      "Euroopan keskuspankki",
+      "ECB",
+      "Federal Reserve"
+     ]
+    },
+    {
+     "id": "inflaatio-ja-hinnat",
+     "nimi": "Inflaatio ja hinnat",
+     "hakusanat": [
+      "inflaatio",
+      "inflation",
+      "hintataso",
+      "kuluttajahinnat"
+     ]
+    },
+    {
+     "id": "asuntomarkkinat",
+     "nimi": "Asuntomarkkinat",
+     "hakusanat": [
+      "asuntomarkkinat",
+      "asuntokauppa",
+      "asuntojen hinnat",
+      "housing market"
+     ]
+    },
+    {
+     "id": "tyollisyys",
+     "nimi": "Työllisyys",
+     "hakusanat": [
+      "työttömyys",
+      "työllisyys",
+      "irtisanominen",
+      "muutosneuvottelut",
+      "unemployment"
+     ]
+    },
+    {
+     "id": "kryptovaluutat",
+     "nimi": "Kryptovaluutat",
+     "hakusanat": [
+      "kryptovaluutta",
+      "bitcoin",
+      "crypto",
+      "ethereum"
+     ]
+    },
+    {
+     "id": "yritykset-ja-tulokset",
+     "nimi": "Yritykset ja tulokset",
+     "hakusanat": [
+      "tulosvaroitus",
+      "liikevaihto",
+      "osavuosikatsaus",
+      "earnings",
+      "quarterly"
+     ]
+    },
+    {
+     "id": "kauppa-ja-tullit",
+     "nimi": "Kauppa ja tullit",
+     "hakusanat": [
+      "tulli",
+      "tariff",
+      "kauppasota",
+      "trade war"
+     ]
+    },
+    {
+     "id": "energian-hinta",
+     "nimi": "Energian hinta",
+     "hakusanat": [
+      "sähkön hinta",
+      "pörssisähkö",
+      "öljyn hinta",
+      "oil price",
+      "energy prices"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "viihde",
+   "nimi": "Viihde ja kulttuuri",
+   "alaaiheet": [
+    {
+     "id": "musiikki-uutiset",
+     "nimi": "Musiikki (uutiset)",
+     "hakusanat": [
+      "musiikki",
+      "music",
+      "artisti",
+      "levy-yhtiö"
+     ]
+    },
+    {
+     "id": "musiikki-uudet-albumit",
+     "nimi": "Musiikki (uudet albumit)",
+     "hakusanat": [
+      "albumi",
+      "album",
+      "single",
+      "debyytti",
+      "debut"
+     ]
+    },
+    {
+     "id": "musiikki-keikat-ja-festivaalit",
+     "nimi": "Musiikki (keikat ja festivaalit)",
+     "hakusanat": [
+      "kiertue",
+      "world tour",
+      "festivaali",
+      "festival",
+      "konsertti"
+     ]
+    },
+    {
+     "id": "konemusiikki",
+     "nimi": "Konemusiikki",
+     "hakusanat": [
+      "konemusiikki",
+      "techno",
+      "house music",
+      "electronic music",
+      "rave"
+     ]
+    },
+    {
+     "id": "suomalainen-musiikki",
+     "nimi": "Suomalainen musiikki",
+     "hakusanat": [
+      "suomirock",
+      "suomiräp",
+      "Emma-gaala",
+      "UMK"
+     ]
+    },
+    {
+     "id": "elokuvat",
+     "nimi": "Elokuvat",
+     "hakusanat": [
+      "elokuva",
+      "film",
+      "movie",
+      "box office",
+      "ensi-ilta"
+     ]
+    },
+    {
+     "id": "tv-sarjat-ja-suoratoisto",
+     "nimi": "Tv-sarjat ja suoratoisto",
+     "hakusanat": [
+      "tv-sarja",
+      "Netflix",
+      "HBO",
+      "suoratoisto",
+      "streaming"
+     ]
+    },
+    {
+     "id": "palkintogaalat",
+     "nimi": "Palkintogaalat",
+     "hakusanat": [
+      "Oscar",
+      "Grammy",
+      "Emmy",
+      "Golden Globe",
+      "Jussi-gaala"
+     ]
+    },
+    {
+     "id": "euroviisut",
+     "nimi": "Euroviisut",
+     "hakusanat": [
+      "Euroviisut",
+      "Eurovision",
+      "UMK"
+     ]
+    },
+    {
+     "id": "julkkisuutiset",
+     "nimi": "Julkkisuutiset",
+     "hakusanat": [
+      "julkkis",
+      "celebrity",
+      "kohu",
+      "Hollywood"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "teknologia",
+   "nimi": "Teknologia ja tekoäly",
+   "alaaiheet": [
+    {
+     "id": "tekoaly",
+     "nimi": "Tekoäly",
+     "hakusanat": [
+      "tekoäly",
+      "artificial intelligence",
+      "OpenAI",
+      "Anthropic",
+      "ChatGPT"
+     ]
+    },
+    {
+     "id": "kielimallit",
+     "nimi": "Kielimallit",
+     "hakusanat": [
+      "kielimalli",
+      "language model",
+      "LLM",
+      "Claude",
+      "Gemini"
+     ]
+    },
+    {
+     "id": "kvanttitietokoneet",
+     "nimi": "Kvanttitietokoneet",
+     "hakusanat": [
+      "kvanttitietokone",
+      "kvantti",
+      "quantum computer",
+      "quantum computing",
+      "qubit"
+     ]
+    },
+    {
+     "id": "kyberturvallisuus",
+     "nimi": "Kyberturvallisuus",
+     "hakusanat": [
+      "kyberturvallisuus",
+      "tietoturva",
+      "cybersecurity",
+      "tietomurto",
+      "ransomware"
+     ]
+    },
+    {
+     "id": "alypuhelimet",
+     "nimi": "Älypuhelimet",
+     "hakusanat": [
+      "älypuhelin",
+      "iPhone",
+      "Android",
+      "smartphone",
+      "Samsung"
+     ]
+    },
+    {
+     "id": "puolijohteet-ja-sirut",
+     "nimi": "Puolijohteet ja sirut",
+     "hakusanat": [
+      "puolijohde",
+      "siru",
+      "semiconductor",
+      "chip",
+      "Nvidia"
+     ]
+    },
+    {
+     "id": "sosiaalinen-media",
+     "nimi": "Sosiaalinen media",
+     "hakusanat": [
+      "sosiaalinen media",
+      "social media",
+      "TikTok",
+      "Instagram",
+      "Facebook"
+     ]
+    },
+    {
+     "id": "sahkoautot",
+     "nimi": "Sähköautot",
+     "hakusanat": [
+      "sähköauto",
+      "electric vehicle",
+      "Tesla",
+      "akku",
+      "battery"
+     ]
+    },
+    {
+     "id": "startupit",
+     "nimi": "Startupit",
+     "hakusanat": [
+      "startup",
+      "kasvuyritys",
+      "rahoituskierros",
+      "funding round",
+      "venture capital"
+     ]
+    },
+    {
+     "id": "robotiikka",
+     "nimi": "Robotiikka",
+     "hakusanat": [
+      "robotti",
+      "robot",
+      "humanoidi",
+      "automaatio",
+      "automation"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "terveys",
+   "nimi": "Terveys ja lääketiede",
+   "alaaiheet": [
+    {
+     "id": "laaketutkimus",
+     "nimi": "Lääketutkimus",
+     "hakusanat": [
+      "lääke",
+      "lääketutkimus",
+      "clinical trial",
+      "drug trial",
+      "FDA"
+     ]
+    },
+    {
+     "id": "syopa",
+     "nimi": "Syöpä",
+     "hakusanat": [
+      "syöpä",
+      "syövän",
+      "cancer",
+      "tumour",
+      "tumor"
+     ]
+    },
+    {
+     "id": "mielenterveys",
+     "nimi": "Mielenterveys",
+     "hakusanat": [
+      "mielenterveys",
+      "mental health",
+      "masennus",
+      "depression",
+      "ahdistus"
+     ]
+    },
+    {
+     "id": "pandemiat-ja-tartuntataudit",
+     "nimi": "Pandemiat ja tartuntataudit",
+     "hakusanat": [
+      "pandemia",
+      "pandemic",
+      "virus",
+      "epidemia",
+      "tartunta"
+     ]
+    },
+    {
+     "id": "ravinto-ja-liikunta",
+     "nimi": "Ravinto ja liikunta",
+     "hakusanat": [
+      "ravinto",
+      "ruokavalio",
+      "diet",
+      "liikunta",
+      "exercise"
+     ]
+    },
+    {
+     "id": "terveydenhuolto-suomessa",
+     "nimi": "Terveydenhuolto Suomessa",
+     "hakusanat": [
+      "terveydenhuolto",
+      "hyvinvointialue",
+      "terveyskeskus",
+      "hoitojono"
+     ]
+    },
+    {
+     "id": "ikaantyminen",
+     "nimi": "Ikääntyminen",
+     "hakusanat": [
+      "ikääntyminen",
+      "dementia",
+      "Alzheimer",
+      "vanhustenhoito"
+     ]
+    },
+    {
+     "id": "laaketieteen-lapimurrot",
+     "nimi": "Lääketieteen läpimurrot",
+     "hakusanat": [
+      "läpimurto",
+      "breakthrough",
+      "geenihoito",
+      "gene therapy",
+      "CRISPR"
+     ]
+    },
+    {
+     "id": "uni",
+     "nimi": "Uni",
+     "hakusanat": [
+      "unettomuus",
+      "sleep",
+      "insomnia",
+      "unen laatu"
+     ]
+    },
+    {
+     "id": "rokotteet",
+     "nimi": "Rokotteet",
+     "hakusanat": [
+      "rokote",
+      "rokotus",
+      "vaccine",
+      "vaccination"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rikokset",
+   "nimi": "Rikokset ja turvallisuus",
+   "alaaiheet": [
+    {
+     "id": "suomen-rikosuutiset",
+     "nimi": "Suomen rikosuutiset",
+     "hakusanat": [
+      "poliisi",
+      "rikos",
+      "esitutkinta",
+      "käräjäoikeus"
+     ]
+    },
+    {
+     "id": "oikeudenkaynnit",
+     "nimi": "Oikeudenkäynnit",
+     "hakusanat": [
+      "oikeudenkäynti",
+      "tuomio",
+      "verdict",
+      "court"
+     ]
+    },
+    {
+     "id": "huumeet",
+     "nimi": "Huumeet",
+     "hakusanat": [
+      "huume",
+      "huumausaine",
+      "drug trafficking",
+      "kartelli",
+      "cartel"
+     ]
+    },
+    {
+     "id": "petokset-ja-huijaukset",
+     "nimi": "Petokset ja huijaukset",
+     "hakusanat": [
+      "huijaus",
+      "petos",
+      "huijari",
+      "scam",
+      "fraud"
+     ]
+    },
+    {
+     "id": "verkkorikollisuus",
+     "nimi": "Verkkorikollisuus",
+     "hakusanat": [
+      "verkkorikollisuus",
+      "kyberrikos",
+      "cybercrime",
+      "hakkeri",
+      "hacker"
+     ]
+    },
+    {
+     "id": "ampumavalikohtaukset",
+     "nimi": "Ampumavälikohtaukset",
+     "hakusanat": [
+      "ampuminen",
+      "ammuskelu",
+      "shooting",
+      "gunman"
+     ]
+    },
+    {
+     "id": "jarjestaytynyt-rikollisuus",
+     "nimi": "Järjestäytynyt rikollisuus",
+     "hakusanat": [
+      "jengi",
+      "gang",
+      "järjestäytynyt rikollisuus",
+      "organised crime",
+      "mafia"
+     ]
+    },
+    {
+     "id": "liikenneonnettomuudet",
+     "nimi": "Liikenneonnettomuudet",
+     "hakusanat": [
+      "liikenneonnettomuus",
+      "kolari",
+      "onnettomuus",
+      "accident",
+      "crash"
+     ]
+    },
+    {
+     "id": "rajaturvallisuus",
+     "nimi": "Rajaturvallisuus",
+     "hakusanat": [
+      "rajavartiolaitos",
+      "itäraja",
+      "rajanylitys",
+      "border"
+     ]
+    },
+    {
+     "id": "pelastustoimi",
+     "nimi": "Pelastustoimi",
+     "hakusanat": [
+      "tulipalo",
+      "pelastuslaitos",
+      "evakuointi",
+      "wildfire",
+      "emergency"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tiede",
+   "nimi": "Tiede ja avaruus",
+   "alaaiheet": [
+    {
+     "id": "avaruus-uutiset",
+     "nimi": "Avaruus (uutiset)",
+     "hakusanat": [
+      "avaruus",
+      "NASA",
+      "astronautti",
+      "astronaut",
+      "avaruusasema"
+     ]
+    },
+    {
+     "id": "kuu-ja-mars",
+     "nimi": "Kuu ja Mars",
+     "hakusanat": [
+      "Artemis",
+      "kuulento",
+      "lunar",
+      "Mars mission",
+      "Mars-lento"
+     ]
+    },
+    {
+     "id": "raketit-ja-avaruusyhtiot",
+     "nimi": "Raketit ja avaruusyhtiöt",
+     "hakusanat": [
+      "SpaceX",
+      "Starship",
+      "Blue Origin",
+      "raketti",
+      "rocket launch"
+     ]
+    },
+    {
+     "id": "tahtitiede",
+     "nimi": "Tähtitiede",
+     "hakusanat": [
+      "tähtitiede",
+      "astronomy",
+      "teleskooppi",
+      "telescope",
+      "James Webb"
+     ]
+    },
+    {
+     "id": "fysiikka",
+     "nimi": "Fysiikka",
+     "hakusanat": [
+      "fysiikka",
+      "physics",
+      "hiukkanen",
+      "particle",
+      "CERN"
+     ]
+    },
+    {
+     "id": "biologia-ja-evoluutio",
+     "nimi": "Biologia ja evoluutio",
+     "hakusanat": [
+      "biologia",
+      "evoluutio",
+      "evolution",
+      "new species",
+      "DNA"
+     ]
+    },
+    {
+     "id": "arkeologia",
+     "nimi": "Arkeologia",
+     "hakusanat": [
+      "arkeologia",
+      "archaeology",
+      "kaivaus",
+      "fossiili",
+      "fossil"
+     ]
+    },
+    {
+     "id": "nobel-palkinnot",
+     "nimi": "Nobel-palkinnot",
+     "hakusanat": [
+      "Nobel",
+      "Nobelin palkinto",
+      "Nobel Prize"
+     ]
+    },
+    {
+     "id": "tutkimus-suomessa",
+     "nimi": "Tutkimus Suomessa",
+     "hakusanat": [
+      "Suomen Akatemia",
+      "yliopisto",
+      "tutkijat",
+      "Aalto-yliopisto",
+      "VTT"
+     ]
+    },
+    {
+     "id": "maanjaristykset-ja-tulivuoret",
+     "nimi": "Maanjäristykset ja tulivuoret",
+     "hakusanat": [
+      "maanjäristys",
+      "earthquake",
+      "tulivuori",
+      "volcano",
+      "tsunami"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ilmasto",
+   "nimi": "Ilmasto ja ympäristö",
+   "alaaiheet": [
+    {
+     "id": "ilmastonmuutos",
+     "nimi": "Ilmastonmuutos",
+     "hakusanat": [
+      "ilmastonmuutos",
+      "climate change",
+      "ilmaston lämpeneminen",
+      "global warming"
+     ]
+    },
+    {
+     "id": "ilmastokokoukset",
+     "nimi": "Ilmastokokoukset",
+     "hakusanat": [
+      "ilmastokokous",
+      "climate summit",
+      "climate talks",
+      "Pariisin ilmastosopimus",
+      "Paris Agreement"
+     ]
+    },
+    {
+     "id": "uusiutuva-energia",
+     "nimi": "Uusiutuva energia",
+     "hakusanat": [
+      "uusiutuva energia",
+      "tuulivoima",
+      "aurinkovoima",
+      "solar",
+      "wind power"
+     ]
+    },
+    {
+     "id": "saailmiot",
+     "nimi": "Sääilmiöt",
+     "hakusanat": [
+      "helle",
+      "myrsky",
+      "tulva",
+      "heatwave",
+      "flood"
+     ]
+    },
+    {
+     "id": "luonnon-monimuotoisuus",
+     "nimi": "Luonnon monimuotoisuus",
+     "hakusanat": [
+      "luontokato",
+      "monimuotoisuus",
+      "biodiversity",
+      "uhanalainen",
+      "endangered"
+     ]
+    },
+    {
+     "id": "metsat",
+     "nimi": "Metsät",
+     "hakusanat": [
+      "metsä",
+      "hakkuu",
+      "metsäkato",
+      "deforestation",
+      "sademetsä"
+     ]
+    },
+    {
+     "id": "meret",
+     "nimi": "Meret",
+     "hakusanat": [
+      "Itämeri",
+      "ocean",
+      "koralliriutta",
+      "merenpinnan nousu",
+      "sea level"
+     ]
+    },
+    {
+     "id": "saasteet-ja-muovi",
+     "nimi": "Saasteet ja muovi",
+     "hakusanat": [
+      "saaste",
+      "ilmansaaste",
+      "pollution",
+      "mikromuovi",
+      "microplastic"
+     ]
+    },
+    {
+     "id": "paastot",
+     "nimi": "Päästöt",
+     "hakusanat": [
+      "päästöt",
+      "hiilineutraali",
+      "emissions",
+      "hiilidioksidi",
+      "carbon"
+     ]
+    },
+    {
+     "id": "arktinen-alue",
+     "nimi": "Arktinen alue",
+     "hakusanat": [
+      "Arktis",
+      "arctic",
+      "jäätikkö",
+      "glacier",
+      "ikirouta"
+     ]
+    }
+   ]
+  }
+ ]
+}
