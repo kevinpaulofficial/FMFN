@@ -1,6 +1,24 @@
 {
  "suomi": [
   {
+   "title": "AirBalticin matkustaja­tietoja joutui vääriin käsiin – yli 600 000 varausta vaarantui",
+   "link": "https://www.is.fi/ulkomaat/art-2000012414544.html",
+   "published": "2026-11-16T02:34:00+00:00",
+   "description": "Loukkaus koski heinäkuun 18. ja marraskuun 12. päivän välillä verkkolähtöselvityksen tehneitä matkustajia.",
+   "image": "https://images.sanoma-sndp.fi/dba296ecbf88b1e4580cb3dd651c8339/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Connor McDavidilta aivan käsittämätön temppu – tähän on pystynyt vain Wayne Gretzky",
+   "link": "https://www.is.fi/nhl/art-2000012414531.html",
+   "published": "2026-11-16T02:02:00+00:00",
+   "description": "Supertähti pelaa historiallista kautta.",
+   "image": "https://images.sanoma-sndp.fi/106e6826469335a5bfa1c224cef6b666/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
    "title": "THL: Joka viides yläkoulun aloittaneista ei ole saanut syöpiä ehkäisevää HPV-rokotusta",
    "link": "https://www.is.fi/kotimaa/art-2000012414541.html",
    "published": "2026-11-16T01:45:00+00:00",
@@ -87,24 +105,6 @@
    "published": "2026-11-16T00:00:00+00:00",
    "description": "Pertti Eloranta 1943–2026",
    "image": "https://images.sanoma-sndp.fi/8ca735901ba81f95df39f0a97e863ba7/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Maahanmuutto | Helsinkiin on syntynyt uusi ilmiö: irrallaan leijuva ulkomaalainen väki",
-   "link": "https://www.hs.fi/helsinki/art-2000012346899.html",
-   "published": "2026-11-16T00:00:00+00:00",
-   "description": "Helsinki ei onnistu pitämään Kashaf Alin kaltaisia koulutettuja maahanmuuttajia. ”Kelluvat” maahanmuuttajat eivät jää kaupunkiin.",
-   "image": "https://images.sanoma-sndp.fi/9e092d7f839115c909dd2e20c734c595/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Eläkkeet | Laskuri paljastaa, miten suuri eläke sinulle on tulossa",
-   "link": "https://www.hs.fi/visio/art-2000012335989.html",
-   "published": "2026-11-16T00:00:00+00:00",
-   "description": "“En tule ikinä saamaan eläkettä”, nuoret hokevat. Selvitimme, mitä parikymppisille ja vähän vanhemmillekin oikeasti on luvassa.",
-   "image": "https://images.sanoma-sndp.fi/975c717b7378768e2467b578e73325fe/normal/1440.jpg",
    "important": false,
    "hot": false
   }
@@ -221,6 +221,15 @@
  ],
  "teknologia": [
   {
+   "title": "Apple launches new app to study how people use AI for health",
+   "link": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+   "published": "2026-11-16T01:30:00+00:00",
+   "description": "Apple's new app for a study will answer everyday medical questions",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
    "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
    "link": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
    "published": "2026-11-15T23:30:00+00:00",
@@ -318,18 +327,36 @@
    "image": null,
    "important": false,
    "hot": false
-  },
-  {
-   "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
-   "link": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
-   "published": "2026-11-14T16:34:15+00:00",
-   "description": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
-   "image": null,
-   "important": false,
-   "hot": true
   }
  ],
  "maailma": [
+  {
+   "title": "MP Helen Haines leaves hospital four weeks after alleged attack and double leg amputation",
+   "link": "https://www.theguardian.com/australia-news/2026/nov/16/mp-helen-haines-out-of-hospital-after-attack-leg-amputation-ntwnfb",
+   "published": "2026-11-16T02:26:24+00:00",
+   "description": "Independent MP says she is ‘overwhelmed’ by thousands of warm wishes and thanked Australians for donations Independent Australian MP Helen Haines has been discharged from hospital, four weeks after she was allegedly attacked by a man outside her electorate office in regional Victoria resulting in the double amputation of her legs.In a statement, Haines said she has moved to the rehabilitation stag",
+   "image": "https://i.guim.co.uk/img/media/e095e9628412d9e77ce67e0af0ba05d71fc9eca9/698_0_5541_4435/master/5541.jpg?width=140&quality=85&auto=format&fit=max&s=758324403670a0e19ad94c4c31f87257",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Australian MP who lost both legs in alleged car attack discharged from hospital",
+   "link": "https://www.bbc.co.uk/news/articles/cmpqr9j81888o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-16T01:53:19+00:00",
+   "description": "The MP was allegedly run down by a car outside her electorate office four weeks ago.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/083d/live/b9880d40-e15f-11f1-a6b7-c136ad7bd6e3.jpg",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Pope condemns murders of Peru’s Indigenous leaders, deforestation of Amazon",
+   "link": "https://www.aljazeera.com/news/2026/11/16/pope-condemns-murders-of-perus-indigenous-leaders-deforestation-of-amazon?traffic_source=rss",
+   "published": "2026-11-16T01:52:12+00:00",
+   "description": "Pontiff says he supports Indigenous efforts to protect their lands, demands justice for slain environmental defenders.",
+   "image": null,
+   "important": false,
+   "hot": true
+  },
   {
    "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
    "link": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
@@ -349,13 +376,13 @@
    "hot": true
   },
   {
-   "title": "MP Helen Haines leaves hospital four weeks after alleged attack and double leg amputation",
-   "link": "https://www.theguardian.com/australia-news/2026/nov/16/mp-helen-haines-out-of-hospital-after-attack-leg-amputation-ntwnfb",
-   "published": "2026-11-16T01:36:54+00:00",
-   "description": "The Alfred hospital in Melbourne confirmed on Monday the independent MP had been dischargedIndependent Australian MP Helen Haines has been discharged from hospital, four weeks after she was allegedly attacked by a man outside her electorate office in regional Victoria and lost both of her legs.The Alfred hospital in Melbourne confirmed on Monday Haines had been discharged, but provided no further ",
-   "image": "https://i.guim.co.uk/img/media/e095e9628412d9e77ce67e0af0ba05d71fc9eca9/698_0_5541_4435/master/5541.jpg?width=140&quality=85&auto=format&fit=max&s=758324403670a0e19ad94c4c31f87257",
+   "title": "Pope urges end to Amazon deforestation",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/16/pope-urges-end-to-amazon-deforestation?traffic_source=rss",
+   "published": "2026-11-16T01:44:11+00:00",
+   "description": "Pope Leo XIV warns deforestation and illegal mining are threatening the Amazon rainforest and the local communities.",
+   "image": null,
    "important": false,
-   "hot": false
+   "hot": true
   },
   {
    "title": "Megaspeed, the company linked to the downfall of Nvidia boss, says it’s a ‘legitimate and lawful business’",
@@ -373,7 +400,7 @@
    "description": "Pontiff delivers forceful speech on final day in Peru as he travels from high in the Andes into the AmazonPope Leo XIV has demanded justice for environmental defenders killed for protecting the Amazon and backed efforts by Indigenous peoples to stop their lands from being ravaged by logging and illegal mining.On the penultimate day of his South American tour, Leo on Sunday travelled into the Peruv",
    "image": "https://i.guim.co.uk/img/media/5656d136eaed416d7dd76ab2932c283b5ce64f39/373_0_3525_2820/master/3525.jpg?width=140&quality=85&auto=format&fit=max&s=b5f344ca36bf7198ae159b63c8dc109a",
    "important": false,
-   "hot": false
+   "hot": true
   },
   {
    "title": "Clothing factories shut in Bangladesh as workers strike over pay",
@@ -407,33 +434,6 @@
    "link": "https://www.aljazeera.com/news/2026/11/16/founder-of-guadalajara-cartel-dies-in-hospital-after-decades-in-prison?traffic_source=rss",
    "published": "2026-11-16T00:51:23+00:00",
    "description": "Miguel Angel Felix Gallardo was convicted of the 1985 murder of a US drug enforcement agent and a Mexican pilot.",
-   "image": null,
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Black Friday and tax return scams  - don't fall for these",
-   "link": "https://www.bbc.co.uk/news/articles/cm4gnlz2p61ko?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T00:50:39+00:00",
-   "description": "Tens of thousands of scams are reported to HMRC - so it has advice on how to spot a fake request and refund.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ab33/live/9ed5ff60-dea9-11f1-98eb-79ee6ea9ba56.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Black Friday and tax return scams  - don't fall for these",
-   "link": "https://www.bbc.co.uk/news/articles/cm4gnlz2p61ko?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T00:50:39+00:00",
-   "description": "Tens of thousands of scams are reported to HMRC - so it has advice on how to spot a fake request and refund.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ab33/live/9ed5ff60-dea9-11f1-98eb-79ee6ea9ba56.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "After a nationwide ground stop, US faces aviation infrastructure questions",
-   "link": "https://www.aljazeera.com/news/2026/11/16/after-a-nationwide-ground-stop-us-faces-aviation-infrastructure-questions?traffic_source=rss",
-   "published": "2026-11-16T00:45:48+00:00",
-   "description": "Trump has requested $50bn for upgrades, but Democratic lawmakers are asking for transparency before spending more.",
    "image": null,
    "important": false,
    "hot": false
