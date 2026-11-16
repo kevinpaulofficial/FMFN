@@ -85,6 +85,7 @@ main .addcat{margin-top:26px}
 .waist{font-size:.8rem;opacity:.75}
 .waisteps{margin:0 0 10px;padding-left:22px;color:var(--accent);font-size:.88rem;line-height:1.7}
 .waip .wrow.cprow{margin:12px 0}
+.waip textarea.hid{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
 .wkw .wtag{display:block;margin:0 0 4px 2px}
 #dlg.big{max-width:760px;max-height:100%}
 #dlg h4{margin:22px 0 8px;font-size:.8rem;text-transform:uppercase;letter-spacing:.04em;opacity:.7}
@@ -255,7 +256,7 @@ if(t.id==="wback"){if(wstep==1)wClose();else{wstep--;wDraw()}return}
 if(d.rs!==undefined){WD.src.splice(+d.rs,1);if(!WD.src.length)WD.src.push({t:"",ok:false});$w("wsrcs").innerHTML=WD.src.map(wSrcRow).join("");wEditPrev();return}
 if(t.id==="waibtn"){var pn=$w("waip");pn.hidden=!pn.hidden;if(!pn.hidden)$w("waiprompt").value=wAiPrompt();return}
 if(t.id==="wcopy"){var pt=wAiPrompt(),st=$w("wcopyst");$w("waiprompt").value=pt;
-var fb=function(){var a=$w("waiprompt");a.focus();a.select();var ok=false;try{ok=document.execCommand("copy")}catch(err){}st.textContent=ok?"Kopioitu!":"Valitse teksti ja kopioi se itse."};
+var fb=function(){var a=$w("waiprompt");a.focus();a.select();var ok=false;try{ok=document.execCommand("copy")}catch(err){}if(ok)st.textContent="Kopioitu!";else{a.classList.remove("hid");a.removeAttribute("aria-hidden");st.textContent="Kopiointi ei onnistunut. Kopioi prompti kentästä."}};
 if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(pt).then(function(){st.textContent="Kopioitu!"},fb);else fb();return}
 if(t.id==="waiadd"){var ws=wParseAI($w("waiin").value),b4=WD.kws.length;ws.forEach(function(w){w=w.trim().toLowerCase();if(w&&!WD.kws.some(function(k){return !k.t&&k.k==w}))WD.kws.push({k:w,t:false,v:[]})});var n=WD.kws.length-b4;if(n)wkwl();
 $w("waist").textContent=ws.length?("Lisättiin "+n+" hakusanaa"+(ws.length>n?" ("+(ws.length-n)+" oli jo listalla)":"")+"."):"Hakusanoja ei löytynyt. Liitä pilkuilla eroteltu lista.";if(n)$w("waiin").value="";return}
@@ -268,7 +269,7 @@ function wAiPrompt(){var n=WD&&WD.name&&WD.name.trim();
 return (n?'Kategoriani nimi on "'+n+'".\n\n':'')+'Autat minua tekemään hakusanoja uutisten suodattamiseen. Kysy minulta yksi kysymys kerrallaan ja odota vastaus ennen seuraavaa:\n1) Mikä on kategorian aihe?\n2) Mitkä asiat aiheessa kiinnostavat erityisesti (esim. henkilöt, joukkueet, yritykset, tapahtumat)?\n3) Haluatko hakusanat suomeksi, englanniksi vai molemmilla?\n\nTee vastausten perusteella 15–40 hakusanaa. Säännöt:\n- sanat perusmuodossa, ei taivutusmuotoja\n- vähintään 3 kirjainta, nimet ja lyhenteet käyvät\n- ei toistoja\n\nKirjoita lopuksi yksi lyhyt rivi (esim. \"Tässä hakusanat:\") ja sen alle kaikki hakusanat yhteen koodilohkoon (```) yhdellä rivillä pilkuilla eroteltuna, jotta voin kopioida ne yhdellä napilla. Älä kirjoita koodilohkon jälkeen mitään.'}
 function wAiPanel(){return '<button class="wbtn waib" id="waibtn">✨ Luo hakusanat tekoälyllä</button><div class="waip" id="waip" hidden>'+
 '<ol class="waisteps"><li>Kopioi prompti ja liitä se omaan tekoälyysi.</li><li>Vastaa tekoälyn kysymyksiin.</li><li>Kopioi tekoälyn antamat hakusanat ja liitä ne alla olevaan kenttään.</li></ol>'+
-'<textarea id="waiprompt" rows="5" readonly></textarea><div class="wrow cprow"><span class="waist" id="wcopyst"></span><button class="wbtn" id="wcopy">Kopioi prompti</button></div>'+
+'<textarea id="waiprompt" class="hid" rows="5" readonly aria-hidden="true" tabindex="-1"></textarea><div class="wrow cprow"><span class="waist" id="wcopyst"></span><button class="wbtn" id="wcopy">Kopioi prompti</button></div>'+
 '<textarea id="waiin" rows="3" placeholder="Liitä tekoälyn vastaus tähän"></textarea><div class="wrow"><span class="waist" id="waist"></span><button class="wbtn p" id="waiadd">Lisää hakusanat</button></div></div>'}
 function wParseAI(txt){txt=String(txt||"").replace(/```[a-z]*/gi,"");var lines=txt.split(/\n+/),many=lines.filter(function(l){return (l.match(/,/g)||[]).length>=3});
 var parts=(many.length?many:lines).join(",").split(/[,;\n]+/),seen={},out=[];
