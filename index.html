@@ -104,7 +104,11 @@ var H=3600000,D=86400000,T=Date.UTC(2026,10,15,8,0,0);
 var CATS={suomi:"Suomen uutiset",jalkapallo:"Jalkapallo",teknologia:"Teknologia",maailma:"Maailman uutiset",musiikki:"Musiikki"};
 var DATA={};
 function two(t){var m=(t||"").match(/[^.!?]+[.!?]+/g);return m?m.slice(0,2).join(" ").trim():(t||"")}
-function load(){return fetch("news.json?"+Date.now()).then(function(r){return r.json()}).then(function(j){Object.keys(CATS).forEach(function(k){DATA[k]=(j[k]||[]).map(function(x){return{t:x.title,s:two(x.description),u:x.link,p:Date.parse(x.published)||Date.now(),imp:!!x.important,hot:!!x.hot,who:"",img:x.image}})})})}
+function loadNews(){return fetch("news.json?"+Date.now()).then(function(r){return r.json()}).then(function(j){Object.keys(CATS).forEach(function(k){DATA[k]=(j[k]||[]).map(function(x){return{t:x.title,s:two(x.description),u:x.link,p:Date.parse(x.published)||Date.now(),imp:!!x.important,hot:!!x.hot,who:"",img:x.image}})})})}
+var ALL=[],WCAT=[];
+function loadAll(){return fetch("kaikki.json?"+Date.now()).then(function(r){return r.ok?r.json():null}).then(function(j){if(!j)return;var hp=Date.parse(j.haettu)||Date.now();ALL=(j.uutiset||[]).map(function(x){return{t:x.t,s:two(x.s),u:x.u,p:Date.parse(x.p)||hp,img:x.i,l:x.l,imp:false,hot:false,who:""}})}).catch(function(){})}
+function loadCat(){return fetch("lahteet.json").then(function(r){return r.ok?r.json():null}).then(function(j){if(j)WCAT=j.lahteet||[]}).catch(function(){})}
+function load(){return Promise.all([loadNews(),loadAll(),loadCat()])}
 function age(p){var s=Math.max(0,Math.floor((Date.now()-p)/1000));
 if(s<60)return s+"s";if(s<3600)return Math.floor(s/60)+"m";if(s<86400)return Math.floor(s/3600)+"h";return Math.floor(s/86400)+"d"}
 var ICON={suomi:"🇫🇮",jalkapallo:"⚽",teknologia:"💻",maailma:"🌍",musiikki:"🎵"};
@@ -150,7 +154,6 @@ function endDrag(){if(!drag)return;drag.style.transform='';drag.classList.remove
 M.addEventListener('pointerup',endDrag);M.addEventListener('pointercancel',endDrag);
 document.addEventListener('pointerdown',function(e){if(drag||document.getElementById('fab').contains(e.target)||e.target.closest('#ov'))return;M.classList.remove('open');if(EDIT){EDIT=false;route(true)}});
 document.getElementById('ball').onclick=function(){document.getElementById('menu').classList.toggle('open')};
-var WCAT=[];try{fetch("lahteet.json").then(function(r){return r.json()}).then(function(j){WCAT=j.lahteet||[]}).catch(function(){})}catch(e){}
 var WTOP=[];try{fetch("aiheet.json").then(function(r){return r.json()}).then(function(j){(j.aiheet||[]).forEach(function(p){(p.alaaiheet||[]).forEach(function(x){WTOP.push({id:x.id,nimi:x.nimi,paa:p.nimi,sanat:x.hakusanat||[]})})})}).catch(function(){})}catch(e){}
 var WD=null,wstep=1;
 function $w(i){return document.getElementById(i)}
@@ -158,14 +161,19 @@ function wesc(t){return String(t).replace(/[&<>"]/g,function(c){return{"&":"&amp
 function wstem(w){var p=w.split(" "),l=p.pop(),n=l.length,c=n>=8?2:n>=6?1:0;return p.concat([l.slice(0,n-c)]).join(" ")+(c?"*":"")}
 function persist(){try{localStorage.setItem("custom",JSON.stringify(CUSTOM));localStorage.setItem("del",JSON.stringify(DEL));localStorage.setItem("order",JSON.stringify(ORDER))}catch(e){}}
 function wTerms(kws){var t=[];kws.forEach(function(k){if(k.t){k.v.forEach(function(v){t.push(v)});if(!k.id)t.push(k.k)}else t.push(k.k)});return t.map(function(x){return wstem(x).replace("*","").toLowerCase()}).filter(Boolean)}
-function wFind(kws){var T=wTerms(kws),seen={},out=[];if(!T.length)return out;var R=T.map(function(w){return new RegExp("(^|[^\\p{L}\\p{N}])"+w.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),"iu")});
-Object.keys(DATA).forEach(function(c){if(CUSTOM[c])return;(DATA[c]||[]).forEach(function(n){if(seen[n.u])return;var s=n.t+" "+n.s;if(R.some(function(r){return r.test(s)})){seen[n.u]=1;out.push(n)}})});
+function wSrcIds(src){var o=[];(src||[]).forEach(function(x){var id=typeof x==="string"?"":(x.id||""),nm=typeof x==="string"?x:(x.n||x.t||"");
+if(!id&&nm){var c=WCAT.filter(function(w){return w.nimi.toLowerCase()===nm.trim().toLowerCase()})[0];if(c)id=c.id}if(id&&o.indexOf(id)<0)o.push(id)});return o}
+function wPool(src){var ids=wSrcIds(src);if(ids.length)return ALL.filter(function(n){return ids.indexOf(n.l)>-1});
+var o=[];Object.keys(DATA).forEach(function(c){if(!CUSTOM[c])o=o.concat(DATA[c]||[])});return o.concat(ALL)}
+function wFind(kws,src){var T=wTerms(kws||[]),ids=wSrcIds(src),seen={},out=[];if(!T.length&&!ids.length)return out;
+var R=T.map(function(w){return new RegExp("(^|[^\\p{L}\\p{N}])"+w.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),"iu")});
+wPool(src).forEach(function(n){if(seen[n.u])return;var s=n.t+" "+n.s;if(!R.length||R.some(function(r){return r.test(s)})){seen[n.u]=1;out.push(n)}});
 return out.sort(function(a,b){return b.p-a.p})}
 var WSTOP=" the and for with from that this after over into says said will have has been were what when ja on ei että oli ovat se tai kuin mutta jo myös kun nyt sen tämä joka mitä ";
 function wWords(t){var o={};(t.toLowerCase().match(/[\p{L}\p{N}]{4,}/gu)||[]).forEach(function(w){if(WSTOP.indexOf(" "+w+" ")<0)o[w]=1});return o}
 function buildCustom(){Object.keys(CUSTOM).forEach(function(id){
 var R=wTerms(CUSTOM[id].kws).map(function(w){return new RegExp("(^|[^\\p{L}\\p{N}])"+w.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),"iu")});
-var L=wFind(CUSTOM[id].kws).map(function(n){return{t:n.t,s:n.s,u:n.u,p:n.p,imp:false,hot:false,who:"",img:n.img,_imp:!!n.imp,_hot:!!n.hot}});
+var L=wFind(CUSTOM[id].kws,CUSTOM[id].src).map(function(n){return{t:n.t,s:n.s,u:n.u,p:n.p,imp:false,hot:false,who:"",img:n.img,_imp:!!n.imp,_hot:!!n.hot}});
 if(!L.length){DATA[id]=L;return}
 // tärkein: eniten osumia otsikossa, sitten tiivistyksessä; alkuperäisen kategorian tärkeä uutinen saa lisäpisteitä
 var best=null,bs=-1;L.forEach(function(n){var sc=0;R.forEach(function(r){if(r.test(n.t))sc+=2;else if(r.test(n.s))sc+=1});if(n._imp)sc+=3;if(sc>bs||(sc===bs&&n.p>best.p)){bs=sc;best=n}});best.imp=true;
@@ -190,14 +198,14 @@ var a=WTOP.filter(function(x){return r.test(x.nimi)||r.test(x.paa)}),b=WTOP.filt
 function wSrcFind(q){q=q.trim().toLowerCase();return q?WCAT.filter(function(x){return x.nimi.toLowerCase().indexOf(q)>-1||x.id.indexOf(q)>-1}).slice(0,6):[]}
 function wMatch(list,q){q=q.toLowerCase();return q?list.filter(function(x){return x.toLowerCase().indexOf(q)>-1}).slice(0,5):[]}
 function wPreview(){var h="<h3>"+wesc(WD.name)+"</h3>";
-if(!WD.kws.length)return h+'<div class="whint">Et ole lisännyt hakusanoja, joten uutisia ei voida valita. Palaa takaisin ja lisää ainakin yksi sana.</div>';
-var f=wFind(WD.kws);
+if(!WD.kws.length&&!wSrcIds(WD.src).length)return h+'<div class="whint">Valitse lähteitä listasta tai lisää hakusanoja, jotta uutisia voidaan valita.</div>';
+var f=wFind(WD.kws,WD.src);
 if(!f.length)return h+'<div class="whint"><b>Ei osumia nykyisillä uutisilla.</b> Voit silti tallentaa kategorian tai palata lisäämään sanoja.</div>';
-h+='<div class="whint">Löytyi '+f.length+' uutista nykyisistä uutisistasi:</div>';
+h+='<div class="whint">Löytyi '+f.length+' uutista:</div>';
 f.slice(0,4).forEach(function(n){h+='<div class="card"><span class="age">'+age(n.p)+'</span><b>'+n.t+'</b></div>'});return h}
 function wDraw(){var h='<button class="wx" id="wx" aria-label="Sulje">✕</button><div class="wstep">'+(wstep<4?"Vaihe "+wstep+" / 3":"Esikatselu")+'</div>';
 if(wstep==1)h+='<h3>Nimeä kategoria</h3><input id="wnm" placeholder="Esim. Kyberturvallisuus" value="'+wesc(WD.name)+'" maxlength="30"><div class="whint">Nimi näkyy etusivulla ja valikossa.</div>';
-if(wstep==2){h+='<h3>Lisää uutislähteet</h3><div id="wsrcs">';WD.src.forEach(function(s,i){h+=wSrcRow(s,i)});h+='</div><button class="wbtn" id="wmoresrc">+ Lisää uutislähde</button><div class="whint">Kirjoita sivuston nimi tai liitä sen osoite. Huom: omien lähteiden uutisia ei vielä haeta, joten kategoria etsii osumia nykyisistä uutisistasi.</div>'}
+if(wstep==2){h+='<h3>Lisää uutislähteet</h3><div id="wsrcs">';WD.src.forEach(function(s,i){h+=wSrcRow(s,i)});h+='</div><button class="wbtn" id="wmoresrc">+ Lisää uutislähde</button><div class="whint">Kirjoita sivuston nimi tai liitä sen osoite. Listasta valittujen lähteiden uutiset haetaan automaattisesti. Itse liitettyjen osoitteiden uutisia ei vielä haeta.</div>'}
 if(wstep==3)h+='<h3>Hakusanat</h3><input id="wkw" placeholder="Kirjoita aihe tai tarkka hakusana" autocomplete="off"><div class="wsug" id="wksug"></div><div id="wkwl"></div><div class="whint">Kirjoita esim. jalkapallo ja napauta sopivaa aihetta, niin sen hakusanat tulevat mukaan. Pilkku tai Enter lisää tarkan hakusanan. Poista väärät sanat rastista.</div>';
 if(wstep==4)h+=wPreview();
 h+='<div class="wrow"><button class="wbtn" id="wback">'+(wstep==1?"Peruuta":"Takaisin")+'</button><button class="wbtn p" id="wnext">'+(wstep==3?"Esikatsele":wstep==4?"Tallenna kategoria":"Seuraava")+'</button></div>';
