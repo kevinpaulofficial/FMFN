@@ -57,7 +57,7 @@ main .addcat{margin-top:26px}
 .sep{margin:26px 6px 8px;border-top:1px solid var(--line)}
 #menu .row .x{border:0;background:none;color:var(--text);cursor:pointer;font-size:1rem;padding:6px 8px;opacity:.7}
 .empty{opacity:.65;font-size:.9rem;margin:10px 2px}
-#ov{display:none;position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:50;align-items:center;justify-content:center;padding:16px}
+#ov{display:none;position:fixed;inset:0;background:rgba(0,0,0,.72);z-index:50;align-items:center;justify-content:center;padding:16px}
 #ov.open{display:flex}
 #dlg{position:relative;background:var(--pop);color:var(--text);width:100%;max-width:520px;max-height:92%;overflow:auto;border-radius:18px;padding:18px}
 #dlg h3{margin:4px 0 12px;font-size:1.25rem}
@@ -91,6 +91,7 @@ main .addcat{margin-top:26px}
 <div id="logo"><a href="#koti" aria-label="SUCKMYNEWS, kotisivu"><svg viewBox="0 0 193 79" width="193" height="79"><text x="96.5" y="51" text-anchor="middle" textLength="179" lengthAdjust="spacingAndGlyphs">SUCKMYNEWS</text></svg></a></div>
 <main id="app"></main>
 <div id="ov"><div id="dlg"></div></div>
+<input type="file" id="impfile" accept="application/json,.json" hidden>
 <div id="fab"><div id="menu"></div><button id="ball" aria-label="Valikko">☰</button></div>
 <script>
 var THEME="light";try{THEME=localStorage.getItem("theme")==="dark"?"dark":"light"}catch(e){}
@@ -128,14 +129,14 @@ function save(){try{localStorage.setItem("order",JSON.stringify(ORDER))}catch(e)
 var DRAFT=null,drag=null;
 function menu(k){var h='<a href="#koti" class="'+(!CATS[k]?'on':'')+'">Koti</a>';
 (EDIT?DRAFT:ORDER).forEach(function(c){h+=EDIT?'<div class="row" data-c="'+c+'"><span class="grip" aria-label="Vedä siirtääksesi">⠿</span><span>'+CATS[c]+'</span><button class="x" data-del="'+c+'" aria-label="Poista kategoria">✕</button></div>':'<a href="#'+c+'" class="'+(c===k?'on':'')+'">'+CATS[c]+'</a>'});
-return h+'<button class="addcat" data-addcat="1"><span>+</span> Lisää kategoria</button><button class="edit" id="editbtn">'+(EDIT?'Valmis':'Muokkaa järjestystä')+'</button><div class="sep"></div><button class="edit" id="themebtn">'+(THEME==="dark"?"Vaalea teema":"Tumma teema")+'</button><button class="edit" id="dysbtn">'+(DYS?"Lukihäiriötila: päällä":"Lukihäiriötila: pois")+'</button>'}
+return h+'<button class="addcat" data-addcat="1"><span>+</span> Lisää kategoria</button><button class="edit" id="editbtn">'+(EDIT?'Valmis':'Muokkaa järjestystä')+'</button><div class="sep"></div><button class="edit" id="themebtn">'+(THEME==="dark"?"Vaalea teema":"Tumma teema")+'</button><button class="edit" id="dysbtn">'+(DYS?"Lukihäiriötila: päällä":"Lukihäiriötila: pois")+'</button><div class="sep"></div><button class="edit" id="exportbtn">Vie asetukset</button><button class="edit" id="importbtn">Tuo asetukset</button>'}
 function route(keep){var k=(location.hash||"#koti").slice(1);
 document.getElementById('app').innerHTML=CATS[k]&&ORDER.indexOf(k)>-1?cat(k):home();
 document.getElementById('menu').innerHTML=menu(k);
 if(keep===true)return;
 document.getElementById('menu').classList.remove('open');window.scrollTo(0,0)}
 var M=document.getElementById('menu');
-M.addEventListener('click',function(e){if(e.target.id==="dysbtn"){setDys(!DYS);route(true);return}if(e.target.id==="themebtn"){setTheme(THEME==="dark"?"light":"dark");route(true);return}if(e.target.id!=="editbtn")return;
+M.addEventListener('click',function(e){if(e.target.id==="exportbtn"){exportSettings();return}if(e.target.id==="importbtn"){document.getElementById("impfile").click();return}if(e.target.id==="dysbtn"){setDys(!DYS);route(true);return}if(e.target.id==="themebtn"){setTheme(THEME==="dark"?"light":"dark");route(true);return}if(e.target.id!=="editbtn")return;
 if(EDIT){ORDER=DRAFT.slice();save();EDIT=false}else{DRAFT=ORDER.slice();EDIT=true}route(true)});
 var grab=0;
 M.addEventListener('pointerdown',function(e){var g=e.target.closest&&e.target.closest('.grip');if(!g)return;drag=g.parentNode;grab=e.clientY-drag.getBoundingClientRect().top;drag.classList.add('drag');g.setPointerCapture(e.pointerId);e.preventDefault()});
@@ -213,6 +214,27 @@ if(t.id==="wback"){if(wstep==1)wClose();else{wstep--;wDraw()}return}
 if(t.id==="wnext"){if(wstep==1&&!WD.name.trim()){$w("wnm").focus();return}
 if(wstep<4){wstep++;wDraw();return}
 var id="c"+Date.now();CUSTOM[id]={name:WD.name.trim(),src:WD.src.filter(function(s){return s.t.trim()}).map(function(s){return{n:s.t,id:s.id||"",rss:s.rss||""}}),kws:WD.kws};CATS[id]=CUSTOM[id].name;ORDER.push(id);persist();buildCustom();wClose();WD=null;location.hash="#"+id}});
+var KEYS=["theme","dys","order","custom","del"],IMP=null;
+function exportSettings(){var o={sovellus:"SUCKMYNEWS",versio:1,viety:new Date().toISOString(),asetukset:{}};
+KEYS.forEach(function(k){try{var v=localStorage.getItem(k);if(v!==null)o.asetukset[k]=v}catch(e){}});
+var b=new Blob([JSON.stringify(o,null,1)],{type:"application/json"}),a=document.createElement("a");
+a.href=URL.createObjectURL(b);a.download="suckmynews-asetukset.json";document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(a.href)},1000)}
+function validSettings(o){if(!o||typeof o!=="object"||!o.asetukset||typeof o.asetukset!=="object")return null;var a=o.asetukset,out={};
+try{if(a.theme==="light"||a.theme==="dark")out.theme=a.theme;if(a.dys==="1"||a.dys==="0")out.dys=a.dys;
+if(a.order!==undefined){var x=JSON.parse(a.order);if(Array.isArray(x)&&x.every(function(v){return typeof v==="string"}))out.order=a.order}
+if(a.del!==undefined){var y=JSON.parse(a.del);if(Array.isArray(y)&&y.every(function(v){return typeof v==="string"}))out.del=a.del}
+if(a.custom!==undefined){var c=JSON.parse(a.custom);if(c&&typeof c==="object"&&!Array.isArray(c)&&Object.keys(c).every(function(k){return c[k]&&typeof c[k].name==="string"&&Array.isArray(c[k].kws)}))out.custom=a.custom}}catch(e){return null}
+return Object.keys(out).length?out:null}
+function importMsg(t){$w("dlg").innerHTML='<h3>'+t+'</h3><div class="wrow end"><button class="wbtn" data-cancel="1">Sulje</button></div>';$w("ov").classList.add("open")}
+document.getElementById("impfile").addEventListener("change",function(e){var f=e.target.files&&e.target.files[0];e.target.value="";if(!f)return;M.classList.remove("open");
+var r=new FileReader();r.onload=function(){var o=null;try{o=validSettings(JSON.parse(r.result))}catch(err){}
+if(!o){IMP=null;importMsg("Tiedostoa ei voitu lukea. Varmista, että se on tältä sivulta viety asetustiedosto.");return}
+IMP=o;var n=0;try{n=Object.keys(JSON.parse(o.custom||"{}")).length}catch(err){}
+$w("dlg").innerHTML='<h3>Tuodaanko asetukset?</h3><div class="whint">Nykyiset asetuksesi korvataan tiedoston asetuksilla'+(n?' (mukana '+n+' omaa kategoriaa)':'')+'.</div><div class="wrow end"><button class="wbtn" data-cancel="1">Peruuta</button><button class="wbtn p" data-doimport="1">Tuo</button></div>';$w("ov").classList.add("open")};
+r.onerror=function(){importMsg("Tiedostoa ei voitu lukea.")};r.readAsText(f)});
+document.addEventListener("click",function(e){var t=e.target.closest&&e.target.closest("[data-doimport]");if(!t||!IMP)return;
+try{KEYS.forEach(function(k){if(IMP[k]!==undefined)localStorage.setItem(k,IMP[k])})}catch(err){importMsg("Asetuksia ei voitu tallentaa tähän selaimeen.");return}
+IMP=null;location.hash="#koti";location.reload()});
 var LG=document.querySelector('#logo a');
 function fade(){var p=Math.min(Math.max(window.scrollY/160,0),1);LG.style.opacity=1-p;LG.style.transform='translateY('+(-p*36)+'px)';LG.style.pointerEvents=p>.9?'none':'auto'}
 window.addEventListener('scroll',fade,{passive:true});fade();
