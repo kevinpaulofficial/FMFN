@@ -1,6 +1,96 @@
 {
  "suomi": [
   {
+   "title": "Lähisuhdeväkivalta | Espoon turvakoti on kiinni kaupungin tahdosta",
+   "link": "https://www.hs.fi/mielipide/art-2000012407687.html",
+   "published": "2026-11-16T00:00:00+00:00",
+   "description": "Väkivaltaa pakeneva ei voi jäädä odottamaan kaavatulkintaa.",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Talin tennisturnaus | Helsingin ammattilais­turnauksen järjestäjä yllättyi venäläispelaajasta",
+   "link": "https://www.hs.fi/urheilu/art-2000012406393.html",
+   "published": "2026-11-16T00:00:00+00:00",
+   "description": "Helsingin ammattilaisturnauksen palkintopotti nousee ensimmäistä kertaa yli 200 000 euron. Otto Virtanen tavoittelee turnausvoittoa.",
+   "image": "https://images.sanoma-sndp.fi/e5e375ea554a71203fb4f4a471975982/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "HS Ranskassa | Ranskalle tapahtui velan kanssa jo se, mitä Suomi pelkää",
+   "link": "https://www.hs.fi/kirjeenvaihtajat/art-2000012402550.html",
+   "published": "2026-11-16T00:00:00+00:00",
+   "description": "Kävimme seuraamassa, kuinka Ranska yritti päättää budjetistaan velan paisuessa. Istuntosalissa odotti teatteri.",
+   "image": "https://images.sanoma-sndp.fi/c037c2239780182e640f6ec0a1a5e075/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Muistokirjoitus | Lasihistorian monipuolinen tutkija",
+   "link": "https://www.hs.fi/muistot/art-2000012398580.html",
+   "published": "2026-11-16T00:00:00+00:00",
+   "description": "Aimo Löfberg 1931–2026",
+   "image": "https://images.sanoma-sndp.fi/945af478b2506f797f638903f95eb4d3/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Yrittäjyys | Yrittäjä tarvitsee yhden oven, ei monta luukkua",
+   "link": "https://www.hs.fi/mielipide/art-2000012391124.html",
+   "published": "2026-11-16T00:00:00+00:00",
+   "description": "Apua tarvitsevan yrittäjän on löydettävä asiantuntija mahdollisimman helposti ja päästävä eteenpäin omassa tilanteessaan.",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Muistokirjoitus | Kansainvälisesti arvostettu levätutkija",
+   "link": "https://www.hs.fi/muistot/art-2000012374660.html",
+   "published": "2026-11-16T00:00:00+00:00",
+   "description": "Pertti Eloranta 1943–2026",
+   "image": "https://images.sanoma-sndp.fi/8ca735901ba81f95df39f0a97e863ba7/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Maahanmuutto | Helsinkiin on syntynyt uusi ilmiö: irrallaan leijuva ulkomaalainen väki",
+   "link": "https://www.hs.fi/helsinki/art-2000012346899.html",
+   "published": "2026-11-16T00:00:00+00:00",
+   "description": "Helsinki ei onnistu pitämään Kashaf Alin kaltaisia koulutettuja maahanmuuttajia. ”Kelluvat” maahanmuuttajat eivät jää kaupunkiin.",
+   "image": "https://images.sanoma-sndp.fi/9e092d7f839115c909dd2e20c734c595/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Eläkkeet | Laskuri paljastaa, miten suuri eläke sinulle on tulossa",
+   "link": "https://www.hs.fi/visio/art-2000012335989.html",
+   "published": "2026-11-16T00:00:00+00:00",
+   "description": "“En tule ikinä saamaan eläkettä”, nuoret hokevat. Selvitimme, mitä parikymppisille ja vähän vanhemmillekin oikeasti on luvassa.",
+   "image": "https://images.sanoma-sndp.fi/975c717b7378768e2467b578e73325fe/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "HS 50 vuotta sitten 16.11.1976 | Verovalituksia ennätysmäärä",
+   "link": "https://www.hs.fi/historia/art-2000012262827.html",
+   "published": "2026-11-16T00:00:00+00:00",
+   "description": "Helsingissä 18 500 veromuistutusta",
+   "image": "https://images.sanoma-sndp.fi/ef6c86f22db4f603a1fca34fc32fcf0a/normal/1440.jpg",
+   "important": true,
+   "hot": false
+  },
+  {
+   "title": "USA:n lentokaaos | Lentoliikenteen häiriöt voivat jatkua maanantaihin, Trump vierittää vastuuta Bidenin hallinnolle",
+   "link": "https://www.hs.fi/maailma/art-2000012414517.html",
+   "published": "2026-11-15T23:06:00+00:00",
+   "description": "Trump vaatii kongressilta rahoitusta lennonjohtojärjestelmien uudistamiseksi.",
+   "image": "https://images.sanoma-sndp.fi/0487b1743e4152740d329b79b9e90aa7/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
    "title": "Trump keksi syyllisen lentokaaokselle: Biden",
    "link": "https://www.is.fi/ulkomaat/art-2000012414475.html",
    "published": "2026-11-15T22:19:00+00:00",
@@ -17,99 +107,63 @@
    "image": null,
    "important": false,
    "hot": false
-  },
+  }
+ ],
+ "jalkapallo": [
   {
-   "title": "Tankkeri jyräsi jokilaivan New Orleansissa: Nyt saattoi syy selvitä",
-   "link": "https://www.mtvuutiset.fi/artikkeli/tankkeri-jyrasi-jokilaivan-new-orleansissa-nyt-saattoi-syy-selvita/9421670",
-   "published": "2026-11-15T21:58:57+00:00",
-   "description": "New Orleansin perjantainen tankkerialuksen törmäys jokilaivaan johtui tankkerin ohjausjärjestelmän viasta.",
-   "image": "https://api.mtvuutiset.fi/graphql/caas/v1/media/9420990/data/65865b25bf8cf1414144fff2b9b2981d/landscape16_9/1024/tankkeri-osui-jokilaivaan.png",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Jalkapallo | Englanti katkaisi Espanjan 43 ottelun tappiottoman putken",
-   "link": "https://www.hs.fi/urheilu/art-2000012414507.html",
-   "published": "2026-11-15T21:54:00+00:00",
-   "description": "Espanja hävisi kilpailullisen ottelun varsinaisella peliajalla ensimmäistä kertaa sitten vuoden 2023.",
-   "image": "https://images.sanoma-sndp.fi/86069e138da4b8f22b9949edee689312/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Englannilta jymypaukku Kansojen liigassa! Tätä ei ole nähty pitkään aikaan",
-   "link": "https://www.is.fi/jalkapallo/art-2000012414494.html",
-   "published": "2026-11-15T21:50:00+00:00",
-   "description": "Espanja hävisi.",
-   "image": "https://images.sanoma-sndp.fi/86069e138da4b8f22b9949edee689312/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Poliisilla usean partion tehtävä Tampereella: \"Henkilöitä otettu kiinni\"",
-   "link": "https://www.mtvuutiset.fi/artikkeli/poliisilla-usean-partion-tehtava-tampereella-henkiloita-otettu-kiinni/9421668",
-   "published": "2026-11-15T21:43:38+00:00",
-   "description": "Poliisilla on ollut usean partion tehtävä Tampoereen Linnainmaalla.",
-   "image": "https://api.mtvuutiset.fi/graphql/caas/v1/media/9391400/data/82d4a0bfe36cd8b1665e26ce0c2e96b6/landscape16_9/1024/aop-112.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Poliisilla henkeen ja terveyteen kohdistuva tehtävä Tampereella",
-   "link": "https://www.is.fi/tampereen-seutu/art-2000012414498.html",
-   "published": "2026-11-15T21:39:00+00:00",
-   "description": "Poliisi on tehnyt kiinniottoja tapahtumiin liittyen.",
-   "image": null,
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Vakoiluskandaali | FT: Jensen Huang harkitsee paluuta Nvidiaan, muut teknologia­miljardöörit tukevat",
-   "link": "https://www.hs.fi/visio/art-2000012414440.html",
-   "published": "2026-11-15T21:07:00+00:00",
-   "description": "Huang erosi torstaina siruyhtiö Nvidian toimitus­johtajan paikalta. Aiemmin paljastui, että Huangilla on ollut avioliiton ulkopuolinen suhde naiseen, jota epäillään Kiinan vakoojaksi.",
-   "image": "https://images.sanoma-sndp.fi/f20ae5af47612adfb9d285207b271e40/normal/1440.jpg",
+   "title": "How did England cling on against Spain and what did Tuchel do differently?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c6742l4z91lwo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-16T00:02:22+00:00",
+   "description": "Trying to protect a lead in the closing stages, England have been here before - so how did they cling on against Spain?",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/41e2/live/f2069dc0-e14c-11f1-91da-8b08e1a7b4c4.jpg",
    "important": false,
    "hot": true
   },
   {
-   "title": "Trump julisti Iranin sodan voitetuksi – nyt liittolainen perääntyy tärkeästä öljysalmesta",
-   "link": "https://www.is.fi/ulkomaat/art-2000012414225.html",
-   "published": "2026-11-15T21:00:00+00:00",
-   "description": "Yhdysvaltain presidentti julisti jälleen viime keskiviikkona Iranin voitetuksi sodassa. Lähi-idästä kuuluu toisenlaista viestiä.",
-   "image": "https://images.sanoma-sndp.fi/70a78b6d9c5c70c937992fcca50d0149/normal/1440.jpg",
+   "title": "60 minutes of perfection, 30 minutes of chaos - an England win for the ages",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c933ge310n33o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-15T23:52:43+00:00",
+   "description": "England's stunning win in Spain had everything - and was their best under Thomas Tuchel, writes Phil McNulty.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b361/live/48cfe320-e146-11f1-93e1-3b657b665bcf.jpg",
    "important": false,
    "hot": false
   },
   {
-   "title": "TTK:sta pudonneiden Jaakko Parkkalin ja Kastanja Rauhalan välit puhuttavat – tämä oli vastaus suhdehuhuihin",
-   "link": "https://www.is.fi/viihde/art-2000012414466.html",
-   "published": "2026-11-15T20:59:00+00:00",
-   "description": "Jaakko Parkkali ja Kastanja Rauhala aikovat pitää yhteyttä myös kisan jälkeen.",
-   "image": "https://images.sanoma-sndp.fi/9e383ee25535649cb11a2b1e388e5603/normal/1440.jpg",
+   "title": "Andreeva storms to WTA Finals title without dropping a set",
+   "link": "https://www.skysports.com/tennis/news/12040/13612640/mirra-andreeva-beats-elina-svitolina-as-she-storms-to-wta-finals-title-without-dropping-a-set-its-something-unbelievable",
+   "published": "2026-11-15T23:18:00+00:00",
+   "description": "Mirra Andreeva concluded a stunning week with a second victory over Elina Svitolina to claim the WTA Finals title.",
+   "image": "https://e1.365dm.com/26/11/1920x1080/skysports-mirra-andreeva-elina-svitolina_7407331.jpg?20261115212244",
+   "important": true,
+   "hot": false
+  },
+  {
+   "title": "Football Daily",
+   "link": "https://www.bbc.co.uk/sounds/play/p0pn5rdk?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-15T23:16:00+00:00",
+   "description": "Reaction to England’s 3-2 win over Spain in the Nations League.",
+   "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0m6ztjd.jpg",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Hopkins’ late stunner sends Kansas City past Gotham and into NWSL final",
+   "link": "https://www.theguardian.com/football/2026/nov/15/kansas-city-current-gotham-fc-nwsl-semi-final-haley-hopkins",
+   "published": "2026-11-15T23:03:38+00:00",
+   "description": "Hopkins’ 89th-minute volley seals dramatic 2-1 upsetBethune scores stunning free kick against top seedsCurrent to face Washington Spirit for first NWSL titleAfter a week dominated by a headline-grabbing stadium scheduling imbroglio, Gotham FC and the Kansas City Current finally got down to the vital business of their NWSL semi-final on Sunday afternoon, a frigid encounter at an unlikely venue on N",
+   "image": "https://i.guim.co.uk/img/media/5f536d3269026f3a936468cb6e6eceb90f7a1088/488_0_4878_3903/master/4878.jpg?width=140&quality=85&auto=format&fit=max&s=a7362e76062288b356afd34a482c6e77",
    "important": false,
    "hot": false
   },
   {
-   "title": "HS Virossa | Hubert Kudeviita näki ikkunasta, kun naapurissa sijaitsevan drooni­tehtaan tuho­poltto­yritystä selvitettiin",
-   "link": "https://www.hs.fi/alueet/art-2000012413998.html",
-   "published": "2026-11-15T20:52:00+00:00",
-   "description": "Viro syyttää Venäjän tilanneen tuho­poltto­yrityksen drooneja valmistavan yrityksen tehtaalle. Vastauksena Viron hallitus aikoo sulkea itärajan joulukuun alusta alkaen.",
-   "image": "https://images.sanoma-sndp.fi/686c044091cd86e0433eefced91e9b21/normal/1440.jpg",
+   "title": "LeBron James now third in all-time NBA assists",
+   "link": "https://www.skysports.com/nba/news/12040/13612633/lebron-james-now-third-in-all-time-nba-assists-as-he-leads-the-philadelphia-76ers-past-the-indiana-pacers-131-124",
+   "published": "2026-11-15T22:50:00+00:00",
+   "description": "LeBron James had 11 assists and moved into third on the NBA's career list, as he added 15 points and six rebounds to lead the Philadelphia 76ers past the Indiana Pacers 131-124 on Sunday.",
+   "image": "https://e0.365dm.com/26/11/1920x1080/skysports-lebron-james-philadelphia-76ers_7407420.jpg?20261115225002",
    "important": false,
    "hot": false
   },
-  {
-   "title": "Ruotsin urheilun superpari: kihlat",
-   "link": "https://www.is.fi/yleisurheilu/art-2000012414401.html",
-   "published": "2026-11-15T20:45:00+00:00",
-   "description": "Daniel Ståhl ja Fanny Roos ovat menossa naimisiin.",
-   "image": "https://images.sanoma-sndp.fi/844302c2ea887d062b9b8f27d84f7cbc/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  }
- ],
- "jalkapallo": [
   {
    "title": "Papers: Guardiola to reject USA approach to replace Pochettino",
    "link": "https://www.skysports.com/football/news/12040/13612630/pep-guardiola-usa-approach-to-replace-mauricio-pochettino-to-be-rejected-by-ex-man-city-boss-paper-talk",
@@ -147,79 +201,43 @@
    "hot": true
   },
   {
+   "title": "Grand Slam of Darts: Four seeds crash out as Greaves exits despite win",
+   "link": "https://www.skysports.com/darts/news/12040/13612535/grand-slam-of-darts-jonny-clayton-ross-smith-josh-rock-luke-woodhouse-and-beau-greaves-all-exit-tournament",
+   "published": "2026-11-15T22:00:00+00:00",
+   "description": "Seeds Jonny Clayton, Ross Smith, Josh Rock and Luke Woodhouse were all knocked out of the Grand Slam of Darts on Sunday, while&#160;Beau Greaves was also eliminated.",
+   "image": "https://e1.365dm.com/26/11/1920x1080/skysports-beau-greaves-grand-slam_7407396.jpg?20261115222131",
+   "important": false,
+   "hot": true
+  },
+  {
    "title": "England fend off fiery Spain fightback after Anderson’s red to top Nations League group",
    "link": "https://www.theguardian.com/football/2026/nov/15/spain-england-nations-league-match-report",
    "published": "2026-11-15T21:56:41+00:00",
-   "description": "It was the game to show Thomas Tuchel where his rebooted England team had got to; surely the ultimate test in international football. Spain in Spain. A world champion team who, in Tuchel’s words, had “forgotten how to lose”. Before this Nations League tie, they had been beaten only once in 43 matches – on penalties by Portugal in the final of this competition last year.What England produced for 65",
+   "description": "It was the game to show Thomas Tuchel where his rebooted England team had got to; surely the ultimate test in international football. Spain in Spain. A world champion team who, in Tuchel’s words, had “forgotten how to lose.” Before this Nations League group decider, they had been beaten only once in 43 matches – on penalties against Portugal in the final of this competition last year.What England ",
    "image": "https://i.guim.co.uk/img/media/d0c1c28e0b0cd6e4f5291e64cc41835ff422e868/341_0_2559_2049/master/2559.jpg?width=140&quality=85&auto=format&fit=max&s=c7b8e55c901f0cfc60f98da5123d4d58",
    "important": false,
    "hot": true
-  },
-  {
-   "title": "Ten-man England hold on to claim famous win over Spain",
-   "link": "https://www.skysports.com/football/spain-vs-england/report/554117",
-   "published": "2026-11-15T21:45:00+00:00",
-   "description": "England withstood a Spain fightback after Elliot Anderson's red card to secure a famous 3-2 victory and finish above the world champions at the top of their Nations League group.",
-   "image": "https://e2.365dm.com/26/11/1920x1080/skysports-ezri-konsa-england_7407324.jpg?20261115211138",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Man Utd target Fulham's Bassey - Monday's gossip",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cklyegvq86w8o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T20:47:44+00:00",
-   "description": "Manchester United target Fulham's Calvin Bassey and Brentford's Nathan Collins, AC Milan want Real Madrid's Endrick on loan, plus more.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3cbd/live/8908cdb0-e143-11f1-a2d0-ff163dc3689d.png",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "London City's 'bravery' paying off in top three pursuit",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c6y49gzjgew5o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T20:03:08+00:00",
-   "description": "After 10 games in the Women's Super League season, London City Lionesses have shown they are capable of finishing inside the top three.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/342a/live/cd3dcfa0-e141-11f1-b838-e76e4fa8abe5.jpg",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "London City's 'bravery' paying off in top three pursuit",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c6y49gzjgew5o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T20:03:08+00:00",
-   "description": "After 10 games in the Women's Super League season, London City Lionesses have shown they are capable of finishing inside the top three.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/342a/live/cd3dcfa0-e141-11f1-b838-e76e4fa8abe5.jpg",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Aston Villa beat Birmingham in WSL derby",
-   "link": "https://www.bbc.co.uk/sport/football/videos/cjp3v5pndyz1o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T19:47:37+00:00",
-   "description": "Mathilde Harviken scores the only goal as Aston Villa beat Birmingham City in their first Women's Super League derby since May 2022.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2b5a/live/dbf1e190-e10e-11f1-a2d0-ff163dc3689d.jpg",
-   "important": true,
-   "hot": false
-  },
-  {
-   "title": "Struggling Charlton make WSL history after defeat at West Ham",
-   "link": "https://www.bbc.co.uk/sport/football/videos/c6kg7rpkr3jlo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T19:43:57+00:00",
-   "description": "Charlton Athletic become the first team in Women's Super League history to lose their opening 10 matches of the season as Viviane Asseyi scores twice to guide West Ham United to victory.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ede/live/02b680b0-e10f-11f1-93e1-3b657b665bcf.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Ronaldinho makes comeback in Ravenna win",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ckregz4g823xo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T19:31:48+00:00",
-   "description": "Brazil legend Ronaldinho makes his comeback aged 46 for Ravenna, playing the first half of their Italian third-tier derby against Forli.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/45e6/live/30f37df0-e116-11f1-a7db-d90284d21c62.jpg",
-   "important": false,
-   "hot": false
   }
  ],
  "teknologia": [
+  {
+   "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+   "link": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+   "published": "2026-11-15T23:30:00+00:00",
+   "description": "Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics.",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Vulcan rocket fails during launch, dealing major blow to SpaceX competitors",
+   "link": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/",
+   "published": "2026-11-15T23:11:54+00:00",
+   "description": "This was the first total mission failure in United Launch Alliance's 20-year history.",
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2304790934-1152x648.jpg",
+   "important": false,
+   "hot": false
+  },
   {
    "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
    "link": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
@@ -309,27 +327,45 @@
    "image": null,
    "important": false,
    "hot": true
+  }
+ ],
+ "maailma": [
+  {
+   "title": "Thousands of US flights still cancelled or delayed two days after grounding of planes nationwide",
+   "link": "https://www.bbc.co.uk/news/articles/cw1mdlv0k2r4o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-16T00:03:29+00:00",
+   "description": "The US transport secretary says that normal air-traffic operations may not be restored until Monday.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1b00/live/90c0ff50-e11b-11f1-a7a2-7bb21fac8f0b.jpg",
+   "important": false,
+   "hot": false
   },
   {
-   "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
-   "link": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
-   "published": "2026-11-14T12:38:35+00:00",
-   "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation.\n\nThe vulnerability, tracked as CVE-2026-114713 (CVSS score: 8.6), is a case of improper neutralization of delimiters",
-   "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuvSsWcsJ9736KXp_0s-6__-CiI5PD71VReembVHAB4cfnv3Qti8td9WR54UnRH96bz30dvbTQxwG3WbxDkWRq_eFJPYLgxbAzRD5k3MJSISbW2VDI-Fr7nlX4j8NyJkXqLHylMZMXpynEHVV8ovZ2YPC-WGCFCcrOZOeGc5Wsy-jRjjbcyYTzojI9Nudw/s1600/cisaa.jpg",
+   "title": "US officials recover audio from ‘Mississippi miracle’ cruise ship and tanker crash",
+   "link": "https://www.theguardian.com/us-news/2026/nov/15/audio-new-orleans-mississippi-river-cruise-tanker-crash",
+   "published": "2026-11-15T23:20:59+00:00",
+   "description": "Tank vessel suffered sudden steering failure two minutes before slamming into docked riverboat near New OrleansFederal safety investigators with the National Transportation Safety Board (NTSB) recovered audio and released a preliminary timeline on Sunday of a collision between a cruise ship and a tanker vessel in the Mississippi River on Friday.The data was retrieved after more than 30 people were",
+   "image": "https://i.guim.co.uk/img/media/d2467769f6573bcc5af9cc096d4dd2ddf63e656a/716_76_3340_2673/master/3340.jpg?width=140&quality=85&auto=format&fit=max&s=23d73927b0c7cec06a1991569a41f332",
    "important": false,
    "hot": true
   },
   {
-   "title": "James Webb telescope finds ice older than the star it orbits",
-   "link": "https://arstechnica.com/science/2026/11/james-webb-telescope-finds-ice-older-than-the-star-it-orbits/",
-   "published": "2026-11-14T12:15:48+00:00",
-   "description": "Radiation and collisions reshape the planetary building materials.",
-   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/image-1-989x648.jpeg",
+   "title": "‘Pull back the curtain’ on treatment of sexual assault victims in court, says UK government adviser",
+   "link": "https://www.theguardian.com/law/2026/nov/15/examine-courts-treatment-sexual-assault-victims-says-government-adviser",
+   "published": "2026-11-15T23:19:05+00:00",
+   "description": "Professor urges ministers to use awareness triggered by Russell Brand conviction to examine use of rape myths in trialsThe debate triggered by high-profile cases must “pull back the curtain” on the treatment of people making allegations of sexual offences in the criminal justice system in England and Wales, the government’s independent adviser on rape has told the Guardian.Prof Katrin Hohl, who ha",
+   "image": "https://i.guim.co.uk/img/media/70da16c077d52bf4ba97063e669ba34a16329c85/645_0_2907_2326/master/2907.jpg?width=140&quality=85&auto=format&fit=max&s=16427c154be1f5d516fa4caa85b7d6e4",
    "important": false,
    "hot": false
-  }
- ],
- "maailma": [
+  },
+  {
+   "title": "Steering failure preceded New Orleans cruise ship collision, says NTSB",
+   "link": "https://www.bbc.co.uk/news/articles/c65y131w1534o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-15T22:57:27+00:00",
+   "description": "Preliminary findings by National Transportation Safety Board investigators suggest the tanker suffered a \"steering casualty\" before colliding with the cruise ship on Friday.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f55e/live/4bc0f750-e140-11f1-859a-418a418deb7d.jpg",
+   "important": false,
+   "hot": true
+  },
   {
    "title": "England stun Spain to end La Roja’s 43-game unbeaten run",
    "link": "https://www.aljazeera.com/sports/2026/11/15/england-stun-spain-to-end-la-rojas-43-game-unbeaten-run?traffic_source=rss",
@@ -401,45 +437,18 @@
    "image": null,
    "important": false,
    "hot": true
-  },
-  {
-   "title": "UK will have 'voice' but no vote on EU food rules in Brexit reset",
-   "link": "https://www.bbc.co.uk/news/articles/c6wy4l8nl42wo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-15T22:00:24+00:00",
-   "description": "EU minister Hamish Falconer insists Britain would have some influence on policy as part of a new deal.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/81c7/live/353868b0-6be8-11f1-aa71-afd82ef74c53.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Prince Harry tells Ukrainians they are ‘going to win war’ on surprise trip to Lviv",
-   "link": "https://www.theguardian.com/uk-news/2026/nov/15/prince-harry-ukraine-war-surprise-trip-invictus-games",
-   "published": "2026-11-15T22:00:24+00:00",
-   "description": "Duke of Sussex meets wounded veterans in city and says country could one day host Invictus GamesPrince Harry has told Ukrainian soldiers they are going to win the war with Russia, during a surprise visit to the country.The Duke of Sussex met wounded veterans and medics in the city of Lviv, in the west of Ukraine, as he addressed a conference on treating those injured in war. He said he had taken a",
-   "image": "https://i.guim.co.uk/img/media/082248113d66f00317e3a188a707a740b59e16b9/191_193_2669_2135/master/2669.jpg?width=140&quality=85&auto=format&fit=max&s=ec896eb5e828c19c1a39e8a6177db095",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "US Treasury chief calls for outsider to lead embattled tech firm Nvidia",
-   "link": "https://www.aljazeera.com/news/2026/11/15/us-treasury-chief-calls-for-outsider-to-lead-embattled-tech-firm-nvidia?traffic_source=rss",
-   "published": "2026-11-15T21:47:47+00:00",
-   "description": "Scott Bessent gives Nvidia&#039;s board 10 days to show the company&#039;s compliance with US export controls.",
-   "image": null,
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Yemen’s Houthis unilaterally release 600 war detainees",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/yemens-houthis-unilaterally-release-600-war-detainees?traffic_source=rss",
-   "published": "2026-11-15T21:19:08+00:00",
-   "description": "Yemen’s Houthis have released 600 people imprisoned during the country’s civil war.",
-   "image": null,
-   "important": false,
-   "hot": false
   }
  ],
  "musiikki": [
+  {
+   "title": "Today’s Wordle answer and hints for #1976 on November 16",
+   "link": "https://www.nme.com/guides/gaming-guides/heres-the-wordle-answer-for-today-3171240",
+   "published": "2026-11-16T00:01:34+00:00",
+   "description": "There's no need to lose your streak - here's the 'Wordle' answer for today\nThe post Today&#8217;s Wordle answer and hints for #1976 on November 16 appeared first on NME.",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
   {
    "title": "Ciryl Gane säilytti mestaruutensa – Josh Hokit pyytää uusintaottelua",
    "link": "https://www.klangi.fi/uutiset/ciryl-gane-sailytti-mestaruutensa/",
@@ -538,15 +547,6 @@
    "image": "https://media.pitchfork.com/photos/6af9d1067b1affb62d7f5367/master/pass/GettyImages-2304674894.jpg",
    "important": false,
    "hot": true
-  },
-  {
-   "title": "Historiallinen suomalaispäivä! Oliver Lindell PGA Tourille, Sami Välimäki taistelee miljoonapotista",
-   "link": "https://www.klangi.fi/uutiset/oliver-lindell-pga-tourille-suomi-historiaa/",
-   "published": "2026-11-15T16:17:36+00:00",
-   "description": "Oliver Lindell PGA Tourille: suomalaisgolfari liittyy parhaillaan miljoonapotista Teksasissa kamppailevan Sami Välimäen rinnalle maailman arvostetuimmalle golfkiertueelle. Se on siinä: Oliver\nArtikkeli Historiallinen suomalaispäivä! Oliver Lindell PGA Tourille, Sami Välimäki taistelee miljoonapotista julkaistiin ensimmäisen kerran Klangi.",
-   "image": "https://www.klangi.fi/wp-content/uploads/2026/11/Oliver-Lindell-AOP-2026-Klangi-1024x683.jpg",
-   "important": true,
-   "hot": false
   }
  ]
 }
