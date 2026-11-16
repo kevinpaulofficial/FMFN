@@ -1,0 +1,23 @@
+name: Tarkista lähteet
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python tarkista.py
+      - run: |
+          git config user.name "news-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add lahteet.json
+          git commit -m "Päivitä lähteiden testitulokset" || echo "Ei muutoksia"
+          git push
