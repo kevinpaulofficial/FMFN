@@ -13,6 +13,8 @@
 :root[data-dys="1"] .card p{display:none}
 :root[data-dys="1"] .card{margin-top:26px}
 :root[data-dys="1"] .card b{line-height:1.5}
+:root[data-dys="1"] .card{letter-spacing:.04em}
+:root[data-dys="1"] main h1,:root[data-dys="1"] main h2{font-family:"OpenDyslexic",system-ui,sans-serif;font-size:26px}
 :root[data-theme="dark"]{--bg:#161515;--box:#2b2929;--text:#ece9e9;--line:rgba(255,255,255,.18);--pop:#242222;--accent:#e3a3a3;color-scheme:dark}
 html{scroll-padding-top:env(safe-area-inset-top,0px)}
 body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
@@ -24,14 +26,15 @@ main{width:100%;max-width:600px;margin:0 auto;padding:92px 14px 110px}
 #logo .l1{font-size:50px}
 #logo .l2{font-size:14px}
 #logo text{font-family:"theboldfont",Impact,"Arial Black",sans-serif;font-size:37px;fill:var(--text)}
-h1{font-size:calc(1.3rem + 5px);margin:8px 0 16px}
+h1{font-family:"theboldfont",Impact,"Arial Black",sans-serif;font-weight:normal;font-size:32px;margin:8px 0 16px}
 hr.div{border:0;height:1px;background:var(--line);margin:26px 3px 6px}
-h2{font-size:.95rem;margin:22px 0 8px;opacity:.7;text-transform:uppercase;letter-spacing:.04em}
+h2{font-family:"theboldfont",Impact,"Arial Black",sans-serif;font-weight:normal;font-size:32px;margin:22px 0 8px;opacity:.7;text-transform:uppercase;letter-spacing:.04em}
 .card{display:block;position:relative;z-index:1;background:var(--box);color:var(--text);text-decoration:none;border-radius:14px;padding:14px 56px 14px 16px;margin-top:18px}
 .card.imp{background:var(--imp);color:#fff}
 .card.hot{background:#f7e591;color:#1a1919}
-.card b{display:block;font-size:calc(1.02rem + 7px);line-height:1.3}
-.card p{margin:1.5px 0 0;font-size:.85rem;line-height:1.4}
+.card{letter-spacing:.02em}
+.card b{display:block;font-size:calc(1.02rem + 9px);line-height:1.3}
+.card p{margin:3.5px 0 0;font-size:.85rem;line-height:1.4}
 .age{position:absolute;top:12px;right:14px;font-size:.78rem;opacity:.75}
 .who{background:var(--who);color:#1a1919;border-radius:0 0 12px 12px;padding:14px 12px 8px;margin:-8px 22px 0;font-size:.8rem;position:relative;z-index:0}
 .pic{width:100%;aspect-ratio:16/9;border-radius:10px;margin-top:10px;display:flex;align-items:center;justify-content:center;font-size:3rem}
@@ -129,8 +132,7 @@ function loadCat(){return fetch("lahteet.json").then(function(r){return r.ok?r.j
 function load(){return Promise.all([loadNews(),loadAll(),loadCat()])}
 function age(p){var s=Math.max(0,Math.floor((Date.now()-p)/1000));
 if(s<60)return s+"s";if(s<3600)return Math.floor(s/60)+"m";if(s<86400)return Math.floor(s/3600)+"h";return Math.floor(s/86400)+"d"}
-var ICON={suomi:"🇫🇮",jalkapallo:"⚽",teknologia:"💻",maailma:"🌍",musiikki:"🎵"};
-function pic(n,k){if(n.img)return '<img class="pic" src="'+n.img+'" alt="" style="width:100%;object-fit:cover" onerror="this.style.display=\'none\'">';var h=0;for(var i=0;i<n.t.length;i++)h=(h+n.t.charCodeAt(i))%360;return '<div class="pic" style="background:linear-gradient(135deg,hsl('+h+',35%,60%),hsl('+((h+40)%360)+',35%,38%))">'+(ICON[k]||"📰")+'</div>'}
+function pic(n,k){return n.img?'<img class="pic" src="'+wesc(n.img)+'" alt="" style="width:100%;object-fit:cover" onerror="this.remove()">':''}
 function card(n,k,hot){return '<a class="card'+(n.imp?' imp':(hot&&n.hot?' hot':''))+'" href="'+n.u+'" target="_blank" rel="noopener"><span class="age">'+age(n.p)+'</span><b>'+n.t+'</b><p>'+n.s+'</p>'+pic(n,k)+'</a>'+(n.who?'<div class="who">'+n.who+'</div>':'')}
 function home(){var h='';
 ORDER.forEach(function(k,i){var a=DATA[k].slice().sort(function(x,y){return y.p-x.p});
