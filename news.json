@@ -1,110 +1,110 @@
 {
  "suomi": [
   {
-   "title": "Paavi sai rukous­nauhasta kasvoilleen",
-   "link": "https://www.is.fi/ulkomaat/art-2000012417063.html",
-   "published": "2026-11-16T19:45:00+00:00",
-   "description": "Paavi on aiemmin onnistunut nappaamaan yleisöstä heitettyjä esineitä. Tällä kertaa rukousnauha pääsi yllättämään.",
-   "image": "https://images.sanoma-sndp.fi/e9cffda8a7dd829c51ac931cc942c54b/normal/1440.jpg",
+   "title": "USA voitti MM-kultaa, Ruotsille pronssia Suomen nenän edestä",
+   "link": "https://www.is.fi/mmkiekko/art-2000012416195.html",
+   "published": "2026-11-16T20:37:00+00:00",
+   "description": "USA kaatoi Kanadan jääkiekon naisten MM-finaalissa ja Ruotsi voitti pronssiottelussa Naisleijonat rankkarikisassa.",
+   "image": "https://images.sanoma-sndp.fi/497b46e3ea04f9dfa56c9a8aa5f90390/normal/1440.jpg",
    "important": false,
    "hot": false
   },
   {
-   "title": "Jalkapallo | Markku ”Fana” Palmroos on kuollut",
-   "link": "https://www.hs.fi/urheilu/art-2000012417220.html",
-   "published": "2026-11-16T19:40:00+00:00",
-   "description": "A-maajoukkueessakin esiintynyt helsinkiläinen sairasti pitkään.",
-   "image": "https://images.sanoma-sndp.fi/7e42dedc6c2413cbade9d57dc97bcb5e/normal/1440.jpg",
+   "title": "Itävallan ex-ulkoministeri tanssi häissään Putinin kanssa – väittää nyt kansalaisuutensa olevan vaaka­laudalla",
+   "link": "https://www.is.fi/ulkomaat/art-2000012416518.html",
+   "published": "2026-11-16T20:29:00+00:00",
+   "description": "Venäjälle vuonna 2023 muuttanut Karin Kneissl esiintyy nykyään aktiivisesti valtionmediassa kritisoiden lännen politiikkaa.",
+   "image": "https://images.sanoma-sndp.fi/a85c9a7f78fefadecd338bc9b8d86444/normal/1440.jpg",
    "important": false,
    "hot": false
   },
   {
    "title": "Pakettiauto ajoi sairaalan ovista sisään Rovaniemellä – kuljettaja vastusti kiinniottoa",
    "link": "https://www.is.fi/kotimaa/art-2000012417182.html",
-   "published": "2026-11-16T19:39:00+00:00",
+   "published": "2026-11-16T20:20:00+00:00",
    "description": "Kukaan ei loukkaantunut tilanteessa. Poliisin mukaan kuljettaja aiheutti ajollaan vaaratilanteita myös ennen törmäämistään sairaalan oviin.",
-   "image": null,
+   "image": "https://images.sanoma-sndp.fi/8c8e1e161332989d738020fce2bbb04e/normal/1440.jpg",
    "important": false,
    "hot": true
   },
   {
-   "title": "Mies ajoi pakettiautolla sisään Lapin keskussairaalan",
-   "link": "https://www.mtvuutiset.fi/artikkeli/mies-ajoi-pakettiautolla-sisaan-lapin-keskussairaalan/9422070",
-   "published": "2026-11-16T19:37:41+00:00",
-   "description": "Epäilty pakettiauton kuljettaja vastusti poliisin kiinniottoa.",
-   "image": "https://api.mtvuutiset.fi/graphql/caas/v1/media/8512606/data/517b9c8f75bfbc6a90d1e3443b27d80a/landscape16_9/1024/aop-sairaala-kuvituskuva.jpg",
+   "title": "Kyseenalaista toimintaa Lapissa – Jelena Välben ex-mies tallentui tv-kuviin, Virossa nousi kohu",
+   "link": "https://www.is.fi/maastohiihto/art-2000012417185.html",
+   "published": "2026-11-16T20:18:00+00:00",
+   "description": "Venäläishiihtäjiä auttoi Muoniossa virolainen kaksikko.",
+   "image": "https://images.sanoma-sndp.fi/dbdb58b0f7bbac1027665e644b1387b2/normal/1440.jpg",
    "important": false,
-   "hot": true
+   "hot": false
+  },
+  {
+   "title": "\"Tosi paha juttu\" – näin Virossa suhtaudutaan rajan sulkemiseen",
+   "link": "https://www.mtvuutiset.fi/artikkeli/tosi-paha-juttu-nain-virossa-suhtaudutaan-rajan-sulkemiseen/9422068",
+   "published": "2026-11-16T20:15:28+00:00",
+   "description": "Narvan rajan sulkeutuminen herättää paikalla olevissa ihmisissä huolta ja surua.",
+   "image": "https://api.mtvuutiset.fi/graphql/caas/v1/media/9422066/data/ecd091880dc1300c647c275a752ac1ba/landscape16_9/1024/1611-narva.png",
+   "important": true,
+   "hot": false
   },
   {
    "title": "Rovaniemi | Mies ajoi pakettiautolla Lapin keskus­sairaalan ovista läpi",
    "link": "https://www.hs.fi/suomi/art-2000012417181.html",
-   "published": "2026-11-16T19:37:00+00:00",
+   "published": "2026-11-16T20:14:00+00:00",
    "description": "Poliisi on ottanut epäillyn kuljettajan kiinni.",
-   "image": null,
+   "image": "https://images.sanoma-sndp.fi/1acd48d04a614aa2867224747964b11e/normal/1440.jpg",
    "important": false,
    "hot": true
   },
   {
-   "title": "Markku ”Fana” Palmroos on kuollut",
-   "link": "https://www.is.fi/jalkapallo/art-2000012417140.html",
-   "published": "2026-11-16T19:37:00+00:00",
-   "description": "A-maajoukkueessakin esiintynyt helsinkiläinen sairasti pitkään.",
-   "image": "https://images.sanoma-sndp.fi/1255838e40ef180ceda1600cedd154f8/normal/1440.jpg",
+   "title": "Gypsy Rose Blanchardin puolison kuolinsyy julki",
+   "link": "https://www.is.fi/viihde/art-2000012417152.html",
+   "published": "2026-11-16T20:11:00+00:00",
+   "description": "Gypsy Rose Blanchard ounasteli aiemmin People-lehdelle, että hänen puolisonsa Ken Urker kuoli yliannostukseen.",
+   "image": "https://images.sanoma-sndp.fi/382b4a221390ddc5fc6939fb25cf2d24/normal/1440.jpg",
    "important": false,
    "hot": false
   },
   {
-   "title": "Tämä prinsessa Estellen vierailusta Helsingissä tiedetään – HBL: Suurlähettiläältä yllättävä arvio Stubbin roolista",
-   "link": "https://www.is.fi/kuninkaalliset/art-2000012417124.html",
-   "published": "2026-11-16T19:33:00+00:00",
-   "description": "Prinsessa Estellen Suomen-vierailu jatkuu tämän viikon.",
-   "image": "https://images.sanoma-sndp.fi/7f733a33c1cc277482b8aabcadc4a525/normal/1440.jpg",
-   "important": true,
-   "hot": true
-  },
-  {
-   "title": "Suosikkiohjelman ympärillä kuohuu – nyt puhuu Miska Haakana: ”Se on peliä”",
-   "link": "https://www.is.fi/viihde/art-2000012414499.html",
-   "published": "2026-11-16T19:30:00+00:00",
-   "description": "– Mielestäni ihmisten pitää muistaa, että se on peliä, toteaa Petollisiin osallistunut Miska Haakana.",
-   "image": "https://images.sanoma-sndp.fi/1d00a02bf072949de4c9e1254d597c30/normal/1440.jpg",
+   "title": "Forbes: Laajoja pankki­häiriöitä Yhdysvalloissa",
+   "link": "https://www.is.fi/taloussanomat/art-2000012417250.html",
+   "published": "2026-11-16T20:06:00+00:00",
+   "description": "Häiriöitä on raportoitu useasta suurpankista.",
+   "image": "https://images.sanoma-sndp.fi/3d142ca7d8f0db2dc05e70ead3977bb8/normal/1440.jpg",
    "important": false,
    "hot": false
   },
   {
-   "title": "Pankkihäiriöt | Useissa suurissa yhdys­valtalais­pankeissa laaja verkko­häiriö",
-   "link": "https://www.hs.fi/maailma/art-2000012417194.html",
-   "published": "2026-11-16T19:27:00+00:00",
-   "description": "Häiriön laajuus ja mahdollinen syy ovat epäselviä.",
-   "image": null,
+   "title": "Tasa-arvo | Helsingin seutu kulkee vastavirtaan: Abortti on ilmainen",
+   "link": "https://www.hs.fi/helsinki/art-2000012416044.html",
+   "published": "2026-11-16T20:05:00+00:00",
+   "description": "Husin poliitikot päättivät omalta osaltaan ensi vuoden maksuista potilaille. HS etsii haastateltavia, jotka ovat itse kokeneet abortin.",
+   "image": "https://images.sanoma-sndp.fi/5f1f72361ea9e21a4004d918b0bdae33/normal/1440.jpg",
    "important": false,
    "hot": false
   },
   {
-   "title": "Leijonien maailmanmestarille jatkosopimus",
-   "link": "https://www.is.fi/jaakiekko/art-2000012417165.html",
-   "published": "2026-11-16T19:27:00+00:00",
-   "description": "Vuoden 2019 maailmanmestari Oliwer Kaski jatkaa uraansa Ruotsin pääsarjassa.",
-   "image": "https://images.sanoma-sndp.fi/8cf2f17074ef5d25817ccaa9274aecff/normal/1440.jpg",
+   "title": "Cristiano Ronaldon äidiltä raju purkaus – iloitsi Portugalin nöyryytyksestä: ”Ihan oikein heille”",
+   "link": "https://www.is.fi/jalkapallo/art-2000012417112.html",
+   "published": "2026-11-16T20:03:00+00:00",
+   "description": "Dolores Aveiron mielestä hänen poikaansa ei arvostettu maajoukkueessa.",
+   "image": "https://images.sanoma-sndp.fi/615d6ac06fdd4bfb53cc317a6c2621aa/normal/1440.jpg",
    "important": false,
    "hot": false
   },
   {
-   "title": "Warren Buffett tekee miljardilahjoituksen: Bill Gatesille kävi köpelösti",
-   "link": "https://www.kauppalehti.fi/uutiset/a/bfbbdaf9-a1a9-41c1-ae43-46bfbd92ab42?utm_source=rss",
-   "published": "2026-11-16T19:25:00+00:00",
-   "description": "",
-   "image": null,
+   "title": "Nyt kuohuu F1:ssä: boikotti",
+   "link": "https://www.is.fi/formula1/art-2000012416900.html",
+   "published": "2026-11-16T19:55:00+00:00",
+   "description": "Yli 20 vuotta Formula 1:tä seurannut toimittaja menetti akkreditointinsa kolumninsa vuoksi.",
+   "image": "https://images.sanoma-sndp.fi/0a70dc179d3c2824f793519c6f482b85/normal/1440.jpg",
    "important": false,
    "hot": false
   },
   {
-   "title": "Rantaselta vakava varoitus Venäjän sabotaasista: ”Uhka koskee myös Suomea”",
-   "link": "https://www.is.fi/politiikka/art-2000012417085.html",
-   "published": "2026-11-16T19:22:00+00:00",
-   "description": "Sisäministeri ei näe Viron rajasululla suuria vaikutuksia Suomelle tai Suomen turvallisuudelle.",
-   "image": "https://images.sanoma-sndp.fi/f609cf244ddbd1f967a75c55ddda9a95/normal/1440.jpg",
+   "title": "Paavi sai rukous­nauhasta kasvoilleen",
+   "link": "https://www.is.fi/ulkomaat/art-2000012417063.html",
+   "published": "2026-11-16T19:45:00+00:00",
+   "description": "Paavi on aiemmin onnistunut nappaamaan yleisöstä heitettyjä esineitä. Tällä kertaa rukousnauha pääsi yllättämään.",
+   "image": "https://images.sanoma-sndp.fi/e9cffda8a7dd829c51ac931cc942c54b/normal/1440.jpg",
    "important": false,
    "hot": false
   }
@@ -120,43 +120,52 @@
    "hot": false
   },
   {
-   "title": "Cap fits as Robertson takes King Kenny's crown",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cjp3v5r9enp1o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T19:43:33+00:00",
-   "description": "Andy Robertson has taken over from Kenny Dalglish as Scotland's most-capped player, making his 103rd appearance in Monday's Nations League game against Switzerland.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3c62/live/9cca3b80-e1b7-11f1-99b6-a35a62fa4264.png",
+   "title": "Switzerland v Scotland, Germany v Netherlands, and more: Nations League – live",
+   "link": "https://www.theguardian.com/football/live/2026/nov/16/switzerland-v-scotland-germany-v-netherlands-and-more-nations-league-live",
+   "published": "2026-11-16T20:30:35+00:00",
+   "description": "⚽️ Nations League updates from the 7.45pm GMT kick-offs⚽️ Live scoreboard | Follow us on Bluesky | And mail WillThomas Tuchel believes winning the Nations League would can provide England with the springboard to Euro 2028 glory. The head coach watched his team close out the calendar year with a sensational 3-2 victory against Spain at the Metropolitano Stadium on ­Sunday.Some results from the earl",
+   "image": "https://i.guim.co.uk/img/media/ead0ac76580b85e84f084834e7df261958ff6255/800_940_2575_2060/master/2575.jpg?width=140&quality=85&auto=format&fit=max&s=5e21a7fa963b705feecf3f7e6ff183c9",
    "important": false,
-   "hot": false
+   "hot": true
+  },
+  {
+   "title": "Tuchel and England must learn lessons of history, Seville and Southgateism | Barney Ronay",
+   "link": "https://www.theguardian.com/football/2026/nov/16/thomas-tuchel-england-must-learn-lessons-history-seville-gareth-southgate",
+   "published": "2026-11-16T20:02:09+00:00",
+   "description": "Another 3-2 win in Spain brings the lure of a golden new hyper-future – but it did not pan out that way last timeI may have the body of a weak and feeble German, but I have the heart and stomach of a manager of England. And I think it foul scorn that Spain should dare to invade the borders of my realm. Or, for that matter, any one of 24 qualified teams for Euro 2028, because at the end of the day ",
+   "image": "https://i.guim.co.uk/img/media/30bfa92c143236fb2c40beb586b1259f8edb2f50/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=e43c6c26de1c7e6721d37b5307be4319",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Robertson makes history with record 103rd Scotland cap",
+   "link": "https://www.skysports.com/football/news/12040/13612913/andy-robertson-scotland-captain-breaks-national-appearance-record-by-winning-103rd-senior-cap-vs-switzerland",
+   "published": "2026-11-16T19:47:00+00:00",
+   "description": "Andy Robertson has broken the record for the most senior Scotland men's team caps, surpassing the feat held by Sir Kenny Dalglish for 40 years.",
+   "image": "https://e1.365dm.com/26/11/1920x1080/skysports-football-scotland_7402989.jpg?20261110115123",
+   "important": false,
+   "hot": true
   },
   {
    "title": "Robertson eclipses Dalglish to become Scotland's most capped man",
    "link": "https://www.bbc.co.uk/sport/football/articles/cjp3v5r9enp1o?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-16T19:43:33+00:00",
    "description": "Andy Robertson has taken over from Kenny Dalglish as Scotland's most-capped player, making his 103rd appearance in Monday's Nations League game against Switzerland.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3c62/live/9cca3b80-e1b7-11f1-99b6-a35a62fa4264.png",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Switzerland v Scotland, Germany v Netherlands, and more: Nations League – live",
-   "link": "https://www.theguardian.com/football/live/2026/nov/16/switzerland-v-scotland-germany-v-netherlands-and-more-nations-league-live",
-   "published": "2026-11-16T19:21:20+00:00",
-   "description": "⚽️ Nations League updates from the 7.45pm GMT kick-offs⚽️ Live scoreboard | Follow us on Bluesky | And mail WillThomas Tuchel believes winning the Nations League would can provide England with the springboard to Euro 2028 glory. The head coach watched his team close out the calendar year with a sensational 3-2 victory against Spain at the Metropolitano Stadium on ­Sunday.Some results from the earl",
-   "image": "https://i.guim.co.uk/img/media/4be267f3c9b8baa714744c74b87c7072b09bfe2b/600_0_4643_3716/master/4643.jpg?width=140&quality=85&auto=format&fit=max&s=98ed583e95a8b364dc044cb97026c314",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/131e/live/7321ccd0-e1f8-11f1-ac6e-e9777cdcbb4f.jpg",
    "important": false,
    "hot": true
   },
   {
-   "title": "‘We want to win it’: Tuchel says Nations League can set England up for Euro 2028 glory",
-   "link": "https://www.theguardian.com/football/2026/nov/16/england-winning-nations-league-euro-2028-thomas-tuchel",
-   "published": "2026-11-16T19:00:51+00:00",
-   "description": "Winning Nations League ‘the best preparation’ for EurosEngland to be seeded in Friday’s draw after Spain winThomas Tuchel believes winning the Nations League would provide England with the springboard to Euro&nbsp;2028 glory. The head coach watched his team close out the calendar year with a sensational 3-2 victory against Spain at the Metropolitano Stadium on ­Sunday.It meant England leapfrogged ",
-   "image": "https://i.guim.co.uk/img/media/9eb83f7937f2d2821707503625e5acd88ebd4774/712_0_5067_4054/master/5067.jpg?width=140&quality=85&auto=format&fit=max&s=ef6c1d0bd99e1048c6055383b1c9c5a5",
-   "important": true,
+   "title": "Robertson eclipses Dalglish to become Scotland's most capped man",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cjp3v5r9enp1o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-16T19:43:33+00:00",
+   "description": "Andy Robertson has taken over from Kenny Dalglish as Scotland's most-capped player, making his 103rd appearance in Monday's Nations League game against Switzerland.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/131e/live/7321ccd0-e1f8-11f1-ac6e-e9777cdcbb4f.jpg",
+   "important": false,
    "hot": true
   },
   {
-   "title": "Joseph set to start for crunch England clash with New Zealand",
+   "title": "Joseph set to start for England clash with New Zealand",
    "link": "https://www.skysports.com/rugby-union/live-blog/12040/13604349/nations-championship-2026-latest-news-and-video-from-northern-hemisphere-series-with-england-ireland-scotland-wales-in-action",
    "published": "2026-11-16T19:00:00+00:00",
    "description": "",
@@ -165,11 +174,11 @@
    "hot": false
   },
   {
-   "title": "Switzerland vs Scotland LIVE!",
+   "title": "McGinn misses good chance to level for Scotland in Switzerland LIVE!",
    "link": "https://www.skysports.com/football/switzerland-vs-scotland/live/554127",
    "published": "2026-11-16T18:30:00+00:00",
    "description": "",
-   "image": "https://e2.365dm.com/26/11/1920x1080/skysports-andy-robertson-scotland_7406189.jpg?20261113230254",
+   "image": "https://e1.365dm.com/26/11/1920x1080/skysports-scotland-switzerland_7408110.jpg?20261116202357",
    "important": false,
    "hot": false
   },
@@ -208,18 +217,45 @@
    "image": "https://e1.365dm.com/26/11/1920x1080/skysports-raymond-van-barneveld_7408021.jpg?20261116181305",
    "important": false,
    "hot": false
-  },
-  {
-   "title": "Cameroon, Senegal and Benin close in on Afcon 2027 qualification",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cwg7lr2ly3ngo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T18:07:51+00:00",
-   "description": "Cameroon, Senegal and Benin are on the brink of qualifying for the 2027 Africa Cup of Nations, while Ghana secure another crucial win in their bid to reach the finals.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9751/live/dd2677a0-e1d7-11f1-ac67-3510ff19b64e.jpg",
-   "important": false,
-   "hot": false
   }
  ],
  "teknologia": [
+  {
+   "title": "Comcast falsely advertises cable Internet as \"fiber-powered,\" AT&T lawsuit says",
+   "link": "https://arstechnica.com/tech-policy/2026/11/comcast-falsely-advertises-cable-internet-as-fiber-powered-att-lawsuit-says/",
+   "published": "2026-11-16T20:27:58+00:00",
+   "description": "AT&#038;T demands Comcast give AT&#038;T profits it made from advertising cable as fiber.",
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2022/11/getty-comcast-van-1152x648.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "California state AG sues OpenAI over rogue agent incidents",
+   "link": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+   "published": "2026-11-16T20:07:13+00:00",
+   "description": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Supreme Court keeps injunction against DEI grant defunding in place",
+   "link": "https://arstechnica.com/science/2026/11/supreme-court-keeps-injunction-against-dei-grant-defunding-in-place/",
+   "published": "2026-11-16T19:54:21+00:00",
+   "description": "Appeals court ruling rejected grant cancellations on First Amendment grounds.",
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2302915568-1024x648.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "When will humans actually fly on Starship?",
+   "link": "https://arstechnica.com/space/2026/11/when-will-humans-actually-fly-on-starship/",
+   "published": "2026-11-16T19:46:08+00:00",
+   "description": "All estimates of human spaceflight on Starship should be taken with a gigantic grain of salt.",
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/spaceX-1152x648.jpeg",
+   "important": false,
+   "hot": false
+  },
   {
    "title": "Meet the new James Bond: Robert Pattinson",
    "link": "https://arstechnica.com/culture/2026/11/meet-the-new-james-bond-robert-pattinson/",
@@ -291,155 +327,137 @@
    "image": null,
    "important": false,
    "hot": false
-  },
-  {
-   "title": "Saltgrain and NTT Research Develop Large-Universe Post-Quantum Encryption",
-   "link": "https://thequantuminsider.com/2026/11/16/saltgrain-ntt-research-post-quantum-attribute-based-encryption/",
-   "published": "2026-11-16T17:33:34+00:00",
-   "description": "Insider Brief PRESS RELEASE &#8212; Saltgrain, the data-centric security platform for sovereign data, incubated in Scale Academy at NTT Research, the Silicon Valley research arm of NTT, Inc., and the NTT Research Cryptography and Information Security (CIS) Lab today announced that the first practical large-universe post-quantum attribute-based encryption is headed for Saltgrain. The technology let",
-   "image": "https://thequantuminsider.com/wp-content/uploads/2026/11/2026-11-16_22-32.png",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Jordan Belfort’s new AI voice startup, Tone, wants to sell like the ‘Wolf of Wall Street’",
-   "link": "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street/",
-   "published": "2026-11-16T17:10:00+00:00",
-   "description": "Belfort claims his AI sales voice can already close deals almost as well as the best human salespeople, and he thinks it will catch up in a year.",
-   "image": null,
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "OpenAI will embed safety researchers to investigate AI subversion",
-   "link": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
-   "published": "2026-11-16T17:02:43+00:00",
-   "description": "OpenAI will embed six Apollo Research evaluators to investigate whether its AI models engage in subversive behavior, but restrictions on access and disclosure raise questions about their independence.",
-   "image": null,
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM",
-   "link": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
-   "published": "2026-11-16T17:00:00+00:00",
-   "description": "ChatGPT will ban an account trying to access CSAM content for 24 hours as a warning",
-   "image": null,
-   "important": false,
-   "hot": false
   }
  ],
  "maailma": [
   {
-   "title": "Trump defends commerce secretary Lutnick for allegedly slow-walking Nvidia chip export restrictions – live",
-   "link": "https://www.theguardian.com/us-news/live/2026/nov/16/donald-trump-asia-visit-democrats-republicans-elizabeth-warren-faa-air-disruption-latest-news-updates",
-   "published": "2026-11-16T19:32:06+00:00",
-   "description": "President backs Lutnick after treasury secretary Scott Bessent blamed commerce department for delays in blocking advance AI chip exportsSign up for the Breaking News US emailLauren Almeida and Dan MilmoElon Musk and a host of other tech bosses have called for Jensen Huang’s reinstatement at Nvidia, amid reports the former chief executive is already plotting a return to the chip company just four d",
-   "image": "https://i.guim.co.uk/img/media/29e1fc8710bf83e00df914f8c097f75fb4d65897/496_0_4327_3461/master/4327.jpg?width=140&quality=85&auto=format&fit=max&s=d102a629805843dfa154e4ba0be7271b",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Lindsay Clancy to face retrial next year for deaths of her three children",
-   "link": "https://www.bbc.co.uk/news/articles/cw5y1v8de35go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T19:30:30+00:00",
-   "description": "The 36-year-old's first trial this year fell apart when a 12-person jury failed to reach a verdict.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0f3a/live/c50f43d0-e1dd-11f1-99a1-253766e7ad8b.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Five EU countries announce plan to send rejected asylum seekers to Rwanda",
-   "link": "https://www.aljazeera.com/news/2026/11/16/five-eu-countries-announce-plan-to-send-rejected-asylum-seekers-to-rwanda?traffic_source=rss",
-   "published": "2026-11-16T19:26:40+00:00",
-   "description": "In a joint statement, 47 aid, trade union and rights groups urged ‌the five countries to ​abandon the Rwanda plan.",
-   "image": null,
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Saudi Arabia dismisses commander of coalition forces fighting Houthis",
-   "link": "https://www.aljazeera.com/news/2026/11/16/saudi-arabia-dismisses-commander-of-coalition-forces-fighting-houthis?traffic_source=rss",
-   "published": "2026-11-16T19:19:21+00:00",
-   "description": "Move comes as government forces withdraw from Red Sea coast to halt Houthi approach to interim capital Aden.",
-   "image": null,
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Forensic expert says his analysis raises doubts about how Epstein died",
+   "title": "Forensic expert says his analysis of autopsy photos suggest Epstein was killed",
    "link": "https://www.bbc.co.uk/news/articles/c5n4exg1kkmyo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T19:19:18+00:00",
+   "published": "2026-11-16T20:33:57+00:00",
    "description": "Professor Michael Freeman tells BBC Newsnight that he believes the convicted sex offender's injuries are consistent with a homicide.",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f4ce/live/59eafa00-e1c3-11f1-8a52-0b287ff76f43.jpg",
    "important": false,
    "hot": false
   },
   {
-   "title": "Thousands report difficulties accessing accounts online at major US banks",
-   "link": "https://www.aljazeera.com/news/2026/11/16/thousands-report-difficulties-accessing-accounts-online-at-major-us-banks?traffic_source=rss",
-   "published": "2026-11-16T19:18:10+00:00",
-   "description": "Customers report online access issues at major US banks, including Chase, Wells Fargo, and Bank of America.",
+   "title": "Suspect in custody after bomb found at Illinois ethanol plant",
+   "link": "https://www.theguardian.com/us-news/2026/nov/16/illinois-bomb-ethanol-plant-suspect",
+   "published": "2026-11-16T20:25:06+00:00",
+   "description": "The FBI is leading the investigation into the Biourja Renewables incident after it led to a temporary evacuationAuthorities investigating a bomb found recently at an ethanol production plant in Peoria, Illinois, have taken a suspect into custody, according to the mayor there.The Peoria mayor, Rita Ali, told the Guardian on Monday that leadership at the BioUrja Renewables plant “have informed me th",
+   "image": "https://i.guim.co.uk/img/media/331ca93396a5c80784133ac7c3dfbd182ea9ca68/650_0_4618_3695/master/4618.jpg?width=140&quality=85&auto=format&fit=max&s=dbb597bbe12cf4df0a344d475a5af636",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Microsoft identifies months-old bug as root cause of global outage",
+   "link": "https://www.theguardian.com/technology/2026/nov/16/microsoft-global-outage-cause",
+   "published": "2026-11-16T20:23:20+00:00",
+   "description": "Latent bug or defect from July caused Microsoft’s servers to ‘become overwhelmed and unresponsive’, executive saysMicrosoft has identified the root cause of the outage on Thursday that crippled Outlook, Exchange and a host of other vital office software across the globe.The company issued an initial report on Monday that identified a months-old bug malfunctioning connections between internal syste",
+   "image": "https://i.guim.co.uk/img/media/a40cf590042829e0e6891a61505aced8281edac7/333_0_3333_2668/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=5b754e23f57bbf0dbc9a353eff392d14",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Customers report difficulty accessing online services at major US banks",
+   "link": "https://www.theguardian.com/business/2026/nov/16/us-bank-outage-chase-wells-fargo",
+   "published": "2026-11-16T20:21:59+00:00",
+   "description": "Bank of America, Chase, US Bank, Wells Fargo and Truist were listed by users who have been experiencing issuesCustomers reported difficulty accessing their online accounts at some major US banks on Monday.The reports follow a major outage by Microsoft that began Friday and lasted for hours, which affected services including Outlook, Teams and AI assistant Copilot and had serious repercussions all ",
+   "image": "https://i.guim.co.uk/img/media/3646b72898ae901bf0c2c1a9dbe0b69194df306e/452_0_4515_3612/master/4515.jpg?width=140&quality=85&auto=format&fit=max&s=90bdf53e095252ef6b02eadb04ea1242",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "UEFA backs Diallo to challenge Infantino for FIFA presidency",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/16/uefa-backs-diallo-to-challenge-infantino-for-fifa-presidency?traffic_source=rss",
+   "published": "2026-11-16T20:20:02+00:00",
+   "description": "UEFA has found its candidate to take on Gianni Infantino in next year’s FIFA presidential election",
    "image": null,
    "important": false,
-   "hot": false
-  },
-  {
-   "title": "Trump backs return of ex-Nvidia boss after 'Bring Jensen Back' campaign launched",
-   "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T19:16:52+00:00",
-   "description": "A number of tech figures want the board of the AI chip giant to give Jensen Huang his job back.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78e4/live/4bc24280-e1d2-11f1-b8c8-67fa35f5afdb.jpg",
-   "important": false,
    "hot": true
   },
   {
-   "title": "Trump backs return of ex-Nvidia boss after 'Bring Jensen Back' campaign launched",
-   "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T19:16:52+00:00",
-   "description": "A number of tech figures want the board of the AI chip giant to give Jensen Huang his job back.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78e4/live/4bc24280-e1d2-11f1-b8c8-67fa35f5afdb.jpg",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "How Milburn won over Labour on tackling rising youth unemployment",
-   "link": "https://www.theguardian.com/society/2026/nov/16/how-milburn-won-over-labour-tackling-rising-youth-unemployment",
-   "published": "2026-11-16T19:16:19+00:00",
-   "description": "Labour grandee seems to have assuaged MPs’ nerves on need for welfare reform to tackle youth unemployment crisisIn a boxing gym in Peterborough almost a year ago, Alan Milburn, freshly appointed to run a government review into the nearly 1 million young people out of work and education, said he would be “unafraid to shine a light on uncomfortable truths”.The Labour grandee, who held three cabinet ",
-   "image": "https://i.guim.co.uk/img/media/61785efa43a9a7250b2d43d3918c53814ed1a016/1519_6_3077_2461/master/3077.jpg?width=140&quality=85&auto=format&fit=max&s=6db88b05b5e321e10adfc2b9e104ec4d",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Cornell announces full review of Greek life after scrutiny over sexual assault case",
-   "link": "https://www.theguardian.com/us-news/2026/nov/16/cornell-review-greek-life-sexual-assault-case",
-   "published": "2026-11-16T19:09:36+00:00",
-   "description": "The university will conduct a series of measures after a former student was gang-raped at a fraternity house two years agoCornell University is set to announce a “full review” of fraternities and sororities determining their future on campus after an alleged sexual assault there has brought scrutiny to the system at the Ivy League school.University president Michael Kotlikoff announced the review ",
-   "image": "https://i.guim.co.uk/img/media/dd55f0b17bae604abd04113df0e32ba22dcf9124/682_0_6829_5464/master/6829.jpg?width=140&quality=85&auto=format&fit=max&s=9b581c3ec0da8d3bd567685975d97b0e",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Is Israel’s Eisenkot bloc less right wing than Netanyahu?",
-   "link": "https://www.aljazeera.com/news/2026/11/16/is-israels-opposition-less-right-wing-than-netanyahu?traffic_source=rss",
-   "published": "2026-11-16T19:09:09+00:00",
-   "description": "An Israeli government without PM Netanyahu may be close, but a government without his politics is far less certain.",
+   "title": "What will Europe do next in Ukraine?",
+   "link": "https://www.aljazeera.com/video/inside-story/2026/11/16/what-will-europe-do-next-in-ukraine?traffic_source=rss",
+   "published": "2026-11-16T20:12:21+00:00",
+   "description": "There is division within the European Union over diplomatic strategy for efforts to end the Russia-Ukraine war.",
    "image": null,
    "important": true,
    "hot": true
   },
   {
-   "title": "Saudi Arabia strategy challenged by anti-Houthi forces in Yemen",
-   "link": "https://www.theguardian.com/world/2026/nov/16/saudi-arabia-challenged-yemeni-allies-ceding-ground-houthis",
-   "published": "2026-11-16T19:04:07+00:00",
-   "description": "Accusations of incompetence follow retreat of Riyadh-backed forces in effort to relieve siege of Taiz and protect Aden Saudi Arabia has been accused by anti-Houthi forces over its military strategy after its Yemeni allies withdrew troops from the strategic Bab al-Mandab strait and pulled back forces from parts of Marib in the central part of the country.The Saudi-backed government explained the re",
-   "image": "https://i.guim.co.uk/img/media/0ecb2503f6896c388697d436947fbafcc58a2e97/345_0_2250_1800/master/2250.jpg?width=140&quality=85&auto=format&fit=max&s=2beb9c59f77d4a48f505b75c6220edf0",
+   "title": "Trump defends commerce secretary Lutnick for allegedly slow-walking Nvidia chip export restrictions – live",
+   "link": "https://www.theguardian.com/us-news/live/2026/nov/16/donald-trump-asia-visit-democrats-republicans-elizabeth-warren-faa-air-disruption-latest-news-updates",
+   "published": "2026-11-16T20:07:50+00:00",
+   "description": "President backs Lutnick after treasury secretary Scott Bessent blamed commerce department for delays in blocking advance AI chip exportsSign up for the Breaking News US emailLauren Almeida and Dan MilmoElon Musk and a host of other tech bosses have called for Jensen Huang’s reinstatement at Nvidia, amid reports the former chief executive is already plotting a return to the chip company just four d",
+   "image": "https://i.guim.co.uk/img/media/29e1fc8710bf83e00df914f8c097f75fb4d65897/496_0_4327_3461/master/4327.jpg?width=140&quality=85&auto=format&fit=max&s=d102a629805843dfa154e4ba0be7271b",
    "important": false,
    "hot": true
+  },
+  {
+   "title": "Failed UK asylum seekers to lose five-day grace period and face immediate removal",
+   "link": "https://www.theguardian.com/uk-news/2026/nov/16/failed-uk-asylum-seekers-to-lose-five-day-grace-period-and-face-immediate-removal",
+   "published": "2026-11-16T20:06:24+00:00",
+   "description": "Home Office plans condemned as ‘distressing’ by refugee charitiesAsylum seekers who have exhausted the formal appeals process will be stripped of a five-day grace period and become eligible for immediate removal under Home Office plans condemned as “distressing” by refugee charities.Shabana Mahmood, the home secretary, will amend a bill currently before parliament to allow Immigration Enforcement ",
+   "image": "https://i.guim.co.uk/img/media/26d456813260a71cc5a24d0234d78199c8f8c003/535_59_1388_1110/master/1388.jpg?width=140&quality=85&auto=format&fit=max&s=98423e86938b67c44d1cf1a9a902b3c6",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Nationwide ground stop could cost US airlines hundreds of millions",
+   "link": "https://www.aljazeera.com/news/2026/11/16/nationwide-ground-stop-could-cost-us-airlines-hundreds-of-millions?traffic_source=rss",
+   "published": "2026-11-16T20:05:06+00:00",
+   "description": "Airline executives support modernising FAA systems as US Transportation Secretary Duffy seeks $50bn from Congress.",
+   "image": null,
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Israeli opposition accuses Netanyahu of attempted ‘coup’",
+   "link": "https://www.aljazeera.com/news/2026/11/16/israeli-opposition-accuses-netanyahu-of-attempted-coup?traffic_source=rss",
+   "published": "2026-11-16T20:00:07+00:00",
+   "description": "Rivals call for investigation into reports that PM&#039;s office tried to frame Arab parties.",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Ministers to end Palantir’s contract with NHS in England in 2029",
+   "link": "https://www.theguardian.com/society/2026/nov/16/ministers-to-end-palantir-contract-nhs-england-2029",
+   "published": "2026-11-16T19:59:31+00:00",
+   "description": "DHSC to extend US tech firm’s contract for two more years to allow time to line up British companies to replace itMinisters will end the NHS’s contract with the controversial tech firm Palantir – but not until 2029, to allow time to line up British companies to replace it.The Department of Health and Social Care (DHSC) has decided to extend Palantir’s contract to provide the federated data platfor",
+   "image": "https://i.guim.co.uk/img/media/2492145870792c940b152bec952dec99ef8071eb/415_0_4151_3321/master/4151.jpg?width=140&quality=85&auto=format&fit=max&s=7f86011f4d4d9f2a535c3ab895ab5f7e",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Leave.EU and Vote Leave veterans launch rival campaigns to defend Brexit",
+   "link": "https://www.theguardian.com/politics/2026/nov/16/people-behind-vote-leave-eu-launch-new-incarnations-brexit",
+   "published": "2026-11-16T19:38:45+00:00",
+   "description": "Andy Wigmore says there will be no animosity this time between his Enough Official group and Michael Gove-backed Stay Out movementThe Brexit wars were a bitter period in political history, fraught with tension and badmouthing – and that was just between the different leave campaigns.Now as a new incarnation of Dominic Cummings’ Vote Leave looks set to re-enter the political fray, so too does a riv",
+   "image": "https://i.guim.co.uk/img/media/f3c3c6f70f587ec003b3db770a4f62ade49142c9/80_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=a140700e5c4084accbf996e012cb1bc3",
+   "important": false,
+   "hot": false
   }
  ],
  "musiikki": [
+  {
+   "title": "B2 Fight järjestää neljän miehen turnauksen – voittajalle 80 000 euroa",
+   "link": "https://www.klangi.fi/uutiset/b2-fight-jarjestaa-rahakkaan-turnauksen/",
+   "published": "2026-11-16T20:33:27+00:00",
+   "description": "B2 Fightin tammikuun tapahtumassa neljä raskassarjalaista taistelee 80 000 euron voittopotista. B2 Fight järjestää 30. tammikuuta 2027 kamppailutapahtumassaan neljän raskassarjalaisen\nArtikkeli B2 Fight järjestää neljän miehen turnauksen – voittajalle 80 000 euroa julkaistiin ensimmäisen kerran Klangi.",
+   "image": "https://www.klangi.fi/wp-content/uploads/2026/11/Eemil-Ordell-B2Fight-Klangi-2026-1024x683.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Grammyt ovat taas jaossa – Beyoncé teki historiaa heti ehdokkaiden julkistuksessa",
+   "link": "https://www.soundi.fi/uutiset/grammyt-ovat-taas-jaossa-beyonce-teki-historiaa-heti-ehdokkaiden-julkistuksessa/",
+   "published": "2026-11-16T20:09:41+00:00",
+   "description": "Yhdysvaltalainen The Recording Academy jakaa vuosittain musiikkialan arvostetuimpiin tunnustuksiin lukeutuvat Grammyt. Vuoden 2027 ehdokkaat ovat nyt julki, ja joukkoa johtaa Brittilaulaja Raye 11 ehdokkuudellaan. Seuraavina tulevat Rosalía (9 ehdokkuutta ) sekä Phoebe Bridgers, Miranda Lambert, Ella Langley ja Olivia Rodrigo (kaikilla 7 ehdokkuutta). Beyoncésta tuli puolestaan ensimmäinen artisti",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
   {
    "title": "Lääkärintodistus GTA 6 -viikolle? DJ Khaled ja Xbox kirjoittavat sen – loppu jää pomon huumorintajun varaan",
    "link": "https://www.klangi.fi/uutiset/dj-khaled-xbox-laakarintodistus-gta-6/",
@@ -529,24 +547,6 @@
    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/Wilson-Credit-Jace-Kartye.jpeg?w=564",
    "important": true,
    "hot": true
-  },
-  {
-   "title": "Snubbed By Grammys, John Summit Says He Will Never Submit Again: “It’s All A Fucking Joke”",
-   "link": "https://stereogum.com/2518305/snubbed-by-grammys-john-summit-says-he-will-never-submit-again-its-all-a-fucking-joke/news/",
-   "published": "2026-11-16T16:37:03+00:00",
-   "description": "The post Snubbed By Grammys, John Summit Says He Will Never Submit Again: &#8220;It&#8217;s All A Fucking Joke&#8221; appeared first on Stereogum.",
-   "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/summittttt.png?w=564",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Yksi artisti kahmi Grammy-ehdokkuuksia yli kymmenen – eikä se ole Taylor Swift",
-   "link": "https://www.klangi.fi/uutiset/grammy-ehdokkaat-2027-raye-johtaa/",
-   "published": "2026-11-16T16:35:19+00:00",
-   "description": "Grammy-ehdokkaat 2027 nostivat Ella Langleyn kaikkiin neljään pääkategoriaan, ja gaala palaa ABC:lle yli puolen vuosisadan tauon jälkeen. Raye on ehdolla\nArtikkeli Yksi artisti kahmi Grammy-ehdokkuuksia yli kymmenen – eikä se ole Taylor Swift julkaistiin ensimmäisen kerran Klangi.",
-   "image": "https://www.youtube.com/embed/TaBQChyRLy4",
-   "important": false,
-   "hot": false
   }
  ]
 }
