@@ -31,13 +31,6 @@
    "testattu": true
   },
   {
-   "id": "ap",
-   "nimi": "Associated Press",
-   "kieli": "en",
-   "rss": "https://apnews.com/hub/ap-top-news?output=rss",
-   "testattu": false
-  },
-  {
    "id": "bbc-news",
    "nimi": "BBC News",
    "kieli": "en",
@@ -94,13 +87,6 @@
    "testattu": true
   },
   {
-   "id": "carbonbrief",
-   "nimi": "Carbon Brief",
-   "kieli": "en",
-   "rss": "https://www.carbonbrief.org/feed/",
-   "testattu": false
-  },
-  {
    "id": "cbs-news",
    "nimi": "CBS News",
    "kieli": "en",
@@ -150,32 +136,11 @@
    "testattu": true
   },
   {
-   "id": "ecowatch",
-   "nimi": "EcoWatch",
-   "kieli": "en",
-   "rss": "https://www.ecowatch.com/feed",
-   "testattu": false
-  },
-  {
    "id": "engadget",
    "nimi": "Engadget",
    "kieli": "en",
    "rss": "https://www.engadget.com/rss.xml",
    "testattu": true
-  },
-  {
-   "id": "esa",
-   "nimi": "ESA",
-   "kieli": "en",
-   "rss": "https://www.esa.int/rssfeed/Our_Activities/Space_Science",
-   "testattu": false
-  },
-  {
-   "id": "espn",
-   "nimi": "ESPN",
-   "kieli": "en",
-   "rss": "https://www.espn.com/espn/rss/news",
-   "testattu": false
   },
   {
    "id": "euronews",
@@ -199,32 +164,11 @@
    "testattu": true
   },
   {
-   "id": "france24",
-   "nimi": "France 24",
-   "kieli": "en",
-   "rss": "https://www.france24.com/en/rss",
-   "testattu": false
-  },
-  {
-   "id": "goal",
-   "nimi": "Goal",
-   "kieli": "en",
-   "rss": "https://www.goal.com/feeds/en/news",
-   "testattu": false
-  },
-  {
    "id": "grist",
    "nimi": "Grist",
    "kieli": "en",
    "rss": "https://grist.org/feed/",
    "testattu": true
-  },
-  {
-   "id": "harvard-health",
-   "nimi": "Harvard Health",
-   "kieli": "en",
-   "rss": "https://www.health.harvard.edu/blog/feed",
-   "testattu": false
   },
   {
    "id": "hs",
@@ -297,25 +241,11 @@
    "testattu": true
   },
   {
-   "id": "mnt",
-   "nimi": "Medical News Today",
-   "kieli": "en",
-   "rss": "https://rss.medicalnewstoday.com/featurednews.xml",
-   "testattu": false
-  },
-  {
    "id": "mit-tr",
    "nimi": "MIT Technology Review",
    "kieli": "en",
    "rss": "https://www.technologyreview.com/feed/",
    "testattu": true
-  },
-  {
-   "id": "mongabay",
-   "nimi": "Mongabay",
-   "kieli": "en",
-   "rss": "https://news.mongabay.com/feed/",
-   "testattu": false
   },
   {
    "id": "mtv",
@@ -421,13 +351,6 @@
    "kieli": "en",
    "rss": "https://pitchfork.com/feed/feed-news/rss",
    "testattu": true
-  },
-  {
-   "id": "politico",
-   "nimi": "Politico",
-   "kieli": "en",
-   "rss": "https://www.politico.com/rss/politicopicks.xml",
-   "testattu": false
   },
   {
    "id": "politico-eu",
@@ -626,32 +549,11 @@
    "testattu": true
   },
   {
-   "id": "independent-crime",
-   "nimi": "The Independent (Crime)",
-   "kieli": "en",
-   "rss": "https://www.independent.co.uk/news/uk/crime/rss",
-   "testattu": false
-  },
-  {
-   "id": "kyiv-independent",
-   "nimi": "The Kyiv Independent",
-   "kieli": "en",
-   "rss": "https://kyivindependent.com/feed/",
-   "testattu": false
-  },
-  {
    "id": "quantum-insider",
    "nimi": "The Quantum Insider",
    "kieli": "en",
    "rss": "https://thequantuminsider.com/feed/",
    "testattu": true
-  },
-  {
-   "id": "times-of-israel",
-   "nimi": "The Times of Israel",
-   "kieli": "en",
-   "rss": "https://www.timesofisrael.com/feed/",
-   "testattu": false
   },
   {
    "id": "verge",
@@ -694,13 +596,6 @@
    "kieli": "en",
    "rss": "https://www.wired.com/feed/rss",
    "testattu": true
-  },
-  {
-   "id": "yahoo-finance",
-   "nimi": "Yahoo Finance",
-   "kieli": "en",
-   "rss": "https://finance.yahoo.com/news/rssindex",
-   "testattu": false
   },
   {
    "id": "yahoo-sports",
