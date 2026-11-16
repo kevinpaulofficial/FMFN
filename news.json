@@ -1,115 +1,205 @@
 {
  "suomi": [
   {
-   "title": "Stubb kyllästyi EU-vähättelyyn: ”Geopoliittinen kello käy nopeammin”",
-   "link": "https://www.kauppalehti.fi/uutiset/a/be10feb8-ae11-41b1-988c-91fb90c9a8cd?utm_source=rss",
-   "published": "2026-11-16T11:36:00+00:00",
-   "description": "Alexander Stubbin mukaan EU:n laajentumisessa on kyse vallasta. Mitä suuremmaksi EU kasvaa, sitä enemmän sillä on painoarvoa maailmassa, jossa USA ja Kiina määrittävät suurvaltakilpailua ja Venäjä käy sotaa Euroopassa.",
-   "image": null,
+   "title": "Puolassa kolme nuorta pidätettiin terrori-iskun suunnittelusta – kytköksiä uusnatsiyhteisöön",
+   "link": "https://www.mtvuutiset.fi/artikkeli/puolassa-kolme-nuorta-pidatettiin-terrori-iskun-suunnittelusta-kytkoksia-uusnatsiyhteisoon/9421896",
+   "published": "2026-11-16T12:34:55+00:00",
+   "description": "Epäillyt olivat hankkineet tietoa räjähteiden ja aseiden valmistamisesta sekä ryhtyneet konkreettisiin toimiin iskun toteuttamiseksi.",
+   "image": "https://api.mtvuutiset.fi/graphql/caas/v1/media/9421904/data/c12fda44d4e09e8e3e977169dbf63a16/landscape16_9/1024/aop-puolan-lippu.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Orpo ihmeissään Vapaavuoren merkinnöistä",
+   "link": "https://www.is.fi/politiikka/art-2000012416048.html",
+   "published": "2026-11-16T12:33:00+00:00",
+   "description": "Orpo ei tiedä, mistä Vapaavuoren avoimuusrekisterimerkinnöissä on kyse. Orpo on antanut uuden vastauksen oikeuskanslerille koskien Garden Helsinki -kohua.",
+   "image": "https://images.sanoma-sndp.fi/48af942be974bee975150b6f6c9560b5/normal/1440.jpg",
    "important": true,
    "hot": false
   },
   {
-   "title": "Hus nostaa asiakasmaksuja",
-   "link": "https://www.is.fi/kotimaa/art-2000012415509.html",
-   "published": "2026-11-16T11:21:00+00:00",
-   "description": "Maksut nousevat ensi maaliskuussa.",
-   "image": "https://images.sanoma-sndp.fi/2055353d43ef4f75268002be3a025f23/normal/1440.jpg",
+   "title": "Jokerit ulos SM-liigasta? Urheilujohtajalta erikoisia lausuntoja",
+   "link": "https://www.is.fi/sm-liiga/art-2000012414847.html",
+   "published": "2026-11-16T12:32:00+00:00",
+   "description": "Jokerien urheilujohtajan mukaan seuran ongelmia on nyt syytä alkaa ruotia julkisuuden sijaan seuran sisällä.",
+   "image": "https://images.sanoma-sndp.fi/f27ff24a0343185035937325a60bfb45/normal/1440.jpg",
    "important": false,
    "hot": false
   },
   {
-   "title": "Turkulaisyritys ravistelee silmälasibisnestä, mutta pitävätkö myyntiväitteet vettä?",
-   "link": "https://www.kauppalehti.fi/uutiset/a/45029b6c-28af-4b11-8639-1c526cdf6035?utm_source=rss",
-   "published": "2026-11-16T11:20:00+00:00",
-   "description": "Silmälasien verkkokauppa Banaani Eyewear markkinoi lasejaan selvästi muita halvempina. Yrityksen perustaja Ville Wendelin ja Näe ry:n Panu Tast debatoivat lasien laadusta ja hinnoista Talousaamussa.",
+   "title": "Masked Singer -laulajan tilalla soi väärä ääni – nyt puhuu pudonnut Sonja Lumme",
+   "link": "https://www.is.fi/tv-ja-elokuvat/art-2000012415769.html",
+   "published": "2026-11-16T12:30:00+00:00",
+   "description": "Sonja Lumpeen sijaan jaksossa kuultiin Tuija Pehkosen ääni.",
+   "image": "https://images.sanoma-sndp.fi/8b22c6d1f15426da047f3176f5e74034/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Ihan tavallisen pörssisijoittajan salkkuun on nyt tyrkyllä myös kryptoja – Selvitimme vaihtoehdot ja tarjonnan",
+   "link": "https://www.kauppalehti.fi/uutiset/a/86cd6c53-3ca2-4965-b56a-06a3f2458471?utm_source=rss",
+   "published": "2026-11-16T12:29:00+00:00",
+   "description": "Kryptovaluuttoihin sidottuja sijoitustuotteita on virrannut markkinoille kiihtyvällä tahdilla. Selvitimme, millaisia ne ovat.",
    "image": null,
    "important": false,
    "hot": false
   },
   {
-   "title": "Jääkiekko | Jokerien kurimukseen pilkahti valoa, Teemu Turusen paluu lähestyy",
-   "link": "https://www.hs.fi/urheilu/art-2000012415709.html",
-   "published": "2026-11-16T11:18:00+00:00",
-   "description": "Urheilujohtaja Olli-Pekka Yrjänheikki valotti Jokerien tilannetta.",
-   "image": "https://images.sanoma-sndp.fi/8d3ce7262fcdc20717955e5a0e852497/normal/1440.jpg",
+   "title": "Kysely | Mitä treeniä tai treeniliikettä vihaat yli kaiken?",
+   "link": "https://www.hs.fi/elama/art-2000012399943.html",
+   "published": "2026-11-16T12:28:00+00:00",
+   "description": "Vältteletkö jotakin treeniliikettä viimeiseen asti tai teetkö sitä treenissä silti, koska liikkeen hyödyt ovat vaivan väärti? HS tekee juttua lukijoiden inhokkitreeneistä – paljasta omasi.",
+   "image": "https://images.sanoma-sndp.fi/8876fc6294b086ac2471a2e3bdba19da/normal/1440.jpg",
    "important": false,
    "hot": false
   },
   {
-   "title": "Raskaussurjintä | Raskauteen ja perhevapaisiin liittyvä syrjintä ei kuulu työelämään",
-   "link": "https://www.hs.fi/mielipide/art-2000012414825.html",
-   "published": "2026-11-16T11:15:00+00:00",
-   "description": "Raskaussyrjintä on kielletty laissa. Vastuu lain noudattamisesta kuuluu työnantajalle.",
+   "title": "Valtakunnansyyttäjä ei käsittele syyttäjien päätöksiä Wille Rydmanin tapauksessa",
+   "link": "https://yle.fi/a/74-20257249?origin=rss",
+   "published": "2026-11-16T12:24:45+00:00",
+   "description": "Ministeri Rydman kanteli syyttäjälaitoksen tekemistä päätöksistä valtakunnansyyttäjälle, joka päätti, että tapauksia ei ole tarve käsitellä uudelleen.",
    "image": null,
    "important": false,
    "hot": false
   },
   {
-   "title": "PÖRSSI: Suuryhtiöt laskussa Helsingin pörssissä",
-   "link": "https://www.kauppalehti.fi/uutiset/a/17f778a8-9125-496c-bf90-3da50a4f3cda?utm_source=rss",
-   "published": "2026-11-16T11:12:00+00:00",
-   "description": "Keskon merkintäoikeusanti on käynnissä, joten pörssissä vaihtuvat samaan aikaan sekä vanhat ja uudet osakkeet että merkintäoikeudet.",
+   "title": "FT: Energiayhtiöt varautuvat – Fortum ja Neste arvioivat KL:lle tilannetta",
+   "link": "https://www.kauppalehti.fi/uutiset/a/1ac42780-9199-49c5-baf5-3b94ce796b4a?utm_source=rss",
+   "published": "2026-11-16T12:23:00+00:00",
+   "description": "Kyberturvallisuuteen liittyvät riskit ovat polttoaineyhtiö Nesteen mukaan kasvaneet viime vuosina. Fortum harjoittelee kyberturvallisuutta myös Naton kanssa.",
    "image": null,
    "important": false,
    "hot": false
   },
   {
-   "title": "Suomessa tapahtui “uskomattoman positiivinen käänne”",
-   "link": "https://www.kauppalehti.fi/uutiset/a/b66b3d86-a936-4b52-88fe-aaca53357eb8?utm_source=rss",
-   "published": "2026-11-16T11:10:00+00:00",
-   "description": "Lifeline Venturesin osakkaan Jyri Engeströmin mukaan suomalaisten huippuyhtiöiden omistus ja pääkonttorit pysyvät entistä enemmän Suomessa.",
+   "title": "Syyttäjältä uusi ratkaisu – HS:lle puhtaat paperit Rydman-artikkelista",
+   "link": "https://www.is.fi/politiikka/art-2000012415952.html",
+   "published": "2026-11-16T12:21:00+00:00",
+   "description": "Valtakunnansyyttäjä ei ottanut tapausta uudelleen käsittelyyn.",
+   "image": "https://images.sanoma-sndp.fi/5f1317a8ff2ed91f899e874b6d297fe7/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Iskut kauppoihin | Yle: KRP aloitti tutkinnan kylmä­laitteisiin kohdistuneista kyber­iskuista",
+   "link": "https://www.hs.fi/suomi/art-2000012414549.html",
+   "published": "2026-11-16T12:14:00+00:00",
+   "description": "Keskusrikospoliisi tutkii marraskuun alussa suomalaisiin ruokakauppoihin kohdistuneita kyberhyökkäyksiä. Vastaavia iskuja on tehty myös muualla Euroopassa.",
+   "image": "https://images.sanoma-sndp.fi/316f81a07515c7a0072267f5b34958af/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Sähkön hinta kohoaa korkealle tasolle tiistaina",
+   "link": "https://www.kauppalehti.fi/uutiset/a/211a178e-d6a3-44b6-b708-dcaf7c3cddb8?utm_source=rss",
+   "published": "2026-11-16T12:08:00+00:00",
+   "description": "Tiistain kalleimpina tunteina tuntihinta kohoaa lähes 33 senttiin kilowattitunnilta.",
    "image": null,
    "important": false,
    "hot": false
   },
   {
-   "title": "Jokerit saamassa jättivahvistuksen aivan lähiaikoina",
-   "link": "https://www.is.fi/sm-liiga/art-2000012415616.html",
-   "published": "2026-11-16T11:09:00+00:00",
-   "description": "Urheilujohtaja valotti Jokerien tilannetta.",
-   "image": "https://images.sanoma-sndp.fi/8d3ce7262fcdc20717955e5a0e852497/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Hamza El Issaoui sai rajun palautteen Amazing Race Suomesta – julkaisi suorapuheisen kannanoton: ”Mies saa väsyä, itkeä ja pelätä”",
-   "link": "https://www.is.fi/tv-ja-elokuvat/art-2000012415551.html",
-   "published": "2026-11-16T11:07:00+00:00",
-   "description": "Hamza El Issaoui toivoo, ettei naisten onnistumista yhdistettäisi miesten epäonnistumiseen.",
-   "image": "https://images.sanoma-sndp.fi/be3916805dbd186d3fe00d7f615c8d1e/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Donald Trump ja pikaruokaketjut hävyttömän trollauksen kohteina",
-   "link": "https://www.is.fi/digitoday/art-2000012415320.html",
-   "published": "2026-11-16T11:02:00+00:00",
-   "description": "Nettipalvelun linkkejä oli muutettu niin, että ne vievät aivan eri sivuille kuin alun perin oli tarkoitus.",
-   "image": "https://images.sanoma-sndp.fi/7dd7f46f8a75724ffdb2123579332fd5/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Puola | Kolmea ala­ikäistä epäillään terrori-iskun valmistelusta",
-   "link": "https://www.hs.fi/maailma/art-2000012415491.html",
-   "published": "2026-11-16T11:01:00+00:00",
-   "description": "Poliisi takavarikoi nuorilta kemiallisia aineita, joita voidaan käyttää räjähteiden valmistukseen.",
+   "title": "KOROT JA VALUUTAT: Korkohuolet yhä tapetilla, dollari vahvistuu",
+   "link": "https://www.kauppalehti.fi/uutiset/a/868520f4-282d-445a-ba0f-20c0ed639d05?utm_source=rss",
+   "published": "2026-11-16T12:07:00+00:00",
+   "description": "Dollari on vahvistunut euroa vastaan lähes koko vuoden. Sijoittajat arvailevat keskuspankki Fedin turvautuvan koronnostoon joulukuussa.",
    "image": null,
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Autoilun muutos | Ajoimme ilman käsiä Helsingin keskustaan – näin reagoi Teslan ”avustettu ajo”",
-   "link": "https://www.hs.fi/visio/art-2000012407807.html",
-   "published": "2026-11-16T11:00:00+00:00",
-   "description": "Miten Teslan eteväksi kuvailtu avustin toimii Helsingissä? Kävimme testilenkillä, jossa auton murheenkryyniksi nousivat visaiset kaistamerkinnät.",
-   "image": "https://images.sanoma-sndp.fi/49da4ce6aaff5d4e121642af369a711b/normal/1440.jpg",
    "important": false,
    "hot": false
   }
  ],
  "jalkapallo": [
+  {
+   "title": "Cap fits as Robertson poised to take King Kenny's crown",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cjp3v5r9enp1o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-16T12:18:45+00:00",
+   "description": "Andy Robertson will take over from Kenny Dalglish as Scotland's most capped player when he captains his country against Switzerland on Monday evening.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3c62/live/9cca3b80-e1b7-11f1-99b6-a35a62fa4264.png",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Evatt laments diarrhoea-hit Blackpool loss to Dons",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ck205w918pz7o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-16T12:15:46+00:00",
+   "description": "Blackpool boss Ian Evatt says his squad had a horrific build-up to Saturday's League One defeat by AFC Wimbledon following a fast-spreading sickness bug in his camp.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5cff/live/f2631e90-e1ad-11f1-9a3f-99aca912798e.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Lye, Peterborough and the never-ending Women's FA Cup tie",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cmp3vz1kgpvqo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-16T12:11:48+00:00",
+   "description": "Nowadays, Women's FA Cup ties are decided on the day with extra time and penalties if needed. Unless that tie is Lye Town v Peterborough United.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8737/live/85413790-e1b5-11f1-99a1-253766e7ad8b.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Lye, Peterborough and the never-ending Women's FA Cup tie",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cmp3vz1kgpvqo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-16T12:11:48+00:00",
+   "description": "Nowadays, Women's FA Cup ties are decided on the day with extra time and penalties if needed. Unless that tie is Lye Town v Peterborough United.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8737/live/85413790-e1b5-11f1-99a1-253766e7ad8b.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Republic of Ireland captain Collins to miss Kosovo game",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cmlyd25gy904o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-16T12:02:07+00:00",
+   "description": "Republic of Ireland captain Nathan Collins is ruled out of Tuesday's must-win Nations League game against Kosovo with a knee injury.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c6b8/live/289c2d10-e1b5-11f1-9a3f-99aca912798e.jpg",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Vinicius says transfer interest affected Real form",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cmqx584jwwpvo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-16T12:01:16+00:00",
+   "description": "Real Madrid forward Vinicius Jr says he felt \"truly overwhelmed\" by transfer speculation in the summer.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2464/live/48304950-e1aa-11f1-8ee3-23d0d09d2796.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Is McIlroy Europe's greatest golfer ever?",
+   "link": "https://www.skysports.com/golf/news/12040/13612780/is-rory-mcilroy-europes-greatest-golfer-of-all-time-after-latest-race-to-dubai-success-and-what-still-motivates-him",
+   "published": "2026-11-16T12:00:00+00:00",
+   "description": "Rory McIlroy's quest to become the greatest European player in golfing history continued as he topped the DP World Tour's season-long Order of Merit for a record-equalling eighth time.",
+   "image": "https://e2.365dm.com/26/11/1920x1080/skysports-rory-mcilroy-european-tour-golf_7407705.jpg?20261116114827",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Belgium's Lukaku retires from internationals",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cwlymxr0ge8zo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-16T11:40:20+00:00",
+   "description": "Romelu Lukaku retires from international football, saying he has \"enjoyed every single moment\" of playing for Belgium.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/af62/live/60764690-e1aa-11f1-8ee3-23d0d09d2796.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Republic of Ireland have plenty of promise, but are unable to shake self-sabotage",
+   "link": "https://www.theguardian.com/football/2026/nov/16/republic-of-ireland-heimir-hallgrimsson-nations-league-kosovo",
+   "published": "2026-11-16T11:30:56+00:00",
+   "description": "Hopes of promotion remain alive, but another costly collapse has raised familiar questions before the decisive Nations League game with KosovoThe Republic of Ireland stand on the verge, although of what, nobody seems quite sure. Tuesday’s final Nations League group match, at home to Kosovo, presents a chance for progress or yet another opportunity to showcase a frustrating habit of messing things ",
+   "image": "https://i.guim.co.uk/img/media/42ed5172c5a5a8685472d7f0ab9fc2502e72c6fa/159_0_4606_3684/master/4606.jpg?width=140&quality=85&auto=format&fit=max&s=07ecaafdc7c61af64e0861dc7db7bc49",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Frank agrees deal in principle to become new Crystal Palace head coach",
+   "link": "https://www.skysports.com/football/news/12040/13612758/thomas-frank-crystal-palace-agree-deal-in-principle-with-former-spurs-and-brentford-boss-as-pierre-sages-successor",
+   "published": "2026-11-16T11:30:00+00:00",
+   "description": "Crystal Palace have agreed terms in principle with Thomas Frank to become their next head coach, Sky Sports News understands.",
+   "image": "https://e0.365dm.com/26/11/1920x1080/skysports-frank-crystal-palace_7401633.jpg?20261108205851",
+   "important": false,
+   "hot": true
+  },
   {
    "title": "Klopp says Infantino worse than Blatter",
    "link": "https://www.bbc.co.uk/sport/football/articles/cjr4gr2k41dxo?at_medium=RSS&at_campaign=rss",
@@ -127,99 +217,36 @@
    "image": "https://i.guim.co.uk/img/media/2af2c421a8ac472e90c00fe9d19ee86b55893989/396_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=45be3250b5b1fb9fbbdbf8b21cf7fbd4",
    "important": false,
    "hot": true
-  },
-  {
-   "title": "What's at the top of Frick's Aberdeen to-do list?",
-   "link": "https://www.bbc.co.uk/sport/articles/c6894vzg1kjjo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T11:15:40+00:00",
-   "description": "Mario Frick is Aberdeen's new head coach, but what does the former Liechtenstein striker have to do to lift his side clear of the relegation zone?",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/269f/live/a542ab20-e127-11f1-9d32-63e01ae9cf36.jpg",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Sky Sports News presenter Fulton to become Kent director of cricket",
-   "link": "https://www.skysports.com/cricket/news/12040/13612556/sky-sports-news-presenter-david-fulton-to-become-director-of-cricket-at-kent-the-county-he-used-to-captain",
-   "published": "2026-11-16T11:00:00+00:00",
-   "description": "Sky Sports News presenter David Fulton will become Kent's new director of cricket next month.",
-   "image": "https://e0.365dm.com/26/11/1920x1080/skysports-dave-fulton-sky-sports_7407234.jpg?20261115181403",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Still England's best? Bronze and Earps' performances analysed",
-   "link": "https://www.skysports.com/football/news/12040/13612488/lucy-bronze-leads-chelsea-to-biggest-wsl-win-of-season-over-man-city-as-mary-earps-gives-arsenal-another-headache-at-home",
-   "published": "2026-11-16T11:00:00+00:00",
-   "description": "Sky Sports columnist Laura Hunter analyses the big talking points from the sixth round of Women's Super League matches, bringing you closer to the key stories at the heart of the women's game.",
-   "image": "https://e0.365dm.com/26/11/1920x1080/skysports-bronze-earps-wsl_7407645.jpg?20261116095757",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Camara to drive for Haas again at Las Vegas GP",
-   "link": "https://www.skysports.com/f1/news/12040/13612731/rafael-camara-haas-keep-brazilian-driver-as-oliver-bearmans-team-mate-for-las-vegas-gp-following-home-debut",
-   "published": "2026-11-16T09:50:00+00:00",
-   "description": "Haas have confirmed that Rafael Camara will continue as Oliver Bearman's team-mate for this weekend's Las Vegas Grand Prix after making his Formula 1 debut last time out in Brazil.",
-   "image": "https://e0.365dm.com/26/11/1920x1080/skysports-rafael-camara-haas_7407635.jpg?20261116094531",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "How promotion, relegation and knockouts work in Nations League",
-   "link": "https://www.bbc.co.uk/sport/football/articles/crz65j3xyn9xo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T09:46:34+00:00",
-   "description": "With more than half of the 2026-27 Nations League group stage completed, BBC Sport looks at what will happen next in the competition.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2864/live/7a894370-c170-11f1-a003-8be783290413.jpg",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "More than F1 - Monza's captivating football story",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c6wy4y3pgpx9o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T08:31:05+00:00",
-   "description": "How Serie A outfit Monza are trying to make an impact in the shadow Milan giants and fashionable Como.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6901/live/b39a7c30-e108-11f1-b441-2b33b063138f.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Every goal from the Women's Super League - matchweek 10",
-   "link": "https://www.bbc.co.uk/sport/football/videos/cm1j6r3gj4r0o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T08:30:12+00:00",
-   "description": "Watch every goal from across the Women's Super League in matchweek ten, from a brilliant free kick from West Ham's Viviane Asseyi to a stunning strike from Maya Le Tissier on her 150th Manchester United appearance.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/98be/live/0649a5a0-e127-11f1-b441-2b33b063138f.jpg",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Burnham urges caution on scrapping 3pm TV blackout",
-   "link": "https://www.bbc.co.uk/sport/football/articles/c6jre22p3941o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T08:18:33+00:00",
-   "description": "Andy Burnham urges caution on lifting the Saturday 3pm TV blackout in the UK, saying the health of the football pyramid should come first.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4709/live/99edb2d0-e193-11f1-9e84-492a244b27cc.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "'Frick rejected Wolfsburg before joining Aberdeen' - gossip",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cqp9dz91jkxvo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T08:17:46+00:00",
-   "description": "Mario Frick reportedly rejected the Wolfsburg job before becoming Aberdeen's new head coach, while Celtic are said to have no plans to sell in-form Mika Baur.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3877/live/fe6f26b0-e195-11f1-93e1-3b657b665bcf.png",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Watch: Partick Thistle & Ross County stretch leads as Clyde hit six",
-   "link": "https://www.bbc.co.uk/sport/football/videos/cky8699zd79lo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T08:02:51+00:00",
-   "description": "Watch the best of the action from the weekend in the Scottish Professional Football league as Partick Thistle stretch their lead in the Championship, Ross County win their top-of-the table head-to-head in League 1 and Clyde hit six to keep pace with Stranraer in League 2.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bb02/live/99001ce0-eb5e-11f0-b5f7-49f0357294ff.jpg",
-   "important": false,
-   "hot": false
   }
  ],
  "teknologia": [
+  {
+   "title": "Freshworks alums raise $53M to take on Salesforce, HubSpot with AI-native CRM",
+   "link": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/",
+   "published": "2026-11-16T12:30:00+00:00",
+   "description": "Dreamteam has signed up more than 100 customers across 13 countries, with some businesses switching from established CRMs.",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Delivery drones are coming. For some with PTSD, that's a terrifying prospect.",
+   "link": "https://arstechnica.com/gadgets/2026/11/the-drone-delivery-boom-could-be-a-nightmare-for-people-traumatized-by-war/",
+   "published": "2026-11-16T12:00:57+00:00",
+   "description": "For those who have lived under armed drones, the sound overhead can be distressing.",
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2298538124-1152x648.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "15 Finalists Named in Global Quantum + AI Challenge",
+   "link": "https://thequantuminsider.com/2026/11/16/15-finalists-named-in-global-quantum-ai-challenge/",
+   "published": "2026-11-16T12:00:45+00:00",
+   "description": "Insider Brief Fifteen teams have been named finalists in the Global Quantum + AI Challenge, advancing to develop working proofs of concept for industry problems ranging from drug discovery to credit card fraud detection. The competition offers $200,000 in prizes across five challenges, with $40,000 allocated to each. Its enterprise partners are Airbus, Cleveland Clinic, [&#8230;]",
+   "image": "https://thequantuminsider.com/wp-content/uploads/2026/11/use-this.jpg",
+   "important": false,
+   "hot": false
+  },
   {
    "title": "Qatar’s MCIT Partners with SignQuantum on Post-Quantum Cybersecurity",
    "link": "https://thequantuminsider.com/2026/11/16/qatar-mcit-signquantum-post-quantum-cybersecurity/",
@@ -300,151 +327,151 @@
    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAvzoKykaMIpa6xx92YudipfUoEQnSkrE6p2CiWEVra5izr5GfuNQGOnfRuF0XV99v1IPRFe2Q6BF27UEq3BnWFS5onw97dt3hvszilQDANdtRdYi0_hTDOrKQvuwGn1mY_m-QTabV3jwWCNwXs_OizK2GLF3Eks5HJj5I7kbmA2IztruSBVjq5WOcxEM-/s1600/log4shell.jpg",
    "important": false,
    "hot": false
-  },
-  {
-   "title": "Apple launches new app to study how people use AI for health",
-   "link": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
-   "published": "2026-11-16T01:30:00+00:00",
-   "description": "Apple's new app for a study will answer everyday medical questions",
-   "image": null,
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
-   "link": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
-   "published": "2026-11-15T23:30:00+00:00",
-   "description": "Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics.",
-   "image": null,
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Vulcan rocket fails during launch, dealing major blow to SpaceX competitors",
-   "link": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/",
-   "published": "2026-11-15T23:11:54+00:00",
-   "description": "This was the first total mission failure in United Launch Alliance's 20-year history.",
-   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2304790934-1152x648.jpg",
-   "important": false,
-   "hot": false
   }
  ],
  "maailma": [
   {
-   "title": "DOJ warns Elizabeth Warren over Trump investigations – US politics live",
-   "link": "https://www.theguardian.com/us-news/live/2026/nov/16/donald-trump-asia-visit-democrats-republicans-elizabeth-warren-faa-air-disruption-latest-news-updates",
-   "published": "2026-11-16T11:32:14+00:00",
-   "description": "Letter to likely chair of Senate Banking Committee is latest warning to Democrats about their potential plans following midterms successDemocratic US senator Chris Van Hollen on Sunday escalated his bid to lead his party’s incoming Senate majority rather than Chuck Schumer, asserting that he has a path to victory amid a dedicated campaign that includes a series of television appearances.Van Hollen",
-   "image": "https://i.guim.co.uk/img/media/7ff330eae5cd3087ea08c69647f4dbf58484c916/363_0_6801_5442/master/6801.jpg?width=140&quality=85&auto=format&fit=max&s=84b5747737aac1f8cef320d0211f08a4",
-   "important": true,
-   "hot": false
-  },
-  {
-   "title": "Elon Musk joins 165,000 others calling for Nvidia to bring back Jensen Huang in open letter",
-   "link": "https://www.theguardian.com/technology/2026/nov/16/elon-musk-tech-execs-open-letter-jensen-huang-return-nvidia-ceo",
-   "published": "2026-11-16T11:30:35+00:00",
-   "description": "CEO ousted after affair with suspected Chinese spy reportedly plans comeback, as US treasury secretary urges ‘dramatic shake-up’Megaspeed says it’s a ‘legitimate and lawful business’Business live – latest updatesElon Musk and a host of other tech bosses have called for Jensen Huang’s reinstatement at Nvidia, amid reports the former chief executive is already plotting a return to the chip company j",
-   "image": "https://i.guim.co.uk/img/media/e480adfe7860e9e4439f965fe15e55a5e4ff13f0/555_0_5960_4770/master/5960.jpg?width=140&quality=85&auto=format&fit=max&s=50878ed33290d246ee0c626a144dabdb",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Burnham sets three tests for EU deal, saying it should make Brexit ‘closer to what people thought they were voting for’ – UK politics live",
-   "link": "https://www.theguardian.com/politics/live/2026/nov/16/ed-miliband-russell-brand-andy-burnham-brexit-eu-milburn-review-young-people-employment-uk-politics-latest-news",
-   "published": "2026-11-16T11:30:08+00:00",
-   "description": "PM to address fallout from Brexit in speech this eveningBurnham to say Brexit ‘has not worked’Following the Russell Brand conviction, and the revelations about David Walliams, there have been calls for the government to introduce a “staggered” age of consent, which would make it illegal for adults over a certain age to have sex with 16 and 17-year-olds. In an interview yesterday Pat McFadden, the ",
-   "image": "https://i.guim.co.uk/img/media/2ea4cbf637966baf9c26015df59668f59c6fb69e/759_456_4582_3666/master/4582.jpg?width=140&quality=85&auto=format&fit=max&s=a1d0431197dfc3244a7a8c256f04c8c7",
-   "important": false,
-   "hot": true
-  },
-  {
    "title": "Five EU countries expected to announce migrant deportation centre in Rwanda",
    "link": "https://www.bbc.co.uk/news/articles/cw987343352go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T11:17:34+00:00",
+   "published": "2026-11-16T12:36:17+00:00",
    "description": "Germany, Denmark, Austria, Greece and the Netherlands are expected to announce a \"return hub\" for failed asylum seekers.",
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f790/live/14731cc0-bfcb-11f0-8456-eff94716b162.jpg",
    "important": false,
    "hot": false
   },
   {
-   "title": "Eurovision organisers criticise Malaysian removal of LGBT+ footage in first Asian contest",
-   "link": "https://www.theguardian.com/tv-and-radio/2026/nov/16/eurovision-organisers-malaysia-removal-lgbt-footage-first-asian-contest",
-   "published": "2026-11-16T11:12:44+00:00",
-   "description": "Broadcaster TV3 appears to cut footage of Thai drag performers and gay Philippine jury spokespersonEurovision’s organisers have said they are “surprised and disappointed” that the first Eurovision Asia was altered when it was broadcast in Malaysia, apparently removing LGBTQ+ imagery and people from the show.The European Broadcasting Union (EBU), the alliance of public broadcasters that owns Eurovi",
-   "image": "https://i.guim.co.uk/img/media/aadbe462ac001cb187d32aae61cb263f228a36eb/340_0_3192_2554/master/3192.jpg?width=140&quality=85&auto=format&fit=max&s=32816c79aa7da486780d3d0dacb1c96c",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Yemeni forces retreat to defend port city from Houthis",
-   "link": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T11:09:38+00:00",
-   "description": "Saudi-backed forces say they are moving troops from the Bab al-Mandab Strait to protect the interim capital, Aden.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e0bf/live/84ae2db0-e165-11f1-9e72-69608c7a1547.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Why Silicon Valley is backing Nvidia ex-CEO Jensen Huang after his ouster",
-   "link": "https://www.aljazeera.com/news/2026/11/16/why-silicon-valley-is-backing-nvidia-ex-ceo-jensen-huang-after-his-ouster?traffic_source=rss",
-   "published": "2026-11-16T11:05:47+00:00",
-   "description": "Huang&#039;s peers, including Elon Musk, have praised his business acumen and potential risks to the US&#039;s AI goals.",
-   "image": null,
+   "title": "Burnham sets three tests for EU deal, saying it should make Brexit ‘closer to what people thought they were voting for’ – UK politics live",
+   "link": "https://www.theguardian.com/politics/live/2026/nov/16/ed-miliband-russell-brand-andy-burnham-brexit-eu-milburn-review-young-people-employment-uk-politics-latest-news",
+   "published": "2026-11-16T12:23:26+00:00",
+   "description": "PM to address fallout from Brexit in speech this eveningBurnham to say Brexit ‘has not worked’At her press conference, Kemi Badenoch faced various questions about Brexit, and Andy Burnham’s reset deal with the EU. She dismissed Burnham’s plan to debate a closer relationship as a “distraction”. Here are some of her arguments.Badenoch said Burnham’s deal with the EU was just a “big nothingburger” un",
+   "image": "https://i.guim.co.uk/img/media/2ea4cbf637966baf9c26015df59668f59c6fb69e/759_456_4582_3666/master/4582.jpg?width=140&quality=85&auto=format&fit=max&s=a1d0431197dfc3244a7a8c256f04c8c7",
    "important": false,
    "hot": true
   },
   {
-   "title": "Trump to embark on Asia trip in apparent foreign policy push before end of term",
-   "link": "https://www.theguardian.com/us-news/2026/nov/16/trump-asia-foreign-domestic-policy",
-   "published": "2026-11-16T11:00:58+00:00",
-   "description": "Experts say US president may lean toward global affairs after domestic influence curtailed in midterm electionsDonald Trump is embarking on his first overseas trip since his Republican party’s thumping midterm repudiation by US voters, in what may herald a renewed focus on foreign policy for the remainder of his presidency.The US president will meet his Chinese and Russian counterparts, Xi Jinping",
-   "image": "https://i.guim.co.uk/img/media/a079ab0a449ab532375e30c24aa3a9afc3fa2d2d/131_0_1307_1045/master/1307.jpg?width=140&quality=85&auto=format&fit=max&s=8bded43e353fe0508c8852e7a6576d5e",
+   "title": "Elon Musk joins 'Bring Jensen Back' campaign to reinstate the ex-Nvidia boss",
+   "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-16T12:20:49+00:00",
+   "description": "A number of tech figures want the board of the AI chip giant to give Jensen Huang his job back.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/36dc/live/86b75570-e1b8-11f1-9a3f-99aca912798e.jpg",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Elon Musk joins 'Bring Jensen Back' campaign to reinstate the ex-Nvidia boss",
+   "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-16T12:20:49+00:00",
+   "description": "A number of tech figures want the board of the AI chip giant to give Jensen Huang his job back.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/36dc/live/86b75570-e1b8-11f1-9a3f-99aca912798e.jpg",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Which cricket teams can qualify for the LA 2028 Olympics and how?",
+   "link": "https://www.aljazeera.com/sports/2026/11/16/which-cricket-teams-can-qualify-for-the-la-2028-olympics-and-how?traffic_source=rss",
+   "published": "2026-11-16T12:15:59+00:00",
+   "description": "Six men&#039;s and six women&#039;s teams will compete for the medals in T20 format as cricket returns to the Olympics in 2028.",
+   "image": null,
    "important": false,
    "hot": false
   },
   {
-   "title": "Americans relying on heating oil brace for harsh winter: ‘We’re often cold in our own home’",
-   "link": "https://www.theguardian.com/business/2026/nov/16/heating-oil-price-increase-winter",
-   "published": "2026-11-16T11:00:58+00:00",
-   "description": "Surge in prices is forcing many to cut back on spending, with a projected 21% increase in costs of those householdsMillions of homeowners in the US will pay hundreds of dollars more this winter to heat their homes as rising energy prices have pushed up the price of heating oil.The US Energy Information Administration projects households that use heating oil can expect to pay 21% more this year com",
-   "image": "https://i.guim.co.uk/img/media/d01f4f4effab01ef64a2fc21dcdf4c74f6e88da5/412_0_2439_1952/master/2439.jpg?width=140&quality=85&auto=format&fit=max&s=1d535f42aca70553149e73f1c1ddc3bb",
+   "title": "Trump’s justice department warns Elizabeth Warren over Democrats’ plans for future investigations – live",
+   "link": "https://www.theguardian.com/us-news/live/2026/nov/16/donald-trump-asia-visit-democrats-republicans-elizabeth-warren-faa-air-disruption-latest-news-updates",
+   "published": "2026-11-16T12:11:56+00:00",
+   "description": "Letter to likely chair of Senate Banking Committee is latest warning to Democrats about their potential plans after the party’s midterms successSign up for the Breaking News US emailA progressive and onetime presidential candidate, senator Elizabeth Warren is a vocal Wall Street critic and has repeatedly condemned the Trump administration and its policies.She is the top Democrat on the Senate Bank",
+   "image": "https://i.guim.co.uk/img/media/7ff330eae5cd3087ea08c69647f4dbf58484c916/363_0_6801_5442/master/6801.jpg?width=140&quality=85&auto=format&fit=max&s=84b5747737aac1f8cef320d0211f08a4",
+   "important": true,
+   "hot": false
+  },
+  {
+   "title": "Gérard Depardieu drops appeal against sexual assault conviction",
+   "link": "https://www.theguardian.com/film/2026/nov/16/gerard-depardieu-drops-appeal-against-sexual-assault-conviction",
+   "published": "2026-11-16T12:10:22+00:00",
+   "description": "French actor apologises to two women he was convicted of assaulting on a film set in 2021The French actor Gérard Depardieu has dropped his appeal against a conviction for sexually assaulting two women on a film set, and has for the first time apologised to the victims.“I was found guilty. I hear it and I accept this conviction,” Depardieu, 77, said in a written statement. “I address my deep and si",
+   "image": "https://i.guim.co.uk/img/media/8645152ecf7185cd8b3f83c5e21adaaddb0697bc/480_355_3217_2574/master/3217.jpg?width=140&quality=85&auto=format&fit=max&s=e2f4a8eb308c65010f2b5764cde3e8fb",
    "important": false,
    "hot": false
   },
   {
-   "title": "Revealed: Israel uploaded millions of photos to Amazon’s facial recognition platform to track Palestinians",
-   "link": "https://www.theguardian.com/world/2026/nov/16/israel-amazon-facial-recognition-palestinians",
-   "published": "2026-11-16T11:00:56+00:00",
-   "description": "Upload came as the Israeli military was increasing its reliance on Amazon’s cloud platform to meet the technological demands of its bombardment of GazaThe Israeli military uploaded 3.5m photos to Amazon’s cloud platform in order to use the US company’s facial recognition technology to analyse images of Palestinians, the Guardian can reveal.Leaked documents show the expansive catalogue of images wa",
-   "image": "https://i.guim.co.uk/img/media/bc01b369b562e3e2bf256cd5482bab9f368d5175/1_0_2999_2400/master/2999.jpg?width=140&quality=85&auto=format&fit=max&s=d4fd5266aa44369a3472db45234f5224",
+   "title": "‘When the sun came out it felt like it opened a scar’ – This is climate breakdown",
+   "link": "https://www.theguardian.com/environment/ng-interactive/2026/nov/16/when-the-sun-came-out-it-felt-like-it-opened-a-scar-this-is-climate-breakdown",
+   "published": "2026-11-16T12:00:59+00:00",
+   "description": "When the floods hit Pakistan he went out to help. Then the water reached his own family. This is Imran Lodhi’s storyLocation: Dera Ghazi Khan, PakistanDisaster: Pakistan intense monsoon rainfallImran Lodhi is a university lecturer with a doctorate in climate change and sustainable development. The 41-year-old was living in Dera Ghazi Khan, a city in south-western Punjab, when floods devastated pro",
+   "image": "https://i.guim.co.uk/img/media/03df085cea47ca4df586d23872f7663cb2637137/320_0_1600_1280/master/1600.jpg?width=140&quality=85&auto=format&fit=max&s=be9cf0165f7c1947cf79549d974164c6",
    "important": false,
    "hot": false
   },
   {
-   "title": "Two mass shootings in South Africa leave 17 dead",
-   "link": "https://www.bbc.co.uk/news/articles/c8y5x3n4kywpo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T10:57:48+00:00",
-   "description": "The shootings in KwaZulu-Natal and Gauteng highlight South Africa's struggle to curb violent crime.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e2e5/live/66487e80-e1a0-11f1-902c-ad301cbf1208.jpg",
+   "title": "Catholic priest released from Louisiana prison after serving seven years for sexually abusing altar server",
+   "link": "https://www.theguardian.com/us-news/2026/nov/16/louisiana-catholic-priest-prison-sexual-abuse",
+   "published": "2026-11-16T12:00:59+00:00",
+   "description": "Victim’s father, however, remains excommunicated for joining Anglican church after abuse was discoveredA Roman Catholic priest who pleaded guilty to sexually abusing an altar server in south-west Louisiana – before the church then controversially excommunicated the victim’s father – was released from a state prison over the weekend after having completed a seven-year sentence.Michael Guidry’s rele",
+   "image": "https://i.guim.co.uk/img/media/cf5f8c71977f0b49095cbe35dfc7f039e7d228cc/458_0_2705_2164/master/2705.jpg?width=140&quality=85&auto=format&fit=max&s=f953b1d2f7b5ca2bab79c21139d70e02",
    "important": false,
    "hot": false
   },
   {
-   "title": "Create more jobs for under-25s by cutting National Insurance, key report urges",
-   "link": "https://www.bbc.co.uk/news/articles/c6p9dzmj514ko?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T10:51:45+00:00",
-   "description": "Some parents are so desperate for their children to find a job that they've offered to pay their wages, one hairdresser has told the BBC.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/283e/live/4753f640-e1ae-11f1-b0a4-450a350911f4.jpg",
+   "title": "Flying blind: inside the decline of the EPA’s chemical-detection plane",
+   "link": "https://www.theguardian.com/environment/2026/nov/16/epa-chemical-detection-plane",
+   "published": "2026-11-16T12:00:58+00:00",
+   "description": "Agency’s Aspect plane once was a key part of tracking toxic chemicals during disasters – why is it now often grounded?When an ammonia leak outside a hotel in Weatherford, Oklahoma, injured 74 people last November, the federal government’s chemical-detection plane stayed on the ground. It also sat idle during a March fire at a Valero refinery in Port Arthur, Texas, and when blasts at a Toledo, Ohio",
+   "image": "https://i.guim.co.uk/img/media/17ab1c4bad64148a5e104f5bef4f00be6e91167a/66_0_1917_1534/master/1917.jpg?width=140&quality=85&auto=format&fit=max&s=40b99d38afe9e88be2e8049d20b3b7f5",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Great Britain’s oldest renewables projects could rake in nearly £9bn next year",
+   "link": "https://www.theguardian.com/business/2026/nov/16/great-britain-renewable-energy-subsidies-wind-solar",
+   "published": "2026-11-16T11:56:20+00:00",
+   "description": "Subsidy scheme, which is paid via taxes and energy bills, must be reformed, ECU analysis findsBusiness live – latest updatesGreat Britain’s oldest renewable energy projects are likely to rake in a near £9bn windfall next year because of soaring market prices, according to independent analysis.The research has revealed that almost a third of the UK’s wind and solar farms that rely on the government",
+   "image": "https://i.guim.co.uk/img/media/fadc2a753a2ca35482613659f6d980ad0a106850/141_0_3512_2809/master/3512.jpg?width=140&quality=85&auto=format&fit=max&s=7be6fd9946bb49cd90a7d7e79d6cc9fc",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "First Thing: Trump administration blames travel chaos on former presidents and Congress",
+   "link": "https://www.theguardian.com/us-news/2026/nov/16/first-thing-trump-administration-blames-travel-chaos-on-former-presidents-and-congress",
+   "published": "2026-11-16T11:46:33+00:00",
+   "description": "Donald Trump on Sunday blamed the Biden administration for the four-hour  nationwide flight stoppage that led to thousands of canceled flights over the weekend. Plus: How Israel is using Amazon facial recognition to track PalestiniansGood morning.A four-hour nationwide flight stoppage on Friday threw the entire weekend into chaos, with thousands of flights getting canceled and even more delays. Wh",
+   "image": "https://i.guim.co.uk/img/media/3895a73fc525e4b560bc91f0b5480fe71850c3d8/717_0_7144_5719/master/7144.jpg?width=140&quality=85&auto=format&fit=max&s=3029d1ad8d73f54cbd2c9c76388b04d5",
    "important": false,
    "hot": false
   }
  ],
  "musiikki": [
   {
-   "title": "Isac Elliot saa toisen keikan Olympiastadionille – liput myytiin hetkessä loppuun",
+   "title": "These are the 100 greatest gaming themes, according to a new orchestral album",
+   "link": "https://www.nme.com/news/gaming-news/100-greatest-gaming-themes-orchestral-album-clair-obscur-zelda-god-war-3976090",
+   "published": "2026-11-16T12:35:59+00:00",
+   "description": "Featuring musical moments from ‘The Legend Of Zelda’, Clair Obscur: Expedition 33’, ‘Red Dead Redemption’, ‘God Of War’ and more\nThe post These are the 100 greatest gaming themes, according to a new orchestral album appeared first on NME.",
+   "image": null,
+   "important": true,
+   "hot": false
+  },
+  {
+   "title": "LCD Soundsystem announce huge Manchester show for summer 2027 as live music returns to Platt Fields Park",
+   "link": "https://www.nme.com/news/music/lcd-soundsystem-announce-huge-manchester-show-for-summer-2027-as-live-music-returns-to-platt-fields-park-3976079",
+   "published": "2026-11-16T12:00:47+00:00",
+   "description": "The 25,000-capacity show will be the first held at the outdoor space in 15 years\nThe post LCD Soundsystem announce huge Manchester show for summer 2027 as live music returns to Platt Fields Park appeared first on NME.",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Johnny Depp’s Hollywood return ‘Ebenezer’ hits top of box office",
+   "link": "https://www.nme.com/news/film/johnny-depps-hollywood-return-ebenezer-hits-top-of-box-office-3976077",
+   "published": "2026-11-16T11:54:42+00:00",
+   "description": "The Ti West reimagining took an estimated $42million in its opening weekend\nThe post Johnny Depp&#8217;s Hollywood return &#8216;Ebenezer&#8217; hits top of box office appeared first on NME.",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Liput katosivat hetkessä – Isac Elliot saa toisen keikan Olympiastadionille",
    "link": "https://www.klangi.fi/uutiset/isac-elliot-lisakonsertti-olympiastadion-2027/",
    "published": "2026-11-16T11:33:24+00:00",
-   "description": "Isac Elliotin lauantain stadionkonsertin liput myytiin hetkessä loppuun, joten Helsingin Olympiastadionille järjestetään lisäkonsertti. Isac Elliot esiintyy ensi elokuussa Helsingin Olympiastadionilla\nArtikkeli Isac Elliot saa toisen keikan Olympiastadionille – liput myytiin hetkessä loppuun julkaistiin ensimmäisen kerran Klangi.",
+   "description": "Isac Elliotin lisäkonsertti nähdään Olympiastadionilla jo päivää ennen alkuperäistä keikkaa, ja sen liput ovat nyt ennakkomyynnissä. Isac Elliot esiintyy ensi\nArtikkeli Liput katosivat hetkessä – Isac Elliot saa toisen keikan Olympiastadionille julkaistiin ensimmäisen kerran Klangi.",
    "image": "https://www.klangi.fi/wp-content/uploads/2026/11/Isac-Elliot-Olympiastadion-2026-Klangi-1024x683.jpg",
    "important": false,
    "hot": false
@@ -455,7 +482,7 @@
    "published": "2026-11-16T11:28:12+00:00",
    "description": "“I’ll never forgive them. Simple as that”\nThe post Peter Hook tells Rock &#038; Roll Hall Of Fame why New Order will never get back together (without Oasis reunion money) appeared first on NME.",
    "image": null,
-   "important": true,
+   "important": false,
    "hot": true
   },
   {
@@ -520,33 +547,6 @@
    "image": null,
    "important": false,
    "hot": false
-  },
-  {
-   "title": "Ensi keväänä Helsingissä järjestettävässä The Rome – The Rise of Metal Expo -tapahtumassa raikaavat Rainbow’n ja Acceptin biisit",
-   "link": "https://www.soundi.fi/uutiset/ensi-kevaana-helsingissa-jarjestettavassa-the-rome-the-rise-of-metal-expo-tapahtumassa-raikaavat-rainbown-ja-acceptin-biisit/",
-   "published": "2026-11-16T09:29:59+00:00",
-   "description": "Suomi Finland Perkele järjestää ensi keväänä Helsingissä uuden raskaan musiikin tapahtuman. The Rome – The Rise of Metal&#160;Expo haluaa kasata saman katon alle sekä raskaan musiikin fanit, artistit että kaikenmoiset muut alan toimijat. Varsinaisten keikkojen lisäksi tarjolla on showcase-esiintymisiä, artistitapaamisia, keskustelutilaisuuksia, levy-yhtiöiden esittäytymisiä sun muuta. Aikaisemmin ",
-   "image": null,
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Kyllä, se on totta! Foo Fighters palaa Suomeen – The Hives lämmittelee",
-   "link": "https://www.klangi.fi/uutiset/foo-fighters-palaa-suomeen-olympiastadion/",
-   "published": "2026-11-16T09:13:56+00:00",
-   "description": "Foo Fighters palaa Suomeen kymmenen vuoden tauon jälkeen, ja Helsinki on tähän mennessä julkistetuista Euroopan-keikoista toinen. Foo Fighters esiintyy Helsingin\nArtikkeli Kyllä, se on totta! Foo Fighters palaa Suomeen – The Hives lämmittelee julkaistiin ensimmäisen kerran Klangi.",
-   "image": "https://www.klangi.fi/wp-content/uploads/2026/11/Foo-Fighters-Live-Nation-2026-Klangi-1024x683.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Dave Grohl tells us about Foo Fighters’ all-star 2027 UK and European stadium tour",
-   "link": "https://www.nme.com/news/music/foo-fighters-2027-uk-european-tour-interview-dates-tickets-support-acts-3975793",
-   "published": "2026-11-16T09:08:31+00:00",
-   "description": "\"Those shows at the end of a tour are usually the ones where you have the most energy because it’s the final hundred yards,\" shares the frontman, as the band announce massive gigs with Garbage, St Vincent, Yard Act and more\nThe post Dave Grohl tells us about Foo Fighters’ all-star 2027 UK and European stadium tour appeared first on NME.",
-   "image": null,
-   "important": false,
-   "hot": true
   }
  ]
 }
