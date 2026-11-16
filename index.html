@@ -145,7 +145,7 @@ function endDrag(){if(!drag)return;drag.style.transform='';drag.classList.remove
 M.addEventListener('pointerup',endDrag);M.addEventListener('pointercancel',endDrag);
 document.addEventListener('pointerdown',function(e){if(drag||document.getElementById('fab').contains(e.target)||e.target.closest('#ov'))return;M.classList.remove('open');if(EDIT){EDIT=false;route(true)}});
 document.getElementById('ball').onclick=function(){document.getElementById('menu').classList.toggle('open')};
-var WSRC=["Yle","Helsingin Sanomat","Ilta-Sanomat","Kauppalehti","MTV Uutiset","BBC News","The Guardian","Al Jazeera","Ars Technica","Klangi","Soundi","Rumba","Pitchfork","Mixmag"];
+var WCAT=[];try{fetch("lahteet.json").then(function(r){return r.json()}).then(function(j){WCAT=j.lahteet||[]}).catch(function(){})}catch(e){}
 var WVOC={"kvanttitietokone":["kvanttitietokoneet","kvanttitietokoneen","kvantti","quantum computer","quantum computing"],"kyberturvallisuus":["kyberuhka","tietoturva","tietomurto","cybersecurity","ransomware"],"tekoäly":["tekoälyn","tekoälyä","artificial intelligence","AI model","LLM"],"premier league":["valioliiga","EPL"],"mestarien liiga":["Champions League","UCL"],"inflaatio":["inflaation","hintojen nousu","inflation"],"korko":["korot","korkojen","interest rate"],"konemusiikki":["techno","house","electronic music","rave"],"albumi":["albumit","albumin","uusi albumi","album release"],"festivaali":["festivaalit","festivaalin","festival"],"ukraina":["Ukrainan","Ukraine"]};
 var WD=null,wstep=1;
 function $w(i){return document.getElementById(i)}
@@ -167,6 +167,7 @@ function wkwl(){var h="";WD.kws.forEach(function(k,i){h+='<div class="wkw"><span
 if(k.v.length){h+="<div>";k.v.forEach(function(v,j){h+='<span class="wchip v">'+wesc(v)+'<button data-rv="'+i+"-"+j+'" aria-label="Poista">×</button></span>'});h+="</div>"}
 else h+='<div class="whint">'+(k.t?"Aiheella ei ole vielä liittyviä sanoja.":"Etsitään alkuosalla: <b>"+wesc(wstem(k.k))+"</b>")+'</div>';h+="</div>"});$w("wkwl").innerHTML=h}
 function wAddKw(w,topic){w=w.trim().toLowerCase();if(!w||WD.kws.some(function(k){return k.k==w}))return;WD.kws.push({k:w,t:!!topic,v:topic?(WVOC[w]||[]).slice():[]});wkwl()}
+function wSrcFind(q){q=q.trim().toLowerCase();return q?WCAT.filter(function(x){return x.nimi.toLowerCase().indexOf(q)>-1||x.id.indexOf(q)>-1}).slice(0,6):[]}
 function wMatch(list,q){q=q.toLowerCase();return q?list.filter(function(x){return x.toLowerCase().indexOf(q)>-1}).slice(0,5):[]}
 function wPreview(){var h="<h3>"+wesc(WD.name)+"</h3>";
 if(!WD.kws.length)return h+'<div class="whint">Et ole lisännyt hakusanoja, joten uutisia ei voida valita. Palaa takaisin ja lisää ainakin yksi sana.</div>';
@@ -184,7 +185,7 @@ $w("dlg").innerHTML=h;if(wstep==3)wkwl();var f=$w("wnm")||$w("wkw");if(f)f.focus
 document.addEventListener("input",function(e){var t=e.target;if(!WD)return;
 if(t.id==="wnm")WD.name=t.value;
 if(t.dataset&&t.dataset.i!==undefined){var i=+t.dataset.i,v=t.value;WD.src[i].t=v;WD.src[i].ok=false;$w("wst"+i).className="wst";$w("wst"+i).textContent="";
-$w("wsg"+i).innerHTML=wMatch(WSRC,v).map(function(n){return '<button data-pick="'+i+'" data-n="'+wesc(n)+'">'+wesc(n)+'</button>'}).join("");
+$w("wsg"+i).innerHTML=wSrcFind(v).map(function(x){return '<button data-pick="'+i+'" data-id="'+wesc(x.id)+'">'+wesc(x.nimi)+'<small>'+(x.kieli==="fi"?"Suomi":"EN")+(x.testattu?" · ✓":"")+'</small></button>'}).join("");
 if(/^(https?:\/\/)?[\w-]+(\.[\w-]+)+/i.test(v)){$w("wst"+i).textContent="Etsitään syötettä…";setTimeout(function(){if(WD&&WD.src[i]&&WD.src[i].t===v&&wstep==2){WD.src[i].ok=true;$w("wst"+i).className="wst ok";$w("wst"+i).textContent="✓ Syöte löytyi (esimerkki)"}},700)}}
 if(t.id==="wkw"){var q=t.value;if(q.indexOf(",")>-1){q.split(",").forEach(function(w){wAddKw(w,false)});t.value="";$w("wksug").innerHTML="";return}
 var sg=wMatch(Object.keys(WVOC),q).map(function(k){return '<button data-add="'+wesc(k)+'"><b>'+wesc(k)+'</b><small>Aihe · '+(WVOC[k].length+1)+' sanaa</small></button>'}).join("");if(q.trim())sg+='<button data-exact="'+wesc(q.trim())+'">Lisää tarkka hakusana: <b>'+wesc(q.trim())+'</b></button>';$w("wksug").innerHTML=sg}});
@@ -195,7 +196,7 @@ if(t.closest("[data-addcat]")){wOpen();return}
 if(d.dodel!==undefined){doDel(d.dodel);return}
 if(d.cancel!==undefined||t.id==="ov"){wClose();return}
 if(!WD)return;
-if(d.pick!==undefined){var i=+d.pick;WD.src[i]={t:d.n,ok:true};$w("dlg").querySelector('input[data-i="'+i+'"]').value=d.n;$w("wst"+i).className="wst ok";$w("wst"+i).textContent="✓ Syöte löytyi";$w("wsg"+i).innerHTML="";return}
+if(d.pick!==undefined){var i=+d.pick,x=WCAT.filter(function(c){return c.id===d.id})[0];if(!x)return;WD.src[i]={t:x.nimi,ok:true,id:x.id,rss:x.rss};$w("dlg").querySelector('input[data-i="'+i+'"]').value=x.nimi;$w("wst"+i).className="wst ok";$w("wst"+i).textContent="✓ Lähde valittu";$w("wsg"+i).innerHTML="";return}
 if(d.exact!==undefined){wAddKw(d.exact,false);$w("wkw").value="";$w("wksug").innerHTML="";$w("wkw").focus();return}
 if(d.add!==undefined){wAddKw(d.add,true);$w("wkw").value="";$w("wksug").innerHTML="";$w("wkw").focus();return}
 if(d.rk!==undefined){WD.kws.splice(+d.rk,1);return wkwl()}
@@ -204,7 +205,7 @@ if(t.id==="wmoresrc"){WD.src.push({t:"",ok:false});$w("wsrcs").insertAdjacentHTM
 if(t.id==="wback"){if(wstep==1)wClose();else{wstep--;wDraw()}return}
 if(t.id==="wnext"){if(wstep==1&&!WD.name.trim()){$w("wnm").focus();return}
 if(wstep<4){wstep++;wDraw();return}
-var id="c"+Date.now();CUSTOM[id]={name:WD.name.trim(),src:WD.src.filter(function(s){return s.t.trim()}).map(function(s){return s.t}),kws:WD.kws};CATS[id]=CUSTOM[id].name;ORDER.push(id);persist();buildCustom();wClose();WD=null;location.hash="#"+id}});
+var id="c"+Date.now();CUSTOM[id]={name:WD.name.trim(),src:WD.src.filter(function(s){return s.t.trim()}).map(function(s){return{n:s.t,id:s.id||"",rss:s.rss||""}}),kws:WD.kws};CATS[id]=CUSTOM[id].name;ORDER.push(id);persist();buildCustom();wClose();WD=null;location.hash="#"+id}});
 var LG=document.querySelector('#logo a');
 function fade(){var p=Math.min(Math.max(window.scrollY/160,0),1);LG.style.opacity=1-p;LG.style.transform='translateY('+(-p*36)+'px)';LG.style.pointerEvents=p>.9?'none':'auto'}
 window.addEventListener('scroll',fade,{passive:true});fade();
