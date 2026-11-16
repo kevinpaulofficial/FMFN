@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>SUCKMYNEWS</title>
 <style>
-:root{--bg:#fff;--box:#edebeb;--text:#1a1919;--imp:#631515;--who:#b5b5b5;--line:rgba(26,25,25,.15);--pop:#f4f3f3;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+:root{--bg:#fff;--box:#edebeb;--text:#1a1919;--imp:#631515;--who:#b5b5b5;--line:rgba(26,25,25,.15);--pop:#f4f3f3;--accent:#631515;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 *{box-sizing:border-box}
 @font-face{font-family:"OpenDyslexic";src:url("OpenDyslexic-Regular.otf") format("opentype");font-weight:400;font-display:swap}
 @font-face{font-family:"OpenDyslexic";src:url("OpenDyslexic-Bold.otf") format("opentype");font-weight:700;font-display:swap}
@@ -13,7 +13,7 @@
 :root[data-dys="1"] .card p{display:none}
 :root[data-dys="1"] .card{margin-top:26px}
 :root[data-dys="1"] .card b{line-height:1.5}
-:root[data-theme="dark"]{--bg:#161515;--box:#2b2929;--text:#ece9e9;--line:rgba(255,255,255,.18);--pop:#242222;color-scheme:dark}
+:root[data-theme="dark"]{--bg:#161515;--box:#2b2929;--text:#ece9e9;--line:rgba(255,255,255,.18);--pop:#242222;--accent:#e3a3a3;color-scheme:dark}
 html{scroll-padding-top:env(safe-area-inset-top,0px)}
 body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
 @font-face{font-family:"theboldfont";src:url("THEBOLDFONT-FREEVERSION.otf") format("opentype"),url("THEBOLDFONT-FREEVERSION.ttf") format("truetype");font-display:swap}
@@ -83,6 +83,9 @@ main .addcat{margin-top:26px}
 .waip textarea{width:100%;padding:10px;border:1px solid var(--line);border-radius:10px;background:var(--box);color:var(--text);font:inherit;font-size:.85rem;resize:vertical}
 .waip .wrow{margin-top:8px;align-items:center}
 .waist{font-size:.8rem;opacity:.75}
+.waisteps{margin:0 0 10px;padding-left:22px;color:var(--accent);font-size:.88rem;line-height:1.7}
+.waip .wrow.cprow{margin:12px 0}
+.wkw .wtag{display:block;margin:0 0 4px 2px}
 #dlg.big{max-width:760px;max-height:100%}
 #dlg h4{margin:22px 0 8px;font-size:.8rem;text-transform:uppercase;letter-spacing:.04em;opacity:.7}
 .wsrc{position:relative}
@@ -200,9 +203,12 @@ function confirmDel(id){$w("dlg").innerHTML='<h3>Haluatko varmasti poistaa "'+we
 function doDel(id){if(CUSTOM[id]){delete CUSTOM[id];delete CATS[id]}else if(DEL.indexOf(id)<0)DEL.push(id);
 ORDER=ORDER.filter(function(x){return x!==id});if(DRAFT)DRAFT=DRAFT.filter(function(x){return x!==id});persist();wClose();if(location.hash==="#"+id)location.hash="#koti";route(true)}
 function wSrcRow(s,i){return '<div class="wsrc"><input data-i="'+i+'" placeholder="Sivuston nimi tai osoite" value="'+wesc(s.t)+'"><span class="wst'+(s.ok?" ok":"")+'" id="wst'+i+'">'+(s.ok?"✓ Syöte löytyi":"")+'</span>'+(WD&&WD.edit?'<button class="wrs" data-rs="'+i+'" aria-label="Poista lähde">✕</button>':'')+'<div class="wsug" id="wsg'+i+'"></div></div>'}
-function wkwl(){var h="";WD.kws.forEach(function(k,i){h+='<div class="wkw"><span class="wchip"><span class="wtag">'+(k.t?"Aihe":"Tarkka")+'</span><b>'+wesc(k.k)+'</b><button data-rk="'+i+'" aria-label="Poista">×</button></span>';
+function wkwl(){var h="",ex=[];WD.kws.forEach(function(k,i){if(!k.t){ex.push(i);return}
+h+='<div class="wkw"><span class="wchip"><span class="wtag">Aihe</span><b>'+wesc(k.k)+'</b><button data-rk="'+i+'" aria-label="Poista">×</button></span>';
 if(k.v.length){h+="<div>";k.v.forEach(function(v,j){h+='<span class="wchip v">'+wesc(v)+'<button data-rv="'+i+"-"+j+'" aria-label="Poista">×</button></span>'});h+="</div>"}
-else h+='<div class="whint">'+(k.t?"Aiheella ei ole vielä liittyviä sanoja.":"Etsitään alkuosalla: <b>"+wesc(wstem(k.k))+"</b>")+'</div>';h+="</div>"});$w("wkwl").innerHTML=h;if(WD.edit)wEditPrev()}
+else h+='<div class="whint">Aiheella ei ole vielä liittyviä sanoja.</div>';h+="</div>"});
+if(ex.length){h+='<div class="wkw"><span class="wtag">Tarkat hakusanat</span><div>';ex.forEach(function(i){h+='<span class="wchip">'+wesc(WD.kws[i].k)+'<button data-rk="'+i+'" aria-label="Poista">×</button></span>'});h+='</div></div>'}
+$w("wkwl").innerHTML=h;if(WD.edit)wEditPrev()}
 function wAddKw(w){w=w.trim().toLowerCase();if(!w||WD.kws.some(function(k){return !k.t&&k.k==w}))return;WD.kws.push({k:w,t:false,v:[]});wkwl()}
 function wAddTopic(id){var x=WTOP.filter(function(o){return o.id===id})[0];if(!x||WD.kws.some(function(k){return k.id===id}))return;WD.kws.push({k:x.nimi,id:x.id,t:true,v:x.sanat.slice()});wkwl()}
 function wTopFind(q){q=q.trim().toLowerCase();if(q.length<2)return[];var r=new RegExp("(^|[^\\p{L}\\p{N}])"+q.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),"iu");
@@ -261,8 +267,8 @@ var id="c"+Date.now();CUSTOM[id]={name:WD.name.trim(),src:WD.src.filter(function
 function wAiPrompt(){var n=WD&&WD.name&&WD.name.trim();
 return (n?'Kategoriani nimi on "'+n+'".\n\n':'')+'Autat minua tekemään hakusanoja uutisten suodattamiseen. Kysy minulta yksi kysymys kerrallaan ja odota vastaus ennen seuraavaa:\n1) Mikä on kategorian aihe?\n2) Mitkä asiat aiheessa kiinnostavat erityisesti (esim. henkilöt, joukkueet, yritykset, tapahtumat)?\n3) Haluatko hakusanat suomeksi, englanniksi vai molemmilla?\n\nTee vastausten perusteella 15–40 hakusanaa. Säännöt:\n- sanat perusmuodossa, ei taivutusmuotoja\n- vähintään 3 kirjainta, nimet ja lyhenteet käyvät\n- ei toistoja\n\nKirjoita lopuksi yksi lyhyt rivi (esim. \"Tässä hakusanat:\") ja sen alle kaikki hakusanat yhteen koodilohkoon (```) yhdellä rivillä pilkuilla eroteltuna, jotta voin kopioida ne yhdellä napilla. Älä kirjoita koodilohkon jälkeen mitään.'}
 function wAiPanel(){return '<button class="wbtn waib" id="waibtn">✨ Luo hakusanat tekoälyllä</button><div class="waip" id="waip" hidden>'+
-'<div class="whint">1. Kopioi prompti ja liitä se omaan tekoälyysi. 2. Vastaa sen kysymyksiin. 3. Liitä sen antama pilkuilla eroteltu lista alle.</div>'+
-'<textarea id="waiprompt" rows="5" readonly></textarea><div class="wrow"><span class="waist" id="wcopyst"></span><button class="wbtn" id="wcopy">Kopioi prompti</button></div>'+
+'<ol class="waisteps"><li>Kopioi prompti ja liitä se omaan tekoälyysi.</li><li>Vastaa tekoälyn kysymyksiin.</li><li>Kopioi tekoälyn antamat hakusanat ja liitä ne alla olevaan kenttään.</li></ol>'+
+'<textarea id="waiprompt" rows="5" readonly></textarea><div class="wrow cprow"><span class="waist" id="wcopyst"></span><button class="wbtn" id="wcopy">Kopioi prompti</button></div>'+
 '<textarea id="waiin" rows="3" placeholder="Liitä tekoälyn vastaus tähän"></textarea><div class="wrow"><span class="waist" id="waist"></span><button class="wbtn p" id="waiadd">Lisää hakusanat</button></div></div>'}
 function wParseAI(txt){txt=String(txt||"").replace(/```[a-z]*/gi,"");var lines=txt.split(/\n+/),many=lines.filter(function(l){return (l.match(/,/g)||[]).length>=3});
 var parts=(many.length?many:lines).join(",").split(/[,;\n]+/),seen={},out=[];
