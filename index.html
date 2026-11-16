@@ -133,20 +133,21 @@ main .addcat{margin-top:26px}
 #obOv .x{position:absolute;z-index:5;top:12px;right:12px;width:42px;height:42px;border:0;border-radius:50%;background:none;cursor:pointer;font-size:1.15rem;display:flex;align-items:center;justify-content:center;opacity:.75}
 #obOv .x *{pointer-events:none}
 #obOv .x:hover{background:var(--box);opacity:1}
-#obOv .welcome{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:40px 24px;gap:18px;overflow:auto}
-#obOv .wlogo{display:block;width:260px;max-width:100%;margin:0 0 8px;color:var(--text)}
+#obOv .welcome{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:40px 24px;gap:18px;overflow:auto;container-type:inline-size}
+#obOv .wlogo{display:block;width:193px;max-width:100%;margin:0;color:var(--text)}
 #obOv .wlogo text{font-family:"theboldfont",Impact,"Arial Black",sans-serif;fill:currentColor}
-#obOv .welcome h1{font-family:var(--display);font-weight:normal;font-size:clamp(2rem,6vw,3.4rem);line-height:1.05;margin:0;text-wrap:balance}
-:root[data-dys="1"] #obOv .welcome h1{font-size:clamp(1.6rem,5vw,2.6rem)}
+#obOv .welcome h1{font-family:var(--display);font-weight:normal;font-size:15.3cqi;line-height:1;margin:0;white-space:nowrap}
+:root[data-dys="1"] #obOv .welcome h1{font-size:19.5cqi}
 #obOv .welcome p{margin:0;max-width:34ch;font-size:1.1rem;color:var(--muted);text-wrap:balance}
-#obOv .go{margin-top:12px;padding:16px 44px;border:0;border-radius:14px;background:var(--text);color:var(--pop);font-size:1.1rem;font-weight:600;cursor:pointer}
+#obOv .go{margin-top:12px;width:50%;min-width:200px;padding:18px 24px;border:0;border-radius:14px;background:var(--text);color:var(--pop);font-size:1.1rem;font-weight:600;cursor:pointer}
 #obOv .choice{flex:1;min-height:0;display:grid;grid-template-columns:minmax(0,1fr) 1px minmax(0,1fr)}
 #obOv .choice .div{background:var(--line);margin:56px 0}
-#obOv .opt{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:40px 28px;margin:16px;border:0;border-radius:18px;background:none;cursor:pointer;text-align:center;min-width:0}
+#obOv .opt{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:40px 28px;margin:16px;border:0;border-radius:18px;background:none;cursor:pointer;text-align:center;min-width:0;container-type:inline-size}
 #obOv .opt:hover{background:var(--box)}
-#obOv .opt .t{font-family:var(--display);font-size:clamp(1.6rem,3.4vw,2.4rem);line-height:1.05;text-transform:uppercase;text-wrap:balance}
-:root[data-dys="1"] #obOv .opt .t{text-transform:none;font-size:clamp(1.3rem,2.6vw,1.8rem)}
-#obOv .opt p{margin:0;max-width:30ch;color:var(--muted)}
+/* sama koko molemmille: pidempi otsikko mahtuu yhdelle riville */
+#obOv .opt .t{font-family:var(--display);font-size:min(2.4rem,calc(100cqi / 13.3));line-height:1.05;text-transform:uppercase;white-space:nowrap}
+:root[data-dys="1"] #obOv .opt .t{text-transform:none;font-size:min(2rem,calc(100cqi / 10.6))}
+#obOv .opt p{margin:0;max-width:30ch;min-height:3em;color:var(--muted)}
 #obOv .pill{margin-top:6px;padding:12px 26px;border-radius:12px;background:var(--text);color:var(--pop);font-weight:600}
 #obOv .chead{padding:18px 64px 14px 24px;border-bottom:1px solid var(--line)}
 #obOv .chead h3{margin:0;font-size:1.3rem}
