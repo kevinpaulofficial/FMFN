@@ -1,115 +1,160 @@
 {
  "suomi": [
   {
-   "title": "\"Pahis löytyy Moskovasta\" – näin Mari Rantanen perustelee rajaturvallisuuslakia",
-   "link": "https://www.mtvuutiset.fi/artikkeli/pahis-loytyy-moskovasta-nain-mari-rantanen-perustelee-rajaturvallisuuslakia/9422024",
-   "published": "2026-11-16T17:45:06+00:00",
-   "description": "Sisäministeri Mari Rantasen mukana rajaturvallisuuslain jatkaminen on aivan välttämätöntä.",
-   "image": "https://api.mtvuutiset.fi/graphql/caas/v1/media/9422034/data/09142f351fe486e466dd99846a006e29/landscape16_9/1024/rantanen.png",
+   "title": "Uutta tietoa Turkissa pidätetystä suomalais­rehtorista",
+   "link": "https://www.is.fi/kotimaa/art-2000012415765.html",
+   "published": "2026-11-16T18:32:00+00:00",
+   "description": "Suomalaisrehtori pidätettiin mediatietojen mukaan Turkin Alanyassa viime keskiviikkona.",
+   "image": "https://images.sanoma-sndp.fi/363182a8d9c4c9e024d4821aa0b38e9d/normal/1440.jpg",
    "important": false,
    "hot": false
   },
   {
-   "title": "Öisin ilmestyvät lehmät terrorisoivat pikkukylää – ”Me kaikki kärsimme”",
-   "link": "https://www.is.fi/ulkomaat/art-2000012414342.html",
-   "published": "2026-11-16T17:45:00+00:00",
-   "description": "Yli tuhat vapaana vaeltavaa lehmää ja sonnia aiheuttaa tuhoa Pohjois-Makedoniassa.",
-   "image": "https://images.sanoma-sndp.fi/ab21f507b6c294c8324292a767ea3c74/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Trump: Saatan tavata myös Kim Jong-unin Kiinassa",
-   "link": "https://www.is.fi/ulkomaat/art-2000012416799.html",
-   "published": "2026-11-16T17:44:00+00:00",
-   "description": "Trumpin on määrä tavata Pekingissä torstaina Venäjän ja Kiinan presidentit.",
-   "image": "https://images.sanoma-sndp.fi/7bd9ee1cb85f59756eaab950eded4b15/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Tästä on kyse | Suomi ei päästä enää venäläisiä urheiljoita maahan: tämä asiasta tiedetään nyt",
-   "link": "https://www.hs.fi/urheilu/art-2000012416929.html",
-   "published": "2026-11-16T17:41:00+00:00",
-   "description": "Venäläisiä urheilijoita ei päästetä enää Suomeen. Kokosimme, mistä on kyse, mitä se konkreettisesti tarkoittaa ja mitä tästä voi seurata.",
-   "image": null,
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Maahanmuutto | EU-maat valmistautuvat lähettämään turva­paikanhakijoita Ruandaan",
-   "link": "https://www.hs.fi/politiikka/art-2000012416595.html",
-   "published": "2026-11-16T17:40:00+00:00",
-   "description": "Tanskan johtama maaryhmä haluaa perustaa EU:n ensimmäisen palautuskeskuksen Keski-Afrikassa sijaitsevaan Ruandaan. Keskuksen on tarkoitus olla toiminnassa jo ensi vuonna.",
-   "image": "https://images.sanoma-sndp.fi/1198eed050847a6b2b70f8b1f9edda80/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Parantumattomasti sairas Enzo Pulkkinen: ”Elinaikaa muutamasta viikosta muutamaan kuukauteen”",
-   "link": "https://www.is.fi/viihde/art-2000012417028.html",
-   "published": "2026-11-16T17:37:00+00:00",
-   "description": "Enzo Pulkkinen sairastaa keuhkosyöpää.",
-   "image": "https://images.sanoma-sndp.fi/06a14f54af20c9ae9b025bca83c17875/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Ruotsissa ällistyttiin Nais­leijonien mokasta",
-   "link": "https://www.is.fi/jaakiekko/art-2000012416995.html",
-   "published": "2026-11-16T17:37:00+00:00",
-   "description": "Suomi päästi Ruotsin tasoihin tyhmällä tavalla.",
-   "image": "https://images.sanoma-sndp.fi/b37835e29ffc14a42f2bec161f85c39a/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Ukrainan sota | Ukraina iski Krimin siltaan",
-   "link": "https://www.hs.fi/maailma/art-2000012415359.html",
-   "published": "2026-11-16T17:35:00+00:00",
-   "description": "Venäjä väittää torjuneensa satoja Ukrainan drooneja maanantain vastaisena yönä. Liikenne Krimin sillalla on Venäjän mukaan palautunut ainakin osittain.",
-   "image": "https://images.sanoma-sndp.fi/66c007f87e24749ad1ece019c2cbf11d/normal/1440.jpg",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Lentolipun varaamiseen liittyy hämmentävä yksityis­­kohta – Finnair: ”Voi olla, ettei ole laajasti tiedossa”",
-   "link": "https://www.is.fi/matkat/art-2000012403496.html",
-   "published": "2026-11-16T17:30:00+00:00",
-   "description": "Lentoyhtiöiden nimikäytännöissä on eroja.",
-   "image": "https://images.sanoma-sndp.fi/fe5892aaae4bc1a577618485e304701e/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Kasinokeisari Ossi Ketola myy nuorille miehille vaarallista illuusiota",
-   "link": "https://www.kauppalehti.fi/uutiset/a/08d03ebb-9973-4bc7-a46f-6700055d420b?utm_source=rss",
-   "published": "2026-11-16T17:30:00+00:00",
-   "description": "Ossi Ketola flirttailee rasismilla ja markkinoi itseään miljardöörinä. Pitääkö olla huolissaan, kun nuoret miehet fanittavat häntä, kysyy Kauppalehden toimittaja Cilla Bhose.",
+   "title": "Seurakunta tulkitsi Essin eroaikeet psykoosiksi – yhteisön painostus paljastui hoitajille osastolla",
+   "link": "https://yle.fi/a/74-20254053?origin=rss",
+   "published": "2026-11-16T18:31:37+00:00",
+   "description": "Yle kysyi hyvinvointialueilta, miten hengellinen väkivalta tunnistetaan potilastyössä. Kävi ilmi, että valmiudet tähän ovat erilaisia.",
    "image": null,
    "important": false,
    "hot": false
   },
   {
-   "title": "Venäjällä opiskeleva Arina, 17, Viron rajasulusta: ”Heidän pitäisi hävetä”",
-   "link": "https://www.is.fi/ulkomaat/art-2000012414789.html",
-   "published": "2026-11-16T17:27:00+00:00",
-   "description": "Viro on ilmoittanut sulkevansa Venäjän-vastaisen rajansa.",
-   "image": "https://images.sanoma-sndp.fi/614f31eb1617e1e0c06caf3f14dff2e1/normal/1440.jpg",
+   "title": "Pleikkarit revitään nyt käsistä – voivat loppua jouluksi GTA:n takia, varoittavat isot kauppaketjut",
+   "link": "https://www.is.fi/esports/art-2000012414876.html",
+   "published": "2026-11-16T18:31:00+00:00",
+   "description": "GTA VI:n suosio näkyy elektroniikkaketjuissa, jotka varoittavat jo joulun mahdollisesta konsolipulasta.",
+   "image": "https://images.sanoma-sndp.fi/f79cf730e2e908a2815bda3f0be0dce5/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Yle Narvassa: pormestari kertoo, että rajan sulku on hankala paikka",
+   "link": "https://yle.fi/a/74-20257324?origin=rss",
+   "published": "2026-11-16T18:28:17+00:00",
+   "description": "Narvan pormestari Jaan Toots toivoo, että raja pysyisi tietyin tavoin auki, mutta aikoo tyytyä hallituksen päätöksiin.",
+   "image": null,
    "important": true,
    "hot": false
   },
   {
-   "title": "Onko kyse kaamosväsymyksestä vai kaamosmasennuksesta? Näin tunnistat eron",
-   "link": "https://www.mtvuutiset.fi/artikkeli/onko-kyse-kaamosvasymyksesta-vai-kaamosmasennuksesta-nain-tunnistat-eron/9422032",
-   "published": "2026-11-16T17:26:31+00:00",
-   "description": "Terveyden ja hyvinvoinnin laitoksen tutkimusprofessori Timo Partosen mukaan tavallisessa kaamosväsymyksessä keskeistä on väsymys, joka liittyy usein huonolaatuiseen ja katkonaiseen uneen.",
-   "image": "https://api.mtvuutiset.fi/graphql/caas/v1/media/402626/data/913b86174089041969d0ed90411eab05/landscape16_9/1024/1183058.jpg",
+   "title": "CNBC: Nvidian hallitus ei harkitse Jensen Huangin paluuta",
+   "link": "https://www.kauppalehti.fi/uutiset/a/ec31623c-5528-4753-8f28-f71a44d19970?utm_source=rss",
+   "published": "2026-11-16T18:22:00+00:00",
+   "description": "Kauppalehti seuraa markkinatapahtumia tässä artikkelissa.",
+   "image": null,
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Vakoiluskandaali | Mediat: Nvidian hallitus ei kaipaa Jensen Huangia takaisin toimitus­johtajaksi",
+   "link": "https://www.hs.fi/visio/art-2000012417074.html",
+   "published": "2026-11-16T18:15:00+00:00",
+   "description": "Mediatietojen mukaan Huang on harkinnut paluuta toimitusjohtajan paikalle. Hän erosi viime viikolla suhdeskandaalin saattelemana.",
+   "image": "https://images.sanoma-sndp.fi/6a01159f3f50bf376677712a8dba9564/normal/1440.jpg",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Joukkoliikenne | En halua katsella mainoksia ratikkamatkan aikana",
+   "link": "https://www.hs.fi/mielipide/art-2000012415090.html",
+   "published": "2026-11-16T18:15:00+00:00",
+   "description": "Eihän julkinen liikenne voi olla mikään markkinointialusta, kun se on verorahoilla ja käyttömaksuilla kustannettu.",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Tiesitkö? Tätä varten lenkkareissa on ”ylimääräiset” reiät",
+   "link": "https://www.is.fi/kotimaa/art-2000012394547.html",
+   "published": "2026-11-16T18:15:00+00:00",
+   "description": "Lenkkareiden \"ylimääräiset\" reiät mahdollistavat kantapään lukitussolmun tekemisen. Lukkonauhoitus voi auttaa, jos kantapää nousee askeleen aikana. Lisäksi se voi ehkäistä rakkojen syntymistä sekä pidentää kenkien käyttöikää.",
+   "image": "https://images.sanoma-sndp.fi/9194090606af55a53e086fbb05a3fd7e/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Säässä tapahtuu käänne – lunta luvassa etelään asti",
+   "link": "https://www.is.fi/kotimaa/art-2000012416897.html",
+   "published": "2026-11-16T18:14:00+00:00",
+   "description": "Ensi viikolla sää muuttuu näillä näkymin vielä talvisemmaksi.",
+   "image": "https://images.sanoma-sndp.fi/47a9bf9306c0e050ff4903473ad216b9/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Ilmastonmuutos | Lämpeneminen näkyy tunturilla: männyt kiipesivät kohti lakea",
+   "link": "https://www.hs.fi/tiede/art-2000012392250.html",
+   "published": "2026-11-16T18:09:00+00:00",
+   "description": "Tutkija muistaa, miten nuorena opiskelijana hän näki mäntyjä alempana tunturissa kuin nyt professorina.",
+   "image": "https://images.sanoma-sndp.fi/581baa54ddfa2c8487eb6fa0d518af94/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Valioliigaseura palkkasi tutun nimen",
+   "link": "https://www.is.fi/valioliiga/art-2000012417045.html",
+   "published": "2026-11-16T18:05:00+00:00",
+   "description": "Tanskalainen ottaa ohjat Crystal Palacessa.",
+   "image": "https://images.sanoma-sndp.fi/ef8b77d5d45e15f78f74b4ae34b1c340/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Kotipihalla meteliä jopa kuin konepajalla – näin vantaalaiset sietävät asumista Suomen pahimmalla lentomelualueella",
+   "link": "https://yle.fi/a/74-20255566?origin=rss",
+   "published": "2026-11-16T18:02:29+00:00",
+   "description": "Vantaan lentomelualueen asukasmäärä voi lisääntyä jopa 5 000 ihmisellä. Viranomainen ei katso tätä hyvällä. Nykyisten asukkaiden mukaan meteliin tottuu pian.",
+   "image": null,
    "important": false,
    "hot": false
   }
  ],
  "jalkapallo": [
+  {
+   "title": "Grand Slam of Darts LIVE! Build-up with Littler, Price, Bunting in action",
+   "link": "https://www.skysports.com/darts/live-blog/12040/13612803/grand-slam-of-darts-commentary-updates-scores-analysis-with-luke-littler-gerwyn-price-stephen-bunting-in-action",
+   "published": "2026-11-16T18:30:00+00:00",
+   "description": "",
+   "image": "https://e0.365dm.com/26/11/1920x1080/skysports-darts-grand-slam-of-darts_7403194.jpg?20261110143700",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Robertson makes Scotland history vs Switzerland LIVE!",
+   "link": "https://www.skysports.com/football/switzerland-vs-scotland/live/554127",
+   "published": "2026-11-16T18:30:00+00:00",
+   "description": "",
+   "image": "https://e2.365dm.com/26/11/1920x1080/skysports-andy-robertson-scotland_7406189.jpg?20261113230254",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Old foes Taylor and Van Barneveld to reunite for Ally Pally charity pro-celeb",
+   "link": "https://www.skysports.com/darts/news/12040/13612948/phil-taylor-and-raymond-van-barneveld-to-renew-their-iconic-rivalry-as-non-playing-captains-at-pro-celeb-event-at-alexandra-palace",
+   "published": "2026-11-16T18:16:00+00:00",
+   "description": "Phil Taylor and Raymond van Barneveld will renew their iconic rivalry as non-playing captains at a special pro-celeb event at Alexandra Palace next month.",
+   "image": "https://e1.365dm.com/26/11/1920x1080/skysports-raymond-van-barneveld_7408021.jpg?20261116181305",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Cameroon, Senegal and Benin close in on Afcon 2027 qualification",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cwg7lr2ly3ngo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-16T18:07:51+00:00",
+   "description": "Cameroon, Senegal and Benin are on the brink of qualifying for the 2027 Africa Cup of Nations, while Ghana secure another crucial win in their bid to reach the finals.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9751/live/dd2677a0-e1d7-11f1-ac67-3510ff19b64e.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Spain in pain as historic run ends but De la Fuente feels best is yet to come",
+   "link": "https://www.theguardian.com/football/2026/nov/16/luis-de-la-fuente-spain-england-nations-league",
+   "published": "2026-11-16T17:48:38+00:00",
+   "description": "While the head coach, players and Spanish press were magnanimous in defeat, there was pride mixed in with disappointment – and confidence the future is still bright“With every game, defeat gets closer,” Luis de la Fuente had said and on Sunday night it finally came. Spain had lost only one competitive game since Scotland in March 2023 back when the coach hadn’t won anything and didn’t look like he",
+   "image": "https://i.guim.co.uk/img/media/5055106e3f335a2765a72e6325123929ec3bf675/1097_1299_2055_1644/master/2055.jpg?width=140&quality=85&auto=format&fit=max&s=00d28b349e15be87b6a433e59c0a076a",
+   "important": false,
+   "hot": false
+  },
   {
    "title": "How Frank can restore reputation and save Crystal Palace",
    "link": "https://www.bbc.co.uk/sport/football/articles/cmge3y2qjlyro?at_medium=RSS&at_campaign=rss",
@@ -118,6 +163,15 @@
    "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a30c/live/69f709f0-df63-11f1-a8af-15d7a25dc0d1.png",
    "important": false,
    "hot": true
+  },
+  {
+   "title": "Eubank Jr and Brook in talks over blockbuster British battle",
+   "link": "https://www.skysports.com/boxing/news/12040/13612955/chris-eubank-jr-vs-kell-brook-british-rivals-are-holding-talks-for-a-blockbuster-battle-but-terms-are-yet-to-be-agreed",
+   "published": "2026-11-16T17:46:00+00:00",
+   "description": "Chris Eubank Jr has been holding talks with Kell Brook for a blockbuster British battle, but a deal is yet to be finalised.",
+   "image": "https://e2.365dm.com/26/11/1920x1080/skysports-chris-eubank-jr-kell-brook_7408016.jpg?20261116180631",
+   "important": false,
+   "hot": false
   },
   {
    "title": "Beckham firm sues after fragrance found for sale in discount store",
@@ -138,15 +192,6 @@
    "hot": false
   },
   {
-   "title": "Cameroon and Senegal close in on Afcon 2027 qualification",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cwg7lr2ly3ngo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T17:07:04+00:00",
-   "description": "Cameroon and Senegal are on the brink of qualifying for the 2027 Africa Cup of Nations, while Ghana secure another crucial victory in their bid to reach the finals.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9751/live/dd2677a0-e1d7-11f1-ac67-3510ff19b64e.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
    "title": "Thomas Frank confirmed as Crystal Palace manager after Pierre Sage’s sacking",
    "link": "https://www.theguardian.com/football/2026/nov/16/thomas-frank-confirmed-crystal-palace-manager-pierre-sage",
    "published": "2026-11-16T17:03:14+00:00",
@@ -160,7 +205,7 @@
    "link": "https://www.skysports.com/football/news/12040/13610988/thomas-frank-crystal-palace-appoint-former-spurs-and-brentford-boss-as-pierre-sages-successor-at-selhurst-park",
    "published": "2026-11-16T17:00:00+00:00",
    "description": "Crystal Palace have appointed Thomas Frank as their new manager.",
-   "image": "https://e0.365dm.com/26/11/1920x1080/skysports-frank-crystal-palace_7401633.jpg?20261108205851",
+   "image": "https://e0.365dm.com/26/11/1920x1080/skysports-thomas-frank-crystal-palace_7408022.png?20261116181511",
    "important": false,
    "hot": true
   },
@@ -172,54 +217,27 @@
    "image": "https://i.guim.co.uk/img/media/f6b6bde73f22979b3c7573b5d540aac24bddb0db/571_0_4345_3476/master/4345.jpg?width=140&quality=85&auto=format&fit=max&s=a848b8e421121955e085eb84c71efe5b",
    "important": false,
    "hot": true
-  },
+  }
+ ],
+ "teknologia": [
   {
-   "title": "Do good club managers necessarily make good international managers? | Jonathan Wilson",
-   "link": "https://www.theguardian.com/global/2026/nov/16/mauricio-pochettino-usmnt-replacement-coach",
-   "published": "2026-11-16T16:14:29+00:00",
-   "description": "In a mailbag edition of our newsletter, we look at Mauricio Pochettino, Pep Guardiola’s international credentials and the lack of elite English managersSign up for our free newsletter hereWho should replace Mauricio Pochettino as the USMNT manager? – Tom SAlthough the salary I’m sure will be excellent, I think the US job is going to be a really difficult sell to a top-level coach. The 2030 World C",
-   "image": "https://i.guim.co.uk/img/media/a05aa098b3152673b6c66abe291ae14babf13bc6/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=dbd0d76dc243dd5101ddcb26cd77fe2d",
+   "title": "Sam Altman on Nvidia without Jensen Huang: the industry will be ‘fine’",
+   "link": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
+   "published": "2026-11-16T18:11:10+00:00",
+   "description": "OpenAI CEO Sam Altman acknowledged the special role Nvidia CEO Jensen Huang has played in the AI boom, but ultimately thinks the industry will be “fine” without him at the helm.",
+   "image": null,
    "important": false,
    "hot": true
   },
   {
-   "title": "Your questions on Man Utd transfers and ownership answered!",
-   "link": "https://www.skysports.com/watch/video/13612916/kaveh-solhekol-qa-manchester-united-ownership-and-january-transfer-plans",
-   "published": "2026-11-16T16:08:00+00:00",
-   "description": "Kaveh Solhekol answers the key questions surrounding Manchester United&#8217;s ownership involving the Glazers and potential plans for the January transfer window.",
-   "image": "https://e0.365dm.com/26/11/1920x1080/skysports-kaveh-man-utd-qa_7407925.jpg?20261116162451",
+   "title": "AQSolotl Reports 6.94-Microsecond Latency in NVIDIA NVQLink Integration Test",
+   "link": "https://thequantuminsider.com/2026/11/16/aqsolotl-6-94-microsecond-latency-nvidia-nvqlink-test/",
+   "published": "2026-11-16T18:02:01+00:00",
+   "description": "Insider Brief PRESS RELEASE &#8212; AQSolotl, a developer of quantum control systems, today announced initial results from integrating NVIDIA NVQLink into its Chronos-Q platform. Tests connecting Chronos-Q with NVIDIA DGX Spark recorded a minimum round-trip latency of 6.94 microseconds across 1,000 requests. Quantum processors rely on classical computing to control and fine-tune their operations. ",
+   "image": "https://thequantuminsider.com/wp-content/uploads/2026/11/2026-11-16_23-00.png",
    "important": false,
    "hot": false
   },
-  {
-   "title": "‘Inexcusable’ stadium sagas provide NWSL with unwelcome reality check",
-   "link": "https://www.theguardian.com/football/2026/nov/16/nwsl-playoffs-gotham-icahn-stadium-controversy",
-   "published": "2026-11-16T15:56:55+00:00",
-   "description": "Problems faced by Gotham FC and Washington Spirit over staging of their playoff semi-finals shows the league still has work to doIn so many ways, Icahn Stadium, tucked away on Randall’s Island in the Harlem River, is a fantastic place to watch soccer.The 5,000-seat facility was thrown together in the early 2000s, constructed to replace Downing Stadium, an aging relic that hosted Pelé’s first match",
-   "image": "https://i.guim.co.uk/img/media/0f1f87f148413e0252e525512255f79805eadf9f/630_0_6616_5293/master/6616.jpg?width=140&quality=85&auto=format&fit=max&s=aee8f0f04a93ce28f7b9feadad039ebb",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Wales without Williams for Portugal as Bellamy makes Vitinha point",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cmkgk3nv6pqyo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T15:55:16+00:00",
-   "description": "Wales will be without right-back Neco Williams for their final Nations League group match against Portugal, while goalkeeper Karl Darlow is a doubt.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3d83/live/350960d0-e1c5-11f1-8a52-0b287ff76f43.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Klopp says Infantino worse than Blatter",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cjr4gr2k41dxo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T15:54:36+00:00",
-   "description": "Germany manager Jurgen Klopp says he \"didn't think things could get worse after Sepp Blatter, but someone has managed to do just that\" as he calls for Fifa president Gianni Infantino to be replaced.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/217d/live/86082020-e1ac-11f1-8ee3-23d0d09d2796.jpg",
-   "important": false,
-   "hot": false
-  }
- ],
- "teknologia": [
   {
    "title": "FBI says Artex AI open-source hacking tool used to breach networks in ‘under three hours’",
    "link": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
@@ -227,6 +245,15 @@
    "description": "The FBI says that the open-source hacking tool was used in cyberattacks targeting a U.S. IT giant and the South Korean financial industry.",
    "image": null,
    "important": true,
+   "hot": false
+  },
+  {
+   "title": "Saltgrain and NTT Research Develop Large-Universe Post-Quantum Encryption",
+   "link": "https://thequantuminsider.com/2026/11/16/saltgrain-ntt-research-post-quantum-attribute-based-encryption/",
+   "published": "2026-11-16T17:33:34+00:00",
+   "description": "Insider Brief PRESS RELEASE &#8212; Saltgrain, the data-centric security platform for sovereign data, incubated in Scale Academy at NTT Research, the Silicon Valley research arm of NTT, Inc., and the NTT Research Cryptography and Information Security (CIS) Lab today announced that the first practical large-universe post-quantum attribute-based encryption is headed for Saltgrain. The technology let",
+   "image": "https://thequantuminsider.com/wp-content/uploads/2026/11/2026-11-16_22-32.png",
+   "important": false,
    "hot": false
   },
   {
@@ -239,7 +266,7 @@
    "hot": false
   },
   {
-   "title": "OpenAI will embed Apollo researchers to investigate AI subversion",
+   "title": "OpenAI will embed safety researchers to investigate AI subversion",
    "link": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
    "published": "2026-11-16T17:02:43+00:00",
    "description": "OpenAI will embed six Apollo Research evaluators to investigate whether its AI models engage in subversive behavior, but restrictions on access and disclosure raise questions about their independence.",
@@ -300,146 +327,146 @@
    "image": null,
    "important": false,
    "hot": false
-  },
-  {
-   "title": "US tightens AI chip export controls to deter Chinese companies from accessing compute remotely",
-   "link": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
-   "published": "2026-11-16T15:02:34+00:00",
-   "description": "Under the interim rule, the U.S. will require firms to get licenses to export AI chips if they may provide compute to China or other restricted countries.",
-   "image": null,
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Google Maps can now build trip itineraries with real-time details about each stop",
-   "link": "https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop/",
-   "published": "2026-11-16T14:48:13+00:00",
-   "description": "You could use Ask Maps to plan a holiday shopping day trip or something more complex, like a three-day road trip featuring coastal hikes and oceanfront dining.",
-   "image": null,
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Jensen Huang allies build a \"war room\" to get him back at Nvidia",
-   "link": "https://arstechnica.com/ai/2026/11/jensen-huang-allies-build-a-war-room-to-get-him-back-at-nvidia/",
-   "published": "2026-11-16T14:06:16+00:00",
-   "description": "Huang is weighing a return just days after resigning amid a deepening scandal.",
-   "image": "https://cdn.arstechnica.net/wp-content/uploads/2024/06/huang_computex_2024-1152x648.jpg",
-   "important": false,
-   "hot": true
   }
  ],
  "maailma": [
   {
-   "title": "Israeli court upholds detention of Palestinian land activist Ghassan Najjar",
-   "link": "https://www.aljazeera.com/news/2026/11/16/israeli-court-upholds-detention-of-palestinian-land-activist-ghassan-najjar?traffic_source=rss",
-   "published": "2026-11-16T17:49:16+00:00",
-   "description": "Occupied West Bank land defender is set to remain in detention until at least February 26 next year.",
-   "image": null,
-   "important": true,
+   "title": "Trump backs calls for reinstatement of Jensen Huang as Nvidia CEO",
+   "link": "https://www.theguardian.com/technology/2026/nov/16/trump-backs-calls-for-reinstatement-of-jensen-huang-as-nvidia-ceo",
+   "published": "2026-11-16T18:30:57+00:00",
+   "description": "As tech industry pushes for return, US president says he thinks Huang ‘learned a big lesson’Donald Trump has expressed support for the return of Jensen Huang as the chief executive of Nvidia, joining Silicon Valley heavyweights in backing the reinstatement of the AI figurehead.The US president referred to a tech industry campaign for Huang’s rehabilitation, saying a “big group” of people would lik",
+   "image": "https://i.guim.co.uk/img/media/7f67412f0366dc2ae41bf00eadde0fe0b8e1c6d0/817_89_6141_4914/master/6141.jpg?width=140&quality=85&auto=format&fit=max&s=f383d71329a6f68ee1d040041748f913",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Woman accusing David Walliams of grooming her backs staggered age of consent call",
+   "link": "https://www.theguardian.com/tv-and-radio/2026/nov/16/woman-accusing-david-walliams-grooming-backs-staggered-age-of-consent-call",
+   "published": "2026-11-16T18:30:20+00:00",
+   "description": "Comments come after Mia Latter, who alleged she was raped by Russell Brand, had said she wanted a change in lawA woman who has accused David Walliams of grooming her has said she supports a staggered age of consent.Walliams, 55, has been accused by multiple women of using his power and celebrity status to prey on young women and teenagers for sex, a joint investigation by the Guardian and ITV News",
+   "image": "https://i.guim.co.uk/img/media/e78dc61a399ccaafc309ae88184215293ae61417/511_61_2396_1917/master/2396.jpg?width=140&quality=85&auto=format&fit=max&s=8881041d5135a401bf43f4affb39cf91",
+   "important": false,
    "hot": false
+  },
+  {
+   "title": "Ministry of Justice investigating Russell Brand message from prison claiming he is not guilty",
+   "link": "https://www.theguardian.com/news/2026/nov/16/ministry-of-justice-investigating-russell-brand-message",
+   "published": "2026-11-16T18:24:49+00:00",
+   "description": "PM’s spokesperson calls message, read out by convicted rapist’s wife on their YouTube channel, ‘clearly appalling’The Ministry of Justice has launched an investigation into whether Russell Brand has broken prison rules after the jailed comedian shared a message claiming he was not guilty of sexual offences just days after his conviction.Brand’s wife, Laura Brand, read a message from her rapist hus",
+   "image": "https://i.guim.co.uk/img/media/d57aa2b8f95231e7400a5ffa8a372cc6c25e1437/416_0_2740_2192/master/2740.jpg?width=140&quality=85&auto=format&fit=max&s=65114feb61b760d58310a6ec0f8b299d",
+   "important": false,
+   "hot": true
   },
   {
    "title": "Trump defends commerce secretary Lutnick for allegedly slow-walking Nvidia chip export restrictions – live",
    "link": "https://www.theguardian.com/us-news/live/2026/nov/16/donald-trump-asia-visit-democrats-republicans-elizabeth-warren-faa-air-disruption-latest-news-updates",
-   "published": "2026-11-16T17:47:48+00:00",
+   "published": "2026-11-16T18:24:22+00:00",
    "description": "President backs Lutnick after treasury secretary Scott Bessent blamed commerce department for delays in blocking advance AI chip exportsSign up for the Breaking News US emailLauren Almeida and Dan MilmoElon Musk and a host of other tech bosses have called for Jensen Huang’s reinstatement at Nvidia, amid reports the former chief executive is already plotting a return to the chip company just four d",
    "image": "https://i.guim.co.uk/img/media/29e1fc8710bf83e00df914f8c097f75fb4d65897/496_0_4327_3461/master/4327.jpg?width=140&quality=85&auto=format&fit=max&s=d102a629805843dfa154e4ba0be7271b",
    "important": false,
    "hot": true
   },
   {
-   "title": "‘Near-Philistine’: fury greets Shakespeare Institute plan to leave Stratford-upon-Avon",
-   "link": "https://www.theguardian.com/education/2026/nov/16/near-philistine-fury-shakespeare-institute-plan-leave-stratford-upon-avon-edgbaston",
-   "published": "2026-11-16T17:45:02+00:00",
-   "description": "Renowned centre of Shakespeare studies, which is part of University of Birmingham, to move to its Edgbaston campus “Near-Philistine”, “ignorant”, “unbelievably stupid”, “terrible”, “extraordinarily sad and shortsighted”, “an appalling act of cultural vandalism”, “a disaster”, and “an absolute disgrace”.Such has been the furious reaction to news that the Shakespeare Institute, a much-loved and inte",
-   "image": "https://i.guim.co.uk/img/media/9d94da0097c2bd4ba768b43c01719b8b8e0e62df/157_0_4497_3598/master/4497.jpg?width=140&quality=85&auto=format&fit=max&s=0456323eeb0ac5b6182d8aa76f695a0c",
+   "title": "Xi, Trump and Putin to discuss ‘world peace’ at trilateral, says China",
+   "link": "https://www.theguardian.com/world/2026/nov/16/xi-jinping-donald-trump-vladimir-putin-world-peace-trilateral-says-china",
+   "published": "2026-11-16T18:23:02+00:00",
+   "description": "Beijing stops short of confirming specific agenda, but Trump says denuclearisation, Iran war, trade and Ukraine will be among topicsThe meeting of Xi Jinping, Donald Trump and Vladimir Putin in Shenzhen this week will cover topics of “groundbreaking significance” including “safeguarding world peace”, the Chinese foreign ministry has said.The confirmation of Thursday’s trilateral talks, the first o",
+   "image": "https://i.guim.co.uk/img/media/1314ca56ea87a76eb19c89d8d928610638be91b9/258_0_1247_998/master/1247.jpg?width=140&quality=85&auto=format&fit=max&s=467ddee3ef831069555f8878a508dd2f",
+   "important": true,
+   "hot": false
+  },
+  {
+   "title": "British actor Robert Pattinson named as new James Bond",
+   "link": "https://www.aljazeera.com/news/2026/11/16/british-actor-robert-pattinson-named-as-new-james-bond?traffic_source=rss",
+   "published": "2026-11-16T18:13:14+00:00",
+   "description": "The actor called the studio&#039;s decision a &#039;dream come true&#039;.",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Trump backs return of ex-Nvidia boss after 'Bring Jensen Back' campaign launched",
+   "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-16T18:06:26+00:00",
+   "description": "A number of tech figures want the board of the AI chip giant to give Jensen Huang his job back.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78e4/live/4bc24280-e1d2-11f1-b8c8-67fa35f5afdb.jpg",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Trump backs return of ex-Nvidia boss after 'Bring Jensen Back' campaign launched",
+   "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-16T18:06:26+00:00",
+   "description": "A number of tech figures want the board of the AI chip giant to give Jensen Huang his job back.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78e4/live/4bc24280-e1d2-11f1-b8c8-67fa35f5afdb.jpg",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "'Parents are offering to pay kids' wages': Salon owner",
+   "link": "https://www.bbc.co.uk/news/videos/c60rkn7vdjxxo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-16T18:05:17+00:00",
+   "description": "National Insurance (NI) paid by firms on under-25s should be gradually lowered to help create more jobs, according to a new report from former government minister Alan Milburn, due to be published on Tuesday.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0fe4/live/848a2750-e1db-11f1-99a1-253766e7ad8b.jpg",
    "important": false,
    "hot": false
   },
   {
    "title": "Brand statement from prison claiming his innocence ‘appalling’ and could breach rules, says No 10 – UK politics live",
    "link": "https://www.theguardian.com/politics/live/2026/nov/16/ed-miliband-russell-brand-andy-burnham-brexit-eu-milburn-review-young-people-employment-uk-politics-latest-news",
-   "published": "2026-11-16T17:43:39+00:00",
+   "published": "2026-11-16T18:02:54+00:00",
    "description": "Brand’s wife Laura read out a message from him on their YouTube showAfter education questions, there is one urgent question in the Commons and two ministerial statements. They are, with rough timings:3.30pm: A Home Office minister responds to an urgent question about planning permission being granted for the proposed camp for asylum seekers near Piddington.It’s always a good idea to promote closer",
    "image": "https://i.guim.co.uk/img/media/f1f62e86d5d340fa3e406a388a83d0ba1c0610c4/765_0_3391_2714/master/3391.jpg?width=140&quality=85&auto=format&fit=max&s=580d87f127bfb9aa97243f0b42e7ae42",
    "important": false,
    "hot": false
   },
   {
-   "title": "Emma Barnett steps down from BBC Radio 4’s Today programme",
-   "link": "https://www.theguardian.com/media/2026/nov/16/emma-barnett-steps-down-bbc-radio-4-today-programme",
-   "published": "2026-11-16T17:36:07+00:00",
-   "description": "Presenter says she will remain at the corporation working on show launching in 2027, as search for successor beginsThe BBC has confirmed Emma Barnett is stepping down as a presenter of Radio 4’s Today programme, setting off the broadcaster’s latest search for a new name to co-host its flagship news programme.The official announcement came after months of speculation about Barnett’s future on the s",
-   "image": "https://i.guim.co.uk/img/media/599dffa27d0e04310da87eef9c0a002a92559bcd/46_0_541_433/master/541.jpg?width=140&quality=85&auto=format&fit=max&s=524af9925692e17179b401d58e3e7fdb",
+   "title": "Police ‘retreating from streets’ due to major funding crisis, chief constables say",
+   "link": "https://www.theguardian.com/uk-news/2026/nov/16/police-retreating-from-streets-major-funding-crisis-england-wales",
+   "published": "2026-11-16T18:00:50+00:00",
+   "description": "Forces across England and Wales struggle amid financial pressures described as worst for decadesPolice chiefs say officers are “retreating from the streets” amid the worst financial crisis in decades, which has left nine forces seeking exceptional financial support (EFS) from the government.Paul Sanford, the chief constable of Norfolk police and the finance lead for the National Police Chiefs’ Cou",
+   "image": "https://i.guim.co.uk/img/media/4063038e12cd12af9983d3da80722504710011c2/625_167_3799_3039/master/3799.jpg?width=140&quality=85&auto=format&fit=max&s=a8ff917eaf493563aa004faf985c7f0c",
    "important": false,
    "hot": false
   },
   {
-   "title": "Beckham firm sues after fragrance found for sale in discount store",
-   "link": "https://www.theguardian.com/football/2026/nov/16/david-beckham-fragrance-sale-poundland-bargain-bin-gas-station",
-   "published": "2026-11-16T17:35:59+00:00",
-   "description": "Brand reacted with ‘shock and dismay’ after products were also found in a ‘bargain bin inside a gas station’Business live – latest updatesDavid Beckham’s company reacted with “shock and dismay” after discovering his branded fragrance range was on sale in petrol stations and in the British discount store Poundland, court documents have revealed.The former England football captain’s brand, DB Ventur",
-   "image": "https://i.guim.co.uk/img/media/b545f9d7a790ea86d7c205a1aa43db5a001f1e42/1779_175_2064_1652/master/2064.jpg?width=140&quality=85&auto=format&fit=max&s=5f3ca0f86022053fc18d97cfa7ce756f",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Silicon Valley insiders urge Nvidia to restore Jensen Huang’s CEO role",
-   "link": "https://www.aljazeera.com/economy/2026/11/16/silicon-valley-insiders-urge-nvidia-to-restore-jensen-huangs-ceo-role?traffic_source=rss",
-   "published": "2026-11-16T17:24:26+00:00",
-   "description": "Nvidia faces a potential 30 percent value loss in value without Jensen Huang, market analysts say, amid a stock downturn.",
-   "image": null,
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Iraq deploys army to stronghold of Iran-backed Kataib Hezbollah",
-   "link": "https://www.aljazeera.com/news/2026/11/16/iran-deploys-army-to-stronghold-of-iran-backed-kataib-hezbollah?traffic_source=rss",
-   "published": "2026-11-16T17:18:14+00:00",
-   "description": "US pressure on Iraq to curb Tehran&#039;s influence leaves potential for direct confrontation with Iran-linked armed group.",
+   "title": "Cargo ship capsizes off Bulgaria’s Black Sea coast",
+   "link": "https://www.aljazeera.com/news/2026/11/16/cargo-ship-capsizes-off-bulgarias-black-sea-coast?traffic_source=rss",
+   "published": "2026-11-16T17:54:31+00:00",
+   "description": "Bulgaria&#039;s Transport Ministry says that all 12 of the ship&#039;s crew members were saved in a rescue operation.",
    "image": null,
    "important": false,
    "hot": false
-  },
-  {
-   "title": "LIVE: Germany vs Netherlands – UEFA Nations League",
-   "link": "https://www.aljazeera.com/sports/liveblog/2026/11/16/live-germany-vs-netherlands-uefa-nations-league?traffic_source=rss",
-   "published": "2026-11-16T17:15:12+00:00",
-   "description": "Previews, team news and live text commentary as Germany host the Netherlands in league&#039;s final Group A2 football match.",
-   "image": null,
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Trump denies responsibility for FAA nationwide ground stop",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/16/trump-denies-responsibility-for-faa-nationwide-ground-stop?traffic_source=rss",
-   "published": "2026-11-16T17:08:10+00:00",
-   "description": "Trump denies responsibility for FAA nationwide ground stop",
-   "image": null,
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Trump backs return of ex-Nvidia boss after 'Bring Jensen Back' campaign launched",
-   "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T17:07:55+00:00",
-   "description": "A number of tech figures want the board of the AI chip giant to give Jensen Huang his job back.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78e4/live/4bc24280-e1d2-11f1-b8c8-67fa35f5afdb.jpg",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Trump backs return of ex-Nvidia boss after 'Bring Jensen Back' campaign launched",
-   "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T17:07:55+00:00",
-   "description": "A number of tech figures want the board of the AI chip giant to give Jensen Huang his job back.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78e4/live/4bc24280-e1d2-11f1-b8c8-67fa35f5afdb.jpg",
-   "important": false,
-   "hot": true
   }
  ],
  "musiikki": [
+  {
+   "title": "Ty Segall Is Taking Chrome on the Road",
+   "link": "https://pitchfork.com/story/ty-segall-taking-chrome-on-the-road/",
+   "published": "2026-11-16T18:08:18+00:00",
+   "description": "The spring 2027 tour will feature a full band of Mikal Cronin, Emmett Kelly, Ben Boye, and Evan Burrows",
+   "image": "https://media.pitchfork.com/photos/6afb44499bda976cb9b447d8/master/pass/ty-segall-tour.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Teurastamo Festivaali järjestetään kolmatta kertaa 2027 Helsingissä – esiintyjälista julki",
+   "link": "https://www.rumba.fi/uutiset/tama-rento-helsinkilainen-kaupunkifestivaali-jarjestetaan-kolmatta-kertaa-2027-esiintyjalista-julki/",
+   "published": "2026-11-16T18:07:00+00:00",
+   "description": "Teurastamo-festivaalia vietetään myös ensi vuonna. Tapahtuma on lauantaina 12. päivä kesäkuuta. Esiintyjien joukossa nähdään Ruusut, Pariisin Kevät, Good Boys, Plutonium 74 ja monia muita. Helsingin festivaalikauden avaava Teurastamo Festivaali järjestetään myös tulevana kesänä Kalasataman kupeessa Teurastamolla lauantaina 12. kesäkuuta 2027. Tapahtumaa vietetään nyt kolmatta kertaa. Aiemmin maini",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Jura – “Keep Driving, Son” (Feat. ML Buch, Ydegirl, Clarissa Connelly, & Helene Due)",
+   "link": "https://stereogum.com/2518285/jura-keep-driving-son-feat-ml-buch-ydegirl-clarissa-connelly-helene-due/music/",
+   "published": "2026-11-16T17:54:18+00:00",
+   "description": "The post Jura &#8211; &#8220;Keep Driving, Son” (Feat. ML Buch, Ydegirl, Clarissa Connelly, &amp; Helene Due) appeared first on Stereogum.",
+   "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/a1874699418_10.jpg?w=564",
+   "important": false,
+   "hot": false
+  },
   {
    "title": "Hot Chip – “Me In Your Head” (Feat. Beth Ditto)",
    "link": "https://stereogum.com/2518333/hot-chip-me-in-your-head-feat-beth-ditto/music/",
@@ -520,33 +547,6 @@
    "image": null,
    "important": false,
    "hot": true
-  },
-  {
-   "title": "Daniel Craigin seuraaja James Bondina on vihdoin valittu",
-   "link": "https://www.klangi.fi/uutiset/robert-pattinson-uusi-james-bond/",
-   "published": "2026-11-16T15:58:49+00:00",
-   "description": "Uusi James Bond löytyi kuukausien arvailun jälkeen, ja rooli jäi saamatta muun muassa Callum Turnerilta ja Nicholas Houltilta. Robert Pattinson\nArtikkeli Daniel Craigin seuraaja James Bondina on vihdoin valittu julkaistiin ensimmäisen kerran Klangi.",
-   "image": "https://www.youtube.com/embed/K3elJwmxsRA",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "9 Thoughts On The 2027 Grammy Nominations",
-   "link": "https://stereogum.com/2518235/9-thoughts-on-the-2027-grammy-nominations/columns/sounding-board/",
-   "published": "2026-11-16T15:58:19+00:00",
-   "description": "The post 9 Thoughts On The 2027 Grammy Nominations appeared first on Stereogum.",
-   "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/GettyImages-2302090112.jpg?w=564",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "heavensouls – “today i learned to fly again”",
-   "link": "https://stereogum.com/2518277/heavensouls-today-i-learned-to-fly-again/music/",
-   "published": "2026-11-16T15:26:28+00:00",
-   "description": "The post heavensouls &#8211; &#8220;today i learned to fly again&#8221; appeared first on Stereogum.",
-   "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/heavensouls.jpg?w=564",
-   "important": false,
-   "hot": false
   }
  ]
 }
