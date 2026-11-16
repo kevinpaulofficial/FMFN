@@ -1,376 +1,394 @@
 {
  "suomi": [
   {
-   "title": "Puolassa kolme nuorta pidätettiin terrori-iskun suunnittelusta – kytköksiä uusnatsiyhteisöön",
-   "link": "https://www.mtvuutiset.fi/artikkeli/puolassa-kolme-nuorta-pidatettiin-terrori-iskun-suunnittelusta-kytkoksia-uusnatsiyhteisoon/9421896",
-   "published": "2026-11-16T12:34:55+00:00",
-   "description": "Epäillyt olivat hankkineet tietoa räjähteiden ja aseiden valmistamisesta sekä ryhtyneet konkreettisiin toimiin iskun toteuttamiseksi.",
-   "image": "https://api.mtvuutiset.fi/graphql/caas/v1/media/9421904/data/c12fda44d4e09e8e3e977169dbf63a16/landscape16_9/1024/aop-puolan-lippu.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Orpo ihmeissään Vapaavuoren merkinnöistä",
-   "link": "https://www.is.fi/politiikka/art-2000012416048.html",
-   "published": "2026-11-16T12:33:00+00:00",
-   "description": "Orpo ei tiedä, mistä Vapaavuoren avoimuusrekisterimerkinnöissä on kyse. Orpo on antanut uuden vastauksen oikeuskanslerille koskien Garden Helsinki -kohua.",
-   "image": "https://images.sanoma-sndp.fi/48af942be974bee975150b6f6c9560b5/normal/1440.jpg",
+   "title": "Puolustusala saa varautua Venäjän iskuihin: Viron tapahtumat voivat toistua Suomessa",
+   "link": "https://www.kauppalehti.fi/uutiset/a/ffef53cf-15c2-4c5b-9314-5defa043fa4f?utm_source=rss",
+   "published": "2026-11-16T15:35:00+00:00",
+   "description": "Droonitehtaan tuhopolttoyritys Virossa merkitsee sitä, että puolustusala saa varautua Venäjän sabotaasiyrityksiin. Asiantuntija Henri Vanhasen mukaan Venäjä iskee kiinni sinne, mistä se löytää heikon kohdan, kirjoittaa Tatu Sailaranta.",
+   "image": null,
    "important": true,
-   "hot": false
+   "hot": true
   },
   {
-   "title": "Jokerit ulos SM-liigasta? Urheilujohtajalta erikoisia lausuntoja",
-   "link": "https://www.is.fi/sm-liiga/art-2000012414847.html",
-   "published": "2026-11-16T12:32:00+00:00",
-   "description": "Jokerien urheilujohtajan mukaan seuran ongelmia on nyt syytä alkaa ruotia julkisuuden sijaan seuran sisällä.",
-   "image": "https://images.sanoma-sndp.fi/f27ff24a0343185035937325a60bfb45/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Masked Singer -laulajan tilalla soi väärä ääni – nyt puhuu pudonnut Sonja Lumme",
-   "link": "https://www.is.fi/tv-ja-elokuvat/art-2000012415769.html",
-   "published": "2026-11-16T12:30:00+00:00",
-   "description": "Sonja Lumpeen sijaan jaksossa kuultiin Tuija Pehkosen ääni.",
-   "image": "https://images.sanoma-sndp.fi/8b22c6d1f15426da047f3176f5e74034/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Ihan tavallisen pörssisijoittajan salkkuun on nyt tyrkyllä myös kryptoja – Selvitimme vaihtoehdot ja tarjonnan",
-   "link": "https://www.kauppalehti.fi/uutiset/a/86cd6c53-3ca2-4965-b56a-06a3f2458471?utm_source=rss",
-   "published": "2026-11-16T12:29:00+00:00",
-   "description": "Kryptovaluuttoihin sidottuja sijoitustuotteita on virrannut markkinoille kiihtyvällä tahdilla. Selvitimme, millaisia ne ovat.",
+   "title": "Nalle Wahlroos ennakoi valtavaa mullistusta – voi ”vapauttaa” satatuhatta ihmistä töistä",
+   "link": "https://www.kauppalehti.fi/uutiset/a/d5ef3174-2ab5-42bb-a97c-472b0389f2a9?utm_source=rss",
+   "published": "2026-11-16T15:34:00+00:00",
+   "description": "Björn Wahlroosin mukaan tietty osa Suomen julkisen sektorin työstä olisi siirrettävissä tekoälylle jo tämän päivän teknologialla. Wahlroos kommentoi myös Nvidian tilannetta Kauppalehdelle AI Summit -tapahtumassa Turussa.",
    "image": null,
    "important": false,
    "hot": false
   },
   {
-   "title": "Kysely | Mitä treeniä tai treeniliikettä vihaat yli kaiken?",
-   "link": "https://www.hs.fi/elama/art-2000012399943.html",
-   "published": "2026-11-16T12:28:00+00:00",
-   "description": "Vältteletkö jotakin treeniliikettä viimeiseen asti tai teetkö sitä treenissä silti, koska liikkeen hyödyt ovat vaivan väärti? HS tekee juttua lukijoiden inhokkitreeneistä – paljasta omasi.",
-   "image": "https://images.sanoma-sndp.fi/8876fc6294b086ac2471a2e3bdba19da/normal/1440.jpg",
+   "title": "Kuninkaalliset | Prinsessa Estelle on työ­harjoittelussa Helsingissä",
+   "link": "https://www.hs.fi/politiikka/art-2000012416663.html",
+   "published": "2026-11-16T15:33:00+00:00",
+   "description": "Ruotsin prinsessa tutustuu muun muassa tasavallan presidentti Alexander Stubbin työhön.",
+   "image": "https://images.sanoma-sndp.fi/5a0637523e40520b376cfe03d0469270/normal/1440.jpg",
    "important": false,
    "hot": false
   },
   {
-   "title": "Valtakunnansyyttäjä ei käsittele syyttäjien päätöksiä Wille Rydmanin tapauksessa",
-   "link": "https://yle.fi/a/74-20257249?origin=rss",
-   "published": "2026-11-16T12:24:45+00:00",
-   "description": "Ministeri Rydman kanteli syyttäjälaitoksen tekemistä päätöksistä valtakunnansyyttäjälle, joka päätti, että tapauksia ei ole tarve käsitellä uudelleen.",
+   "title": "Kaksi turkulaiskirjailijaa kisaa kaunokirjallisuuden Finlandiasta – ”Ehkä Aurajoessa virtaa jotain luovuutta herättävää”",
+   "link": "https://yle.fi/a/74-20255594?origin=rss",
+   "published": "2026-11-16T15:30:04+00:00",
+   "description": "Sanni Isometsä on ehdolla ensimmäistä kertaa. Heikki Kännölle Finlandia-ehdokkuus on jo kolmas.",
    "image": null,
    "important": false,
    "hot": false
   },
   {
-   "title": "FT: Energiayhtiöt varautuvat – Fortum ja Neste arvioivat KL:lle tilannetta",
-   "link": "https://www.kauppalehti.fi/uutiset/a/1ac42780-9199-49c5-baf5-3b94ce796b4a?utm_source=rss",
-   "published": "2026-11-16T12:23:00+00:00",
-   "description": "Kyberturvallisuuteen liittyvät riskit ovat polttoaineyhtiö Nesteen mukaan kasvaneet viime vuosina. Fortum harjoittelee kyberturvallisuutta myös Naton kanssa.",
+   "title": "Jyri Engeström povaa muutosta: Suuret veronmaksajat ovat yhä useammin maahanmuuttajia",
+   "link": "https://www.kauppalehti.fi/uutiset/a/6e9b3db5-4fa8-4978-bcfd-d681caf9287a?utm_source=rss",
+   "published": "2026-11-16T15:30:00+00:00",
+   "description": "Pääomasijoitusyrityksen osakas Jyri Engeström katsoo, että ulkomaalaisten huippuosaajien Suomeen muuttamista on sujuvoitettava. Hän uskoo maahanmuuttajista tulevan entistä merkittävämpiä veronmaksajia Suomessa.",
    "image": null,
    "important": false,
    "hot": false
   },
   {
-   "title": "Syyttäjältä uusi ratkaisu – HS:lle puhtaat paperit Rydman-artikkelista",
-   "link": "https://www.is.fi/politiikka/art-2000012415952.html",
-   "published": "2026-11-16T12:21:00+00:00",
-   "description": "Valtakunnansyyttäjä ei ottanut tapausta uudelleen käsittelyyn.",
-   "image": "https://images.sanoma-sndp.fi/5f1317a8ff2ed91f899e874b6d297fe7/normal/1440.jpg",
+   "title": "Yksi kuva paljastaa, miten Euroopan itäraja kiristyy",
+   "link": "https://www.mtvuutiset.fi/artikkeli/yksi-kuva-paljastaa-miten-euroopan-itaraja-kiristyy/9421922",
+   "published": "2026-11-16T15:29:55+00:00",
+   "description": "Viro sulkee Venäjän raja-asemat, lähimmät ylityspaikat Pohjois-Norja ja Latvia.",
+   "image": "https://api.mtvuutiset.fi/graphql/caas/v1/media/9421998/data/57f852fba1ccd9531ffbc284936a6a8b/landscape16_9/1024/viro-itaraja.png",
    "important": false,
    "hot": false
   },
   {
-   "title": "Iskut kauppoihin | Yle: KRP aloitti tutkinnan kylmä­laitteisiin kohdistuneista kyber­iskuista",
-   "link": "https://www.hs.fi/suomi/art-2000012414549.html",
-   "published": "2026-11-16T12:14:00+00:00",
-   "description": "Keskusrikospoliisi tutkii marraskuun alussa suomalaisiin ruokakauppoihin kohdistuneita kyberhyökkäyksiä. Vastaavia iskuja on tehty myös muualla Euroopassa.",
-   "image": "https://images.sanoma-sndp.fi/316f81a07515c7a0072267f5b34958af/normal/1440.jpg",
+   "title": "Jääkiekon MM-kisat | Naisleijonat johtoon pronssi­ottelussa Ruotsia vastaan, avainpelaaja loukkaantui",
+   "link": "https://www.hs.fi/urheilu/art-2000012416372.html",
+   "published": "2026-11-16T15:28:00+00:00",
+   "description": "Jääkiekon naisten MM-kisojen pronssiottelussa kohtaavat Ruotsi–Suomi. HS seuraa ottelua hetki hetkeltä.",
+   "image": "https://images.sanoma-sndp.fi/7612acecd62c0bc654f6e85f5b99cf34/normal/1440.jpg",
    "important": false,
    "hot": false
   },
   {
-   "title": "Sähkön hinta kohoaa korkealle tasolle tiistaina",
-   "link": "https://www.kauppalehti.fi/uutiset/a/211a178e-d6a3-44b6-b708-dcaf7c3cddb8?utm_source=rss",
-   "published": "2026-11-16T12:08:00+00:00",
-   "description": "Tiistain kalleimpina tunteina tuntihinta kohoaa lähes 33 senttiin kilowattitunnilta.",
-   "image": null,
+   "title": "Elokuvat | Robert Pattinson on uusi James Bond",
+   "link": "https://www.hs.fi/popkulttuuri/art-2000012416754.html",
+   "published": "2026-11-16T15:27:00+00:00",
+   "description": "Pattinson tunnetaan muun muassa Harry Potter- ja Twilight-elokuvista. Hän on näytellyt myös Batmania.",
+   "image": "https://images.sanoma-sndp.fi/4b1dd6b0f60c9a2fd77ebeb0ea8d9695/normal/1440.jpg",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Suomi johtoon pronssiottelussa! TV5: Tero Lehterä kuumeni kuvaajalle",
+   "link": "https://www.is.fi/mmkiekko/art-2000012416195.html",
+   "published": "2026-11-16T15:27:00+00:00",
+   "description": "Tässä artikkelissa seurataan hetki hetkeltä jääkiekon naisten MM-kisojen pronssiottelua Ruotsi–Suomi.",
+   "image": "https://images.sanoma-sndp.fi/5b697082f06e5374f229077c1a4a85db/normal/1440.jpg",
    "important": false,
    "hot": false
   },
   {
-   "title": "KOROT JA VALUUTAT: Korkohuolet yhä tapetilla, dollari vahvistuu",
-   "link": "https://www.kauppalehti.fi/uutiset/a/868520f4-282d-445a-ba0f-20c0ed639d05?utm_source=rss",
-   "published": "2026-11-16T12:07:00+00:00",
-   "description": "Dollari on vahvistunut euroa vastaan lähes koko vuoden. Sijoittajat arvailevat keskuspankki Fedin turvautuvan koronnostoon joulukuussa.",
-   "image": null,
+   "title": "Trump: Putin voisi olla Ukrainalle ”paljon kovempikin”",
+   "link": "https://www.is.fi/ulkomaat/art-2000012409263.html",
+   "published": "2026-11-16T15:21:00+00:00",
+   "description": "IS seuraa tässä artikkelissa tilannetta Ukrainan sodassa sekä siihen liittyviä tapahtumia.",
+   "image": "https://images.sanoma-sndp.fi/5d6a929b076d4bdf94363b311ffb7be2/normal/1440.jpg",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Yksi loukkaantui vakavasti eläinkuljetusrekan ja henkilöauton törmäyksessä",
+   "link": "https://www.mtvuutiset.fi/artikkeli/yksi-loukkaantui-vakavasti-elainkuljetusrekan-ja-henkiloauton-tormayksessa/9421976",
+   "published": "2026-11-16T15:20:59+00:00",
+   "description": "Henkilöauton kuljettaja loukkaantui onnettomuudessa vakavasti, ja hänet kuljetettiin ambulanssilla sairaalaan.",
+   "image": "https://api.mtvuutiset.fi/graphql/caas/v1/media/6691786/data/7c789a1d5afcdf6cce7491471549af16/landscape16_9/1024/poliisi-kuvituskuvia30.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Raivo repesi NHL:ssä – naurettavaa rangaistusta ei hyväksytä: ”Häpeällistä”",
+   "link": "https://www.is.fi/nhl/art-2000012415292.html",
+   "published": "2026-11-16T15:20:00+00:00",
+   "description": "Ryan Leonardin kohtelu raivostuttaa.",
+   "image": "https://images.sanoma-sndp.fi/46abae9310eb3d5fb8bd014ea07606c9/normal/1440.jpg",
    "important": false,
    "hot": false
   }
  ],
  "jalkapallo": [
   {
-   "title": "Cap fits as Robertson poised to take King Kenny's crown",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cjp3v5r9enp1o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T12:18:45+00:00",
-   "description": "Andy Robertson will take over from Kenny Dalglish as Scotland's most capped player when he captains his country against Switzerland on Monday evening.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3c62/live/9cca3b80-e1b7-11f1-99b6-a35a62fa4264.png",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Evatt laments diarrhoea-hit Blackpool loss to Dons",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ck205w918pz7o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T12:15:46+00:00",
-   "description": "Blackpool boss Ian Evatt says his squad had a horrific build-up to Saturday's League One defeat by AFC Wimbledon following a fast-spreading sickness bug in his camp.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5cff/live/f2631e90-e1ad-11f1-9a3f-99aca912798e.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Lye, Peterborough and the never-ending Women's FA Cup tie",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cmp3vz1kgpvqo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T12:11:48+00:00",
-   "description": "Nowadays, Women's FA Cup ties are decided on the day with extra time and penalties if needed. Unless that tie is Lye Town v Peterborough United.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8737/live/85413790-e1b5-11f1-99a1-253766e7ad8b.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Lye, Peterborough and the never-ending Women's FA Cup tie",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cmp3vz1kgpvqo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T12:11:48+00:00",
-   "description": "Nowadays, Women's FA Cup ties are decided on the day with extra time and penalties if needed. Unless that tie is Lye Town v Peterborough United.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8737/live/85413790-e1b5-11f1-99a1-253766e7ad8b.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Republic of Ireland captain Collins to miss Kosovo game",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cmlyd25gy904o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T12:02:07+00:00",
-   "description": "Republic of Ireland captain Nathan Collins is ruled out of Tuesday's must-win Nations League game against Kosovo with a knee injury.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c6b8/live/289c2d10-e1b5-11f1-9a3f-99aca912798e.jpg",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Vinicius says transfer interest affected Real form",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cmqx584jwwpvo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T12:01:16+00:00",
-   "description": "Real Madrid forward Vinicius Jr says he felt \"truly overwhelmed\" by transfer speculation in the summer.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2464/live/48304950-e1aa-11f1-8ee3-23d0d09d2796.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Is McIlroy Europe's greatest golfer ever?",
-   "link": "https://www.skysports.com/golf/news/12040/13612780/is-rory-mcilroy-europes-greatest-golfer-of-all-time-after-latest-race-to-dubai-success-and-what-still-motivates-him",
-   "published": "2026-11-16T12:00:00+00:00",
-   "description": "Rory McIlroy's quest to become the greatest European player in golfing history continued as he topped the DP World Tour's season-long Order of Merit for a record-equalling eighth time.",
-   "image": "https://e2.365dm.com/26/11/1920x1080/skysports-rory-mcilroy-european-tour-golf_7407705.jpg?20261116114827",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Belgium's Lukaku retires from internationals",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cwlymxr0ge8zo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T11:40:20+00:00",
-   "description": "Romelu Lukaku retires from international football, saying he has \"enjoyed every single moment\" of playing for Belgium.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/af62/live/60764690-e1aa-11f1-8ee3-23d0d09d2796.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Republic of Ireland have plenty of promise, but are unable to shake self-sabotage",
-   "link": "https://www.theguardian.com/football/2026/nov/16/republic-of-ireland-heimir-hallgrimsson-nations-league-kosovo",
-   "published": "2026-11-16T11:30:56+00:00",
-   "description": "Hopes of promotion remain alive, but another costly collapse has raised familiar questions before the decisive Nations League game with KosovoThe Republic of Ireland stand on the verge, although of what, nobody seems quite sure. Tuesday’s final Nations League group match, at home to Kosovo, presents a chance for progress or yet another opportunity to showcase a frustrating habit of messing things ",
-   "image": "https://i.guim.co.uk/img/media/42ed5172c5a5a8685472d7f0ab9fc2502e72c6fa/159_0_4606_3684/master/4606.jpg?width=140&quality=85&auto=format&fit=max&s=07ecaafdc7c61af64e0861dc7db7bc49",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Frank agrees deal in principle to become new Crystal Palace head coach",
-   "link": "https://www.skysports.com/football/news/12040/13612758/thomas-frank-crystal-palace-agree-deal-in-principle-with-former-spurs-and-brentford-boss-as-pierre-sages-successor",
-   "published": "2026-11-16T11:30:00+00:00",
-   "description": "Crystal Palace have agreed terms in principle with Thomas Frank to become their next head coach, Sky Sports News understands.",
-   "image": "https://e0.365dm.com/26/11/1920x1080/skysports-frank-crystal-palace_7401633.jpg?20261108205851",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Klopp says Infantino worse than Blatter",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cjr4gr2k41dxo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T11:27:08+00:00",
-   "description": "Germany manager Jurgen Klopp says he \"didn't think things could get worse after Sepp Blatter, but someone has managed to do just that\" as he calls for Fifa president Gianni Infantino to be replaced.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/217d/live/86082020-e1ac-11f1-8ee3-23d0d09d2796.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "French football head Philippe Diallo is shock contender to fight Infantino for Fifa job",
+   "title": "French football head Philippe Diallo to fight Infantino for Fifa presidency",
    "link": "https://www.theguardian.com/football/2026/nov/16/philippe-diallo-fifa-gianni-infantino-president-french-football-federation",
-   "published": "2026-11-16T11:20:03+00:00",
-   "description": "Diallo may have candidacy confirmed by Uefa on TuesdayUefa executive committee meeting to discuss matterThe French Football Federation president, Philippe Diallo, is a surprise late contender to run for the Fifa presidency and could have his candidacy confirmed by Tuesday.The search for a Uefa-backed candidate to run against Gianni Infantino has been taken to the wire, with Wednesday the deadline ",
+   "published": "2026-11-16T15:27:30+00:00",
+   "description": "Diallo confirmed by Uefa as its chosen candidateHe accused Infantino of seriously damaging footballThe French Football Federation president, Philippe Diallo, has been confirmed as Uefa’s surprise late choice to run for the Fifa presidency. The search for a Uefa-backed candidate to challenge Gianni Infantino was taken to the wire, with Wednesday the deadline for those planning to contest the Fifa e",
    "image": "https://i.guim.co.uk/img/media/2af2c421a8ac472e90c00fe9d19ee86b55893989/396_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=45be3250b5b1fb9fbbdbf8b21cf7fbd4",
    "important": false,
    "hot": true
+  },
+  {
+   "title": "How Frank can restore reputation and save Crystal Palace",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cmge3y2qjlyro?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-16T15:15:57+00:00",
+   "description": "Will Thomas Frank rebuild his reputation at Crystal Palace after a bruising time in charge of Tottenham?",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a30c/live/69f709f0-df63-11f1-a8af-15d7a25dc0d1.png",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Hutchinson celebration results in season-ending injury",
+   "link": "https://www.skysports.com/nfl/news/12040/13612573/nfl-detroit-lions-star-aidan-hutchinson-out-for-rest-of-season-after-suffering-knee-injury-during-celebration",
+   "published": "2026-11-16T15:00:00+00:00",
+   "description": "Detroit Lions star Aidan Hutchinson has been ruled out for the season after suffering a knee injury while celebrating a sack against the New England Patriots.",
+   "image": "https://e0.365dm.com/26/11/1920x1080/skysports-aidan-hutchinson_7407856.jpg?20261116150924",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Brilliant Alcaraz dominates Tiafoe for first win at ATP Finals",
+   "link": "https://www.skysports.com/watch/video/13612863/carlos-alcaraz-vs-frances-tiafoe-atp-finals-highlights",
+   "published": "2026-11-16T14:27:00+00:00",
+   "description": "Highlights of the ATP Finals match between Carlos Alcaraz and Frances Tiafoe.",
+   "image": "https://e1.365dm.com/26/11/1920x1080/skysports-carlos-alcaraz_7407808.jpg?20261116143132",
+   "important": true,
+   "hot": false
+  },
+  {
+   "title": "Has Tuchel learnt from Argentina disaster and fixed England's 'DNA problem'?",
+   "link": "https://www.skysports.com/watch/video/13612859/thomas-tuchel-has-england-boss-learnt-from-argentina-disaster-and-fixed-dna-problem",
+   "published": "2026-11-16T14:22:00+00:00",
+   "description": "Sky Sports' David Reed breaks down whether Thomas Tuchel has already fixed England's 'DNA problem'.",
+   "image": "https://e2.365dm.com/26/11/1920x1080/skysports-england-thomas-tuchel_7407807.jpg?20261116143006",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Union of European Clubs escalates fight for football influence with formal complaint",
+   "link": "https://www.theguardian.com/football/2026/nov/16/union-of-european-clubs-complaint-european-commission-uefa-european-football-clubs",
+   "published": "2026-11-16T14:02:53+00:00",
+   "description": "Body of 138 members complains to European CommissionUefa and the European Football Clubs power targetedThe Union of European Clubs has submitted a formal complaint against the stranglehold Uefa and European Football Clubs maintain on football within the continent, dramatically escalating its efforts to obtain recognition by governing bodies and dilute the power held by the elite.The complaint, fil",
+   "image": "https://i.guim.co.uk/img/media/b4bc9411434ffb34398bb73d16010761437ea0e3/338_0_4252_3401/master/4252.jpg?width=140&quality=85&auto=format&fit=max&s=88ad06aed894baf521343367cbdbf751",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Familiarity of Doha drives home just how far Socceroos have come in recent years",
+   "link": "https://www.theguardian.com/football/blog/2026/nov/16/doha-socceroos-return-stronger-after-asian-cup-heartbreak",
+   "published": "2026-11-16T14:00:19+00:00",
+   "description": "There is increasing evidence of an evolution not only in approach but also mentality, highlighted by a return to the scene of Asian Cup heartbreakLast week’s 3-0 dismissal of Qatar at the Abdullah bin Khalifa Stadium marked the first time the Socceroos had returned to the Gulf state since their heartbreaking elimination from the Asian Cup just under three years ago. Back then, coach Graham Arnold ",
+   "image": "https://i.guim.co.uk/img/media/f04223d5c418984ad18dbca037d8df6116e2a793/373_0_6015_4813/master/6015.jpg?width=140&quality=85&auto=format&fit=max&s=a56a9046c29b61bfc5e135d29eee579b",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Patriots QB Maye feared to be out for season with ankle injury",
+   "link": "https://www.skysports.com/nfl/news/12040/13612836/nfl-new-england-patriots-quarterback-drake-maye-could-miss-rest-of-the-season-with-ankle-injury-suffered-against-detroit-lions",
+   "published": "2026-11-16T14:00:00+00:00",
+   "description": "New England Patriots quarterback Drake Maye could miss the remainder of the 2026 NFL season after suffering a suspected ankle fracture in Sunday's loss to the Detroit Lions.",
+   "image": "https://e0.365dm.com/26/11/1920x1080/skysports-drake-maye-new-england-patriots_7407792.jpg?20261116140859",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Beckham firm sues after fragrance found for sale in Poundland",
+   "link": "https://www.theguardian.com/football/2026/nov/16/david-beckham-fragrance-sale-poundland-bargain-bin-gas-station",
+   "published": "2026-11-16T13:26:35+00:00",
+   "description": "Brand reacted with ‘shock and dismay’ after products were also found in a ‘bargain bin inside a gas station’Business live – latest updatesDavid Beckham’s company reacted with “shock and dismay” after discovering his branded fragrance range was on sale in petrol stations and in Poundland, court documents have revealed.The former England football captain’s brand, DB Ventures, has launched a lawsuit ",
+   "image": "https://i.guim.co.uk/img/media/b545f9d7a790ea86d7c205a1aa43db5a001f1e42/1779_175_2064_1652/master/2064.jpg?width=140&quality=85&auto=format&fit=max&s=5f3ca0f86022053fc18d97cfa7ce756f",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Has Trafford replaced Pickford as England No 1?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cmvg2r752ykzo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-16T13:01:41+00:00",
+   "description": "James Trafford was given a chance to stake his claim as England's new number one - and away to the world champions, he absolutely took it.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0930/live/36ea8540-e1b7-11f1-9a3f-99aca912798e.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "England hang on to end Spain’s unbeaten reign | Football Weekly – video",
+   "link": "https://www.theguardian.com/football/video/2026/nov/16/england-hang-on-to-end-spains-unbeaten-reign-football-weekly-video",
+   "published": "2026-11-16T12:56:01+00:00",
+   "description": "Max Rushden is joined by Lucy Ward, George Elek and Will Unwin as England win 3-2 in Madrid to top their Nations League group Continue reading...",
+   "image": "https://i.guim.co.uk/img/media/fabe17bc3f5a90ac2f56a00c5623604155969381/558_0_4317_3453/master/4317.jpg?width=140&quality=85&auto=format&fit=max&s=e96158354fc4cd67d4b95d6c55430cfe",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Ratcliffe's Ineos Group settles £10m-plus claim with Ainslie's firm over yacht",
+   "link": "https://www.skysports.com/sailing/news/12040/13612816/jim-ratcliffes-ineos-group-settles-10m-plus-claim-with-sir-ben-ainslies-athena-racing-over-alleged-non-return-of-yacht",
+   "published": "2026-11-16T12:50:00+00:00",
+   "description": "A company connected to Sir Jim Ratcliffe's Ineos Group said it has settled a High Court claim against a firm founded by Sir Ben Ainslie.",
+   "image": "https://e0.365dm.com/26/02/1920x1080/skysports-ratcliffe-man-utd_7162443.jpg?20260220173735",
+   "important": false,
+   "hot": false
   }
  ],
  "teknologia": [
   {
-   "title": "Freshworks alums raise $53M to take on Salesforce, HubSpot with AI-native CRM",
-   "link": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/",
-   "published": "2026-11-16T12:30:00+00:00",
-   "description": "Dreamteam has signed up more than 100 customers across 13 countries, with some businesses switching from established CRMs.",
+   "title": "US tightens AI chip export controls to deter Chinese companies from accessing compute remotely",
+   "link": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
+   "published": "2026-11-16T15:02:34+00:00",
+   "description": "Under the interim rule, US will require firms to get licenses to export AI chips if they may provide compute to China or other restricted countries.",
    "image": null,
    "important": false,
    "hot": false
   },
   {
-   "title": "Delivery drones are coming. For some with PTSD, that's a terrifying prospect.",
-   "link": "https://arstechnica.com/gadgets/2026/11/the-drone-delivery-boom-could-be-a-nightmare-for-people-traumatized-by-war/",
-   "published": "2026-11-16T12:00:57+00:00",
-   "description": "For those who have lived under armed drones, the sound overhead can be distressing.",
-   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2298538124-1152x648.jpg",
+   "title": "Google Maps can now build trip itineraries with real-time details about each stop",
+   "link": "https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop/",
+   "published": "2026-11-16T14:48:13+00:00",
+   "description": "You could use Ask Maps to plan a holiday shopping day trip or something more complex, like a three-day road trip featuring coastal hikes and oceanfront dining.",
+   "image": null,
    "important": false,
    "hot": false
   },
   {
-   "title": "15 Finalists Named in Global Quantum + AI Challenge",
-   "link": "https://thequantuminsider.com/2026/11/16/15-finalists-named-in-global-quantum-ai-challenge/",
-   "published": "2026-11-16T12:00:45+00:00",
-   "description": "Insider Brief Fifteen teams have been named finalists in the Global Quantum + AI Challenge, advancing to develop working proofs of concept for industry problems ranging from drug discovery to credit card fraud detection. The competition offers $200,000 in prizes across five challenges, with $40,000 allocated to each. Its enterprise partners are Airbus, Cleveland Clinic, [&#8230;]",
-   "image": "https://thequantuminsider.com/wp-content/uploads/2026/11/use-this.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Qatar’s MCIT Partners with SignQuantum on Post-Quantum Cybersecurity",
-   "link": "https://thequantuminsider.com/2026/11/16/qatar-mcit-signquantum-post-quantum-cybersecurity/",
-   "published": "2026-11-16T10:13:21+00:00",
-   "description": "Insider Brief PRESS RELEASE &#8212; The Ministry of Communications and Information Technology of the State of Qatar (MCIT Qatar) signed a collaboration agreement with SignQuantum to strengthen cybersecurity readiness for quantum computing risks. The announcement was made at MWC26 Doha on November 10, 2026. “Qatar’s digital future must be built on trust that endures. Under [&#8230;]",
-   "image": "https://thequantuminsider.com/wp-content/uploads/2026/11/2026-11-16_15-11.png",
-   "important": true,
-   "hot": false
-  },
-  {
-   "title": "JIJ and Mitsubishi Electric Selected for JHPC-quantum Program to Evaluate Hybrid Computing",
-   "link": "https://thequantuminsider.com/2026/11/16/jij-mitsubishi-electric-jhpc-quantum-thermal-fluid-analysis/",
-   "published": "2026-11-16T10:01:37+00:00",
-   "description": "Insider Brief PRESS RELEASE &#8212; JIJ Inc. today announced that a joint proposal with Mitsubishi Electric Corporation, titled “Performance Evaluation of a Quantum-Classical Hybrid Linear Solver for Thermal-Fluid Analysis,” has been selected for the JHPC-quantum Test User Program. Mitsubishi Electric will participate as the lead proposer, with JIJ as a joint proposer. Through the program, [&#8230",
-   "image": "https://thequantuminsider.com/wp-content/uploads/2026/11/2026-11-16_14-59.png",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "IonQ Appoints Gary Merrill as CFO and Thomas Austin as Chief Accounting Officer",
-   "link": "https://thequantuminsider.com/2026/11/16/ionq-announces-executive-leadership-evolution/",
-   "published": "2026-11-16T09:51:30+00:00",
-   "description": "Insider Brief PRESS RELEASE &#8212; IonQ (NYSE: IONQ), the world’s leading full-stack quantum platform and foundry, today announced executive leadership changes to position the company for continued growth and advance its path to profitability: In connection with these appointments, Inder M. Singh is stepping down from his roles at the company, effective immediately. “Inder has [&#8230;]",
-   "image": "https://thequantuminsider.com/wp-content/uploads/2026/11/2026-11-16_14-49.png",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "From Cat Pictures to DNA, Moth Quantum Reports Progress on Getting Everyday Data Into Quantum Computers",
-   "link": "https://thequantuminsider.com/2026/11/16/from-cat-pictures-to-dna-moth-quantum-reports-progress-on-getting-everyday-data-into-quantum-computers/",
-   "published": "2026-11-16T09:35:53+00:00",
-   "description": "Insider Brief Moth Quantum says it has used an entire IBM quantum processor to load and recover data equivalent to two small grayscale images. That may not sound like much, but the company says the method, called Tessa, addresses getting conventional data onto the machines without adding excessive errors, a basic obstacle to quantum computing, [&#8230;]",
-   "image": "https://thequantuminsider.com/wp-content/uploads/2026/11/image8.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
-   "link": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
-   "published": "2026-11-16T09:32:57+00:00",
-   "description": "A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloads.\n\nCentral to the intrusion is a toolkit called SANSAR, a Rust-based orchestrator that receives commands over the TOR anonymity network to manage CPU and GPU miners. The activity was observed in",
-   "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmpR04waLSDZNCb2048kfy5iSlIXa_Ek3PI5qLRaBksxvyI9k_8Z6bwl6Og4Mc-AGqmHcpL7YlYVd48895FJtKlOoaqgi658-H3FZTxdjf_w32w5eJYzm_BUdXlH7M7Vb40uPUI73CDbXtQCdZAEkFruSBXvc0_B84hCQ-em0ZQk2uTIIHxRdGCxQ6bx1C/s1600/nv.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Quantum Physics Meet The Great Books at St. John’s College",
-   "link": "https://thequantuminsider.com/2026/11/16/quantum-physics-meet-the-great-books-at-st-johns-college/",
-   "published": "2026-11-16T08:40:25+00:00",
-   "description": "Insider Brief PRESS RELEASE &#8212; In late July, while most of their classmates were on summer vacation, Henry Haggard (A27) and Albert Shapiro (A27) were in a hotel room in Hamilton, New York, studying physics. Alongside Eddie Schodowski (AGI28), director of the St. John’s College Laboratory Program in Annapolis, the two had traveled to Colgate [&#8230;]",
-   "image": "https://thequantuminsider.com/wp-content/uploads/2026/11/Quantum-Lab-experiment-St-Johns-College-Mellon-Hall-1-1.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Qatar, France Sign Technology Cooperation Letter, Highlight Shared Quantum Ambitions",
-   "link": "https://thequantuminsider.com/2026/11/16/qatar-france-sign-technology-cooperation-letter-highlight-shared-quantum-ambitions/",
-   "published": "2026-11-16T08:38:47+00:00",
-   "description": "Insider Brief PRESS RELEASE &#8212; The Ministry of Communications and Information Technology (MCIT) of the State of Qatar and the French Ministry of the Economy, Finance and Industrial, Energy and Digital Sovereignty signed a Letter of Intent to strengthen bilateral cooperation in the communications and information technology sector. The cooperation covers artificial intelligence, digital transfo",
-   "image": "https://thequantuminsider.com/wp-content/uploads/2026/11/Screenshot-2026-11-16-at-3.34.41-AM.png",
+   "title": "Jensen Huang allies build a \"war room\" to get him back at Nvidia",
+   "link": "https://arstechnica.com/ai/2026/11/jensen-huang-allies-build-a-war-room-to-get-him-back-at-nvidia/",
+   "published": "2026-11-16T14:06:16+00:00",
+   "description": "Huang is weighing a return just days after resigning amid a deepening scandal.",
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2024/06/huang_computex_2024-1152x648.jpg",
    "important": false,
    "hot": true
   },
   {
-   "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
-   "link": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
-   "published": "2026-11-16T07:34:21+00:00",
-   "description": "Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records.\n\nThe records, which Amazon's threat intelligence team captured with decoy servers, describe stolen keys being used to run the AI models that powered the search for more keys.\n\nThe team said this",
-   "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigoyCtEKcD7TM_5vDkKiZYFdk_l4-js7HNuvMXzZbVqUbEgq1nnD2vEZgZ0kL9CdmOkITC0Rbd-ebTkSX-R4NPKwWZXzUD6zS0g9nEfnlXw3njm3oW2Se97qbT7lIfZEL56X3IIaZAildTni9-zQJu5sa4Lhvi_mVlbTeZFyFtezOMHJ_bDhJWfG7KQ8eh/s1600/amazon.jpg",
+   "title": "Altera, OQC and NVIDIA Link Quantum Processor to GPU Computing",
+   "link": "https://thequantuminsider.com/2026/11/16/altera-oqc-and-nvidia-link-quantum-processor-to-gpu-computing/",
+   "published": "2026-11-16T14:05:00+00:00",
+   "description": "Insider Brief PRESS RELEASE &#8212; Altera Corporation, the largest pure-play FPGA provider with a full-spectrum portfolio, today announced the development of an end-to-end FPGA-based quantum system controller reference design in collaboration with Oxford Quantum Circuits (OQC) and NVIDIA. Built on an Agilex® 9 Direct RF FPGA, the design runs real-time system control in the FPGA, [&#8230;]",
+   "image": "https://thequantuminsider.com/wp-content/uploads/2026/11/altera-partners-at-sc26-press-release-v2.png",
+   "important": true,
+   "hot": true
+  },
+  {
+   "title": "JPMorgan Chase Tops The 2026 Finance Quantum Index; HSBC, Wells Fargo Share Second Place",
+   "link": "https://thequantuminsider.com/2026/11/16/jpmorgan-chase-tops-the-2026-finance-quantum-index-hsbc-wells-fargo-share-second-place/",
+   "published": "2026-11-16T14:00:28+00:00",
+   "description": "Insider Brief JPMorgan Chase ranks first of 64 financial institutions in the 2026 finance edition of The Quantum Index, published today, and leads all three pillars: workforce, R&#38;D and adoption. HSBC and Wells Fargo share second place. Mastercard is third. The index measures what financial institutions have built in quantum technology. It scores quantum staff [&#8230;]",
+   "image": "https://thequantuminsider.com/wp-content/uploads/2026/11/cover-option-A.png",
    "important": false,
    "hot": false
   },
   {
-   "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
-   "link": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
-   "published": "2026-11-16T06:53:34+00:00",
-   "description": "An investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software code-signing server.\n\nThe activity, documented by Kaspersky's ICS CERT team after it was contacted by the affected developer in June 2025, has been attributed to a threat actor named BO Team (aka Black Owl, Hoody Hyena,",
-   "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAvzoKykaMIpa6xx92YudipfUoEQnSkrE6p2CiWEVra5izr5GfuNQGOnfRuF0XV99v1IPRFe2Q6BF27UEq3BnWFS5onw97dt3hvszilQDANdtRdYi0_hTDOrKQvuwGn1mY_m-QTabV3jwWCNwXs_OizK2GLF3Eks5HJj5I7kbmA2IztruSBVjq5WOcxEM-/s1600/log4shell.jpg",
+   "title": "Mercedes' clever new driving assist handles complex traffic like a champ",
+   "link": "https://arstechnica.com/cars/2026/11/mercedes-clever-new-driving-assist-handles-complex-traffic-like-a-champ/",
+   "published": "2026-11-16T14:00:05+00:00",
+   "description": "The point-to-point driver assist is coming to the US and Germany in 2027.",
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/MB-ADAS-day-1-of-5-1152x648-1794831237.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Liquid C2 and Graphiant Partner on Quantum-Secure Networking in Africa",
+   "link": "https://thequantuminsider.com/2026/11/16/liquid-c2-graphiant-quantum-secure-networking-africa/",
+   "published": "2026-11-16T13:13:12+00:00",
+   "description": "Insider Brief PRESS RELEASE &#8212; Liquid C2, a business of Cassava Technologies, a global technology leader, and Graphiant (https://www.Graphiant.com/), a US-based provider of networking infrastructure built for AI, partnered to strengthen network security offerings through a new Quantum Secure Network-as-a-Service (NaaS). As quantum computing advances, it could eventually break the encryption t",
+   "image": "https://thequantuminsider.com/wp-content/uploads/2026/11/2026-11-16_18-11.png",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "The Download: testing tech promises and searching for cognitive immortality",
+   "link": "https://www.technologyreview.com/2026/11/16/1148599/the-download-testing-tech-promises-cognitive-immortality-quest/",
+   "published": "2026-11-16T13:10:00+00:00",
+   "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Are we there yet? Six technologies that promised to change the world How do you measure progress towards the future? In the Impossible issue of MIT Technology Review, our series “Are&#8230;",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Building AI that can work across the enterprise",
+   "link": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
+   "published": "2026-11-16T13:00:00+00:00",
+   "description": "For years, enterprises have approached AI as a series of discrete experiments. Now, as AI agents begin to move into the workflows that run the business, that model is starting to look inadequate. Organizations moving from isolated pilots toward AI agents and autonomous workflows are confronting a deeper challenge: rethinking how data, business processes, governance,&#8230;",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Classiq and Ventum Consulting Partner on Enterprise Quantum Computing in Germany",
+   "link": "https://thequantuminsider.com/2026/11/16/classiq-ventum-consulting-enterprise-quantum-computing-germany/",
+   "published": "2026-11-16T12:44:27+00:00",
+   "description": "Insider Brief PRESS RELEASE &#8212; Classiq, a leading quantum computing software company, and Ventum Consulting, a digital transformation consultancy, today announced a partnership to help enterprises in Germany build quantum computing expertise, establish strategies and develop applications aligned with their business priorities. The partnership brings together Classiq’s quantum software platfor",
+   "image": "https://thequantuminsider.com/wp-content/uploads/2026/11/2026-11-16_17-43.png",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
+   "link": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
+   "published": "2026-11-16T12:34:21+00:00",
+   "description": "Six flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said earlier this week.\n\nNo patch is available, and the researchers say the newest firmware, version 5.4.0, does not fix the flaws.\n\nGovernment cybersecurity agencies in Belgium, Ireland and Germany told operators this week to",
+   "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_1GngZ38pRRizZTrhUgdWx49U1Dk8N_Y1Wkfll2kXIjAeYMmX2R69d6OBvA9k-zb6rnYbNOZyouN9yj59QIlT8XxiTzmmhLTmwmEdU2bqiGc_XoSMlvKKN1qZtH3o73YN1miGEhR4vkDniji2WkWOHjSPPIn69ysWKPkFzr504FsViG2NQYxPDkD7sgw/s1600/flaws.jpg",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
+   "link": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
+   "published": "2026-11-16T12:33:18+00:00",
+   "description": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines.\n\n\"On launch, the NSIS-based installer executable dropped a file named '7z.dll' into a temporary directory and ran it through rundll32.exe,\" Kaspersky said in an analysis published today.\n\n\"The '7z.dll' file was a patched version of the",
+   "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxRuwbdQU-KyBsSrFlIZp4oczr_tJu53WrfB3nM6QYrO7kFgGAZO1NMSi7mziUOUaTrzq5C4KzCJqvYOf0Ry19ypJac-9mBYzYiqiTNl462i1uYo7DF9aAHxiVU_IOaByH3NtNlrF0hUhZtpItADKJauPVzWrz8r6YOQEHQrt_YiAmPba4CIOsSjZA2Wy_/s1600/hacker-code.jpg",
    "important": false,
    "hot": false
   }
  ],
  "maailma": [
   {
-   "title": "Five EU countries expected to announce migrant deportation centre in Rwanda",
-   "link": "https://www.bbc.co.uk/news/articles/cw987343352go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T12:36:17+00:00",
-   "description": "Germany, Denmark, Austria, Greece and the Netherlands are expected to announce a \"return hub\" for failed asylum seekers.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f790/live/14731cc0-bfcb-11f0-8456-eff94716b162.jpg",
+   "title": "Faisal Islam: What's in the Brexit reset food deal and are there trade-offs?",
+   "link": "https://www.bbc.co.uk/news/articles/c6wy4l8nl42wo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-16T15:40:16+00:00",
+   "description": "EU minister Hamish Falconer insists Britain would have some influence on policy as part of a new deal.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7e49/live/adff9c60-e11c-11f1-a7a2-7bb21fac8f0b.jpg",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Oil tankers hit sea mines in the Strait of Hormuz",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/16/oil-tankers-hit-sea-mines-in-the-strait-of-hormuz?traffic_source=rss",
+   "published": "2026-11-16T15:37:49+00:00",
+   "description": "Oil tankers hit sea mines in the Strait of Hormuz",
+   "image": null,
    "important": false,
    "hot": false
   },
   {
-   "title": "Burnham sets three tests for EU deal, saying it should make Brexit ‘closer to what people thought they were voting for’ – UK politics live",
+   "title": "Brand statement from prison claiming his innocence ‘appalling’ and could breach rules, says No 10 – UK politics live",
    "link": "https://www.theguardian.com/politics/live/2026/nov/16/ed-miliband-russell-brand-andy-burnham-brexit-eu-milburn-review-young-people-employment-uk-politics-latest-news",
-   "published": "2026-11-16T12:23:26+00:00",
-   "description": "PM to address fallout from Brexit in speech this eveningBurnham to say Brexit ‘has not worked’At her press conference, Kemi Badenoch faced various questions about Brexit, and Andy Burnham’s reset deal with the EU. She dismissed Burnham’s plan to debate a closer relationship as a “distraction”. Here are some of her arguments.Badenoch said Burnham’s deal with the EU was just a “big nothingburger” un",
-   "image": "https://i.guim.co.uk/img/media/2ea4cbf637966baf9c26015df59668f59c6fb69e/759_456_4582_3666/master/4582.jpg?width=140&quality=85&auto=format&fit=max&s=a1d0431197dfc3244a7a8c256f04c8c7",
+   "published": "2026-11-16T15:34:58+00:00",
+   "description": "Brand’s wife Laura read out a message from him on their YouTube showAfter education questions, there is one urgent question in the Commons and two ministerial statements. They are, with rough timings:3.30pm: A Home Office minister responds to an urgent question about planning permission being granted for the proposed camp for asylum seekers near Piddington.It’s always a good idea to promote closer",
+   "image": "https://i.guim.co.uk/img/media/f1f62e86d5d340fa3e406a388a83d0ba1c0610c4/765_0_3391_2714/master/3391.jpg?width=140&quality=85&auto=format&fit=max&s=580d87f127bfb9aa97243f0b42e7ae42",
    "important": false,
-   "hot": true
+   "hot": false
   },
   {
-   "title": "Elon Musk joins 'Bring Jensen Back' campaign to reinstate the ex-Nvidia boss",
+   "title": "Trump says he wouldn't mind seeing Huang return to Nvidia",
    "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T12:20:49+00:00",
+   "published": "2026-11-16T15:31:20+00:00",
    "description": "A number of tech figures want the board of the AI chip giant to give Jensen Huang his job back.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/36dc/live/86b75570-e1b8-11f1-9a3f-99aca912798e.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78e4/live/4bc24280-e1d2-11f1-b8c8-67fa35f5afdb.jpg",
    "important": false,
    "hot": true
   },
   {
-   "title": "Elon Musk joins 'Bring Jensen Back' campaign to reinstate the ex-Nvidia boss",
+   "title": "Trump says he wouldn't mind seeing Huang return to Nvidia",
    "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T12:20:49+00:00",
+   "published": "2026-11-16T15:31:20+00:00",
    "description": "A number of tech figures want the board of the AI chip giant to give Jensen Huang his job back.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/36dc/live/86b75570-e1b8-11f1-9a3f-99aca912798e.jpg",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78e4/live/4bc24280-e1d2-11f1-b8c8-67fa35f5afdb.jpg",
    "important": false,
    "hot": true
   },
   {
-   "title": "Which cricket teams can qualify for the LA 2028 Olympics and how?",
-   "link": "https://www.aljazeera.com/sports/2026/11/16/which-cricket-teams-can-qualify-for-the-la-2028-olympics-and-how?traffic_source=rss",
-   "published": "2026-11-16T12:15:59+00:00",
-   "description": "Six men&#039;s and six women&#039;s teams will compete for the medals in T20 format as cricket returns to the Olympics in 2028.",
+   "title": "Students protest as air pollution chokes New Delhi",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/16/students-protest-as-air-pollution-chokes-new-delhi?traffic_source=rss",
+   "published": "2026-11-16T15:27:07+00:00",
+   "description": "Students have taken to the streets to demand accountability from authorities over toxic air pollution in New Delhi.",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "At least 17 killed in two South Africa mass shootings",
+   "link": "https://www.aljazeera.com/news/2026/11/16/at-least-17-killed-in-two-south-africa-mass-shootings?traffic_source=rss",
+   "published": "2026-11-16T15:26:39+00:00",
+   "description": "Eight men killed in shooting near Pietermaritzburg while six men and three women shot dead near Pretoria.",
    "image": null,
    "important": false,
    "hot": false
@@ -378,175 +396,157 @@
   {
    "title": "Trump’s justice department warns Elizabeth Warren over Democrats’ plans for future investigations – live",
    "link": "https://www.theguardian.com/us-news/live/2026/nov/16/donald-trump-asia-visit-democrats-republicans-elizabeth-warren-faa-air-disruption-latest-news-updates",
-   "published": "2026-11-16T12:11:56+00:00",
-   "description": "Letter to likely chair of Senate Banking Committee is latest warning to Democrats about their potential plans after the party’s midterms successSign up for the Breaking News US emailA progressive and onetime presidential candidate, senator Elizabeth Warren is a vocal Wall Street critic and has repeatedly condemned the Trump administration and its policies.She is the top Democrat on the Senate Bank",
+   "published": "2026-11-16T15:14:19+00:00",
+   "description": "Letter to likely chair of Senate Banking Committee is latest warning to Democrats about their potential plans after the party’s midterms successSign up for the Breaking News US emailLauren Almeida and Dan MilmoElon Musk and a host of other tech bosses have called for Jensen Huang’s reinstatement at Nvidia, amid reports the former chief executive is already plotting a return to the chip company jus",
    "image": "https://i.guim.co.uk/img/media/7ff330eae5cd3087ea08c69647f4dbf58484c916/363_0_6801_5442/master/6801.jpg?width=140&quality=85&auto=format&fit=max&s=84b5747737aac1f8cef320d0211f08a4",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Two charged after man run over by van during flags incident in Birmingham",
+   "link": "https://www.theguardian.com/uk-news/2026/nov/16/two-charged-man-run-over-by-van-midlands",
+   "published": "2026-11-16T15:01:35+00:00",
+   "description": "Pair due to appear in court in December in relation to incident in May that left a man in his 30s with leg injuriesTwo men have been charged following an incident in Birmingham, where a man was run over by a van after flags were removed from lamp-posts.A man in his 30s was taken to hospital with leg injuries after the incident on Mayfield Road in the suburb of Stirchley, south-west Birmingham, on ",
+   "image": "https://i.guim.co.uk/img/media/a575013098050b5562b93e4330eb0b9e12f74d93/142_0_3543_2835/master/3543.jpg?width=140&quality=85&auto=format&fit=max&s=ab13adc9587c0f58f0757b527a6b3b91",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Why Starshield limits are hurting Ukraine against jet-powered drones",
+   "link": "https://www.aljazeera.com/news/2026/11/16/why-starshield-limits-are-hurting-ukraine-against-jet-powered-drones?traffic_source=rss",
+   "published": "2026-11-16T14:58:30+00:00",
+   "description": "Ukraine&#039;s military has been relying on the internet service since December 2024 to intercept Russian drones.",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
+   "link": "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-16T14:58:12+00:00",
+   "description": "Russia said Ukraine had launched over 2,000 drones over the course of a day, while Kyiv came under a record 17 air raid alerts.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f174/live/bc6fa8f0-e1c4-11f1-a094-5fdc692f3e33.jpg",
    "important": true,
-   "hot": false
+   "hot": true
   },
   {
-   "title": "Gérard Depardieu drops appeal against sexual assault conviction",
-   "link": "https://www.theguardian.com/film/2026/nov/16/gerard-depardieu-drops-appeal-against-sexual-assault-conviction",
-   "published": "2026-11-16T12:10:22+00:00",
-   "description": "French actor apologises to two women he was convicted of assaulting on a film set in 2021The French actor Gérard Depardieu has dropped his appeal against a conviction for sexually assaulting two women on a film set, and has for the first time apologised to the victims.“I was found guilty. I hear it and I accept this conviction,” Depardieu, 77, said in a written statement. “I address my deep and si",
-   "image": "https://i.guim.co.uk/img/media/8645152ecf7185cd8b3f83c5e21adaaddb0697bc/480_355_3217_2574/master/3217.jpg?width=140&quality=85&auto=format&fit=max&s=e2f4a8eb308c65010f2b5764cde3e8fb",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "‘When the sun came out it felt like it opened a scar’ – This is climate breakdown",
-   "link": "https://www.theguardian.com/environment/ng-interactive/2026/nov/16/when-the-sun-came-out-it-felt-like-it-opened-a-scar-this-is-climate-breakdown",
-   "published": "2026-11-16T12:00:59+00:00",
-   "description": "When the floods hit Pakistan he went out to help. Then the water reached his own family. This is Imran Lodhi’s storyLocation: Dera Ghazi Khan, PakistanDisaster: Pakistan intense monsoon rainfallImran Lodhi is a university lecturer with a doctorate in climate change and sustainable development. The 41-year-old was living in Dera Ghazi Khan, a city in south-western Punjab, when floods devastated pro",
-   "image": "https://i.guim.co.uk/img/media/03df085cea47ca4df586d23872f7663cb2637137/320_0_1600_1280/master/1600.jpg?width=140&quality=85&auto=format&fit=max&s=be9cf0165f7c1947cf79549d974164c6",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Catholic priest released from Louisiana prison after serving seven years for sexually abusing altar server",
-   "link": "https://www.theguardian.com/us-news/2026/nov/16/louisiana-catholic-priest-prison-sexual-abuse",
-   "published": "2026-11-16T12:00:59+00:00",
-   "description": "Victim’s father, however, remains excommunicated for joining Anglican church after abuse was discoveredA Roman Catholic priest who pleaded guilty to sexually abusing an altar server in south-west Louisiana – before the church then controversially excommunicated the victim’s father – was released from a state prison over the weekend after having completed a seven-year sentence.Michael Guidry’s rele",
-   "image": "https://i.guim.co.uk/img/media/cf5f8c71977f0b49095cbe35dfc7f039e7d228cc/458_0_2705_2164/master/2705.jpg?width=140&quality=85&auto=format&fit=max&s=f953b1d2f7b5ca2bab79c21139d70e02",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Flying blind: inside the decline of the EPA’s chemical-detection plane",
-   "link": "https://www.theguardian.com/environment/2026/nov/16/epa-chemical-detection-plane",
-   "published": "2026-11-16T12:00:58+00:00",
-   "description": "Agency’s Aspect plane once was a key part of tracking toxic chemicals during disasters – why is it now often grounded?When an ammonia leak outside a hotel in Weatherford, Oklahoma, injured 74 people last November, the federal government’s chemical-detection plane stayed on the ground. It also sat idle during a March fire at a Valero refinery in Port Arthur, Texas, and when blasts at a Toledo, Ohio",
-   "image": "https://i.guim.co.uk/img/media/17ab1c4bad64148a5e104f5bef4f00be6e91167a/66_0_1917_1534/master/1917.jpg?width=140&quality=85&auto=format&fit=max&s=40b99d38afe9e88be2e8049d20b3b7f5",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Great Britain’s oldest renewables projects could rake in nearly £9bn next year",
-   "link": "https://www.theguardian.com/business/2026/nov/16/great-britain-renewable-energy-subsidies-wind-solar",
-   "published": "2026-11-16T11:56:20+00:00",
-   "description": "Subsidy scheme, which is paid via taxes and energy bills, must be reformed, ECU analysis findsBusiness live – latest updatesGreat Britain’s oldest renewable energy projects are likely to rake in a near £9bn windfall next year because of soaring market prices, according to independent analysis.The research has revealed that almost a third of the UK’s wind and solar farms that rely on the government",
-   "image": "https://i.guim.co.uk/img/media/fadc2a753a2ca35482613659f6d980ad0a106850/141_0_3512_2809/master/3512.jpg?width=140&quality=85&auto=format&fit=max&s=7be6fd9946bb49cd90a7d7e79d6cc9fc",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "First Thing: Trump administration blames travel chaos on former presidents and Congress",
-   "link": "https://www.theguardian.com/us-news/2026/nov/16/first-thing-trump-administration-blames-travel-chaos-on-former-presidents-and-congress",
-   "published": "2026-11-16T11:46:33+00:00",
-   "description": "Donald Trump on Sunday blamed the Biden administration for the four-hour  nationwide flight stoppage that led to thousands of canceled flights over the weekend. Plus: How Israel is using Amazon facial recognition to track PalestiniansGood morning.A four-hour nationwide flight stoppage on Friday threw the entire weekend into chaos, with thousands of flights getting canceled and even more delays. Wh",
-   "image": "https://i.guim.co.uk/img/media/3895a73fc525e4b560bc91f0b5480fe71850c3d8/717_0_7144_5719/master/7144.jpg?width=140&quality=85&auto=format&fit=max&s=3029d1ad8d73f54cbd2c9c76388b04d5",
+   "title": "Mamdani disbands controversial NYPD unit accused of using excessive force",
+   "link": "https://www.theguardian.com/us-news/2026/nov/16/nypd-strategic-response-group-mamdani",
+   "published": "2026-11-16T14:57:26+00:00",
+   "description": "Mayor axes strategic response group that cracked down on protesters and announces new community safety divisionZohran Mamdani, New York City’s mayor, announced Monday that he was disbanding a controversial city police unit that has faced criticism over the years from civil rights groups who have accused the unit of using excessive force and unduly aggressive tactics against protesters.In a video r",
+   "image": "https://i.guim.co.uk/img/media/273f35e243f22b1c02cb8c86f61c99bd5a80cf15/644_681_2479_1983/master/2479.jpg?width=140&quality=85&auto=format&fit=max&s=08feaa2a57512f88fb6dc80dfd79ffe7",
    "important": false,
    "hot": false
   }
  ],
  "musiikki": [
   {
-   "title": "These are the 100 greatest gaming themes, according to a new orchestral album",
-   "link": "https://www.nme.com/news/gaming-news/100-greatest-gaming-themes-orchestral-album-clair-obscur-zelda-god-war-3976090",
-   "published": "2026-11-16T12:35:59+00:00",
-   "description": "Featuring musical moments from ‘The Legend Of Zelda’, Clair Obscur: Expedition 33’, ‘Red Dead Redemption’, ‘God Of War’ and more\nThe post These are the 100 greatest gaming themes, according to a new orchestral album appeared first on NME.",
+   "title": "heavensouls – “today i learned to fly again”",
+   "link": "https://stereogum.com/2518277/heavensouls-today-i-learned-to-fly-again/music/",
+   "published": "2026-11-16T15:26:28+00:00",
+   "description": "The post heavensouls &#8211; &#8220;today i learned to fly again&#8221; appeared first on Stereogum.",
+   "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/heavensouls.jpg?w=564",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "ManU-tähdellä uskomaton 11 kauden putki – valmentaja vaihtunut joka kausi",
+   "link": "https://www.klangi.fi/uutiset/matthijs-de-ligt-putki-valmentaja-vaihtuu/",
+   "published": "2026-11-16T15:25:47+00:00",
+   "description": "Manchester Unitedin Matthijs de Ligtin uralta löytyy poikkeuksellinen yksityiskohta: hollantilaistoppari ei ole pelannut ammattilaisurallaan vielä ainoatakaan kautta niin, ettei joko\nArtikkeli ManU-tähdellä uskomaton 11 kauden putki – valmentaja vaihtunut joka kausi julkaistiin ensimmäisen kerran Klangi.",
+   "image": "https://www.klangi.fi/wp-content/uploads/2026/11/Matthijs-de-Ligt-ManU-AOP-2026-Klangi-1024x683.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Robert Pattinson is the new James Bond",
+   "link": "https://www.nme.com/news/film/robert-pattinson-new-james-bond-actor-revealed-3976113",
+   "published": "2026-11-16T15:22:35+00:00",
+   "description": "\"He has the timeless soul of 007 and brings a spirit that is completely new\"\nThe post Robert Pattinson is the new James Bond appeared first on NME.",
    "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Geese, Angine de Poitrine, & Tinashe Among First-Time Grammy Nominees",
+   "link": "https://stereogum.com/2518155/grammy-nominees-first-time/news/",
+   "published": "2026-11-16T15:13:38+00:00",
+   "description": "The post Geese, Angine de Poitrine, &amp; Tinashe Among First-Time Grammy Nominees appeared first on Stereogum.",
+   "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/Anginedepoitrine.jpg?w=564",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Bob Dylan Meets The Pope In Cut-For-Time SNL Sketch",
+   "link": "https://stereogum.com/2518222/bob-dylan-meets-the-pope-in-cut-for-time-snl-sketch/news/",
+   "published": "2026-11-16T14:36:10+00:00",
+   "description": "The post Bob Dylan Meets The Pope In Cut-For-Time &lt;em&gt;SNL&lt;/em&gt; Sketch appeared first on Stereogum.",
+   "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/Pope.jpg?w=564",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Album Of The Year Grammy Nominees 2027 Include Rosalía, Phoebe Bridgers, Taylor Swift",
+   "link": "https://stereogum.com/2518141/album-of-the-year-grammy-nominees-2027-include-rosalia-phoebe-bridgers-taylor-swift/news/",
+   "published": "2026-11-16T13:58:39+00:00",
+   "description": "The post Album Of The Year Grammy Nominees 2027 Include Rosalía, Phoebe Bridgers, Taylor Swift appeared first on Stereogum.",
+   "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/GettyImages-2304842922.jpg?w=564",
    "important": true,
-   "hot": false
+   "hot": true
   },
   {
-   "title": "LCD Soundsystem announce huge Manchester show for summer 2027 as live music returns to Platt Fields Park",
-   "link": "https://www.nme.com/news/music/lcd-soundsystem-announce-huge-manchester-show-for-summer-2027-as-live-music-returns-to-platt-fields-park-3976079",
-   "published": "2026-11-16T12:00:47+00:00",
-   "description": "The 25,000-capacity show will be the first held at the outdoor space in 15 years\nThe post LCD Soundsystem announce huge Manchester show for summer 2027 as live music returns to Platt Fields Park appeared first on NME.",
-   "image": null,
+   "title": "Kanye West’s Bully Up for Best Rap Album Grammy",
+   "link": "https://pitchfork.com/story/kanye-wests-bully-up-for-best-rap-album-grammy/",
+   "published": "2026-11-16T13:54:54+00:00",
+   "description": "Widespread allegations of A.I. use did not deter voters from nominating Ye’s critically dismissed LP",
+   "image": "https://media.pitchfork.com/photos/6afaf9f6fa70625fee86f02d/master/pass/kanye-west-bully-grammys.jpg",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "The Alternative Number Ones: Fastball’s “The Way”",
+   "link": "https://stereogum.com/2517758/the-alternative-number-ones-fastballs-the-way/columns/the-alternative-number-ones/",
+   "published": "2026-11-16T13:53:39+00:00",
+   "description": "In The Alternative Number Ones, I’m reviewing every #1 single in the history of the Billboard&#160;Modern Rock Tracks/Alternative Songs, starting with the moment that the chart launched in 1988. This column is a companion piece to&#160;The Number Ones. The column is now biweekly, alternating with The Number Ones on Mondays. \nDig, if you will, the late-'90s cool-guy uniform. The shiny thrift-shop b",
+   "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/Fastball-The-Way.jpg?w=564",
    "important": false,
    "hot": false
   },
   {
-   "title": "Johnny Depp’s Hollywood return ‘Ebenezer’ hits top of box office",
-   "link": "https://www.nme.com/news/film/johnny-depps-hollywood-return-ebenezer-hits-top-of-box-office-3976077",
-   "published": "2026-11-16T11:54:42+00:00",
-   "description": "The Ti West reimagining took an estimated $42million in its opening weekend\nThe post Johnny Depp&#8217;s Hollywood return &#8216;Ebenezer&#8217; hits top of box office appeared first on NME.",
-   "image": null,
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Liput katosivat hetkessä – Isac Elliot saa toisen keikan Olympiastadionille",
-   "link": "https://www.klangi.fi/uutiset/isac-elliot-lisakonsertti-olympiastadion-2027/",
-   "published": "2026-11-16T11:33:24+00:00",
-   "description": "Isac Elliotin lisäkonsertti nähdään Olympiastadionilla jo päivää ennen alkuperäistä keikkaa, ja sen liput ovat nyt ennakkomyynnissä. Isac Elliot esiintyy ensi\nArtikkeli Liput katosivat hetkessä – Isac Elliot saa toisen keikan Olympiastadionille julkaistiin ensimmäisen kerran Klangi.",
-   "image": "https://www.klangi.fi/wp-content/uploads/2026/11/Isac-Elliot-Olympiastadion-2026-Klangi-1024x683.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Peter Hook tells Rock & Roll Hall Of Fame why New Order will never get back together (without Oasis reunion money)",
-   "link": "https://www.nme.com/news/music/peter-hook-tells-rock-roll-hall-of-fame-why-new-order-will-never-get-back-together-without-oasis-reunion-money-3976071",
-   "published": "2026-11-16T11:28:12+00:00",
-   "description": "“I’ll never forgive them. Simple as that”\nThe post Peter Hook tells Rock &#038; Roll Hall Of Fame why New Order will never get back together (without Oasis reunion money) appeared first on NME.",
+   "title": "Watch U2’s surprise opening performance to kick off 2026 Rock & Roll Hall of Fame induction ceremony",
+   "link": "https://www.nme.com/news/music/watch-u2-surprise-opening-performance-2026-rock-roll-hall-of-fame-ceremony-3976104",
+   "published": "2026-11-16T13:43:40+00:00",
+   "description": "They performed ‘Pride (In the Name of Love)’ and one new single from their recently released album ‘Carnaval De Luz’\nThe post Watch U2&#8217;s surprise opening performance to kick off 2026 Rock &#038; Roll Hall of Fame induction ceremony appeared first on NME.",
    "image": null,
    "important": false,
    "hot": true
   },
   {
-   "title": "Russell Brand still maintains innocence via statement read by wife on podcast",
-   "link": "https://www.nme.com/news/film/russell-brand-laura-gallacher-podcast-innocence-statement-prison-3976066",
-   "published": "2026-11-16T10:35:38+00:00",
-   "description": "“As for my fellow prisoners, I now know that I am in no position to judge anyone”\nThe post Russell Brand still maintains innocence via statement read by wife on podcast appeared first on NME.",
+   "title": "Muse bring a singing robot and ‘The Wow! Signal’ to The O2 in London",
+   "link": "https://www.nme.com/news/music/muse-the-o2-london-setlist-photos-footage-singing-ai-robot-3976084",
+   "published": "2026-11-16T13:43:36+00:00",
+   "description": "See photos, footage, the setlist and more as the space rock giants air new material and present one of their most ambitious stage shows to date\nThe post Muse bring a singing robot and &#8216;The Wow! Signal&#8217; to The O2 in London appeared first on NME.",
    "image": null,
    "important": false,
    "hot": false
   },
   {
-   "title": "Nathan Fielder wasn’t “infatuated” with Elizabeth Holmes while filming ‘You Can See Everything’, says disgraced fraudster’s partner Billy Evans",
-   "link": "https://www.nme.com/news/film/nathan-fielder-elizabeth-holmes-romance-you-can-see-everything-billy-evans-interview-3976056",
-   "published": "2026-11-16T10:29:05+00:00",
-   "description": "“This is a film about what you can trust, and nothing is clear”\nThe post Nathan Fielder wasn’t “infatuated” with Elizabeth Holmes while filming ‘You Can See Everything’, says disgraced fraudster’s partner Billy Evans appeared first on NME.",
+   "title": "Hyvää kovuutta ja kovaa hyvyyttä – Napalm Death Helsingissä, arvio ja kuvat",
+   "link": "https://www.soundi.fi/keikat/hyvaa-kovuutta-ja-kovaa-hyvyytta-napalm-death-helsingissa-arvio-ja-kuvat/",
+   "published": "2026-11-16T13:38:18+00:00",
+   "description": "Campaign for Musical Destruction 2026 -tittelin alla kulkeva mökärundi saapui tärisyttämään marraskuun harmauden ja koleuden kangistamia suomalaisia. Soundin haaviin jäivät grindcoren esi-isäyhtye Napalm Death, Paul Speckmannin luotsaama sotaratsu Master sekä yhdysvaltalainen uuden polven äärimetallihybridi Brat. New Orleansin bimboviolence-nelikko Brat on suorastaan hykerryttävä tapaus. Se ei ole",
    "image": null,
    "important": false,
    "hot": false
   },
   {
-   "title": "Watch Garbage bring Palestinian solidarity and Mariachi-infused bangers to 90,000 fans in Mexico",
-   "link": "https://www.nme.com/news/music/watch-garbage-bring-palestinian-solidarity-and-mariachi-infused-bangers-to-90000-fans-in-mexico-3976052",
-   "published": "2026-11-16T10:25:42+00:00",
-   "description": "They also broke out a cover of The Cure’s ‘Lovesong’, brought out The Warning’s Paulina Villarreal, and reimagined their James Bond hit ‘The World Is Not Enough’\nThe post Watch Garbage bring Palestinian solidarity and Mariachi-infused bangers to 90,000 fans in Mexico appeared first on NME.",
-   "image": null,
+   "title": "Geese Earn First Grammy Nominations",
+   "link": "https://pitchfork.com/story/geese-earn-first-grammys-nominations/",
+   "published": "2026-11-16T13:37:40+00:00",
+   "description": "Including Best New Artist and Best Alternative Music Album",
+   "image": "https://media.pitchfork.com/photos/6afa6aa0b094630048ceb7eb/master/pass/GettyImages-2280468675.jpg",
    "important": false,
-   "hot": false
-  },
-  {
-   "title": "Gettomasa, Elastinen ja MD$ esiintyvät Turun filharmonisen orkesterin kanssa helmikuussa 2027",
-   "link": "https://www.rumba.fi/uutiset/gettomasa-elastinen-ja-md-esiintyvat-turun-filharmonisen-orkesterin-kanssa-helmikuussa-2027/",
-   "published": "2026-11-16T10:04:00+00:00",
-   "description": "MD$, Gettomasa ja Elastinen yhdistävät helmikuussa voimansa Turun filharmonisen orkesterin kanssa. Tuolloin Suomessa järjestetään Red Bull Symphonic -niminen tapahtuma. Konsertissa kuullaan suomiräppiä sen eri aikakausilta täysin uusina, sinfoniaorkesterille sovitettuina versioina. Konsertti järjestetään Turun Musiikkitalo Fuugassa 12. päivä helmikuuta 2027. Red Bull Symphonic tuo yhteen modernin ",
-   "image": null,
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Kayla Harrison kuristi Amanda Nunesin – mestari vihjasi heti perään isoista päätöksistä",
-   "link": "https://www.klangi.fi/uutiset/ufc-334-harrison-kuristi-nunesin/",
-   "published": "2026-11-16T10:01:15+00:00",
-   "description": "Kayla Harrison voitti Amanda Nunesin neljännessä erässä ja puolusti UFC:n kääpiösarjan mestaruuttaan ensimmäistä kertaa. Kayla Harrison kukisti lauantaina New Yorkissa\nArtikkeli Kayla Harrison kuristi Amanda Nunesin – mestari vihjasi heti perään isoista päätöksistä julkaistiin ensimmäisen kerran Klangi.",
-   "image": "https://www.klangi.fi/wp-content/uploads/2026/11/Kayla-Harrison-1-UFC-334-Monster-Energy-2026-Klangi-1024x683.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Tampereen, Oulun ja Kuopion Rokki raikaa -festivaalit julkistivat esiintyjiä: The 69 Eyes, Charon ja D-A-D tiukasti menossa mukana",
-   "link": "https://www.soundi.fi/uutiset/tampereen-oulun-ja-kuopion-rokki-raikaa-festivaalit-julkistivat-esiintyjia-the-69-eyes-charon-ja-d-a-d-tiukasti-menossa-mukana/",
-   "published": "2026-11-16T09:56:32+00:00",
-   "description": "Huomio huomio! Rokki raikaa -rintamalta tuli julki kunnon julkistuspumaska, kun sekä Tampereen, Oulun että Kuopion festivaalit julkistivat artistejaan. Esiintyjäkaarti on kaikissa kolmessa tapahtumassa samansuuntainen, vaikka pieniä erojakin löytyy. Katsotaanpa siis tarkemmin, mitä on luvassa. Hakametsän jäähallin parkkialueella Tampereella 23.–24. heinäkuuta järjestettävän Rokki raikaa -tapahtuma",
-   "image": null,
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Dive into Sasha Keable’s world of R&B with ‘Act Right’, an exclusive playlist to accompany The Cover",
-   "link": "https://www.nme.com/news/music/sasha-keable-the-cover-playlist-3976012",
-   "published": "2026-11-16T09:30:26+00:00",
-   "description": "The British-Colombian singer has chosen tracks by Asake, CARI, Mack Keane, Stevie Wonder and more\nThe post Dive into Sasha Keable’s world of R&#038;B with ‘Act Right’, an exclusive playlist to accompany The Cover appeared first on NME.",
-   "image": null,
-   "important": false,
-   "hot": false
+   "hot": true
   }
  ]
 }
