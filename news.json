@@ -1,16 +1,43 @@
 {
  "suomi": [
   {
-   "title": "Sami Välimäki suli pahasti: kuittasi silti muhkean rahapotin",
-   "link": "https://www.is.fi/golf/art-2000012417284.html",
-   "published": "2026-11-16T21:28:00+00:00",
-   "description": "Sami Välimäki kuittasi sijoituksestaan sievoisen summan.",
+   "title": "Siilasmaan uutuuskirja: Näin oman versioni kulttuurisesta tukahduttamisesta Nokiassa",
+   "link": "https://yle.fi/a/74-20256356?origin=rss",
+   "published": "2026-11-16T22:01:38+00:00",
+   "description": "Nokian entinen hallituksen puheenjohtaja Risto Siilasmaa perkaa uudessa kirjassaan, miksi menestyvätkin yritykset ajautuvat vältettävissä oleviin kriiseihin.",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "45-vuotias mies katosi Helsingissä – havainnot hätänumeroon",
+   "link": "https://www.is.fi/kotimaa/art-2000012417312.html",
+   "published": "2026-11-16T21:53:00+00:00",
+   "description": "Kadonnut on nähty viimeksi Laaksossa maanantaina iltapäivällä.",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Golf | Sami Välimäki romahti päätös­kierroksella voittotaistosta, tilille silti muhkea potti",
+   "link": "https://www.hs.fi/urheilu/art-2000012417309.html",
+   "published": "2026-11-16T21:37:00+00:00",
+   "description": "Jaettu seitsemäs sija on Välimäen kauden paras PGA-kiertueella. Palkintorahaa irtosi noin 170 000 euroa.",
    "image": "https://images.sanoma-sndp.fi/e412c0a631f24e399f1aa263f542d32d/normal/1440.jpg",
    "important": false,
    "hot": false
   },
   {
-   "title": "Pallo osui päähän – 18-vuotias jalkapalloilija kuoli",
+   "title": "Sami Välimäki koki karun pettymyksen – voitti silti jättisumman",
+   "link": "https://www.is.fi/golf/art-2000012417284.html",
+   "published": "2026-11-16T21:28:00+00:00",
+   "description": "Sami Välimäki kuittasi sijoituksestaan sievoisen summan.",
+   "image": "https://images.sanoma-sndp.fi/e412c0a631f24e399f1aa263f542d32d/normal/1440.jpg",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Vastustaja osui palloon hirmuisella voimalla – 18-vuotias jalkapalloilija kuoli",
    "link": "https://www.is.fi/jalkapallo/art-2000012417125.html",
    "published": "2026-11-16T21:21:00+00:00",
    "description": "Argentiinassa surraan harvinaista tragediaa.",
@@ -80,42 +107,69 @@
    "image": "https://images.sanoma-sndp.fi/a85c9a7f78fefadecd338bc9b8d86444/normal/1440.jpg",
    "important": false,
    "hot": false
-  },
-  {
-   "title": "Pakettiauto ajoi sairaalan ovista sisään Rovaniemellä – kuljettaja vastusti kiinniottoa",
-   "link": "https://www.is.fi/kotimaa/art-2000012417182.html",
-   "published": "2026-11-16T20:20:00+00:00",
-   "description": "Kukaan ei loukkaantunut tilanteessa. Poliisin mukaan kuljettaja aiheutti ajollaan vaaratilanteita myös ennen törmäämistään sairaalan oviin.",
-   "image": "https://images.sanoma-sndp.fi/8c8e1e161332989d738020fce2bbb04e/normal/1440.jpg",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Kyseenalaista toimintaa Lapissa – Jelena Välben ex-mies tallentui tv-kuviin, Virossa nousi kohu",
-   "link": "https://www.is.fi/maastohiihto/art-2000012417185.html",
-   "published": "2026-11-16T20:18:00+00:00",
-   "description": "Venäläishiihtäjiä auttoi Muoniossa virolainen kaksikko.",
-   "image": "https://images.sanoma-sndp.fi/dbdb58b0f7bbac1027665e644b1387b2/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "\"Tosi paha juttu\" – näin Virossa suhtaudutaan rajan sulkemiseen",
-   "link": "https://www.mtvuutiset.fi/artikkeli/tosi-paha-juttu-nain-virossa-suhtaudutaan-rajan-sulkemiseen/9422068",
-   "published": "2026-11-16T20:15:28+00:00",
-   "description": "Narvan rajan sulkeutuminen herättää paikalla olevissa ihmisissä huolta ja surua.",
-   "image": "https://api.mtvuutiset.fi/graphql/caas/v1/media/9422066/data/ecd091880dc1300c647c275a752ac1ba/landscape16_9/1024/1611-narva.png",
-   "important": false,
-   "hot": false
   }
  ],
  "jalkapallo": [
   {
-   "title": "Switzerland v Scotland, Germany v Netherlands, and more: Nations League – live",
-   "link": "https://www.theguardian.com/football/live/2026/nov/16/switzerland-v-scotland-germany-v-netherlands-and-more-nations-league-live",
-   "published": "2026-11-16T21:30:09+00:00",
-   "description": "⚽️ Nations League updates from the 7.45pm GMT kick-offs⚽️ Live scoreboard | Follow us on Bluesky | And mail WillThomas Tuchel believes winning the Nations League would can provide England with the springboard to Euro 2028 glory. The head coach watched his team close out the calendar year with a sensational 3-2 victory against Spain at the Metropolitano Stadium on ­Sunday.Some results from the earl",
-   "image": "https://i.guim.co.uk/img/media/ead0ac76580b85e84f084834e7df261958ff6255/800_940_2575_2060/master/2575.jpg?width=140&quality=85&auto=format&fit=max&s=5e21a7fa963b705feecf3f7e6ff183c9",
+   "title": "Price produces controversial 145 checkout en route to Grand Slam win",
+   "link": "https://www.skysports.com/darts/news/12040/13612949/grand-slam-of-darts-gerwyn-price-produces-controversial-145-checkout-en-route-to-routine-victory-over-sebastian-bialecki",
+   "published": "2026-11-16T22:25:00+00:00",
+   "description": "Gerwyn Price produced a controversial 145 checkout en route to a routine Grand Slam of Darts victory over Sebastian Bialecki on Monday night in Wolverhampton.",
+   "image": "https://e0.365dm.com/26/11/1920x1080/skysports-gerwyn-price-sebastian-bialecki_7408162.jpg?20261116213534",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Watch as Scotland slump to 4-0 defeat in Switzerland",
+   "link": "https://www.bbc.co.uk/sport/football/videos/cmp3e19v734wo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-16T22:14:34+00:00",
+   "description": "Watch the highlights as Scotland lose 4-0 to Switzerland in the Nations League in St Gallen.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fe26/live/f9c8c1f0-e20a-11f1-b023-f7d19fda92c1.jpg",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Watch as Scotland slump to 4-0 defeat in Switzerland",
+   "link": "https://www.bbc.co.uk/sport/football/videos/cmp3e19v734wo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-16T22:14:34+00:00",
+   "description": "Watch the highlights as Scotland lose 4-0 to Switzerland in the Nations League in St Gallen.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fe26/live/f9c8c1f0-e20a-11f1-b023-f7d19fda92c1.jpg",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Man Utd to resurrect Hall interest - Tuesday's gossip",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c6d91x7nz85jo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-16T22:06:32+00:00",
+   "description": "Manchester United may struggle to prise defender Lewis Hall from Newcastle, Arsenal midfielder Martin Zubimendi is pondering his future, Chelsea eye a double swoop for Barcelona duo, plus more.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/833e/live/92b22870-e201-11f1-ba8d-01314a590f72.png",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "'Three bulls, shall I do it?' - Littler asks team then DELIVERS on incredible checkout!",
+   "link": "https://www.skysports.com/watch/video/13613033/grand-slam-of-darts-luke-littler-asks-the-crowd-before-incredible-150-checkout",
+   "published": "2026-11-16T22:02:00+00:00",
+   "description": "Incredible scenes in Wolverhampton as Luke Littler appeared to ask his team if he should go for three bullseyes, then duly delivered on the incredible 150 checkout!",
+   "image": "https://e0.365dm.com/26/11/1920x1080/skysports-littler-bullseye_7408189.jpg?20261116220024",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Switzerland roll over sorry Scotland to increase the pressure on Pocognoli",
+   "link": "https://www.theguardian.com/football/2026/nov/16/switzerland-scotland-nations-league-match-report",
+   "published": "2026-11-16T21:53:32+00:00",
+   "description": "A match that should have been about 103 was instead about four. Andy Robertson is due huge acclaim for becoming the most capped player in Scotland’s history but how the full-back will wish the moment arrived in different circumstances. A second string Switzerland team pulled Scotland apart, raising further and significant questions about the suitability of Sébastien Pocognoli to carry out the job ",
+   "image": "https://i.guim.co.uk/img/media/b486fbca2fb986e208151a2612cd6207d9dfd494/481_224_1871_1497/master/1871.jpg?width=140&quality=85&auto=format&fit=max&s=99bb52d357f39ae4ebb7e3ec81f18494",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Football Daily",
+   "link": "https://www.bbc.co.uk/sounds/play/p0pnbcy5?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-16T21:14:00+00:00",
+   "description": "Was England 3-2 Spain Tuchel's best win yet? And is Trafford primed to be new number one?",
+   "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0pnbcz4.jpg",
    "important": false,
    "hot": true
   },
@@ -163,63 +217,27 @@
    "image": "https://i.guim.co.uk/img/media/2da6290508ecb301f58fd9d4e84a22546c832f77/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=b7622478b18f18a9417b4da5e374190c",
    "important": false,
    "hot": true
-  },
-  {
-   "title": "BBC Women's Football Weekly",
-   "link": "https://www.bbc.co.uk/sounds/play/p0pnb81q?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T19:58:00+00:00",
-   "description": "Manchester City star Vivianne Miedema joins Ellen and Ben to discuss her WSL comeback.",
-   "image": "https://ichef.bbci.co.uk/images/ic/240x135/p0pnb830.jpg",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Robertson makes history with record 103rd Scotland cap",
-   "link": "https://www.skysports.com/football/news/12040/13612913/andy-robertson-scotland-captain-breaks-national-appearance-record-by-winning-103rd-senior-cap-vs-switzerland",
-   "published": "2026-11-16T19:47:00+00:00",
-   "description": "Andy Robertson has broken the record for the most senior Scotland men's team caps, surpassing the feat held by Sir Kenny Dalglish for 40 years.",
-   "image": "https://e1.365dm.com/26/11/1920x1080/skysports-football-scotland_7402989.jpg?20261110115123",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Robertson eclipses Dalglish to become Scotland's most capped man",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cjp3v5r9enp1o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T19:43:33+00:00",
-   "description": "Andy Robertson has taken over from Kenny Dalglish as Scotland's most-capped player, making his 103rd appearance in Monday's Nations League game against Switzerland.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/131e/live/7321ccd0-e1f8-11f1-ac6e-e9777cdcbb4f.jpg",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Robertson eclipses Dalglish to become Scotland's most capped man",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cjp3v5r9enp1o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T19:43:33+00:00",
-   "description": "Andy Robertson has taken over from Kenny Dalglish as Scotland's most-capped player, making his 103rd appearance in Monday's Nations League game against Switzerland.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/131e/live/7321ccd0-e1f8-11f1-ac6e-e9777cdcbb4f.jpg",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Joseph set to start for England clash with New Zealand",
-   "link": "https://www.skysports.com/rugby-union/live-blog/12040/13604349/nations-championship-2026-latest-news-and-video-from-northern-hemisphere-series-with-england-ireland-scotland-wales-in-action",
-   "published": "2026-11-16T19:00:00+00:00",
-   "description": "",
-   "image": "https://e0.365dm.com/26/11/1920x1080/skysports-will-joseph-england_7406625.jpg?20261114181854",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Scotland collapse at start of second half in Switzerland LIVE!",
-   "link": "https://www.skysports.com/football/switzerland-vs-scotland/live/554127",
-   "published": "2026-11-16T18:30:00+00:00",
-   "description": "",
-   "image": "https://e2.365dm.com/26/11/1920x1080/skysports-scotland-switzerland_7408139.jpg?20261116210244",
-   "important": false,
-   "hot": false
   }
  ],
  "teknologia": [
+  {
+   "title": "All the questions Nvidia should answer on Tuesday — but probably won’t",
+   "link": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
+   "published": "2026-11-16T22:03:02+00:00",
+   "description": "Nvidia interim CEO and long-time CFO Colette Kress is about to have one of the biggest days of her career on Tuesday when the company reports its third quarter results. Given the turmoil Nvidia is in, there are a number of questions that Nvidia should answer.",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Three small failures combined to take down Microsoft 365",
+   "link": "https://arstechnica.com/gadgets/2026/11/microsoft-details-how-three-problems-combined-for-a-global-outage/",
+   "published": "2026-11-16T21:56:39+00:00",
+   "description": "A hidden bug, shifting traffic, and reduced capacity led to cascading failures.",
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/10/network-outage.jpg",
+   "important": false,
+   "hot": false
+  },
   {
    "title": "Hyperscale data centers use 2% of US electricity",
    "link": "https://arstechnica.com/science/2026/11/hyperscale-data-centers-use-2-of-us-electricity/",
@@ -235,11 +253,11 @@
    "published": "2026-11-16T20:48:53+00:00",
    "description": "Insider Brief PRESS RELEASE &#8212; &#8212; For decades, practical, scalable applications of quantum technology have been purely aspirational. Now, Generation Quantum (“GenQ”) is taking a different approach to create quantum capabilities that work today. “GenQ completely changed the way I think about quantum computing and its near-term potential,” says Valentina Rodriguez of Wonder Ventures, who [",
    "image": "https://thequantuminsider.com/wp-content/uploads/2026/11/GenQ-Logo-on-Charcoal-Geometry-1.png",
-   "important": false,
+   "important": true,
    "hot": false
   },
   {
-   "title": "Shareholders sue Intel, its CEO and CFO after stock drops 28.6 percent in one day",
+   "title": "Shareholders sue Intel, its CEO, and CFO after stock drops 28.6 percent in one day",
    "link": "https://arstechnica.com/tech-policy/2026/11/shareholders-sue-intel-its-ceo-and-cfo-after-stock-drops-28-6-percent-in-one-day/",
    "published": "2026-11-16T20:37:47+00:00",
    "description": "The PC sales slump \"more than offset” AI boom gains, shareholders say.",
@@ -309,137 +327,137 @@
    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2303586820-1024x648.jpg",
    "important": false,
    "hot": false
-  },
-  {
-   "title": "The open-source movement wants Jensen Huang back",
-   "link": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
-   "published": "2026-11-16T18:38:47+00:00",
-   "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. On Friday, a petition to reinstate Jensen Huang as CEO of Nvidia began circulating on social media, and by Monday it listed some notable signatories, including Elon Musk and several influential Nvidia&#8230;",
-   "image": null,
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "From First-Timers to PhDs: 1,000+ Builders Take on Quantum at the Qollab × IonQ Hackathon",
-   "link": "https://thequantuminsider.com/2026/11/16/from-first-timers-to-phds-1000-builders-take-on-quantum-at-the-qollab-x-ionq-hackathon/",
-   "published": "2026-11-16T18:21:45+00:00",
-   "description": "Insider Brief Last month, more than 1,000 students, researchers and professionals in 37 countries spent a weekend writing quantum software, competing at 22 university sites from Finland to Argentina. Some of the best work came from people who had never written a line of quantum code. An avionics engineer in Argentina taught himself from online [&#8230;]",
-   "image": "https://thequantuminsider.com/wp-content/uploads/2026/11/03-cmu-quantum-foundry-team.jpg",
-   "important": true,
-   "hot": false
   }
  ],
  "maailma": [
   {
+   "title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
+   "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-16T22:21:27+00:00",
+   "description": "A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78e4/live/4bc24280-e1d2-11f1-b8c8-67fa35f5afdb.jpg",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
+   "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-16T22:21:27+00:00",
+   "description": "A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78e4/live/4bc24280-e1d2-11f1-b8c8-67fa35f5afdb.jpg",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Mid-year budget update will ‘cut enough, but not too much’, Jim Chalmers says",
+   "link": "https://www.theguardian.com/australia-news/2026/nov/17/myefo-mid-year-budget-update-australia-treasurer-jim-chalmers",
+   "published": "2026-11-16T22:21:10+00:00",
+   "description": "Under growing pressure to sell government’s strategy, treasurer says Myefo will ‘help ease immediate capacity pressures without putting growth at risk’ Jim Chalmers has promised next month’s mid-year budget update “will cut enough, but not too much”, as he flagged “substantial savings” to help in the fight against inflation.The treasurer has come under growing pressure to sell the government’s eco",
+   "image": "https://i.guim.co.uk/img/media/0f10e0a245449557757da5e695d170a3df66fbde/1109_0_5520_4419/master/5520.jpg?width=140&quality=85&auto=format&fit=max&s=0dbbb8a06c2f036cc766fecb07638969",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "United Airlines says it is working to fix ‘widespread’ system outage",
+   "link": "https://www.theguardian.com/us-news/2026/nov/16/united-airlines-system-outage",
+   "published": "2026-11-16T22:19:48+00:00",
+   "description": "Outage at major airline comes just three days after FAA issued rare nationwide ground stop on all US flightsUnited ⁠Airlines said on ⁠Monday ⁠that it was ​experiencing ⁠a widespread system ⁠outage, just three days after the Federal ⁠Aviation Administration issued a rare nationwide ground stop on all US flights.“We’re ‌aware of the widespread system outage, ‌and our teams are working ​hard to get ⁠",
+   "image": "https://i.guim.co.uk/img/media/eb6b6150bca60af4894ce9e3f598b0ea8d74e90c/500_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=28983698125cd7b39a7adedf7e96dd07",
+   "important": false,
+   "hot": false
+  },
+  {
    "title": "Trump defends commerce secretary Lutnick for allegedly slow-walking Nvidia chip export restrictions – live",
    "link": "https://www.theguardian.com/us-news/live/2026/nov/16/donald-trump-asia-visit-democrats-republicans-elizabeth-warren-faa-air-disruption-latest-news-updates",
-   "published": "2026-11-16T21:19:45+00:00",
+   "published": "2026-11-16T22:19:14+00:00",
    "description": "President backs Lutnick after treasury secretary Scott Bessent blamed commerce department for delays in blocking advance AI chip exportsSign up for the Breaking News US emailLauren Almeida and Dan MilmoElon Musk and a host of other tech bosses have called for Jensen Huang’s reinstatement at Nvidia, amid reports the former chief executive is already plotting a return to the chip company just four d",
    "image": "https://i.guim.co.uk/img/media/29e1fc8710bf83e00df914f8c097f75fb4d65897/496_0_4327_3461/master/4327.jpg?width=140&quality=85&auto=format&fit=max&s=d102a629805843dfa154e4ba0be7271b",
    "important": false,
    "hot": true
   },
   {
-   "title": "Third US aircraft carrier brings thousands more troops to Middle East",
-   "link": "https://www.theguardian.com/us-news/2026/nov/16/aircraft-middle-east-trump-military",
-   "published": "2026-11-16T21:13:02+00:00",
-   "description": "The US president oscillates between strike threats on Iran and insisting the war ‘militarily is effectively over’A third US aircraft carrier has arrived in the Middle East, US Central Command said in a social media post on Monday, making a dramatic show of military might as Donald Trump keeps his options open for next steps in the Iran war.The USS Theodore Roosevelt brings thousands of additional ",
-   "image": "https://i.guim.co.uk/img/media/f8920d7c62e46771a24c52857d1e30a2b7a5ef2d/494_0_4935_3948/master/4935.jpg?width=140&quality=85&auto=format&fit=max&s=e5f5afca13cfe9bfc8bbfadae70fd1db",
+   "title": "Freeman Johnson, oldest survivor of Pearl Harbor attack, dies aged 106",
+   "link": "https://www.theguardian.com/us-news/2026/nov/16/oldest-survivor-pearl-harbor-dies",
+   "published": "2026-11-16T22:10:51+00:00",
+   "description": "Johnson was working on the USS St Louis and was inside a steam drum when the attacks took placeThe oldest known survivor of the Pearl Harbor attack died Saturday aged 106 years old. Freeman Johnson, a fireman below the deck during the attack, died in his home in Massachusetts, according to the Boston Globe.Only 11 known Pearl Harbor survivors are still living, all of whom are centenarians. Continu",
+   "image": "https://i.guim.co.uk/img/media/ca4a6ad01c461dea796bbceb345f9fb016d6ec74/175_0_2885_2308/master/2885.jpg?width=140&quality=85&auto=format&fit=max&s=7cc6a368ba9616034acdac3312e64696",
    "important": false,
    "hot": false
   },
   {
-   "title": "Big wave surfers line up to ride ‘raw power of the Pacific’ during Super El-Niño swells",
-   "link": "https://www.theguardian.com/us-news/2026/nov/16/big-wave-surfers-san-francisco-el-nino",
-   "published": "2026-11-16T21:12:29+00:00",
-   "description": "Fans of the sport dubbed the event ‘Monster Day’ as pro surfers tackled the storm-driven waves at Mavericks BeachWhile this year’s Super El Niño storms are battering the California coast and destroying homes and infrastructure, surfers are finding a silver lining: waves so epic that pro athletes from around the world are making last-minute journeys to experience them.Big wave surfers converged on ",
-   "image": "https://i.guim.co.uk/img/media/d83994c899f06f6b3c9e6f669ab4527ee48b60fb/158_0_1583_1267/master/1583.jpg?width=140&quality=85&auto=format&fit=max&s=da0d5e6b0e06bec73903d85fa994f040",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Manchester United’s Endless Loop",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/16/manchester-uniteds-endless-loop?traffic_source=rss",
-   "published": "2026-11-16T21:00:22+00:00",
-   "description": "Thirteen years, eight permanent managers, almost £100 million spent on sacking and hiring — and still no hiring",
+   "title": "California braces for more towering waves as powerful storms approach",
+   "link": "https://www.theguardian.com/us-news/2026/nov/16/california-coast-waves-advisory",
+   "published": "2026-11-16T22:06:55+00:00",
+   "description": "NWS issues advisories for long stretches of the northern California coast, warning that waves can quickly overpower anyone nearbyThe massive, 50-foot swells along California’s coast this weekend foretold an intense week of towering waves to come.Officials from the National Weather Service (NWS) had issued advisories for long stretches of the California coast, warning people that erratic and unpred",
    "image": null,
    "important": false,
    "hot": false
   },
   {
-   "title": "Albanese signs on to Trump’s AI supply chain pact before leaders’ meeting at Quad summit",
-   "link": "https://www.theguardian.com/australia-news/2026/nov/16/albanese-treads-tightrope-in-upcoming-trump-meeting-wanting-indo-pacific-engagement-and-end-to-iran-and-ukraine-wars",
-   "published": "2026-11-16T21:00:21+00:00",
-   "description": "Quad leaders’ summit in Philippines is Trump’s first, as Australia joins US and Japan to protect AI technologies in face of China’s efforts to dominateGet our daily political email, free app or daily news podcastAnthony Albanese will attempt to walk a tightrope in his relationship with Donald Trump when the two leaders meet on Tuesday, as Australia signed on to a US-led pact to secure the technolo",
-   "image": "https://i.guim.co.uk/img/media/b57480f6f6d59b1e608fcb68882810c017ea2e92/499_0_4985_3988/master/4985.jpg?width=140&quality=85&auto=format&fit=max&s=dcd65629c0528069bb39b7b12ba209c6",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Microsoft identifies months-old bug as a root cause of global outage",
-   "link": "https://www.theguardian.com/technology/2026/nov/16/microsoft-global-outage-cause",
-   "published": "2026-11-16T20:54:40+00:00",
-   "description": "Report identifies three factors that led to blackout: a bug, malfunctioning internal connections and server capacityMicrosoft has identified the root causes of the global outage that crippled Outlook, Exchange and a host of other vital office software last week.The office software giant issued an initial report on Monday that identified three factors that led to the 24-hour blackout of its service",
-   "image": "https://i.guim.co.uk/img/media/a40cf590042829e0e6891a61505aced8281edac7/333_0_3333_2668/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=5b754e23f57bbf0dbc9a353eff392d14",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Photos: California residents gather to watch massive El Nino-fuelled waves",
-   "link": "https://www.aljazeera.com/gallery/2026/11/16/photos-california-residents-gather-to-watch-massive-el-nino-fuelled-waves?traffic_source=rss",
-   "published": "2026-11-16T20:42:18+00:00",
-   "description": "National Weather Service warns that waves of more than 10 metres high could impact some parts of US&#039;s California coast.",
+   "title": "Germany thrash Netherlands to book quarterfinal spot",
+   "link": "https://www.aljazeera.com/sports/2026/11/16/germany-thrash-netherlands-to-book-quarterfinal-spot?traffic_source=rss",
+   "published": "2026-11-16T22:04:31+00:00",
+   "description": "Jurgen Klopp&#039;s side outclasses the Dutch 5-0 in Berlin to secure top spot in UEFA Nations League Group A2.",
    "image": null,
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "London Palestine Film Festival returns for 27th year",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/16/london-palestine-film-festival-returns-for-27th-year?traffic_source=rss",
-   "published": "2026-11-16T20:36:25+00:00",
-   "description": "Since 1999, the London Palestine Film Festival has brought Palestinian stories to the big screen.",
-   "image": null,
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Forensic expert says his analysis of autopsy photos suggest Epstein was killed",
-   "link": "https://www.bbc.co.uk/news/articles/c5n4exg1kkmyo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T20:33:57+00:00",
-   "description": "Professor Michael Freeman tells BBC Newsnight that he believes the convicted sex offender's injuries are consistent with a homicide.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f4ce/live/59eafa00-e1c3-11f1-8a52-0b287ff76f43.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Suspect in custody after bomb found at Illinois ethanol plant",
-   "link": "https://www.theguardian.com/us-news/2026/nov/16/illinois-bomb-ethanol-plant-suspect",
-   "published": "2026-11-16T20:25:06+00:00",
-   "description": "The FBI is leading the investigation into the Biourja Renewables incident after it led to a temporary evacuationAuthorities investigating a bomb found recently at an ethanol production plant in Peoria, Illinois, have taken a suspect into custody, according to the mayor there.The Peoria mayor, Rita Ali, told the Guardian on Monday that leadership at the BioUrja Renewables plant “have informed me th",
-   "image": "https://i.guim.co.uk/img/media/331ca93396a5c80784133ac7c3dfbd182ea9ca68/650_0_4618_3695/master/4618.jpg?width=140&quality=85&auto=format&fit=max&s=dbb597bbe12cf4df0a344d475a5af636",
    "important": false,
    "hot": false
   },
   {
    "title": "Customers report difficulty accessing online services at major US banks",
    "link": "https://www.theguardian.com/business/2026/nov/16/us-bank-outage-chase-wells-fargo",
-   "published": "2026-11-16T20:21:59+00:00",
-   "description": "Bank of America, Chase, US Bank, Wells Fargo and Truist were listed by users who have been experiencing issuesCustomers reported difficulty accessing their online accounts at some major US banks on Monday.The reports follow a major outage by Microsoft that began Friday and lasted for hours, which affected services including Outlook, Teams and AI assistant Copilot and had serious repercussions all ",
+   "published": "2026-11-16T22:01:40+00:00",
+   "description": "Bank of America, Chase, US Bank, Wells Fargo and Truist were listed by users who have been experiencing issuesCustomers reported service outages and difficulty accessing their online accounts at several major US banks and the money transfer service Zelle on Monday after a technical issue at JPMorgan Chase caused ripple effects throughout the financial system.Chase said the technical problems were ",
    "image": "https://i.guim.co.uk/img/media/3646b72898ae901bf0c2c1a9dbe0b69194df306e/452_0_4515_3612/master/4515.jpg?width=140&quality=85&auto=format&fit=max&s=90bdf53e095252ef6b02eadb04ea1242",
    "important": false,
    "hot": false
   },
   {
-   "title": "UEFA backs Diallo to challenge Infantino for FIFA presidency",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/16/uefa-backs-diallo-to-challenge-infantino-for-fifa-presidency?traffic_source=rss",
-   "published": "2026-11-16T20:20:02+00:00",
-   "description": "UEFA has found its candidate to take on Gianni Infantino in next year’s FIFA presidential election",
+   "title": "Houthi rebel advance in Yemen may further destabilise global economy",
+   "link": "https://www.bbc.co.uk/news/articles/cmy97qperq9eo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-16T21:40:07+00:00",
+   "description": "The Iran-backed Houthis are gaining ground and their advance could have dangerous consequences, writes the BBC's security correspondent.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eb50/live/f528e3c0-e1f9-11f1-a094-5fdc692f3e33.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "California files lawsuit against OpenAI alleging lack of proper safeguards",
+   "link": "https://www.aljazeera.com/news/2026/11/16/california-files-lawsuit-against-openai-alleging-lack-of-proper-safeguards?traffic_source=rss",
+   "published": "2026-11-16T21:35:51+00:00",
+   "description": "Attorney General Rob Bonta says Hugging Face attack was &#039;entirely predictable&#039; result of emphasis on rapid growth.",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Mamdani to disband NYPD unit deployed at Columbia protests",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/16/mamdani-to-disband-nypd-unit-deployed-at-columbia-protests?traffic_source=rss",
+   "published": "2026-11-16T21:16:02+00:00",
+   "description": "New York City Mayor Zohran Mamdani says he is disbanding the NYPD’s Strategic Response Group or SRG.",
    "image": null,
    "important": false,
    "hot": false
   }
  ],
  "musiikki": [
+  {
+   "title": "Outbreak Festival Announces 2027 Lineup Curated By Hayley Williams",
+   "link": "https://stereogum.com/2518350/outbreak-festival-announces-2027-lineup-curated-by-hayley-williams/news/",
+   "published": "2026-11-16T22:05:06+00:00",
+   "description": "The post Outbreak Festival Announces 2027 Lineup Curated By Hayley Williams appeared first on Stereogum.",
+   "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/unnamed-2026-11-16T165403.401.jpg?w=564",
+   "important": true,
+   "hot": true
+  },
+  {
+   "title": "TV on the Radio to Headline Music Hall of Williamsburg’s Final Shows",
+   "link": "https://pitchfork.com/story/tv-on-the-radio-to-headline-music-hall-of-williamsburgs-final-shows/",
+   "published": "2026-11-16T21:48:50+00:00",
+   "description": "The Brooklyn stalwarts will bring the curtain down once and for all on December 5 and 6",
+   "image": "https://media.pitchfork.com/photos/6afb6604a9d568336bb37df8/master/pass/TV-on-the-Radio.jpeg",
+   "important": false,
+   "hot": false
+  },
   {
    "title": "B2 Fight järjestää neljän miehen turnauksen – voittajalle 80 000 euroa",
    "link": "https://www.klangi.fi/uutiset/b2-fight-jarjestaa-rahakkaan-turnauksen/",
@@ -528,24 +546,6 @@
    "description": "Those leading the way include Raye, Rosalía, Taylor Swift and Olivia Rodrigo\nThe post Grammys 2027: Check out the full list of nominations here appeared first on NME.",
    "image": null,
    "important": false,
-   "hot": true
-  },
-  {
-   "title": "Blind Channel Helsingin jäähallissa – katso kuvat",
-   "link": "https://www.soundi.fi/keikat/blind-channel-helsingin-jaahallissa-katso-kuvat/",
-   "published": "2026-11-16T16:47:07+00:00",
-   "description": "Blind Channel potkaisi tuoreen Painstream-albuminsa kiertueen käyntiin viime lauantaina (14.11.) nousemalla Helsingin jäähallin Black Boxin lavalle. Kyseessä oli samalla yhtyeen syksyn ainoa konsertti Suomessa. Kuvaajamme Joanna Orchide oli kameroineen paikan päällä ikuistamassa tunnelmia. Katso kuvasaldoa alta.\nThe post Blind Channel Helsingin jäähallissa &#8211; katso kuvat appeared first on Sou",
-   "image": null,
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Stephen Wilson Jr. Announces Double Album, Earns Frank Black His First Grammy Nomination, Covers Oasis At Rock Hall",
-   "link": "https://stereogum.com/2518295/stephen-wilson-jr-announces-double-album-earns-frank-black-his-first-grammy-nomination-covers-oasis-at-rock-hall/music/",
-   "published": "2026-11-16T16:42:48+00:00",
-   "description": "The post Stephen Wilson Jr. Announces Double Album, Earns Frank Black His First Grammy Nomination, Covers Oasis At Rock Hall appeared first on Stereogum.",
-   "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/Wilson-Credit-Jace-Kartye.jpeg?w=564",
-   "important": true,
    "hot": true
   }
  ]
