@@ -138,7 +138,7 @@ main .addcat{margin-top:26px}
 #obOv .wlogo text{font-family:"theboldfont",Impact,"Arial Black",sans-serif;fill:currentColor}
 #obOv .welcome h1{font-family:var(--display);font-weight:normal;font-size:15.3cqi;line-height:1;margin:0;white-space:nowrap}
 :root[data-dys="1"] #obOv .welcome h1{font-size:19.5cqi}
-#obOv .welcome p{margin:0;max-width:34ch;font-size:1.1rem;color:var(--muted);text-wrap:balance}
+#obOv .welcome p{margin:0;max-width:100%;font-size:1.1rem;line-height:1.6;color:var(--muted)}
 #obOv .go{margin-top:12px;width:50%;min-width:200px;padding:18px 24px;border:0;border-radius:14px;background:var(--text);color:var(--pop);font-size:1.1rem;font-weight:600;cursor:pointer}
 #obOv .choice{flex:1;min-height:0;display:grid;grid-template-columns:minmax(0,1fr) 1px minmax(0,1fr)}
 #obOv .choice .div{background:var(--line);margin:56px 0}
@@ -497,7 +497,7 @@ function escHandler(){if(VIEW==="welcome")closeWelcome();else if(VIEW==="ready")
 function welcomed(){try{return localStorage.getItem("welcomed")==="1"}catch(e){return false}}
 function setWelcomed(){try{localStorage.setItem("welcomed","1")}catch(e){}}
 function openWelcome(){VIEW="welcome";
-openOv('<button class="x" id="wClose" aria-label="Sulje">✕</button><div class="welcome">'+LOGO+'<h1>Tervetuloa!</h1><p>Rakennetaan sinulle nyt täysin omat uutiset. Valitse aiheet ja lähteet, niin näet vain sinua kiinnostavat uutiset.</p><button class="go" id="wGo">Aloita</button></div>',"Tervetuloa");
+openOv('<button class="x" id="wClose" aria-label="Sulje">✕</button><div class="welcome">'+LOGO+'<h1>Tervetuloa!</h1><p>Rakennetaan sinulle nyt täysin omat uutiset.<br>Valitse aiheet ja lähteet, niin näet vain sinua kiinnostavat uutiset.</p><button class="go" id="wGo">Aloita</button></div>',"Tervetuloa");
 $("wGo").focus();$("wClose").onclick=closeWelcome;$("wGo").onclick=function(){setWelcomed();openChoice()}}
 function closeWelcome(){setWelcomed();closeOv()}
 
