@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>FMFN</title>
 <style>
-:root{--bg:#fff;--box:#edebeb;--text:#1a1919;--imp:#631515;--who:#b5b5b5;--line:rgba(26,25,25,.15);--pop:#f4f3f3;--accent:#631515;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+:root{--bg:#fff;--box:#edebeb;--text:#1a1919;--imp:#631515;--who:#b5b5b5;--line:rgba(26,25,25,.15);--pop:#f4f3f3;--accent:#631515;--muted:#5e5a5a;--ok:#1d6b39;--err:#b3261e;--shade:rgba(0,0,0,.72);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 *{box-sizing:border-box}
 @font-face{font-family:"OpenDyslexic";src:url("OpenDyslexic-Regular.otf") format("opentype");font-weight:400;font-display:swap}
 @font-face{font-family:"OpenDyslexic";src:url("OpenDyslexic-Bold.otf") format("opentype");font-weight:700;font-display:swap}
@@ -15,7 +15,7 @@
 :root[data-dys="1"] .card b{line-height:1.5}
 :root[data-dys="1"] .card{letter-spacing:.04em}
 :root[data-dys="1"] main h1,:root[data-dys="1"] main h2{font-family:"OpenDyslexic",system-ui,sans-serif;font-size:26px}
-:root[data-theme="dark"]{--bg:#161515;--box:#2b2929;--text:#ece9e9;--line:rgba(255,255,255,.18);--pop:#242222;--accent:#e3a3a3;color-scheme:dark}
+:root[data-theme="dark"]{--bg:#161515;--box:#2b2929;--text:#ece9e9;--line:rgba(255,255,255,.18);--pop:#242222;--accent:#e3a3a3;--muted:#a9a3a3;--ok:#7fd29a;--err:#ff8a80;color-scheme:dark}
 html{scroll-padding-top:env(safe-area-inset-top,0px)}
 body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
 @font-face{font-family:"theboldfont";src:url("THEBOLDFONT-FREEVERSION.otf") format("opentype"),url("THEBOLDFONT-FREEVERSION.ttf") format("truetype");font-display:swap}
@@ -122,6 +122,112 @@ main .addcat{margin-top:26px}
 .wchip button{border:0;background:none;color:inherit;cursor:pointer;font-size:1rem;line-height:1;padding:0 4px}
 .wkw{margin-top:12px;padding:10px;border:1px solid var(--line);border-radius:12px}
 .wtag{font-size:.65rem;opacity:.6;text-transform:uppercase;letter-spacing:.04em}
+/* onboarding + category creation (scoped to #obOv) */
+#obOv{--display:"theboldfont",Impact,"Arial Black",sans-serif;position:fixed;inset:0;z-index:60;background:var(--shade);display:flex;align-items:center;justify-content:center;padding:max(16px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) max(16px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+#obOv[hidden]{display:none}
+:root[data-dys="1"] #obOv{--display:"OpenDyslexic",system-ui,sans-serif}
+#obSheet{position:relative;background:var(--pop);color:var(--text);border-radius:20px;width:100%;height:100%;max-width:1120px;display:flex;flex-direction:column;overflow:hidden}
+#obOv button,#obOv input,#obOv textarea{font:inherit;color:inherit}
+#obOv :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+#obOv [hidden]{display:none}
+#obOv .x{position:absolute;z-index:5;top:12px;right:12px;width:42px;height:42px;border:0;border-radius:50%;background:none;cursor:pointer;font-size:1.15rem;display:flex;align-items:center;justify-content:center;opacity:.75}
+#obOv .x *{pointer-events:none}
+#obOv .x:hover{background:var(--box);opacity:1}
+#obOv .welcome{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:40px 24px;gap:18px;overflow:auto}
+#obOv .wlogo{display:block;width:260px;max-width:100%;margin:0 0 8px;color:var(--text)}
+#obOv .wlogo text{font-family:"theboldfont",Impact,"Arial Black",sans-serif;fill:currentColor}
+#obOv .welcome h1{font-family:var(--display);font-weight:normal;font-size:clamp(2rem,6vw,3.4rem);line-height:1.05;margin:0;text-wrap:balance}
+:root[data-dys="1"] #obOv .welcome h1{font-size:clamp(1.6rem,5vw,2.6rem)}
+#obOv .welcome p{margin:0;max-width:34ch;font-size:1.1rem;color:var(--muted);text-wrap:balance}
+#obOv .go{margin-top:12px;padding:16px 44px;border:0;border-radius:14px;background:var(--text);color:var(--pop);font-size:1.1rem;font-weight:600;cursor:pointer}
+#obOv .choice{flex:1;min-height:0;display:grid;grid-template-columns:minmax(0,1fr) 1px minmax(0,1fr)}
+#obOv .choice .div{background:var(--line);margin:56px 0}
+#obOv .opt{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:40px 28px;margin:16px;border:0;border-radius:18px;background:none;cursor:pointer;text-align:center;min-width:0}
+#obOv .opt:hover{background:var(--box)}
+#obOv .opt .t{font-family:var(--display);font-size:clamp(1.6rem,3.4vw,2.4rem);line-height:1.05;text-transform:uppercase;text-wrap:balance}
+:root[data-dys="1"] #obOv .opt .t{text-transform:none;font-size:clamp(1.3rem,2.6vw,1.8rem)}
+#obOv .opt p{margin:0;max-width:30ch;color:var(--muted)}
+#obOv .pill{margin-top:6px;padding:12px 26px;border-radius:12px;background:var(--text);color:var(--pop);font-weight:600}
+#obOv .chead{padding:18px 64px 14px 24px;border-bottom:1px solid var(--line)}
+#obOv .chead h3{margin:0;font-size:1.3rem}
+#obOv .cbody{flex:1;min-height:0;display:grid;grid-template-columns:minmax(0,1fr) 230px}
+#obOv .form{overflow:auto;padding:18px 24px 24px;min-width:0}
+#obOv .done{border-left:1px solid var(--line);padding:18px;overflow:auto}
+#obOv .done h4,#obOv .sec h4{margin:0 0 8px;font-size:.78rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:600}
+#obOv .done ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+#obOv .done li{display:flex;gap:8px;align-items:baseline;font-size:.95rem}
+#obOv .done li::before{content:"✓";color:var(--ok);font-weight:700}
+#obOv .done li.none{font-size:.85rem;color:var(--muted)}
+#obOv .done li.none::before{content:none}
+#obOv .done li.new{animation:obpop .6s ease}
+@keyframes obpop{from{background:var(--box)}to{background:transparent}}
+#obOv .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}
+#obOv .tile{aspect-ratio:1/1;max-width:100%;min-width:0;display:flex;flex-direction:column;justify-content:space-between;align-items:flex-start;text-align:left;padding:14px;border-radius:16px;border:1px solid var(--line);background:var(--bg);cursor:pointer;position:relative}
+#obOv .tile:hover{border-color:var(--text)}
+#obOv .tile .tn{font-family:var(--display);font-size:1.35rem;line-height:1.05;text-transform:uppercase;overflow-wrap:break-word;hyphens:auto;padding-right:20px;max-width:100%}
+#obOv .tile .tn.long{font-size:1.02rem}
+:root[data-dys="1"] #obOv .tile .tn{text-transform:none;font-size:1.05rem}
+#obOv .tile .tm{font-size:.78rem;color:var(--muted)}
+#obOv .tile .ck{position:absolute;top:10px;right:12px;font-weight:700}
+#obOv .tile[aria-pressed="true"]{background:var(--text);color:var(--pop);border-color:var(--text)}
+#obOv .tile[aria-pressed="true"] .tm{color:inherit;opacity:.8}
+#obOv .tile.made{border-style:dashed;cursor:default;opacity:.6}
+#obOv .tile.made .ck{color:var(--ok)}
+#obOv .sec{margin-top:22px}
+#obOv .sec:first-child{margin-top:0}
+#obOv .sec.bad h4{color:var(--err)}
+#obOv .sec.bad .in{border-color:var(--err);box-shadow:0 0 0 1px var(--err)}
+#obOv .ferr{color:var(--err);font-size:.8rem;margin:6px 2px 0}
+#obOv .in{width:100%;padding:12px;border:1px solid var(--line);border-radius:10px;background:var(--box)}
+#obOv .hint{font-size:.8rem;color:var(--muted);margin:6px 2px 0}
+#obOv .field{position:relative}
+#obOv .sug{position:absolute;left:0;right:0;top:100%;z-index:4;background:var(--pop);border:1px solid var(--line);border-radius:10px;margin-top:2px;overflow:hidden;box-shadow:0 8px 24px rgba(0,0,0,.18)}
+#obOv .sug:empty{display:none}
+#obOv .sug button{display:flex;justify-content:space-between;gap:10px;width:100%;text-align:left;padding:10px 12px;border:0;background:none;cursor:pointer}
+#obOv .sug button:hover,#obOv .sug button:focus-visible{background:var(--box)}
+#obOv .sug small{color:var(--muted);white-space:nowrap}
+#obOv .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+#obOv .chip{display:inline-flex;align-items:center;gap:4px;background:var(--box);border-radius:999px;padding:4px 4px 4px 12px;font-size:.88rem;max-width:100%}
+#obOv .chip.v{font-size:.8rem;padding:2px 2px 2px 10px;color:var(--muted)}
+#obOv .chip button{border:0;background:none;cursor:pointer;width:26px;height:26px;border-radius:50%;line-height:1}
+#obOv .chip button:hover{background:var(--line)}
+#obOv .kw{margin-top:10px;padding:10px 12px;border:1px solid var(--line);border-radius:12px}
+#obOv .kw .lbl{display:block;font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:2px}
+#obOv .kw .chips{margin-top:4px}
+#obOv .or{text-align:center;margin:18px 0 10px;font-size:.85rem;letter-spacing:.08em;color:var(--muted)}
+#obOv .center{text-align:center}
+#obOv .btn{padding:11px 16px;border-radius:10px;border:1px solid var(--text);background:var(--pop);cursor:pointer}
+#obOv .btn.p{background:var(--text);color:var(--pop)}
+#obOv .tl{background:none;border:0;padding:8px 4px;cursor:pointer;color:var(--text);text-decoration:underline;text-underline-offset:3px}
+#obOv .aip{padding:12px;border:1px solid var(--line);border-radius:12px}
+#obOv .aip ol{margin:0 0 10px;padding-left:22px;color:var(--accent);font-size:.88rem;line-height:1.7}
+#obOv .aip textarea{width:100%;padding:10px;border:1px solid var(--line);border-radius:10px;background:var(--box);resize:vertical}
+#obOv .aip .row{display:flex;justify-content:flex-end;align-items:center;gap:10px;margin:12px 0}
+#obOv .aip .row:last-child{margin-bottom:0}
+#obOv .aip .st{margin-right:auto;font-size:.8rem;color:var(--muted)}
+#obOv .cfoot{display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-end;gap:10px;padding:14px 24px;border-top:1px solid var(--line)}
+#obOv .cfoot .msg{margin-right:auto;font-size:.88rem;min-width:0}
+#obOv .cfoot .msg.ok{color:var(--ok)}
+#obOv .cfoot .msg.err{color:var(--err)}
+#obOv .confirm{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:flex-end;padding:12px 24px;background:var(--box)}
+#obOv .confirm span{margin-right:auto}
+@media (max-width:760px){
+ #obOv .choice{grid-template-columns:minmax(0,1fr);grid-template-rows:minmax(0,1fr) 1px minmax(0,1fr)}
+ #obOv .choice .div{margin:0 24px}
+ #obOv .opt{margin:8px;padding:20px}
+ #obOv .grid{grid-template-columns:repeat(auto-fill,minmax(130px,1fr))}
+ #obOv .cbody{grid-template-columns:minmax(0,1fr);grid-template-rows:auto minmax(0,1fr)}
+ #obOv .done{order:-1;border-left:0;border-bottom:1px solid var(--line);padding:10px 16px}
+ #obOv .done ul{flex-direction:row;flex-wrap:wrap;gap:4px 14px}
+ #obOv .done h4{display:inline;margin-right:8px}
+ #obOv .chead{padding-left:16px}
+ #obOv .form,#obOv .cfoot,#obOv .confirm{padding-left:16px;padding-right:16px}
+}
+@media (prefers-reduced-motion:reduce){#obOv .done li.new{animation:none}}
+/* first-category button on the home page */
+.obig{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;width:100%;min-height:150px;margin-top:20px;border:0;border-radius:18px;background:var(--text);color:var(--bg);cursor:pointer;outline:2px dashed var(--bg);outline-offset:-9px;padding:24px;font:inherit}
+.obig span{font-size:1.25rem;font-weight:600}
+.obig small{opacity:.8;font-size:.85rem}
 </style>
 </head>
 <body>
@@ -129,6 +235,7 @@ main .addcat{margin-top:26px}
 <main id="app"></main>
 <aside id="side" aria-label="Tärkeimmät ja puhutuimmat"></aside>
 <div id="ov"><div id="dlg"></div></div>
+<div id="obOv" hidden><div id="obSheet" role="dialog" aria-modal="true"></div></div>
 <input type="file" id="impfile" accept="application/json,.json" hidden>
 <div id="fab"><div id="menu"></div><button id="ball" aria-label="Valikko">☰</button></div>
 <script>
@@ -139,14 +246,14 @@ var DYS=false;try{DYS=localStorage.getItem("dys")==="1"}catch(e){}
 function setDys(v){DYS=v;document.documentElement.setAttribute("data-dys",v?"1":"0");try{localStorage.setItem("dys",v?"1":"0")}catch(e){}}
 setDys(DYS);
 var H=3600000,D=86400000,T=Date.UTC(2026,10,15,8,0,0);
-var CATS={suomi:"Suomen uutiset",jalkapallo:"Jalkapallo",teknologia:"Teknologia",maailma:"Maailman uutiset",musiikki:"Musiikki"};
+var CATS={};var BASE=["suomi","jalkapallo","teknologia","maailma","musiikki"];
 var DATA={};
 function two(t){var m=(t||"").match(/[^.!?]+[.!?]+/g);return m?m.slice(0,2).join(" ").trim():(t||"")}
-function loadNews(){return fetch("news.json?"+Date.now()).then(function(r){return r.json()}).then(function(j){Object.keys(CATS).forEach(function(k){DATA[k]=(j[k]||[]).map(function(x){return{t:x.title,s:two(x.description),u:x.link,p:Date.parse(x.published)||Date.now(),imp:!!x.important,hot:!!x.hot,who:"",img:x.image}})})})}
+function loadNews(){return fetch("news.json?"+Date.now()).then(function(r){return r.json()}).then(function(j){BASE.forEach(function(k){DATA[k]=(j[k]||[]).map(function(x){return{t:x.title,s:two(x.description),u:x.link,p:Date.parse(x.published)||Date.now(),imp:!!x.important,hot:!!x.hot,who:"",img:x.image}})})})}
 var ALL=[],WCAT=[];
 function loadAll(){return fetch("kaikki.json?"+Date.now()).then(function(r){return r.ok?r.json():null}).then(function(j){if(!j)return;var hp=Date.parse(j.haettu)||Date.now();ALL=(j.uutiset||[]).map(function(x){return{t:x.t,s:two(x.s),u:x.u,p:Date.parse(x.p)||hp,img:x.i,l:x.l,imp:false,hot:false,who:""}})}).catch(function(){})}
 function loadCat(){return fetch("lahteet.json").then(function(r){return r.ok?r.json():null}).then(function(j){if(j)WCAT=j.lahteet||[]}).catch(function(){})}
-function load(){return Promise.all([loadNews(),loadAll(),loadCat()])}
+function load(){return Promise.all([loadNews(),loadAll(),loadCat(),window.obLoad?obLoad():null])}
 function age(p){var s=Math.max(0,Math.floor((Date.now()-p)/1000));
 if(s<60)return s+"s";if(s<3600)return Math.floor(s/60)+"m";if(s<86400)return Math.floor(s/3600)+"h";return Math.floor(s/86400)+"d"}
 function pic(n,k){return n.img?'<img class="pic" src="'+wesc(n.img)+'" alt="" style="width:100%;object-fit:cover" onerror="this.remove()">':''}
@@ -158,7 +265,7 @@ function nurl(n){return (n.u||"").split(/[?#]/)[0]}
 function Seen(){var su={},st={};return{has:function(n){var u=nurl(n),t=nkey(n);return !!((u&&su[u])||(t&&st[t]))},add:function(n){var u=nurl(n),t=nkey(n);if(u)su[u]=1;if(t)st[t]=1}}}
 // poistaa toistot; tärkeä ja puhuttu versio säilyy ensisijaisesti
 function prep(a){var S=Seen();return (a||[]).slice().sort(function(x,y){return (y.imp-x.imp)||(y.hot-x.hot)||(y.p-x.p)}).filter(function(n){if(S.has(n))return false;S.add(n);return true}).sort(function(x,y){return y.p-x.p})}
-function home(){var h='',S=Seen();
+function home(){if(!ORDER.length)return '<button class="obig" data-addcat="1"><span>+ Luo ensimmäinen kategoria</span><small>Valitse valmiit tai luo omat</small></button>';var h='',S=Seen();
 ORDER.forEach(function(k,i){var a=prep(DATA[k]).filter(function(n){return !S.has(n)});
 var imp=a.filter(function(n){return n.imp})[0];if(!imp)imp=a[1];var last=a.filter(function(n){return n!==imp})[0];
 if(imp)S.add(imp);if(last)S.add(last);
@@ -172,7 +279,7 @@ function sideItem(k,n){return '<a href="'+wesc(safeUrl(n.u))+'" target="_blank" 
 function fillSide(S,get){var out=[],L=ORDER.map(function(k){return{k:k,c:get(k)}});
 L.forEach(function(l){if(out.length>=3)return;for(var i=0;i<l.c.length;i++){if(!S.has(l.c[i])){S.add(l.c[i]);out.push({k:l.k,n:l.c[i]});return}}});
 L.forEach(function(l){l.c.forEach(function(n){if(out.length<3&&!S.has(n)){S.add(n);out.push({k:l.k,n:n})}})});return out}
-function side(){var S=Seen();
+function side(){if(!ORDER.length)return '';var S=Seen();
 var I=fillSide(S,function(k){return prep(DATA[k]).filter(function(n){return n.imp})});
 var P=fillSide(S,function(k){return prep(DATA[k]).filter(function(n){return n.hot&&!n.imp})});
 var box=function(cls,L,none){return '<div class="sbox '+cls+'">'+(L.length?L.map(function(x){return sideItem(x.k,x.n)}).join(''):'<p class="snone">'+none+'</p>')+'</div>'};
@@ -279,7 +386,7 @@ if(wstep==3)h+='<h3>Hakusanat</h3><input id="wkw" placeholder="Kirjoita aihe tai
 if(wstep==4)h+=wPreview();
 h+='<div class="wrow"><button class="wbtn" id="wback">'+(wstep==1?"Peruuta":"Takaisin")+'</button><button class="wbtn p" id="wnext">'+(wstep==3?"Esikatsele":wstep==4?"Tallenna kategoria":"Seuraava")+'</button></div>';
 $w("dlg").innerHTML=h;if(wstep==3)wkwl();var f=$w("wnm")||$w("wkw");if(f)f.focus()}
-document.addEventListener("input",function(e){var t=e.target;if(!WD)return;
+document.addEventListener("input",function(e){var t=e.target;if(!WD||t.closest("#obOv"))return;
 if(t.id==="wnm")WD.name=t.value;
 if(t.dataset&&t.dataset.i!==undefined){var i=+t.dataset.i,v=t.value;WD.src[i]={t:v,ok:false};$w("wst"+i).className="wst";$w("wst"+i).textContent="";
 $w("wsg"+i).innerHTML=wSrcFind(v).map(function(x){return '<button data-pick="'+i+'" data-id="'+wesc(x.id)+'">'+wesc(x.nimi)+'<small>'+(x.kieli==="fi"?"Suomi":"EN")+(x.testattu?" · ✓":"")+'</small></button>'}).join("");
@@ -288,10 +395,10 @@ if(WD.edit&&t.dataset&&t.dataset.i!==undefined)wEditPrev();
 if(t.id==="wkw"){var q=t.value;if(q.indexOf(",")>-1){q.split(",").forEach(function(w){wAddKw(w)});t.value="";$w("wksug").innerHTML="";return}
 var sg=wTopFind(q).map(function(x){return '<button data-add="'+wesc(x.id)+'"><b>'+wesc(x.nimi)+'</b><small>'+wesc(x.paa)+' · '+x.sanat.length+' sanaa</small></button>'}).join("");if(q.trim())sg+='<button data-exact="'+wesc(q.trim())+'">Lisää tarkka hakusana: <b>'+wesc(q.trim())+'</b></button>';$w("wksug").innerHTML=sg}});
 document.addEventListener("keydown",function(e){if(e.key==="Enter"&&e.target.id==="wkw"){wAddKw(e.target.value);e.target.value="";$w("wksug").innerHTML=""}});
-document.addEventListener("click",function(e){var t=(e.target.closest&&e.target.closest("button"))||e.target,d=t.dataset||{};
+document.addEventListener("click",function(e){if(e.target.closest&&e.target.closest("#obOv"))return;var t=(e.target.closest&&e.target.closest("button"))||e.target,d=t.dataset||{};
 var ed=t.closest("[data-editcat]");if(ed){wEdit(ed.dataset.editcat);return}
 var dl=t.closest("[data-del]");if(dl){confirmDel(dl.dataset.del);return}
-if(t.closest("[data-addcat]")){wOpen();return}
+if(t.closest("[data-addcat]")){obOpenChoice();return}
 if(d.dodel!==undefined){doDel(d.dodel);return}
 if(d.cancel!==undefined||t.id==="ov"||t.id==="wx"){wClose();return}
 if(!WD)return;
@@ -358,11 +465,139 @@ r.onerror=function(){importMsg("Tiedostoa ei voitu lukea.")};r.readAsText(f)});
 document.addEventListener("click",function(e){var t=e.target.closest&&e.target.closest("[data-doimport]");if(!t||!IMP)return;
 try{KEYS.forEach(function(k){if(IMP[k]!==undefined)localStorage.setItem(k,IMP[k])})}catch(err){importMsg("Asetuksia ei voitu tallentaa tähän selaimeen.");return}
 IMP=null;location.hash="#koti";location.reload()});
+/* --- ensikäyttö ja kategorian luonti --- */
+(function(){
+var PACKS=[],F=null,VIEW=null,SEL=[],JUSTN=[],lastFocus=null;
+function $(i){return document.getElementById(i)}
+function esc(t){return String(t).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function rx(q){return new RegExp("(^|[^\\p{L}\\p{N}])"+q.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),"iu")}
+function getSrc(id){return WCAT.filter(function(x){return x.id===id})[0]}
+function getTop(id){return WTOP.filter(function(x){return x.id===id})[0]}
+function names(){return ORDER.map(function(k){return CATS[k]})}
+function exists(n){n=n.toLowerCase();return names().some(function(c){return String(c).toLowerCase()===n})}
+function blank(){return{name:"",src:[],kws:[],touched:false}}
+function saveCat(c){var id="c"+Date.now()+Math.floor(Math.random()*1000);
+CUSTOM[id]={name:c.name,src:c.src.map(function(s){var x=s.id?getSrc(s.id):null;return{n:s.n,id:s.id||"",rss:x?x.rss:(s.url||"")}}),kws:c.kws};
+CATS[id]=c.name;ORDER.push(id);persist();buildCustom();route(true)}
+var LOGO='<svg class="wlogo" viewBox="0 0 193 79" aria-label="FMFN"><text x="96.5" y="47" text-anchor="middle" textLength="179" lengthAdjust="spacingAndGlyphs" font-size="50">FMFN</text><text x="96.5" y="69" text-anchor="middle" textLength="179" lengthAdjust="spacingAndGlyphs" font-size="14">FilterMyF*cka*sNews</text></svg>';
+
+/* ikkunan runko */
+function openOv(html,label){if($("obOv").hidden)lastFocus=document.activeElement;$("obSheet").setAttribute("aria-label",label);$("obSheet").innerHTML=html;$("obOv").hidden=false;document.body.style.overflow="hidden";try{M.classList.remove("open")}catch(e){}}
+function closeOv(){VIEW=null;SEL=[];F=null;$("obOv").hidden=true;document.body.style.overflow="";if(lastFocus&&lastFocus.focus)lastFocus.focus()}
+function shell(title,body,foot){return '<button class="x" id="sClose" aria-label="Sulje">✕</button><div class="chead"><h3>'+title+'</h3></div>'+body+'<div id="obConfirm"></div><div class="cfoot"><span class="msg" id="obMsg" role="status"></span>'+foot+'</div>'}
+function doneAside(){return '<aside class="done" aria-label="Luodut kategoriat"><h4>Luodut kategoriat</h4><ul id="obDone"></ul></aside>'}
+function drawDone(){var n=names();$("obDone").innerHTML=n.length?n.map(function(c){return '<li'+(JUSTN.indexOf(c)>-1?' class="new"':'')+'>'+esc(c)+'</li>'}).join(''):'<li class="none">Ei vielä yhtään. Tallennettu kategoria näkyy tässä.</li>'}
+function msg(t,cls){var m=$("obMsg");m.textContent=t;m.className="msg "+(cls||"")}
+function ask(text,keep,go,fn){$("obConfirm").innerHTML='<div class="confirm"><span>'+text+'</span><button class="btn" id="kKeep">'+keep+'</button><button class="btn p" id="kGo">'+go+'</button></div>';
+$("kKeep").onclick=function(){$("obConfirm").innerHTML=""};$("kGo").onclick=fn;$("kKeep").focus()}
+function escHandler(){if(VIEW==="welcome")closeWelcome();else if(VIEW==="ready")leaveReady(closeOv);else if(VIEW==="own")tryLeave(closeOv);else closeOv()}
+
+/* tervetuloa */
+function welcomed(){try{return localStorage.getItem("welcomed")==="1"}catch(e){return false}}
+function setWelcomed(){try{localStorage.setItem("welcomed","1")}catch(e){}}
+function openWelcome(){VIEW="welcome";
+openOv('<button class="x" id="wClose" aria-label="Sulje">✕</button><div class="welcome">'+LOGO+'<h1>Tervetuloa!</h1><p>Rakennetaan sinulle nyt täysin omat uutiset. Valitse aiheet ja lähteet, niin näet vain sinua kiinnostavat uutiset.</p><button class="go" id="wGo">Aloita</button></div>',"Tervetuloa");
+$("wGo").focus();$("wClose").onclick=closeWelcome;$("wGo").onclick=function(){setWelcomed();openChoice()}}
+function closeWelcome(){setWelcomed();closeOv()}
+
+/* valinta: valmiit vai omat */
+function openChoice(){F=null;VIEW="choice";
+openOv('<button class="x" id="sClose" aria-label="Sulje">✕</button><div class="choice"><button class="opt" id="oReady"><span class="t">Valitse valmiit kategoriat</span><p>Valmiit kokonaisuudet, joissa lähteet ja hakusanat on jo valittu.</p><span class="pill">Valitse valmiit</span></button><div class="div" role="presentation"></div><button class="opt" id="oOwn"><span class="t">Luo omat kategoriat</span><p>Nimeä kategoria, valitse lähteet ja kirjoita omat hakusanat.</p><span class="pill">Luo omat</span></button></div>',"Miten aloitetaan");
+$("sClose").onclick=closeOv;$("oReady").onclick=openReady;$("oOwn").onclick=openCreator}
+
+/* valmiit kategoriat ruudukkona */
+function packCat(p){var c={name:p.nimi,src:[],kws:[]};p.lahteet.forEach(function(id){var x=getSrc(id);if(x)c.src.push({n:x.nimi,id:x.id})});(p.aiheet||[]).forEach(function(id){var x=getTop(id);if(x)c.kws.push({k:x.nimi,id:x.id,t:true,v:x.sanat.slice()})});return c}
+function openReady(){F=null;VIEW="ready";SEL=[];JUSTN=[];
+openOv(shell("Valitse valmiit kategoriat",'<div class="cbody"><div class="form"><p class="hint" style="margin:0 0 14px">Napauta kategorioita, jotka haluat. Voit muokata ja poistaa niitä myöhemmin.</p><div class="grid" id="obGrid"></div></div>'+doneAside()+'</div>',
+'<button class="tl" id="toOwn">Lisää omat kategoriat</button><button class="btn" id="rNext">Tallenna ja lisää</button><button class="btn p" id="rDone">Valmis</button>'),"Valitse valmiit kategoriat");
+drawGrid();drawDone();if(!PACKS.length)msg("Valmiita kategorioita ei voitu ladata.","err");
+$("sClose").onclick=function(){leaveReady(closeOv)};$("toOwn").onclick=function(){leaveReady(openCreator)};
+$("rNext").onclick=saveSel;$("rDone").onclick=function(){if(!SEL.length||saveSel())closeOv()}}
+function drawGrid(){$("obGrid").innerHTML=PACKS.map(function(p,i){var made=exists(p.nimi),on=SEL.indexOf(i)>-1,nt=(p.aiheet||[]).length;
+return '<button class="tile'+(made?' made':'')+'" data-tile="'+i+'" aria-pressed="'+(on?'true':'false')+'"'+(made?' aria-disabled="true"':'')+'><span class="ck">'+(made||on?'✓':'')+'</span><span class="tn'+(p.nimi.length>12?' long':'')+'" lang="fi">'+esc(p.nimi)+'</span><span class="tm">'+(made?'Lisätty':p.lahteet.length+' lähdettä · '+nt+(nt===1?' aihe':' aihetta'))+'</span></button>'}).join('')}
+function saveSel(){if(!SEL.length){msg("Valitse vähintään yksi kategoria.","err");return false}
+var added=[];SEL.forEach(function(i){var p=PACKS[i];if(exists(p.nimi))return;saveCat(packCat(p));added.push(p.nimi)});SEL=[];JUSTN=added;drawGrid();drawDone();
+msg("✓ "+added.join(", ")+" tallennettu. Valitse lisää tai paina Valmis.","ok");return true}
+function leaveReady(fn){if(SEL.length)ask("Valintojasi ei ole tallennettu.","Jatka valintaa","Hylkää valinnat",fn);else fn()}
+
+/* oma kategoria: kaikki samassa näkymässä */
+function openCreator(){F=blank();VIEW="own";JUSTN=[];
+openOv(shell("Luo oma kategoria",'<div class="cbody"><div class="form" id="obForm"></div>'+doneAside()+'</div>',
+'<button class="tl" id="toReady">Lisää valmiit kategoriat</button><button class="btn" id="cNext">Tallenna ja lisää</button><button class="btn p" id="cDone">Valmis</button>'),"Luo oma kategoria");
+drawForm();drawDone();$("fName").focus();
+$("sClose").onclick=function(){tryLeave(closeOv)};$("toReady").onclick=function(){tryLeave(openReady)};
+$("cNext").onclick=function(){if(commit())reset()};$("cDone").onclick=function(){if(isEmpty()){closeOv();return}if(commit())closeOv()}}
+function drawForm(){$("obForm").innerHTML='<div class="sec" id="secName"><h4><label for="fName">Nimi</label></h4><input class="in" id="fName" maxlength="30" placeholder="Esim. Tekoäly" value="'+esc(F.name)+'" aria-describedby="errName"><p class="ferr" id="errName" hidden></p></div>'+
+'<div class="sec" id="secSrc"><h4><label for="fSrc">Lähteet</label></h4><div class="field"><input class="in" id="fSrc" autocomplete="off" placeholder="Hae lähdettä, esim. Yle tai BBC" aria-describedby="errSrc"><div class="sug" id="srcSug"></div></div><p class="ferr" id="errSrc" hidden></p><p class="hint">Kirjoita lähteen nimi tai liitä sivuston osoite.</p><div class="chips" id="srcChips"></div></div>'+
+'<div class="sec"><h4><label for="fKw">Hakusanat</label></h4><div class="field"><input class="in" id="fKw" autocomplete="off" placeholder="Kirjoita aihe tai tarkka hakusana"><div class="sug" id="kwSug"></div></div><p class="hint">Kirjoita esim. jalkapallo ja napauta sopivaa aihetta. Pilkku tai Enter lisää tarkan hakusanan. Ilman hakusanoja näytetään kaikki valittujen lähteiden uutiset.</p><div id="kwList"></div>'+
+'<div class="or">– TAI –</div><div class="center" id="aiWrap"><button class="btn" id="aiOpen">✨ Luo hakusanat tekoälyllä</button></div><div class="aip" id="aiPanel" hidden><ol><li>Kopioi prompti ja liitä se omaan tekoälyysi.</li><li>Vastaa tekoälyn kysymyksiin.</li><li>Kopioi tekoälyn antamat hakusanat ja liitä ne alla olevaan kenttään.</li></ol><textarea id="aiPrompt" hidden readonly></textarea><div class="row"><span class="st" id="cpSt" role="status"></span><button class="btn" id="aiCopy">Kopioi prompti</button></div><textarea id="aiIn" rows="3" placeholder="Liitä tekoälyn vastaus tähän"></textarea><div class="row"><span class="st" id="aiSt" role="status"></span><button class="btn p" id="aiAdd">Lisää hakusanat</button></div></div></div>';
+drawSrc();drawKw()}
+function drawSrc(){$("srcChips").innerHTML=F.src.map(function(s,i){return '<span class="chip">'+esc(s.n)+'<button data-ors="'+i+'" aria-label="Poista '+esc(s.n)+'">✕</button></span>'}).join('')}
+function drawKw(){var h="",ex=[];F.kws.forEach(function(k,i){if(!k.t){ex.push(i);return}
+h+='<div class="kw"><span class="lbl">Aihe</span><span class="chip"><b>'+esc(k.k)+'</b><button data-ork="'+i+'" aria-label="Poista aihe">✕</button></span><div class="chips">'+k.v.map(function(v,j){return '<span class="chip v">'+esc(v)+'<button data-orv="'+i+'-'+j+'" aria-label="Poista '+esc(v)+'">✕</button></span>'}).join('')+'</div></div>'});
+if(ex.length)h+='<div class="kw"><span class="lbl">Tarkat hakusanat</span><div class="chips">'+ex.map(function(i){return '<span class="chip">'+esc(F.kws[i].k)+'<button data-ork="'+i+'" aria-label="Poista '+esc(F.kws[i].k)+'">✕</button></span>'}).join('')+'</div></div>';
+$("kwList").innerHTML=h}
+function setErr(k,t){var s=$("sec"+k),e=$("err"+k);if(!s)return;s.classList.toggle("bad",!!t);e.textContent=t;e.hidden=!t}
+function addSrc(s){if(F.src.some(function(x){return (s.id&&x.id===s.id)||x.n.toLowerCase()===s.n.toLowerCase()}))return;F.src.push(s);F.touched=true;setErr("Src","");drawSrc()}
+function addTopic(id){var x=getTop(id);if(!x||F.kws.some(function(k){return k.id===id}))return;F.kws.push({k:x.nimi,id:x.id,t:true,v:x.sanat.slice()});F.touched=true;drawKw()}
+function addWord(w){w=w.trim().toLowerCase();if(!w||F.kws.some(function(k){return !k.t&&k.k===w}))return;F.kws.push({k:w,t:false,v:[]});F.touched=true;drawKw()}
+function isEmpty(){return !F.name.trim()&&!F.src.length&&!F.kws.length}
+function commit(){var nm=F.name.trim(),en="",es="";
+if(!nm)en="*Kategorialta puuttuu nimi.";else if(exists(nm))en="*Sinulla on jo kategoria nimeltä "+nm+".";
+if(!F.src.length)es="*Lisää vähintään yksi lähde.";
+setErr("Name",en);setErr("Src",es);
+if(en||es){msg("Täydennä punaisella merkityt kohdat.","err");(en?$("fName"):$("fSrc")).focus();return false}
+saveCat({name:nm,src:F.src.slice(),kws:JSON.parse(JSON.stringify(F.kws))});JUSTN=[nm];drawDone();return true}
+function reset(){var nm=JUSTN[0];F=blank();drawForm();$("obForm").scrollTop=0;msg("✓ "+nm+" tallennettu. Lisää seuraava kategoria.","ok");$("fName").focus()}
+function tryLeave(fn){if(isEmpty()||!F.touched){fn();return}ask("Hylätäänkö keskeneräinen kategoria?","Jatka muokkausta","Hylkää",fn)}
+
+/* tekoälyprompti */
+function aiPrompt(){var n=F.name.trim();return (n?'Kategoriani nimi on "'+n+'".\n\n':'')+'Autat minua tekemään hakusanoja uutisten suodattamiseen. Kysy minulta yksi kysymys kerrallaan ja odota vastaus ennen seuraavaa:\n1) Mikä on kategorian aihe?\n2) Mitkä asiat aiheessa kiinnostavat erityisesti (esim. henkilöt, joukkueet, yritykset, tapahtumat)?\n3) Haluatko hakusanat suomeksi, englanniksi vai molemmilla?\n\nTee vastausten perusteella 15–40 hakusanaa. Säännöt:\n- sanat perusmuodossa, ei taivutusmuotoja\n- vähintään 3 kirjainta, nimet ja lyhenteet käyvät\n- ei toistoja\n\nKirjoita lopuksi yksi lyhyt rivi (esim. "Tässä hakusanat:") ja sen alle kaikki hakusanat yhteen koodilohkoon (```) yhdellä rivillä pilkuilla eroteltuna, jotta voin kopioida ne yhdellä napilla. Älä kirjoita koodilohkon jälkeen mitään.'}
+
+/* tapahtumat ikkunan sisällä */
+document.addEventListener("input",function(e){if(!F||!e.target.closest("#obOv"))return;var t=e.target;
+if(t.id==="fName"){F.name=t.value;F.touched=true;if(t.value.trim())setErr("Name","")}
+if(t.id==="fSrc"){var q=t.value.trim(),h="";if(q){var r=rx(q.toLowerCase());
+WCAT.filter(function(x){return r.test(x.nimi)||x.id.indexOf(q.toLowerCase())===0}).slice(0,6).forEach(function(x){h+='<button data-osrc="'+esc(x.id)+'"><span>'+esc(x.nimi)+'</span><small>'+(x.kieli==="fi"?"Suomi":"EN")+'</small></button>'});
+if(/^(https?:\/\/)?[\w-]+(\.[\w-]+)+/i.test(q))h+='<button data-ourl="'+esc(q)+'"><span>Lisää oma osoite: '+esc(q)+'</span><small>oma</small></button>'}$("srcSug").innerHTML=h}
+if(t.id==="fKw"){var v=t.value;if(v.indexOf(",")>-1){v.split(",").forEach(addWord);t.value="";$("kwSug").innerHTML="";return}
+var q2=v.trim(),h2="";if(q2.length>=2){var r2=rx(q2);var a=WTOP.filter(function(x){return r2.test(x.nimi)||r2.test(x.paa)}),b=WTOP.filter(function(x){return a.indexOf(x)<0&&x.sanat.some(function(w){return r2.test(w)})});
+a.concat(b).slice(0,7).forEach(function(x){h2+='<button data-otop="'+esc(x.id)+'"><span><b>'+esc(x.nimi)+'</b></span><small>'+esc(x.paa)+' · '+x.sanat.length+' sanaa</small></button>'})}
+if(q2)h2+='<button data-oword="'+esc(q2)+'"><span>Lisää tarkka hakusana: <b>'+esc(q2)+'</b></span><small>tarkka</small></button>';$("kwSug").innerHTML=h2}});
+document.addEventListener("keydown",function(e){if($("obOv").hidden)return;
+if(e.key==="Escape"){var sug=$("obOv").querySelector(".sug:not(:empty)");if(sug){sug.innerHTML="";return}escHandler();return}
+if(e.key==="Enter"&&e.target.id==="fKw"){e.preventDefault();addWord(e.target.value);e.target.value="";$("kwSug").innerHTML=""}
+if(e.key==="Enter"&&e.target.id==="fSrc"){e.preventDefault();var first=$("srcSug").querySelector("button");if(first)first.click()}});
+document.addEventListener("click",function(e){if(!e.target.closest||!e.target.closest("#obOv"))return;
+var tb=e.target.closest("[data-tile]");
+if(tb&&VIEW==="ready"){var ti=+tb.dataset.tile;if(exists(PACKS[ti].nimi))return;var at=SEL.indexOf(ti);if(at>-1)SEL.splice(at,1);else SEL.push(ti);
+drawGrid();$("obGrid").querySelector('[data-tile="'+ti+'"]').focus();msg(SEL.length?SEL.length+" valittu.":"","");return}
+if(!F)return;var b=e.target.closest("button");
+if(!b){if(!e.target.closest(".field"))$("obOv").querySelectorAll(".sug").forEach(function(s){s.innerHTML=""});return}var d=b.dataset;
+if(d.osrc!==undefined){var x=getSrc(d.osrc);if(x)addSrc({n:x.nimi,id:x.id});$("fSrc").value="";$("srcSug").innerHTML="";$("fSrc").focus();return}
+if(d.ourl!==undefined){addSrc({n:d.ourl.replace(/^https?:\/\//,""),id:"",url:d.ourl});$("fSrc").value="";$("srcSug").innerHTML="";return}
+if(d.otop!==undefined){addTopic(d.otop);$("fKw").value="";$("kwSug").innerHTML="";$("fKw").focus();return}
+if(d.oword!==undefined){addWord(d.oword);$("fKw").value="";$("kwSug").innerHTML="";$("fKw").focus();return}
+if(d.ors!==undefined){F.src.splice(+d.ors,1);drawSrc();return}
+if(d.ork!==undefined){F.kws.splice(+d.ork,1);drawKw();return}
+if(d.orv!==undefined){var p=d.orv.split("-");F.kws[+p[0]].v.splice(+p[1],1);drawKw();return}
+if(b.id==="aiOpen"){$("aiWrap").hidden=true;$("aiPanel").hidden=false;$("aiCopy").focus();return}
+if(b.id==="aiCopy"){var pt=aiPrompt(),st=$("cpSt"),ta=$("aiPrompt");ta.value=pt;
+var fb=function(){ta.hidden=false;ta.focus();ta.select();var ok=false;try{ok=document.execCommand("copy")}catch(err){}st.textContent=ok?"Kopioitu!":"Kopioi prompti kentästä.";if(ok)ta.hidden=true};
+try{navigator.clipboard.writeText(pt).then(function(){st.textContent="Kopioitu!"},fb)}catch(err){fb()}return}
+if(b.id==="aiAdd"){var ws=wParseAI($("aiIn").value),b4=F.kws.length;ws.forEach(function(w){w=w.toLowerCase();if(!F.kws.some(function(k){return !k.t&&k.k===w}))F.kws.push({k:w,t:false,v:[]})});var n=F.kws.length-b4;
+if(n){F.touched=true;drawKw();$("aiIn").value=""}$("aiSt").textContent=ws.length?"Lisättiin "+n+" hakusanaa.":"Hakusanoja ei löytynyt. Liitä pilkuilla eroteltu lista.";return}});
+
+window.obLoad=function(){return fetch("valmiit.json").then(function(r){return r.ok?r.json():null}).then(function(j){PACKS=(j&&j.valmiit)||[]}).catch(function(){})};
+window.obOpenChoice=openChoice;
+window.obStart=function(){if(!ORDER.length&&!welcomed())openWelcome()};
+})();
+
 var LG=document.querySelector('#logo a');
 var WIDE=window.matchMedia('(min-width:1340px)');
 function fade(){var p=WIDE.matches?0:Math.min(Math.max(window.scrollY/160,0),1);LG.style.opacity=1-p;LG.style.transform='translateY('+(-p*36)+'px)';LG.style.pointerEvents=p>.9?'none':'auto'}
 window.addEventListener('scroll',fade,{passive:true});var lastW=window.innerWidth;window.addEventListener('resize',function(){fade();if(window.innerWidth!==lastW){lastW=window.innerWidth;placeSide()}});if(document.fonts&&document.fonts.ready)document.fonts.ready.then(function(){placeSide()});fade();
-window.addEventListener('hashchange',route);load().then(function(){buildCustom();route()}).catch(function(){document.getElementById('app').textContent='Uutisten lataus epäonnistui.'});
+window.addEventListener('hashchange',route);load().then(function(){buildCustom();route();obStart()}).catch(function(){document.getElementById('app').textContent='Uutisten lataus epäonnistui.'});
 </script>
 </body>
 </html>

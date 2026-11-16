@@ -1,0 +1,182 @@
+{
+ "versio": 1,
+ "huom": "Valmiit kategoriat. lahteet = lahteet.json-tunnukset, aiheet = aiheet.json-tunnukset. Ilman aiheita kategoria näyttää kaikki valittujen lähteiden uutiset.",
+ "valmiit": [
+  {
+   "nimi": "Tekoäly",
+   "lahteet": [
+    "arstechnica",
+    "techcrunch-ai",
+    "mit-tr",
+    "verge",
+    "wired"
+   ],
+   "aiheet": [
+    "tekoaly",
+    "kielimallit"
+   ]
+  },
+  {
+   "nimi": "Urheilu",
+   "lahteet": [
+    "sky-sports",
+    "bbc-sport",
+    "guardian-football",
+    "talksport",
+    "yahoo-sports"
+   ],
+   "aiheet": [
+    "jalkapallo-uutiset",
+    "jaakiekko-liiga-ja-leijonat",
+    "formula-1"
+   ]
+  },
+  {
+   "nimi": "Talous",
+   "lahteet": [
+    "kauppalehti",
+    "bbc-business",
+    "cnbc",
+    "bloomberg",
+    "ft"
+   ],
+   "aiheet": [
+    "suomen-talous",
+    "osakemarkkinat",
+    "korot-ja-keskuspankit"
+   ]
+  },
+  {
+   "nimi": "Suomi",
+   "lahteet": [
+    "yle",
+    "hs",
+    "is",
+    "iltalehti",
+    "mtv"
+   ],
+   "aiheet": [
+    "suomen-politiikka",
+    "tyollisyys",
+    "suomen-rikosuutiset"
+   ]
+  },
+  {
+   "nimi": "Maailma",
+   "lahteet": [
+    "bbc-news",
+    "guardian",
+    "aljazeera",
+    "nyt-world",
+    "dw"
+   ],
+   "aiheet": [
+    "ukrainan-sota",
+    "lahi-ita",
+    "vaalit-maailmalla"
+   ]
+  },
+  {
+   "nimi": "Musiikki",
+   "lahteet": [
+    "klangi",
+    "soundi",
+    "rumba",
+    "pitchfork",
+    "nme"
+   ],
+   "aiheet": [
+    "musiikki-uutiset",
+    "musiikki-uudet-albumit",
+    "suomalainen-musiikki"
+   ]
+  },
+  {
+   "nimi": "Tiede",
+   "lahteet": [
+    "nasa",
+    "space",
+    "newscientist",
+    "sciencedaily",
+    "nature"
+   ],
+   "aiheet": [
+    "avaruus-uutiset",
+    "tahtitiede",
+    "fysiikka"
+   ]
+  },
+  {
+   "nimi": "Ilmasto",
+   "lahteet": [
+    "guardian-env",
+    "bbc-sciences",
+    "grist",
+    "e360",
+    "icn"
+   ],
+   "aiheet": [
+    "ilmastonmuutos",
+    "uusiutuva-energia",
+    "saailmiot"
+   ]
+  },
+  {
+   "nimi": "Politiikka",
+   "lahteet": [
+    "bbc-politics",
+    "guardian-politics",
+    "politico-eu",
+    "yle",
+    "hs"
+   ],
+   "aiheet": [
+    "suomen-politiikka",
+    "eu-politiikka",
+    "yhdysvaltain-politiikka"
+   ]
+  },
+  {
+   "nimi": "Terveys",
+   "lahteet": [
+    "bbc-health",
+    "stat",
+    "nyt-health",
+    "sd-health",
+    "who"
+   ],
+   "aiheet": [
+    "mielenterveys",
+    "laaketieteen-lapimurrot",
+    "ravinto-ja-liikunta"
+   ]
+  },
+  {
+   "nimi": "Elokuvat ja sarjat",
+   "lahteet": [
+    "variety",
+    "thr",
+    "deadline",
+    "indiewire"
+   ],
+   "aiheet": [
+    "elokuvat",
+    "tv-sarjat-ja-suoratoisto",
+    "palkintogaalat"
+   ]
+  },
+  {
+   "nimi": "Kyberturvallisuus",
+   "lahteet": [
+    "krebs",
+    "hackernews",
+    "arstechnica",
+    "wired"
+   ],
+   "aiheet": [
+    "kyberturvallisuus",
+    "verkkorikollisuus"
+   ]
+  }
+ ]
+}
