@@ -3,12 +3,12 @@
  "huom": "Kaikki lähteet samassa listassa ilman aihejakoa: käyttäjä valitsee itse lähteet omaan kategoriaansa. testattu=true tarkoittaa, että osoite on toiminut GitHub Actionsissa. Muut RSS-osoitteet ovat arvioita ja pitää testata.",
  "lahteet": [
   {
- "id": "mv-lehti",
- "nimi": "MV-lehti",
- "kieli": "fi",
- "rss": "https://mvlehti.net/feed/",
- "testattu": false
-},
+   "id": "mv-lehti",
+   "nimi": "MV-lehti",
+   "kieli": "fi",
+   "rss": "https://mvlehti.net/feed/",
+   "testattu": true
+  },
   {
    "id": "aamulehti",
    "nimi": "Aamulehti",
