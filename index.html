@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>SUCKMYNEWS</title>
+<title>FMFN</title>
 <style>
 :root{--bg:#fff;--box:#edebeb;--text:#1a1919;--imp:#631515;--who:#b5b5b5;--line:rgba(26,25,25,.15);--pop:#f4f3f3;--accent:#631515;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 *{box-sizing:border-box}
@@ -21,6 +21,8 @@ main{width:100%;max-width:600px;margin:0 auto;padding:92px 14px 110px}
 #logo{position:fixed;top:calc(8px + env(safe-area-inset-top,0px));left:50%;transform:translateX(-50%);z-index:15;pointer-events:none}
 #logo a{display:block;width:193px;height:79px;color:var(--text);pointer-events:auto;transition:opacity .25s ease,transform .25s ease}
 #logo svg{display:block}
+#logo .l1{font-size:50px}
+#logo .l2{font-size:14px}
 #logo text{font-family:"theboldfont",Impact,"Arial Black",sans-serif;font-size:37px;fill:var(--text)}
 h1{font-size:calc(1.3rem + 5px);margin:8px 0 16px}
 hr.div{border:0;height:1px;background:var(--line);margin:26px 3px 6px}
@@ -104,7 +106,7 @@ main .addcat{margin-top:26px}
 </style>
 </head>
 <body>
-<div id="logo"><a href="#koti" aria-label="SUCKMYNEWS, kotisivu"><svg viewBox="0 0 193 79" width="193" height="79"><text x="96.5" y="51" text-anchor="middle" textLength="179" lengthAdjust="spacingAndGlyphs">SUCKMYNEWS</text></svg></a></div>
+<div id="logo"><a href="#koti" aria-label="FMFN – FilterMyF*cka*sNews, kotisivu"><svg viewBox="0 0 193 79" width="193" height="79" aria-hidden="true"><text class="l1" x="96.5" y="47" text-anchor="middle" textLength="179" lengthAdjust="spacingAndGlyphs">FMFN</text><text class="l2" x="96.5" y="69" text-anchor="middle" textLength="179" lengthAdjust="spacingAndGlyphs">FilterMyF*cka*sNews</text></svg></a></div>
 <main id="app"></main>
 <div id="ov"><div id="dlg"></div></div>
 <input type="file" id="impfile" accept="application/json,.json" hidden>
@@ -289,10 +291,10 @@ d.innerHTML='<button class="wx" id="wx" aria-label="Sulje">✕</button><div clas
 '<div class="wrow end"><button class="wbtn" data-cancel="1">Peruuta</button><button class="wbtn p" id="wsave">Tallenna muutokset</button></div>';
 $w("ov").classList.add("open");wkwl();d.scrollTop=0}
 var KEYS=["theme","dys","order","custom","del"],IMP=null;
-function exportSettings(){var o={sovellus:"SUCKMYNEWS",versio:1,viety:new Date().toISOString(),asetukset:{}};
+function exportSettings(){var o={sovellus:"FMFN",versio:1,viety:new Date().toISOString(),asetukset:{}};
 KEYS.forEach(function(k){try{var v=localStorage.getItem(k);if(v!==null)o.asetukset[k]=v}catch(e){}});
 var b=new Blob([JSON.stringify(o,null,1)],{type:"application/json"}),a=document.createElement("a");
-a.href=URL.createObjectURL(b);a.download="suckmynews-asetukset.json";document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(a.href)},1000)}
+a.href=URL.createObjectURL(b);a.download="fmfn-asetukset.json";document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(a.href)},1000)}
 function validSettings(o){if(!o||typeof o!=="object"||!o.asetukset||typeof o.asetukset!=="object")return null;var a=o.asetukset,out={};
 try{if(a.theme==="light"||a.theme==="dark")out.theme=a.theme;if(a.dys==="1"||a.dys==="0")out.dys=a.dys;
 if(a.order!==undefined){var x=JSON.parse(a.order);if(Array.isArray(x)&&x.every(function(v){return typeof v==="string"}))out.order=a.order}
