@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>FMFN</title>
+<script>try{document.documentElement.setAttribute("data-theme",localStorage.getItem("teema")==="light"?"light":"dark")}catch(e){document.documentElement.setAttribute("data-theme","dark")}</script>
 <style>
 :root{--bg:#fff;--box:#edebeb;--text:#1a1919;--imp:#631515;--who:#b5b5b5;--line:rgba(26,25,25,.15);--pop:#f4f3f3;--accent:#631515;--muted:#5e5a5a;--ok:#1d6b39;--err:#b3261e;--shade:rgba(0,0,0,.72);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 *{box-sizing:border-box}
@@ -240,8 +241,8 @@ main .addcat{margin-top:26px}
 <input type="file" id="impfile" accept="application/json,.json" hidden>
 <div id="fab"><div id="menu"></div><button id="ball" aria-label="Valikko">☰</button></div>
 <script>
-var THEME="light";try{THEME=localStorage.getItem("theme")==="dark"?"dark":"light"}catch(e){}
-function setTheme(t){THEME=t;document.documentElement.setAttribute("data-theme",t);try{localStorage.setItem("theme",t)}catch(e){}}
+var THEME="dark";try{THEME=localStorage.getItem("teema")==="light"?"light":"dark"}catch(e){}
+function setTheme(t){THEME=t;document.documentElement.setAttribute("data-theme",t);try{localStorage.setItem("teema",t)}catch(e){}}
 setTheme(THEME);
 var DYS=false;try{DYS=localStorage.getItem("dys")==="1"}catch(e){}
 function setDys(v){DYS=v;document.documentElement.setAttribute("data-dys",v?"1":"0");try{localStorage.setItem("dys",v?"1":"0")}catch(e){}}
@@ -445,13 +446,13 @@ d.innerHTML='<button class="wx" id="wx" aria-label="Sulje">✕</button><div clas
 '<h4>Esikatselu</h4><div id="wprev"></div>'+
 '<div class="wrow end"><button class="wbtn" data-cancel="1">Peruuta</button><button class="wbtn p" id="wsave">Tallenna muutokset</button></div>';
 $w("ov").classList.add("open");wkwl();d.scrollTop=0}
-var KEYS=["theme","dys","order","custom","del"],IMP=null;
+var KEYS=["teema","dys","order","custom","del"],IMP=null;
 function exportSettings(){var o={sovellus:"FMFN",versio:1,viety:new Date().toISOString(),asetukset:{}};
 KEYS.forEach(function(k){try{var v=localStorage.getItem(k);if(v!==null)o.asetukset[k]=v}catch(e){}});
 var b=new Blob([JSON.stringify(o,null,1)],{type:"application/json"}),a=document.createElement("a");
 a.href=URL.createObjectURL(b);a.download="fmfn-asetukset.json";document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(a.href)},1000)}
 function validSettings(o){if(!o||typeof o!=="object"||!o.asetukset||typeof o.asetukset!=="object")return null;var a=o.asetukset,out={};
-try{if(a.theme==="light"||a.theme==="dark")out.theme=a.theme;if(a.dys==="1"||a.dys==="0")out.dys=a.dys;
+try{var tm=a.teema||a.theme;if(tm==="light"||tm==="dark")out.teema=tm;if(a.dys==="1"||a.dys==="0")out.dys=a.dys;
 if(a.order!==undefined){var x=JSON.parse(a.order);if(Array.isArray(x)&&x.every(function(v){return typeof v==="string"}))out.order=a.order}
 if(a.del!==undefined){var y=JSON.parse(a.del);if(Array.isArray(y)&&y.every(function(v){return typeof v==="string"}))out.del=a.del}
 if(a.custom!==undefined){var c=JSON.parse(a.custom);if(c&&typeof c==="object"&&!Array.isArray(c)&&Object.keys(c).every(function(k){return c[k]&&typeof c[k].name==="string"&&Array.isArray(c[k].kws)}))out.custom=a.custom}}catch(e){return null}
