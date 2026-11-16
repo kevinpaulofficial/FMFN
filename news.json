@@ -1,6 +1,24 @@
 {
  "suomi": [
   {
+   "title": "Ilmastopaneeli: Maa- ja metsätalouden ja maankäytön päästöjä voidaan vähentää merkittävästi",
+   "link": "https://yle.fi/a/74-20257340?origin=rss",
+   "published": "2026-11-16T23:00:30+00:00",
+   "description": "Turvemaapeltojen vettäminen, metsäkadon hillitseminen ja metsien hiilivaraston kasvattaminen ovat tärkeimmät toimet.",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Asiantuntija BBC:lle: Epstein todennäköisesti tapettiin",
+   "link": "https://www.is.fi/ulkomaat/art-2000012417298.html",
+   "published": "2026-11-16T22:52:00+00:00",
+   "description": "Jeffrey Epsteinin uskotaan tehneen itsemurhan. Nyt oikeuslääketieteen asiantuntija kyseenalaistaa tämän näkemyksen.",
+   "image": "https://images.sanoma-sndp.fi/37481459ad7548bbaa05334b98822cc6/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
    "title": "Siilasmaan uutuuskirja: Näin oman versioni kulttuurisesta tukahduttamisesta Nokiassa",
    "link": "https://yle.fi/a/74-20256356?origin=rss",
    "published": "2026-11-16T22:01:38+00:00",
@@ -89,29 +107,38 @@
    "image": "https://images.sanoma-sndp.fi/101ea598651680048ce27b275b6e020c/normal/1440.jpg",
    "important": false,
    "hot": false
-  },
-  {
-   "title": "USA voitti MM-kultaa, Ruotsille pronssia Suomen nenän edestä",
-   "link": "https://www.is.fi/mmkiekko/art-2000012416195.html",
-   "published": "2026-11-16T20:37:00+00:00",
-   "description": "USA kaatoi Kanadan jääkiekon naisten MM-finaalissa ja Ruotsi voitti pronssiottelussa Naisleijonat rankkarikisassa.",
-   "image": "https://images.sanoma-sndp.fi/497b46e3ea04f9dfa56c9a8aa5f90390/normal/1440.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Itävallan ex-ulkoministeri tanssi häissään Putinin kanssa – väittää nyt kansalaisuutensa olevan vaaka­laudalla",
-   "link": "https://www.is.fi/ulkomaat/art-2000012416518.html",
-   "published": "2026-11-16T20:29:00+00:00",
-   "description": "Venäjälle vuonna 2023 muuttanut Karin Kneissl esiintyy nykyään aktiivisesti valtionmediassa kritisoiden lännen politiikkaa.",
-   "image": "https://images.sanoma-sndp.fi/a85c9a7f78fefadecd338bc9b8d86444/normal/1440.jpg",
-   "important": false,
-   "hot": false
   }
  ],
  "jalkapallo": [
   {
-   "title": "Price produces controversial 145 checkout en route to Grand Slam win",
+   "title": "Pocognoli wants patience but Scotland 'don't have time' says Robertson",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cwnv432qy0l1o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-16T22:36:26+00:00",
+   "description": "Angry captain Andy Robertson says Scotland do not have time to turn things around after a brutal 4-0 defeat by Switzerland consigns them to a third-place finish in their Nations League group.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9cdd/live/1fc24180-e20e-11f1-99b6-a35a62fa4264.jpg",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Pocognoli wants patience but Scotland 'don't have time' says Robertson",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cwnv432qy0l1o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-16T22:36:26+00:00",
+   "description": "Angry captain Andy Robertson says Scotland do not have time to turn things around after a brutal 4-0 defeat by Switzerland consigns them to a third-place finish in their Nations League group.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9cdd/live/1fc24180-e20e-11f1-99b6-a35a62fa4264.jpg",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Nations League: Wirtz doubles up as Germany rout Netherlands to top group",
+   "link": "https://www.theguardian.com/football/2026/nov/16/nations-league-roundup-germany-netherlands-greece-serbia",
+   "published": "2026-11-16T22:33:26+00:00",
+   "description": "Jürgen Klopp’s side make statement with 5-0 triumphDutch advance, Greece miss out despite win over SerbiaFlorian Wirtz scored twice as Germany delivered a 5-0 rout of the Netherlands in Berlin on Monday, reaching the Nations League quarter-finals as group winners.Brajan Gruda contributed a goal and two assists, with Derry Scherhant and Nico Schlotterbeck also on the scoresheet as the hosts deliver",
+   "image": "https://i.guim.co.uk/img/media/b4b5263c15e103e3e2d7b8f2484796c915620135/456_421_2777_2222/master/2777.jpg?width=140&quality=85&auto=format&fit=max&s=df12c67ac1c9724f16e43fbf5014e229",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "'I didn't know' - Price's controversial 145 checkout at Grand Slam explained",
    "link": "https://www.skysports.com/darts/news/12040/13612949/grand-slam-of-darts-gerwyn-price-produces-controversial-145-checkout-en-route-to-routine-victory-over-sebastian-bialecki",
    "published": "2026-11-16T22:25:00+00:00",
    "description": "Gerwyn Price produced a controversial 145 checkout en route to a routine Grand Slam of Darts victory over Sebastian Bialecki on Monday night in Wolverhampton.",
@@ -153,14 +180,23 @@
    "description": "Incredible scenes in Wolverhampton as Luke Littler appeared to ask his team if he should go for three bullseyes, then duly delivered on the incredible 150 checkout!",
    "image": "https://e0.365dm.com/26/11/1920x1080/skysports-littler-bullseye_7408189.jpg?20261116220024",
    "important": false,
-   "hot": true
+   "hot": false
   },
   {
    "title": "Switzerland roll over sorry Scotland to increase the pressure on Pocognoli",
    "link": "https://www.theguardian.com/football/2026/nov/16/switzerland-scotland-nations-league-match-report",
    "published": "2026-11-16T21:53:32+00:00",
-   "description": "A match that should have been about 103 was instead about four. Andy Robertson is due huge acclaim for becoming the most capped player in Scotland’s history but how the full-back will wish the moment arrived in different circumstances. A second string Switzerland team pulled Scotland apart, raising further and significant questions about the suitability of Sébastien Pocognoli to carry out the job ",
+   "description": "A match that should have been about 103 was instead about four. Andy Robertson is due acclaim for becoming the most capped player in Scotland’s history but how the full-back will wish the moment had arrived in different circumstances.A second-string Switzerland team pulled Scotland apart, raising further and significant questions about the suitability of Sébastien Pocognoli to carry out the job hi",
    "image": "https://i.guim.co.uk/img/media/b486fbca2fb986e208151a2612cd6207d9dfd494/481_224_1871_1497/master/1871.jpg?width=140&quality=85&auto=format&fit=max&s=99bb52d357f39ae4ebb7e3ec81f18494",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Record-breaker Robertson speaks out after Scotland's bad loss to Switzerland",
+   "link": "https://www.skysports.com/football/switzerland-vs-scotland/report/554127",
+   "published": "2026-11-16T21:35:00+00:00",
+   "description": "Andy Robertson created Scotland history then delievered a scathing assessment of their Nations League collapse against Switzerland.",
+   "image": "https://e1.365dm.com/26/11/1920x1080/skysports-scotland-robertson_7408181.jpg?20261116215135",
    "important": false,
    "hot": true
   },
@@ -181,45 +217,18 @@
    "image": "https://e1.365dm.com/26/10/1920x1080/skysports-declan-rice-arsenal_7383215.jpg?20261021214729",
    "important": false,
    "hot": false
-  },
-  {
-   "title": "Portugal boss responds to criticism from Ronaldo's mum",
-   "link": "https://www.bbc.co.uk/sport/football/articles/ck87984g3x1po?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T21:08:06+00:00",
-   "description": "Jorge Jesus responds to claims by Cristiano Ronaldo's mother, Dolores Aveiro, that her son had been \"deceived\" by the Portugal manager.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6ca3/live/b14c4cf0-e1f9-11f1-ac6e-e9777cdcbb4f.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Swansea in fight to keep Matos amid Strasbourg interest",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cqly47zn8xlgo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T21:01:50+00:00",
-   "description": "Vitor Matos has emerged as a target for French top-flight club Strasbourg who could soon part ways with Hugo Oliveira.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1526/live/72a6b0c0-e1f5-11f1-ac6e-e9777cdcbb4f.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "British doubles No 1 criticises ATP bosses at trophy presentation absence",
-   "link": "https://www.skysports.com/tennis/news/12040/13612925/henry-patten-british-doubles-no-1-takes-swipe-at-atp-chairman-and-ceo-for-absence-from-trophy-presentation",
-   "published": "2026-11-16T20:05:00+00:00",
-   "description": "British doubles No 1 Henry Patten has taken a swipe at ATP bosses for their absence from a trophy presentation in Turin on Monday.",
-   "image": "https://e2.365dm.com/26/11/1920x1080/skysports-henry-patten-tennis_7408082.jpg?20261116195328",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Tuchel and England must learn lessons of history, Seville and Southgateism | Barney Ronay",
-   "link": "https://www.theguardian.com/football/2026/nov/16/thomas-tuchel-england-must-learn-lessons-history-seville-gareth-southgate",
-   "published": "2026-11-16T20:02:09+00:00",
-   "description": "Another 3-2 win in Spain brings the lure of a golden new hyper-future – but it did not pan out that way last timeI may have the body of a weak and feeble German, but I have the heart and stomach of a manager of England. And I think it foul scorn that Spain should dare to invade the borders of my realm. Or, for that matter, any one of 24 qualified teams for Euro 2028, because at the end of the day ",
-   "image": "https://i.guim.co.uk/img/media/2da6290508ecb301f58fd9d4e84a22546c832f77/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=b7622478b18f18a9417b4da5e374190c",
-   "important": false,
-   "hot": true
   }
  ],
  "teknologia": [
+  {
+   "title": "Robo-soldier startup backed by Eric Trump misses payroll, may collapse",
+   "link": "https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse/",
+   "published": "2026-11-16T22:58:27+00:00",
+   "description": "Robotics startup misses payroll a year after CEO used funds for luxury home.",
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Foundation-Phantom-MK-1-mortar-demo-1152x648.jpg",
+   "important": false,
+   "hot": false
+  },
   {
    "title": "All the questions Nvidia should answer on Tuesday — but probably won’t",
    "link": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
@@ -318,128 +327,137 @@
    "image": null,
    "important": false,
    "hot": true
-  },
-  {
-   "title": "US moves to cut China’s remote access to AI chips",
-   "link": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/",
-   "published": "2026-11-16T19:10:09+00:00",
-   "description": "Trump bets China won’t mind US blocking remote access to AI chips.",
-   "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2303586820-1024x648.jpg",
-   "important": false,
-   "hot": false
   }
  ],
  "maailma": [
   {
-   "title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
-   "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T22:21:27+00:00",
-   "description": "A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78e4/live/4bc24280-e1d2-11f1-b8c8-67fa35f5afdb.jpg",
+   "title": "Five EU countries announce migrant deportation centre in Rwanda",
+   "link": "https://www.bbc.co.uk/news/articles/cw987343352go?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-16T23:20:45+00:00",
+   "description": "Germany, Denmark, Austria, Greece and the Netherlands have announced a \"return hub\" for failed asylum seekers.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7397/live/2ac14ca0-e1d9-11f1-b8c8-67fa35f5afdb.jpg",
    "important": false,
    "hot": true
   },
   {
-   "title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
-   "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T22:21:27+00:00",
-   "description": "A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78e4/live/4bc24280-e1d2-11f1-b8c8-67fa35f5afdb.jpg",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Mid-year budget update will ‘cut enough, but not too much’, Jim Chalmers says",
-   "link": "https://www.theguardian.com/australia-news/2026/nov/17/myefo-mid-year-budget-update-australia-treasurer-jim-chalmers",
-   "published": "2026-11-16T22:21:10+00:00",
-   "description": "Under growing pressure to sell government’s strategy, treasurer says Myefo will ‘help ease immediate capacity pressures without putting growth at risk’ Jim Chalmers has promised next month’s mid-year budget update “will cut enough, but not too much”, as he flagged “substantial savings” to help in the fight against inflation.The treasurer has come under growing pressure to sell the government’s eco",
-   "image": "https://i.guim.co.uk/img/media/0f10e0a245449557757da5e695d170a3df66fbde/1109_0_5520_4419/master/5520.jpg?width=140&quality=85&auto=format&fit=max&s=0dbbb8a06c2f036cc766fecb07638969",
+   "title": "Baby sea turtles swim out to sea after historic California nesting",
+   "link": "https://www.theguardian.com/us-news/2026/nov/16/california-sea-turtle-eggs-hatched",
+   "published": "2026-11-16T23:19:11+00:00",
+   "description": "Hatchlings emerge after discovery in September of first sea turtle nests ever to have been recorded on US west coastTwo months after the discovery of the first sea turtle nests ever to have been recorded on the US west coast, the eggs have hatched – and California’s first group of 75 native-born olive ridley sea turtles have been released into the Pacific.The eggs incubated at the Aquarium of the ",
+   "image": "https://i.guim.co.uk/img/media/4861d06aace7cca64a1450b2e61fb90d86e1600a/243_0_2431_1945/master/2431.jpg?width=140&quality=85&auto=format&fit=max&s=12b0764cfaa73133ca97044e6dbc0d99",
    "important": false,
    "hot": false
   },
   {
-   "title": "United Airlines says it is working to fix ‘widespread’ system outage",
-   "link": "https://www.theguardian.com/us-news/2026/nov/16/united-airlines-system-outage",
-   "published": "2026-11-16T22:19:48+00:00",
-   "description": "Outage at major airline comes just three days after FAA issued rare nationwide ground stop on all US flightsUnited ⁠Airlines said on ⁠Monday ⁠that it was ​experiencing ⁠a widespread system ⁠outage, just three days after the Federal ⁠Aviation Administration issued a rare nationwide ground stop on all US flights.“We’re ‌aware of the widespread system outage, ‌and our teams are working ​hard to get ⁠",
-   "image": "https://i.guim.co.uk/img/media/eb6b6150bca60af4894ce9e3f598b0ea8d74e90c/500_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=28983698125cd7b39a7adedf7e96dd07",
+   "title": "Customers report service outages at major US banks",
+   "link": "https://www.bbc.co.uk/news/articles/cj752wvqneq6o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-16T23:15:21+00:00",
+   "description": "Chase Bank, the largest US bank, said a software bug might be causing the issue, but that it was not \"systemic'\" or \"cyber-related\".",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d633/live/6fb04df0-e212-11f1-b9ca-b9964628501b.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Police raid fails to locate three stolen Melbourne Cup trophies worth $1m each",
+   "link": "https://www.theguardian.com/sport/2026/nov/17/makybe-diva-melbourne-cup-trophies-stolen-flemington-raid-mount-waverley-ntwnfb",
+   "published": "2026-11-16T23:15:07+00:00",
+   "description": "Officers searched a Mount Waverley home in Melbourne after trophies belonging to winning horse Makybe Diva were stolen from Flemington racecourseA police raid has failed to locate three Melbourne Cup trophies belonging to champion horse Makybe Diva after a smash and grab at Flemington racecourse.A Mount Waverley home in Melbourne’s east was raided on Monday evening after thieves smashed their way ",
+   "image": "https://i.guim.co.uk/img/media/e49f8bece2e7b1d85728a821a413a8a1eab7bcad/432_0_5917_4734/master/5917.jpg?width=140&quality=85&auto=format&fit=max&s=928772887ec5806a71f3328e0b226f1f",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Cause of death released for partner of Gypsy Rose Blanchard",
+   "link": "https://www.theguardian.com/us-news/2026/nov/16/cause-of-death-gypsy-rose-blanchard-partner",
+   "published": "2026-11-16T23:14:41+00:00",
+   "description": "Police investigation continues even as Louisiana coroner’s office releases findings on death of Kenan ‘Ken’ UrkerThe cause of death of Gypsy Rose Blanchard’s partner, who died last month, has been released.On Monday, the Lafourche parish coroner’s office in Louisiana determined that Kenan “Ken” Urker, 34, died from accidental polysubstance drug toxicity on 1 October, USA Today reports. The coroner",
+   "image": "https://i.guim.co.uk/img/media/3a6a4f29c56b4a191ed3da3414876b4445abca78/167_0_1665_1333/master/1665.jpg?width=140&quality=85&auto=format&fit=max&s=172f19b59b58970c9485d703ea95104f",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "California sues OpenAI over Hugging Face attack",
+   "link": "https://www.bbc.co.uk/news/articles/c6wy4xv2mxglo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-16T23:12:24+00:00",
+   "description": "Attorney General Rob Bonta alleges OpenAI misled and endangered the public",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce1a/live/7c81aa70-e211-11f1-a541-6d0c391a4254.jpg",
    "important": false,
    "hot": false
   },
   {
    "title": "Trump defends commerce secretary Lutnick for allegedly slow-walking Nvidia chip export restrictions – live",
    "link": "https://www.theguardian.com/us-news/live/2026/nov/16/donald-trump-asia-visit-democrats-republicans-elizabeth-warren-faa-air-disruption-latest-news-updates",
-   "published": "2026-11-16T22:19:14+00:00",
+   "published": "2026-11-16T23:07:31+00:00",
    "description": "President backs Lutnick after treasury secretary Scott Bessent blamed commerce department for delays in blocking advance AI chip exportsSign up for the Breaking News US emailLauren Almeida and Dan MilmoElon Musk and a host of other tech bosses have called for Jensen Huang’s reinstatement at Nvidia, amid reports the former chief executive is already plotting a return to the chip company just four d",
    "image": "https://i.guim.co.uk/img/media/29e1fc8710bf83e00df914f8c097f75fb4d65897/496_0_4327_3461/master/4327.jpg?width=140&quality=85&auto=format&fit=max&s=d102a629805843dfa154e4ba0be7271b",
    "important": false,
    "hot": true
   },
   {
-   "title": "Freeman Johnson, oldest survivor of Pearl Harbor attack, dies aged 106",
-   "link": "https://www.theguardian.com/us-news/2026/nov/16/oldest-survivor-pearl-harbor-dies",
-   "published": "2026-11-16T22:10:51+00:00",
-   "description": "Johnson was working on the USS St Louis and was inside a steam drum when the attacks took placeThe oldest known survivor of the Pearl Harbor attack died Saturday aged 106 years old. Freeman Johnson, a fireman below the deck during the attack, died in his home in Massachusetts, according to the Boston Globe.Only 11 known Pearl Harbor survivors are still living, all of whom are centenarians. Continu",
-   "image": "https://i.guim.co.uk/img/media/ca4a6ad01c461dea796bbceb345f9fb016d6ec74/175_0_2885_2308/master/2885.jpg?width=140&quality=85&auto=format&fit=max&s=7cc6a368ba9616034acdac3312e64696",
+   "title": "Big wave surfers line up to ride ‘raw power of the Pacific’ during Super El-Niño swells",
+   "link": "https://www.theguardian.com/us-news/2026/nov/16/big-wave-surfers-san-francisco-el-nino",
+   "published": "2026-11-16T23:01:28+00:00",
+   "description": "Fans of the sport dubbed the event ‘Monster Day’ as pro surfers tackled the storm-driven waves at Mavericks BeachWhile this year’s Super El Niño storms are battering the California coast and destroying homes and infrastructure, surfers are finding a silver lining: waves so epic that pro athletes from around the world are making last-minute journeys to experience them.Big wave surfers converged on ",
+   "image": "https://i.guim.co.uk/img/media/d83994c899f06f6b3c9e6f669ab4527ee48b60fb/158_0_1583_1267/master/1583.jpg?width=140&quality=85&auto=format&fit=max&s=da0d5e6b0e06bec73903d85fa994f040",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "EU agrees to resurrect cooperation deal with Syria",
+   "link": "https://www.aljazeera.com/news/2026/11/16/eu-agrees-to-resurrect-cooperation-deal-with-syria?traffic_source=rss",
+   "published": "2026-11-16T23:00:36+00:00",
+   "description": "Decision aims to bolster bloc&#039;s ties with Damascus following the collapse of Assad&#039;s government in December 2024.",
+   "image": null,
    "important": false,
    "hot": false
   },
   {
    "title": "California braces for more towering waves as powerful storms approach",
    "link": "https://www.theguardian.com/us-news/2026/nov/16/california-coast-waves-advisory",
-   "published": "2026-11-16T22:06:55+00:00",
-   "description": "NWS issues advisories for long stretches of the northern California coast, warning that waves can quickly overpower anyone nearbyThe massive, 50-foot swells along California’s coast this weekend foretold an intense week of towering waves to come.Officials from the National Weather Service (NWS) had issued advisories for long stretches of the California coast, warning people that erratic and unpred",
+   "published": "2026-11-16T22:59:52+00:00",
+   "description": "NWS issues advisories for long stretches of the northern California coast, warning that waves can quickly overpower anyone nearbyThe massive, 50-ft swells along California’s coast this weekend foretold an intense week of towering waves to come.Officials from the National Weather Service (NWS) had issued advisories for long stretches of the California coast, warning people that erratic and unpredic",
    "image": null,
    "important": false,
    "hot": false
   },
   {
-   "title": "Germany thrash Netherlands to book quarterfinal spot",
-   "link": "https://www.aljazeera.com/sports/2026/11/16/germany-thrash-netherlands-to-book-quarterfinal-spot?traffic_source=rss",
-   "published": "2026-11-16T22:04:31+00:00",
-   "description": "Jurgen Klopp&#039;s side outclasses the Dutch 5-0 in Berlin to secure top spot in UEFA Nations League Group A2.",
+   "title": "US Pentagon rejects allegations linking deputy to a Goldman Sachs banker",
+   "link": "https://www.aljazeera.com/news/2026/11/16/us-pentagon-rejects-allegations-linking-deputy-to-a-goldman-sachs-banker?traffic_source=rss",
+   "published": "2026-11-16T22:40:07+00:00",
+   "description": "Pentagon defends Steve Feinberg, amid claims in Bloomberg he encouraged defence contractors to use a specific banker.",
    "image": null,
    "important": false,
    "hot": false
   },
   {
-   "title": "Customers report difficulty accessing online services at major US banks",
-   "link": "https://www.theguardian.com/business/2026/nov/16/us-bank-outage-chase-wells-fargo",
-   "published": "2026-11-16T22:01:40+00:00",
-   "description": "Bank of America, Chase, US Bank, Wells Fargo and Truist were listed by users who have been experiencing issuesCustomers reported service outages and difficulty accessing their online accounts at several major US banks and the money transfer service Zelle on Monday after a technical issue at JPMorgan Chase caused ripple effects throughout the financial system.Chase said the technical problems were ",
-   "image": "https://i.guim.co.uk/img/media/3646b72898ae901bf0c2c1a9dbe0b69194df306e/452_0_4515_3612/master/4515.jpg?width=140&quality=85&auto=format&fit=max&s=90bdf53e095252ef6b02eadb04ea1242",
+   "title": "Alan Milburn urges Burnham to spend billions on ‘new deal’ for young people",
+   "link": "https://www.theguardian.com/society/2026/nov/16/alan-milburn-urges-burnham-spend-billions-new-deal-young-people-youth-jobs-crisis-welfare-employment",
+   "published": "2026-11-16T22:30:55+00:00",
+   "description": "Report on Britain’s youth jobs crisis calls for welfare, education, health and employment policy shake-upAndy Burnham is being urged to spend billions of pounds on a “new deal” for the next generation that would fund guaranteed jobs support for young people to offset a radical cut in benefits.In a watershed report on Britain’s youth jobs crisis, Alan Milburn, the Tony Blair-era health secretary, s",
+   "image": "https://i.guim.co.uk/img/media/a86708b5e4debf383f4b49fc72cc08d1c91043ac/869_0_4344_3475/master/4344.jpg?width=140&quality=85&auto=format&fit=max&s=aa717b7cb0ab5d88b64ff5552b4978d9",
    "important": false,
-   "hot": false
-  },
-  {
-   "title": "Houthi rebel advance in Yemen may further destabilise global economy",
-   "link": "https://www.bbc.co.uk/news/articles/cmy97qperq9eo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T21:40:07+00:00",
-   "description": "The Iran-backed Houthis are gaining ground and their advance could have dangerous consequences, writes the BBC's security correspondent.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eb50/live/f528e3c0-e1f9-11f1-a094-5fdc692f3e33.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "California files lawsuit against OpenAI alleging lack of proper safeguards",
-   "link": "https://www.aljazeera.com/news/2026/11/16/california-files-lawsuit-against-openai-alleging-lack-of-proper-safeguards?traffic_source=rss",
-   "published": "2026-11-16T21:35:51+00:00",
-   "description": "Attorney General Rob Bonta says Hugging Face attack was &#039;entirely predictable&#039; result of emphasis on rapid growth.",
-   "image": null,
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Mamdani to disband NYPD unit deployed at Columbia protests",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/16/mamdani-to-disband-nypd-unit-deployed-at-columbia-protests?traffic_source=rss",
-   "published": "2026-11-16T21:16:02+00:00",
-   "description": "New York City Mayor Zohran Mamdani says he is disbanding the NYPD’s Strategic Response Group or SRG.",
-   "image": null,
-   "important": false,
-   "hot": false
+   "hot": true
   }
  ],
  "musiikki": [
+  {
+   "title": "Jaromir Jagrin uskomaton pelaajaura tuli päätökseen? ”Rakastin aina sankarin roolia”",
+   "link": "https://www.klangi.fi/uutiset/onko-jaromir-jagrin-ura-ohi/",
+   "published": "2026-11-16T23:26:26+00:00",
+   "description": "Jaromir Jagrin ura jääkiekkoilijana, mikä on ollut pitkä ja menestyksekäs, on mitä todennäköisimmin saapunut päätepysäkilleen ja pelit on pelattuna. 1\nArtikkeli Jaromir Jagrin uskomaton pelaajaura tuli päätökseen? &#8221;Rakastin aina sankarin roolia&#8221; julkaistiin ensimmäisen kerran Klangi.",
+   "image": "https://www.klangi.fi/wp-content/uploads/2026/11/Jaromir-Jagr-Ura-AOP-2026-Klangi-1024x683.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Hayley Williams-Curated Outbreak Fest Features Dinosaur Jr., Blood Orange",
+   "link": "https://pitchfork.com/story/hayley-williams-outbreak-fest-2027-lineup/",
+   "published": "2026-11-16T22:58:42+00:00",
+   "description": "Also: Mannequin Pussy, Rico Nasty, Ear, Soul Glo, and, yes, Hayley Williams",
+   "image": "https://media.pitchfork.com/photos/6afb8986d8ec8e2ceb506290/master/pass/MixCollage-16-Nov-2026-05-25-PM-3668.jpg",
+   "important": false,
+   "hot": true
+  },
   {
    "title": "Outbreak Festival Announces 2027 Lineup Curated By Hayley Williams",
    "link": "https://stereogum.com/2518350/outbreak-festival-announces-2027-lineup-curated-by-hayley-williams/news/",
@@ -529,24 +547,6 @@
    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/Going-Dutch.jpeg?w=564",
    "important": false,
    "hot": false
-  },
-  {
-   "title": "bdrmm – “Amuse Yourself”",
-   "link": "https://stereogum.com/2518286/bdrmm-amuse-yourself/music/",
-   "published": "2026-11-16T17:00:52+00:00",
-   "description": "The post bdrmm &#8211; &#8220;Amuse Yourself&#8221; appeared first on Stereogum.",
-   "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/AmuseYourself.jpg?w=564",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Grammys 2027: Check out the full list of nominations here",
-   "link": "https://www.nme.com/news/music/grammys-2027-check-out-the-full-list-of-nominations-here-3976128",
-   "published": "2026-11-16T16:54:56+00:00",
-   "description": "Those leading the way include Raye, Rosalía, Taylor Swift and Olivia Rodrigo\nThe post Grammys 2027: Check out the full list of nominations here appeared first on NME.",
-   "image": null,
-   "important": false,
-   "hot": true
   }
  ]
 }
