@@ -27,6 +27,17 @@ main{width:100%;max-width:600px;margin:0 auto;padding:92px 14px 110px}
 #logo .l2{font-size:14px}
 #logo text{font-family:"theboldfont",Impact,"Arial Black",sans-serif;font-size:37px;fill:var(--text)}
 h1{font-family:"theboldfont",Impact,"Arial Black",sans-serif;font-weight:normal;font-size:32px;margin:8px 0 16px}
+#side{display:none}
+.sbox{border-radius:14px;padding:12px 14px;margin-bottom:14px}
+.sbox.simp{background:var(--imp);color:#fff}
+.sbox.shot{background:#f7e591;color:#1a1919}
+.sbox h3{font-family:"theboldfont",Impact,"Arial Black",sans-serif;font-weight:normal;font-size:22px;margin:0 0 4px}
+.sbox a{display:block;color:inherit;text-decoration:none;font-size:.85rem;line-height:1.35;padding:7px 0;border-top:1px solid rgba(127,127,127,.35)}
+.sbox h3+a{border-top:0}
+.sbox a:hover{text-decoration:underline}
+.sk{font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;opacity:.8}
+.snone{font-size:.82rem;opacity:.8;margin:4px 0}
+:root[data-dys="1"] .sbox h3{font-family:"OpenDyslexic",system-ui,sans-serif;font-size:18px}
 .h2a{color:inherit;text-decoration:none}
 .h2a:hover{text-decoration:underline}
 hr.div{border:0;height:1px;background:var(--line);margin:26px 3px 6px}
@@ -57,6 +68,7 @@ main{padding-top:20px}
 #ball{display:none}
 #menu{display:block;position:fixed;right:calc(50% + 413px);left:auto;top:110px;bottom:auto;width:230px;min-width:0;max-height:calc(100vh - 130px);overflow:auto;background:none;border:0;box-shadow:none;padding:0}
 #menu a,#menu .edit{font-size:1.05rem}
+#side{display:block;position:fixed;left:calc(50% + 413px);top:110px;width:230px;max-height:calc(100vh - 130px);overflow:auto}
 }
 .addcat{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;margin-top:14px;padding:14px;border:0;border-radius:14px;background:var(--text);color:var(--bg);font:inherit;font-weight:600;cursor:pointer;outline:2px dashed var(--bg);outline-offset:-7px}
 .addcat span{font-size:1.4rem;line-height:1}
@@ -113,6 +125,7 @@ main .addcat{margin-top:26px}
 <body>
 <div id="logo"><a href="#koti" aria-label="FMFN – FilterMyF*cka*sNews, kotisivu"><svg viewBox="0 0 193 79" width="193" height="79" aria-hidden="true"><text class="l1" x="96.5" y="47" text-anchor="middle" textLength="179" lengthAdjust="spacingAndGlyphs">FMFN</text><text class="l2" x="96.5" y="69" text-anchor="middle" textLength="179" lengthAdjust="spacingAndGlyphs">FilterMyF*cka*sNews</text></svg></a></div>
 <main id="app"></main>
+<aside id="side" aria-label="Tärkeimmät ja puhutuimmat"></aside>
 <div id="ov"><div id="dlg"></div></div>
 <input type="file" id="impfile" accept="application/json,.json" hidden>
 <div id="fab"><div id="menu"></div><button id="ball" aria-label="Valikko">☰</button></div>
@@ -135,17 +148,29 @@ function load(){return Promise.all([loadNews(),loadAll(),loadCat()])}
 function age(p){var s=Math.max(0,Math.floor((Date.now()-p)/1000));
 if(s<60)return s+"s";if(s<3600)return Math.floor(s/60)+"m";if(s<86400)return Math.floor(s/3600)+"h";return Math.floor(s/86400)+"d"}
 function pic(n,k){return n.img?'<img class="pic" src="'+wesc(n.img)+'" alt="" style="width:100%;object-fit:cover" onerror="this.remove()">':''}
-function card(n,k,hot){return '<a class="card'+(n.imp?' imp':(hot&&n.hot?' hot':''))+'" href="'+n.u+'" target="_blank" rel="noopener"><span class="age">'+age(n.p)+'</span><b>'+n.t+'</b><p>'+n.s+'</p>'+pic(n,k)+'</a>'+(n.who?'<div class="who">'+n.who+'</div>':'')}
-function home(){var h='';
-ORDER.forEach(function(k,i){var a=DATA[k].slice().sort(function(x,y){return y.p-x.p});
+function safeUrl(u){return /^https?:\/\//i.test(u||"")?u:"#"}
+function card(n,k,hot){return '<a class="card'+(n.imp?' imp':(hot&&n.hot?' hot':''))+'" href="'+wesc(safeUrl(n.u))+'" target="_blank" rel="noopener"><span class="age">'+age(n.p)+'</span><b>'+wesc(n.t)+'</b><p>'+wesc(n.s)+'</p>'+pic(n,k)+'</a>'+(n.who?'<div class="who">'+wesc(n.who)+'</div>':'')}
+// sama uutinen tunnistetaan linkistä (ilman ?-osaa) tai samasta otsikosta
+function nkey(n){return (n.t||"").toLowerCase().replace(/[^\p{L}\p{N}]+/gu," ").trim()}
+function nurl(n){return (n.u||"").split(/[?#]/)[0]}
+function Seen(){var su={},st={};return{has:function(n){var u=nurl(n),t=nkey(n);return !!((u&&su[u])||(t&&st[t]))},add:function(n){var u=nurl(n),t=nkey(n);if(u)su[u]=1;if(t)st[t]=1}}}
+// poistaa toistot; tärkeä ja puhuttu versio säilyy ensisijaisesti
+function prep(a){var S=Seen();return (a||[]).slice().sort(function(x,y){return (y.imp-x.imp)||(y.hot-x.hot)||(y.p-x.p)}).filter(function(n){if(S.has(n))return false;S.add(n);return true}).sort(function(x,y){return y.p-x.p})}
+function home(){var h='',S=Seen();
+ORDER.forEach(function(k,i){var a=prep(DATA[k]).filter(function(n){return !S.has(n)});
 var imp=a.filter(function(n){return n.imp})[0];if(!imp)imp=a[1];var last=a.filter(function(n){return n!==imp})[0];
-h+=(i?'<hr class="div">':'')+'<h2><a class="h2a" href="#'+k+'">'+CATS[k]+'</a></h2>'+(imp?card(imp,k):'')+(last?card(last,k):'')+(a.length?'':'<p class="empty">Ei osumia nykyisillä uutisilla.</p>')});return h+'<button class="addcat" data-addcat="1"><span>+</span> Lisää kategoria</button>'}
-function cat(k){var a=DATA[k].slice().sort(function(x,y){return y.p-x.p});
-var imp=a.filter(function(n){return n.imp})[0];
-var hot=a.filter(function(n){return n.hot&&n!==imp}).slice(0,2);
-var top=(imp?[imp]:[]).concat(hot);
+if(imp)S.add(imp);if(last)S.add(last);
+h+=(i?'<hr class="div">':'')+'<h2><a class="h2a" href="#'+k+'">'+wesc(CATS[k])+'</a></h2>'+(imp?card(imp,k):'')+(last?card(last,k):'')+(a.length?'':'<p class="empty">Ei osumia nykyisillä uutisilla.</p>')});return h+'<button class="addcat" data-addcat="1"><span>+</span> Lisää kategoria</button>'}
+function tops(k){var a=prep(DATA[k]),imp=a.filter(function(n){return n.imp})[0];return{a:a,imp:imp,hot:a.filter(function(n){return n.hot&&n!==imp}).slice(0,2)}}
+function cat(k){var T=tops(k),a=T.a,top=(T.imp?[T.imp]:[]).concat(T.hot);
 var rest=a.filter(function(n){return top.indexOf(n)<0});
-return '<h1>'+CATS[k]+'</h1>'+(CUSTOM[k]?'<button class="catedit" data-editcat="'+k+'">✎ Muokkaa kategoriaa</button>':'')+top.concat(rest).map(function(n){return card(n,k,top.indexOf(n)>-1)}).join('')+(a.length?'':'<p class="empty">Ei osumia nykyisillä uutisilla.</p>')}
+return '<h1>'+wesc(CATS[k])+'</h1>'+(CUSTOM[k]?'<button class="catedit" data-editcat="'+k+'">✎ Muokkaa kategoriaa</button>':'')+top.concat(rest).map(function(n){return card(n,k,top.indexOf(n)>-1)}).join('')+(a.length?'':'<p class="empty">Ei osumia nykyisillä uutisilla.</p>')}
+function sideItem(k,n){return '<a href="'+wesc(safeUrl(n.u))+'" target="_blank" rel="noopener"><span class="sk">'+wesc(CATS[k])+'</span> | '+wesc(n.t)+'</a>'}
+function side(){var I=[],P=[],S=Seen();ORDER.forEach(function(k){var T=tops(k);if(T.imp)I.push({k:k,n:T.imp});T.hot.forEach(function(n){P.push({k:k,n:n})})});
+var by=function(x,y){return y.n.p-x.n.p},pick=function(L){return L.sort(by).filter(function(x){if(S.has(x.n))return false;S.add(x.n);return true}).slice(0,6)};
+I=pick(I);P=pick(P);
+return '<div class="sbox simp"><h3>Tärkeimmät</h3>'+(I.length?I.map(function(x){return sideItem(x.k,x.n)}).join(''):'<p class="snone">Ei tärkeitä uutisia juuri nyt.</p>')+'</div>'+
+'<div class="sbox shot"><h3>Puhutuimmat</h3>'+(P.length?P.map(function(x){return sideItem(x.k,x.n)}).join(''):'<p class="snone">Ei puhuttuja uutisia juuri nyt.</p>')+'</div>'}
 var CUSTOM={},DEL=[];try{CUSTOM=JSON.parse(localStorage.getItem("custom")||"{}");DEL=JSON.parse(localStorage.getItem("del")||"[]")}catch(e){}
 Object.keys(CUSTOM).forEach(function(id){CATS[id]=CUSTOM[id].name});
 var ORDER=Object.keys(CATS),EDIT=false;
@@ -159,6 +184,7 @@ return h+'<button class="addcat" data-addcat="1"><span>+</span> Lisää kategori
 function route(keep){var k=(location.hash||"#koti").slice(1);
 document.getElementById('app').innerHTML=CATS[k]&&ORDER.indexOf(k)>-1?cat(k):home();
 document.getElementById('menu').innerHTML=menu(k);
+document.getElementById('side').innerHTML=side();
 if(keep===true)return;
 document.getElementById('menu').classList.remove('open');window.scrollTo(0,0)}
 var M=document.getElementById('menu');
@@ -236,7 +262,7 @@ if(!WD.kws.length&&!wSrcIds(WD.src).length)return h+'<div class="whint">Valitse 
 var f=wFind(WD.kws,WD.src);
 if(!f.length)return h+'<div class="whint"><b>Ei osumia nykyisillä uutisilla.</b> Voit silti tallentaa kategorian tai palata lisäämään sanoja.</div>';
 h+='<div class="whint">Löytyi '+f.length+' uutista:</div>';
-f.slice(0,4).forEach(function(n){h+='<div class="card"><span class="age">'+age(n.p)+'</span><b>'+n.t+'</b></div>'});return h}
+f.slice(0,4).forEach(function(n){h+='<div class="card"><span class="age">'+age(n.p)+'</span><b>'+wesc(n.t)+'</b></div>'});return h}
 function wDraw(){var h='<button class="wx" id="wx" aria-label="Sulje">✕</button><div class="wstep">'+(wstep<4?"Vaihe "+wstep+" / 3":"Esikatselu")+'</div>';
 if(wstep==1)h+='<h3>Nimeä kategoria</h3><input id="wnm" placeholder="Esim. Kyberturvallisuus" value="'+wesc(WD.name)+'" maxlength="30"><div class="whint">Nimi näkyy etusivulla ja valikossa.</div>';
 if(wstep==2){h+='<h3>Lisää uutislähteet</h3><div id="wsrcs">';WD.src.forEach(function(s,i){h+=wSrcRow(s,i)});h+='</div><button class="wbtn" id="wmoresrc">+ Lisää uutislähde</button><div class="whint">Kirjoita sivuston nimi tai liitä sen osoite. Listasta valittujen lähteiden uutiset haetaan automaattisesti. Itse liitettyjen osoitteiden uutisia ei vielä haeta.</div>'}
