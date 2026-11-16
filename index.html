@@ -615,7 +615,7 @@ try{navigator.clipboard.writeText(pt).then(function(){st.textContent="Kopioitu!"
 if(b.id==="aiAdd"){var ws=wParseAI($("aiIn").value),b4=F.kws.length;ws.forEach(function(w){w=w.toLowerCase();if(!F.kws.some(function(k){return !k.t&&k.k===w}))F.kws.push({k:w,t:false,v:[]})});var n=F.kws.length-b4;
 if(n){F.touched=true;drawKw();$("aiIn").value=""}$("aiSt").textContent=ws.length?"Lisättiin "+n+" hakusanaa.":"Hakusanoja ei löytynyt. Liitä pilkuilla eroteltu lista.";return}});
 
-window.obLoad=function(){return fetch("valmiit.json").then(function(r){return r.ok?r.json():null}).then(function(j){PACKS=(j&&j.valmiit)||[]}).catch(function(){})};
+window.obLoad=function(){return fetch("oletus_lahteet.json").then(function(r){return r.ok?r.json():null}).then(function(j){PACKS=(j&&j.valmiit)||[]}).catch(function(){})};
 window.obOpenChoice=openChoice;
 window.obStart=function(){if(!ORDER.length&&!welcomed())openWelcome()};
 })();
