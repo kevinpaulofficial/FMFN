@@ -27,6 +27,8 @@ main{width:100%;max-width:600px;margin:0 auto;padding:92px 14px 110px}
 #logo .l2{font-size:14px}
 #logo text{font-family:"theboldfont",Impact,"Arial Black",sans-serif;font-size:37px;fill:var(--text)}
 h1{font-family:"theboldfont",Impact,"Arial Black",sans-serif;font-weight:normal;font-size:32px;margin:8px 0 16px}
+.h2a{color:inherit;text-decoration:none}
+.h2a:hover{text-decoration:underline}
 hr.div{border:0;height:1px;background:var(--line);margin:26px 3px 6px}
 h2{font-family:"theboldfont",Impact,"Arial Black",sans-serif;font-weight:normal;font-size:32px;margin:22px 0 8px;opacity:.7;text-transform:uppercase;letter-spacing:.04em}
 .card{display:block;position:relative;z-index:1;background:var(--box);color:var(--text);text-decoration:none;border-radius:14px;padding:14px 56px 14px 16px;margin-top:18px}
@@ -50,7 +52,7 @@ h2{font-family:"theboldfont",Impact,"Arial Black",sans-serif;font-weight:normal;
 #menu .row.drag{position:relative;z-index:30;background:var(--bg);border-radius:10px;box-shadow:0 8px 22px rgba(0,0,0,.28)}
 #menu .edit{display:block;width:100%;margin-top:6px;padding:10px 12px;border:0;border-top:1px solid var(--box);background:none;text-align:left;font:inherit;font-size:.85rem;opacity:.75;cursor:pointer;color:var(--text)}
 @media (min-width:1340px){
-#logo{left:calc(50% - 643px);transform:none}
+#logo{left:calc(50% - 643px);transform:none;top:calc(13px + env(safe-area-inset-top,0px))}
 main{padding-top:20px}
 #ball{display:none}
 #menu{display:block;position:fixed;right:calc(50% + 413px);left:auto;top:110px;bottom:auto;width:230px;min-width:0;max-height:calc(100vh - 130px);overflow:auto;background:none;border:0;box-shadow:none;padding:0}
@@ -137,7 +139,7 @@ function card(n,k,hot){return '<a class="card'+(n.imp?' imp':(hot&&n.hot?' hot':
 function home(){var h='';
 ORDER.forEach(function(k,i){var a=DATA[k].slice().sort(function(x,y){return y.p-x.p});
 var imp=a.filter(function(n){return n.imp})[0];if(!imp)imp=a[1];var last=a.filter(function(n){return n!==imp})[0];
-h+=(i?'<hr class="div">':'')+'<h2>'+CATS[k]+'</h2>'+(imp?card(imp,k):'')+(last?card(last,k):'')+(a.length?'':'<p class="empty">Ei osumia nykyisillä uutisilla.</p>')});return h+'<button class="addcat" data-addcat="1"><span>+</span> Lisää kategoria</button>'}
+h+=(i?'<hr class="div">':'')+'<h2><a class="h2a" href="#'+k+'">'+CATS[k]+'</a></h2>'+(imp?card(imp,k):'')+(last?card(last,k):'')+(a.length?'':'<p class="empty">Ei osumia nykyisillä uutisilla.</p>')});return h+'<button class="addcat" data-addcat="1"><span>+</span> Lisää kategoria</button>'}
 function cat(k){var a=DATA[k].slice().sort(function(x,y){return y.p-x.p});
 var imp=a.filter(function(n){return n.imp})[0];
 var hot=a.filter(function(n){return n.hot&&n!==imp}).slice(0,2);
@@ -191,14 +193,22 @@ wPool(src).forEach(function(n){if(seen[n.u])return;var s=n.t+" "+n.s;if(!R.lengt
 return out.sort(function(a,b){return b.p-a.p})}
 var WSTOP=" the and for with from that this after over into says said will have has been were what when ja on ei että oli ovat se tai kuin mutta jo myös kun nyt sen tämä joka mitä ";
 function wWords(t){var o={};(t.toLowerCase().match(/[\p{L}\p{N}]{4,}/gu)||[]).forEach(function(w){if(WSTOP.indexOf(" "+w+" ")<0)o[w]=1});return o}
+var BRK=/(^|[^\p{L}])(breaking|live:|live updates|latest:|urgent|just in|tuoreeltaan|kiireellinen|hetki hetkeltä|seuranta:|nyt:)/iu;
+var SEV=/(^|[^\p{L}])(killed|dead|deaths|explosion|earthquake|attack|evacuat|shooting|crash|emergency|kuoli|kuollut|kuolleita|räjähdy|hyökkäy|ammuskel|maanjäristy|evakuo|onnettomuu|hätätila)/iu;
 function buildCustom(){Object.keys(CUSTOM).forEach(function(id){
 var R=wTerms(CUSTOM[id].kws).map(function(w){return new RegExp("(^|[^\\p{L}\\p{N}])"+w.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),"iu")});
-var L=wFind(CUSTOM[id].kws,CUSTOM[id].src).map(function(n){return{t:n.t,s:n.s,u:n.u,p:n.p,imp:false,hot:false,who:"",img:n.img,_imp:!!n.imp,_hot:!!n.hot}});
+var L=wFind(CUSTOM[id].kws,CUSTOM[id].src).map(function(n){return{t:n.t,s:n.s,u:n.u,p:n.p,l:n.l,imp:false,hot:false,who:"",img:n.img,_imp:!!n.imp,_hot:!!n.hot}});
 if(!L.length){DATA[id]=L;return}
 // tärkein: eniten osumia otsikossa, sitten tiivistyksessä; alkuperäisen kategorian tärkeä uutinen saa lisäpisteitä
 var best=null,bs=-1;L.forEach(function(n){var sc=0;R.forEach(function(r){if(r.test(n.t))sc+=2;else if(r.test(n.s))sc+=1});if(n._imp)sc+=3;if(sc>bs||(sc===bs&&n.p>best.p)){bs=sc;best=n}});best.imp=true;
 // puhutuimmat: aihe toistuu monessa uutisessa (yhteiset sanat otsikoissa) tai uutinen oli jo puhuttu omassa kategoriassaan
 var W=L.map(function(n){return wWords(n.t)});
+// tuore tärkeä uutinen (breaking): kiiremerkintä otsikossa, vakava tapahtuma ja/tai sama aihe useassa valitussa lähteessä viimeisen 12 tunnin aikana
+var now=Date.now(),bb=null,bsc=0;L.forEach(function(n,i){if(now-n.p>12*H)return;var sc=0;
+if(BRK.test(n.t)||/(\s|[–—-])live$/i.test(n.t.trim()))sc+=5;if(SEV.test(n.t))sc+=2;
+var src={};W.forEach(function(b,j){if(j===i||now-L[j].p>12*H)return;var sh=0;for(var w in W[i])if(b[w])sh++;if(sh>=2)src[L[j].l||"x"]=1});delete src[n.l||"x"];sc+=Object.keys(src).length*2;
+if(sc>=5&&(sc>bsc||(sc===bsc&&n.p>bb.p))){bsc=sc;bb=n}});
+if(bb&&bb!==best){best.imp=false;bb.imp=true;best=bb}
 var H=L.map(function(n,i){if(n===best)return{n:n,h:-1};var c=0;W.forEach(function(b,j){if(j===i)return;var sh=0;for(var w in W[i])if(b[w])sh++;if(sh>=2)c++});return{n:n,h:c+(n._hot?3:0)}});
 H.filter(function(x){return x.h>0}).sort(function(a,b){return b.h-a.h||b.n.p-a.n.p}).slice(0,2).forEach(function(x){x.n.hot=true});
 DATA[id]=L})}
@@ -314,8 +324,9 @@ document.addEventListener("click",function(e){var t=e.target.closest&&e.target.c
 try{KEYS.forEach(function(k){if(IMP[k]!==undefined)localStorage.setItem(k,IMP[k])})}catch(err){importMsg("Asetuksia ei voitu tallentaa tähän selaimeen.");return}
 IMP=null;location.hash="#koti";location.reload()});
 var LG=document.querySelector('#logo a');
-function fade(){var p=Math.min(Math.max(window.scrollY/160,0),1);LG.style.opacity=1-p;LG.style.transform='translateY('+(-p*36)+'px)';LG.style.pointerEvents=p>.9?'none':'auto'}
-window.addEventListener('scroll',fade,{passive:true});fade();
+var WIDE=window.matchMedia('(min-width:1340px)');
+function fade(){var p=WIDE.matches?0:Math.min(Math.max(window.scrollY/160,0),1);LG.style.opacity=1-p;LG.style.transform='translateY('+(-p*36)+'px)';LG.style.pointerEvents=p>.9?'none':'auto'}
+window.addEventListener('scroll',fade,{passive:true});window.addEventListener('resize',fade);fade();
 window.addEventListener('hashchange',route);load().then(function(){buildCustom();route()}).catch(function(){document.getElementById('app').textContent='Uutisten lataus epäonnistui.'});
 </script>
 </body>
