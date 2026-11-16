@@ -1,182 +1,46 @@
 {
- "versio": 1,
- "huom": "Valmiit kategoriat. lahteet = lahteet.json-tunnukset, aiheet = aiheet.json-tunnukset. Ilman aiheita kategoria näyttää kaikki valittujen lähteiden uutiset.",
+ "versio": 2,
+ "huom": "Valmiit kategoriat. ryhma = valinnainen ryhmä, jonka voi valita kerralla kokonaan tai avata ja valita vain osan. lahteet = lahteet.json-tunnukset, aiheet = aiheet.json-tunnukset. Ilman aiheita kategoria näyttää kaikki valittujen lähteiden uutiset.",
  "valmiit": [
   {
-   "nimi": "Tekoäly",
-   "lahteet": [
-    "arstechnica",
-    "techcrunch-ai",
-    "mit-tr",
-    "verge",
-    "wired"
-   ],
-   "aiheet": [
-    "tekoaly",
-    "kielimallit"
-   ]
+   "nimi": "Suomen uutiset yleinen",
+   "ryhma": "Suomen uutiset",
+   "lahteet": ["yle", "hs", "iltalehti", "mtv", "mv-lehti"],
+   "aiheet": []
   },
   {
-   "nimi": "Urheilu",
-   "lahteet": [
-    "sky-sports",
-    "bbc-sport",
-    "guardian-football",
-    "talksport",
-    "yahoo-sports"
-   ],
-   "aiheet": [
-    "jalkapallo-uutiset",
-    "jaakiekko-liiga-ja-leijonat",
-    "formula-1"
-   ]
+   "nimi": "Suomen musiikki",
+   "ryhma": "Suomen uutiset",
+   "lahteet": ["soundi", "rumba", "klangi"],
+   "aiheet": []
   },
   {
-   "nimi": "Talous",
-   "lahteet": [
-    "kauppalehti",
-    "bbc-business",
-    "cnbc",
-    "bloomberg",
-    "ft"
-   ],
-   "aiheet": [
-    "suomen-talous",
-    "osakemarkkinat",
-    "korot-ja-keskuspankit"
-   ]
+   "nimi": "Suomen talous",
+   "ryhma": "Suomen uutiset",
+   "lahteet": ["kauppalehti"],
+   "aiheet": []
   },
   {
-   "nimi": "Suomi",
-   "lahteet": [
-    "yle",
-    "hs",
-    "is",
-    "iltalehti",
-    "mtv"
-   ],
-   "aiheet": [
-    "suomen-politiikka",
-    "tyollisyys",
-    "suomen-rikosuutiset"
-   ]
+   "nimi": "Jalkapallo",
+   "ryhma": "Urheilu",
+   "lahteet": ["athletic-football", "bbc-football", "sky-sports-football", "telegraph-football"],
+   "aiheet": []
   },
   {
-   "nimi": "Maailma",
-   "lahteet": [
-    "bbc-news",
-    "guardian",
-    "aljazeera",
-    "nyt-world",
-    "dw"
-   ],
-   "aiheet": [
-    "ukrainan-sota",
-    "lahi-ita",
-    "vaalit-maailmalla"
-   ]
+   "nimi": "Urheilu yleinen",
+   "ryhma": "Urheilu",
+   "lahteet": ["bbc-sport", "cbs-sports"],
+   "aiheet": []
   },
   {
-   "nimi": "Musiikki",
-   "lahteet": [
-    "klangi",
-    "soundi",
-    "rumba",
-    "pitchfork",
-    "nme"
-   ],
-   "aiheet": [
-    "musiikki-uutiset",
-    "musiikki-uudet-albumit",
-    "suomalainen-musiikki"
-   ]
+   "nimi": "Maailman uutiset",
+   "lahteet": ["ap-news", "guardian", "bbc-news", "aljazeera"],
+   "aiheet": []
   },
   {
-   "nimi": "Tiede",
-   "lahteet": [
-    "nasa",
-    "space",
-    "newscientist",
-    "sciencedaily",
-    "nature"
-   ],
-   "aiheet": [
-    "avaruus-uutiset",
-    "tahtitiede",
-    "fysiikka"
-   ]
-  },
-  {
-   "nimi": "Ilmasto",
-   "lahteet": [
-    "guardian-env",
-    "bbc-sciences",
-    "grist",
-    "e360",
-    "icn"
-   ],
-   "aiheet": [
-    "ilmastonmuutos",
-    "uusiutuva-energia",
-    "saailmiot"
-   ]
-  },
-  {
-   "nimi": "Politiikka",
-   "lahteet": [
-    "bbc-politics",
-    "guardian-politics",
-    "politico-eu",
-    "yle",
-    "hs"
-   ],
-   "aiheet": [
-    "suomen-politiikka",
-    "eu-politiikka",
-    "yhdysvaltain-politiikka"
-   ]
-  },
-  {
-   "nimi": "Terveys",
-   "lahteet": [
-    "bbc-health",
-    "stat",
-    "nyt-health",
-    "sd-health",
-    "who"
-   ],
-   "aiheet": [
-    "mielenterveys",
-    "laaketieteen-lapimurrot",
-    "ravinto-ja-liikunta"
-   ]
-  },
-  {
-   "nimi": "Elokuvat ja sarjat",
-   "lahteet": [
-    "variety",
-    "thr",
-    "deadline",
-    "indiewire"
-   ],
-   "aiheet": [
-    "elokuvat",
-    "tv-sarjat-ja-suoratoisto",
-    "palkintogaalat"
-   ]
-  },
-  {
-   "nimi": "Kyberturvallisuus",
-   "lahteet": [
-    "krebs",
-    "hackernews",
-    "arstechnica",
-    "wired"
-   ],
-   "aiheet": [
-    "kyberturvallisuus",
-    "verkkorikollisuus"
-   ]
+   "nimi": "Talous ja finanssi",
+   "lahteet": ["wsj-markets", "economist", "kauppalehti", "ft", "bloomberg"],
+   "aiheet": []
   }
  ]
 }

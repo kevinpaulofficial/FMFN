@@ -175,6 +175,14 @@ main .addcat{margin-top:26px}
 #obOv .tile[aria-pressed="true"] .tm{color:inherit;opacity:.8}
 #obOv .tile.made{border-style:dashed;cursor:default;opacity:.6}
 #obOv .tile.made .ck{color:var(--ok)}
+/* ryhmät */
+#obOv .gwrap{position:relative;min-width:0}
+#obOv .gwrap .tile{width:100%}
+#obOv .gtile .tm{padding-right:44px}
+#obOv .gexp{position:absolute;right:10px;bottom:10px;width:36px;height:36px;border-radius:50%;border:1px solid var(--line);background:var(--pop);color:var(--text);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:1rem;line-height:1}
+#obOv .gexp:hover{border-color:var(--text)}
+#obOv .gexp[aria-expanded="true"]{transform:rotate(180deg)}
+#obOv .gkids{grid-column:1/-1;display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;padding:12px;border:1px dashed var(--line);border-radius:16px;background:var(--box)}
 #obOv .sec{margin-top:22px}
 #obOv .sec:first-child{margin-top:0}
 #obOv .sec.bad h4{color:var(--err)}
@@ -217,7 +225,7 @@ main .addcat{margin-top:26px}
  #obOv .choice{grid-template-columns:minmax(0,1fr);grid-template-rows:minmax(0,1fr) 1px minmax(0,1fr)}
  #obOv .choice .div{margin:0 24px}
  #obOv .opt{margin:8px;padding:20px}
- #obOv .grid{grid-template-columns:repeat(auto-fill,minmax(130px,1fr))}
+ #obOv .grid,#obOv .gkids{grid-template-columns:repeat(auto-fill,minmax(130px,1fr))}
  #obOv .cbody{grid-template-columns:minmax(0,1fr);grid-template-rows:auto minmax(0,1fr)}
  #obOv .done{order:-1;border-left:0;border-bottom:1px solid var(--line);padding:10px 16px}
  #obOv .done ul{flex-direction:row;flex-wrap:wrap;gap:4px 14px}
@@ -469,7 +477,7 @@ try{KEYS.forEach(function(k){if(IMP[k]!==undefined)localStorage.setItem(k,IMP[k]
 IMP=null;location.hash="#koti";location.reload()});
 /* --- ensikäyttö ja kategorian luonti --- */
 (function(){
-var PACKS=[],F=null,VIEW=null,SEL=[],JUSTN=[],lastFocus=null;
+var PACKS=[],F=null,VIEW=null,SEL=[],JUSTN=[],OPEN={},lastFocus=null;
 function $(i){return document.getElementById(i)}
 function esc(t){return String(t).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
 function rx(q){return new RegExp("(^|[^\\p{L}\\p{N}])"+q.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),"iu")}
@@ -509,14 +517,25 @@ $("sClose").onclick=closeOv;$("oReady").onclick=openReady;$("oOwn").onclick=open
 
 /* valmiit kategoriat ruudukkona */
 function packCat(p){var c={name:p.nimi,src:[],kws:[]};p.lahteet.forEach(function(id){var x=getSrc(id);if(x)c.src.push({n:x.nimi,id:x.id})});(p.aiheet||[]).forEach(function(id){var x=getTop(id);if(x)c.kws.push({k:x.nimi,id:x.id,t:true,v:x.sanat.slice()})});return c}
-function openReady(){F=null;VIEW="ready";SEL=[];JUSTN=[];
-openOv(shell("Valitse valmiit kategoriat",'<div class="cbody"><div class="form"><p class="hint" style="margin:0 0 14px">Napauta kategorioita, jotka haluat. Voit muokata ja poistaa niitä myöhemmin.</p><div class="grid" id="obGrid"></div></div>'+doneAside()+'</div>',
+function openReady(){F=null;VIEW="ready";SEL=[];JUSTN=[];OPEN={};
+openOv(shell("Valitse valmiit kategoriat",'<div class="cbody"><div class="form"><p class="hint" style="margin:0 0 14px">Napauta kategorioita, jotka haluat. Ryhmän napautus valitsee koko ryhmän, ja ▾ näyttää sen kategoriat. Voit muokata ja poistaa niitä myöhemmin.</p><div class="grid" id="obGrid"></div></div>'+doneAside()+'</div>',
 '<button class="tl" id="toOwn">Lisää omat kategoriat</button><button class="btn" id="rNext">Tallenna ja lisää</button><button class="btn p" id="rDone">Valmis</button>'),"Valitse valmiit kategoriat");
 drawGrid();drawDone();if(!PACKS.length)msg("Valmiita kategorioita ei voitu ladata.","err");
 $("sClose").onclick=function(){leaveReady(closeOv)};$("toOwn").onclick=function(){leaveReady(openCreator)};
 $("rNext").onclick=saveSel;$("rDone").onclick=function(){if(!SEL.length||saveSel())closeOv()}}
-function drawGrid(){$("obGrid").innerHTML=PACKS.map(function(p,i){var made=exists(p.nimi),on=SEL.indexOf(i)>-1,nt=(p.aiheet||[]).length;
-return '<button class="tile'+(made?' made':'')+'" data-tile="'+i+'" aria-pressed="'+(on?'true':'false')+'"'+(made?' aria-disabled="true"':'')+'><span class="ck">'+(made||on?'✓':'')+'</span><span class="tn'+(p.nimi.length>12?' long':'')+'" lang="fi">'+esc(p.nimi)+'</span><span class="tm">'+(made?'Lisätty':p.lahteet.length+' lähdettä · '+nt+(nt===1?' aihe':' aihetta'))+'</span></button>'}).join('')}
+// pitkä nimi tai pitkä yksittäinen sana saa pienemmän fontin, jotta sana ei katkea
+function longName(n){return n.length>12||n.split(/\s+/).some(function(w){return w.length>8})}
+function packTile(i){var p=PACKS[i],made=exists(p.nimi),on=SEL.indexOf(i)>-1,nt=(p.aiheet||[]).length;
+return '<button class="tile'+(made?' made':'')+'" data-tile="'+i+'" aria-pressed="'+(on?'true':'false')+'"'+(made?' aria-disabled="true"':'')+'><span class="ck">'+(made||on?'✓':'')+'</span><span class="tn'+(longName(p.nimi)?' long':'')+'" lang="fi">'+esc(p.nimi)+'</span><span class="tm">'+(made?'Lisätty':p.lahteet.length+' lähdettä · '+nt+(nt===1?' aihe':' aihetta'))+'</span></button>'}
+// ryhmät ensiesiintymisjärjestyksessä; ix = ryhmän kategorioiden PACKS-indeksit
+function groupList(){var G=[],m={};PACKS.forEach(function(p,i){if(!p.ryhma)return;if(!m[p.ryhma]){m[p.ryhma]={n:p.ryhma,ix:[]};G.push(m[p.ryhma])}m[p.ryhma].ix.push(i)});return G}
+function groupAvail(g){return g.ix.filter(function(i){return !exists(PACKS[i].nimi)})}
+function groupTile(g,gi){var av=groupAvail(g),done=!av.length,ns=av.filter(function(i){return SEL.indexOf(i)>-1}).length,
+st=done||!ns?'false':(ns===av.length?'true':'mixed'),open=!!OPEN[g.n],n=g.ix.length;
+return '<div class="gwrap"><button class="tile gtile'+(done?' made':'')+'" data-group="'+gi+'" aria-pressed="'+st+'"'+(done?' aria-disabled="true"':'')+'><span class="ck">'+(done||st==='true'?'✓':st==='mixed'?'–':'')+'</span><span class="tn'+(longName(g.n)?' long':'')+'" lang="fi">'+esc(g.n)+'</span><span class="tm">'+(done?'Lisätty':n+(n===1?' kategoria':' kategoriaa')+(ns?' · '+ns+' valittu':''))+'</span></button>'+
+'<button class="gexp" data-gexp="'+gi+'" aria-expanded="'+open+'" aria-controls="obGrp'+gi+'" aria-label="'+(open?'Piilota':'Näytä')+' ryhmän '+esc(g.n)+' kategoriat">▾</button></div>'+
+(open?'<div class="gkids" id="obGrp'+gi+'" role="group" aria-label="'+esc(g.n)+'">'+g.ix.map(packTile).join('')+'</div>':'')}
+function drawGrid(){var G=groupList();$("obGrid").innerHTML=G.map(groupTile).join('')+PACKS.map(function(p,i){return p.ryhma?'':packTile(i)}).join('')}
 function saveSel(){if(!SEL.length){msg("Valitse vähintään yksi kategoria.","err");return false}
 var added=[];SEL.forEach(function(i){var p=PACKS[i];if(exists(p.nimi))return;saveCat(packCat(p));added.push(p.nimi)});SEL=[];JUSTN=added;drawGrid();drawDone();
 msg("✓ "+added.join(", ")+" tallennettu. Valitse lisää tai paina Valmis.","ok");return true}
@@ -571,6 +590,12 @@ if(e.key==="Escape"){var sug=$("obOv").querySelector(".sug:not(:empty)");if(sug)
 if(e.key==="Enter"&&e.target.id==="fKw"){e.preventDefault();addWord(e.target.value);e.target.value="";$("kwSug").innerHTML=""}
 if(e.key==="Enter"&&e.target.id==="fSrc"){e.preventDefault();var first=$("srcSug").querySelector("button");if(first)first.click()}});
 document.addEventListener("click",function(e){if(!e.target.closest||!e.target.closest("#obOv"))return;
+var gx=e.target.closest("[data-gexp]");
+if(gx&&VIEW==="ready"){var gg=groupList()[+gx.dataset.gexp];OPEN[gg.n]=!OPEN[gg.n];drawGrid();$("obGrid").querySelector('[data-gexp="'+gx.dataset.gexp+'"]').focus();return}
+var gt=e.target.closest("[data-group]");
+if(gt&&VIEW==="ready"){var gi=+gt.dataset.group,av=groupAvail(groupList()[gi]);if(!av.length)return;
+var all=av.every(function(i){return SEL.indexOf(i)>-1});if(all)SEL=SEL.filter(function(i){return av.indexOf(i)<0});else av.forEach(function(i){if(SEL.indexOf(i)<0)SEL.push(i)});
+drawGrid();$("obGrid").querySelector('[data-group="'+gi+'"]').focus();msg(SEL.length?SEL.length+" valittu.":"","");return}
 var tb=e.target.closest("[data-tile]");
 if(tb&&VIEW==="ready"){var ti=+tb.dataset.tile;if(exists(PACKS[ti].nimi))return;var at=SEL.indexOf(ti);if(at>-1)SEL.splice(at,1);else SEL.push(ti);
 drawGrid();$("obGrid").querySelector('[data-tile="'+ti+'"]').focus();msg(SEL.length?SEL.length+" valittu.":"","");return}
