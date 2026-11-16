@@ -2,7 +2,6 @@
  "versio": 2,
  "huom": "Kaikki lähteet samassa listassa ilman aihejakoa: käyttäjä valitsee itse lähteet omaan kategoriaansa. testattu=true tarkoittaa, että osoite on toiminut GitHub Actionsissa. Muut RSS-osoitteet ovat arvioita ja pitää testata.",
  "lahteet": [
-  [
   {
     "id": "athletic-football",
     "nimi": "The Athletic (jalkapallo)",
@@ -37,8 +36,7 @@
     "kieli": "en",
     "rss": "https://feeds.bbci.co.uk/sport/football/rss.xml",
     "testattu": false
-  }
-]
+  },
   {
    "id": "mv-lehti",
    "nimi": "MV-lehti",
