@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>SUCKMYNEWS</title>
 <style>
-:root{--bg:#fff;--box:#edebeb;--text:#1a1919;--imp:#631515;--who:#b5b5b5;--line:rgba(26,25,25,.15);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+:root{--bg:#fff;--box:#edebeb;--text:#1a1919;--imp:#631515;--who:#b5b5b5;--line:rgba(26,25,25,.15);--pop:#f4f3f3;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 *{box-sizing:border-box}
 @font-face{font-family:"OpenDyslexic";src:url("OpenDyslexic-Regular.otf") format("opentype");font-weight:400;font-display:swap}
 @font-face{font-family:"OpenDyslexic";src:url("OpenDyslexic-Bold.otf") format("opentype");font-weight:700;font-display:swap}
@@ -13,7 +13,7 @@
 :root[data-dys="1"] .card p{display:none}
 :root[data-dys="1"] .card{margin-top:26px}
 :root[data-dys="1"] .card b{line-height:1.5}
-:root[data-theme="dark"]{--bg:#161515;--box:#2b2929;--text:#ece9e9;--line:rgba(255,255,255,.18);color-scheme:dark}
+:root[data-theme="dark"]{--bg:#161515;--box:#2b2929;--text:#ece9e9;--line:rgba(255,255,255,.18);--pop:#242222;color-scheme:dark}
 html{scroll-padding-top:env(safe-area-inset-top,0px)}
 body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
 @font-face{font-family:"theboldfont";src:url("THEBOLDFONT-FREEVERSION.otf") format("opentype"),url("THEBOLDFONT-FREEVERSION.ttf") format("truetype");font-display:swap}
@@ -59,23 +59,27 @@ main .addcat{margin-top:26px}
 .empty{opacity:.65;font-size:.9rem;margin:10px 2px}
 #ov{display:none;position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:50;align-items:center;justify-content:center;padding:16px}
 #ov.open{display:flex}
-#dlg{background:var(--bg);color:var(--text);width:100%;max-width:520px;max-height:92%;overflow:auto;border-radius:18px;padding:18px}
+#dlg{position:relative;background:var(--pop);color:var(--text);width:100%;max-width:520px;max-height:92%;overflow:auto;border-radius:18px;padding:18px}
 #dlg h3{margin:4px 0 12px;font-size:1.25rem}
 #dlg input{width:100%;padding:12px;border:1px solid var(--line);border-radius:10px;background:var(--box);color:var(--text);font:inherit;font-size:1rem}
 .wstep,.whint{font-size:.8rem;opacity:.65}
+.wstep{padding-right:40px}
 .whint{margin:6px 2px}
 .wsrc{margin-bottom:10px}
 .wst{display:block;font-size:.78rem;min-height:1em;margin:3px 2px 0}
 .wst.ok{color:#1c7c3a}
-.wsug{background:var(--bg);border:1px solid var(--line);border-radius:10px;margin-top:2px;overflow:hidden}
+.wsug{background:var(--pop);border:1px solid var(--line);border-radius:10px;margin-top:2px;overflow:hidden}
 .wsug:empty{display:none}
 .wsug button{display:block;width:100%;text-align:left;padding:10px 12px;border:0;background:none;color:var(--text);font:inherit;cursor:pointer}
 .wsug button:hover{background:var(--box)}
 .wsug small{opacity:.6;margin-left:8px}
-.wbtn{padding:11px 16px;border-radius:10px;border:1px solid var(--text);background:var(--bg);color:var(--text);font:inherit;cursor:pointer}
-.wbtn.p{background:var(--text);color:var(--bg)}
+.wbtn{padding:11px 16px;border-radius:10px;border:1px solid var(--text);background:var(--pop);color:var(--text);font:inherit;cursor:pointer}
+.wbtn.p{background:var(--text);color:var(--pop)}
 .wbtn.red{background:#c62828;border-color:#c62828;color:#fff}
 .wrow{display:flex;justify-content:space-between;gap:8px;margin-top:18px}
+.wrow.end{justify-content:flex-end}
+.wx{position:absolute;top:10px;right:10px;width:36px;height:36px;border:0;border-radius:50%;background:none;color:var(--text);font-size:1.1rem;cursor:pointer;opacity:.7}
+.wx:hover{background:var(--box);opacity:1}
 .wchip{display:inline-flex;align-items:center;gap:6px;background:var(--box);border-radius:999px;padding:5px 6px 5px 12px;margin:4px 4px 0 0;font-size:.88rem}
 .wchip.v{font-size:.78rem;opacity:.7;padding:3px 4px 3px 9px}
 .wchip button{border:0;background:none;color:inherit;cursor:pointer;font-size:1rem;line-height:1;padding:0 4px}
@@ -159,7 +163,7 @@ return out.sort(function(a,b){return b.p-a.p})}
 function buildCustom(){Object.keys(CUSTOM).forEach(function(id){DATA[id]=wFind(CUSTOM[id].kws).map(function(n){return{t:n.t,s:n.s,u:n.u,p:n.p,imp:false,hot:false,who:"",img:n.img}})})}
 function wOpen(){WD={name:"",src:[{t:"",ok:false}],kws:[]};wstep=1;M.classList.remove("open");$w("ov").classList.add("open");wDraw()}
 function wClose(){$w("ov").classList.remove("open")}
-function confirmDel(id){$w("dlg").innerHTML='<h3>Haluatko varmasti poistaa '+wesc(CATS[id])+'?</h3><div class="wrow"><button class="wbtn red" data-dodel="'+id+'">Poista</button><button class="wbtn" data-cancel="1">Peruuta</button></div>';$w("ov").classList.add("open")}
+function confirmDel(id){$w("dlg").innerHTML='<h3>Haluatko varmasti poistaa "'+wesc(CATS[id])+'"?</h3><div class="wrow end"><button class="wbtn" data-cancel="1">Peruuta</button><button class="wbtn red" data-dodel="'+id+'">Poista</button></div>';$w("ov").classList.add("open")}
 function doDel(id){if(CUSTOM[id]){delete CUSTOM[id];delete CATS[id]}else if(DEL.indexOf(id)<0)DEL.push(id);
 ORDER=ORDER.filter(function(x){return x!==id});if(DRAFT)DRAFT=DRAFT.filter(function(x){return x!==id});persist();wClose();if(location.hash==="#"+id)location.hash="#koti";route(true)}
 function wSrcRow(s,i){return '<div class="wsrc"><input data-i="'+i+'" placeholder="Sivuston nimi tai osoite" value="'+wesc(s.t)+'"><span class="wst'+(s.ok?" ok":"")+'" id="wst'+i+'">'+(s.ok?"✓ Syöte löytyi":"")+'</span><div class="wsug" id="wsg'+i+'"></div></div>'}
@@ -178,7 +182,7 @@ var f=wFind(WD.kws);
 if(!f.length)return h+'<div class="whint"><b>Ei osumia nykyisillä uutisilla.</b> Voit silti tallentaa kategorian tai palata lisäämään sanoja.</div>';
 h+='<div class="whint">Löytyi '+f.length+' uutista nykyisistä uutisistasi:</div>';
 f.slice(0,4).forEach(function(n){h+='<div class="card"><span class="age">'+age(n.p)+'</span><b>'+n.t+'</b></div>'});return h}
-function wDraw(){var h='<div class="wstep">'+(wstep<4?"Vaihe "+wstep+" / 3":"Esikatselu")+'</div>';
+function wDraw(){var h='<button class="wx" id="wx" aria-label="Sulje">✕</button><div class="wstep">'+(wstep<4?"Vaihe "+wstep+" / 3":"Esikatselu")+'</div>';
 if(wstep==1)h+='<h3>Nimeä kategoria</h3><input id="wnm" placeholder="Esim. Kyberturvallisuus" value="'+wesc(WD.name)+'" maxlength="30"><div class="whint">Nimi näkyy etusivulla ja valikossa.</div>';
 if(wstep==2){h+='<h3>Lisää uutislähteet</h3><div id="wsrcs">';WD.src.forEach(function(s,i){h+=wSrcRow(s,i)});h+='</div><button class="wbtn" id="wmoresrc">+ Lisää uutislähde</button><div class="whint">Kirjoita sivuston nimi tai liitä sen osoite. Huom: omien lähteiden uutisia ei vielä haeta, joten kategoria etsii osumia nykyisistä uutisistasi.</div>'}
 if(wstep==3)h+='<h3>Hakusanat</h3><input id="wkw" placeholder="Kirjoita aihe tai tarkka hakusana" autocomplete="off"><div class="wsug" id="wksug"></div><div id="wkwl"></div><div class="whint">Kirjoita esim. jalkapallo ja napauta sopivaa aihetta, niin sen hakusanat tulevat mukaan. Pilkku tai Enter lisää tarkan hakusanan. Poista väärät sanat rastista.</div>';
@@ -197,7 +201,7 @@ document.addEventListener("click",function(e){var t=e.target,d=t.dataset||{};
 var dl=t.closest("[data-del]");if(dl){confirmDel(dl.dataset.del);return}
 if(t.closest("[data-addcat]")){wOpen();return}
 if(d.dodel!==undefined){doDel(d.dodel);return}
-if(d.cancel!==undefined||t.id==="ov"){wClose();return}
+if(d.cancel!==undefined||t.id==="ov"||t.id==="wx"){wClose();return}
 if(!WD)return;
 if(d.pick!==undefined){var i=+d.pick,x=WCAT.filter(function(c){return c.id===d.id})[0];if(!x)return;WD.src[i]={t:x.nimi,ok:true,id:x.id,rss:x.rss};$w("dlg").querySelector('input[data-i="'+i+'"]').value=x.nimi;$w("wst"+i).className="wst ok";$w("wst"+i).textContent="✓ Lähde valittu";$w("wsg"+i).innerHTML="";return}
 if(d.exact!==undefined){wAddKw(d.exact);$w("wkw").value="";$w("wksug").innerHTML="";$w("wkw").focus();return}
