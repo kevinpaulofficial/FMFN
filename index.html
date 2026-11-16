@@ -118,8 +118,8 @@ function cat(k){var a=DATA[k].slice().sort(function(x,y){return y.p-x.p});
 var imp=a.filter(function(n){return n.imp})[0];
 var hot=a.filter(function(n){return n.hot&&n!==imp}).slice(0,2);
 var top=(imp?[imp]:[]).concat(hot);
-var rest=a.filter(function(n){return top.indexOf(n)<0}).map(function(n){n.hot=false;return n});
-return '<h1>'+CATS[k]+'</h1>'+top.concat(rest).map(function(n){return card(n,k,true)}).join('')+(a.length?'':'<p class="empty">Ei osumia nykyisillä uutisilla.</p>')}
+var rest=a.filter(function(n){return top.indexOf(n)<0});
+return '<h1>'+CATS[k]+'</h1>'+top.concat(rest).map(function(n){return card(n,k,top.indexOf(n)>-1)}).join('')+(a.length?'':'<p class="empty">Ei osumia nykyisillä uutisilla.</p>')}
 var CUSTOM={},DEL=[];try{CUSTOM=JSON.parse(localStorage.getItem("custom")||"{}");DEL=JSON.parse(localStorage.getItem("del")||"[]")}catch(e){}
 Object.keys(CUSTOM).forEach(function(id){CATS[id]=CUSTOM[id].name});
 var ORDER=Object.keys(CATS),EDIT=false;
@@ -161,7 +161,19 @@ function wTerms(kws){var t=[];kws.forEach(function(k){if(k.t){k.v.forEach(functi
 function wFind(kws){var T=wTerms(kws),seen={},out=[];if(!T.length)return out;var R=T.map(function(w){return new RegExp("(^|[^\\p{L}\\p{N}])"+w.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),"iu")});
 Object.keys(DATA).forEach(function(c){if(CUSTOM[c])return;(DATA[c]||[]).forEach(function(n){if(seen[n.u])return;var s=n.t+" "+n.s;if(R.some(function(r){return r.test(s)})){seen[n.u]=1;out.push(n)}})});
 return out.sort(function(a,b){return b.p-a.p})}
-function buildCustom(){Object.keys(CUSTOM).forEach(function(id){DATA[id]=wFind(CUSTOM[id].kws).map(function(n){return{t:n.t,s:n.s,u:n.u,p:n.p,imp:false,hot:false,who:"",img:n.img}})})}
+var WSTOP=" the and for with from that this after over into says said will have has been were what when ja on ei että oli ovat se tai kuin mutta jo myös kun nyt sen tämä joka mitä ";
+function wWords(t){var o={};(t.toLowerCase().match(/[\p{L}\p{N}]{4,}/gu)||[]).forEach(function(w){if(WSTOP.indexOf(" "+w+" ")<0)o[w]=1});return o}
+function buildCustom(){Object.keys(CUSTOM).forEach(function(id){
+var R=wTerms(CUSTOM[id].kws).map(function(w){return new RegExp("(^|[^\\p{L}\\p{N}])"+w.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),"iu")});
+var L=wFind(CUSTOM[id].kws).map(function(n){return{t:n.t,s:n.s,u:n.u,p:n.p,imp:false,hot:false,who:"",img:n.img,_imp:!!n.imp,_hot:!!n.hot}});
+if(!L.length){DATA[id]=L;return}
+// tärkein: eniten osumia otsikossa, sitten tiivistyksessä; alkuperäisen kategorian tärkeä uutinen saa lisäpisteitä
+var best=null,bs=-1;L.forEach(function(n){var sc=0;R.forEach(function(r){if(r.test(n.t))sc+=2;else if(r.test(n.s))sc+=1});if(n._imp)sc+=3;if(sc>bs||(sc===bs&&n.p>best.p)){bs=sc;best=n}});best.imp=true;
+// puhutuimmat: aihe toistuu monessa uutisessa (yhteiset sanat otsikoissa) tai uutinen oli jo puhuttu omassa kategoriassaan
+var W=L.map(function(n){return wWords(n.t)});
+var H=L.map(function(n,i){if(n===best)return{n:n,h:-1};var c=0;W.forEach(function(b,j){if(j===i)return;var sh=0;for(var w in W[i])if(b[w])sh++;if(sh>=2)c++});return{n:n,h:c+(n._hot?3:0)}});
+H.filter(function(x){return x.h>0}).sort(function(a,b){return b.h-a.h||b.n.p-a.n.p}).slice(0,2).forEach(function(x){x.n.hot=true});
+DATA[id]=L})}
 function wOpen(){WD={name:"",src:[{t:"",ok:false}],kws:[]};wstep=1;M.classList.remove("open");$w("ov").classList.add("open");wDraw()}
 function wClose(){$w("ov").classList.remove("open")}
 function confirmDel(id){$w("dlg").innerHTML='<h3>Haluatko varmasti poistaa "'+wesc(CATS[id])+'"?</h3><div class="wrow end"><button class="wbtn" data-cancel="1">Peruuta</button><button class="wbtn red" data-dodel="'+id+'">Poista</button></div>';$w("ov").classList.add("open")}
