@@ -263,7 +263,8 @@ function loadNews(){return fetch("news.json?"+Date.now()).then(function(r){retur
 var ALL=[],WCAT=[];
 function loadAll(){return fetch("kaikki.json?"+Date.now()).then(function(r){return r.ok?r.json():null}).then(function(j){if(!j)return;var hp=Date.parse(j.haettu)||Date.now();ALL=(j.uutiset||[]).map(function(x){return{t:x.t,s:two(x.s),u:x.u,p:Date.parse(x.p)||hp,img:x.i,l:x.l,imp:false,hot:false,who:""}})}).catch(function(){})}
 function loadCat(){return fetch("lahteet.json").then(function(r){return r.ok?r.json():null}).then(function(j){if(j)WCAT=j.lahteet||[]}).catch(function(){})}
-function load(){return Promise.all([loadNews(),loadAll(),loadCat(),window.obLoad?obLoad():null])}
+// uutiset tulevat vain kaikki.json-tiedostosta (lahteet.json-lähteet); news.json ei ole enää käytössä
+function load(){return Promise.all([loadAll(),loadCat(),window.obLoad?obLoad():null])}
 function age(p){var s=Math.max(0,Math.floor((Date.now()-p)/1000));
 if(s<60)return s+"s";if(s<3600)return Math.floor(s/60)+"m";if(s<86400)return Math.floor(s/3600)+"h";return Math.floor(s/86400)+"d"}
 function pic(n,k){return n.img?'<img class="pic" src="'+wesc(n.img)+'" alt="" style="width:100%;object-fit:cover" onerror="this.remove()">':''}

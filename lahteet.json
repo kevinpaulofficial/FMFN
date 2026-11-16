@@ -1,19 +1,12 @@
 {
- "versio": 2,
- "huom": "Kaikki lähteet samassa listassa ilman aihejakoa: käyttäjä valitsee itse lähteet omaan kategoriaansa. testattu=true tarkoittaa, että osoite on toiminut GitHub Actionsissa. Muut RSS-osoitteet ovat arvioita ja pitää testata.",
+ "versio": 3,
+ "huom": "Päälähdelista. Käyttäjä valitsee lähteensä tästä listasta. testattu=true tarkoittaa, että osoite on toiminut GitHub Actionsissa. Lähteet ovat aakkosjärjestyksessä nimen mukaan.",
  "lahteet": [
   {
-   "id": "athletic-football",
-   "nimi": "The Athletic (jalkapallo)",
+   "id": "aljazeera",
+   "nimi": "Al Jazeera",
    "kieli": "en",
-   "rss": "https://www.nytimes.com/athletic/rss/football/",
-   "testattu": true
-  },
-  {
-   "id": "telegraph-football",
-   "nimi": "The Telegraph (jalkapallo)",
-   "kieli": "en",
-   "rss": "http://www.telegraph.co.uk/football/rss.xml",
+   "rss": "https://www.aljazeera.com/xml/rss/all.xml",
    "testattu": true
   },
   {
@@ -24,87 +17,10 @@
    "testattu": true
   },
   {
-   "id": "sky-sports-football",
-   "nimi": "Sky Sports (jalkapallo)",
-   "kieli": "en",
-   "rss": "https://www.skysports.com/rss/11095",
-   "testattu": true
-  },
-  {
-   "id": "bbc-football",
-   "nimi": "BBC Sport (jalkapallo)",
-   "kieli": "en",
-   "rss": "https://feeds.bbci.co.uk/sport/football/rss.xml",
-   "testattu": true
-  },
-  {
-   "id": "mv-lehti",
-   "nimi": "MV-lehti",
-   "kieli": "fi",
-   "rss": "https://mvlehti.net/feed/",
-   "testattu": true
-  },
-  {
-   "id": "aamulehti",
-   "nimi": "Aamulehti",
-   "kieli": "fi",
-   "rss": "https://www.aamulehti.fi/rss/uutiset.xml",
-   "testattu": true
-  },
-  {
-   "id": "abc-news",
-   "nimi": "ABC News",
-   "kieli": "en",
-   "rss": "https://abcnews.go.com/abcnews/topstories",
-   "testattu": true
-  },
-  {
-   "id": "aljazeera",
-   "nimi": "Al Jazeera",
-   "kieli": "en",
-   "rss": "https://www.aljazeera.com/xml/rss/all.xml",
-   "testattu": true
-  },
-  {
-   "id": "arstechnica",
-   "nimi": "Ars Technica",
-   "kieli": "en",
-   "rss": "https://feeds.arstechnica.com/arstechnica/index",
-   "testattu": true
-  },
-  {
    "id": "bbc-news",
    "nimi": "BBC News",
    "kieli": "en",
    "rss": "https://feeds.bbci.co.uk/news/world/rss.xml",
-   "testattu": true
-  },
-  {
-   "id": "bbc-business",
-   "nimi": "BBC News (Business)",
-   "kieli": "en",
-   "rss": "https://feeds.bbci.co.uk/news/business/rss.xml",
-   "testattu": true
-  },
-  {
-   "id": "bbc-health",
-   "nimi": "BBC News (Health)",
-   "kieli": "en",
-   "rss": "https://feeds.bbci.co.uk/news/health/rss.xml",
-   "testattu": true
-  },
-  {
-   "id": "bbc-politics",
-   "nimi": "BBC News (Politics)",
-   "kieli": "en",
-   "rss": "https://feeds.bbci.co.uk/news/politics/rss.xml",
-   "testattu": true
-  },
-  {
-   "id": "bbc-sciences",
-   "nimi": "BBC News (Science & Environment)",
-   "kieli": "en",
-   "rss": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
    "testattu": true
   },
   {
@@ -115,10 +31,10 @@
    "testattu": true
   },
   {
-   "id": "billboard",
-   "nimi": "Billboard",
+   "id": "bbc-football",
+   "nimi": "BBC Sport (jalkapallo)",
    "kieli": "en",
-   "rss": "https://www.billboard.com/feed/",
+   "rss": "https://feeds.bbci.co.uk/sport/football/rss.xml",
    "testattu": true
   },
   {
@@ -129,66 +45,10 @@
    "testattu": true
   },
   {
-   "id": "cbs-news",
-   "nimi": "CBS News",
-   "kieli": "en",
-   "rss": "https://www.cbsnews.com/latest/rss/main",
-   "testattu": true
-  },
-  {
    "id": "cbs-sports",
    "nimi": "CBS Sports",
    "kieli": "en",
    "rss": "https://www.cbssports.com/rss/headlines/",
-   "testattu": true
-  },
-  {
-   "id": "cdc",
-   "nimi": "CDC",
-   "kieli": "en",
-   "rss": "https://tools.cdc.gov/api/v2/resources/media/132608.rss",
-   "testattu": true
-  },
-  {
-   "id": "cch",
-   "nimi": "Climate Home News",
-   "kieli": "en",
-   "rss": "https://www.climatechangenews.com/feed/",
-   "testattu": true
-  },
-  {
-   "id": "cnbc",
-   "nimi": "CNBC",
-   "kieli": "en",
-   "rss": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
-   "testattu": true
-  },
-  {
-   "id": "deadline",
-   "nimi": "Deadline",
-   "kieli": "en",
-   "rss": "https://deadline.com/feed/",
-   "testattu": true
-  },
-  {
-   "id": "dw",
-   "nimi": "Deutsche Welle",
-   "kieli": "en",
-   "rss": "https://rss.dw.com/xml/rss-en-all",
-   "testattu": true
-  },
-  {
-   "id": "engadget",
-   "nimi": "Engadget",
-   "kieli": "en",
-   "rss": "https://www.engadget.com/rss.xml",
-   "testattu": true
-  },
-  {
-   "id": "euronews",
-   "nimi": "Euronews",
-   "kieli": "en",
-   "rss": "https://www.euronews.com/rss",
    "testattu": true
   },
   {
@@ -199,20 +59,6 @@
    "testattu": true
   },
   {
-   "id": "fourfourtwo",
-   "nimi": "FourFourTwo",
-   "kieli": "en",
-   "rss": "https://www.fourfourtwo.com/feeds/all",
-   "testattu": true
-  },
-  {
-   "id": "grist",
-   "nimi": "Grist",
-   "kieli": "en",
-   "rss": "https://grist.org/feed/",
-   "testattu": true
-  },
-  {
    "id": "hs",
    "nimi": "Helsingin Sanomat",
    "kieli": "fi",
@@ -220,31 +66,10 @@
    "testattu": true
   },
   {
-   "id": "is",
-   "nimi": "Ilta-Sanomat",
-   "kieli": "fi",
-   "rss": "https://www.is.fi/rss/tuoreimmat.xml",
-   "testattu": true
-  },
-  {
    "id": "iltalehti",
    "nimi": "Iltalehti",
    "kieli": "fi",
    "rss": "https://www.iltalehti.fi/rss/uutiset.xml",
-   "testattu": true
-  },
-  {
-   "id": "indiewire",
-   "nimi": "IndieWire",
-   "kieli": "en",
-   "rss": "https://www.indiewire.com/feed/",
-   "testattu": true
-  },
-  {
-   "id": "icn",
-   "nimi": "Inside Climate News",
-   "kieli": "en",
-   "rss": "https://insideclimatenews.org/feed/",
    "testattu": true
   },
   {
@@ -262,34 +87,6 @@
    "testattu": true
   },
   {
-   "id": "krebs",
-   "nimi": "Krebs on Security",
-   "kieli": "en",
-   "rss": "https://krebsonsecurity.com/feed/",
-   "testattu": true
-  },
-  {
-   "id": "livescience",
-   "nimi": "Live Science",
-   "kieli": "en",
-   "rss": "https://www.livescience.com/feeds/all",
-   "testattu": true
-  },
-  {
-   "id": "marketwatch",
-   "nimi": "MarketWatch",
-   "kieli": "en",
-   "rss": "http://feeds.marketwatch.com/marketwatch/topstories/",
-   "testattu": true
-  },
-  {
-   "id": "mit-tr",
-   "nimi": "MIT Technology Review",
-   "kieli": "en",
-   "rss": "https://www.technologyreview.com/feed/",
-   "testattu": true
-  },
-  {
    "id": "mtv",
    "nimi": "MTV Uutiset",
    "kieli": "fi",
@@ -297,115 +94,10 @@
    "testattu": true
   },
   {
-   "id": "nasa",
-   "nimi": "NASA",
-   "kieli": "en",
-   "rss": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
-   "testattu": true
-  },
-  {
-   "id": "nature",
-   "nimi": "Nature",
-   "kieli": "en",
-   "rss": "https://www.nature.com/nature.rss",
-   "testattu": true
-  },
-  {
-   "id": "nbc-news",
-   "nimi": "NBC News",
-   "kieli": "en",
-   "rss": "https://feeds.nbcnews.com/nbcnews/public/news",
-   "testattu": true
-  },
-  {
-   "id": "newscientist",
-   "nimi": "New Scientist",
-   "kieli": "en",
-   "rss": "https://www.newscientist.com/feed/home/",
-   "testattu": true
-  },
-  {
-   "id": "nyt-climate",
-   "nimi": "New York Times (Climate)",
-   "kieli": "en",
-   "rss": "https://rss.nytimes.com/services/xml/rss/nyt/Climate.xml",
-   "testattu": true
-  },
-  {
-   "id": "nyt-health",
-   "nimi": "New York Times (Health)",
-   "kieli": "en",
-   "rss": "https://rss.nytimes.com/services/xml/rss/nyt/Health.xml",
-   "testattu": true
-  },
-  {
-   "id": "nyt-politics",
-   "nimi": "New York Times (Politics)",
-   "kieli": "en",
-   "rss": "https://rss.nytimes.com/services/xml/rss/nyt/Politics.xml",
-   "testattu": true
-  },
-  {
-   "id": "nyt-world",
-   "nimi": "New York Times (World)",
-   "kieli": "en",
-   "rss": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-   "testattu": true
-  },
-  {
-   "id": "nme",
-   "nimi": "NME",
-   "kieli": "en",
-   "rss": "https://www.nme.com/feed",
-   "testattu": true
-  },
-  {
-   "id": "npr-health",
-   "nimi": "NPR Health",
-   "kieli": "en",
-   "rss": "https://feeds.npr.org/1128/rss.xml",
-   "testattu": true
-  },
-  {
-   "id": "npr-news",
-   "nimi": "NPR News",
-   "kieli": "en",
-   "rss": "https://feeds.npr.org/1001/rss.xml",
-   "testattu": true
-  },
-  {
-   "id": "npr-politics",
-   "nimi": "NPR Politics",
-   "kieli": "en",
-   "rss": "https://feeds.npr.org/1014/rss.xml",
-   "testattu": true
-  },
-  {
-   "id": "physorg",
-   "nimi": "Phys.org",
-   "kieli": "en",
-   "rss": "https://phys.org/rss-feed/",
-   "testattu": true
-  },
-  {
-   "id": "pitchfork",
-   "nimi": "Pitchfork",
-   "kieli": "en",
-   "rss": "https://pitchfork.com/feed/feed-news/rss",
-   "testattu": true
-  },
-  {
-   "id": "politico-eu",
-   "nimi": "Politico Europe",
-   "kieli": "en",
-   "rss": "https://www.politico.eu/feed/",
-   "testattu": true
-  },
-  {
-   "id": "rollingstone",
-   "nimi": "Rolling Stone",
-   "kieli": "en",
-   "rss": "https://www.rollingstone.com/feed/",
+   "id": "mv-lehti",
+   "nimi": "MV-lehti",
+   "kieli": "fi",
+   "rss": "https://mvlehti.net/feed/",
    "testattu": true
   },
   {
@@ -416,52 +108,10 @@
    "testattu": true
   },
   {
-   "id": "science",
-   "nimi": "Science (AAAS)",
-   "kieli": "en",
-   "rss": "https://www.science.org/rss/news_current.xml",
-   "testattu": true
-  },
-  {
-   "id": "sciencedaily",
-   "nimi": "ScienceDaily",
-   "kieli": "en",
-   "rss": "https://www.sciencedaily.com/rss/all.xml",
-   "testattu": true
-  },
-  {
-   "id": "sd-health",
-   "nimi": "ScienceDaily (Health)",
-   "kieli": "en",
-   "rss": "https://www.sciencedaily.com/rss/health_medicine.xml",
-   "testattu": true
-  },
-  {
-   "id": "sciam",
-   "nimi": "Scientific American",
-   "kieli": "en",
-   "rss": "https://www.scientificamerican.com/platform/syndication/rss/",
-   "testattu": true
-  },
-  {
-   "id": "sky-news",
-   "nimi": "Sky News",
-   "kieli": "en",
-   "rss": "https://feeds.skynews.com/feeds/rss/world.xml",
-   "testattu": true
-  },
-  {
-   "id": "sky-uk",
-   "nimi": "Sky News (UK)",
-   "kieli": "en",
-   "rss": "https://feeds.skynews.com/feeds/rss/uk.xml",
-   "testattu": true
-  },
-  {
-   "id": "sky-sports",
+   "id": "sky-sports-football",
    "nimi": "Sky Sports (jalkapallo)",
    "kieli": "en",
-   "rss": "https://www.skysports.com/rss/12040",
+   "rss": "https://www.skysports.com/rss/11095",
    "testattu": true
   },
   {
@@ -472,45 +122,10 @@
    "testattu": true
   },
   {
-   "id": "space",
-   "nimi": "Space.com",
+   "id": "athletic-football",
+   "nimi": "The Athletic (jalkapallo)",
    "kieli": "en",
-   "rss": "https://www.space.com/feeds/all",
-   "testattu": true
-  },
-  {
-   "id": "sporting-news",
-   "nimi": "Sporting News",
-   "kieli": "en",
-   "rss": "https://www.sportingnews.com/us/rss",
-   "testattu": true
-  },
-  {
-   "id": "stat",
-   "nimi": "STAT News",
-   "kieli": "en",
-   "rss": "https://www.statnews.com/feed/",
-   "testattu": true
-  },
-  {
-   "id": "stereogum",
-   "nimi": "Stereogum",
-   "kieli": "en",
-   "rss": "https://www.stereogum.com/feed/",
-   "testattu": true
-  },
-  {
-   "id": "talksport",
-   "nimi": "talkSPORT",
-   "kieli": "en",
-   "rss": "https://talksport.com/feed/",
-   "testattu": true
-  },
-  {
-   "id": "techcrunch-ai",
-   "nimi": "TechCrunch (AI)",
-   "kieli": "en",
-   "rss": "https://techcrunch.com/category/artificial-intelligence/feed/",
+   "rss": "https://www.nytimes.com/athletic/rss/football/",
    "testattu": true
   },
   {
@@ -528,129 +143,17 @@
    "testattu": true
   },
   {
-   "id": "guardian-business",
-   "nimi": "The Guardian (Business)",
+   "id": "telegraph-football",
+   "nimi": "The Telegraph (jalkapallo)",
    "kieli": "en",
-   "rss": "https://www.theguardian.com/uk/business/rss",
+   "rss": "http://www.telegraph.co.uk/football/rss.xml",
    "testattu": true
-  },
-  {
-   "id": "guardian-env",
-   "nimi": "The Guardian (Environment)",
-   "kieli": "en",
-   "rss": "https://www.theguardian.com/environment/rss",
-   "testattu": true
-  },
-  {
-   "id": "guardian-football",
-   "nimi": "The Guardian (Football)",
-   "kieli": "en",
-   "rss": "https://www.theguardian.com/football/rss",
-   "testattu": true
-  },
-  {
-   "id": "guardian-health",
-   "nimi": "The Guardian (Health)",
-   "kieli": "en",
-   "rss": "https://www.theguardian.com/society/health/rss",
-   "testattu": true
-  },
-  {
-   "id": "guardian-politics",
-   "nimi": "The Guardian (Politics)",
-   "kieli": "en",
-   "rss": "https://www.theguardian.com/politics/rss",
-   "testattu": true
-  },
-  {
-   "id": "guardian-crime",
-   "nimi": "The Guardian (UK Crime)",
-   "kieli": "en",
-   "rss": "https://www.theguardian.com/uk/ukcrime/rss",
-   "testattu": true
-  },
-  {
-   "id": "hackernews",
-   "nimi": "The Hacker News",
-   "kieli": "en",
-   "rss": "https://feeds.feedburner.com/TheHackersNews",
-   "testattu": true
-  },
-  {
-   "id": "the-hill",
-   "nimi": "The Hill",
-   "kieli": "en",
-   "rss": "https://thehill.com/news/feed/",
-   "testattu": true
-  },
-  {
-   "id": "thr",
-   "nimi": "The Hollywood Reporter",
-   "kieli": "en",
-   "rss": "https://www.hollywoodreporter.com/feed/",
-   "testattu": true
-  },
-  {
-   "id": "quantum-insider",
-   "nimi": "The Quantum Insider",
-   "kieli": "en",
-   "rss": "https://thequantuminsider.com/feed/",
-   "testattu": true
-  },
-  {
-   "id": "verge",
-   "nimi": "The Verge",
-   "kieli": "en",
-   "rss": "https://www.theverge.com/rss/index.xml",
-   "testattu": true
-  },
-  {
-   "id": "variety",
-   "nimi": "Variety",
-   "kieli": "en",
-   "rss": "https://variety.com/feed/",
-   "testattu": true
-  },
-  {
-   "id": "venturebeat",
-   "nimi": "VentureBeat",
-   "kieli": "en",
-   "rss": "https://venturebeat.com/feed/",
-   "testattu": false
   },
   {
    "id": "wsj-markets",
    "nimi": "Wall Street Journal (Markets)",
    "kieli": "en",
    "rss": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
-   "testattu": true
-  },
-  {
-   "id": "who",
-   "nimi": "WHO",
-   "kieli": "en",
-   "rss": "https://www.who.int/rss-feeds/news-english.xml",
-   "testattu": true
-  },
-  {
-   "id": "wired",
-   "nimi": "Wired",
-   "kieli": "en",
-   "rss": "https://www.wired.com/feed/rss",
-   "testattu": true
-  },
-  {
-   "id": "yahoo-sports",
-   "nimi": "Yahoo Sports",
-   "kieli": "en",
-   "rss": "https://sports.yahoo.com/rss/",
-   "testattu": true
-  },
-  {
-   "id": "e360",
-   "nimi": "Yale Environment 360",
-   "kieli": "en",
-   "rss": "https://e360.yale.edu/feed.xml",
    "testattu": true
   },
   {
