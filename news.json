@@ -1,115 +1,151 @@
 {
  "suomi": [
   {
-   "title": "Puolustusala saa varautua Venäjän iskuihin: Viron tapahtumat voivat toistua Suomessa",
-   "link": "https://www.kauppalehti.fi/uutiset/a/ffef53cf-15c2-4c5b-9314-5defa043fa4f?utm_source=rss",
-   "published": "2026-11-16T15:35:00+00:00",
-   "description": "Droonitehtaan tuhopolttoyritys Virossa merkitsee sitä, että puolustusala saa varautua Venäjän sabotaasiyrityksiin. Asiantuntija Henri Vanhasen mukaan Venäjä iskee kiinni sinne, mistä se löytää heikon kohdan, kirjoittaa Tatu Sailaranta.",
-   "image": null,
-   "important": true,
-   "hot": true
-  },
-  {
-   "title": "Nalle Wahlroos ennakoi valtavaa mullistusta – voi ”vapauttaa” satatuhatta ihmistä töistä",
-   "link": "https://www.kauppalehti.fi/uutiset/a/d5ef3174-2ab5-42bb-a97c-472b0389f2a9?utm_source=rss",
-   "published": "2026-11-16T15:34:00+00:00",
-   "description": "Björn Wahlroosin mukaan tietty osa Suomen julkisen sektorin työstä olisi siirrettävissä tekoälylle jo tämän päivän teknologialla. Wahlroos kommentoi myös Nvidian tilannetta Kauppalehdelle AI Summit -tapahtumassa Turussa.",
-   "image": null,
+   "title": "Valvonta | Poliisin kritisoitu valvontakärry saapui Espoon Soukkaan",
+   "link": "https://www.hs.fi/pkseutu/art-2000012415877.html",
+   "published": "2026-11-16T16:54:00+00:00",
+   "description": "Poliisi kokeilee, miten valvontaperävaunu rauhoittaa levottomuuksia muun muassa Soukassa, Matinkylässä ja Espoonlahdessa.",
+   "image": "https://images.sanoma-sndp.fi/8e1a6e23ba794394e3c7366f242d8956/normal/1440.jpg",
    "important": false,
    "hot": false
   },
   {
-   "title": "Kuninkaalliset | Prinsessa Estelle on työ­harjoittelussa Helsingissä",
-   "link": "https://www.hs.fi/politiikka/art-2000012416663.html",
-   "published": "2026-11-16T15:33:00+00:00",
-   "description": "Ruotsin prinsessa tutustuu muun muassa tasavallan presidentti Alexander Stubbin työhön.",
-   "image": "https://images.sanoma-sndp.fi/5a0637523e40520b376cfe03d0469270/normal/1440.jpg",
+   "title": "Musiikki | Grammy-gaalan ehdokkaat julkistettiin",
+   "link": "https://www.hs.fi/popkulttuuri/art-2000012416671.html",
+   "published": "2026-11-16T16:53:00+00:00",
+   "description": "Eniten Grammy-ehdokkuuksia sai tänä vuonna brittiläinen Raye, toiseksi eniten katalonialainen Rosalía.",
+   "image": "https://images.sanoma-sndp.fi/ae4b503b665af8f59c59aba2af69ffe2/normal/1440.jpg",
    "important": false,
    "hot": false
   },
   {
-   "title": "Kaksi turkulaiskirjailijaa kisaa kaunokirjallisuuden Finlandiasta – ”Ehkä Aurajoessa virtaa jotain luovuutta herättävää”",
-   "link": "https://yle.fi/a/74-20255594?origin=rss",
-   "published": "2026-11-16T15:30:04+00:00",
-   "description": "Sanni Isometsä on ehdolla ensimmäistä kertaa. Heikki Kännölle Finlandia-ehdokkuus on jo kolmas.",
-   "image": null,
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Jyri Engeström povaa muutosta: Suuret veronmaksajat ovat yhä useammin maahanmuuttajia",
-   "link": "https://www.kauppalehti.fi/uutiset/a/6e9b3db5-4fa8-4978-bcfd-d681caf9287a?utm_source=rss",
-   "published": "2026-11-16T15:30:00+00:00",
-   "description": "Pääomasijoitusyrityksen osakas Jyri Engeström katsoo, että ulkomaalaisten huippuosaajien Suomeen muuttamista on sujuvoitettava. Hän uskoo maahanmuuttajista tulevan entistä merkittävämpiä veronmaksajia Suomessa.",
-   "image": null,
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Yksi kuva paljastaa, miten Euroopan itäraja kiristyy",
-   "link": "https://www.mtvuutiset.fi/artikkeli/yksi-kuva-paljastaa-miten-euroopan-itaraja-kiristyy/9421922",
-   "published": "2026-11-16T15:29:55+00:00",
-   "description": "Viro sulkee Venäjän raja-asemat, lähimmät ylityspaikat Pohjois-Norja ja Latvia.",
-   "image": "https://api.mtvuutiset.fi/graphql/caas/v1/media/9421998/data/57f852fba1ccd9531ffbc284936a6a8b/landscape16_9/1024/viro-itaraja.png",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Jääkiekon MM-kisat | Naisleijonat johtoon pronssi­ottelussa Ruotsia vastaan, avainpelaaja loukkaantui",
+   "title": "Jääkiekon MM-kisat | Ruotsi kukisti Suomen pronssitrillerissä",
    "link": "https://www.hs.fi/urheilu/art-2000012416372.html",
-   "published": "2026-11-16T15:28:00+00:00",
-   "description": "Jääkiekon naisten MM-kisojen pronssiottelussa kohtaavat Ruotsi–Suomi. HS seuraa ottelua hetki hetkeltä.",
+   "published": "2026-11-16T16:53:00+00:00",
+   "description": "Naisleijonat hävisi MM-kisojen pronssiottelun rankkareilla. HS seurasi ottelua hetki hetkeltä.",
    "image": "https://images.sanoma-sndp.fi/7612acecd62c0bc654f6e85f5b99cf34/normal/1440.jpg",
    "important": false,
    "hot": false
   },
   {
-   "title": "Elokuvat | Robert Pattinson on uusi James Bond",
-   "link": "https://www.hs.fi/popkulttuuri/art-2000012416754.html",
-   "published": "2026-11-16T15:27:00+00:00",
-   "description": "Pattinson tunnetaan muun muassa Harry Potter- ja Twilight-elokuvista. Hän on näytellyt myös Batmania.",
-   "image": "https://images.sanoma-sndp.fi/4b1dd6b0f60c9a2fd77ebeb0ea8d9695/normal/1440.jpg",
+   "title": "Kouluvalmius | Saksa ottaa käyttöön neljä­vuotiaiden kielitestit",
+   "link": "https://www.hs.fi/maailma/art-2000012409769.html",
+   "published": "2026-11-16T16:53:00+00:00",
+   "description": "Tavoitteena on, että kouluun mennessä lapsilla on tasaisempi lähtötaso.",
+   "image": "https://images.sanoma-sndp.fi/783def15799e17b39015a9c87864f548/normal/1440.jpg",
    "important": false,
-   "hot": true
+   "hot": false
   },
   {
-   "title": "Suomi johtoon pronssiottelussa! TV5: Tero Lehterä kuumeni kuvaajalle",
+   "title": "Suomelle karu pettymys MM-trillerissä – johto suli: pronssi kirvelevästi Ruotsiin",
    "link": "https://www.is.fi/mmkiekko/art-2000012416195.html",
-   "published": "2026-11-16T15:27:00+00:00",
-   "description": "Tässä artikkelissa seurataan hetki hetkeltä jääkiekon naisten MM-kisojen pronssiottelua Ruotsi–Suomi.",
+   "published": "2026-11-16T16:52:00+00:00",
+   "description": "Ruotsi voitti jääkiekon naisten MM-kisojen pronssiottelussa Naisleijonat rankkarikisassa. IS seurasi ottelua.",
    "image": "https://images.sanoma-sndp.fi/5b697082f06e5374f229077c1a4a85db/normal/1440.jpg",
    "important": false,
    "hot": false
   },
   {
-   "title": "Trump: Putin voisi olla Ukrainalle ”paljon kovempikin”",
-   "link": "https://www.is.fi/ulkomaat/art-2000012409263.html",
-   "published": "2026-11-16T15:21:00+00:00",
-   "description": "IS seuraa tässä artikkelissa tilannetta Ukrainan sodassa sekä siihen liittyviä tapahtumia.",
-   "image": "https://images.sanoma-sndp.fi/5d6a929b076d4bdf94363b311ffb7be2/normal/1440.jpg",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Yksi loukkaantui vakavasti eläinkuljetusrekan ja henkilöauton törmäyksessä",
-   "link": "https://www.mtvuutiset.fi/artikkeli/yksi-loukkaantui-vakavasti-elainkuljetusrekan-ja-henkiloauton-tormayksessa/9421976",
-   "published": "2026-11-16T15:20:59+00:00",
-   "description": "Henkilöauton kuljettaja loukkaantui onnettomuudessa vakavasti, ja hänet kuljetettiin ambulanssilla sairaalaan.",
-   "image": "https://api.mtvuutiset.fi/graphql/caas/v1/media/6691786/data/7c789a1d5afcdf6cce7491471549af16/landscape16_9/1024/poliisi-kuvituskuvia30.jpg",
+   "title": "Maahanmuutto | EU-maat valmistautuvat lähettämään turva­paikanhakijoita Ruandaan",
+   "link": "https://www.hs.fi/politiikka/art-2000012416595.html",
+   "published": "2026-11-16T16:46:00+00:00",
+   "description": "Tanskan johtama maaryhmä haluaa perustaa EU:n ensimmäisen palautuskeskuksen Keski-Afrikassa sijaitsevaan Ruandaan. Keskuksen on tarkoitus olla toiminnassa jo ensi vuonna.",
+   "image": "https://images.sanoma-sndp.fi/1198eed050847a6b2b70f8b1f9edda80/normal/1440.jpg",
    "important": false,
    "hot": false
   },
   {
-   "title": "Raivo repesi NHL:ssä – naurettavaa rangaistusta ei hyväksytä: ”Häpeällistä”",
-   "link": "https://www.is.fi/nhl/art-2000012415292.html",
-   "published": "2026-11-16T15:20:00+00:00",
-   "description": "Ryan Leonardin kohtelu raivostuttaa.",
-   "image": "https://images.sanoma-sndp.fi/46abae9310eb3d5fb8bd014ea07606c9/normal/1440.jpg",
+   "title": "Seurakuntavaalit | Miksi kirkko ei enää tavoita omia jäseniään?",
+   "link": "https://www.hs.fi/mielipide/art-2000012410924.html",
+   "published": "2026-11-16T16:45:00+00:00",
+   "description": "Arvokkaista kirkkorakennuksista on pidettävä huolta, mutta seurakuntien rajalliset voimavarat pitäisi suunnata ensisijaisesti ihmisten hyväksi.",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Näky Verkkokauppa.comin sivuilla ällistytti: puhelimen hinta lähes 10 miljoonaa",
+   "link": "https://www.is.fi/digitoday/art-2000012414630.html",
+   "published": "2026-11-16T16:45:00+00:00",
+   "description": "Puhelimessa on sisäänrakennettu pienoiskuvaprojektori ja lämpökamera.",
+   "image": "https://images.sanoma-sndp.fi/9f18a5c005460323a72a226e12504c0a/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Nokian Hautala KL:lle: Miljardiluokan gigatehdas voi toimia Oulussa jo 2028",
+   "link": "https://www.kauppalehti.fi/uutiset/a/4df34ea4-2ecf-48c1-bbd7-289c28238dc1?utm_source=rss",
+   "published": "2026-11-16T16:45:00+00:00",
+   "description": "Nokian johtaja Mikko Hautala kertoo KL:lle, että pelkästään vireillä olevan gigatehtaan Oulun-osuuden osalta puhutaan miljardiluokan hankkeesta. Oulussa voi toimia gigatehdas vuonna 2028, jos Nokian vetämä gigatehdashanke etenee rahoituskilvassa.",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Ensi-illat | Johnny Deppin paluu onnistui Yhdysvalloissa ja Suomessa",
+   "link": "https://www.hs.fi/popkulttuuri/art-2000012415838.html",
+   "published": "2026-11-16T16:42:00+00:00",
+   "description": "Johnny Deppin tähdittämä jouluelokuva Ebenezer: Saiturin joulu nousi ensi-iltaviikonloppunaan Yhdysvaltain suosituimmaksi. Suomessa elokuva oli toiseksi suosituin.",
+   "image": "https://images.sanoma-sndp.fi/a137518b8333ca35953b79781c0be187/normal/1440.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Kremlin neuvon­antaja: Venäjä ei ole suostunut siihen, että Eurooppa osallistuisi rauhan­neuvotteluihin",
+   "link": "https://www.is.fi/ulkomaat/art-2000012416890.html",
+   "published": "2026-11-16T16:40:00+00:00",
+   "description": "Kremlin neuvonantajan mukaan ”paljon olisi vielä tehtävä” ennen kuin Euroopan edustajat voidaan päästää mukaan rauhanneuvotteluihin.",
+   "image": "https://images.sanoma-sndp.fi/c977329eac7d4817a95220b959c0273c/normal/1440.jpg",
+   "important": true,
+   "hot": false
+  },
+  {
+   "title": "Dramaattinen kultaryöstö tallentui videolle Espanjassa",
+   "link": "https://www.mtvuutiset.fi/artikkeli/dramaattinen-kultaryosto-tallentui-videolle-espanjassa/9421934",
+   "published": "2026-11-16T16:40:00+00:00",
+   "description": "Joukko ryösti jalokiviliikkeen Espanjan Torrijosissa. Poliisin jakamat videot näyttävät myös kiinnioton.",
+   "image": "https://api.mtvuutiset.fi/graphql/caas/v1/media/9421964/data/d73e09fa0cd68e7b2dc025bf8e3b3b0d/landscape16_9/1024/espanja-ryosto.png",
    "important": false,
    "hot": false
   }
  ],
  "jalkapallo": [
+  {
+   "title": "Do good club managers necessarily make good international managers? | Jonathan Wilson",
+   "link": "https://www.theguardian.com/global/2026/nov/16/mauricio-pochettino-usmnt-replacement-coach",
+   "published": "2026-11-16T16:14:29+00:00",
+   "description": "In a mailbag edition of our newsletter, we look at Mauricio Pochettino, Pep Guardiola’s international credentials and the lack of elite English managersSign up for our free newsletter hereWho should replace Mauricio Pochettino as the USMNT manager? – Tom SAlthough the salary I’m sure will be excellent, I think the US job is going to be a really difficult sell to a top-level coach. The 2030 World C",
+   "image": "https://i.guim.co.uk/img/media/a05aa098b3152673b6c66abe291ae14babf13bc6/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=dbd0d76dc243dd5101ddcb26cd77fe2d",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "‘Inexcusable’ stadium sagas provide NWSL with unwelcome reality check",
+   "link": "https://www.theguardian.com/football/2026/nov/16/nwsl-playoffs-gotham-icahn-stadium-controversy",
+   "published": "2026-11-16T15:56:55+00:00",
+   "description": "Problems faced by Gotham FC and Washington Spirit over staging of their playoff semi-finals shows the league still has work to doIn so many ways, Icahn Stadium, tucked away on Randall’s Island in the Harlem River, is a fantastic place to watch soccer.The 5,000-seat facility was thrown together in the early 2000s, constructed to replace Downing Stadium, an aging relic that hosted Pelé’s first match",
+   "image": "https://i.guim.co.uk/img/media/0f1f87f148413e0252e525512255f79805eadf9f/630_0_6616_5293/master/6616.jpg?width=140&quality=85&auto=format&fit=max&s=aee8f0f04a93ce28f7b9feadad039ebb",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Wales without injured Williams for Portugal game",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cmkgk3nv6pqyo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-16T15:55:16+00:00",
+   "description": "Wales will be without right-back Neco Williams for their final Nations League group match against Portugal, while goalkeeper Karl Darlow is a doubt.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3d83/live/350960d0-e1c5-11f1-8a52-0b287ff76f43.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Klopp says Infantino worse than Blatter",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cjr4gr2k41dxo?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-16T15:54:36+00:00",
+   "description": "Germany manager Jurgen Klopp says he \"didn't think things could get worse after Sepp Blatter, but someone has managed to do just that\" as he calls for Fifa president Gianni Infantino to be replaced.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/217d/live/86082020-e1ac-11f1-8ee3-23d0d09d2796.jpg",
+   "important": false,
+   "hot": false
+  },
   {
    "title": "French football head Philippe Diallo to fight Infantino for Fifa presidency",
    "link": "https://www.theguardian.com/football/2026/nov/16/philippe-diallo-fifa-gianni-infantino-president-french-football-federation",
@@ -181,50 +217,41 @@
    "image": "https://e0.365dm.com/26/11/1920x1080/skysports-drake-maye-new-england-patriots_7407792.jpg?20261116140859",
    "important": false,
    "hot": false
-  },
-  {
-   "title": "Beckham firm sues after fragrance found for sale in Poundland",
-   "link": "https://www.theguardian.com/football/2026/nov/16/david-beckham-fragrance-sale-poundland-bargain-bin-gas-station",
-   "published": "2026-11-16T13:26:35+00:00",
-   "description": "Brand reacted with ‘shock and dismay’ after products were also found in a ‘bargain bin inside a gas station’Business live – latest updatesDavid Beckham’s company reacted with “shock and dismay” after discovering his branded fragrance range was on sale in petrol stations and in Poundland, court documents have revealed.The former England football captain’s brand, DB Ventures, has launched a lawsuit ",
-   "image": "https://i.guim.co.uk/img/media/b545f9d7a790ea86d7c205a1aa43db5a001f1e42/1779_175_2064_1652/master/2064.jpg?width=140&quality=85&auto=format&fit=max&s=5f3ca0f86022053fc18d97cfa7ce756f",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Has Trafford replaced Pickford as England No 1?",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cmvg2r752ykzo?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T13:01:41+00:00",
-   "description": "James Trafford was given a chance to stake his claim as England's new number one - and away to the world champions, he absolutely took it.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0930/live/36ea8540-e1b7-11f1-9a3f-99aca912798e.jpg",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "England hang on to end Spain’s unbeaten reign | Football Weekly – video",
-   "link": "https://www.theguardian.com/football/video/2026/nov/16/england-hang-on-to-end-spains-unbeaten-reign-football-weekly-video",
-   "published": "2026-11-16T12:56:01+00:00",
-   "description": "Max Rushden is joined by Lucy Ward, George Elek and Will Unwin as England win 3-2 in Madrid to top their Nations League group Continue reading...",
-   "image": "https://i.guim.co.uk/img/media/fabe17bc3f5a90ac2f56a00c5623604155969381/558_0_4317_3453/master/4317.jpg?width=140&quality=85&auto=format&fit=max&s=e96158354fc4cd67d4b95d6c55430cfe",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Ratcliffe's Ineos Group settles £10m-plus claim with Ainslie's firm over yacht",
-   "link": "https://www.skysports.com/sailing/news/12040/13612816/jim-ratcliffes-ineos-group-settles-10m-plus-claim-with-sir-ben-ainslies-athena-racing-over-alleged-non-return-of-yacht",
-   "published": "2026-11-16T12:50:00+00:00",
-   "description": "A company connected to Sir Jim Ratcliffe's Ineos Group said it has settled a High Court claim against a firm founded by Sir Ben Ainslie.",
-   "image": "https://e0.365dm.com/26/02/1920x1080/skysports-ratcliffe-man-utd_7162443.jpg?20260220173735",
-   "important": false,
-   "hot": false
   }
  ],
  "teknologia": [
   {
+   "title": "US now \"comfortable\" with children dying of measles as death toll hits 10",
+   "link": "https://arstechnica.com/health/2026/11/us-now-comfortable-with-children-dying-of-measles-as-death-toll-hits-10/",
+   "published": "2026-11-16T16:39:29+00:00",
+   "description": "International authorities will announce US lost its elimination status Tuesday.",
+   "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/09/GettyImages-2233024483-1152x648.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Building trustworthy AI by fencing it in, not predicting it",
+   "link": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
+   "published": "2026-11-16T16:04:28+00:00",
+   "description": "In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an instruction not to send messages; the other removed its monitoring integration during migration, then said it hadn’t. No rule had told the agents to do&#8230;",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Audible turns to AI to help users discover audiobooks",
+   "link": "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/",
+   "published": "2026-11-16T15:52:19+00:00",
+   "description": "Audible's new AI-generated audio previews summarize a book's themes and what readers liked about it, in addition to playing the narrated sample.",
+   "image": null,
+   "important": false,
+   "hot": false
+  },
+  {
    "title": "US tightens AI chip export controls to deter Chinese companies from accessing compute remotely",
    "link": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
    "published": "2026-11-16T15:02:34+00:00",
-   "description": "Under the interim rule, US will require firms to get licenses to export AI chips if they may provide compute to China or other restricted countries.",
+   "description": "Under the interim rule, the U.S. will require firms to get licenses to export AI chips if they may provide compute to China or other restricted countries.",
    "image": null,
    "important": false,
    "hot": false
@@ -300,36 +327,63 @@
    "image": null,
    "important": false,
    "hot": false
-  },
-  {
-   "title": "Classiq and Ventum Consulting Partner on Enterprise Quantum Computing in Germany",
-   "link": "https://thequantuminsider.com/2026/11/16/classiq-ventum-consulting-enterprise-quantum-computing-germany/",
-   "published": "2026-11-16T12:44:27+00:00",
-   "description": "Insider Brief PRESS RELEASE &#8212; Classiq, a leading quantum computing software company, and Ventum Consulting, a digital transformation consultancy, today announced a partnership to help enterprises in Germany build quantum computing expertise, establish strategies and develop applications aligned with their business priorities. The partnership brings together Classiq’s quantum software platfor",
-   "image": "https://thequantuminsider.com/wp-content/uploads/2026/11/2026-11-16_17-43.png",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
-   "link": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
-   "published": "2026-11-16T12:34:21+00:00",
-   "description": "Six flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said earlier this week.\n\nNo patch is available, and the researchers say the newest firmware, version 5.4.0, does not fix the flaws.\n\nGovernment cybersecurity agencies in Belgium, Ireland and Germany told operators this week to",
-   "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_1GngZ38pRRizZTrhUgdWx49U1Dk8N_Y1Wkfll2kXIjAeYMmX2R69d6OBvA9k-zb6rnYbNOZyouN9yj59QIlT8XxiTzmmhLTmwmEdU2bqiGc_XoSMlvKKN1qZtH3o73YN1miGEhR4vkDniji2WkWOHjSPPIn69ysWKPkFzr504FsViG2NQYxPDkD7sgw/s1600/flaws.jpg",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
-   "link": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
-   "published": "2026-11-16T12:33:18+00:00",
-   "description": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines.\n\n\"On launch, the NSIS-based installer executable dropped a file named '7z.dll' into a temporary directory and ran it through rundll32.exe,\" Kaspersky said in an analysis published today.\n\n\"The '7z.dll' file was a patched version of the",
-   "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxRuwbdQU-KyBsSrFlIZp4oczr_tJu53WrfB3nM6QYrO7kFgGAZO1NMSi7mziUOUaTrzq5C4KzCJqvYOf0Ry19ypJac-9mBYzYiqiTNl462i1uYo7DF9aAHxiVU_IOaByH3NtNlrF0hUhZtpItADKJauPVzWrz8r6YOQEHQrt_YiAmPba4CIOsSjZA2Wy_/s1600/hacker-code.jpg",
-   "important": false,
-   "hot": false
   }
  ],
  "maailma": [
+  {
+   "title": "UEFA backs France’s Philippe Diallo to challenge Infantino in FIFA election",
+   "link": "https://www.aljazeera.com/sports/2026/11/16/uefa-backs-frances-philippe-diallo-to-challenge-infantino-in-fifa-election?traffic_source=rss",
+   "published": "2026-11-16T16:46:05+00:00",
+   "description": "French Football Federation chief Diallo emerges as a strong challenger in FIFA&#039;s presidential election before deadline.",
+   "image": null,
+   "important": true,
+   "hot": false
+  },
+  {
+   "title": "Trump’s justice department warns Elizabeth Warren over Democrats’ plans for future investigations – live",
+   "link": "https://www.theguardian.com/us-news/live/2026/nov/16/donald-trump-asia-visit-democrats-republicans-elizabeth-warren-faa-air-disruption-latest-news-updates",
+   "published": "2026-11-16T16:31:01+00:00",
+   "description": "Letter to likely chair of Senate Banking Committee is latest warning to Democrats about their potential plans after the party’s midterms successSign up for the Breaking News US emailLauren Almeida and Dan MilmoElon Musk and a host of other tech bosses have called for Jensen Huang’s reinstatement at Nvidia, amid reports the former chief executive is already plotting a return to the chip company jus",
+   "image": "https://i.guim.co.uk/img/media/7ff330eae5cd3087ea08c69647f4dbf58484c916/363_0_6801_5442/master/6801.jpg?width=140&quality=85&auto=format&fit=max&s=84b5747737aac1f8cef320d0211f08a4",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Five EU countries announce migrant deportation centre in Rwanda",
+   "link": "https://www.bbc.co.uk/news/articles/cw987343352go?at_medium=RSS&at_campaign=rss",
+   "published": "2026-11-16T16:27:24+00:00",
+   "description": "Germany, Denmark, Austria, Greece and the Netherlands have announced a \"return hub\" for failed asylum seekers.",
+   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7397/live/2ac14ca0-e1d9-11f1-b8c8-67fa35f5afdb.jpg",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Five EU states announce plans for immigration ‘return hubs’ in Rwanda",
+   "link": "https://www.theguardian.com/world/2026/nov/16/eu-states-immigration-return-hubs-rwanda",
+   "published": "2026-11-16T16:21:40+00:00",
+   "description": "Germany, Austria, Netherlands, Denmark and Greece likely to face challenges to policy criticised as ‘grave moral failing’Five EU member states have announced plans to set up an offshore centre in Rwanda for people with no legal right to stay in Europe, in a pilot scheme that is expected to face legal challenges and has been denounced as “a grave moral failing”.The five countries – Germany, Austria",
+   "image": "https://i.guim.co.uk/img/media/d668e44ea9f6f3fb2d88cfee76bb772cccada10f/456_0_4053_3243/master/4053.jpg?width=140&quality=85&auto=format&fit=max&s=7839a06430930a2378822738556852d7",
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Brand statement from prison claiming his innocence ‘appalling’ and could breach rules, says No 10 – UK politics live",
+   "link": "https://www.theguardian.com/politics/live/2026/nov/16/ed-miliband-russell-brand-andy-burnham-brexit-eu-milburn-review-young-people-employment-uk-politics-latest-news",
+   "published": "2026-11-16T16:11:32+00:00",
+   "description": "Brand’s wife Laura read out a message from him on their YouTube showAfter education questions, there is one urgent question in the Commons and two ministerial statements. They are, with rough timings:3.30pm: A Home Office minister responds to an urgent question about planning permission being granted for the proposed camp for asylum seekers near Piddington.It’s always a good idea to promote closer",
+   "image": "https://i.guim.co.uk/img/media/f1f62e86d5d340fa3e406a388a83d0ba1c0610c4/765_0_3391_2714/master/3391.jpg?width=140&quality=85&auto=format&fit=max&s=580d87f127bfb9aa97243f0b42e7ae42",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "Surge of US datacenters adds equivalent of Denmark’s annual emissions, study finds",
+   "link": "https://www.theguardian.com/us-news/2026/nov/16/datacenter-emissions-study",
+   "published": "2026-11-16T16:00:47+00:00",
+   "description": "‘Hyperscaler’ datacenters across country draw upon dirtier power sources to meet vast energy needs, research showsThe frantic buildout of “hyperscaler” datacenters in the US has collectively caused planet-heating emissions of about the same scale as Denmark emits in a year, new research has found.In that period 403 “hyperscalers” – the largest datacenters used primarily to handle the growth of art",
+   "image": "https://i.guim.co.uk/img/media/ddf959b831576c7e97a80916695eafca3a8e4ef4/251_0_7465_5971/master/7465.jpg?width=140&quality=85&auto=format&fit=max&s=3e040e505fc0d81bbb9e1092e5a029d8",
+   "important": false,
+   "hot": false
+  },
   {
    "title": "Faisal Islam: What's in the Brexit reset food deal and are there trade-offs?",
    "link": "https://www.bbc.co.uk/news/articles/c6wy4l8nl42wo?at_medium=RSS&at_campaign=rss",
@@ -349,16 +403,7 @@
    "hot": false
   },
   {
-   "title": "Brand statement from prison claiming his innocence ‘appalling’ and could breach rules, says No 10 – UK politics live",
-   "link": "https://www.theguardian.com/politics/live/2026/nov/16/ed-miliband-russell-brand-andy-burnham-brexit-eu-milburn-review-young-people-employment-uk-politics-latest-news",
-   "published": "2026-11-16T15:34:58+00:00",
-   "description": "Brand’s wife Laura read out a message from him on their YouTube showAfter education questions, there is one urgent question in the Commons and two ministerial statements. They are, with rough timings:3.30pm: A Home Office minister responds to an urgent question about planning permission being granted for the proposed camp for asylum seekers near Piddington.It’s always a good idea to promote closer",
-   "image": "https://i.guim.co.uk/img/media/f1f62e86d5d340fa3e406a388a83d0ba1c0610c4/765_0_3391_2714/master/3391.jpg?width=140&quality=85&auto=format&fit=max&s=580d87f127bfb9aa97243f0b42e7ae42",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Trump says he wouldn't mind seeing Huang return to Nvidia",
+   "title": "Trump backs return of ex-Nvidia boss after 'Bring Jensen Back' campaign",
    "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-16T15:31:20+00:00",
    "description": "A number of tech figures want the board of the AI chip giant to give Jensen Huang his job back.",
@@ -367,7 +412,7 @@
    "hot": true
   },
   {
-   "title": "Trump says he wouldn't mind seeing Huang return to Nvidia",
+   "title": "Trump backs return of ex-Nvidia boss after 'Bring Jensen Back' campaign",
    "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
    "published": "2026-11-16T15:31:20+00:00",
    "description": "A number of tech figures want the board of the AI chip giant to give Jensen Huang his job back.",
@@ -392,54 +437,81 @@
    "image": null,
    "important": false,
    "hot": false
-  },
+  }
+ ],
+ "musiikki": [
   {
-   "title": "Trump’s justice department warns Elizabeth Warren over Democrats’ plans for future investigations – live",
-   "link": "https://www.theguardian.com/us-news/live/2026/nov/16/donald-trump-asia-visit-democrats-republicans-elizabeth-warren-faa-air-disruption-latest-news-updates",
-   "published": "2026-11-16T15:14:19+00:00",
-   "description": "Letter to likely chair of Senate Banking Committee is latest warning to Democrats about their potential plans after the party’s midterms successSign up for the Breaking News US emailLauren Almeida and Dan MilmoElon Musk and a host of other tech bosses have called for Jensen Huang’s reinstatement at Nvidia, amid reports the former chief executive is already plotting a return to the chip company jus",
-   "image": "https://i.guim.co.uk/img/media/7ff330eae5cd3087ea08c69647f4dbf58484c916/363_0_6801_5442/master/6801.jpg?width=140&quality=85&auto=format&fit=max&s=84b5747737aac1f8cef320d0211f08a4",
+   "title": "Grammys 2027: Check out the full list of nominations here",
+   "link": "https://www.nme.com/news/music/grammys-2027-check-out-the-full-list-of-nominations-here-3976128",
+   "published": "2026-11-16T16:54:56+00:00",
+   "description": "Those leading the way include Raye, Rosalía, Taylor Swift and Olivia Rodrigo\nThe post Grammys 2027: Check out the full list of nominations here appeared first on NME.",
+   "image": null,
    "important": false,
-   "hot": false
+   "hot": true
   },
   {
-   "title": "Two charged after man run over by van during flags incident in Birmingham",
-   "link": "https://www.theguardian.com/uk-news/2026/nov/16/two-charged-man-run-over-by-van-midlands",
-   "published": "2026-11-16T15:01:35+00:00",
-   "description": "Pair due to appear in court in December in relation to incident in May that left a man in his 30s with leg injuriesTwo men have been charged following an incident in Birmingham, where a man was run over by a van after flags were removed from lamp-posts.A man in his 30s was taken to hospital with leg injuries after the incident on Mayfield Road in the suburb of Stirchley, south-west Birmingham, on ",
-   "image": "https://i.guim.co.uk/img/media/a575013098050b5562b93e4330eb0b9e12f74d93/142_0_3543_2835/master/3543.jpg?width=140&quality=85&auto=format&fit=max&s=ab13adc9587c0f58f0757b527a6b3b91",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Why Starshield limits are hurting Ukraine against jet-powered drones",
-   "link": "https://www.aljazeera.com/news/2026/11/16/why-starshield-limits-are-hurting-ukraine-against-jet-powered-drones?traffic_source=rss",
-   "published": "2026-11-16T14:58:30+00:00",
-   "description": "Ukraine&#039;s military has been relying on the internet service since December 2024 to intercept Russian drones.",
+   "title": "Blind Channel Helsingin jäähallissa – katso kuvat",
+   "link": "https://www.soundi.fi/keikat/blind-channel-helsingin-jaahallissa-katso-kuvat/",
+   "published": "2026-11-16T16:47:07+00:00",
+   "description": "Blind Channel potkaisi tuoreen Painstream-albuminsa kiertueen käyntiin viime lauantaina (14.11.) nousemalla Helsingin jäähallin Black Boxin lavalle. Kyseessä oli samalla yhtyeen syksyn ainoa konsertti Suomessa. Kuvaajamme Joanna Orchide oli kameroineen paikan päällä ikuistamassa tunnelmia. Katso kuvasaldoa alta.\nThe post Blind Channel Helsingin jäähallissa &#8211; katso kuvat appeared first on Sou",
    "image": null,
    "important": false,
    "hot": false
   },
   {
-   "title": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
-   "link": "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o?at_medium=RSS&at_campaign=rss",
-   "published": "2026-11-16T14:58:12+00:00",
-   "description": "Russia said Ukraine had launched over 2,000 drones over the course of a day, while Kyiv came under a record 17 air raid alerts.",
-   "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f174/live/bc6fa8f0-e1c4-11f1-a094-5fdc692f3e33.jpg",
+   "title": "Stephen Wilson Jr. Announces Double Album, Earns Frank Black His First Grammy Nomination, Covers Oasis At Rock Hall",
+   "link": "https://stereogum.com/2518295/stephen-wilson-jr-announces-double-album-earns-frank-black-his-first-grammy-nomination-covers-oasis-at-rock-hall/music/",
+   "published": "2026-11-16T16:42:48+00:00",
+   "description": "The post Stephen Wilson Jr. Announces Double Album, Earns Frank Black His First Grammy Nomination, Covers Oasis At Rock Hall appeared first on Stereogum.",
+   "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/Wilson-Credit-Jace-Kartye.jpeg?w=564",
    "important": true,
    "hot": true
   },
   {
-   "title": "Mamdani disbands controversial NYPD unit accused of using excessive force",
-   "link": "https://www.theguardian.com/us-news/2026/nov/16/nypd-strategic-response-group-mamdani",
-   "published": "2026-11-16T14:57:26+00:00",
-   "description": "Mayor axes strategic response group that cracked down on protesters and announces new community safety divisionZohran Mamdani, New York City’s mayor, announced Monday that he was disbanding a controversial city police unit that has faced criticism over the years from civil rights groups who have accused the unit of using excessive force and unduly aggressive tactics against protesters.In a video r",
-   "image": "https://i.guim.co.uk/img/media/273f35e243f22b1c02cb8c86f61c99bd5a80cf15/644_681_2479_1983/master/2479.jpg?width=140&quality=85&auto=format&fit=max&s=08feaa2a57512f88fb6dc80dfd79ffe7",
+   "title": "Snubbed By Grammys, John Summit Says He Will Never Submit Again: “It’s All A Fucking Joke”",
+   "link": "https://stereogum.com/2518305/snubbed-by-grammys-john-summit-says-he-will-never-submit-again-its-all-a-fucking-joke/news/",
+   "published": "2026-11-16T16:37:03+00:00",
+   "description": "The post Snubbed By Grammys, John Summit Says He Will Never Submit Again: &#8220;It&#8217;s All A Fucking Joke&#8221; appeared first on Stereogum.",
+   "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/summittttt.png?w=564",
    "important": false,
    "hot": false
-  }
- ],
- "musiikki": [
+  },
+  {
+   "title": "Yksi artisti kahmi Grammy-ehdokkuuksia yli kymmenen – eikä se ole Taylor Swift",
+   "link": "https://www.klangi.fi/uutiset/grammy-ehdokkaat-2027-raye-johtaa/",
+   "published": "2026-11-16T16:35:19+00:00",
+   "description": "Grammy-ehdokkaat 2027 nostivat Ella Langleyn kaikkiin neljään pääkategoriaan, ja gaala palaa ABC:lle yli puolen vuosisadan tauon jälkeen. Raye on ehdolla\nArtikkeli Yksi artisti kahmi Grammy-ehdokkuuksia yli kymmenen – eikä se ole Taylor Swift julkaistiin ensimmäisen kerran Klangi.",
+   "image": "https://www.youtube.com/embed/TaBQChyRLy4",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "The 69 Eyes julkaisi uuden version kannattajakuntansa vanhasta suosikkibiisistä – näin soi Wasting the Dawn vuonna 2026",
+   "link": "https://www.soundi.fi/uutiset/the-69-eyes-julkaisi-uuden-version-kannattajakuntansa-vanhasta-suosikkibiisista-nain-soi-wasting-the-dawn-vuonna-2026/",
+   "published": "2026-11-16T16:00:00+00:00",
+   "description": "The 69 Eyes julkaisee alkuvuodesta 2027 akustisen levyn, jolle on taltioitu uusia versioita yhtyeen vanhemmista kappaleista. Acustica-albumilta esitellään nyt uusi tulkinta Wasting the Dawnista, joka on tietysti yksi bändin tavaramerkkibiiseistä. Kappaleen alkuperäinen versio tuli julki vuonna 1999, ja aika tiiviisti se on pysynyt keikkasetissä siitä lähtien. Kuuntele biisin tuore tulkinta alempaa",
+   "image": null,
+   "important": false,
+   "hot": true
+  },
+  {
+   "title": "Daniel Craigin seuraaja James Bondina on vihdoin valittu",
+   "link": "https://www.klangi.fi/uutiset/robert-pattinson-uusi-james-bond/",
+   "published": "2026-11-16T15:58:49+00:00",
+   "description": "Uusi James Bond löytyi kuukausien arvailun jälkeen, ja rooli jäi saamatta muun muassa Callum Turnerilta ja Nicholas Houltilta. Robert Pattinson\nArtikkeli Daniel Craigin seuraaja James Bondina on vihdoin valittu julkaistiin ensimmäisen kerran Klangi.",
+   "image": "https://www.youtube.com/embed/K3elJwmxsRA",
+   "important": false,
+   "hot": false
+  },
+  {
+   "title": "9 Thoughts On The 2027 Grammy Nominations",
+   "link": "https://stereogum.com/2518235/9-thoughts-on-the-2027-grammy-nominations/columns/sounding-board/",
+   "published": "2026-11-16T15:58:19+00:00",
+   "description": "The post 9 Thoughts On The 2027 Grammy Nominations appeared first on Stereogum.",
+   "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/GettyImages-2302090112.jpg?w=564",
+   "important": false,
+   "hot": true
+  },
   {
    "title": "heavensouls – “today i learned to fly again”",
    "link": "https://stereogum.com/2518277/heavensouls-today-i-learned-to-fly-again/music/",
@@ -473,78 +545,6 @@
    "published": "2026-11-16T15:13:38+00:00",
    "description": "The post Geese, Angine de Poitrine, &amp; Tinashe Among First-Time Grammy Nominees appeared first on Stereogum.",
    "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/Anginedepoitrine.jpg?w=564",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Bob Dylan Meets The Pope In Cut-For-Time SNL Sketch",
-   "link": "https://stereogum.com/2518222/bob-dylan-meets-the-pope-in-cut-for-time-snl-sketch/news/",
-   "published": "2026-11-16T14:36:10+00:00",
-   "description": "The post Bob Dylan Meets The Pope In Cut-For-Time &lt;em&gt;SNL&lt;/em&gt; Sketch appeared first on Stereogum.",
-   "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/Pope.jpg?w=564",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Album Of The Year Grammy Nominees 2027 Include Rosalía, Phoebe Bridgers, Taylor Swift",
-   "link": "https://stereogum.com/2518141/album-of-the-year-grammy-nominees-2027-include-rosalia-phoebe-bridgers-taylor-swift/news/",
-   "published": "2026-11-16T13:58:39+00:00",
-   "description": "The post Album Of The Year Grammy Nominees 2027 Include Rosalía, Phoebe Bridgers, Taylor Swift appeared first on Stereogum.",
-   "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/GettyImages-2304842922.jpg?w=564",
-   "important": true,
-   "hot": true
-  },
-  {
-   "title": "Kanye West’s Bully Up for Best Rap Album Grammy",
-   "link": "https://pitchfork.com/story/kanye-wests-bully-up-for-best-rap-album-grammy/",
-   "published": "2026-11-16T13:54:54+00:00",
-   "description": "Widespread allegations of A.I. use did not deter voters from nominating Ye’s critically dismissed LP",
-   "image": "https://media.pitchfork.com/photos/6afaf9f6fa70625fee86f02d/master/pass/kanye-west-bully-grammys.jpg",
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "The Alternative Number Ones: Fastball’s “The Way”",
-   "link": "https://stereogum.com/2517758/the-alternative-number-ones-fastballs-the-way/columns/the-alternative-number-ones/",
-   "published": "2026-11-16T13:53:39+00:00",
-   "description": "In The Alternative Number Ones, I’m reviewing every #1 single in the history of the Billboard&#160;Modern Rock Tracks/Alternative Songs, starting with the moment that the chart launched in 1988. This column is a companion piece to&#160;The Number Ones. The column is now biweekly, alternating with The Number Ones on Mondays. \nDig, if you will, the late-'90s cool-guy uniform. The shiny thrift-shop b",
-   "image": "https://lede-admin.stereogum.com/wp-content/uploads/sites/64/2026/11/Fastball-The-Way.jpg?w=564",
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Watch U2’s surprise opening performance to kick off 2026 Rock & Roll Hall of Fame induction ceremony",
-   "link": "https://www.nme.com/news/music/watch-u2-surprise-opening-performance-2026-rock-roll-hall-of-fame-ceremony-3976104",
-   "published": "2026-11-16T13:43:40+00:00",
-   "description": "They performed ‘Pride (In the Name of Love)’ and one new single from their recently released album ‘Carnaval De Luz’\nThe post Watch U2&#8217;s surprise opening performance to kick off 2026 Rock &#038; Roll Hall of Fame induction ceremony appeared first on NME.",
-   "image": null,
-   "important": false,
-   "hot": true
-  },
-  {
-   "title": "Muse bring a singing robot and ‘The Wow! Signal’ to The O2 in London",
-   "link": "https://www.nme.com/news/music/muse-the-o2-london-setlist-photos-footage-singing-ai-robot-3976084",
-   "published": "2026-11-16T13:43:36+00:00",
-   "description": "See photos, footage, the setlist and more as the space rock giants air new material and present one of their most ambitious stage shows to date\nThe post Muse bring a singing robot and &#8216;The Wow! Signal&#8217; to The O2 in London appeared first on NME.",
-   "image": null,
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Hyvää kovuutta ja kovaa hyvyyttä – Napalm Death Helsingissä, arvio ja kuvat",
-   "link": "https://www.soundi.fi/keikat/hyvaa-kovuutta-ja-kovaa-hyvyytta-napalm-death-helsingissa-arvio-ja-kuvat/",
-   "published": "2026-11-16T13:38:18+00:00",
-   "description": "Campaign for Musical Destruction 2026 -tittelin alla kulkeva mökärundi saapui tärisyttämään marraskuun harmauden ja koleuden kangistamia suomalaisia. Soundin haaviin jäivät grindcoren esi-isäyhtye Napalm Death, Paul Speckmannin luotsaama sotaratsu Master sekä yhdysvaltalainen uuden polven äärimetallihybridi Brat. New Orleansin bimboviolence-nelikko Brat on suorastaan hykerryttävä tapaus. Se ei ole",
-   "image": null,
-   "important": false,
-   "hot": false
-  },
-  {
-   "title": "Geese Earn First Grammy Nominations",
-   "link": "https://pitchfork.com/story/geese-earn-first-grammys-nominations/",
-   "published": "2026-11-16T13:37:40+00:00",
-   "description": "Including Best New Artist and Best Alternative Music Album",
-   "image": "https://media.pitchfork.com/photos/6afa6aa0b094630048ceb7eb/master/pass/GettyImages-2280468675.jpg",
    "important": false,
    "hot": true
   }
