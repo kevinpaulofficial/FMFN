@@ -97,7 +97,9 @@ main .addcat{margin-top:26px}
 .wbtn.red{background:#c62828;border-color:#c62828;color:#fff}
 .wrow{display:flex;justify-content:space-between;gap:8px;margin-top:18px}
 .wrow.end{justify-content:flex-end}
-.waib{margin-top:12px}
+.wor{text-align:center;margin:18px 0 10px;font-size:.85rem;letter-spacing:.08em;opacity:.7}
+.waiwrap{text-align:center}
+.waiwrap[hidden],.waip[hidden]{display:none}
 .waip{margin-top:10px;padding:12px;border:1px solid var(--line);border-radius:12px}
 .waip textarea{width:100%;padding:10px;border:1px solid var(--line);border-radius:10px;background:var(--box);color:var(--text);font:inherit;font-size:.85rem;resize:vertical}
 .waip .wrow{margin-top:8px;align-items:center}
@@ -273,7 +275,7 @@ f.slice(0,4).forEach(function(n){h+='<div class="card"><span class="age">'+age(n
 function wDraw(){var h='<button class="wx" id="wx" aria-label="Sulje">✕</button><div class="wstep">'+(wstep<4?"Vaihe "+wstep+" / 3":"Esikatselu")+'</div>';
 if(wstep==1)h+='<h3>Nimeä kategoria</h3><input id="wnm" placeholder="Esim. Kyberturvallisuus" value="'+wesc(WD.name)+'" maxlength="30"><div class="whint">Nimi näkyy etusivulla ja valikossa.</div>';
 if(wstep==2){h+='<h3>Lisää uutislähteet</h3><div id="wsrcs">';WD.src.forEach(function(s,i){h+=wSrcRow(s,i)});h+='</div><button class="wbtn" id="wmoresrc">+ Lisää uutislähde</button><div class="whint">Kirjoita sivuston nimi tai liitä sen osoite. Listasta valittujen lähteiden uutiset haetaan automaattisesti. Itse liitettyjen osoitteiden uutisia ei vielä haeta.</div>'}
-if(wstep==3)h+='<h3>Hakusanat</h3><input id="wkw" placeholder="Kirjoita aihe tai tarkka hakusana" autocomplete="off"><div class="wsug" id="wksug"></div><div id="wkwl"></div>'+wAiPanel()+'<div class="whint">Kirjoita esim. jalkapallo ja napauta sopivaa aihetta, niin sen hakusanat tulevat mukaan. Pilkku tai Enter lisää tarkan hakusanan. Poista väärät sanat rastista.</div>';
+if(wstep==3)h+='<h3>Hakusanat</h3><input id="wkw" placeholder="Kirjoita aihe tai tarkka hakusana" autocomplete="off"><div class="wsug" id="wksug"></div><div class="whint">Kirjoita esim. jalkapallo ja napauta sopivaa aihetta, niin sen hakusanat tulevat mukaan. Pilkku tai Enter lisää tarkan hakusanan. Poista väärät sanat rastista.</div><div id="wkwl"></div>'+wAiPanel();
 if(wstep==4)h+=wPreview();
 h+='<div class="wrow"><button class="wbtn" id="wback">'+(wstep==1?"Peruuta":"Takaisin")+'</button><button class="wbtn p" id="wnext">'+(wstep==3?"Esikatsele":wstep==4?"Tallenna kategoria":"Seuraava")+'</button></div>';
 $w("dlg").innerHTML=h;if(wstep==3)wkwl();var f=$w("wnm")||$w("wkw");if(f)f.focus()}
@@ -301,7 +303,7 @@ if(d.rv!==undefined){var p=d.rv.split("-");WD.kws[+p[0]].v.splice(+p[1],1);retur
 if(t.id==="wmoresrc"){WD.src.push({t:"",ok:false});$w("wsrcs").insertAdjacentHTML("beforeend",wSrcRow(WD.src[WD.src.length-1],WD.src.length-1));return}
 if(t.id==="wback"){if(wstep==1)wClose();else{wstep--;wDraw()}return}
 if(d.rs!==undefined){WD.src.splice(+d.rs,1);if(!WD.src.length)WD.src.push({t:"",ok:false});$w("wsrcs").innerHTML=WD.src.map(wSrcRow).join("");wEditPrev();return}
-if(t.id==="waibtn"){var pn=$w("waip");pn.hidden=!pn.hidden;if(!pn.hidden)$w("waiprompt").value=wAiPrompt();return}
+if(t.id==="waibtn"){$w("waiwrap").hidden=true;$w("waip").hidden=false;$w("waiprompt").value=wAiPrompt();return}
 if(t.id==="wcopy"){var pt=wAiPrompt(),st=$w("wcopyst");$w("waiprompt").value=pt;
 var fb=function(){var a=$w("waiprompt");a.focus();a.select();var ok=false;try{ok=document.execCommand("copy")}catch(err){}if(ok)st.textContent="Kopioitu!";else{a.classList.remove("hid");a.removeAttribute("aria-hidden");st.textContent="Kopiointi ei onnistunut. Kopioi prompti kentästä."}};
 if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(pt).then(function(){st.textContent="Kopioitu!"},fb);else fb();return}
@@ -314,7 +316,7 @@ if(wstep<4){wstep++;wDraw();return}
 var id="c"+Date.now();CUSTOM[id]={name:WD.name.trim(),src:WD.src.filter(function(s){return s.t.trim()}).map(function(s){return{n:s.t,id:s.id||"",rss:s.rss||""}}),kws:WD.kws};CATS[id]=CUSTOM[id].name;ORDER.push(id);persist();buildCustom();wClose();WD=null;location.hash="#"+id}});
 function wAiPrompt(){var n=WD&&WD.name&&WD.name.trim();
 return (n?'Kategoriani nimi on "'+n+'".\n\n':'')+'Autat minua tekemään hakusanoja uutisten suodattamiseen. Kysy minulta yksi kysymys kerrallaan ja odota vastaus ennen seuraavaa:\n1) Mikä on kategorian aihe?\n2) Mitkä asiat aiheessa kiinnostavat erityisesti (esim. henkilöt, joukkueet, yritykset, tapahtumat)?\n3) Haluatko hakusanat suomeksi, englanniksi vai molemmilla?\n\nTee vastausten perusteella 15–40 hakusanaa. Säännöt:\n- sanat perusmuodossa, ei taivutusmuotoja\n- vähintään 3 kirjainta, nimet ja lyhenteet käyvät\n- ei toistoja\n\nKirjoita lopuksi yksi lyhyt rivi (esim. \"Tässä hakusanat:\") ja sen alle kaikki hakusanat yhteen koodilohkoon (```) yhdellä rivillä pilkuilla eroteltuna, jotta voin kopioida ne yhdellä napilla. Älä kirjoita koodilohkon jälkeen mitään.'}
-function wAiPanel(){return '<button class="wbtn waib" id="waibtn">✨ Luo hakusanat tekoälyllä</button><div class="waip" id="waip" hidden>'+
+function wAiPanel(){return '<div class="wor">– TAI –</div><div class="waiwrap" id="waiwrap"><button class="wbtn waib" id="waibtn">✨ Luo hakusanat tekoälyllä</button></div><div class="waip" id="waip" hidden>'+
 '<ol class="waisteps"><li>Kopioi prompti ja liitä se omaan tekoälyysi.</li><li>Vastaa tekoälyn kysymyksiin.</li><li>Kopioi tekoälyn antamat hakusanat ja liitä ne alla olevaan kenttään.</li></ol>'+
 '<textarea id="waiprompt" class="hid" rows="5" readonly aria-hidden="true" tabindex="-1"></textarea><div class="wrow cprow"><span class="waist" id="wcopyst"></span><button class="wbtn" id="wcopy">Kopioi prompti</button></div>'+
 '<textarea id="waiin" rows="3" placeholder="Liitä tekoälyn vastaus tähän"></textarea><div class="wrow"><span class="waist" id="waist"></span><button class="wbtn p" id="waiadd">Lisää hakusanat</button></div></div>'}
@@ -331,7 +333,7 @@ var d=$w("dlg");d.classList.add("big");
 d.innerHTML='<button class="wx" id="wx" aria-label="Sulje">✕</button><div class="wstep">Muokkaa kategoriaa</div><h3>'+wesc(c.name)+'</h3>'+
 '<h4>Nimi</h4><input id="wnm" value="'+wesc(WD.name)+'" maxlength="30">'+
 '<h4>Uutislähteet</h4><div id="wsrcs">'+WD.src.map(wSrcRow).join("")+'</div><button class="wbtn" id="wmoresrc">+ Lisää uutislähde</button>'+
-'<h4>Hakusanat</h4><input id="wkw" placeholder="Kirjoita aihe tai tarkka hakusana" autocomplete="off"><div class="wsug" id="wksug"></div><div id="wkwl"></div>'+wAiPanel()+
+'<h4>Hakusanat</h4><input id="wkw" placeholder="Kirjoita aihe tai tarkka hakusana" autocomplete="off"><div class="wsug" id="wksug"></div><div class="whint">Kirjoita esim. jalkapallo ja napauta sopivaa aihetta, niin sen hakusanat tulevat mukaan. Pilkku tai Enter lisää tarkan hakusanan. Poista väärät sanat rastista.</div><div id="wkwl"></div>'+wAiPanel()+
 '<h4>Esikatselu</h4><div id="wprev"></div>'+
 '<div class="wrow end"><button class="wbtn" data-cancel="1">Peruuta</button><button class="wbtn p" id="wsave">Tallenna muutokset</button></div>';
 $w("ov").classList.add("open");wkwl();d.scrollTop=0}
