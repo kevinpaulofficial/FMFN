@@ -78,6 +78,12 @@ main .addcat{margin-top:26px}
 .wbtn.red{background:#c62828;border-color:#c62828;color:#fff}
 .wrow{display:flex;justify-content:space-between;gap:8px;margin-top:18px}
 .wrow.end{justify-content:flex-end}
+#dlg.big{max-width:760px;max-height:100%}
+#dlg h4{margin:22px 0 8px;font-size:.8rem;text-transform:uppercase;letter-spacing:.04em;opacity:.7}
+.wsrc{position:relative}
+.wrs{position:absolute;top:6px;right:6px;width:34px;height:34px;border:0;border-radius:8px;background:none;color:var(--text);cursor:pointer;opacity:.7}
+.wrs:hover{background:var(--pop);opacity:1}
+.catedit{margin:-6px 0 6px;padding:8px 14px;border-radius:10px;border:1px solid var(--line);background:none;color:var(--text);font:inherit;font-size:.85rem;cursor:pointer}
 .wx{position:absolute;top:10px;right:10px;width:36px;height:36px;border:0;border-radius:50%;background:none;color:var(--text);font-size:1.1rem;cursor:pointer;opacity:.7}
 .wx:hover{background:var(--box);opacity:1}
 .wchip{display:inline-flex;align-items:center;gap:6px;background:var(--box);border-radius:999px;padding:5px 6px 5px 12px;margin:4px 4px 0 0;font-size:.88rem}
@@ -123,7 +129,7 @@ var imp=a.filter(function(n){return n.imp})[0];
 var hot=a.filter(function(n){return n.hot&&n!==imp}).slice(0,2);
 var top=(imp?[imp]:[]).concat(hot);
 var rest=a.filter(function(n){return top.indexOf(n)<0});
-return '<h1>'+CATS[k]+'</h1>'+top.concat(rest).map(function(n){return card(n,k,top.indexOf(n)>-1)}).join('')+(a.length?'':'<p class="empty">Ei osumia nykyisillä uutisilla.</p>')}
+return '<h1>'+CATS[k]+'</h1>'+(CUSTOM[k]?'<button class="catedit" data-editcat="'+k+'">✎ Muokkaa kategoriaa</button>':'')+top.concat(rest).map(function(n){return card(n,k,top.indexOf(n)>-1)}).join('')+(a.length?'':'<p class="empty">Ei osumia nykyisillä uutisilla.</p>')}
 var CUSTOM={},DEL=[];try{CUSTOM=JSON.parse(localStorage.getItem("custom")||"{}");DEL=JSON.parse(localStorage.getItem("del")||"[]")}catch(e){}
 Object.keys(CUSTOM).forEach(function(id){CATS[id]=CUSTOM[id].name});
 var ORDER=Object.keys(CATS),EDIT=false;
@@ -132,7 +138,7 @@ ORDER=ORDER.filter(function(c){return DEL.indexOf(c)<0});
 function save(){try{localStorage.setItem("order",JSON.stringify(ORDER))}catch(e){}}
 var DRAFT=null,drag=null;
 function menu(k){var h='<a href="#koti" class="'+(!CATS[k]?'on':'')+'">Koti</a>';
-(EDIT?DRAFT:ORDER).forEach(function(c){h+=EDIT?'<div class="row" data-c="'+c+'"><span class="grip" aria-label="Vedä siirtääksesi">⠿</span><span>'+CATS[c]+'</span><button class="x" data-del="'+c+'" aria-label="Poista kategoria">✕</button></div>':'<a href="#'+c+'" class="'+(c===k?'on':'')+'">'+CATS[c]+'</a>'});
+(EDIT?DRAFT:ORDER).forEach(function(c){h+=EDIT?'<div class="row" data-c="'+c+'"><span class="grip" aria-label="Vedä siirtääksesi">⠿</span><span>'+CATS[c]+'</span>'+(CUSTOM[c]?'<button class="x" data-editcat="'+c+'" aria-label="Muokkaa kategoriaa">✎</button>':'')+'<button class="x" data-del="'+c+'" aria-label="Poista kategoria">✕</button></div>':'<a href="#'+c+'" class="'+(c===k?'on':'')+'">'+CATS[c]+'</a>'});
 return h+'<button class="addcat" data-addcat="1"><span>+</span> Lisää kategoria</button><button class="edit" id="editbtn">'+(EDIT?'Valmis':'Muokkaa järjestystä')+'</button><div class="sep"></div><button class="edit" id="themebtn">'+(THEME==="dark"?"Vaalea teema":"Tumma teema")+'</button><button class="edit" id="dysbtn">'+(DYS?"Lukihäiriötila: päällä":"Lukihäiriötila: pois")+'</button><div class="sep"></div><button class="edit" id="exportbtn">Vie asetukset</button><button class="edit" id="importbtn">Tuo asetukset</button>'}
 function route(keep){var k=(location.hash||"#koti").slice(1);
 document.getElementById('app').innerHTML=CATS[k]&&ORDER.indexOf(k)>-1?cat(k):home();
@@ -182,22 +188,23 @@ var W=L.map(function(n){return wWords(n.t)});
 var H=L.map(function(n,i){if(n===best)return{n:n,h:-1};var c=0;W.forEach(function(b,j){if(j===i)return;var sh=0;for(var w in W[i])if(b[w])sh++;if(sh>=2)c++});return{n:n,h:c+(n._hot?3:0)}});
 H.filter(function(x){return x.h>0}).sort(function(a,b){return b.h-a.h||b.n.p-a.n.p}).slice(0,2).forEach(function(x){x.n.hot=true});
 DATA[id]=L})}
-function wOpen(){WD={name:"",src:[{t:"",ok:false}],kws:[]};wstep=1;M.classList.remove("open");$w("ov").classList.add("open");wDraw()}
-function wClose(){$w("ov").classList.remove("open")}
+function wOpen(){WD={name:"",src:[{t:"",ok:false}],kws:[]};wstep=1;M.classList.remove("open");$w("dlg").classList.remove("big");$w("ov").classList.add("open");wDraw()}
+function wClose(){$w("ov").classList.remove("open");$w("dlg").classList.remove("big")}
 function confirmDel(id){$w("dlg").innerHTML='<h3>Haluatko varmasti poistaa "'+wesc(CATS[id])+'"?</h3><div class="wrow end"><button class="wbtn" data-cancel="1">Peruuta</button><button class="wbtn red" data-dodel="'+id+'">Poista</button></div>';$w("ov").classList.add("open")}
 function doDel(id){if(CUSTOM[id]){delete CUSTOM[id];delete CATS[id]}else if(DEL.indexOf(id)<0)DEL.push(id);
 ORDER=ORDER.filter(function(x){return x!==id});if(DRAFT)DRAFT=DRAFT.filter(function(x){return x!==id});persist();wClose();if(location.hash==="#"+id)location.hash="#koti";route(true)}
-function wSrcRow(s,i){return '<div class="wsrc"><input data-i="'+i+'" placeholder="Sivuston nimi tai osoite" value="'+wesc(s.t)+'"><span class="wst'+(s.ok?" ok":"")+'" id="wst'+i+'">'+(s.ok?"✓ Syöte löytyi":"")+'</span><div class="wsug" id="wsg'+i+'"></div></div>'}
+function wSrcRow(s,i){return '<div class="wsrc"><input data-i="'+i+'" placeholder="Sivuston nimi tai osoite" value="'+wesc(s.t)+'"><span class="wst'+(s.ok?" ok":"")+'" id="wst'+i+'">'+(s.ok?"✓ Syöte löytyi":"")+'</span>'+(WD&&WD.edit?'<button class="wrs" data-rs="'+i+'" aria-label="Poista lähde">✕</button>':'')+'<div class="wsug" id="wsg'+i+'"></div></div>'}
 function wkwl(){var h="";WD.kws.forEach(function(k,i){h+='<div class="wkw"><span class="wchip"><span class="wtag">'+(k.t?"Aihe":"Tarkka")+'</span><b>'+wesc(k.k)+'</b><button data-rk="'+i+'" aria-label="Poista">×</button></span>';
 if(k.v.length){h+="<div>";k.v.forEach(function(v,j){h+='<span class="wchip v">'+wesc(v)+'<button data-rv="'+i+"-"+j+'" aria-label="Poista">×</button></span>'});h+="</div>"}
-else h+='<div class="whint">'+(k.t?"Aiheella ei ole vielä liittyviä sanoja.":"Etsitään alkuosalla: <b>"+wesc(wstem(k.k))+"</b>")+'</div>';h+="</div>"});$w("wkwl").innerHTML=h}
+else h+='<div class="whint">'+(k.t?"Aiheella ei ole vielä liittyviä sanoja.":"Etsitään alkuosalla: <b>"+wesc(wstem(k.k))+"</b>")+'</div>';h+="</div>"});$w("wkwl").innerHTML=h;if(WD.edit)wEditPrev()}
 function wAddKw(w){w=w.trim().toLowerCase();if(!w||WD.kws.some(function(k){return !k.t&&k.k==w}))return;WD.kws.push({k:w,t:false,v:[]});wkwl()}
 function wAddTopic(id){var x=WTOP.filter(function(o){return o.id===id})[0];if(!x||WD.kws.some(function(k){return k.id===id}))return;WD.kws.push({k:x.nimi,id:x.id,t:true,v:x.sanat.slice()});wkwl()}
 function wTopFind(q){q=q.trim().toLowerCase();if(q.length<2)return[];var r=new RegExp("(^|[^\\p{L}\\p{N}])"+q.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),"iu");
 var a=WTOP.filter(function(x){return r.test(x.nimi)||r.test(x.paa)}),b=WTOP.filter(function(x){return a.indexOf(x)<0&&x.sanat.some(function(w){return r.test(w)})});return a.concat(b).slice(0,8)}
 function wSrcFind(q){q=q.trim().toLowerCase();return q?WCAT.filter(function(x){return x.nimi.toLowerCase().indexOf(q)>-1||x.id.indexOf(q)>-1}).slice(0,6):[]}
 function wMatch(list,q){q=q.toLowerCase();return q?list.filter(function(x){return x.toLowerCase().indexOf(q)>-1}).slice(0,5):[]}
-function wPreview(){var h="<h3>"+wesc(WD.name)+"</h3>";
+function wPreview(){return "<h3>"+wesc(WD.name)+"</h3>"+wPrevBody()}
+function wPrevBody(){var h="";
 if(!WD.kws.length&&!wSrcIds(WD.src).length)return h+'<div class="whint">Valitse lähteitä listasta tai lisää hakusanoja, jotta uutisia voidaan valita.</div>';
 var f=wFind(WD.kws,WD.src);
 if(!f.length)return h+'<div class="whint"><b>Ei osumia nykyisillä uutisilla.</b> Voit silti tallentaa kategorian tai palata lisäämään sanoja.</div>';
@@ -212,28 +219,46 @@ h+='<div class="wrow"><button class="wbtn" id="wback">'+(wstep==1?"Peruuta":"Tak
 $w("dlg").innerHTML=h;if(wstep==3)wkwl();var f=$w("wnm")||$w("wkw");if(f)f.focus()}
 document.addEventListener("input",function(e){var t=e.target;if(!WD)return;
 if(t.id==="wnm")WD.name=t.value;
-if(t.dataset&&t.dataset.i!==undefined){var i=+t.dataset.i,v=t.value;WD.src[i].t=v;WD.src[i].ok=false;$w("wst"+i).className="wst";$w("wst"+i).textContent="";
+if(t.dataset&&t.dataset.i!==undefined){var i=+t.dataset.i,v=t.value;WD.src[i]={t:v,ok:false};$w("wst"+i).className="wst";$w("wst"+i).textContent="";
 $w("wsg"+i).innerHTML=wSrcFind(v).map(function(x){return '<button data-pick="'+i+'" data-id="'+wesc(x.id)+'">'+wesc(x.nimi)+'<small>'+(x.kieli==="fi"?"Suomi":"EN")+(x.testattu?" · ✓":"")+'</small></button>'}).join("");
-if(/^(https?:\/\/)?[\w-]+(\.[\w-]+)+/i.test(v)){$w("wst"+i).textContent="Etsitään syötettä…";setTimeout(function(){if(WD&&WD.src[i]&&WD.src[i].t===v&&wstep==2){WD.src[i].ok=true;$w("wst"+i).className="wst ok";$w("wst"+i).textContent="✓ Syöte löytyi (esimerkki)"}},700)}}
+if(/^(https?:\/\/)?[\w-]+(\.[\w-]+)+/i.test(v)){$w("wst"+i).textContent="Etsitään syötettä…";setTimeout(function(){if(WD&&WD.src[i]&&WD.src[i].t===v&&(wstep==2||WD.edit)){WD.src[i].ok=true;$w("wst"+i).className="wst ok";$w("wst"+i).textContent="✓ Syöte löytyi (esimerkki)"}},700)}}
+if(WD.edit&&t.dataset&&t.dataset.i!==undefined)wEditPrev();
 if(t.id==="wkw"){var q=t.value;if(q.indexOf(",")>-1){q.split(",").forEach(function(w){wAddKw(w)});t.value="";$w("wksug").innerHTML="";return}
 var sg=wTopFind(q).map(function(x){return '<button data-add="'+wesc(x.id)+'"><b>'+wesc(x.nimi)+'</b><small>'+wesc(x.paa)+' · '+x.sanat.length+' sanaa</small></button>'}).join("");if(q.trim())sg+='<button data-exact="'+wesc(q.trim())+'">Lisää tarkka hakusana: <b>'+wesc(q.trim())+'</b></button>';$w("wksug").innerHTML=sg}});
 document.addEventListener("keydown",function(e){if(e.key==="Enter"&&e.target.id==="wkw"){wAddKw(e.target.value);e.target.value="";$w("wksug").innerHTML=""}});
 document.addEventListener("click",function(e){var t=e.target,d=t.dataset||{};
+var ed=t.closest("[data-editcat]");if(ed){wEdit(ed.dataset.editcat);return}
 var dl=t.closest("[data-del]");if(dl){confirmDel(dl.dataset.del);return}
 if(t.closest("[data-addcat]")){wOpen();return}
 if(d.dodel!==undefined){doDel(d.dodel);return}
 if(d.cancel!==undefined||t.id==="ov"||t.id==="wx"){wClose();return}
 if(!WD)return;
-if(d.pick!==undefined){var i=+d.pick,x=WCAT.filter(function(c){return c.id===d.id})[0];if(!x)return;WD.src[i]={t:x.nimi,ok:true,id:x.id,rss:x.rss};$w("dlg").querySelector('input[data-i="'+i+'"]').value=x.nimi;$w("wst"+i).className="wst ok";$w("wst"+i).textContent="✓ Lähde valittu";$w("wsg"+i).innerHTML="";return}
+if(d.pick!==undefined){var i=+d.pick,x=WCAT.filter(function(c){return c.id===d.id})[0];if(!x)return;WD.src[i]={t:x.nimi,ok:true,id:x.id,rss:x.rss};$w("dlg").querySelector('input[data-i="'+i+'"]').value=x.nimi;$w("wst"+i).className="wst ok";$w("wst"+i).textContent="✓ Lähde valittu";$w("wsg"+i).innerHTML="";if(WD.edit)wEditPrev();return}
 if(d.exact!==undefined){wAddKw(d.exact);$w("wkw").value="";$w("wksug").innerHTML="";$w("wkw").focus();return}
 if(d.add!==undefined){wAddTopic(d.add);$w("wkw").value="";$w("wksug").innerHTML="";$w("wkw").focus();return}
 if(d.rk!==undefined){WD.kws.splice(+d.rk,1);return wkwl()}
 if(d.rv!==undefined){var p=d.rv.split("-");WD.kws[+p[0]].v.splice(+p[1],1);return wkwl()}
 if(t.id==="wmoresrc"){WD.src.push({t:"",ok:false});$w("wsrcs").insertAdjacentHTML("beforeend",wSrcRow(WD.src[WD.src.length-1],WD.src.length-1));return}
 if(t.id==="wback"){if(wstep==1)wClose();else{wstep--;wDraw()}return}
+if(d.rs!==undefined){WD.src.splice(+d.rs,1);if(!WD.src.length)WD.src.push({t:"",ok:false});$w("wsrcs").innerHTML=WD.src.map(wSrcRow).join("");wEditPrev();return}
+if(t.id==="wsave"){var nm=WD.name.trim();if(!nm){$w("wnm").focus();return}var eid=WD.edit;
+CUSTOM[eid]={name:nm,src:WD.src.filter(function(s){return s.t.trim()}).map(function(s){return{n:s.t,id:s.id||"",rss:s.rss||""}}),kws:WD.kws};CATS[eid]=nm;persist();buildCustom();wClose();WD=null;route(true);return}
 if(t.id==="wnext"){if(wstep==1&&!WD.name.trim()){$w("wnm").focus();return}
 if(wstep<4){wstep++;wDraw();return}
 var id="c"+Date.now();CUSTOM[id]={name:WD.name.trim(),src:WD.src.filter(function(s){return s.t.trim()}).map(function(s){return{n:s.t,id:s.id||"",rss:s.rss||""}}),kws:WD.kws};CATS[id]=CUSTOM[id].name;ORDER.push(id);persist();buildCustom();wClose();WD=null;location.hash="#"+id}});
+function wEditPrev(){var p=$w("wprev");if(p)p.innerHTML=wPrevBody()}
+function wEdit(id){var c=CUSTOM[id];if(!c)return;M.classList.remove("open");
+var src=(c.src||[]).map(function(x){if(typeof x==="string"){var m=WCAT.filter(function(w){return w.nimi.toLowerCase()===x.trim().toLowerCase()})[0];return m?{t:m.nimi,ok:true,id:m.id,rss:m.rss}:{t:x,ok:false}}return{t:x.n||x.t||"",ok:!!x.id,id:x.id||"",rss:x.rss||""}});
+if(!src.length)src.push({t:"",ok:false});
+WD={edit:id,name:c.name,src:src,kws:JSON.parse(JSON.stringify(c.kws||[]))};wstep=0;
+var d=$w("dlg");d.classList.add("big");
+d.innerHTML='<button class="wx" id="wx" aria-label="Sulje">✕</button><div class="wstep">Muokkaa kategoriaa</div><h3>'+wesc(c.name)+'</h3>'+
+'<h4>Nimi</h4><input id="wnm" value="'+wesc(WD.name)+'" maxlength="30">'+
+'<h4>Uutislähteet</h4><div id="wsrcs">'+WD.src.map(wSrcRow).join("")+'</div><button class="wbtn" id="wmoresrc">+ Lisää uutislähde</button>'+
+'<h4>Hakusanat</h4><input id="wkw" placeholder="Kirjoita aihe tai tarkka hakusana" autocomplete="off"><div class="wsug" id="wksug"></div><div id="wkwl"></div>'+
+'<h4>Esikatselu</h4><div id="wprev"></div>'+
+'<div class="wrow end"><button class="wbtn" data-cancel="1">Peruuta</button><button class="wbtn p" id="wsave">Tallenna muutokset</button></div>';
+$w("ov").classList.add("open");wkwl();d.scrollTop=0}
 var KEYS=["theme","dys","order","custom","del"],IMP=null;
 function exportSettings(){var o={sovellus:"SUCKMYNEWS",versio:1,viety:new Date().toISOString(),asetukset:{}};
 KEYS.forEach(function(k){try{var v=localStorage.getItem(k);if(v!==null)o.asetukset[k]=v}catch(e){}});
