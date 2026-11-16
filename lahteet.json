@@ -3,39 +3,39 @@
  "huom": "Kaikki lähteet samassa listassa ilman aihejakoa: käyttäjä valitsee itse lähteet omaan kategoriaansa. testattu=true tarkoittaa, että osoite on toiminut GitHub Actionsissa. Muut RSS-osoitteet ovat arvioita ja pitää testata.",
  "lahteet": [
   {
-    "id": "athletic-football",
-    "nimi": "The Athletic (jalkapallo)",
-    "kieli": "en",
-    "rss": "https://www.nytimes.com/athletic/rss/football/",
-    "testattu": false
+   "id": "athletic-football",
+   "nimi": "The Athletic (jalkapallo)",
+   "kieli": "en",
+   "rss": "https://www.nytimes.com/athletic/rss/football/",
+   "testattu": true
   },
   {
-    "id": "telegraph-football",
-    "nimi": "The Telegraph (jalkapallo)",
-    "kieli": "en",
-    "rss": "http://www.telegraph.co.uk/football/rss.xml",
-    "testattu": false
+   "id": "telegraph-football",
+   "nimi": "The Telegraph (jalkapallo)",
+   "kieli": "en",
+   "rss": "http://www.telegraph.co.uk/football/rss.xml",
+   "testattu": true
   },
   {
-    "id": "ap-news",
-    "nimi": "Associated Press",
-    "kieli": "en",
-    "rss": "https://flipboard.com/@associatedpress/top-stories-u7govdf1z.rss",
-    "testattu": false
+   "id": "ap-news",
+   "nimi": "Associated Press",
+   "kieli": "en",
+   "rss": "https://flipboard.com/@associatedpress/top-stories-u7govdf1z.rss",
+   "testattu": true
   },
   {
-    "id": "sky-sports-football",
-    "nimi": "Sky Sports (jalkapallo)",
-    "kieli": "en",
-    "rss": "https://www.skysports.com/rss/11095",
-    "testattu": false
+   "id": "sky-sports-football",
+   "nimi": "Sky Sports (jalkapallo)",
+   "kieli": "en",
+   "rss": "https://www.skysports.com/rss/11095",
+   "testattu": true
   },
   {
-    "id": "bbc-football",
-    "nimi": "BBC Sport (jalkapallo)",
-    "kieli": "en",
-    "rss": "https://feeds.bbci.co.uk/sport/football/rss.xml",
-    "testattu": false
+   "id": "bbc-football",
+   "nimi": "BBC Sport (jalkapallo)",
+   "kieli": "en",
+   "rss": "https://feeds.bbci.co.uk/sport/football/rss.xml",
+   "testattu": true
   },
   {
    "id": "mv-lehti",
