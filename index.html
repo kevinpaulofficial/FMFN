@@ -84,7 +84,8 @@ main .addcat{margin-top:26px}
 .wrs{position:absolute;top:6px;right:6px;width:34px;height:34px;border:0;border-radius:8px;background:none;color:var(--text);cursor:pointer;opacity:.7}
 .wrs:hover{background:var(--pop);opacity:1}
 .catedit{margin:-6px 0 6px;padding:8px 14px;border-radius:10px;border:1px solid var(--line);background:none;color:var(--text);font:inherit;font-size:.85rem;cursor:pointer}
-.wx{position:absolute;top:10px;right:10px;width:36px;height:36px;border:0;border-radius:50%;background:none;color:var(--text);font-size:1.1rem;cursor:pointer;opacity:.7}
+.wx{position:absolute;z-index:5;top:10px;right:10px;width:40px;height:40px;padding:0;display:flex;align-items:center;justify-content:center;border:0;border-radius:50%;background:none;color:var(--text);font-size:1.1rem;line-height:1;cursor:pointer;opacity:.7}
+.wx *{pointer-events:none}
 .wx:hover{background:var(--box);opacity:1}
 .wchip{display:inline-flex;align-items:center;gap:6px;background:var(--box);border-radius:999px;padding:5px 6px 5px 12px;margin:4px 4px 0 0;font-size:.88rem}
 .wchip.v{font-size:.78rem;opacity:.7;padding:3px 4px 3px 9px}
@@ -226,7 +227,7 @@ if(WD.edit&&t.dataset&&t.dataset.i!==undefined)wEditPrev();
 if(t.id==="wkw"){var q=t.value;if(q.indexOf(",")>-1){q.split(",").forEach(function(w){wAddKw(w)});t.value="";$w("wksug").innerHTML="";return}
 var sg=wTopFind(q).map(function(x){return '<button data-add="'+wesc(x.id)+'"><b>'+wesc(x.nimi)+'</b><small>'+wesc(x.paa)+' · '+x.sanat.length+' sanaa</small></button>'}).join("");if(q.trim())sg+='<button data-exact="'+wesc(q.trim())+'">Lisää tarkka hakusana: <b>'+wesc(q.trim())+'</b></button>';$w("wksug").innerHTML=sg}});
 document.addEventListener("keydown",function(e){if(e.key==="Enter"&&e.target.id==="wkw"){wAddKw(e.target.value);e.target.value="";$w("wksug").innerHTML=""}});
-document.addEventListener("click",function(e){var t=e.target,d=t.dataset||{};
+document.addEventListener("click",function(e){var t=(e.target.closest&&e.target.closest("button"))||e.target,d=t.dataset||{};
 var ed=t.closest("[data-editcat]");if(ed){wEdit(ed.dataset.editcat);return}
 var dl=t.closest("[data-del]");if(dl){confirmDel(dl.dataset.del);return}
 if(t.closest("[data-addcat]")){wOpen();return}
