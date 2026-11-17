@@ -6,8 +6,8 @@
    "nimi": "Suomen uutiset yleinen",
    "ryhma": "Suomen uutiset",
    "lahteet": [
-    "yle",
-    "hs",
+    "yle_uutiset",
+    "hs_uutiset",
     "iltalehti",
     "mtv",
     "mv-lehti"

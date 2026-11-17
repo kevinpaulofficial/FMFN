@@ -92,8 +92,27 @@
    "id": "hs",
    "nimi": "Helsingin Sanomat",
    "kieli": "fi",
-   "rss": "https://www.hs.fi/rss/tuoreimmat.xml",
-   "testattu": true
+   "alalahteet": [
+    {
+     "id": "uutiset",
+     "nimi": "Uutiset",
+     "rss": "https://www.hs.fi/rss/tuoreimmat.xml",
+     "testattu": true
+    },
+    {
+     "id": "kulttuuri",
+     "nimi": "Kulttuuri",
+     "rss": "https://www.hs.fi/rss/kulttuuri.xml",
+     "testattu": false
+    },
+    {
+     "id": "visio",
+     "nimi": "Visio",
+     "rss": "https://www.hs.fi/rss/visio.xml",
+     "testattu": false
+    }
+   ],
+   "testattu": false
   },
   {
    "id": "iltalehti",
@@ -169,8 +188,27 @@
    "id": "yle",
    "nimi": "Yle",
    "kieli": "fi",
-   "rss": "https://yle.fi/rss/uutiset/paauutiset",
-   "testattu": true
+   "alalahteet": [
+    {
+     "id": "uutiset",
+     "nimi": "Uutiset",
+     "rss": "https://yle.fi/rss/uutiset/paauutiset",
+     "testattu": true
+    },
+    {
+     "id": "talous",
+     "nimi": "Talous",
+     "rss": "https://yle.fi/rss/t/18-204933/fi",
+     "testattu": false
+    },
+    {
+     "id": "urheilu",
+     "nimi": "Urheilu",
+     "rss": "https://yle.fi/rss/urheilu",
+     "testattu": false
+    }
+   ],
+   "testattu": false
   }
  ]
 }
