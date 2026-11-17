@@ -169,6 +169,7 @@ main .addcat{margin-top:26px}
 #obOv .tile:hover{border-color:var(--text)}
 #obOv .tile .tn{font-family:var(--display);font-size:1.35rem;line-height:1.05;text-transform:uppercase;overflow-wrap:break-word;hyphens:auto;padding-right:20px;max-width:100%}
 #obOv .tile .tn.long{font-size:1.02rem}
+#obOv .tile .tn .yl{font-size:calc(1em - 3px)}
 :root[data-dys="1"] #obOv .tile .tn{text-transform:none;font-size:1.05rem}
 #obOv .tile .tm{font-size:.78rem;color:var(--muted)}
 #obOv .tile .ck{position:absolute;top:10px;right:12px;font-weight:700}
@@ -560,8 +561,12 @@ $("sClose").onclick=function(){leaveReady(closeOv)};$("toOwn").onclick=function(
 $("rNext").onclick=saveSel;$("rDone").onclick=function(){if(!SEL.length||saveSel())closeOv()}}
 // pitkä nimi tai pitkä yksittäinen sana saa pienemmän fontin, jotta sana ei katkea
 function longName(n){return n.length>12||n.split(/\s+/).some(function(w){return w.length>8})}
+// "yleinen"-loppuiset nimet: jokainen sana omalle rivilleen ja "yleinen" pienempänä muodossa "-yleinen"
+function hasYl(n){return /(^|\s)yleinen$/i.test(n.trim())}
+function tileLong(n){return hasYl(n)?n.split(/\s+/).some(function(w){return w.length>8}):longName(n)}
+function tileName(n){if(!hasYl(n))return esc(n);return n.trim().split(/\s+/).map(function(w){return /^yleinen$/i.test(w)?'<span class="yl">-'+esc(w)+'</span>':esc(w)}).join('<br>')}
 function packTile(i){var p=PACKS[i],made=exists(p.nimi),on=SEL.indexOf(i)>-1,nt=(p.aiheet||[]).length;
-return '<button class="tile'+(made?' made':'')+'" data-tile="'+i+'" aria-pressed="'+(on?'true':'false')+'"'+(made?' aria-disabled="true"':'')+'><span class="ck">'+(made||on?'✓':'')+'</span><span class="tn'+(longName(p.nimi)?' long':'')+'" lang="fi">'+esc(p.nimi)+'</span><span class="tm">'+(made?'Lisätty':p.lahteet.length+' lähdettä · '+nt+(nt===1?' aihe':' aihetta'))+'</span></button>'}
+return '<button class="tile'+(made?' made':'')+'" data-tile="'+i+'" aria-pressed="'+(on?'true':'false')+'"'+(made?' aria-disabled="true"':'')+'><span class="ck">'+(made||on?'✓':'')+'</span><span class="tn'+(tileLong(p.nimi)?' long':'')+'" lang="fi">'+tileName(p.nimi)+'</span><span class="tm">'+(made?'Lisätty':p.lahteet.length+' lähdettä · '+nt+(nt===1?' aihe':' aihetta'))+'</span></button>'}
 // ryhmät ensiesiintymisjärjestyksessä; ix = ryhmän kategorioiden PACKS-indeksit
 function groupList(){var G=[],m={};PACKS.forEach(function(p,i){if(!p.ryhma)return;if(!m[p.ryhma]){m[p.ryhma]={n:p.ryhma,ix:[]};G.push(m[p.ryhma])}m[p.ryhma].ix.push(i)});return G}
 function groupAvail(g){return g.ix.filter(function(i){return !exists(PACKS[i].nimi)})}
