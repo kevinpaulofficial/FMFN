@@ -163,7 +163,7 @@ main .addcat{margin-top:26px}
 #obOv .chead{padding:18px 64px 14px 24px;border-bottom:1px solid var(--line)}
 #obOv .chead h3{margin:0;font-size:1.3rem}
 #obOv .cbody{flex:1;min-height:0;display:grid;grid-template-columns:minmax(0,1fr) 230px}
-#obOv .form{overflow:auto;padding:18px 24px 24px;min-width:0}
+#obOv .form{overflow:auto;overscroll-behavior:contain;padding:18px 24px 24px;min-width:0}
 #obOv .done{border-left:1px solid var(--line);padding:18px;overflow:auto}
 #obOv .done h4,#obOv .sec h4{margin:0 0 8px;font-size:.78rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:600}
 #obOv .done ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
@@ -242,7 +242,7 @@ main .addcat{margin-top:26px}
 #obOv .aip .row{display:flex;justify-content:flex-end;align-items:center;gap:10px;margin:12px 0}
 #obOv .aip .row:last-child{margin-bottom:0}
 #obOv .aip .st{margin-right:auto;font-size:.8rem;color:var(--muted)}
-#obOv .cfoot{display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-end;gap:10px;padding:14px 24px;border-top:1px solid var(--line)}
+#obOv .cfoot{position:relative;display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-end;gap:10px;padding:14px 24px;border-top:1px solid var(--line)}
 #obOv .cfoot .msg{margin-right:auto;font-size:.88rem;min-width:0}
 #obOv .cfoot .msg.ok{color:var(--ok)}
 #obOv .cfoot .msg.err{color:var(--err)}
@@ -259,6 +259,14 @@ main .addcat{margin-top:26px}
  #obOv .done h4{display:inline;margin-right:8px}
  #obOv .chead{padding-left:16px}
  #obOv .form,#obOv .cfoot,#obOv .confirm{padding-left:16px;padding-right:16px}
+ #obOv .own{grid-template-rows:minmax(0,1fr)}
+ #obOv .own .done{display:none}
+ #obOv #srcSug{max-height:none;overflow:visible}
+ #obOv .cfoot{flex-wrap:nowrap;gap:8px;padding-top:12px;padding-bottom:12px}
+ #obOv .cfoot .msg{position:absolute;left:16px;right:16px;bottom:100%;margin:0;padding:8px 0;background:var(--pop)}
+ #obOv .cfoot .msg:empty{display:none}
+ #obOv .cfoot .tl{flex:1 1 0;min-width:0;margin-right:auto;text-align:left;font-size:.85rem;line-height:1.25;padding:4px 0}
+ #obOv .cfoot .btn{flex:none;white-space:nowrap;font-size:.85rem;padding:9px 12px}
 }
 @media (prefers-reduced-motion:reduce){#obOv .done li.new{animation:none}}
 /* first-category button on the home page */
@@ -565,8 +573,13 @@ CATS[id]=c.name;ORDER.push(id);persist();buildCustom();route(true)}
 var LOGO='<svg class="wlogo" viewBox="0 0 193 79" aria-label="FMFN"><text x="96.5" y="47" text-anchor="middle" textLength="179" lengthAdjust="spacingAndGlyphs" font-size="50">FMFN</text><text x="96.5" y="69" text-anchor="middle" textLength="179" lengthAdjust="spacingAndGlyphs" font-size="14">FilterMyF*cka*sNews</text></svg>';
 
 /* ikkunan runko */
-function openOv(html,label){if($("obOv").hidden)lastFocus=document.activeElement;$("obSheet").setAttribute("aria-label",label);$("obSheet").innerHTML=html;$("obOv").hidden=false;document.body.style.overflow="hidden";try{M.classList.remove("open")}catch(e){}}
-function closeOv(){VIEW=null;SEL=[];F=null;$("obOv").hidden=true;document.body.style.overflow="";if(lastFocus&&lastFocus.focus)lastFocus.focus()}
+function lockBody(){if(LOCKY!==null)return;LOCKY=window.scrollY;var b=document.body.style;b.position="fixed";b.top=-LOCKY+"px";b.left="0";b.right="0";b.overflow="hidden"}
+function unlockBody(){if(LOCKY===null)return;var b=document.body.style,y=LOCKY;LOCKY=null;b.position=b.top=b.left=b.right=b.overflow="";window.scrollTo(0,y)}
+var LOCKY=null;
+// puhelimella ei avata näppäimistöä automaattisesti
+function softFocus(el){if(el&&!(window.matchMedia&&matchMedia("(pointer:coarse)").matches))el.focus()}
+function openOv(html,label){if($("obOv").hidden){lastFocus=document.activeElement;lockBody()}$("obSheet").setAttribute("aria-label",label);$("obSheet").innerHTML=html;$("obOv").hidden=false;try{M.classList.remove("open")}catch(e){}}
+function closeOv(){VIEW=null;SEL=[];F=null;$("obOv").hidden=true;unlockBody();if(lastFocus&&lastFocus.focus)lastFocus.focus()}
 function shell(title,body,foot){return '<button class="x" id="sClose" aria-label="Sulje">✕</button><div class="chead"><h3>'+title+'</h3></div>'+body+'<div id="obConfirm"></div><div class="cfoot"><span class="msg" id="obMsg" role="status"></span>'+foot+'</div>'}
 function doneAside(){return '<aside class="done" aria-label="Luodut kategoriat"><h4>Luodut kategoriat</h4><ul id="obDone"></ul></aside>'}
 function drawDone(){var n=names();$("obDone").innerHTML=n.length?n.map(function(c){return '<li'+(JUSTN.indexOf(c)>-1?' class="new"':'')+'>'+esc(c)+'</li>'}).join(''):'<li class="none">Ei vielä yhtään. Tallennettu kategoria näkyy tässä.</li>'}
@@ -634,9 +647,9 @@ function leaveReady(fn){if(SEL.length)ask("Valintojasi ei ole tallennettu.","Jat
 
 /* oma kategoria: kaikki samassa näkymässä */
 function openCreator(){F=blank();VIEW="own";JUSTN=[];
-openOv(shell("Luo oma kategoria",'<div class="cbody"><div class="form" id="obForm"></div>'+doneAside()+'</div>',
+openOv(shell("Luo oma kategoria",'<div class="cbody own"><div class="form" id="obForm"></div>'+doneAside()+'</div>',
 '<button class="tl" id="toReady">Lisää valmiit kategoriat</button><button class="btn" id="cNext">Tallenna ja lisää</button><button class="btn p" id="cDone">Valmis</button>'),"Luo oma kategoria");
-drawForm();drawDone();$("fName").focus();
+drawForm();drawDone();softFocus($("fName"));
 $("sClose").onclick=function(){tryLeave(closeOv)};$("toReady").onclick=function(){tryLeave(openReady)};
 $("cNext").onclick=function(){if(commit())reset()};$("cDone").onclick=function(){if(isEmpty()){closeOv();return}if(commit())closeOv()}}
 function drawForm(){$("obForm").innerHTML='<div class="sec" id="secName"><h4><label for="fName">Nimi</label></h4><input class="in" id="fName" maxlength="30" placeholder="Esim. Tekoäly" value="'+esc(F.name)+'" aria-describedby="errName"><p class="ferr" id="errName" hidden></p></div>'+
@@ -668,7 +681,7 @@ if(!F.src.length)es="*Lisää vähintään yksi lähde.";
 setErr("Name",en);setErr("Src",es);
 if(en||es){msg("Täydennä punaisella merkityt kohdat.","err");(en?$("fName"):$("fSrc")).focus();return false}
 saveCat({name:nm,src:F.src.slice(),kws:JSON.parse(JSON.stringify(F.kws))});JUSTN=[nm];drawDone();return true}
-function reset(){var nm=JUSTN[0];F=blank();drawForm();$("obForm").scrollTop=0;msg("✓ "+nm+" tallennettu. Lisää seuraava kategoria.","ok");$("fName").focus()}
+function reset(){var nm=JUSTN[0];F=blank();drawForm();$("obForm").scrollTop=0;msg("✓ "+nm+" tallennettu. Lisää seuraava kategoria.","ok");softFocus($("fName"))}
 function tryLeave(fn){if(isEmpty()||!F.touched){fn();return}ask("Hylätäänkö keskeneräinen kategoria?","Jatka muokkausta","Hylkää",fn)}
 
 /* tekoälyprompti */
