@@ -6,7 +6,7 @@
    "nimi": "Suomen uutiset yleinen",
    "ryhma": "Suomen uutiset",
    "lahteet": [
-    "yle-uutiset",
+    "yle",
     "hs",
     "iltalehti",
     "mtv",
@@ -37,7 +37,7 @@
    "ryhma": "Urheilu",
    "lahteet": [
     "athletic-football",
-    "bbc-football",
+    "bbc_football",
     "sky-sports-football"
    ],
    "aiheet": []
@@ -46,7 +46,7 @@
    "nimi": "Urheilu yleinen",
    "ryhma": "Urheilu",
    "lahteet": [
-    "bbc-sport",
+    "bbc_sport",
     "cbs-sports"
    ],
    "aiheet": []
@@ -56,7 +56,7 @@
    "lahteet": [
     "ap-news",
     "guardian",
-    "bbc-news",
+    "bbc_news",
     "aljazeera"
    ],
    "aiheet": []

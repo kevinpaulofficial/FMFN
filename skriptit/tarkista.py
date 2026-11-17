@@ -32,7 +32,7 @@ for src in data["lahteet"]:
     if src.get("rss"):
         own.append(by.get(src["id"], (0, 0))[1] > 0)
     for sub in src.get("alalahteet", []):
-        sub["testattu"] = by.get(src["id"] + "-" + sub["id"], (0, 0))[1] > 0
+        sub["testattu"] = by.get(src["id"] + "_" + sub["id"], (0, 0))[1] > 0
         own.append(sub["testattu"])
     src["testattu"] = bool(own) and all(own)
 

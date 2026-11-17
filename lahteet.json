@@ -1,6 +1,6 @@
 {
  "versio": 3,
- "huom": "Päälähdelista. Käyttäjä valitsee lähteensä tästä listasta: koko lähteen tai vain tietyt alalähteet. Uuden lähteen tai alalähteen voi lisätä pelkästään muokkaamalla tätä tiedostoa. Lähteellä voi olla oma rss-osoite ja/tai alalahteet-lista, jonka jokaisella alalähteellä on id, nimi ja rss (kieli periytyy lähteeltä, ellei sitä anneta). id:ssä saa olla vain pieniä kirjaimia a-z, numeroita ja viivoja. Jokaisen syötteen uutiset tallennetaan omaan tiedostoonsa: lähteen oma rss -> data/<lähteen id>.json, alalähde -> data/<lähteen id>-<alalähteen id>.json (esim. data/yle-talous.json). testattu=true tarkoittaa, että osoite on toiminut GitHub Actionsissa. Lähteet ovat aakkosjärjestyksessä nimen mukaan (alun 'The' ohitetaan järjestämisessä).",
+ "huom": "Päälähdelista. Käyttäjä valitsee lähteensä tästä listasta: koko lähteen tai vain tietyt alalähteet. Uuden lähteen tai alalähteen voi lisätä pelkästään muokkaamalla tätä tiedostoa. Lähteellä on joko oma rss-osoite tai alalahteet-lista, jonka jokaisella alalähteellä on id, nimi ja rss (kieli periytyy lähteeltä, ellei sitä anneta). id:ssä saa olla vain pieniä kirjaimia a-z, numeroita ja viivoja (ei alaviivaa, se on varattu tiedostonimiin). Jokaisella lähteellä on oma kansio: data/<lähde>/. Siellä alalähteen uutiset ovat tiedostossa <lähde>_<alalähde>.json (esim. data/bbc/bbc_news.json) ja koko lähteen uutiset yhdessä tiedostossa <lähde>.json (esim. data/bbc/bbc.json). Lähteellä, jolla ei ole alalähteitä, on vain <lähde>.json (esim. data/yle/yle.json). Sivu lataa koko lähteen tiedoston, kun käyttäjä on valinnut lähteen kaikki alalähteet, ja muuten vain valitut alalähteet. vanha_id = aiempi tunnus, jotta käyttäjien aiemmin tallentamat kategoriat toimivat edelleen. testattu=true tarkoittaa, että osoite on toiminut GitHub Actionsissa. Lähteet ovat aakkosjärjestyksessä nimen mukaan (alun 'The' ohitetaan järjestämisessä).",
  "lahteet": [
   {
    "id": "aljazeera",
@@ -24,24 +24,32 @@
    "testattu": true
   },
   {
-   "id": "bbc-news",
-   "nimi": "BBC News",
+   "id": "bbc",
+   "nimi": "BBC",
    "kieli": "en",
-   "rss": "https://feeds.bbci.co.uk/news/world/rss.xml",
-   "testattu": true
-  },
-  {
-   "id": "bbc-sport",
-   "nimi": "BBC Sport",
-   "kieli": "en",
-   "rss": "https://feeds.bbci.co.uk/sport/rss.xml",
-   "testattu": true
-  },
-  {
-   "id": "bbc-football",
-   "nimi": "BBC Sport (jalkapallo)",
-   "kieli": "en",
-   "rss": "https://feeds.bbci.co.uk/sport/football/rss.xml",
+   "alalahteet": [
+    {
+     "id": "news",
+     "nimi": "News",
+     "rss": "https://feeds.bbci.co.uk/news/world/rss.xml",
+     "vanha_id": "bbc-news",
+     "testattu": true
+    },
+    {
+     "id": "sport",
+     "nimi": "Sport",
+     "rss": "https://feeds.bbci.co.uk/sport/rss.xml",
+     "vanha_id": "bbc-sport",
+     "testattu": true
+    },
+    {
+     "id": "football",
+     "nimi": "Football",
+     "rss": "https://feeds.bbci.co.uk/sport/football/rss.xml",
+     "vanha_id": "bbc-football",
+     "testattu": true
+    }
+   ],
    "testattu": true
   },
   {
@@ -146,32 +154,7 @@
    "id": "yle",
    "nimi": "Yle",
    "kieli": "fi",
-   "alalahteet": [
-    {
-     "id": "uutiset",
-     "nimi": "Uutiset",
-     "rss": "https://yle.fi/rss/uutiset/paauutiset",
-     "testattu": true
-    },
-    {
-     "id": "talous",
-     "nimi": "Talous",
-     "rss": "https://yle.fi/rss/t/18-19274/fi",
-     "testattu": true
-    },
-    {
-     "id": "kulttuuri",
-     "nimi": "Kulttuuri",
-     "rss": "https://yle.fi/rss/t/18-150067/fi",
-     "testattu": true
-    },
-    {
-     "id": "urheilu",
-     "nimi": "Urheilu",
-     "rss": "https://yle.fi/rss/urheilu",
-     "testattu": true
-    }
-   ],
+   "rss": "https://yle.fi/rss/uutiset/paauutiset",
    "testattu": true
   }
  ]
