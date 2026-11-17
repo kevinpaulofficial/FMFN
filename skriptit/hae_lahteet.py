@@ -1,4 +1,4 @@
-import json, os, re, html, urllib.request
+import json, re, html, urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
@@ -6,40 +6,6 @@ from concurrent.futures import ThreadPoolExecutor
 
 PER_SOURCE = 15             # montako uusinta uutista per lähde
 MAX_AGE = timedelta(days=7) # tätä vanhempia ei tallenneta
-DATA_DIR = "data"           # jokainen syöte omaan tiedostoonsa: data/<syötteen id>.json
-ID_OK = re.compile(r"^[a-z0-9][a-z0-9-]*$")
-
-
-def feed_file(fid):
-    # sama sääntö on sivulla (index.html, feedFile): data/<syötteen id>.json
-    return os.path.join(DATA_DIR, fid + ".json")
-
-
-def feed_list(data):
-    """Kaikki haettavat syötteet lahteet.json:sta.
-
-    Lähteen oma rss -> syöte, jonka id on lähteen id (esim. "hs").
-    Alalähde -> syöte, jonka id on "<lähteen id>-<alalähteen id>" (esim. "yle-talous").
-    """
-    feeds, ids = [], set()
-
-    def add(fid, rss):
-        if not ID_OK.match(fid):
-            print(fid, "OHITETTU: id saa sisältää vain pieniä kirjaimia a-z, numeroita ja viivoja")
-        elif fid in ids:
-            print(fid, "OHITETTU: sama id on jo käytössä")
-        elif not rss:
-            print(fid, "OHITETTU: rss-osoite puuttuu")
-        else:
-            ids.add(fid)
-            feeds.append({"id": fid, "rss": rss})
-
-    for src in data["lahteet"]:
-        if src.get("rss"):
-            add(src["id"], src["rss"])
-        for sub in src.get("alalahteet", []):
-            add(src["id"] + "-" + sub["id"], sub.get("rss"))
-    return feeds
 
 
 def local(tag):
@@ -96,15 +62,14 @@ def image(el):
     return None
 
 
-def read(feed):
-    fid, rss = feed["id"], feed["rss"]
+def read(src):
     try:
-        req = urllib.request.Request(rss, headers={"User-Agent": "Mozilla/5.0"})
+        req = urllib.request.Request(src["rss"], headers={"User-Agent": "Mozilla/5.0"})
         root = ET.fromstring(urllib.request.urlopen(req, timeout=20).read())
     except Exception as e:
-        return fid, [], str(e)[:80]
+        return src["id"], [], str(e)[:80]
     now = datetime.now(timezone.utc)
-    out, seen = [], set()
+    out = []
     for it in root.iter():
         if local(it.tag) not in ("item", "entry"):
             continue
@@ -113,11 +78,10 @@ def read(feed):
             continue
         t = clean(text(it, "title"))
         u = link(it)
-        if not t or not u or u in seen:
+        if not t or not u:
             continue
-        seen.add(u)
         out.append({
-            "l": fid,
+            "l": src["id"],
             "t": t,
             "u": u,
             "p": d.isoformat() if d else None,
@@ -125,47 +89,31 @@ def read(feed):
             "i": image(it),
         })
     out.sort(key=lambda x: x["p"] or "", reverse=True)
-    return fid, out[:PER_SOURCE], None
+    return src["id"], out[:PER_SOURCE], None
 
 
 def main():
     data = json.load(open("lahteet.json", encoding="utf-8"))
-    feeds = feed_list(data)
-    os.makedirs(DATA_DIR, exist_ok=True)
     with ThreadPoolExecutor(10) as ex:
-        results = list(ex.map(read, feeds))
+        results = list(ex.map(read, data["lahteet"]))
 
-    total = 0
-    for fid, got, err in results:
-        path = feed_file(fid)
-        if err:
-            # virheen sattuessa edellinen tiedosto jää voimaan, jotta uutiset eivät katoa sivulta
-            print(fid, "VIRHE", err)
-            continue
-        total += len(got)
-        old = None
-        if os.path.exists(path):
-            try:
-                old = json.load(open(path, encoding="utf-8"))
-            except Exception:
-                old = None
-        # kirjoitetaan vain, jos uutiset muuttuivat: muuten jokainen ajo muuttaisi jokaista tiedostoa
-        if old and old.get("uutiset") == got:
-            print(fid, "OK %d (ei muutoksia)" % len(got))
-            continue
-        out = {"lahde": fid, "haettu": datetime.now(timezone.utc).isoformat(), "uutiset": got}
-        with open(path, "w", encoding="utf-8") as f:
-            json.dump(out, f, ensure_ascii=False, separators=(",", ":"))
-        print(fid, "OK %d" % len(got))
+    items = []
+    for sid, got, err in results:
+        print(sid, "VIRHE " + err if err else "OK %d" % len(got))
+        items += got
 
-    # poistetaan tiedostot, joiden syöte ei ole enää lahteet.json:ssa
-    keep = {os.path.basename(feed_file(f["id"])) for f in feeds}
-    for name in os.listdir(DATA_DIR):
-        if name.endswith(".json") and name not in keep:
-            os.remove(os.path.join(DATA_DIR, name))
-            print("Poistettu vanha tiedosto", name)
+    seen, uniq = set(), []
+    for x in items:
+        if x["u"] not in seen:
+            seen.add(x["u"])
+            uniq.append(x)
+    # vakaa järjestys (lähde, uusin ensin), jotta tiedosto muuttuu ajojen välillä mahdollisimman vähän
+    uniq.sort(key=lambda x: x["p"] or "", reverse=True)
+    uniq.sort(key=lambda x: x["l"])
 
-    print("Syötteitä:", len(feeds), "· uutisia:", total)
+    out = {"haettu": datetime.now(timezone.utc).isoformat(), "uutiset": uniq}
+    json.dump(out, open("kaikki.json", "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+    print("Uutisia yhteensä:", len(uniq))
 
 
 if __name__ == "__main__":

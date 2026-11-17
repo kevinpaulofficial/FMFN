@@ -277,26 +277,11 @@ var H=3600000,D=86400000,T=Date.UTC(2026,10,15,8,0,0);
 var CATS={};var BASE=["suomi","jalkapallo","teknologia","maailma","musiikki"];
 var DATA={};
 function two(t){var m=(t||"").match(/[^.!?]+[.!?]+/g);return m?m.slice(0,2).join(" ").trim():(t||"")}
-var ALL=[],WCAT=[],FEEDS={},LOADED={},LOADING={};
-// Uutiset ladataan syötekohtaisista tiedostoista vain niille syötteille, joita käyttäjän kategoriat tarvitsevat.
-// Tiedostonimi on sama kuin skriptit/hae_lahteet.py:n feed_file: data/<syötteen id>.json
-function feedFile(id){return "data/"+id+".json"}
-var IDOK=/^[a-z0-9][a-z0-9-]*$/;
-function addItems(j){if(!j)return;var hp=Date.parse(j.haettu)||Date.now();ALL=ALL.concat((j.uutiset||[]).map(function(x){return{t:x.t,s:two(x.s),u:x.u,p:Date.parse(x.p)||hp,img:x.i,l:x.l,imp:false,hot:false,who:""}}))}
-function loadFeeds(ids){return Promise.all(ids.filter(function(f){return IDOK.test(f)&&!LOADED[f]}).map(function(f){
-if(!LOADING[f])LOADING[f]=fetch(feedFile(f)+"?"+Date.now()).then(function(r){return r.ok?r.json():null}).then(addItems).catch(function(){}).then(function(){LOADED[f]=1});return LOADING[f]}))}
-// lahteet.json ladataan vain lähteiden nimiä ja syötteitä varten. WCAT = valittavat lähteet ja alalähteet,
-// FEEDS = lähteen tai alalähteen id -> sen syötteiden id:t (koko lähde = oma rss + kaikki alalähteet)
-function loadCat(){return fetch("lahteet.json").then(function(r){return r.ok?r.json():null}).then(function(j){if(!j)return;var C=[];FEEDS={};
-(j.lahteet||[]).forEach(function(s){var own=[];if(s.rss)own.push(s.id);C.push({id:s.id,nimi:s.nimi,kieli:s.kieli,rss:s.rss||""});
-(s.alalahteet||[]).forEach(function(a){var fid=s.id+"-"+a.id;own.push(fid);FEEDS[fid]=[fid];C.push({id:fid,nimi:s.nimi+" – "+a.nimi,kieli:a.kieli||s.kieli,rss:a.rss||"",yla:s.id})});
-FEEDS[s.id]=own});WCAT=C}).catch(function(){})}
-function feedsOf(id){return FEEDS[id]||[id]}
-function allFeeds(){var o=[];Object.keys(FEEDS).forEach(function(k){FEEDS[k].forEach(function(f){if(o.indexOf(f)<0)o.push(f)})});return o}
-// kategorian syötteet; ilman listasta valittuja lähteitä kategoria hakee kaikista lähteistä
-function srcFeeds(src){var ids=wSrcIds(src);if(!ids.length)return allFeeds();var o=[];ids.forEach(function(i){feedsOf(i).forEach(function(f){if(o.indexOf(f)<0)o.push(f)})});return o}
-function needFeeds(){var o=[];Object.keys(CUSTOM).forEach(function(c){srcFeeds(CUSTOM[c].src).forEach(function(f){if(o.indexOf(f)<0)o.push(f)})});return o}
-function load(){return Promise.all([loadCat(),window.obLoad?obLoad():null]).then(function(){return loadFeeds(needFeeds())})}
+var ALL=[],WCAT=[];
+function loadAll(){return fetch("kaikki.json?"+Date.now()).then(function(r){return r.ok?r.json():null}).then(function(j){if(!j)return;var hp=Date.parse(j.haettu)||Date.now();ALL=(j.uutiset||[]).map(function(x){return{t:x.t,s:two(x.s),u:x.u,p:Date.parse(x.p)||hp,img:x.i,l:x.l,imp:false,hot:false,who:""}})}).catch(function(){})}
+function loadCat(){return fetch("lahteet.json").then(function(r){return r.ok?r.json():null}).then(function(j){if(j)WCAT=j.lahteet||[]}).catch(function(){})}
+// uutiset tulevat vain kaikki.json-tiedostosta (lahteet.json-lähteet); news.json ei ole enää käytössä
+function load(){return Promise.all([loadAll(),loadCat(),window.obLoad?obLoad():null])}
 function age(p){var s=Math.max(0,Math.floor((Date.now()-p)/1000));
 if(s<60)return s+"s";if(s<3600)return Math.floor(s/60)+"m";if(s<86400)return Math.floor(s/3600)+"h";return Math.floor(s/86400)+"d"}
 function pic(n,k){return n.img?'<img class="pic" src="'+wesc(n.img)+'" alt="" style="width:100%;object-fit:cover" onerror="this.remove()">':''}
@@ -388,7 +373,7 @@ return o.map(function(s){return pre+s})}
 function wRe(t){return new RegExp("(^|[^\\p{L}\\p{N}])(?:"+wForms(t).map(function(f){return f.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")}).join("|")+")","iu")}
 function wSrcIds(src){var o=[];(src||[]).forEach(function(x){var id=typeof x==="string"?"":(x.id||""),nm=typeof x==="string"?x:(x.n||x.t||"");
 if(!id&&nm){var c=WCAT.filter(function(w){return w.nimi.toLowerCase()===nm.trim().toLowerCase()})[0];if(c)id=c.id}if(id&&o.indexOf(id)<0)o.push(id)});return o}
-function wPool(src){var ids=wSrcIds(src);if(ids.length){var fs=srcFeeds(src);return ALL.filter(function(n){return fs.indexOf(n.l)>-1})}
+function wPool(src){var ids=wSrcIds(src);if(ids.length)return ALL.filter(function(n){return ids.indexOf(n.l)>-1});
 var o=[];Object.keys(DATA).forEach(function(c){if(!CUSTOM[c])o=o.concat(DATA[c]||[])});return o.concat(ALL)}
 function wFind(kws,src){var T=wTerms(kws||[]),ids=wSrcIds(src),seen={},out=[];if(!T.length&&!ids.length)return out;
 var R=T.map(wRe);
@@ -398,10 +383,7 @@ var WSTOP=" the and for with from that this after over into says said will have 
 function wWords(t){var o={};(t.toLowerCase().match(/[\p{L}\p{N}]{4,}/gu)||[]).forEach(function(w){if(WSTOP.indexOf(" "+w+" ")<0)o[w]=1});return o}
 var BRK=/(^|[^\p{L}])(breaking|live:|live updates|latest:|urgent|just in|tuoreeltaan|kiireellinen|hetki hetkeltä|seuranta:|nyt:)/iu;
 var SEV=/(^|[^\p{L}])(killed|dead|deaths|explosion|earthquake|attack|evacuat|shooting|crash|emergency|kuoli|kuollut|kuolleita|räjähdy|hyökkäy|ammuskel|maanjäristy|evakuo|onnettomuu|hätätila)/iu;
-function buildCustom(){
-// uusi kategoria voi tarvita syötteitä, joita ei ole vielä ladattu: ladataan ne ja piirretään uudelleen
-var miss=needFeeds().filter(function(f){return !LOADED[f]&&!LOADING[f]});if(miss.length)loadFeeds(miss).then(function(){buildCustom();route(true)});
-Object.keys(CUSTOM).forEach(function(id){
+function buildCustom(){Object.keys(CUSTOM).forEach(function(id){
 var R=wTerms(CUSTOM[id].kws).map(wRe);
 var L=wFind(CUSTOM[id].kws,CUSTOM[id].src).map(function(n){return{t:n.t,s:n.s,u:n.u,p:n.p,l:n.l,imp:false,hot:false,who:"",img:n.img,_imp:!!n.imp,_hot:!!n.hot}});
 if(!L.length){DATA[id]=L;return}
@@ -439,7 +421,6 @@ function wMatch(list,q){q=q.toLowerCase();return q?list.filter(function(x){retur
 function wPreview(){return "<h3>"+wesc(WD.name)+"</h3>"+wPrevBody()}
 function wPrevBody(){var h="";
 if(!WD.kws.length&&!wSrcIds(WD.src).length)return h+'<div class="whint">Valitse lähteitä listasta tai lisää hakusanoja, jotta uutisia voidaan valita.</div>';
-var miss=srcFeeds(WD.src).filter(function(f){return !LOADED[f]});if(miss.length){loadFeeds(miss).then(function(){if(WD&&wstep==4)wDraw()});return h+'<div class="whint">Ladataan uutisia…</div>'}
 var f=wFind(WD.kws,WD.src);
 if(!f.length)return h+'<div class="whint"><b>Ei osumia nykyisillä uutisilla.</b> Voit silti tallentaa kategorian tai palata lisäämään sanoja.</div>';
 h+='<div class="whint">Löytyi '+f.length+' uutista:</div>';
