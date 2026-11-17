@@ -527,7 +527,7 @@ function closeWelcome(){setWelcomed();closeOv()}
 
 /* valinta: valmiit vai omat */
 function openChoice(){F=null;VIEW="choice";
-openOv('<button class="x" id="sClose" aria-label="Sulje">✕</button><div class="choice"><button class="opt" id="oReady"><span class="t">Valitse valmiit kategoriat</span><p>Valmiit kokonaisuudet, joissa lähteet ja hakusanat on jo valittu.</p><span class="pill">Valitse valmiit</span></button><div class="div" role="presentation"></div><button class="opt" id="oOwn"><span class="t">Luo omat kategoriat</span><p>Nimeä kategoria, valitse lähteet ja kirjoita omat hakusanat.</p><span class="pill">Luo omat</span></button></div>',"Miten aloitetaan");
+openOv('<button class="x" id="sClose" aria-label="Sulje">✕</button><div class="choice"><button class="opt" id="oReady"><span class="t">Valitse valmiit kategoriat</span><p>Valmiiksi kootut kategoriat, joiden lähteitä voit muokata myöhemmin.</p><span class="pill">Valitse valmiit</span></button><div class="div" role="presentation"></div><button class="opt" id="oOwn"><span class="t">Luo omat kategoriat</span><p>Nimeä kategoria, valitse lähteet ja kirjoita omat hakusanat.</p><span class="pill">Luo omat</span></button></div>',"Miten aloitetaan");
 $("sClose").onclick=closeOv;$("oReady").onclick=openReady;$("oOwn").onclick=openCreator}
 
 /* valmiit kategoriat ruudukkona */
