@@ -74,7 +74,8 @@
    "testattu": true
   },
   {
-   "id": "ft",
+   "id": "financial-times",
+   "vanha_id": "ft",
    "nimi": "Financial Times",
    "kieli": "en",
    "rss": "https://www.ft.com/?format=rss",
