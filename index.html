@@ -135,12 +135,13 @@ main .addcat{margin-top:26px}
 #obOv .x *{pointer-events:none}
 #obOv .x:hover{background:var(--box);opacity:1}
 #obOv .welcome{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:40px 24px;gap:18px;overflow:auto;container-type:inline-size}
-#obOv .wlogo{display:block;width:193px;max-width:100%;margin:0;color:var(--text)}
+#obOv .wlogo{display:block;width:clamp(120px,18cqi,193px);max-width:100%;margin:0;color:var(--text)}
 #obOv .wlogo text{font-family:"theboldfont",Impact,"Arial Black",sans-serif;fill:currentColor}
 #obOv .welcome h1{font-family:var(--display);font-weight:normal;font-size:10.4cqi;line-height:1;margin:0;white-space:nowrap}
 :root[data-dys="1"] #obOv .welcome h1{font-size:13.26cqi}
 #obOv .welcome p{margin:-14px 0 0;max-width:100%;font-size:1.1rem;line-height:1.6;color:var(--muted)}
 #obOv .go{margin-top:12px;width:50%;min-width:200px;padding:18px 24px;border:0;border-radius:14px;background:var(--text);color:var(--pop);font-size:1.1rem;font-weight:600;cursor:pointer}
+#obOv .go:focus,#obOv .go:focus-visible{outline:none}
 #obOv .choice{flex:1;min-height:0;display:grid;grid-template-columns:minmax(0,1fr) 1px minmax(0,1fr)}
 #obOv .choice .div{background:var(--line);margin:56px 0}
 #obOv .opt{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:40px 28px;margin:16px;border:0;border-radius:18px;background:none;cursor:pointer;text-align:center;min-width:0;container-type:inline-size}
@@ -181,6 +182,7 @@ main .addcat{margin-top:26px}
 #obOv .gtile .tm{padding-right:44px}
 #obOv .gexp{position:absolute;right:10px;bottom:10px;width:36px;height:36px;border-radius:50%;border:1px solid var(--line);background:var(--pop);color:var(--text);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:1rem;line-height:1}
 #obOv .gexp:hover{border-color:var(--text)}
+#obOv .gexp{transition:transform .3s ease}
 #obOv .gexp[aria-expanded="true"]{transform:rotate(180deg)}
 #obOv .gkids{grid-column:1/-1;display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;padding:12px;border:1px dashed var(--line);border-radius:16px;background:var(--box)}
 #obOv .sec{margin-top:22px}
@@ -349,13 +351,31 @@ function $w(i){return document.getElementById(i)}
 function wesc(t){return String(t).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
 function wstem(w){var p=w.split(" "),l=p.pop(),n=l.length,c=n>=8?2:n>=6?1:0;return p.concat([l.slice(0,n-c)]).join(" ")+(c?"*":"")}
 function persist(){try{localStorage.setItem("custom",JSON.stringify(CUSTOM));localStorage.setItem("del",JSON.stringify(DEL));localStorage.setItem("order",JSON.stringify(ORDER))}catch(e){}}
-function wTerms(kws){var t=[];kws.forEach(function(k){if(k.t){k.v.forEach(function(v){t.push(v)});if(!k.id)t.push(k.k)}else t.push(k.k)});return t.map(function(x){return wstem(x).replace("*","").toLowerCase()}).filter(Boolean)}
+function wTerms(kws){var t=[];kws.forEach(function(k){if(k.t){k.v.forEach(function(v){t.push(v)});if(!k.id)t.push(k.k)}else t.push(k.k)});return t.map(function(x){return x.trim().toLowerCase()}).filter(Boolean)}
+// hakusanan taivutusmuodot: alkuperäinen sana ja sen yleisimmät taivutusvartalot (esim. Suomi → Suomen, Turku → Turun, presidentti → presidentin, Virtanen → Virtasen)
+var WV="aeiouyäö";
+function wWeak(s){var r=[[/kk$/,"k"],[/pp$/,"p"],[/tt$/,"t"],[/nk$/,"ng"],[/mp$/,"mm"],[/nt$/,"nn"],[/lt$/,"ll"],[/rt$/,"rr"],[/ht$/,"hd"],[/([lrh])k$/,"$1",/([lrh])k$/,"$1j"],[/([aeiouyäö])k$/,"$1"],[/([aeiouyäöl])p$/,"$1v"],[/([aeiouyäö])t$/,"$1d"]];
+for(var i=0;i<r.length;i++)if(r[i][0].test(s)){var o=[s.replace(r[i][0],r[i][1])];if(r[i][2])o.push(s.replace(r[i][2],r[i][3]));return o}return[]}
+function wStrong(s){if(/ng$/.test(s))return s.replace(/ng$/,"nk");if(/[aeiouyäö][kpt]$/.test(s))return s+s.slice(-1);if(/[aeiouyäöhlnr]d$/.test(s))return s.replace(/d$/,"t");return s}
+function wForms(x){x=x.toLowerCase().trim();if(!x)return[];var p=x.split(/\s+/),w=p.pop(),pre=p.length?p.join(" ")+" ":"",n=w.length,o=[w];
+function add(s){if(s&&s.length>=4&&o.indexOf(s)<0)o.push(s)}
+add(wstem(w).replace("*",""));
+if(n>=4&&WV.indexOf(w[n-1])>-1){var v=w[n-1],b=w.slice(0,-1),bs=[b].concat(wWeak(b));
+bs.forEach(function(c){add(c+v);if(v==="i")add(c+"e");if(v==="a"||v==="ä"){add(c+"i");add(c+(v==="a"?"o":"ö"))}});
+if(v==="e"){add(w+"e");add(wStrong(b)+"ee");if(n>=5)add(b)}
+if(v==="y"&&WV.indexOf(w[n-2])<0)add(b+"i")}
+if(/nen$/.test(w)){add(w.slice(0,-3)+"se");add(w.slice(0,-3)+"s")}
+if(/[uy]s$/.test(w)){add(w.slice(0,-1)+"kse");add(w.slice(0,-2)+(w[n-2]==="u"?"ude":"yde"))}
+if(n>=5&&/[aäei]s$/.test(w)){var vv=w[n-2],st=w.slice(0,-2);add(st+vv+vv);add(wStrong(st)+vv+vv)}
+return o.map(function(s){return pre+s})}
+// yksi lauseke per hakusana: osuma, jos jokin sen muodoista alkaa sanan alusta
+function wRe(t){return new RegExp("(^|[^\\p{L}\\p{N}])(?:"+wForms(t).map(function(f){return f.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")}).join("|")+")","iu")}
 function wSrcIds(src){var o=[];(src||[]).forEach(function(x){var id=typeof x==="string"?"":(x.id||""),nm=typeof x==="string"?x:(x.n||x.t||"");
 if(!id&&nm){var c=WCAT.filter(function(w){return w.nimi.toLowerCase()===nm.trim().toLowerCase()})[0];if(c)id=c.id}if(id&&o.indexOf(id)<0)o.push(id)});return o}
 function wPool(src){var ids=wSrcIds(src);if(ids.length)return ALL.filter(function(n){return ids.indexOf(n.l)>-1});
 var o=[];Object.keys(DATA).forEach(function(c){if(!CUSTOM[c])o=o.concat(DATA[c]||[])});return o.concat(ALL)}
 function wFind(kws,src){var T=wTerms(kws||[]),ids=wSrcIds(src),seen={},out=[];if(!T.length&&!ids.length)return out;
-var R=T.map(function(w){return new RegExp("(^|[^\\p{L}\\p{N}])"+w.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),"iu")});
+var R=T.map(wRe);
 wPool(src).forEach(function(n){if(seen[n.u])return;var s=n.t+" "+n.s;if(!R.length||R.some(function(r){return r.test(s)})){seen[n.u]=1;out.push(n)}});
 return out.sort(function(a,b){return b.p-a.p})}
 var WSTOP=" the and for with from that this after over into says said will have has been were what when ja on ei että oli ovat se tai kuin mutta jo myös kun nyt sen tämä joka mitä ";
@@ -363,7 +383,7 @@ function wWords(t){var o={};(t.toLowerCase().match(/[\p{L}\p{N}]{4,}/gu)||[]).fo
 var BRK=/(^|[^\p{L}])(breaking|live:|live updates|latest:|urgent|just in|tuoreeltaan|kiireellinen|hetki hetkeltä|seuranta:|nyt:)/iu;
 var SEV=/(^|[^\p{L}])(killed|dead|deaths|explosion|earthquake|attack|evacuat|shooting|crash|emergency|kuoli|kuollut|kuolleita|räjähdy|hyökkäy|ammuskel|maanjäristy|evakuo|onnettomuu|hätätila)/iu;
 function buildCustom(){Object.keys(CUSTOM).forEach(function(id){
-var R=wTerms(CUSTOM[id].kws).map(function(w){return new RegExp("(^|[^\\p{L}\\p{N}])"+w.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),"iu")});
+var R=wTerms(CUSTOM[id].kws).map(wRe);
 var L=wFind(CUSTOM[id].kws,CUSTOM[id].src).map(function(n){return{t:n.t,s:n.s,u:n.u,p:n.p,l:n.l,imp:false,hot:false,who:"",img:n.img,_imp:!!n.imp,_hot:!!n.hot}});
 if(!L.length){DATA[id]=L;return}
 // tärkein: eniten osumia otsikossa, sitten tiivistyksessä; alkuperäisen kategorian tärkeä uutinen saa lisäpisteitä
@@ -551,6 +571,20 @@ return '<div class="gwrap"><button class="tile gtile'+(done?' made':'')+'" data-
 '<button class="gexp" data-gexp="'+gi+'" aria-expanded="'+open+'" aria-controls="obGrp'+gi+'" aria-label="'+(open?'Piilota':'Näytä')+' ryhmän '+esc(g.n)+' kategoriat">▾</button></div>'+
 (open?'<div class="gkids" id="obGrp'+gi+'" role="group" aria-label="'+esc(g.n)+'">'+g.ix.map(packTile).join('')+'</div>':'')}
 function drawGrid(){var G=groupList();$("obGrid").innerHTML=G.map(groupTile).join('')+PACKS.map(function(p,i){return p.ryhma?'':packTile(i)}).join('')}
+// ryhmän avaus ja sulkeminen liukuvalla animaatiolla
+var GANIM=false;
+function toggleGroup(gx){if(GANIM)return;var gi=gx.dataset.gexp,gg=groupList()[+gi],D=300,
+calm=!document.body.animate||(window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches),
+shut=[{height:"0px",paddingTop:"0px",paddingBottom:"0px",marginTop:"-12px",opacity:0}];
+function refocus(){$("obGrid").querySelector('[data-gexp="'+gi+'"]').focus()}
+if(OPEN[gg.n]){var k=$("obGrp"+gi);gx.setAttribute("aria-expanded","false");
+if(calm||!k){OPEN[gg.n]=false;drawGrid();refocus();return}
+GANIM=true;k.style.overflow="hidden";var h=k.offsetHeight;
+k.animate([{height:h+"px",opacity:1}].concat(shut),{duration:D,easing:"ease-in-out",fill:"forwards"}).onfinish=function(){GANIM=false;OPEN[gg.n]=false;drawGrid();refocus()};return}
+OPEN[gg.n]=true;drawGrid();refocus();var k2=$("obGrp"+gi),b=$("obGrid").querySelector('[data-gexp="'+gi+'"]');
+if(calm||!k2)return;GANIM=true;k2.style.overflow="hidden";var h2=k2.offsetHeight;
+b.animate([{transform:"rotate(0deg)"},{transform:"rotate(180deg)"}],{duration:D,easing:"ease-in-out"});
+k2.animate(shut.concat([{height:h2+"px",opacity:1}]),{duration:D,easing:"ease-in-out"}).onfinish=function(){GANIM=false;k2.style.overflow=""}}
 function saveSel(){if(!SEL.length){msg("Valitse vähintään yksi kategoria.","err");return false}
 var added=[];SEL.forEach(function(i){var p=PACKS[i];if(exists(p.nimi))return;saveCat(packCat(p));added.push(p.nimi)});SEL=[];JUSTN=added;drawGrid();drawDone();
 msg("✓ "+added.join(", ")+" tallennettu. Valitse lisää tai paina Valmis.","ok");return true}
@@ -615,7 +649,7 @@ if(e.key==="Enter"&&e.target.id==="fKw"){e.preventDefault();addWord(e.target.val
 if(e.key==="Enter"&&e.target.id==="fSrc"){e.preventDefault();var first=$("srcSug").querySelector("button");if(first)first.click()}});
 document.addEventListener("click",function(e){if(!e.target.closest||!e.target.closest("#obOv"))return;
 var gx=e.target.closest("[data-gexp]");
-if(gx&&VIEW==="ready"){var gg=groupList()[+gx.dataset.gexp];OPEN[gg.n]=!OPEN[gg.n];drawGrid();$("obGrid").querySelector('[data-gexp="'+gx.dataset.gexp+'"]').focus();return}
+if(gx&&VIEW==="ready"){toggleGroup(gx);return}
 var gt=e.target.closest("[data-group]");
 if(gt&&VIEW==="ready"){var gi=+gt.dataset.group,av=groupAvail(groupList()[gi]);if(!av.length)return;
 var all=av.every(function(i){return SEL.indexOf(i)>-1});if(all)SEL=SEL.filter(function(i){return av.indexOf(i)<0});else av.forEach(function(i){if(SEL.indexOf(i)<0)SEL.push(i)});
