@@ -34,6 +34,12 @@ Lähteen nimi - alalähde + linkki
 - Lisää muutos suoraan `lahteet.json`:iin kysymättä. Kansiot ja tiedostot `data/`-kansioon luo robotti seuraavassa haussa.
 - Jos linkki on tavallinen verkkosivu eikä RSS-syöte, käytä sivuston vastaavaa RSS-osoitetta, jos se tiedetään, ja kerro siitä käyttäjälle. Jos sama syöte on jo lähteissä, kerro se äläkä lisää kaksoiskappaletta.
 
+Vastaus lähteiden lisäämisen jälkeen, lyhyesti, yksi rivi per lähde:
+
+- 🟢 lisätty, ei lisätoimia.
+- 🟡 lisätty, mutta vaatii lisätoimia. Jos voit korjata itse, korjaa ja kerro mitä teit. Muuten tarjoa ratkaisu.
+- 🔴 ei lisätty, syy ja ehdotettu ratkaisu. Käyttäjä päättää.
+
 Päälähde, jolla on oma RSS-osoite:
 
 ```json
