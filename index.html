@@ -191,11 +191,26 @@ main .addcat{margin-top:26px}
 #obOv .in{width:100%;padding:12px;border:1px solid var(--line);border-radius:10px;background:var(--box)}
 #obOv .hint{font-size:.8rem;color:var(--muted);margin:6px 2px 0}
 #obOv .field{position:relative}
+#obOv #secSrc .in{padding-right:52px}
+#obOv .sarrow{position:absolute;top:5px;right:5px;width:40px;height:40px;border:0;border-radius:8px;background:none;color:var(--text);cursor:pointer;font-size:1rem;line-height:1;display:flex;align-items:center;justify-content:center;transition:transform .15s}
+#obOv .sarrow:hover{background:var(--line)}
+#obOv .sarrow[aria-expanded="true"]{transform:rotate(180deg)}
+@media (prefers-reduced-motion:reduce){#obOv .sarrow{transition:none}}
+#obOv #srcSug{position:static;margin-top:6px;box-shadow:none}
 #obOv .sug{position:absolute;left:0;right:0;top:100%;z-index:4;background:var(--pop);border:1px solid var(--line);border-radius:10px;margin-top:2px;overflow:hidden;box-shadow:0 8px 24px rgba(0,0,0,.18)}
 #obOv .sug:empty{display:none}
 #obOv .sug button{display:flex;justify-content:space-between;gap:10px;width:100%;text-align:left;padding:10px 12px;border:0;background:none;cursor:pointer}
 #obOv .sug button:hover,#obOv .sug button:focus-visible{background:var(--box)}
 #obOv .sug small{color:var(--muted);white-space:nowrap}
+#obOv #srcSug{max-height:280px;overflow:auto}
+#obOv #srcSug button[aria-selected="true"]{font-weight:600}
+#obOv #srcSug button[aria-selected="true"] small::before{content:"✓ ";color:var(--ok)}
+#obOv #srcSug .none{padding:10px 12px;font-size:.85rem;color:var(--muted)}
+#obOv .srow{display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:6px 12px}
+#obOv .srow .hint{flex:1;min-width:0}
+#obOv .langs{display:flex;gap:6px;margin-top:6px}
+#obOv .lang{padding:4px 10px;border-radius:999px;border:1px solid var(--line);background:var(--pop);font-size:.75rem;font-weight:600;letter-spacing:.06em;cursor:pointer;color:var(--muted)}
+#obOv .lang[aria-pressed="true"]{background:var(--text);border-color:var(--text);color:var(--pop)}
 #obOv .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
 #obOv .chip{display:inline-flex;align-items:center;gap:4px;background:var(--box);border-radius:999px;padding:4px 4px 4px 12px;font-size:.88rem;max-width:100%}
 #obOv .chip.v{font-size:.8rem;padding:2px 2px 2px 10px;color:var(--muted)}
@@ -478,7 +493,7 @@ try{KEYS.forEach(function(k){if(IMP[k]!==undefined)localStorage.setItem(k,IMP[k]
 IMP=null;location.hash="#koti";location.reload()});
 /* --- ensikäyttö ja kategorian luonti --- */
 (function(){
-var PACKS=[],F=null,VIEW=null,SEL=[],JUSTN=[],OPEN={},lastFocus=null;
+var PACKS=[],F=null,VIEW=null,SEL=[],JUSTN=[],OPEN={},LANG={fi:true,en:true},lastFocus=null;
 function $(i){return document.getElementById(i)}
 function esc(t){return String(t).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
 function rx(q){return new RegExp("(^|[^\\p{L}\\p{N}])"+q.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),"iu")}
@@ -550,7 +565,7 @@ drawForm();drawDone();$("fName").focus();
 $("sClose").onclick=function(){tryLeave(closeOv)};$("toReady").onclick=function(){tryLeave(openReady)};
 $("cNext").onclick=function(){if(commit())reset()};$("cDone").onclick=function(){if(isEmpty()){closeOv();return}if(commit())closeOv()}}
 function drawForm(){$("obForm").innerHTML='<div class="sec" id="secName"><h4><label for="fName">Nimi</label></h4><input class="in" id="fName" maxlength="30" placeholder="Esim. Tekoäly" value="'+esc(F.name)+'" aria-describedby="errName"><p class="ferr" id="errName" hidden></p></div>'+
-'<div class="sec" id="secSrc"><h4><label for="fSrc">Lähteet</label></h4><div class="field"><input class="in" id="fSrc" autocomplete="off" placeholder="Hae lähdettä, esim. Yle tai BBC" aria-describedby="errSrc"><div class="sug" id="srcSug"></div></div><p class="ferr" id="errSrc" hidden></p><p class="hint">Kirjoita lähteen nimi tai liitä sivuston osoite.</p><div class="chips" id="srcChips"></div></div>'+
+'<div class="sec" id="secSrc"><h4><label for="fSrc">Lähteet</label></h4><div class="field"><input class="in" id="fSrc" autocomplete="off" placeholder="Valitse tai hae lähdettä, esim. Yle tai BBC" role="combobox" aria-expanded="false" aria-controls="srcSug" aria-autocomplete="list" aria-describedby="errSrc"><button type="button" class="sarrow" id="srcToggle" aria-label="Näytä kaikki lähteet" aria-expanded="false" aria-controls="srcSug">▾</button><div class="sug" id="srcSug" role="listbox" aria-label="Lähteet" aria-multiselectable="true"></div></div><p class="ferr" id="errSrc" hidden></p><div class="srow"><p class="hint">Avaa lista, valitse useita tai kirjoita nimi. Voit myös liittää sivuston osoitteen.</p></div><div class="chips" id="srcChips"></div></div>'+
 '<div class="sec"><h4><label for="fKw">Hakusanat</label></h4><div class="field"><input class="in" id="fKw" autocomplete="off" placeholder="Kirjoita aihe tai tarkka hakusana"><div class="sug" id="kwSug"></div></div><p class="hint">Kirjoita esim. jalkapallo ja napauta sopivaa aihetta. Pilkku tai Enter lisää tarkan hakusanan. Ilman hakusanoja näytetään kaikki valittujen lähteiden uutiset.</p><div id="kwList"></div>'+
 '<div class="or">– TAI –</div><div class="center" id="aiWrap"><button class="btn" id="aiOpen">✨ Luo hakusanat tekoälyllä</button></div><div class="aip" id="aiPanel" hidden><ol><li>Kopioi prompti ja liitä se omaan tekoälyysi.</li><li>Vastaa tekoälyn kysymyksiin.</li><li>Kopioi tekoälyn antamat hakusanat ja liitä ne alla olevaan kenttään.</li></ol><textarea id="aiPrompt" hidden readonly></textarea><div class="row"><span class="st" id="cpSt" role="status"></span><button class="btn" id="aiCopy">Kopioi prompti</button></div><textarea id="aiIn" rows="3" placeholder="Liitä tekoälyn vastaus tähän"></textarea><div class="row"><span class="st" id="aiSt" role="status"></span><button class="btn p" id="aiAdd">Lisää hakusanat</button></div></div></div>';
 drawSrc();drawKw()}
@@ -559,6 +574,14 @@ function drawKw(){var h="",ex=[];F.kws.forEach(function(k,i){if(!k.t){ex.push(i)
 h+='<div class="kw"><span class="lbl">Aihe</span><span class="chip"><b>'+esc(k.k)+'</b><button data-ork="'+i+'" aria-label="Poista aihe">✕</button></span><div class="chips">'+k.v.map(function(v,j){return '<span class="chip v">'+esc(v)+'<button data-orv="'+i+'-'+j+'" aria-label="Poista '+esc(v)+'">✕</button></span>'}).join('')+'</div></div>'});
 if(ex.length)h+='<div class="kw"><span class="lbl">Tarkat hakusanat</span><div class="chips">'+ex.map(function(i){return '<span class="chip">'+esc(F.kws[i].k)+'<button data-ork="'+i+'" aria-label="Poista '+esc(F.kws[i].k)+'">✕</button></span>'}).join('')+'</div></div>';
 $("kwList").innerHTML=h}
+// lähdelista: kaikki lähteet aakkosjärjestyksessä, suodatettuna kielellä ja haulla
+function srcList(q){q=(q||"").trim();var r=q?rx(q.toLowerCase()):null;
+return WCAT.filter(function(x){return (!r||r.test(x.nimi)||x.id.indexOf(q.toLowerCase())===0)}).slice().sort(function(a,b){return a.nimi.localeCompare(b.nimi,"fi")})}
+function showSrc(){var f=$("fSrc");if(!f)return;var q=f.value.trim(),L=srcList(q),h="";
+L.forEach(function(x){var on=F.src.some(function(s){return s.id===x.id});h+='<button role="option" data-osrc="'+esc(x.id)+'" aria-selected="'+on+'"><span>'+esc(x.nimi)+'</span><small>'+(x.kieli==="fi"?"FIN":"ENG")+'</small></button>'});
+if(q&&/^(https?:\/\/)?[\w-]+(\.[\w-]+)+/i.test(q))h+='<button role="option" data-ourl="'+esc(q)+'"><span>Lisää oma osoite: '+esc(q)+'</span><small>oma</small></button>';
+if(!h)h='<div class="none">Ei lähteitä tällä haulla.</div>';$("srcSug").innerHTML=h;f.setAttribute("aria-expanded","true");var a=$("srcToggle");if(a){a.setAttribute("aria-expanded","true");a.setAttribute("aria-label","Piilota lähteet")}}
+function hideSrc(){var s=$("srcSug");if(s)s.innerHTML="";var f=$("fSrc");if(f)f.setAttribute("aria-expanded","false");var a=$("srcToggle");if(a){a.setAttribute("aria-expanded","false");a.setAttribute("aria-label","Näytä kaikki lähteet")}}
 function setErr(k,t){var s=$("sec"+k),e=$("err"+k);if(!s)return;s.classList.toggle("bad",!!t);e.textContent=t;e.hidden=!t}
 function addSrc(s){if(F.src.some(function(x){return (s.id&&x.id===s.id)||x.n.toLowerCase()===s.n.toLowerCase()}))return;F.src.push(s);F.touched=true;setErr("Src","");drawSrc()}
 function addTopic(id){var x=getTop(id);if(!x||F.kws.some(function(k){return k.id===id}))return;F.kws.push({k:x.nimi,id:x.id,t:true,v:x.sanat.slice()});F.touched=true;drawKw()}
@@ -579,15 +602,16 @@ function aiPrompt(){var n=F.name.trim();return (n?'Kategoriani nimi on "'+n+'".\
 /* tapahtumat ikkunan sisällä */
 document.addEventListener("input",function(e){if(!F||!e.target.closest("#obOv"))return;var t=e.target;
 if(t.id==="fName"){F.name=t.value;F.touched=true;if(t.value.trim())setErr("Name","")}
-if(t.id==="fSrc"){var q=t.value.trim(),h="";if(q){var r=rx(q.toLowerCase());
-WCAT.filter(function(x){return r.test(x.nimi)||x.id.indexOf(q.toLowerCase())===0}).slice(0,6).forEach(function(x){h+='<button data-osrc="'+esc(x.id)+'"><span>'+esc(x.nimi)+'</span><small>'+(x.kieli==="fi"?"Suomi":"EN")+'</small></button>'});
-if(/^(https?:\/\/)?[\w-]+(\.[\w-]+)+/i.test(q))h+='<button data-ourl="'+esc(q)+'"><span>Lisää oma osoite: '+esc(q)+'</span><small>oma</small></button>'}$("srcSug").innerHTML=h}
+if(t.id==="fSrc")showSrc();
 if(t.id==="fKw"){var v=t.value;if(v.indexOf(",")>-1){v.split(",").forEach(addWord);t.value="";$("kwSug").innerHTML="";return}
 var q2=v.trim(),h2="";if(q2.length>=2){var r2=rx(q2);var a=WTOP.filter(function(x){return r2.test(x.nimi)||r2.test(x.paa)}),b=WTOP.filter(function(x){return a.indexOf(x)<0&&x.sanat.some(function(w){return r2.test(w)})});
 a.concat(b).slice(0,7).forEach(function(x){h2+='<button data-otop="'+esc(x.id)+'"><span><b>'+esc(x.nimi)+'</b></span><small>'+esc(x.paa)+' · '+x.sanat.length+' sanaa</small></button>'})}
 if(q2)h2+='<button data-oword="'+esc(q2)+'"><span>Lisää tarkka hakusana: <b>'+esc(q2)+'</b></span><small>tarkka</small></button>';$("kwSug").innerHTML=h2}});
+document.addEventListener("focusin",function(e){if(!F||$("obOv").hidden)return;if(e.target.id==="fSrc"){showSrc();return}if(!e.target.closest("#secSrc"))hideSrc()});
 document.addEventListener("keydown",function(e){if($("obOv").hidden)return;
-if(e.key==="Escape"){var sug=$("obOv").querySelector(".sug:not(:empty)");if(sug){sug.innerHTML="";return}escHandler();return}
+if(F&&(e.key==="ArrowDown"||e.key==="ArrowUp")&&e.target.closest("#secSrc .field")){var o=[].slice.call($("srcSug").querySelectorAll("button"));if(!o.length){if(e.target.id==="fSrc"&&e.key==="ArrowDown")showSrc();o=[].slice.call($("srcSug").querySelectorAll("button"));if(!o.length)return}
+e.preventDefault();var k=o.indexOf(document.activeElement);if(e.key==="ArrowDown")(o[k+1]||o[0]).focus();else if(k<=0)$("fSrc").focus();else o[k-1].focus();return}
+if(e.key==="Escape"){var sug=$("obOv").querySelector(".sug:not(:empty)");if(sug){if(sug.id==="srcSug"){hideSrc();$("fSrc").focus()}else sug.innerHTML="";return}escHandler();return}
 if(e.key==="Enter"&&e.target.id==="fKw"){e.preventDefault();addWord(e.target.value);e.target.value="";$("kwSug").innerHTML=""}
 if(e.key==="Enter"&&e.target.id==="fSrc"){e.preventDefault();var first=$("srcSug").querySelector("button");if(first)first.click()}});
 document.addEventListener("click",function(e){if(!e.target.closest||!e.target.closest("#obOv"))return;
@@ -601,12 +625,16 @@ var tb=e.target.closest("[data-tile]");
 if(tb&&VIEW==="ready"){var ti=+tb.dataset.tile;if(exists(PACKS[ti].nimi))return;var at=SEL.indexOf(ti);if(at>-1)SEL.splice(at,1);else SEL.push(ti);
 drawGrid();$("obGrid").querySelector('[data-tile="'+ti+'"]').focus();msg(SEL.length?SEL.length+" valittu.":"","");return}
 if(!F)return;var b=e.target.closest("button");
-if(!b){if(!e.target.closest(".field"))$("obOv").querySelectorAll(".sug").forEach(function(s){s.innerHTML=""});return}var d=b.dataset;
-if(d.osrc!==undefined){var x=getSrc(d.osrc);if(x)addSrc({n:x.nimi,id:x.id});$("fSrc").value="";$("srcSug").innerHTML="";$("fSrc").focus();return}
-if(d.ourl!==undefined){addSrc({n:d.ourl.replace(/^https?:\/\//,""),id:"",url:d.ourl});$("fSrc").value="";$("srcSug").innerHTML="";return}
+if(!b){if(!e.target.closest(".field")){$("obOv").querySelectorAll(".sug").forEach(function(s){s.innerHTML=""});hideSrc()}return}var d=b.dataset;
+if(b.id==="srcToggle"){if($("srcSug").innerHTML){hideSrc()}else{$("fSrc").value="";showSrc();$("srcSug").scrollTop=0}return}
+if(d.osrc!==undefined){var x=getSrc(d.osrc);if(x){var at=F.src.findIndex(function(s){return s.id===x.id});if(at>-1){F.src.splice(at,1);drawSrc()}else addSrc({n:x.nimi,id:x.id})}
+showSrc();var again=$("srcSug").querySelector('[data-osrc="'+d.osrc+'"]');if(again)again.focus();return}
+if(d.olang!==undefined){var other=d.olang==="fi"?"en":"fi";if(LANG[d.olang]&&!LANG[other])return;LANG[d.olang]=!LANG[d.olang];
+$("obOv").querySelectorAll("[data-olang]").forEach(function(l){l.setAttribute("aria-pressed",LANG[l.dataset.olang])});if($("srcSug").innerHTML)showSrc();return}
+if(d.ourl!==undefined){addSrc({n:d.ourl.replace(/^https?:\/\//,""),id:"",url:d.ourl});$("fSrc").value="";hideSrc();$("fSrc").focus();return}
 if(d.otop!==undefined){addTopic(d.otop);$("fKw").value="";$("kwSug").innerHTML="";$("fKw").focus();return}
 if(d.oword!==undefined){addWord(d.oword);$("fKw").value="";$("kwSug").innerHTML="";$("fKw").focus();return}
-if(d.ors!==undefined){F.src.splice(+d.ors,1);drawSrc();return}
+if(d.ors!==undefined){F.src.splice(+d.ors,1);drawSrc();if($("srcSug").innerHTML)showSrc();return}
 if(d.ork!==undefined){F.kws.splice(+d.ork,1);drawKw();return}
 if(d.orv!==undefined){var p=d.orv.split("-");F.kws[+p[0]].v.splice(+p[1],1);drawKw();return}
 if(b.id==="aiOpen"){$("aiWrap").hidden=true;$("aiPanel").hidden=false;$("aiCopy").focus();return}
