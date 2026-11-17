@@ -78,6 +78,13 @@ main .addcat{margin-top:26px}
 #menu .addcat{width:85%;margin:14px auto 8px;padding:11px;font-size:.8em;border-radius:11px;outline-offset:-6px}
 #menu .addcat span{font-size:1.12rem}
 #menu .sep{margin:12px 12px}
+#menu>:is(a,.row,.edit,.addcat){position:relative}
+#menu>:is(a,.row,.edit,.addcat)+:is(a,.row,.edit,.addcat){margin-top:5px}
+#menu>:is(a,.row,.edit,.addcat)+:is(a,.row,.edit,.addcat)::before{content:"";position:absolute;left:24px;right:24px;top:-3px;height:1px;background:var(--line);opacity:.5;pointer-events:none}
+#menu>:is(a,.row,.edit,.addcat)+.addcat{margin-top:12px}
+#menu>:is(a,.row,.edit,.addcat)+.addcat::before{left:calc(24px - 8.82%);right:calc(24px - 8.82%);top:-7px}
+#menu>.addcat{margin-bottom:12px}
+#menu>.addcat+:is(a,.row,.edit)::before{top:-7px}
 .sep{margin:26px 6px 8px;border-top:1px solid var(--line)}
 #menu .row .x{border:0;background:none;color:var(--text);cursor:pointer;font-size:1rem;padding:6px 8px;opacity:.7}
 .empty{opacity:.65;font-size:.9rem;margin:10px 2px}
