@@ -143,13 +143,6 @@
    "testattu": true
   },
   {
-   "id": "wsj-markets",
-   "nimi": "Wall Street Journal (Markets)",
-   "kieli": "en",
-   "rss": "https://www.wsj.com/finance",
-   "testattu": false
-  },
-  {
    "id": "yle",
    "nimi": "Yle Uutiset",
    "kieli": "fi",
