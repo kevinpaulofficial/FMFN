@@ -386,6 +386,15 @@ drag.style.transform='translateY('+(top-drag.getBoundingClientRect().top)+'px) s
 function endDrag(){if(!drag)return;drag.style.transform='';drag.classList.remove('drag');drag=null;DRAFT=[].map.call(M.querySelectorAll('.row'),function(r){return r.dataset.c})}
 M.addEventListener('pointerup',endDrag);M.addEventListener('pointercancel',endDrag);
 document.addEventListener('pointerdown',function(e){if(drag||document.getElementById('fab').contains(e.target)||e.target.closest('#ov'))return;M.classList.remove('open');if(EDIT){EDIT=false;route(true)}});
+// puhelin: pidä pallovalikko näkyvän alueen alakulmassa myös zoomattuna ja selaimen alapalkin kanssa
+(function(){var vv=window.visualViewport,f=document.getElementById('fab'),q=0;if(!vv||!f)return;
+function u(){q=0;var s=vv.scale||1;f.style.transform="";if(getComputedStyle(document.getElementById('ball')).display==="none")return;
+var cs=getComputedStyle(f),L=parseFloat(cs.left)||0,B=parseFloat(cs.bottom)||0,r=f.getBoundingClientRect(),
+dx=vv.offsetLeft+L/s-r.left,dy=vv.offsetTop+vv.height-B/s-r.bottom;
+if(Math.abs(s-1)<.01&&Math.abs(dx)<.5&&Math.abs(dy)<.5)return;
+f.style.transformOrigin="0 100%";f.style.transform="translate("+dx+"px,"+dy+"px) scale("+(1/s)+")"}
+function k(){if(!q)q=requestAnimationFrame(u)}
+vv.addEventListener('resize',k);vv.addEventListener('scroll',k);window.addEventListener('scroll',k,{passive:true});window.addEventListener('resize',k);u()})();
 document.getElementById('ball').onclick=function(){var m=document.getElementById('menu');if(m.classList.toggle('open'))m.scrollTop=0};
 var WTOP=[];
 var WD=null,wstep=1;
