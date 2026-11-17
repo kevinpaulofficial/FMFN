@@ -23,7 +23,16 @@ Uutissivusto, jossa käyttäjä kokoaa omat kategoriansa valitsemistaan uutislä
 
 ## Lähteen lisääminen (`alalahteet`-haara)
 
-Käyttäjä kertoo lähteen nimen, RSS-osoitteen ja sen, onko lähde päälähde vai jonkin päälähteen alalähde.
+Käyttäjä antaa lähteen muodossa:
+
+```
+Lähteen nimi - alalähde + linkki
+```
+
+- Ei alalähdettä (esim. `Rumba + https://...`) → uusi päälähde omalla `rss`-kentällä. Siitä tulee uusi kansio `data/<lähde>/`.
+- Alalähde mukana (esim. `Sky Sports - Tennis + https://...`) → lisää alalähteeksi olemassa olevalle päälähteelle, jolloin se menee sen valmiiseen kansioon. Jos päälähdettä ei vielä ole, luo se. Jos päälähteellä on oma `rss`, siirrä se ensin alalähteeksi (ks. säännöt alla).
+- Lisää muutos suoraan `lahteet.json`:iin kysymättä. Kansiot ja tiedostot `data/`-kansioon luo robotti seuraavassa haussa.
+- Jos linkki on tavallinen verkkosivu eikä RSS-syöte, käytä sivuston vastaavaa RSS-osoitetta, jos se tiedetään, ja kerro siitä käyttäjälle. Jos sama syöte on jo lähteissä, kerro se äläkä lisää kaksoiskappaletta.
 
 Päälähde, jolla on oma RSS-osoite:
 
