@@ -137,8 +137,9 @@
    "testattu": true
   },
   {
-   "id": "sky-sports-football",
-   "nimi": "Sky Sports (jalkapallo)",
+   "id": "sky-sports",
+   "vanha_id": "sky-sports-football",
+   "nimi": "Sky Sports",
    "kieli": "en",
    "rss": "https://www.skysports.com/rss/11095",
    "testattu": true
