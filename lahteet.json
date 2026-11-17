@@ -1,6 +1,6 @@
 {
  "versio": 3,
- "huom": "Päälähdelista. Käyttäjä valitsee lähteensä tästä listasta. testattu=true tarkoittaa, että osoite on toiminut GitHub Actionsissa. Lähteet ovat aakkosjärjestyksessä nimen mukaan (alun 'The' ohitetaan järjestämisessä).",
+ "huom": "Päälähdelista. Käyttäjä valitsee lähteensä tästä listasta: koko lähteen tai vain tietyt alalähteet. Uuden lähteen tai alalähteen voi lisätä pelkästään muokkaamalla tätä tiedostoa. Lähteellä voi olla oma rss-osoite ja/tai alalahteet-lista, jonka jokaisella alalähteellä on id, nimi ja rss (kieli periytyy lähteeltä, ellei sitä anneta). id:ssä saa olla vain pieniä kirjaimia a-z, numeroita ja viivoja. Jokaisen syötteen uutiset tallennetaan omaan tiedostoonsa: lähteen oma rss -> data/<lähteen id>.json, alalähde -> data/<lähteen id>-<alalähteen id>.json (esim. data/yle-talous.json). testattu=true tarkoittaa, että osoite on toiminut GitHub Actionsissa. Lähteet ovat aakkosjärjestyksessä nimen mukaan (alun 'The' ohitetaan järjestämisessä).",
  "lahteet": [
   {
    "id": "aljazeera",
@@ -144,10 +144,35 @@
   },
   {
    "id": "yle",
-   "nimi": "Yle Uutiset",
+   "nimi": "Yle",
    "kieli": "fi",
-   "rss": "https://yle.fi/rss/uutiset/paauutiset",
-   "testattu": true
+   "alalahteet": [
+    {
+     "id": "uutiset",
+     "nimi": "Uutiset",
+     "rss": "https://yle.fi/rss/uutiset/paauutiset",
+     "testattu": true
+    },
+    {
+     "id": "talous",
+     "nimi": "Talous",
+     "rss": "https://yle.fi/rss/t/18-19274/fi",
+     "testattu": false
+    },
+    {
+     "id": "kulttuuri",
+     "nimi": "Kulttuuri",
+     "rss": "https://yle.fi/rss/t/18-150067/fi",
+     "testattu": false
+    },
+    {
+     "id": "urheilu",
+     "nimi": "Urheilu",
+     "rss": "https://yle.fi/rss/urheilu",
+     "testattu": false
+    }
+   ],
+   "testattu": false
   }
  ]
 }

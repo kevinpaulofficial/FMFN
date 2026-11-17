@@ -20,6 +20,6 @@ jobs:
       - run: |
           git config user.name "news-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add kaikki.json
+          git add -A data
           git commit -m "Päivitä uutiset" || echo "Ei muutoksia"
           git push
