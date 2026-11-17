@@ -143,13 +143,6 @@
    "testattu": true
   },
   {
-   "id": "telegraph-football",
-   "nimi": "The Telegraph (jalkapallo)",
-   "kieli": "en",
-   "rss": "http://www.telegraph.co.uk/football/rss.xml",
-   "testattu": true
-  },
-  {
    "id": "wsj-markets",
    "nimi": "Wall Street Journal (Markets)",
    "kieli": "en",
