@@ -277,11 +277,35 @@ var H=3600000,D=86400000,T=Date.UTC(2026,10,15,8,0,0);
 var CATS={};var BASE=["suomi","jalkapallo","teknologia","maailma","musiikki"];
 var DATA={};
 function two(t){var m=(t||"").match(/[^.!?]+[.!?]+/g);return m?m.slice(0,2).join(" ").trim():(t||"")}
-var ALL=[],WCAT=[];
-function loadAll(){return fetch("kaikki.json?"+Date.now()).then(function(r){return r.ok?r.json():null}).then(function(j){if(!j)return;var hp=Date.parse(j.haettu)||Date.now();ALL=(j.uutiset||[]).map(function(x){return{t:x.t,s:two(x.s),u:x.u,p:Date.parse(x.p)||hp,img:x.i,l:x.l,imp:false,hot:false,who:""}})}).catch(function(){})}
-function loadCat(){return fetch("lahteet.json").then(function(r){return r.ok?r.json():null}).then(function(j){if(j)WCAT=j.lahteet||[]}).catch(function(){})}
-// uutiset tulevat vain kaikki.json-tiedostosta (lahteet.json-lähteet); news.json ei ole enää käytössä
-function load(){return Promise.all([loadAll(),loadCat(),window.obLoad?obLoad():null])}
+var ALL=[],WCAT=[],FEEDS={},SRCOF={},ALIAS={},LOADED={},LOADING={};
+// Uutiset ladataan vain niille syötteille, joita käyttäjän kategoriat tarvitsevat.
+// Tiedostot (sama sääntö kuin skriptit/hae_lahteet.py:ssä):
+//   data/<lähde>/<lähde>.json             koko lähde (kaikki alalähteet yhdessä)
+//   data/<lähde>/<lähde>_<alalähde>.json  yksi alalähde
+function wholeFile(sid){return "data/"+sid+"/"+sid+".json"}
+function feedFile(fid){return "data/"+fid.split("_")[0]+"/"+fid+".json"}
+var IDOK=/^[a-z0-9][a-z0-9-]*$/,FIDOK=/^[a-z0-9][a-z0-9-]*(_[a-z0-9][a-z0-9-]*)?$/;
+function addItems(j){if(!j)return;var hp=Date.parse(j.haettu)||Date.now();ALL=ALL.concat((j.uutiset||[]).map(function(x){return{t:x.t,s:two(x.s),u:x.u,p:Date.parse(x.p)||hp,img:x.i,l:x.l,imp:false,hot:false,who:""}}))}
+function getFile(u,ids){var pr=fetch(u+"?"+Date.now()).then(function(r){return r.ok?r.json():null}).then(addItems).catch(function(){}).then(function(){ids.forEach(function(f){LOADED[f]=1})});ids.forEach(function(f){LOADING[f]=pr})}
+// Jos käyttäjä tarvitsee lähteen kaikki syötteet, ladataan koko lähteen tiedosto kerralla; muuten vain valitut alalähteet.
+function loadFeeds(ids){var by={};ids.forEach(function(f){if(!FIDOK.test(f)||LOADED[f]||LOADING[f])return;var s=SRCOF[f]||f.split("_")[0];(by[s]=by[s]||[]).push(f)});
+Object.keys(by).forEach(function(s){var w=by[s],all=FEEDS[s]||[];
+if(all.length&&all.every(function(f){return w.indexOf(f)>-1}))getFile(wholeFile(s),all);else w.forEach(function(f){getFile(feedFile(f),[f])})});
+return Promise.all(ids.map(function(f){return LOADING[f]}).filter(Boolean))}
+// lahteet.json ladataan vain lähteiden nimiä ja syötteitä varten. WCAT = valittavat lähteet ja alalähteet,
+// FEEDS = lähteen tai alalähteen id -> sen syötteet (koko lähde = kaikki alalähteet), ALIAS = vanha_id -> nykyinen id
+function loadCat(){return fetch("lahteet.json").then(function(r){return r.ok?r.json():null}).then(function(j){if(!j)return;var C=[];FEEDS={};SRCOF={};ALIAS={};
+(j.lahteet||[]).forEach(function(s){if(!IDOK.test(s.id||"")||FEEDS[s.id])return;var subs=(s.alalahteet||[]).filter(function(a){return IDOK.test(a.id||"")&&a.rss}),own=[],K=[];
+if(subs.length)subs.forEach(function(a){var fid=s.id+"_"+a.id;if(FEEDS[fid])return;own.push(fid);FEEDS[fid]=[fid];SRCOF[fid]=s.id;if(a.vanha_id)ALIAS[a.vanha_id]=fid;K.push({id:fid,nimi:s.nimi+" – "+a.nimi,kieli:a.kieli||s.kieli,rss:a.rss,yla:s.id})});
+else if(s.rss){own.push(s.id);SRCOF[s.id]=s.id}
+if(!own.length)return;if(s.vanha_id)ALIAS[s.vanha_id]=s.id;FEEDS[s.id]=own;C.push({id:s.id,nimi:s.nimi,kieli:s.kieli,rss:s.rss||""});C=C.concat(K)});
+WCAT=C}).catch(function(){})}
+function feedsOf(id){return FEEDS[ALIAS[id]||id]||[]}
+function allFeeds(){var o=[];Object.keys(FEEDS).forEach(function(k){FEEDS[k].forEach(function(f){if(o.indexOf(f)<0)o.push(f)})});return o}
+// kategorian syötteet; ilman listasta valittuja lähteitä kategoria hakee kaikista lähteistä
+function srcFeeds(src){var ids=wSrcIds(src);if(!ids.length)return allFeeds();var o=[];ids.forEach(function(i){feedsOf(i).forEach(function(f){if(o.indexOf(f)<0)o.push(f)})});return o}
+function needFeeds(){var o=[];Object.keys(CUSTOM).forEach(function(c){srcFeeds(CUSTOM[c].src).forEach(function(f){if(o.indexOf(f)<0)o.push(f)})});return o}
+function load(){return Promise.all([loadCat(),window.obLoad?obLoad():null]).then(function(){return loadFeeds(needFeeds())})}
 function age(p){var s=Math.max(0,Math.floor((Date.now()-p)/1000));
 if(s<60)return s+"s";if(s<3600)return Math.floor(s/60)+"m";if(s<86400)return Math.floor(s/3600)+"h";return Math.floor(s/86400)+"d"}
 function pic(n,k){return n.img?'<img class="pic" src="'+wesc(n.img)+'" alt="" style="width:100%;object-fit:cover" onerror="this.remove()">':''}
@@ -373,7 +397,7 @@ return o.map(function(s){return pre+s})}
 function wRe(t){return new RegExp("(^|[^\\p{L}\\p{N}])(?:"+wForms(t).map(function(f){return f.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")}).join("|")+")","iu")}
 function wSrcIds(src){var o=[];(src||[]).forEach(function(x){var id=typeof x==="string"?"":(x.id||""),nm=typeof x==="string"?x:(x.n||x.t||"");
 if(!id&&nm){var c=WCAT.filter(function(w){return w.nimi.toLowerCase()===nm.trim().toLowerCase()})[0];if(c)id=c.id}if(id&&o.indexOf(id)<0)o.push(id)});return o}
-function wPool(src){var ids=wSrcIds(src);if(ids.length)return ALL.filter(function(n){return ids.indexOf(n.l)>-1});
+function wPool(src){var ids=wSrcIds(src);if(ids.length){var fs=srcFeeds(src);return ALL.filter(function(n){return fs.indexOf(n.l)>-1})}
 var o=[];Object.keys(DATA).forEach(function(c){if(!CUSTOM[c])o=o.concat(DATA[c]||[])});return o.concat(ALL)}
 function wFind(kws,src){var T=wTerms(kws||[]),ids=wSrcIds(src),seen={},out=[];if(!T.length&&!ids.length)return out;
 var R=T.map(wRe);
@@ -383,7 +407,10 @@ var WSTOP=" the and for with from that this after over into says said will have 
 function wWords(t){var o={};(t.toLowerCase().match(/[\p{L}\p{N}]{4,}/gu)||[]).forEach(function(w){if(WSTOP.indexOf(" "+w+" ")<0)o[w]=1});return o}
 var BRK=/(^|[^\p{L}])(breaking|live:|live updates|latest:|urgent|just in|tuoreeltaan|kiireellinen|hetki hetkeltä|seuranta:|nyt:)/iu;
 var SEV=/(^|[^\p{L}])(killed|dead|deaths|explosion|earthquake|attack|evacuat|shooting|crash|emergency|kuoli|kuollut|kuolleita|räjähdy|hyökkäy|ammuskel|maanjäristy|evakuo|onnettomuu|hätätila)/iu;
-function buildCustom(){Object.keys(CUSTOM).forEach(function(id){
+function buildCustom(){
+// uusi kategoria voi tarvita syötteitä, joita ei ole vielä ladattu: ladataan ne ja piirretään uudelleen
+var miss=needFeeds().filter(function(f){return !LOADED[f]&&!LOADING[f]});if(miss.length)loadFeeds(miss).then(function(){buildCustom();route(true)});
+Object.keys(CUSTOM).forEach(function(id){
 var R=wTerms(CUSTOM[id].kws).map(wRe);
 var L=wFind(CUSTOM[id].kws,CUSTOM[id].src).map(function(n){return{t:n.t,s:n.s,u:n.u,p:n.p,l:n.l,imp:false,hot:false,who:"",img:n.img,_imp:!!n.imp,_hot:!!n.hot}});
 if(!L.length){DATA[id]=L;return}
@@ -421,6 +448,7 @@ function wMatch(list,q){q=q.toLowerCase();return q?list.filter(function(x){retur
 function wPreview(){return "<h3>"+wesc(WD.name)+"</h3>"+wPrevBody()}
 function wPrevBody(){var h="";
 if(!WD.kws.length&&!wSrcIds(WD.src).length)return h+'<div class="whint">Valitse lähteitä listasta tai lisää hakusanoja, jotta uutisia voidaan valita.</div>';
+var miss=srcFeeds(WD.src).filter(function(f){return !LOADED[f]});if(miss.length){loadFeeds(miss).then(function(){if(WD&&wstep==4)wDraw()});return h+'<div class="whint">Ladataan uutisia…</div>'}
 var f=wFind(WD.kws,WD.src);
 if(!f.length)return h+'<div class="whint"><b>Ei osumia nykyisillä uutisilla.</b> Voit silti tallentaa kategorian tai palata lisäämään sanoja.</div>';
 h+='<div class="whint">Löytyi '+f.length+' uutista:</div>';
@@ -517,7 +545,7 @@ var PACKS=[],F=null,VIEW=null,SEL=[],JUSTN=[],OPEN={},LANG={fi:true,en:true},las
 function $(i){return document.getElementById(i)}
 function esc(t){return String(t).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
 function rx(q){return new RegExp("(^|[^\\p{L}\\p{N}])"+q.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),"iu")}
-function getSrc(id){return WCAT.filter(function(x){return x.id===id})[0]}
+function getSrc(id){id=ALIAS[id]||id;return WCAT.filter(function(x){return x.id===id})[0]}
 function getTop(id){return WTOP.filter(function(x){return x.id===id})[0]}
 function names(){return ORDER.map(function(k){return CATS[k]})}
 function exists(n){n=n.toLowerCase();return names().some(function(c){return String(c).toLowerCase()===n})}
