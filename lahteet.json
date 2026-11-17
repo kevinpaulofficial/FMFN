@@ -157,22 +157,22 @@
      "id": "talous",
      "nimi": "Talous",
      "rss": "https://yle.fi/rss/t/18-19274/fi",
-     "testattu": false
+     "testattu": true
     },
     {
      "id": "kulttuuri",
      "nimi": "Kulttuuri",
      "rss": "https://yle.fi/rss/t/18-150067/fi",
-     "testattu": false
+     "testattu": true
     },
     {
      "id": "urheilu",
      "nimi": "Urheilu",
      "rss": "https://yle.fi/rss/urheilu",
-     "testattu": false
+     "testattu": true
     }
    ],
-   "testattu": false
+   "testattu": true
   }
  ]
 }
