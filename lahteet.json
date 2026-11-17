@@ -147,7 +147,7 @@
    "nimi": "Wall Street Journal (Markets)",
    "kieli": "en",
    "rss": "https://www.wsj.com/",
-   "testattu": true
+   "testattu": false
   },
   {
    "id": "yle",
