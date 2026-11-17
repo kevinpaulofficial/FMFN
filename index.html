@@ -274,7 +274,6 @@ var H=3600000,D=86400000,T=Date.UTC(2026,10,15,8,0,0);
 var CATS={};var BASE=["suomi","jalkapallo","teknologia","maailma","musiikki"];
 var DATA={};
 function two(t){var m=(t||"").match(/[^.!?]+[.!?]+/g);return m?m.slice(0,2).join(" ").trim():(t||"")}
-function loadNews(){return fetch("news.json?"+Date.now()).then(function(r){return r.json()}).then(function(j){BASE.forEach(function(k){DATA[k]=(j[k]||[]).map(function(x){return{t:x.title,s:two(x.description),u:x.link,p:Date.parse(x.published)||Date.now(),imp:!!x.important,hot:!!x.hot,who:"",img:x.image}})})})}
 var ALL=[],WCAT=[];
 function loadAll(){return fetch("kaikki.json?"+Date.now()).then(function(r){return r.ok?r.json():null}).then(function(j){if(!j)return;var hp=Date.parse(j.haettu)||Date.now();ALL=(j.uutiset||[]).map(function(x){return{t:x.t,s:two(x.s),u:x.u,p:Date.parse(x.p)||hp,img:x.i,l:x.l,imp:false,hot:false,who:""}})}).catch(function(){})}
 function loadCat(){return fetch("lahteet.json").then(function(r){return r.ok?r.json():null}).then(function(j){if(j)WCAT=j.lahteet||[]}).catch(function(){})}
@@ -344,7 +343,7 @@ function endDrag(){if(!drag)return;drag.style.transform='';drag.classList.remove
 M.addEventListener('pointerup',endDrag);M.addEventListener('pointercancel',endDrag);
 document.addEventListener('pointerdown',function(e){if(drag||document.getElementById('fab').contains(e.target)||e.target.closest('#ov'))return;M.classList.remove('open');if(EDIT){EDIT=false;route(true)}});
 document.getElementById('ball').onclick=function(){document.getElementById('menu').classList.toggle('open')};
-var WTOP=[];try{fetch("aiheet.json").then(function(r){return r.json()}).then(function(j){(j.aiheet||[]).forEach(function(p){(p.alaaiheet||[]).forEach(function(x){WTOP.push({id:x.id,nimi:x.nimi,paa:p.nimi,sanat:x.hakusanat||[]})})})}).catch(function(){})}catch(e){}
+var WTOP=[];
 var WD=null,wstep=1;
 function $w(i){return document.getElementById(i)}
 function wesc(t){return String(t).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
@@ -408,7 +407,7 @@ f.slice(0,4).forEach(function(n){h+='<div class="card"><span class="age">'+age(n
 function wDraw(){var h='<button class="wx" id="wx" aria-label="Sulje">✕</button><div class="wstep">'+(wstep<4?"Vaihe "+wstep+" / 3":"Esikatselu")+'</div>';
 if(wstep==1)h+='<h3>Nimeä kategoria</h3><input id="wnm" placeholder="Esim. Kyberturvallisuus" value="'+wesc(WD.name)+'" maxlength="30"><div class="whint">Nimi näkyy etusivulla ja valikossa.</div>';
 if(wstep==2){h+='<h3>Lisää uutislähteet</h3><div id="wsrcs">';WD.src.forEach(function(s,i){h+=wSrcRow(s,i)});h+='</div><button class="wbtn" id="wmoresrc">+ Lisää uutislähde</button><div class="whint">Kirjoita sivuston nimi tai liitä sen osoite. Listasta valittujen lähteiden uutiset haetaan automaattisesti. Itse liitettyjen osoitteiden uutisia ei vielä haeta.</div>'}
-if(wstep==3)h+='<h3>Hakusanat</h3><input id="wkw" placeholder="Kirjoita aihe tai tarkka hakusana" autocomplete="off"><div class="wsug" id="wksug"></div><div class="whint">Kirjoita esim. jalkapallo ja napauta sopivaa aihetta, niin sen hakusanat tulevat mukaan. Pilkku tai Enter lisää tarkan hakusanan. Poista väärät sanat rastista.</div><div id="wkwl"></div>'+wAiPanel();
+if(wstep==3)h+='<h3>Hakusanat</h3><input id="wkw" placeholder="Kirjoita hakusana" autocomplete="off"><div class="wsug" id="wksug"></div><div class="whint">Kirjoita hakusana ja paina pilkkua tai Enteriä. Poista väärät sanat rastista.</div><div id="wkwl"></div>'+wAiPanel();
 if(wstep==4)h+=wPreview();
 h+='<div class="wrow"><button class="wbtn" id="wback">'+(wstep==1?"Peruuta":"Takaisin")+'</button><button class="wbtn p" id="wnext">'+(wstep==3?"Esikatsele":wstep==4?"Tallenna kategoria":"Seuraava")+'</button></div>';
 $w("dlg").innerHTML=h;if(wstep==3)wkwl();var f=$w("wnm")||$w("wkw");if(f)f.focus()}
@@ -466,7 +465,7 @@ var d=$w("dlg");d.classList.add("big");
 d.innerHTML='<button class="wx" id="wx" aria-label="Sulje">✕</button><div class="wstep">Muokkaa kategoriaa</div><h3>'+wesc(c.name)+'</h3>'+
 '<h4>Nimi</h4><input id="wnm" value="'+wesc(WD.name)+'" maxlength="30">'+
 '<h4>Uutislähteet</h4><div id="wsrcs">'+WD.src.map(wSrcRow).join("")+'</div><button class="wbtn" id="wmoresrc">+ Lisää uutislähde</button>'+
-'<h4>Hakusanat</h4><input id="wkw" placeholder="Kirjoita aihe tai tarkka hakusana" autocomplete="off"><div class="wsug" id="wksug"></div><div class="whint">Kirjoita esim. jalkapallo ja napauta sopivaa aihetta, niin sen hakusanat tulevat mukaan. Pilkku tai Enter lisää tarkan hakusanan. Poista väärät sanat rastista.</div><div id="wkwl"></div>'+wAiPanel()+
+'<h4>Hakusanat</h4><input id="wkw" placeholder="Kirjoita hakusana" autocomplete="off"><div class="wsug" id="wksug"></div><div class="whint">Kirjoita hakusana ja paina pilkkua tai Enteriä. Poista väärät sanat rastista.</div><div id="wkwl"></div>'+wAiPanel()+
 '<h4>Esikatselu</h4><div id="wprev"></div>'+
 '<div class="wrow end"><button class="wbtn" data-cancel="1">Peruuta</button><button class="wbtn p" id="wsave">Tallenna muutokset</button></div>';
 $w("ov").classList.add("open");wkwl();d.scrollTop=0}
@@ -566,7 +565,7 @@ $("sClose").onclick=function(){tryLeave(closeOv)};$("toReady").onclick=function(
 $("cNext").onclick=function(){if(commit())reset()};$("cDone").onclick=function(){if(isEmpty()){closeOv();return}if(commit())closeOv()}}
 function drawForm(){$("obForm").innerHTML='<div class="sec" id="secName"><h4><label for="fName">Nimi</label></h4><input class="in" id="fName" maxlength="30" placeholder="Esim. Tekoäly" value="'+esc(F.name)+'" aria-describedby="errName"><p class="ferr" id="errName" hidden></p></div>'+
 '<div class="sec" id="secSrc"><h4><label for="fSrc">Lähteet</label></h4><div class="field"><input class="in" id="fSrc" autocomplete="off" placeholder="Valitse tai hae lähdettä, esim. Yle tai BBC" role="combobox" aria-expanded="false" aria-controls="srcSug" aria-autocomplete="list" aria-describedby="errSrc"><button type="button" class="sarrow" id="srcToggle" aria-label="Näytä kaikki lähteet" aria-expanded="false" aria-controls="srcSug">▾</button><div class="sug" id="srcSug" role="listbox" aria-label="Lähteet" aria-multiselectable="true"></div></div><p class="ferr" id="errSrc" hidden></p><div class="srow"><p class="hint">Avaa lista, valitse useita tai kirjoita nimi. Voit myös liittää sivuston osoitteen.</p></div><div class="chips" id="srcChips"></div></div>'+
-'<div class="sec"><h4><label for="fKw">Hakusanat</label></h4><div class="field"><input class="in" id="fKw" autocomplete="off" placeholder="Kirjoita aihe tai tarkka hakusana"><div class="sug" id="kwSug"></div></div><p class="hint">Kirjoita esim. jalkapallo ja napauta sopivaa aihetta. Pilkku tai Enter lisää tarkan hakusanan. Ilman hakusanoja näytetään kaikki valittujen lähteiden uutiset.</p><div id="kwList"></div>'+
+'<div class="sec"><h4><label for="fKw">Hakusanat</label></h4><div class="field"><input class="in" id="fKw" autocomplete="off" placeholder="Kirjoita hakusana"><div class="sug" id="kwSug"></div></div><p class="hint">Kirjoita hakusana ja paina pilkkua tai Enteriä. Ilman hakusanoja näytetään kaikki valittujen lähteiden uutiset.</p><div id="kwList"></div>'+
 '<div class="or">– TAI –</div><div class="center" id="aiWrap"><button class="btn" id="aiOpen">✨ Luo hakusanat tekoälyllä</button></div><div class="aip" id="aiPanel" hidden><ol><li>Kopioi prompti ja liitä se omaan tekoälyysi.</li><li>Vastaa tekoälyn kysymyksiin.</li><li>Kopioi tekoälyn antamat hakusanat ja liitä ne alla olevaan kenttään.</li></ol><textarea id="aiPrompt" hidden readonly></textarea><div class="row"><span class="st" id="cpSt" role="status"></span><button class="btn" id="aiCopy">Kopioi prompti</button></div><textarea id="aiIn" rows="3" placeholder="Liitä tekoälyn vastaus tähän"></textarea><div class="row"><span class="st" id="aiSt" role="status"></span><button class="btn p" id="aiAdd">Lisää hakusanat</button></div></div></div>';
 drawSrc();drawKw()}
 function drawSrc(){$("srcChips").innerHTML=F.src.map(function(s,i){return '<span class="chip">'+esc(s.n)+'<button data-ors="'+i+'" aria-label="Poista '+esc(s.n)+'">✕</button></span>'}).join('')}
