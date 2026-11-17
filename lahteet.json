@@ -1,6 +1,6 @@
 {
  "versio": 3,
- "huom": "Päälähdelista. Käyttäjä valitsee lähteensä tästä listasta. testattu=true tarkoittaa, että osoite on toiminut GitHub Actionsissa. Lähteet ovat aakkosjärjestyksessä nimen mukaan.",
+ "huom": "Päälähdelista. Käyttäjä valitsee lähteensä tästä listasta. testattu=true tarkoittaa, että osoite on toiminut GitHub Actionsissa. Lähteet ovat aakkosjärjestyksessä nimen mukaan (alun 'The' ohitetaan järjestämisessä).",
  "lahteet": [
   {
    "id": "aljazeera",
@@ -14,6 +14,13 @@
    "nimi": "Associated Press",
    "kieli": "en",
    "rss": "https://flipboard.com/@associatedpress/top-stories-u7govdf1z.rss",
+   "testattu": true
+  },
+  {
+   "id": "athletic-football",
+   "nimi": "The Athletic (jalkapallo)",
+   "kieli": "en",
+   "rss": "https://www.nytimes.com/athletic/rss/football/",
    "testattu": true
   },
   {
@@ -52,10 +59,24 @@
    "testattu": true
   },
   {
+   "id": "economist",
+   "nimi": "The Economist",
+   "kieli": "en",
+   "rss": "https://www.economist.com/finance-and-economics/rss.xml",
+   "testattu": true
+  },
+  {
    "id": "ft",
    "nimi": "Financial Times",
    "kieli": "en",
    "rss": "https://www.ft.com/?format=rss",
+   "testattu": true
+  },
+  {
+   "id": "guardian",
+   "nimi": "The Guardian",
+   "kieli": "en",
+   "rss": "https://www.theguardian.com/world/rss",
    "testattu": true
   },
   {
@@ -119,27 +140,6 @@
    "nimi": "Soundi",
    "kieli": "fi",
    "rss": "https://soundi.fi/feed/",
-   "testattu": true
-  },
-  {
-   "id": "athletic-football",
-   "nimi": "The Athletic (jalkapallo)",
-   "kieli": "en",
-   "rss": "https://www.nytimes.com/athletic/rss/football/",
-   "testattu": true
-  },
-  {
-   "id": "economist",
-   "nimi": "The Economist",
-   "kieli": "en",
-   "rss": "https://www.economist.com/finance-and-economics/rss.xml",
-   "testattu": true
-  },
-  {
-   "id": "guardian",
-   "nimi": "The Guardian",
-   "kieli": "en",
-   "rss": "https://www.theguardian.com/world/rss",
    "testattu": true
   },
   {
