@@ -295,7 +295,9 @@ function setTheme(t){THEME=t;document.documentElement.setAttribute("data-theme",
 setTheme(THEME);
 var DYS=false;try{DYS=localStorage.getItem("dys")==="1"}catch(e){}
 function setDys(v){DYS=v;document.documentElement.setAttribute("data-dys",v?"1":"0");try{localStorage.setItem("dys",v?"1":"0")}catch(e){}}
-setDys(DYS);
+// lukihäiriötila on toistaiseksi piilossa: nappi ei näy eikä tallennettua tilaa käytetä (tallennettu arvo säilyy)
+var DYS_UI=false;
+if(DYS_UI)setDys(DYS);else{DYS=false;document.documentElement.setAttribute("data-dys","0")}
 var H=3600000,D=86400000,T=Date.UTC(2026,10,15,8,0,0);
 var CATS={};var BASE=["suomi","jalkapallo","teknologia","maailma","musiikki"];
 var DATA={};
@@ -371,7 +373,7 @@ function save(){try{localStorage.setItem("order",JSON.stringify(ORDER))}catch(e)
 var DRAFT=null,drag=null;
 function menu(k){var h='<a href="#koti" class="'+(!CATS[k]?'on':'')+'">Koti</a>';
 (EDIT?DRAFT:ORDER).forEach(function(c){h+=EDIT?'<div class="row" data-c="'+c+'"><span class="grip" aria-label="Vedä siirtääksesi">⠿</span><span>'+CATS[c]+'</span>'+(CUSTOM[c]?'<button class="x" data-editcat="'+c+'" aria-label="Muokkaa kategoriaa">✎</button>':'')+'<button class="x" data-del="'+c+'" aria-label="Poista kategoria">✕</button></div>':'<a href="#'+c+'" class="'+(c===k?'on':'')+'">'+CATS[c]+'</a>'});
-return h+'<button class="addcat" data-addcat="1"><span>+</span> Lisää kategoria</button><button class="edit" id="editbtn">'+(EDIT?'Valmis':'Muokkaa järjestystä')+'</button><div class="sep"></div><button class="edit" id="themebtn">'+(THEME==="dark"?"Vaalea teema":"Tumma teema")+'</button><button class="edit" id="dysbtn">'+(DYS?"Lukihäiriötila: päällä":"Lukihäiriötila: pois")+'</button><div class="sep"></div><button class="edit" id="exportbtn">Vie asetukset</button><button class="edit" id="importbtn">Tuo asetukset</button>'}
+return h+'<button class="addcat" data-addcat="1"><span>+</span> Lisää kategoria</button><button class="edit" id="editbtn">'+(EDIT?'Valmis':'Muokkaa järjestystä')+'</button><div class="sep"></div><button class="edit" id="themebtn">'+(THEME==="dark"?"Vaalea teema":"Tumma teema")+'</button>'+(DYS_UI?'<button class="edit" id="dysbtn">'+(DYS?"Lukihäiriötila: päällä":"Lukihäiriötila: pois")+'</button>':'')+'<div class="sep"></div><button class="edit" id="exportbtn">Vie asetukset</button><button class="edit" id="importbtn">Tuo asetukset</button>'}
 function route(keep){var k=(location.hash||"#koti").slice(1);
 document.getElementById('app').innerHTML=CATS[k]&&ORDER.indexOf(k)>-1?cat(k):home();
 document.getElementById('menu').innerHTML=menu(k);
