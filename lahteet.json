@@ -132,8 +132,21 @@
    "id": "klangi",
    "nimi": "Klangi",
    "kieli": "fi",
-   "rss": "https://www.klangi.fi/feed/",
-   "testattu": true
+   "alalahteet": [
+    {
+     "id": "uutiset",
+     "nimi": "Uutiset",
+     "rss": "https://www.klangi.fi/feed/",
+     "testattu": true
+    },
+    {
+     "id": "musiikki",
+     "nimi": "Musiikki",
+     "rss": "https://www.klangi.fi/kategoria/uutiset/musiikki/feed/",
+     "testattu": false
+    }
+   ],
+   "testattu": false
   },
   {
    "id": "mtv",
