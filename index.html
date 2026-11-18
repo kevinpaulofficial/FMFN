@@ -228,6 +228,7 @@ main .addcat{margin-top:26px}
 #obOv .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
 #obOv .chip{display:inline-flex;align-items:center;gap:4px;background:var(--box);border-radius:999px;padding:4px 4px 4px 12px;font-size:.88rem;max-width:100%}
 #obOv .chip.v{font-size:.8rem;padding:2px 2px 2px 10px;color:var(--muted)}
+#obOv .chip .stm{margin-left:4px;font-size:.78em;color:var(--muted)}
 #obOv .chip button{border:0;background:none;cursor:pointer;width:26px;height:26px;border-radius:50%;line-height:1}
 #obOv .chip button:hover{background:var(--line)}
 #obOv .kw{margin-top:10px;padding:10px 12px;border:1px solid var(--line);border-radius:12px}
@@ -404,7 +405,7 @@ function $w(i){return document.getElementById(i)}
 function wesc(t){return String(t).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
 function wstem(w){var p=w.split(" "),l=p.pop(),n=l.length,c=n>=8?2:n>=6?1:0;return p.concat([l.slice(0,n-c)]).join(" ")+(c?"*":"")}
 function persist(){try{localStorage.setItem("custom",JSON.stringify(CUSTOM));localStorage.setItem("del",JSON.stringify(DEL));localStorage.setItem("order",JSON.stringify(ORDER))}catch(e){}}
-function wTerms(kws){var t=[];kws.forEach(function(k){if(k.t){k.v.forEach(function(v){t.push(v)});if(!k.id)t.push(k.k)}else t.push(k.k)});return t.map(function(x){return x.trim().toLowerCase()}).filter(Boolean)}
+function wTerms(kws){var t=[];kws.forEach(function(k){if(k.t){k.v.forEach(function(v){t.push(v)});if(!k.id)t.push(k.k)}else{t.push(k.k);(k.v||[]).forEach(function(v){t.push(v)})}});return t.map(function(x){return x.trim().toLowerCase()}).filter(Boolean)}
 // hakusanan taivutusmuodot: alkuperäinen sana ja sen yleisimmät taivutusvartalot (esim. Suomi → Suomen, Turku → Turun, presidentti → presidentin, Virtanen → Virtasen)
 var WV="aeiouyäö";
 function wWeak(s){var r=[[/kk$/,"k"],[/pp$/,"p"],[/tt$/,"t"],[/nk$/,"ng"],[/mp$/,"mm"],[/nt$/,"nn"],[/lt$/,"ll"],[/rt$/,"rr"],[/ht$/,"hd"],[/([lrh])k$/,"$1",/([lrh])k$/,"$1j"],[/([aeiouyäö])k$/,"$1"],[/([aeiouyäöl])p$/,"$1v"],[/([aeiouyäö])t$/,"$1d"]];
@@ -418,6 +419,11 @@ bs.forEach(function(c){add(c+v);if(v==="i")add(c+"e");if(v==="a"||v==="ä"){add(
 if(v==="e"){add(w+"e");add(wStrong(b)+"ee");if(n>=5)add(b)}
 if(v==="y"&&WV.indexOf(w[n-2])<0)add(b+"i")}
 if(/nen$/.test(w)){add(w.slice(0,-3)+"se");add(w.slice(0,-3)+"s")}
+// epäsäännöllisemmät tyypit: mies → miehe, vesi → vede, kansi → kanne, puhelin → puhelime, vaalit → vaale, markkinat → markkino, olympialaiset → olympialaisi
+if(/ies$/.test(w))add(w.slice(0,-1)+"he");
+if(/[aeiouyäö]si$/.test(w))add(w.slice(0,-2)+"de");if(/[nlr]si$/.test(w))add(w.slice(0,-2)+w[n-3]+"e");
+if(n>=6&&/[^aeiouyäö]in$/.test(w))add(wStrong(w.slice(0,-2))+"ime");
+if(n>=6&&/[aeiouyäö]t$/.test(w)){var pl=w.slice(0,-1),pv=pl[pl.length-1],pb=pl.slice(0,-1);add(pl);if(pv==="i")add(pb+"e");if(pv==="a"||pv==="ä")add(pb+(pv==="a"?"o":"ö"));if(pv==="e"){add(pb+"i");add(pb)}}
 if(/[uy]s$/.test(w)){add(w.slice(0,-1)+"kse");add(w.slice(0,-2)+(w[n-2]==="u"?"ude":"yde"))}
 if(n>=5&&/[aäei]s$/.test(w)){var vv=w[n-2],st=w.slice(0,-2);add(st+vv+vv);add(wStrong(st)+vv+vv)}
 return o.map(function(s){return pre+s})}
@@ -524,15 +530,17 @@ if(t.id==="wnext"){if(wstep==1&&!WD.name.trim()){$w("wnm").focus();return}
 if(wstep<4){wstep++;wDraw();return}
 var id="c"+Date.now();CUSTOM[id]={name:WD.name.trim(),src:WD.src.filter(function(s){return s.t.trim()}).map(function(s){return{n:s.t,id:s.id||"",rss:s.rss||""}}),kws:WD.kws};CATS[id]=CUSTOM[id].name;ORDER.push(id);persist();buildCustom();wClose();WD=null;location.hash="#"+id}});
 function wAiPrompt(){var n=WD&&WD.name&&WD.name.trim();
-return (n?'Kategoriani nimi on "'+n+'".\n\n':'')+'Autat minua tekemään hakusanoja uutisten suodattamiseen. Kysy minulta yksi kysymys kerrallaan ja odota vastaus ennen seuraavaa:\n1) Mikä on kategorian aihe?\n2) Mitkä asiat aiheessa kiinnostavat erityisesti (esim. henkilöt, joukkueet, yritykset, tapahtumat)?\n3) Haluatko hakusanat suomeksi, englanniksi vai molemmilla?\n\nTee vastausten perusteella 15–40 hakusanaa. Säännöt:\n- sanat perusmuodossa, ei taivutusmuotoja\n- vähintään 3 kirjainta, nimet ja lyhenteet käyvät\n- ei toistoja\n\nKirjoita lopuksi yksi lyhyt rivi (esim. \"Tässä hakusanat:\") ja sen alle kaikki hakusanat yhteen koodilohkoon (```) yhdellä rivillä pilkuilla eroteltuna, jotta voin kopioida ne yhdellä napilla. Älä kirjoita koodilohkon jälkeen mitään.'}
+return (n?'Kategoriani nimi on "'+n+'".\n\n':'')+'Autat minua tekemään hakusanoja uutisten suodattamiseen. Kysy minulta yksi kysymys kerrallaan ja odota vastaus ennen seuraavaa:\n1) Mikä on kategorian aihe?\n2) Mitkä asiat aiheessa kiinnostavat erityisesti (esim. henkilöt, joukkueet, yritykset, tapahtumat)?\n3) Haluatko hakusanat suomeksi, englanniksi vai molemmilla?\n\nTee vastausten perusteella 15–40 hakusanaa. Säännöt:\n- sanat perusmuodossa, ei taivutusmuotoja\n- jos sana taipuu epäsäännöllisesti (esim. mies → miehen, vesi → veden), kirjoita sen perään sulkuihin taivutusvartalo, useampi vinoviivalla, vähintään 4 kirjainta: mies (miehe), vesi (vede/vett). Älä lisää sulkuja säännöllisesti taipuville sanoille\n- vähintään 3 kirjainta, nimet ja lyhenteet käyvät\n- ei toistoja\n\nKirjoita lopuksi yksi lyhyt rivi (esim. \"Tässä hakusanat:\") ja sen alle kaikki hakusanat yhteen koodilohkoon (```) yhdellä rivillä pilkuilla eroteltuna, jotta voin kopioida ne yhdellä napilla. Älä kirjoita koodilohkon jälkeen mitään.'}
 function wAiPanel(){return '<div class="wor">– TAI –</div><div class="waiwrap" id="waiwrap"><button class="wbtn waib" id="waibtn">✨ Luo hakusanat tekoälyllä</button></div><div class="waip" id="waip" hidden>'+
 '<ol class="waisteps"><li>Kopioi prompti ja liitä se omaan tekoälyysi.</li><li>Vastaa tekoälyn kysymyksiin.</li><li>Kopioi tekoälyn antamat hakusanat ja liitä ne alla olevaan kenttään.</li></ol>'+
 '<textarea id="waiprompt" class="hid" rows="5" readonly aria-hidden="true" tabindex="-1"></textarea><div class="wrow cprow"><span class="waist" id="wcopyst"></span><button class="wbtn" id="wcopy">Kopioi prompti</button></div>'+
 '<textarea id="waiin" rows="3" placeholder="Liitä tekoälyn vastaus tähän"></textarea><div class="wrow"><span class="waist" id="waist"></span><button class="wbtn p" id="waiadd">Lisää hakusanat</button></div></div>'}
-function wParseAI(txt){txt=String(txt||"").replace(/```[a-z]*/gi,"");var lines=txt.split(/\n+/),many=lines.filter(function(l){return (l.match(/,/g)||[]).length>=3});
+function wParseAI(txt){return wParseAIv(txt).map(function(o){return o.w})}
+// hakusanat ja niiden mahdolliset vartalot sulkeissa: "mies (miehe)" → {w:"mies",v:["miehe"]}
+function wParseAIv(txt){txt=String(txt||"").replace(/```[a-z]*/gi,"");var lines=txt.split(/\n+/),many=lines.filter(function(l){return (l.match(/,/g)||[]).length>=3});
 var parts=(many.length?many:lines).join(",").split(/[,;\n]+/),seen={},out=[];
-parts.forEach(function(p){p=p.replace(/^[\s\-*•·\d.)]+/,"").replace(/["'`´“”‘’\[\]{}()]/g,"").replace(/[:.!?]+$/,"").replace(/\s+/g," ").trim();
-if(p.length<3||p.length>40||p.split(" ").length>4)return;var k=p.toLowerCase();if(seen[k])return;seen[k]=1;out.push(p)});return out.slice(0,100)}
+parts.forEach(function(p){var m=p.match(/\(([^)]*)\)/),v=[];if(m){m[1].split(/[\/|]+/).forEach(function(x){x=x.replace(/["'`´“”‘’*]/g,"").trim().toLowerCase();if(x.length>=4&&x.indexOf(" ")<0&&v.indexOf(x)<0&&v.length<3)v.push(x)});p=p.replace(/\([^)]*\)/g," ")}p=p.replace(/^[\s\-*•·\d.)]+/,"").replace(/["'`´“”‘’\[\]{}()]/g,"").replace(/[:.!?]+$/,"").replace(/\s+/g," ").trim();
+if(p.length<3||p.length>40||p.split(" ").length>4)return;var k=p.toLowerCase();if(seen[k])return;seen[k]=1;out.push({w:p,v:v.filter(function(x){return x!==k})})});return out.slice(0,100)}
 function wEditPrev(){var p=$w("wprev");if(p)p.innerHTML=wPrevBody()}
 function wEdit(id){var c=CUSTOM[id];if(!c)return;M.classList.remove("open");if(window.obEdit){obEdit(id);return}
 var src=(c.src||[]).map(function(x){if(typeof x==="string"){var m=WCAT.filter(function(w){return w.nimi.toLowerCase()===x.trim().toLowerCase()})[0];return m?{t:m.nimi,ok:true,id:m.id,rss:m.rss}:{t:x,ok:false}}return{t:x.n||x.t||"",ok:!!x.id,id:x.id||"",rss:x.rss||""}});
@@ -681,7 +689,7 @@ drawSrc();drawKw()}
 function drawSrc(){$("srcChips").innerHTML=F.src.map(function(s,i){return '<span class="chip">'+esc(s.n)+'<button data-ors="'+i+'" aria-label="Poista '+esc(s.n)+'">✕</button></span>'}).join('')}
 function drawKw(){var h="",ex=[];F.kws.forEach(function(k,i){if(!k.t){ex.push(i);return}
 h+='<div class="kw"><span class="lbl">Aihe</span><span class="chip"><b>'+esc(k.k)+'</b><button data-ork="'+i+'" aria-label="Poista aihe">✕</button></span><div class="chips">'+k.v.map(function(v,j){return '<span class="chip v">'+esc(v)+'<button data-orv="'+i+'-'+j+'" aria-label="Poista '+esc(v)+'">✕</button></span>'}).join('')+'</div></div>'});
-if(ex.length)h+='<div class="kw"><span class="lbl">Tarkat hakusanat</span><div class="chips">'+ex.map(function(i){return '<span class="chip">'+esc(F.kws[i].k)+'<button data-ork="'+i+'" aria-label="Poista '+esc(F.kws[i].k)+'">✕</button></span>'}).join('')+'</div></div>';
+if(ex.length)h+='<div class="kw"><span class="lbl">Tarkat hakusanat</span><div class="chips">'+ex.map(function(i){var sv=F.kws[i].v||[];return '<span class="chip"'+(sv.length?' title="Etsitään myös: '+esc(sv.join(", "))+'"':'')+'>'+esc(F.kws[i].k)+(sv.length?'<small class="stm">'+esc(sv.join(" / "))+'</small>':'')+'<button data-ork="'+i+'" aria-label="Poista '+esc(F.kws[i].k)+'">✕</button></span>'}).join('')+'</div></div>';
 $("kwList").innerHTML=h}
 // lähdelista: kaikki lähteet aakkosjärjestyksessä, suodatettuna kielellä ja haulla
 function srcList(q){q=(q||"").trim();var r=q?rx(q.toLowerCase()):null;
@@ -706,7 +714,7 @@ function reset(){var nm=JUSTN[0];F=blank();drawForm();$("obForm").scrollTop=0;ms
 function tryLeave(fn){if(isEmpty()||!F.touched){fn();return}ask("Hylätäänkö keskeneräinen kategoria?","Jatka muokkausta","Hylkää",fn)}
 
 /* tekoälyprompti */
-function aiPrompt(){var n=F.name.trim();return (n?'Kategoriani nimi on "'+n+'".\n\n':'')+'Autat minua tekemään hakusanoja uutisten suodattamiseen. Kysy minulta yksi kysymys kerrallaan ja odota vastaus ennen seuraavaa:\n1) Mikä on kategorian aihe?\n2) Mitkä asiat aiheessa kiinnostavat erityisesti (esim. henkilöt, joukkueet, yritykset, tapahtumat)?\n3) Haluatko hakusanat suomeksi, englanniksi vai molemmilla?\n\nTee vastausten perusteella 15–40 hakusanaa. Säännöt:\n- sanat perusmuodossa, ei taivutusmuotoja\n- vähintään 3 kirjainta, nimet ja lyhenteet käyvät\n- ei toistoja\n\nKirjoita lopuksi yksi lyhyt rivi (esim. "Tässä hakusanat:") ja sen alle kaikki hakusanat yhteen koodilohkoon (```) yhdellä rivillä pilkuilla eroteltuna, jotta voin kopioida ne yhdellä napilla. Älä kirjoita koodilohkon jälkeen mitään.'}
+function aiPrompt(){var n=F.name.trim();return (n?'Kategoriani nimi on "'+n+'".\n\n':'')+'Autat minua tekemään hakusanoja uutisten suodattamiseen. Kysy minulta yksi kysymys kerrallaan ja odota vastaus ennen seuraavaa:\n1) Mikä on kategorian aihe?\n2) Mitkä asiat aiheessa kiinnostavat erityisesti (esim. henkilöt, joukkueet, yritykset, tapahtumat)?\n3) Haluatko hakusanat suomeksi, englanniksi vai molemmilla?\n\nTee vastausten perusteella 15–40 hakusanaa. Säännöt:\n- sanat perusmuodossa, ei taivutusmuotoja\n- jos sana taipuu epäsäännöllisesti (esim. mies → miehen, vesi → veden), kirjoita sen perään sulkuihin taivutusvartalo, useampi vinoviivalla, vähintään 4 kirjainta: mies (miehe), vesi (vede/vett). Älä lisää sulkuja säännöllisesti taipuville sanoille\n- vähintään 3 kirjainta, nimet ja lyhenteet käyvät\n- ei toistoja\n\nKirjoita lopuksi yksi lyhyt rivi (esim. "Tässä hakusanat:") ja sen alle kaikki hakusanat yhteen koodilohkoon (```) yhdellä rivillä pilkuilla eroteltuna, jotta voin kopioida ne yhdellä napilla. Älä kirjoita koodilohkon jälkeen mitään.'}
 
 /* tapahtumat ikkunan sisällä */
 document.addEventListener("input",function(e){if(!F||!e.target.closest("#obOv"))return;var t=e.target;
@@ -750,7 +758,7 @@ if(b.id==="aiOpen"){$("aiWrap").hidden=true;$("aiPanel").hidden=false;$("aiCopy"
 if(b.id==="aiCopy"){var pt=aiPrompt(),st=$("cpSt"),ta=$("aiPrompt");ta.value=pt;
 var fb=function(){ta.hidden=false;ta.focus();ta.select();var ok=false;try{ok=document.execCommand("copy")}catch(err){}st.textContent=ok?"Kopioitu!":"Kopioi prompti kentästä.";if(ok)ta.hidden=true};
 try{navigator.clipboard.writeText(pt).then(function(){st.textContent="Kopioitu!"},fb)}catch(err){fb()}return}
-if(b.id==="aiAdd"){var ws=wParseAI($("aiIn").value),b4=F.kws.length;ws.forEach(function(w){w=w.toLowerCase();if(!F.kws.some(function(k){return !k.t&&k.k===w}))F.kws.push({k:w,t:false,v:[]})});var n=F.kws.length-b4;
+if(b.id==="aiAdd"){var ws=wParseAIv($("aiIn").value),b4=F.kws.length;ws.forEach(function(o){var w=o.w.toLowerCase(),ex=F.kws.filter(function(k){return !k.t&&k.k===w})[0];if(ex){ex.v=ex.v||[];o.v.forEach(function(x){if(ex.v.indexOf(x)<0)ex.v.push(x)})}else F.kws.push({k:w,t:false,v:o.v})});var n=F.kws.length-b4;
 if(n){F.touched=true;drawKw();$("aiIn").value=""}$("aiSt").textContent=ws.length?"Lisättiin "+n+" hakusanaa.":"Hakusanoja ei löytynyt. Liitä pilkuilla eroteltu lista.";return}});
 
 window.obLoad=function(){return fetch("oletus_lahteet.json").then(function(r){return r.ok?r.json():null}).then(function(j){PACKS=(j&&j.valmiit)||[]}).catch(function(){})};
