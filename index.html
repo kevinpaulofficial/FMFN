@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fi">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -282,13 +282,13 @@ main .addcat{margin-top:26px}
 </style>
 </head>
 <body>
-<div id="logo"><a href="#koti" aria-label="FMFN – FilterMyF*cka*sNews, kotisivu"><svg viewBox="0 0 193 79" width="193" height="79" aria-hidden="true"><text class="l1" x="96.5" y="47" text-anchor="middle" textLength="179" lengthAdjust="spacingAndGlyphs">FMFN</text><text class="l2" x="96.5" y="69" text-anchor="middle" textLength="179" lengthAdjust="spacingAndGlyphs">FilterMyF*cka*sNews</text></svg></a></div>
+<div id="logo"><a href="#koti" aria-label="FMFN – FilterMyF*cka*sNews, home page"><svg viewBox="0 0 193 79" width="193" height="79" aria-hidden="true"><text class="l1" x="96.5" y="47" text-anchor="middle" textLength="179" lengthAdjust="spacingAndGlyphs">FMFN</text><text class="l2" x="96.5" y="69" text-anchor="middle" textLength="179" lengthAdjust="spacingAndGlyphs">FilterMyF*cka*sNews</text></svg></a></div>
 <main id="app"></main>
-<aside id="side" aria-label="Tärkeimmät ja puhutuimmat"></aside>
+<aside id="side" aria-label="Top stories and most talked about"></aside>
 <div id="ov"><div id="dlg"></div></div>
 <div id="obOv" hidden><div id="obSheet" role="dialog" aria-modal="true"></div></div>
 <input type="file" id="impfile" accept="application/json,.json" hidden>
-<div id="fab"><div id="menu"></div><button id="ball" aria-label="Valikko">☰</button></div>
+<div id="fab"><div id="menu"></div><button id="ball" aria-label="Menu">☰</button></div>
 <script>
 var THEME="dark";try{THEME=localStorage.getItem("teema")==="light"?"light":"dark"}catch(e){}
 function setTheme(t){THEME=t;document.documentElement.setAttribute("data-theme",t);try{localStorage.setItem("teema",t)}catch(e){}}
@@ -333,23 +333,25 @@ function age(p){var s=Math.max(0,Math.floor((Date.now()-p)/1000));
 if(s<60)return s+"s";if(s<3600)return Math.floor(s/60)+"m";if(s<86400)return Math.floor(s/3600)+"h";return Math.floor(s/86400)+"d"}
 function pic(n,k){return n.img?'<img class="pic" src="'+wesc(n.img)+'" alt="" style="width:100%;object-fit:cover" onerror="this.remove()">':''}
 function safeUrl(u){return /^https?:\/\//i.test(u||"")?u:"#"}
-function card(n,k,hot){return '<a class="card'+(n.imp?' imp':(hot&&n.hot?' hot':''))+'" href="'+wesc(safeUrl(n.u))+'" target="_blank" rel="noopener"><span class="age">'+age(n.p)+'</span><b>'+wesc(n.t)+'</b><p>'+wesc(n.s)+'</p>'+pic(n,k)+'</a>'+(n.who?'<div class="who">'+wesc(n.who)+'</div>':'')}
+// uutisen alkuperäinen kieli ruudunlukijoille (sivu on englanniksi, uutiset omalla kielellään)
+function nlang(n){var c=n&&n.l?WCAT.filter(function(x){return x.id===n.l})[0]:null;return c&&c.kieli?' lang="'+c.kieli+'"':''}
+function card(n,k,hot){return '<a class="card'+(n.imp?' imp':(hot&&n.hot?' hot':''))+'"'+nlang(n)+' href="'+wesc(safeUrl(n.u))+'" target="_blank" rel="noopener"><span class="age">'+age(n.p)+'</span><b>'+wesc(n.t)+'</b><p>'+wesc(n.s)+'</p>'+pic(n,k)+'</a>'+(n.who?'<div class="who">'+wesc(n.who)+'</div>':'')}
 // sama uutinen tunnistetaan linkistä (ilman ?-osaa) tai samasta otsikosta
 function nkey(n){return (n.t||"").toLowerCase().replace(/[^\p{L}\p{N}]+/gu," ").trim()}
 function nurl(n){return (n.u||"").split(/[?#]/)[0]}
 function Seen(){var su={},st={};return{has:function(n){var u=nurl(n),t=nkey(n);return !!((u&&su[u])||(t&&st[t]))},add:function(n){var u=nurl(n),t=nkey(n);if(u)su[u]=1;if(t)st[t]=1}}}
 // poistaa toistot; tärkeä ja puhuttu versio säilyy ensisijaisesti
 function prep(a){var S=Seen();return (a||[]).slice().sort(function(x,y){return (y.imp-x.imp)||(y.hot-x.hot)||(y.p-x.p)}).filter(function(n){if(S.has(n))return false;S.add(n);return true}).sort(function(x,y){return y.p-x.p})}
-function home(){if(!ORDER.length)return '<button class="obig" data-addcat="1"><span>+ Luo ensimmäinen kategoria</span><small>Valitse valmiit tai luo omat</small></button>';var h='',S=Seen();
+function home(){if(!ORDER.length)return '<button class="obig" data-addcat="1"><span>+ Create your first category</span><small>Pick ready-made ones or create your own</small></button>';var h='',S=Seen();
 ORDER.forEach(function(k,i){var a=prep(DATA[k]).filter(function(n){return !S.has(n)});
 var imp=a.filter(function(n){return n.imp})[0];if(!imp)imp=a[1];var last=a.filter(function(n){return n!==imp})[0];
 if(imp)S.add(imp);if(last)S.add(last);
-h+=(i?'<hr class="div">':'')+'<h2><a class="h2a" href="#'+k+'">'+wesc(CATS[k])+'</a></h2>'+(imp?card(imp,k):'')+(last?card(last,k):'')+(a.length?'':'<p class="empty">Ei osumia nykyisillä uutisilla.</p>')});return h+'<button class="addcat" data-addcat="1"><span>+</span> Lisää kategoria</button>'}
+h+=(i?'<hr class="div">':'')+'<h2><a class="h2a" href="#'+k+'">'+wesc(CATS[k])+'</a></h2>'+(imp?card(imp,k):'')+(last?card(last,k):'')+(a.length?'':'<p class="empty">No matches in the current news.</p>')});return h+'<button class="addcat" data-addcat="1"><span>+</span> Add category</button>'}
 function tops(k){var a=prep(DATA[k]),imp=a.filter(function(n){return n.imp})[0];return{a:a,imp:imp,hot:a.filter(function(n){return n.hot&&n!==imp}).slice(0,2)}}
 function cat(k){var T=tops(k),a=T.a,top=(T.imp?[T.imp]:[]).concat(T.hot);
 var rest=a.filter(function(n){return top.indexOf(n)<0});
-return '<h1>'+wesc(CATS[k])+'</h1>'+(CUSTOM[k]?'<button class="catedit" data-editcat="'+k+'">✎ Muokkaa kategoriaa</button>':'')+top.concat(rest).map(function(n){return card(n,k,top.indexOf(n)>-1)}).join('')+(a.length?'':'<p class="empty">Ei osumia nykyisillä uutisilla.</p>')}
-function sideItem(k,n){return '<a href="'+wesc(safeUrl(n.u))+'" target="_blank" rel="noopener"><span class="sk">'+wesc(CATS[k])+'</span> | '+wesc(n.t)+'</a>'}
+return '<h1>'+wesc(CATS[k])+'</h1>'+(CUSTOM[k]?'<button class="catedit" data-editcat="'+k+'">✎ Edit category</button>':'')+top.concat(rest).map(function(n){return card(n,k,top.indexOf(n)>-1)}).join('')+(a.length?'':'<p class="empty">No matches in the current news.</p>')}
+function sideItem(k,n){return '<a href="'+wesc(safeUrl(n.u))+'" target="_blank" rel="noopener"><span class="sk">'+wesc(CATS[k])+'</span> | <span'+nlang(n)+'>'+wesc(n.t)+'</span></a>'}
 // enintään 3 uutista: ensin yksi kustakin kategoriasta järjestyksessä, sitten lisää samoista kategorioista
 function fillSide(S,get){var out=[],L=ORDER.map(function(k){return{k:k,c:get(k)}});
 L.forEach(function(l){if(out.length>=3)return;for(var i=0;i<l.c.length;i++){if(!S.has(l.c[i])){S.add(l.c[i]);out.push({k:l.k,n:l.c[i]});return}}});
@@ -358,7 +360,7 @@ function side(){if(!ORDER.length)return '';var S=Seen();
 var I=fillSide(S,function(k){return prep(DATA[k]).filter(function(n){return n.imp})});
 var P=fillSide(S,function(k){return prep(DATA[k]).filter(function(n){return n.hot&&!n.imp})});
 var box=function(cls,L,none){return '<div class="sbox '+cls+'">'+(L.length?L.map(function(x){return sideItem(x.k,x.n)}).join(''):'<p class="snone">'+none+'</p>')+'</div>'};
-return '<h3 class="shead">Tärkeimmät</h3>'+box('simp',I,'Ei tärkeitä uutisia juuri nyt.')+'<h3 class="shead">Puhutuimmat</h3>'+box('shot',P,'Ei puhuttuja uutisia juuri nyt.')}
+return '<h3 class="shead">Top stories</h3>'+box('simp',I,'No top stories right now.')+'<h3 class="shead">Most talked about</h3>'+box('shot',P,'Nothing much talked about right now.')}
 function placeSide(){var sd=document.getElementById('side');if(!WIDE.matches){sd.style.top='';return}
 var c=document.querySelector('#app .card'),b=sd.querySelector('.sbox');if(!c||!b)return;
 var top=Math.max(10,Math.round(c.getBoundingClientRect().top+window.scrollY-b.offsetTop));sd.style.top=top+'px'}
@@ -369,9 +371,9 @@ try{var sv=JSON.parse(localStorage.getItem("order")||"[]");if(Array.isArray(sv))
 ORDER=ORDER.filter(function(c){return DEL.indexOf(c)<0});
 function save(){try{localStorage.setItem("order",JSON.stringify(ORDER))}catch(e){}}
 var DRAFT=null,drag=null;
-function menu(k){var h='<a href="#koti" class="'+(!CATS[k]?'on':'')+'">Koti</a>';
-(EDIT?DRAFT:ORDER).forEach(function(c){h+=EDIT?'<div class="row" data-c="'+c+'"><span class="grip" aria-label="Vedä siirtääksesi">⠿</span><span>'+CATS[c]+'</span>'+(CUSTOM[c]?'<button class="x" data-editcat="'+c+'" aria-label="Muokkaa kategoriaa">✎</button>':'')+'<button class="x" data-del="'+c+'" aria-label="Poista kategoria">✕</button></div>':'<a href="#'+c+'" class="'+(c===k?'on':'')+'">'+CATS[c]+'</a>'});
-return h+'<button class="addcat" data-addcat="1"><span>+</span> Lisää kategoria</button><button class="edit" id="editbtn">'+(EDIT?'Valmis':'Muokkaa järjestystä')+'</button><div class="sep"></div><button class="edit" id="themebtn">'+(THEME==="dark"?"Vaalea teema":"Tumma teema")+'</button><button class="edit" id="dysbtn">'+(DYS?"Lukihäiriötila: päällä":"Lukihäiriötila: pois")+'</button><div class="sep"></div><button class="edit" id="exportbtn">Vie asetukset</button><button class="edit" id="importbtn">Tuo asetukset</button>'}
+function menu(k){var h='<a href="#koti" class="'+(!CATS[k]?'on':'')+'">Home</a>';
+(EDIT?DRAFT:ORDER).forEach(function(c){h+=EDIT?'<div class="row" data-c="'+c+'"><span class="grip" aria-label="Drag to move">⠿</span><span>'+CATS[c]+'</span>'+(CUSTOM[c]?'<button class="x" data-editcat="'+c+'" aria-label="Edit category">✎</button>':'')+'<button class="x" data-del="'+c+'" aria-label="Delete category">✕</button></div>':'<a href="#'+c+'" class="'+(c===k?'on':'')+'">'+CATS[c]+'</a>'});
+return h+'<button class="addcat" data-addcat="1"><span>+</span> Add category</button><button class="edit" id="editbtn">'+(EDIT?'Done':'Edit order')+'</button><div class="sep"></div><button class="edit" id="themebtn">'+(THEME==="dark"?"Light theme":"Dark theme")+'</button><button class="edit" id="dysbtn">'+(DYS?"Dyslexia mode: on":"Dyslexia mode: off")+'</button><div class="sep"></div><button class="edit" id="exportbtn">Export settings</button><button class="edit" id="importbtn">Import settings</button>'}
 function route(keep){var k=(location.hash||"#koti").slice(1);
 document.getElementById('app').innerHTML=CATS[k]&&ORDER.indexOf(k)>-1?cat(k):home();
 document.getElementById('menu').innerHTML=menu(k);
@@ -466,15 +468,15 @@ H.filter(function(x){return x.h>0}).sort(function(a,b){return b.h-a.h||b.n.p-a.n
 DATA[id]=L})}
 function wOpen(){WD={name:"",src:[{t:"",ok:false}],kws:[]};wstep=1;M.classList.remove("open");$w("dlg").classList.remove("big");$w("ov").classList.add("open");wDraw()}
 function wClose(){$w("ov").classList.remove("open");$w("dlg").classList.remove("big")}
-function confirmDel(id){$w("dlg").innerHTML='<h3>Haluatko varmasti poistaa "'+wesc(CATS[id])+'"?</h3><div class="wrow end"><button class="wbtn" data-cancel="1">Peruuta</button><button class="wbtn red" data-dodel="'+id+'">Poista</button></div>';$w("ov").classList.add("open")}
+function confirmDel(id){$w("dlg").innerHTML='<h3>Are you sure you want to delete "'+wesc(CATS[id])+'"?</h3><div class="wrow end"><button class="wbtn" data-cancel="1">Cancel</button><button class="wbtn red" data-dodel="'+id+'">Delete</button></div>';$w("ov").classList.add("open")}
 function doDel(id){if(CUSTOM[id]){delete CUSTOM[id];delete CATS[id]}else if(DEL.indexOf(id)<0)DEL.push(id);
 ORDER=ORDER.filter(function(x){return x!==id});if(DRAFT)DRAFT=DRAFT.filter(function(x){return x!==id});persist();wClose();if(location.hash==="#"+id)location.hash="#koti";route(true)}
-function wSrcRow(s,i){return '<div class="wsrc"><input data-i="'+i+'" placeholder="Sivuston nimi tai osoite" value="'+wesc(s.t)+'"><span class="wst'+(s.ok?" ok":"")+'" id="wst'+i+'">'+(s.ok?"✓ Syöte löytyi":"")+'</span>'+(WD&&WD.edit?'<button class="wrs" data-rs="'+i+'" aria-label="Poista lähde">✕</button>':'')+'<div class="wsug" id="wsg'+i+'"></div></div>'}
+function wSrcRow(s,i){return '<div class="wsrc"><input data-i="'+i+'" placeholder="Site name or address" value="'+wesc(s.t)+'"><span class="wst'+(s.ok?" ok":"")+'" id="wst'+i+'">'+(s.ok?"✓ Feed found":"")+'</span>'+(WD&&WD.edit?'<button class="wrs" data-rs="'+i+'" aria-label="Remove source">✕</button>':'')+'<div class="wsug" id="wsg'+i+'"></div></div>'}
 function wkwl(){var h="",ex=[];WD.kws.forEach(function(k,i){if(!k.t){ex.push(i);return}
-h+='<div class="wkw"><span class="wchip"><span class="wtag">Aihe</span><b>'+wesc(k.k)+'</b><button data-rk="'+i+'" aria-label="Poista">×</button></span>';
-if(k.v.length){h+="<div>";k.v.forEach(function(v,j){h+='<span class="wchip v">'+wesc(v)+'<button data-rv="'+i+"-"+j+'" aria-label="Poista">×</button></span>'});h+="</div>"}
-else h+='<div class="whint">Aiheella ei ole vielä liittyviä sanoja.</div>';h+="</div>"});
-if(ex.length){h+='<div class="wkw"><span class="wtag">Tarkat hakusanat</span><div>';ex.forEach(function(i){h+='<span class="wchip">'+wesc(WD.kws[i].k)+'<button data-rk="'+i+'" aria-label="Poista">×</button></span>'});h+='</div></div>'}
+h+='<div class="wkw"><span class="wchip"><span class="wtag">Topic</span><b>'+wesc(k.k)+'</b><button data-rk="'+i+'" aria-label="Remove">×</button></span>';
+if(k.v.length){h+="<div>";k.v.forEach(function(v,j){h+='<span class="wchip v">'+wesc(v)+'<button data-rv="'+i+"-"+j+'" aria-label="Remove">×</button></span>'});h+="</div>"}
+else h+='<div class="whint">This topic has no related words yet.</div>';h+="</div>"});
+if(ex.length){h+='<div class="wkw"><span class="wtag">Exact keywords</span><div>';ex.forEach(function(i){h+='<span class="wchip">'+wesc(WD.kws[i].k)+'<button data-rk="'+i+'" aria-label="Remove">×</button></span>'});h+='</div></div>'}
 $w("wkwl").innerHTML=h;if(WD.edit)wEditPrev()}
 function wAddKw(w){w=w.trim().toLowerCase();if(!w||WD.kws.some(function(k){return !k.t&&k.k==w}))return;WD.kws.push({k:w,t:false,v:[]});wkwl()}
 function wAddTopic(id){var x=WTOP.filter(function(o){return o.id===id})[0];if(!x||WD.kws.some(function(k){return k.id===id}))return;WD.kws.push({k:x.nimi,id:x.id,t:true,v:x.sanat.slice()});wkwl()}
@@ -484,27 +486,27 @@ function wSrcFind(q){q=q.trim().toLowerCase();return q?WCAT.filter(function(x){r
 function wMatch(list,q){q=q.toLowerCase();return q?list.filter(function(x){return x.toLowerCase().indexOf(q)>-1}).slice(0,5):[]}
 function wPreview(){return "<h3>"+wesc(WD.name)+"</h3>"+wPrevBody()}
 function wPrevBody(){var h="";
-if(!WD.kws.length&&!wSrcIds(WD.src).length)return h+'<div class="whint">Valitse lähteitä listasta tai lisää hakusanoja, jotta uutisia voidaan valita.</div>';
-var miss=srcFeeds(WD.src).filter(function(f){return !LOADED[f]});if(miss.length){loadFeeds(miss).then(function(){if(WD&&wstep==4)wDraw()});return h+'<div class="whint">Ladataan uutisia…</div>'}
+if(!WD.kws.length&&!wSrcIds(WD.src).length)return h+'<div class="whint">Pick sources from the list or add keywords so news can be selected.</div>';
+var miss=srcFeeds(WD.src).filter(function(f){return !LOADED[f]});if(miss.length){loadFeeds(miss).then(function(){if(WD&&wstep==4)wDraw()});return h+'<div class="whint">Loading news…</div>'}
 var f=wFind(WD.kws,WD.src);
-if(!f.length)return h+'<div class="whint"><b>Ei osumia nykyisillä uutisilla.</b> Voit silti tallentaa kategorian tai palata lisäämään sanoja.</div>';
-h+='<div class="whint">Löytyi '+f.length+' uutista:</div>';
+if(!f.length)return h+'<div class="whint"><b>No matches in the current news.</b> You can still save the category or go back and add words.</div>';
+h+='<div class="whint">Found '+f.length+' news items:</div>';
 f.slice(0,4).forEach(function(n){h+='<div class="card"><span class="age">'+age(n.p)+'</span><b>'+wesc(n.t)+'</b></div>'});return h}
-function wDraw(){var h='<button class="wx" id="wx" aria-label="Sulje">✕</button><div class="wstep">'+(wstep<4?"Vaihe "+wstep+" / 3":"Esikatselu")+'</div>';
-if(wstep==1)h+='<h3>Nimeä kategoria</h3><input id="wnm" placeholder="Esim. Kyberturvallisuus" value="'+wesc(WD.name)+'" maxlength="30"><div class="whint">Nimi näkyy etusivulla ja valikossa.</div>';
-if(wstep==2){h+='<h3>Lisää uutislähteet</h3><div id="wsrcs">';WD.src.forEach(function(s,i){h+=wSrcRow(s,i)});h+='</div><button class="wbtn" id="wmoresrc">+ Lisää uutislähde</button><div class="whint">Kirjoita sivuston nimi tai liitä sen osoite. Listasta valittujen lähteiden uutiset haetaan automaattisesti. Itse liitettyjen osoitteiden uutisia ei vielä haeta.</div>'}
-if(wstep==3)h+='<h3>Hakusanat</h3><input id="wkw" placeholder="Kirjoita hakusana" autocomplete="off"><div class="wsug" id="wksug"></div><div class="whint">Kirjoita hakusana ja paina pilkkua tai Enteriä. Poista väärät sanat rastista.</div><div id="wkwl"></div>'+wAiPanel();
+function wDraw(){var h='<button class="wx" id="wx" aria-label="Close">✕</button><div class="wstep">'+(wstep<4?"Step "+wstep+" / 3":"Preview")+'</div>';
+if(wstep==1)h+='<h3>Name the category</h3><input id="wnm" placeholder="E.g. Cybersecurity" value="'+wesc(WD.name)+'" maxlength="30"><div class="whint">The name is shown on the home page and in the menu.</div>';
+if(wstep==2){h+='<h3>Add news sources</h3><div id="wsrcs">';WD.src.forEach(function(s,i){h+=wSrcRow(s,i)});h+='</div><button class="wbtn" id="wmoresrc">+ Add news source</button><div class="whint">Type a site name or paste its address. News from sources picked from the list is fetched automatically. News from addresses you paste yourself is not fetched yet.</div>'}
+if(wstep==3)h+='<h3>Keywords</h3><input id="wkw" placeholder="Type a keyword" autocomplete="off"><div class="wsug" id="wksug"></div><div class="whint">Type a keyword and press comma or Enter. Remove wrong words with the cross.</div><div id="wkwl"></div>'+wAiPanel();
 if(wstep==4)h+=wPreview();
-h+='<div class="wrow"><button class="wbtn" id="wback">'+(wstep==1?"Peruuta":"Takaisin")+'</button><button class="wbtn p" id="wnext">'+(wstep==3?"Esikatsele":wstep==4?"Tallenna kategoria":"Seuraava")+'</button></div>';
+h+='<div class="wrow"><button class="wbtn" id="wback">'+(wstep==1?"Cancel":"Back")+'</button><button class="wbtn p" id="wnext">'+(wstep==3?"Preview":wstep==4?"Save category":"Next")+'</button></div>';
 $w("dlg").innerHTML=h;if(wstep==3)wkwl();var f=$w("wnm")||$w("wkw");if(f)f.focus()}
 document.addEventListener("input",function(e){var t=e.target;if(!WD||t.closest("#obOv"))return;
 if(t.id==="wnm")WD.name=t.value;
 if(t.dataset&&t.dataset.i!==undefined){var i=+t.dataset.i,v=t.value;WD.src[i]={t:v,ok:false};$w("wst"+i).className="wst";$w("wst"+i).textContent="";
-$w("wsg"+i).innerHTML=wSrcFind(v).map(function(x){return '<button data-pick="'+i+'" data-id="'+wesc(x.id)+'">'+wesc(x.nimi)+'<small>'+(x.kieli==="fi"?"Suomi":"EN")+(x.testattu?" · ✓":"")+'</small></button>'}).join("");
-if(/^(https?:\/\/)?[\w-]+(\.[\w-]+)+/i.test(v)){$w("wst"+i).textContent="Etsitään syötettä…";setTimeout(function(){if(WD&&WD.src[i]&&WD.src[i].t===v&&(wstep==2||WD.edit)){WD.src[i].ok=true;$w("wst"+i).className="wst ok";$w("wst"+i).textContent="✓ Syöte löytyi (esimerkki)"}},700)}}
+$w("wsg"+i).innerHTML=wSrcFind(v).map(function(x){return '<button data-pick="'+i+'" data-id="'+wesc(x.id)+'">'+wesc(x.nimi)+'<small>'+(x.kieli==="fi"?"Finnish":"English")+(x.testattu?" · ✓":"")+'</small></button>'}).join("");
+if(/^(https?:\/\/)?[\w-]+(\.[\w-]+)+/i.test(v)){$w("wst"+i).textContent="Looking for a feed…";setTimeout(function(){if(WD&&WD.src[i]&&WD.src[i].t===v&&(wstep==2||WD.edit)){WD.src[i].ok=true;$w("wst"+i).className="wst ok";$w("wst"+i).textContent="✓ Feed found (example)"}},700)}}
 if(WD.edit&&t.dataset&&t.dataset.i!==undefined)wEditPrev();
 if(t.id==="wkw"){var q=t.value;if(q.indexOf(",")>-1){q.split(",").forEach(function(w){wAddKw(w)});t.value="";$w("wksug").innerHTML="";return}
-var sg=wTopFind(q).map(function(x){return '<button data-add="'+wesc(x.id)+'"><b>'+wesc(x.nimi)+'</b><small>'+wesc(x.paa)+' · '+x.sanat.length+' sanaa</small></button>'}).join("");if(q.trim())sg+='<button data-exact="'+wesc(q.trim())+'">Lisää tarkka hakusana: <b>'+wesc(q.trim())+'</b></button>';$w("wksug").innerHTML=sg}});
+var sg=wTopFind(q).map(function(x){return '<button data-add="'+wesc(x.id)+'"><b>'+wesc(x.nimi)+'</b><small>'+wesc(x.paa)+' · '+x.sanat.length+' words</small></button>'}).join("");if(q.trim())sg+='<button data-exact="'+wesc(q.trim())+'">Add exact keyword: <b>'+wesc(q.trim())+'</b></button>';$w("wksug").innerHTML=sg}});
 document.addEventListener("keydown",function(e){if(e.key==="Enter"&&e.target.id==="wkw"){wAddKw(e.target.value);e.target.value="";$w("wksug").innerHTML=""}});
 document.addEventListener("click",function(e){if(e.target.closest&&e.target.closest("#obOv"))return;var t=(e.target.closest&&e.target.closest("button"))||e.target,d=t.dataset||{};
 var ed=t.closest("[data-editcat]");if(ed){wEdit(ed.dataset.editcat);return}
@@ -513,7 +515,7 @@ if(t.closest("[data-addcat]")){obOpenChoice();return}
 if(d.dodel!==undefined){doDel(d.dodel);return}
 if(d.cancel!==undefined||t.id==="ov"||t.id==="wx"){wClose();return}
 if(!WD)return;
-if(d.pick!==undefined){var i=+d.pick,x=WCAT.filter(function(c){return c.id===d.id})[0];if(!x)return;WD.src[i]={t:x.nimi,ok:true,id:x.id,rss:x.rss};$w("dlg").querySelector('input[data-i="'+i+'"]').value=x.nimi;$w("wst"+i).className="wst ok";$w("wst"+i).textContent="✓ Lähde valittu";$w("wsg"+i).innerHTML="";if(WD.edit)wEditPrev();return}
+if(d.pick!==undefined){var i=+d.pick,x=WCAT.filter(function(c){return c.id===d.id})[0];if(!x)return;WD.src[i]={t:x.nimi,ok:true,id:x.id,rss:x.rss};$w("dlg").querySelector('input[data-i="'+i+'"]').value=x.nimi;$w("wst"+i).className="wst ok";$w("wst"+i).textContent="✓ Source selected";$w("wsg"+i).innerHTML="";if(WD.edit)wEditPrev();return}
 if(d.exact!==undefined){wAddKw(d.exact);$w("wkw").value="";$w("wksug").innerHTML="";$w("wkw").focus();return}
 if(d.add!==undefined){wAddTopic(d.add);$w("wkw").value="";$w("wksug").innerHTML="";$w("wkw").focus();return}
 if(d.rk!==undefined){WD.kws.splice(+d.rk,1);return wkwl()}
@@ -523,21 +525,21 @@ if(t.id==="wback"){if(wstep==1)wClose();else{wstep--;wDraw()}return}
 if(d.rs!==undefined){WD.src.splice(+d.rs,1);if(!WD.src.length)WD.src.push({t:"",ok:false});$w("wsrcs").innerHTML=WD.src.map(wSrcRow).join("");wEditPrev();return}
 if(t.id==="waibtn"){$w("waiwrap").hidden=true;$w("waip").hidden=false;$w("waiprompt").value=wAiPrompt();return}
 if(t.id==="wcopy"){var pt=wAiPrompt(),st=$w("wcopyst");$w("waiprompt").value=pt;
-var fb=function(){var a=$w("waiprompt");a.focus();a.select();var ok=false;try{ok=document.execCommand("copy")}catch(err){}if(ok)st.textContent="Kopioitu!";else{a.classList.remove("hid");a.removeAttribute("aria-hidden");st.textContent="Kopiointi ei onnistunut. Kopioi prompti kentästä."}};
-if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(pt).then(function(){st.textContent="Kopioitu!"},fb);else fb();return}
+var fb=function(){var a=$w("waiprompt");a.focus();a.select();var ok=false;try{ok=document.execCommand("copy")}catch(err){}if(ok)st.textContent="Copied!";else{a.classList.remove("hid");a.removeAttribute("aria-hidden");st.textContent="Copying failed. Copy the prompt from the field."}};
+if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(pt).then(function(){st.textContent="Copied!"},fb);else fb();return}
 if(t.id==="waiadd"){var ws=wParseAI($w("waiin").value),b4=WD.kws.length;ws.forEach(function(w){w=w.trim().toLowerCase();if(w&&!WD.kws.some(function(k){return !k.t&&k.k==w}))WD.kws.push({k:w,t:false,v:[]})});var n=WD.kws.length-b4;if(n)wkwl();
-$w("waist").textContent=ws.length?("Lisättiin "+n+" hakusanaa"+(ws.length>n?" ("+(ws.length-n)+" oli jo listalla)":"")+"."):"Hakusanoja ei löytynyt. Liitä pilkuilla eroteltu lista.";if(n)$w("waiin").value="";return}
+$w("waist").textContent=ws.length?("Added "+n+" keywords"+(ws.length>n?" ("+(ws.length-n)+" were already on the list)":"")+"."):"No keywords found. Paste a comma-separated list.";if(n)$w("waiin").value="";return}
 if(t.id==="wsave"){var nm=WD.name.trim();if(!nm){$w("wnm").focus();return}var eid=WD.edit;
 CUSTOM[eid]={name:nm,src:WD.src.filter(function(s){return s.t.trim()}).map(function(s){return{n:s.t,id:s.id||"",rss:s.rss||""}}),kws:WD.kws};CATS[eid]=nm;persist();buildCustom();wClose();WD=null;route(true);return}
 if(t.id==="wnext"){if(wstep==1&&!WD.name.trim()){$w("wnm").focus();return}
 if(wstep<4){wstep++;wDraw();return}
 var id="c"+Date.now();CUSTOM[id]={name:WD.name.trim(),src:WD.src.filter(function(s){return s.t.trim()}).map(function(s){return{n:s.t,id:s.id||"",rss:s.rss||""}}),kws:WD.kws};CATS[id]=CUSTOM[id].name;ORDER.push(id);persist();buildCustom();wClose();WD=null;location.hash="#"+id}});
 function wAiPrompt(){var n=WD&&WD.name&&WD.name.trim();
-return (n?'Kategoriani nimi on "'+n+'".\n\n':'')+'Autat minua tekemään hakusanoja uutisten suodattamiseen. Kysy minulta yksi kysymys kerrallaan ja odota vastaus ennen seuraavaa:\n1) Mikä on kategorian aihe?\n2) Mitkä asiat aiheessa kiinnostavat erityisesti (esim. henkilöt, joukkueet, yritykset, tapahtumat)?\n3) Haluatko hakusanat suomeksi, englanniksi vai molemmilla?\n\nTee vastausten perusteella 15–40 hakusanaa. Säännöt:\n- sanat perusmuodossa, ei taivutusmuotoja\n- jos sana taipuu epäsäännöllisesti (esim. mies → miehen, vesi → veden), kirjoita sen perään sulkuihin taivutusvartalo, useampi vinoviivalla, vähintään 4 kirjainta: mies (miehe), vesi (vede/vett). Älä lisää sulkuja säännöllisesti taipuville sanoille\n- vähintään 3 kirjainta, nimet ja lyhenteet käyvät\n- ei toistoja\n\nKirjoita lopuksi yksi lyhyt rivi (esim. \"Tässä hakusanat:\") ja sen alle kaikki hakusanat yhteen koodilohkoon (```) yhdellä rivillä pilkuilla eroteltuna, jotta voin kopioida ne yhdellä napilla. Älä kirjoita koodilohkon jälkeen mitään.'}
-function wAiPanel(){return '<div class="wor">– TAI –</div><div class="waiwrap" id="waiwrap"><button class="wbtn waib" id="waibtn">✨ Luo hakusanat tekoälyllä</button></div><div class="waip" id="waip" hidden>'+
-'<ol class="waisteps"><li>Kopioi prompti ja liitä se omaan tekoälyysi.</li><li>Vastaa tekoälyn kysymyksiin.</li><li>Kopioi tekoälyn antamat hakusanat ja liitä ne alla olevaan kenttään.</li></ol>'+
-'<textarea id="waiprompt" class="hid" rows="5" readonly aria-hidden="true" tabindex="-1"></textarea><div class="wrow cprow"><span class="waist" id="wcopyst"></span><button class="wbtn" id="wcopy">Kopioi prompti</button></div>'+
-'<textarea id="waiin" rows="3" placeholder="Liitä tekoälyn vastaus tähän"></textarea><div class="wrow"><span class="waist" id="waist"></span><button class="wbtn p" id="waiadd">Lisää hakusanat</button></div></div>'}
+return (n?'My category is called "'+n+'".\n\n':'')+'You are helping me create keywords for filtering news. Ask me one question at a time and wait for my answer before asking the next one:\n1) What is the topic of the category?\n2) What in the topic interests you most (e.g. people, teams, companies, events)?\n3) Do you want the keywords in Finnish, English or both?\n\nBased on the answers, create 15–40 keywords. Rules:\n- words in their base form, no inflected forms\n- if a Finnish word inflects irregularly (e.g. mies → miehen, vesi → veden), add its inflection stem in parentheses after it, several stems separated by a slash, at least 4 letters each: mies (miehe), vesi (vede/vett). Do not add parentheses to words that inflect regularly\n- at least 3 letters; names and abbreviations are fine\n- no duplicates\n\nFinally, write one short line (e.g. "Here are the keywords:") and below it all the keywords in a single code block (```) on one line, separated by commas, so I can copy them with one click. Do not write anything after the code block.'}
+function wAiPanel(){return '<div class="wor">– OR –</div><div class="waiwrap" id="waiwrap"><button class="wbtn waib" id="waibtn">✨ Create keywords with AI</button></div><div class="waip" id="waip" hidden>'+
+'<ol class="waisteps"><li>Copy the prompt and paste it into your own AI.</li><li>Answer the questions the AI asks.</li><li>Copy the keywords the AI gives you and paste them into the field below.</li></ol>'+
+'<textarea id="waiprompt" class="hid" rows="5" readonly aria-hidden="true" tabindex="-1"></textarea><div class="wrow cprow"><span class="waist" id="wcopyst"></span><button class="wbtn" id="wcopy">Copy prompt</button></div>'+
+'<textarea id="waiin" rows="3" placeholder="Paste the AI answer here"></textarea><div class="wrow"><span class="waist" id="waist"></span><button class="wbtn p" id="waiadd">Add keywords</button></div></div>'}
 function wParseAI(txt){return wParseAIv(txt).map(function(o){return o.w})}
 // hakusanat ja niiden mahdolliset vartalot sulkeissa: "mies (miehe)" → {w:"mies",v:["miehe"]}
 function wParseAIv(txt){txt=String(txt||"").replace(/```[a-z]*/gi,"");var lines=txt.split(/\n+/),many=lines.filter(function(l){return (l.match(/,/g)||[]).length>=3});
@@ -550,33 +552,33 @@ var src=(c.src||[]).map(function(x){if(typeof x==="string"){var m=WCAT.filter(fu
 if(!src.length)src.push({t:"",ok:false});
 WD={edit:id,name:c.name,src:src,kws:JSON.parse(JSON.stringify(c.kws||[]))};wstep=0;
 var d=$w("dlg");d.classList.add("big");
-d.innerHTML='<button class="wx" id="wx" aria-label="Sulje">✕</button><div class="wstep">Muokkaa kategoriaa</div><h3>'+wesc(c.name)+'</h3>'+
-'<h4>Nimi</h4><input id="wnm" value="'+wesc(WD.name)+'" maxlength="30">'+
-'<h4>Uutislähteet</h4><div id="wsrcs">'+WD.src.map(wSrcRow).join("")+'</div><button class="wbtn" id="wmoresrc">+ Lisää uutislähde</button>'+
-'<h4>Hakusanat</h4><input id="wkw" placeholder="Kirjoita hakusana" autocomplete="off"><div class="wsug" id="wksug"></div><div class="whint">Kirjoita hakusana ja paina pilkkua tai Enteriä. Poista väärät sanat rastista.</div><div id="wkwl"></div>'+wAiPanel()+
-'<h4>Esikatselu</h4><div id="wprev"></div>'+
-'<div class="wrow end"><button class="wbtn" data-cancel="1">Peruuta</button><button class="wbtn p" id="wsave">Tallenna muutokset</button></div>';
+d.innerHTML='<button class="wx" id="wx" aria-label="Close">✕</button><div class="wstep">Edit category</div><h3>'+wesc(c.name)+'</h3>'+
+'<h4>Name</h4><input id="wnm" value="'+wesc(WD.name)+'" maxlength="30">'+
+'<h4>News sources</h4><div id="wsrcs">'+WD.src.map(wSrcRow).join("")+'</div><button class="wbtn" id="wmoresrc">+ Add news source</button>'+
+'<h4>Keywords</h4><input id="wkw" placeholder="Type a keyword" autocomplete="off"><div class="wsug" id="wksug"></div><div class="whint">Type a keyword and press comma or Enter. Remove wrong words with the cross.</div><div id="wkwl"></div>'+wAiPanel()+
+'<h4>Preview</h4><div id="wprev"></div>'+
+'<div class="wrow end"><button class="wbtn" data-cancel="1">Cancel</button><button class="wbtn p" id="wsave">Save changes</button></div>';
 $w("ov").classList.add("open");wkwl();d.scrollTop=0}
 var KEYS=["teema","dys","order","custom","del"],IMP=null;
 function exportSettings(){var o={sovellus:"FMFN",versio:1,viety:new Date().toISOString(),asetukset:{}};
 KEYS.forEach(function(k){try{var v=localStorage.getItem(k);if(v!==null)o.asetukset[k]=v}catch(e){}});
 var b=new Blob([JSON.stringify(o,null,1)],{type:"application/json"}),a=document.createElement("a");
-a.href=URL.createObjectURL(b);a.download="fmfn-asetukset.json";document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(a.href)},1000)}
+a.href=URL.createObjectURL(b);a.download="fmfn-settings.json";document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(a.href)},1000)}
 function validSettings(o){if(!o||typeof o!=="object"||!o.asetukset||typeof o.asetukset!=="object")return null;var a=o.asetukset,out={};
 try{var tm=a.teema||a.theme;if(tm==="light"||tm==="dark")out.teema=tm;if(a.dys==="1"||a.dys==="0")out.dys=a.dys;
 if(a.order!==undefined){var x=JSON.parse(a.order);if(Array.isArray(x)&&x.every(function(v){return typeof v==="string"}))out.order=a.order}
 if(a.del!==undefined){var y=JSON.parse(a.del);if(Array.isArray(y)&&y.every(function(v){return typeof v==="string"}))out.del=a.del}
 if(a.custom!==undefined){var c=JSON.parse(a.custom);if(c&&typeof c==="object"&&!Array.isArray(c)&&Object.keys(c).every(function(k){return c[k]&&typeof c[k].name==="string"&&Array.isArray(c[k].kws)}))out.custom=a.custom}}catch(e){return null}
 return Object.keys(out).length?out:null}
-function importMsg(t){$w("dlg").innerHTML='<h3>'+t+'</h3><div class="wrow end"><button class="wbtn" data-cancel="1">Sulje</button></div>';$w("ov").classList.add("open")}
+function importMsg(t){$w("dlg").innerHTML='<h3>'+t+'</h3><div class="wrow end"><button class="wbtn" data-cancel="1">Close</button></div>';$w("ov").classList.add("open")}
 document.getElementById("impfile").addEventListener("change",function(e){var f=e.target.files&&e.target.files[0];e.target.value="";if(!f)return;M.classList.remove("open");
 var r=new FileReader();r.onload=function(){var o=null;try{o=validSettings(JSON.parse(r.result))}catch(err){}
-if(!o){IMP=null;importMsg("Tiedostoa ei voitu lukea. Varmista, että se on tältä sivulta viety asetustiedosto.");return}
+if(!o){IMP=null;importMsg("The file could not be read. Make sure it is a settings file exported from this site.");return}
 IMP=o;var n=0;try{n=Object.keys(JSON.parse(o.custom||"{}")).length}catch(err){}
-$w("dlg").innerHTML='<h3>Tuodaanko asetukset?</h3><div class="whint">Nykyiset asetuksesi korvataan tiedoston asetuksilla'+(n?' (mukana '+n+' omaa kategoriaa)':'')+'.</div><div class="wrow end"><button class="wbtn" data-cancel="1">Peruuta</button><button class="wbtn p" data-doimport="1">Tuo</button></div>';$w("ov").classList.add("open")};
-r.onerror=function(){importMsg("Tiedostoa ei voitu lukea.")};r.readAsText(f)});
+$w("dlg").innerHTML='<h3>Import settings?</h3><div class="whint">Your current settings will be replaced with the settings in the file'+(n?' (includes '+n+' custom '+(n===1?'category':'categories')+')':'')+'.</div><div class="wrow end"><button class="wbtn" data-cancel="1">Cancel</button><button class="wbtn p" data-doimport="1">Import</button></div>';$w("ov").classList.add("open")};
+r.onerror=function(){importMsg("The file could not be read.")};r.readAsText(f)});
 document.addEventListener("click",function(e){var t=e.target.closest&&e.target.closest("[data-doimport]");if(!t||!IMP)return;
-try{KEYS.forEach(function(k){if(IMP[k]!==undefined)localStorage.setItem(k,IMP[k])})}catch(err){importMsg("Asetuksia ei voitu tallentaa tähän selaimeen.");return}
+try{KEYS.forEach(function(k){if(IMP[k]!==undefined)localStorage.setItem(k,IMP[k])})}catch(err){importMsg("The settings could not be saved in this browser.");return}
 IMP=null;location.hash="#koti";location.reload()});
 /* --- ensikäyttö ja kategorian luonti --- */
 (function(){
@@ -602,9 +604,9 @@ var LOCKY=null;
 function softFocus(el){if(el&&!(window.matchMedia&&matchMedia("(pointer:coarse)").matches))el.focus()}
 function openOv(html,label){if($("obOv").hidden){lastFocus=document.activeElement;lockBody()}$("obSheet").setAttribute("aria-label",label);$("obSheet").innerHTML=html;$("obOv").hidden=false;try{M.classList.remove("open")}catch(e){}}
 function closeOv(){VIEW=null;SEL=[];F=null;$("obOv").hidden=true;unlockBody();if(lastFocus&&lastFocus.focus)lastFocus.focus()}
-function shell(title,body,foot){return '<button class="x" id="sClose" aria-label="Sulje">✕</button><div class="chead"><h3>'+title+'</h3></div>'+body+'<div id="obConfirm"></div><div class="cfoot"><span class="msg" id="obMsg" role="status"></span>'+foot+'</div>'}
-function doneAside(){return '<aside class="done" aria-label="Luodut kategoriat"><h4>Luodut kategoriat</h4><ul id="obDone"></ul></aside>'}
-function drawDone(){var n=names();$("obDone").innerHTML=n.length?n.map(function(c){return '<li'+(JUSTN.indexOf(c)>-1?' class="new"':'')+'>'+esc(c)+'</li>'}).join(''):'<li class="none">Ei vielä yhtään. Tallennettu kategoria näkyy tässä.</li>'}
+function shell(title,body,foot){return '<button class="x" id="sClose" aria-label="Close">✕</button><div class="chead"><h3>'+title+'</h3></div>'+body+'<div id="obConfirm"></div><div class="cfoot"><span class="msg" id="obMsg" role="status"></span>'+foot+'</div>'}
+function doneAside(){return '<aside class="done" aria-label="Created categories"><h4>Created categories</h4><ul id="obDone"></ul></aside>'}
+function drawDone(){var n=names();$("obDone").innerHTML=n.length?n.map(function(c){return '<li'+(JUSTN.indexOf(c)>-1?' class="new"':'')+'>'+esc(c)+'</li>'}).join(''):'<li class="none">None yet. A saved category appears here.</li>'}
 function msg(t,cls){var m=$("obMsg");m.textContent=t;m.className="msg "+(cls||"")}
 // vahvistus ponnahdusikkunana, samaan tyyliin kuin kategorian poisto
 function ask(text,keep,go,fn){$("obConfirm").innerHTML='<div class="askov" id="kOv"><div class="askdlg" role="alertdialog" aria-modal="true" aria-labelledby="kTxt"><h3 id="kTxt">'+text+'</h3><div class="wrow end"><button class="wbtn" id="kKeep">'+keep+'</button><button class="wbtn red" id="kGo">'+go+'</button></div></div></div>';
@@ -615,38 +617,41 @@ function escHandler(){if(VIEW==="welcome")closeWelcome();else if(VIEW==="ready")
 function welcomed(){try{return localStorage.getItem("welcomed")==="1"}catch(e){return false}}
 function setWelcomed(){try{localStorage.setItem("welcomed","1")}catch(e){}}
 function openWelcome(){VIEW="welcome";
-openOv('<button class="x" id="wClose" aria-label="Sulje">✕</button><div class="welcome">'+LOGO+'<h1>Tervetuloa!</h1><p>Omat lähteet. Omat filtterit. Omat uutiset.</p><button class="go" id="wGo">Aloita</button></div>',"Tervetuloa");
+openOv('<button class="x" id="wClose" aria-label="Close">✕</button><div class="welcome">'+LOGO+'<h1>Welcome!</h1><p>Your sources. Your filters. Your news.</p><button class="go" id="wGo">Get started</button></div>',"Welcome");
 $("wGo").focus();$("wClose").onclick=closeWelcome;$("wGo").onclick=function(){setWelcomed();openChoice()}}
 function closeWelcome(){setWelcomed();closeOv()}
 
 /* valinta: valmiit vai omat */
 function openChoice(){F=null;VIEW="choice";
-openOv('<button class="x" id="sClose" aria-label="Sulje">✕</button><div class="choice"><button class="opt" id="oReady"><span class="t">Valitse valmiit kategoriat</span><p>Valmiiksi kootut kategoriat, joiden lähteitä voit muokata myöhemmin.</p><span class="pill">Valitse valmiit</span></button><div class="div" role="presentation"></div><button class="opt" id="oOwn"><span class="t">Luo omat kategoriat</span><p>Nimeä kategoria, valitse lähteet ja kirjoita omat hakusanat.</p><span class="pill">Luo omat</span></button></div>',"Miten aloitetaan");
+openOv('<button class="x" id="sClose" aria-label="Close">✕</button><div class="choice"><button class="opt" id="oReady"><span class="t">Pick ready-made categories</span><p>Pre-built categories whose sources you can edit later.</p><span class="pill">Pick ready-made</span></button><div class="div" role="presentation"></div><button class="opt" id="oOwn"><span class="t">Create your own categories</span><p>Name a category, pick sources and write your own keywords.</p><span class="pill">Create your own</span></button></div>',"How do you want to start");
 $("sClose").onclick=closeOv;$("oReady").onclick=openReady;$("oOwn").onclick=openCreator}
 
 /* valmiit kategoriat ruudukkona */
+// valmiiden kategorioiden ja ryhmien englanninkieliset nimet (datatiedosto pysyy suomeksi)
+var PACK_EN={"Suomen uutiset yleinen":"Finnish News General","Suomen musiikki":"Finnish Music","Suomen talous":"Finnish Economy","Jalkapallo":"Football","Urheilu yleinen":"Sports General","Maailman uutiset":"World News","Talous ja finanssi":"Business and Finance","Suomen uutiset":"Finnish News","Urheilu":"Sports"};
+function packEn(){PACKS.forEach(function(p){if(p._en)return;p._en=1;if(PACK_EN[p.nimi])p.nimi=PACK_EN[p.nimi];if(p.ryhma&&PACK_EN[p.ryhma])p.ryhma=PACK_EN[p.ryhma]})}
 function packCat(p){var c={name:p.nimi,src:[],kws:[]};p.lahteet.forEach(function(id){var x=getSrc(id);if(x)c.src.push({n:x.nimi,id:x.id})});(p.aiheet||[]).forEach(function(id){var x=getTop(id);if(x)c.kws.push({k:x.nimi,id:x.id,t:true,v:x.sanat.slice()})});return c}
-function openReady(){F=null;VIEW="ready";SEL=[];JUSTN=[];OPEN={};
-openOv(shell("Valitse valmiit kategoriat",'<div class="cbody"><div class="form"><p class="hint" style="margin:0 0 14px">Napauta kategorioita, jotka haluat. Ryhmän napautus valitsee koko ryhmän, ja ▾ näyttää sen kategoriat. Voit muokata ja poistaa niitä myöhemmin.</p><div class="grid" id="obGrid"></div></div>'+doneAside()+'</div>',
-'<button class="tl" id="toOwn">Lisää omat kategoriat</button><button class="btn" id="rNext">Tallenna ja lisää</button><button class="btn p" id="rDone">Valmis</button>'),"Valitse valmiit kategoriat");
-drawGrid();drawDone();if(!PACKS.length)msg("Valmiita kategorioita ei voitu ladata.","err");
+function openReady(){F=null;VIEW="ready";SEL=[];JUSTN=[];OPEN={};packEn();
+openOv(shell("Pick ready-made categories",'<div class="cbody"><div class="form"><p class="hint" style="margin:0 0 14px">Tap the categories you want. Tapping a group selects the whole group, and ▾ shows its categories. You can edit and delete them later.</p><div class="grid" id="obGrid"></div></div>'+doneAside()+'</div>',
+'<button class="tl" id="toOwn">Add your own categories</button><button class="btn" id="rNext">Save and add</button><button class="btn p" id="rDone">Done</button>'),"Pick ready-made categories");
+drawGrid();drawDone();if(!PACKS.length)msg("Ready-made categories could not be loaded.","err");
 $("sClose").onclick=function(){leaveReady(closeOv)};$("toOwn").onclick=function(){leaveReady(openCreator)};
 $("rNext").onclick=saveSel;$("rDone").onclick=function(){if(!SEL.length||saveSel())closeOv()}}
 // pitkä nimi tai pitkä yksittäinen sana saa pienemmän fontin, jotta sana ei katkea
 function longName(n){return n.length>12||n.split(/\s+/).some(function(w){return w.length>8})}
-// "yleinen"-loppuiset nimet: jokainen sana omalle rivilleen ja "yleinen" pienempänä muodossa "-yleinen"
-function hasYl(n){return /(^|\s)yleinen$/i.test(n.trim())}
+// "General"-loppuiset nimet: jokainen sana omalle rivilleen ja "General" pienempänä muodossa "-General"
+function hasYl(n){return /(^|\s)general$/i.test(n.trim())}
 function tileLong(n){return hasYl(n)?n.split(/\s+/).some(function(w){return w.length>8}):longName(n)}
-function tileName(n){if(!hasYl(n))return esc(n);return n.trim().split(/\s+/).map(function(w){return /^yleinen$/i.test(w)?'<span class="yl">-'+esc(w)+'</span>':esc(w)}).join('<br>')}
+function tileName(n){if(!hasYl(n))return esc(n);return n.trim().split(/\s+/).map(function(w){return /^general$/i.test(w)?'<span class="yl">-'+esc(w)+'</span>':esc(w)}).join('<br>')}
 function packTile(i){var p=PACKS[i],made=exists(p.nimi),on=SEL.indexOf(i)>-1,nt=(p.aiheet||[]).length;
-return '<button class="tile'+(made?' made':'')+'" data-tile="'+i+'" aria-pressed="'+(on?'true':'false')+'"'+(made?' aria-disabled="true"':'')+'><span class="ck">'+(made||on?'✓':'')+'</span><span class="tn'+(tileLong(p.nimi)?' long':'')+'" lang="fi">'+tileName(p.nimi)+'</span><span class="tm">'+(made?'Lisätty':p.lahteet.length+' lähdettä · '+nt+(nt===1?' aihe':' aihetta'))+'</span></button>'}
+return '<button class="tile'+(made?' made':'')+'" data-tile="'+i+'" aria-pressed="'+(on?'true':'false')+'"'+(made?' aria-disabled="true"':'')+'><span class="ck">'+(made||on?'✓':'')+'</span><span class="tn'+(tileLong(p.nimi)?' long':'')+'" lang="en">'+tileName(p.nimi)+'</span><span class="tm">'+(made?'Added':p.lahteet.length+(p.lahteet.length===1?' source · ':' sources · ')+nt+(nt===1?' topic':' topics'))+'</span></button>'}
 // ryhmät ensiesiintymisjärjestyksessä; ix = ryhmän kategorioiden PACKS-indeksit
 function groupList(){var G=[],m={};PACKS.forEach(function(p,i){if(!p.ryhma)return;if(!m[p.ryhma]){m[p.ryhma]={n:p.ryhma,ix:[]};G.push(m[p.ryhma])}m[p.ryhma].ix.push(i)});return G}
 function groupAvail(g){return g.ix.filter(function(i){return !exists(PACKS[i].nimi)})}
 function groupTile(g,gi){var av=groupAvail(g),done=!av.length,ns=av.filter(function(i){return SEL.indexOf(i)>-1}).length,
 st=done||!ns?'false':(ns===av.length?'true':'mixed'),open=!!OPEN[g.n],n=g.ix.length;
-return '<div class="gwrap"><button class="tile gtile'+(done?' made':'')+'" data-group="'+gi+'" aria-pressed="'+st+'"'+(done?' aria-disabled="true"':'')+'><span class="ck">'+(done||st==='true'?'✓':st==='mixed'?'–':'')+'</span><span class="tn'+(longName(g.n)?' long':'')+'" lang="fi">'+esc(g.n)+'</span><span class="tm">'+(done?'Lisätty':n+(n===1?' kategoria':' kategoriaa')+(ns?' · '+ns+' valittu':''))+'</span></button>'+
-'<button class="gexp" data-gexp="'+gi+'" aria-expanded="'+open+'" aria-controls="obGrp'+gi+'" aria-label="'+(open?'Piilota':'Näytä')+' ryhmän '+esc(g.n)+' kategoriat">▾</button></div>'+
+return '<div class="gwrap"><button class="tile gtile'+(done?' made':'')+'" data-group="'+gi+'" aria-pressed="'+st+'"'+(done?' aria-disabled="true"':'')+'><span class="ck">'+(done||st==='true'?'✓':st==='mixed'?'–':'')+'</span><span class="tn'+(longName(g.n)?' long':'')+'" lang="en">'+esc(g.n)+'</span><span class="tm">'+(done?'Added':n+(n===1?' category':' categories')+(ns?' · '+ns+' selected':''))+'</span></button>'+
+'<button class="gexp" data-gexp="'+gi+'" aria-expanded="'+open+'" aria-controls="obGrp'+gi+'" aria-label="'+(open?'Hide':'Show')+' categories in '+esc(g.n)+'">▾</button></div>'+
 (open?'<div class="gkids" id="obGrp'+gi+'" role="group" aria-label="'+esc(g.n)+'">'+g.ix.map(packTile).join('')+'</div>':'')}
 function drawGrid(){var G=groupList();$("obGrid").innerHTML=G.map(groupTile).join('')+PACKS.map(function(p,i){return p.ryhma?'':packTile(i)}).join('')}
 // ryhmän avaus ja sulkeminen liukuvalla animaatiolla
@@ -663,15 +668,15 @@ OPEN[gg.n]=true;drawGrid();refocus();var k2=$("obGrp"+gi),b=$("obGrid").querySel
 if(calm||!k2)return;GANIM=true;k2.style.overflow="hidden";var h2=k2.offsetHeight;
 b.animate([{transform:"rotate(0deg)"},{transform:"rotate(180deg)"}],{duration:D,easing:"ease-in-out"});
 k2.animate(shut.concat([{height:h2+"px",opacity:1}]),{duration:D,easing:"ease-in-out"}).onfinish=function(){GANIM=false;k2.style.overflow=""}}
-function saveSel(){if(!SEL.length){msg("Valitse vähintään yksi kategoria.","err");return false}
+function saveSel(){if(!SEL.length){msg("Select at least one category.","err");return false}
 var added=[];SEL.forEach(function(i){var p=PACKS[i];if(exists(p.nimi))return;saveCat(packCat(p));added.push(p.nimi)});SEL=[];JUSTN=added;drawGrid();drawDone();
-msg("✓ "+added.join(", ")+" tallennettu. Valitse lisää tai paina Valmis.","ok");return true}
-function leaveReady(fn){if(SEL.length)ask("Valintojasi ei ole tallennettu.","Jatka valintaa","Hylkää valinnat",fn);else fn()}
+msg("✓ "+added.join(", ")+" saved. Pick more or press Done.","ok");return true}
+function leaveReady(fn){if(SEL.length)ask("Your selections have not been saved.","Keep selecting","Discard selections",fn);else fn()}
 
 /* oma kategoria: kaikki samassa näkymässä */
 function openCreator(){F=blank();VIEW="own";JUSTN=[];
-openOv(shell("Luo oma kategoria",'<div class="cbody own"><div class="form" id="obForm"></div>'+doneAside()+'</div>',
-'<button class="tl" id="toReady">Lisää valmiit kategoriat</button><button class="btn" id="cNext">Tallenna ja lisää</button><button class="btn p" id="cDone">Valmis</button>'),"Luo oma kategoria");
+openOv(shell("Create your own category",'<div class="cbody own"><div class="form" id="obForm"></div>'+doneAside()+'</div>',
+'<button class="tl" id="toReady">Add ready-made categories</button><button class="btn" id="cNext">Save and add</button><button class="btn p" id="cDone">Done</button>'),"Create your own category");
 drawForm();drawDone();softFocus($("fName"));
 $("sClose").onclick=function(){tryLeave(closeOv)};$("toReady").onclick=function(){tryLeave(openReady)};
 $("cNext").onclick=function(){if(commit())reset()};$("cDone").onclick=function(){if(isEmpty()){closeOv();return}if(commit())closeOv()}}
@@ -680,45 +685,45 @@ function openEditor(id){var c=CUSTOM[id];if(!c)return;VIEW="own";JUSTN=[];
 F={edit:id,name:c.name,touched:false,kws:JSON.parse(JSON.stringify(c.kws||[])),src:(c.src||[]).map(function(x){
 if(typeof x==="string"){var m=WCAT.filter(function(w){return w.nimi.toLowerCase()===x.trim().toLowerCase()})[0];return m?{n:m.nimi,id:m.id}:{n:x,id:"",url:""}}
 var g=x.id?getSrc(x.id):null;return g?{n:g.nimi,id:g.id}:{n:x.n||x.t||"",id:"",url:x.rss||""}}).filter(function(x){return x.n})};
-openOv(shell("Muokkaa kategoriaa",'<div class="cbody own"><div class="form" id="obForm"></div>'+doneAside()+'</div>',
-'<button class="tl" id="eCancel">Peruuta</button><button class="btn p" id="eSave">Tallenna muutokset</button>'),"Muokkaa kategoriaa");
+openOv(shell("Edit category",'<div class="cbody own"><div class="form" id="obForm"></div>'+doneAside()+'</div>',
+'<button class="tl" id="eCancel">Cancel</button><button class="btn p" id="eSave">Save changes</button>'),"Edit category");
 drawForm();drawDone();
 $("sClose").onclick=$("eCancel").onclick=function(){tryLeave(closeOv)};
 $("eSave").onclick=function(){if(commit())closeOv()}}
-function drawForm(){$("obForm").innerHTML='<div class="sec" id="secName"><h4><label for="fName">Nimi</label></h4><input class="in" id="fName" maxlength="30" placeholder="Esim. Tekoäly" value="'+esc(F.name)+'" aria-describedby="errName"><p class="ferr" id="errName" hidden></p></div>'+
-'<div class="sec" id="secSrc"><h4><label for="fSrc">Lähteet</label></h4><div class="field"><input class="in" id="fSrc" autocomplete="off" placeholder="Valitse tai hae lähdettä, esim. Yle tai BBC" role="combobox" aria-expanded="false" aria-controls="srcSug" aria-autocomplete="list" aria-describedby="errSrc"><button type="button" class="sarrow" id="srcToggle" aria-label="Näytä kaikki lähteet" aria-expanded="false" aria-controls="srcSug">▾</button><div class="sug" id="srcSug" role="listbox" aria-label="Lähteet" aria-multiselectable="true"></div></div><p class="ferr" id="errSrc" hidden></p><div class="srow"><p class="hint">Avaa lista, valitse useita tai kirjoita nimi. Voit myös liittää sivuston osoitteen.</p></div><div class="chips" id="srcChips"></div></div>'+
-'<div class="sec"><h4><label for="fKw">Hakusanat</label></h4><div class="field"><input class="in" id="fKw" autocomplete="off" placeholder="Kirjoita hakusana"><div class="sug" id="kwSug"></div></div><p class="hint">Kirjoita hakusana ja paina pilkkua tai Enteriä. Ilman hakusanoja näytetään kaikki valittujen lähteiden uutiset.</p><div id="kwList"></div>'+
-'<div class="or">– TAI –</div><div class="center" id="aiWrap"><button class="btn" id="aiOpen">✨ Luo hakusanat tekoälyllä</button></div><div class="aip" id="aiPanel" hidden><ol><li>Kopioi prompti ja liitä se omaan tekoälyysi.</li><li>Vastaa tekoälyn kysymyksiin.</li><li>Kopioi tekoälyn antamat hakusanat ja liitä ne alla olevaan kenttään.</li></ol><textarea id="aiPrompt" hidden readonly></textarea><div class="row"><span class="st" id="cpSt" role="status"></span><button class="btn" id="aiCopy">Kopioi prompti</button></div><textarea id="aiIn" rows="3" placeholder="Liitä tekoälyn vastaus tähän"></textarea><div class="row"><span class="st" id="aiSt" role="status"></span><button class="btn p" id="aiAdd">Lisää hakusanat</button></div></div></div>';
+function drawForm(){$("obForm").innerHTML='<div class="sec" id="secName"><h4><label for="fName">Name</label></h4><input class="in" id="fName" maxlength="30" placeholder="E.g. Artificial intelligence" value="'+esc(F.name)+'" aria-describedby="errName"><p class="ferr" id="errName" hidden></p></div>'+
+'<div class="sec" id="secSrc"><h4><label for="fSrc">Sources</label></h4><div class="field"><input class="in" id="fSrc" autocomplete="off" placeholder="Pick or search for a source, e.g. Yle or BBC" role="combobox" aria-expanded="false" aria-controls="srcSug" aria-autocomplete="list" aria-describedby="errSrc"><button type="button" class="sarrow" id="srcToggle" aria-label="Show all sources" aria-expanded="false" aria-controls="srcSug">▾</button><div class="sug" id="srcSug" role="listbox" aria-label="Sources" aria-multiselectable="true"></div></div><p class="ferr" id="errSrc" hidden></p><div class="srow"><p class="hint">Open the list, pick several or type a name. You can also paste a site address.</p></div><div class="chips" id="srcChips"></div></div>'+
+'<div class="sec"><h4><label for="fKw">Keywords</label></h4><div class="field"><input class="in" id="fKw" autocomplete="off" placeholder="Type a keyword"><div class="sug" id="kwSug"></div></div><p class="hint">Type a keyword and press comma or Enter. Without keywords, all news from the selected sources is shown.</p><div id="kwList"></div>'+
+'<div class="or">– OR –</div><div class="center" id="aiWrap"><button class="btn" id="aiOpen">✨ Create keywords with AI</button></div><div class="aip" id="aiPanel" hidden><ol><li>Copy the prompt and paste it into your own AI.</li><li>Answer the questions the AI asks.</li><li>Copy the keywords the AI gives you and paste them into the field below.</li></ol><textarea id="aiPrompt" hidden readonly></textarea><div class="row"><span class="st" id="cpSt" role="status"></span><button class="btn" id="aiCopy">Copy prompt</button></div><textarea id="aiIn" rows="3" placeholder="Paste the AI answer here"></textarea><div class="row"><span class="st" id="aiSt" role="status"></span><button class="btn p" id="aiAdd">Add keywords</button></div></div></div>';
 drawSrc();drawKw()}
-function drawSrc(){$("srcChips").innerHTML=F.src.map(function(s,i){return '<span class="chip">'+esc(s.n)+'<button data-ors="'+i+'" aria-label="Poista '+esc(s.n)+'">✕</button></span>'}).join('')}
+function drawSrc(){$("srcChips").innerHTML=F.src.map(function(s,i){return '<span class="chip">'+esc(s.n)+'<button data-ors="'+i+'" aria-label="Remove '+esc(s.n)+'">✕</button></span>'}).join('')}
 function drawKw(){var h="",ex=[];F.kws.forEach(function(k,i){if(!k.t){ex.push(i);return}
-h+='<div class="kw"><span class="lbl">Aihe</span><span class="chip"><b>'+esc(k.k)+'</b><button data-ork="'+i+'" aria-label="Poista aihe">✕</button></span><div class="chips">'+k.v.map(function(v,j){return '<span class="chip v">'+esc(v)+'<button data-orv="'+i+'-'+j+'" aria-label="Poista '+esc(v)+'">✕</button></span>'}).join('')+'</div></div>'});
-if(ex.length)h+='<div class="kw"><span class="lbl">Tarkat hakusanat</span><div class="chips">'+ex.map(function(i){var sv=F.kws[i].v||[];return '<span class="chip"'+(sv.length?' title="Etsitään myös: '+esc(sv.join(", "))+'"':'')+'>'+esc(F.kws[i].k)+(sv.length?'<small class="stm">'+esc(sv.join(" / "))+'</small>':'')+'<button data-ork="'+i+'" aria-label="Poista '+esc(F.kws[i].k)+'">✕</button></span>'}).join('')+'</div></div>';
+h+='<div class="kw"><span class="lbl">Topic</span><span class="chip"><b>'+esc(k.k)+'</b><button data-ork="'+i+'" aria-label="Remove topic">✕</button></span><div class="chips">'+k.v.map(function(v,j){return '<span class="chip v">'+esc(v)+'<button data-orv="'+i+'-'+j+'" aria-label="Remove '+esc(v)+'">✕</button></span>'}).join('')+'</div></div>'});
+if(ex.length)h+='<div class="kw"><span class="lbl">Exact keywords</span><div class="chips">'+ex.map(function(i){var sv=F.kws[i].v||[];return '<span class="chip"'+(sv.length?' title="Also searches for: '+esc(sv.join(", "))+'"':'')+'>'+esc(F.kws[i].k)+(sv.length?'<small class="stm">'+esc(sv.join(" / "))+'</small>':'')+'<button data-ork="'+i+'" aria-label="Remove '+esc(F.kws[i].k)+'">✕</button></span>'}).join('')+'</div></div>';
 $("kwList").innerHTML=h}
 // lähdelista: kaikki lähteet aakkosjärjestyksessä, suodatettuna kielellä ja haulla
 function srcList(q){q=(q||"").trim();var r=q?rx(q.toLowerCase()):null;
 return WCAT.filter(function(x){return (!r||r.test(x.nimi)||x.id.indexOf(q.toLowerCase())===0)}).slice().sort(function(a,b){return a.nimi.localeCompare(b.nimi,"fi")})}
 function showSrc(){var f=$("fSrc");if(!f)return;var q=f.value.trim(),L=srcList(q),h="";
 L.forEach(function(x){var on=F.src.some(function(s){return s.id===x.id});h+='<button role="option" data-osrc="'+esc(x.id)+'" aria-selected="'+on+'"><span>'+esc(x.nimi)+'</span><small>'+(x.kieli==="fi"?"FIN":"ENG")+'</small></button>'});
-if(q&&/^(https?:\/\/)?[\w-]+(\.[\w-]+)+/i.test(q))h+='<button role="option" data-ourl="'+esc(q)+'"><span>Lisää oma osoite: '+esc(q)+'</span><small>oma</small></button>';
-if(!h)h='<div class="none">Ei lähteitä tällä haulla.</div>';$("srcSug").innerHTML=h;f.setAttribute("aria-expanded","true");var a=$("srcToggle");if(a){a.setAttribute("aria-expanded","true");a.setAttribute("aria-label","Piilota lähteet")}}
-function hideSrc(){var s=$("srcSug");if(s)s.innerHTML="";var f=$("fSrc");if(f)f.setAttribute("aria-expanded","false");var a=$("srcToggle");if(a){a.setAttribute("aria-expanded","false");a.setAttribute("aria-label","Näytä kaikki lähteet")}}
+if(q&&/^(https?:\/\/)?[\w-]+(\.[\w-]+)+/i.test(q))h+='<button role="option" data-ourl="'+esc(q)+'"><span>Add your own address: '+esc(q)+'</span><small>custom</small></button>';
+if(!h)h='<div class="none">No sources match this search.</div>';$("srcSug").innerHTML=h;f.setAttribute("aria-expanded","true");var a=$("srcToggle");if(a){a.setAttribute("aria-expanded","true");a.setAttribute("aria-label","Hide sources")}}
+function hideSrc(){var s=$("srcSug");if(s)s.innerHTML="";var f=$("fSrc");if(f)f.setAttribute("aria-expanded","false");var a=$("srcToggle");if(a){a.setAttribute("aria-expanded","false");a.setAttribute("aria-label","Show all sources")}}
 function setErr(k,t){var s=$("sec"+k),e=$("err"+k);if(!s)return;s.classList.toggle("bad",!!t);e.textContent=t;e.hidden=!t}
 function addSrc(s){if(F.src.some(function(x){return (s.id&&x.id===s.id)||x.n.toLowerCase()===s.n.toLowerCase()}))return;F.src.push(s);F.touched=true;setErr("Src","");drawSrc()}
 function addTopic(id){var x=getTop(id);if(!x||F.kws.some(function(k){return k.id===id}))return;F.kws.push({k:x.nimi,id:x.id,t:true,v:x.sanat.slice()});F.touched=true;drawKw()}
 function addWord(w){w=w.trim().toLowerCase();if(!w||F.kws.some(function(k){return !k.t&&k.k===w}))return;F.kws.push({k:w,t:false,v:[]});F.touched=true;drawKw()}
 function isEmpty(){return !F.name.trim()&&!F.src.length&&!F.kws.length}
 function commit(){var nm=F.name.trim(),en="",es="";
-if(!nm)en="*Kategorialta puuttuu nimi.";else if(exists(nm,F.edit))en="*Sinulla on jo kategoria nimeltä "+nm+".";
-if(!F.src.length)es="*Lisää vähintään yksi lähde.";
+if(!nm)en="*The category needs a name.";else if(exists(nm,F.edit))en="*You already have a category called "+nm+".";
+if(!F.src.length)es="*Add at least one source.";
 setErr("Name",en);setErr("Src",es);
-if(en||es){msg("Täydennä punaisella merkityt kohdat.","err");(en?$("fName"):$("fSrc")).focus();return false}
+if(en||es){msg("Fill in the fields marked in red.","err");(en?$("fName"):$("fSrc")).focus();return false}
 var nc={name:nm,src:F.src.slice(),kws:JSON.parse(JSON.stringify(F.kws))};if(F.edit&&CUSTOM[F.edit]){saveCat(nc,F.edit);return true}saveCat(nc);JUSTN=[nm];drawDone();return true}
-function reset(){var nm=JUSTN[0];F=blank();drawForm();$("obForm").scrollTop=0;msg("✓ "+nm+" tallennettu. Lisää seuraava kategoria.","ok");softFocus($("fName"))}
-function tryLeave(fn){if(isEmpty()||!F.touched){fn();return}ask("Hylätäänkö keskeneräinen kategoria?","Jatka muokkausta","Hylkää",fn)}
+function reset(){var nm=JUSTN[0];F=blank();drawForm();$("obForm").scrollTop=0;msg("✓ "+nm+" saved. Add the next category.","ok");softFocus($("fName"))}
+function tryLeave(fn){if(isEmpty()||!F.touched){fn();return}ask("Discard the unfinished category?","Keep editing","Discard",fn)}
 
 /* tekoälyprompti */
-function aiPrompt(){var n=F.name.trim();return (n?'Kategoriani nimi on "'+n+'".\n\n':'')+'Autat minua tekemään hakusanoja uutisten suodattamiseen. Kysy minulta yksi kysymys kerrallaan ja odota vastaus ennen seuraavaa:\n1) Mikä on kategorian aihe?\n2) Mitkä asiat aiheessa kiinnostavat erityisesti (esim. henkilöt, joukkueet, yritykset, tapahtumat)?\n3) Haluatko hakusanat suomeksi, englanniksi vai molemmilla?\n\nTee vastausten perusteella 15–40 hakusanaa. Säännöt:\n- sanat perusmuodossa, ei taivutusmuotoja\n- jos sana taipuu epäsäännöllisesti (esim. mies → miehen, vesi → veden), kirjoita sen perään sulkuihin taivutusvartalo, useampi vinoviivalla, vähintään 4 kirjainta: mies (miehe), vesi (vede/vett). Älä lisää sulkuja säännöllisesti taipuville sanoille\n- vähintään 3 kirjainta, nimet ja lyhenteet käyvät\n- ei toistoja\n\nKirjoita lopuksi yksi lyhyt rivi (esim. "Tässä hakusanat:") ja sen alle kaikki hakusanat yhteen koodilohkoon (```) yhdellä rivillä pilkuilla eroteltuna, jotta voin kopioida ne yhdellä napilla. Älä kirjoita koodilohkon jälkeen mitään.'}
+function aiPrompt(){var n=F.name.trim();return (n?'My category is called "'+n+'".\n\n':'')+'You are helping me create keywords for filtering news. Ask me one question at a time and wait for my answer before asking the next one:\n1) What is the topic of the category?\n2) What in the topic interests you most (e.g. people, teams, companies, events)?\n3) Do you want the keywords in Finnish, English or both?\n\nBased on the answers, create 15–40 keywords. Rules:\n- words in their base form, no inflected forms\n- if a Finnish word inflects irregularly (e.g. mies → miehen, vesi → veden), add its inflection stem in parentheses after it, several stems separated by a slash, at least 4 letters each: mies (miehe), vesi (vede/vett). Do not add parentheses to words that inflect regularly\n- at least 3 letters; names and abbreviations are fine\n- no duplicates\n\nFinally, write one short line (e.g. "Here are the keywords:") and below it all the keywords in a single code block (```) on one line, separated by commas, so I can copy them with one click. Do not write anything after the code block.'}
 
 /* tapahtumat ikkunan sisällä */
 document.addEventListener("input",function(e){if(!F||!e.target.closest("#obOv"))return;var t=e.target;
@@ -726,8 +731,8 @@ if(t.id==="fName"){F.name=t.value;F.touched=true;if(t.value.trim())setErr("Name"
 if(t.id==="fSrc")showSrc();
 if(t.id==="fKw"){var v=t.value;if(v.indexOf(",")>-1){v.split(",").forEach(addWord);t.value="";$("kwSug").innerHTML="";return}
 var q2=v.trim(),h2="";if(q2.length>=2){var r2=rx(q2);var a=WTOP.filter(function(x){return r2.test(x.nimi)||r2.test(x.paa)}),b=WTOP.filter(function(x){return a.indexOf(x)<0&&x.sanat.some(function(w){return r2.test(w)})});
-a.concat(b).slice(0,7).forEach(function(x){h2+='<button data-otop="'+esc(x.id)+'"><span><b>'+esc(x.nimi)+'</b></span><small>'+esc(x.paa)+' · '+x.sanat.length+' sanaa</small></button>'})}
-if(q2)h2+='<button data-oword="'+esc(q2)+'"><span>Lisää tarkka hakusana: <b>'+esc(q2)+'</b></span><small>tarkka</small></button>';$("kwSug").innerHTML=h2}});
+a.concat(b).slice(0,7).forEach(function(x){h2+='<button data-otop="'+esc(x.id)+'"><span><b>'+esc(x.nimi)+'</b></span><small>'+esc(x.paa)+' · '+x.sanat.length+' words</small></button>'})}
+if(q2)h2+='<button data-oword="'+esc(q2)+'"><span>Add exact keyword: <b>'+esc(q2)+'</b></span><small>exact</small></button>';$("kwSug").innerHTML=h2}});
 document.addEventListener("focusin",function(e){if(!F||$("obOv").hidden)return;if(e.target.id==="fSrc"){showSrc();return}if(!e.target.closest("#secSrc"))hideSrc()});
 document.addEventListener("keydown",function(e){if($("obOv").hidden)return;
 if(F&&(e.key==="ArrowDown"||e.key==="ArrowUp")&&e.target.closest("#secSrc .field")){var o=[].slice.call($("srcSug").querySelectorAll("button"));if(!o.length){if(e.target.id==="fSrc"&&e.key==="ArrowDown")showSrc();o=[].slice.call($("srcSug").querySelectorAll("button"));if(!o.length)return}
@@ -742,10 +747,10 @@ if(gx&&VIEW==="ready"){toggleGroup(gx);return}
 var gt=e.target.closest("[data-group]");
 if(gt&&VIEW==="ready"){var gi=+gt.dataset.group,av=groupAvail(groupList()[gi]);if(!av.length)return;
 var all=av.every(function(i){return SEL.indexOf(i)>-1});if(all)SEL=SEL.filter(function(i){return av.indexOf(i)<0});else av.forEach(function(i){if(SEL.indexOf(i)<0)SEL.push(i)});
-drawGrid();$("obGrid").querySelector('[data-group="'+gi+'"]').focus();msg(SEL.length?SEL.length+" valittu.":"","");return}
+drawGrid();$("obGrid").querySelector('[data-group="'+gi+'"]').focus();msg(SEL.length?SEL.length+" selected.":"","");return}
 var tb=e.target.closest("[data-tile]");
 if(tb&&VIEW==="ready"){var ti=+tb.dataset.tile;if(exists(PACKS[ti].nimi))return;var at=SEL.indexOf(ti);if(at>-1)SEL.splice(at,1);else SEL.push(ti);
-drawGrid();$("obGrid").querySelector('[data-tile="'+ti+'"]').focus();msg(SEL.length?SEL.length+" valittu.":"","");return}
+drawGrid();$("obGrid").querySelector('[data-tile="'+ti+'"]').focus();msg(SEL.length?SEL.length+" selected.":"","");return}
 if(!F)return;var b=e.target.closest("button");
 if(!b){if(!e.target.closest(".field")){$("obOv").querySelectorAll(".sug").forEach(function(s){s.innerHTML=""});hideSrc()}return}var d=b.dataset;
 if(b.id==="srcToggle"){if($("srcSug").innerHTML){hideSrc()}else{$("fSrc").value="";showSrc();$("srcSug").scrollTop=0}return}
@@ -761,10 +766,10 @@ if(d.ork!==undefined){F.kws.splice(+d.ork,1);drawKw();return}
 if(d.orv!==undefined){var p=d.orv.split("-");F.kws[+p[0]].v.splice(+p[1],1);drawKw();return}
 if(b.id==="aiOpen"){$("aiWrap").hidden=true;$("aiPanel").hidden=false;$("aiCopy").focus();return}
 if(b.id==="aiCopy"){var pt=aiPrompt(),st=$("cpSt"),ta=$("aiPrompt");ta.value=pt;
-var fb=function(){ta.hidden=false;ta.focus();ta.select();var ok=false;try{ok=document.execCommand("copy")}catch(err){}st.textContent=ok?"Kopioitu!":"Kopioi prompti kentästä.";if(ok)ta.hidden=true};
-try{navigator.clipboard.writeText(pt).then(function(){st.textContent="Kopioitu!"},fb)}catch(err){fb()}return}
+var fb=function(){ta.hidden=false;ta.focus();ta.select();var ok=false;try{ok=document.execCommand("copy")}catch(err){}st.textContent=ok?"Copied!":"Copy the prompt from the field.";if(ok)ta.hidden=true};
+try{navigator.clipboard.writeText(pt).then(function(){st.textContent="Copied!"},fb)}catch(err){fb()}return}
 if(b.id==="aiAdd"){var ws=wParseAIv($("aiIn").value),b4=F.kws.length;ws.forEach(function(o){var w=o.w.toLowerCase(),ex=F.kws.filter(function(k){return !k.t&&k.k===w})[0];if(ex){ex.v=ex.v||[];o.v.forEach(function(x){if(ex.v.indexOf(x)<0)ex.v.push(x)})}else F.kws.push({k:w,t:false,v:o.v})});var n=F.kws.length-b4;
-if(n){F.touched=true;drawKw();$("aiIn").value=""}$("aiSt").textContent=ws.length?"Lisättiin "+n+" hakusanaa.":"Hakusanoja ei löytynyt. Liitä pilkuilla eroteltu lista.";return}});
+if(n){F.touched=true;drawKw();$("aiIn").value=""}$("aiSt").textContent=ws.length?"Added "+n+" keywords.":"No keywords found. Paste a comma-separated list.";return}});
 
 window.obLoad=function(){return fetch("oletus_lahteet.json").then(function(r){return r.ok?r.json():null}).then(function(j){PACKS=(j&&j.valmiit)||[]}).catch(function(){})};
 window.obOpenChoice=openChoice;window.obEdit=openEditor;
@@ -775,7 +780,7 @@ var LG=document.querySelector('#logo a');
 var WIDE=window.matchMedia('(min-width:1340px)');
 function fade(){var p=WIDE.matches?0:Math.min(Math.max(window.scrollY/160,0),1);LG.style.opacity=1-p;LG.style.transform='translateY('+(-p*36)+'px)';LG.style.pointerEvents=p>.9?'none':'auto'}
 window.addEventListener('scroll',fade,{passive:true});var lastW=window.innerWidth;window.addEventListener('resize',function(){fade();if(window.innerWidth!==lastW){lastW=window.innerWidth;placeSide()}});if(document.fonts&&document.fonts.ready)document.fonts.ready.then(function(){placeSide()});fade();
-window.addEventListener('hashchange',route);load().then(function(){buildCustom();route();obStart()}).catch(function(){document.getElementById('app').textContent='Uutisten lataus epäonnistui.'});
+window.addEventListener('hashchange',route);load().then(function(){buildCustom();route();obStart()}).catch(function(){document.getElementById('app').textContent='Loading the news failed.'});
 </script>
 </body>
 </html>
