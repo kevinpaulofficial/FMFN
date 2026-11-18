@@ -103,16 +103,16 @@
      "id": "kulttuuri",
      "nimi": "Kulttuuri",
      "rss": "https://www.hs.fi/rss/kulttuuri.xml",
-     "testattu": false
+     "testattu": true
     },
     {
      "id": "visio",
      "nimi": "Visio",
      "rss": "https://www.hs.fi/rss/visio.xml",
-     "testattu": false
+     "testattu": true
     }
    ],
-   "testattu": false
+   "testattu": true
   },
   {
    "id": "iltalehti",
@@ -143,10 +143,10 @@
      "id": "musiikki",
      "nimi": "Musiikki",
      "rss": "https://www.klangi.fi/kategoria/uutiset/musiikki/feed/",
-     "testattu": false
+     "testattu": true
     }
    ],
-   "testattu": false
+   "testattu": true
   },
   {
    "id": "mtv",
@@ -178,7 +178,7 @@
      "id": "news",
      "nimi": "News",
      "rss": "https://www.skysports.com/rss/12040",
-     "testattu": false
+     "testattu": true
     },
     {
      "id": "football",
@@ -188,7 +188,7 @@
      "testattu": true
     }
    ],
-   "testattu": false
+   "testattu": true
   },
   {
    "id": "soundi",
@@ -212,16 +212,16 @@
      "id": "talous",
      "nimi": "Talous",
      "rss": "https://yle.fi/rss/t/18-204933/fi",
-     "testattu": false
+     "testattu": true
     },
     {
      "id": "urheilu",
      "nimi": "Urheilu",
      "rss": "https://yle.fi/rss/urheilu",
-     "testattu": false
+     "testattu": true
     }
    ],
-   "testattu": false
+   "testattu": true
   }
  ]
 }
