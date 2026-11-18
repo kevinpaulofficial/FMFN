@@ -296,7 +296,7 @@ setTheme(THEME);
 var DYS=false;try{DYS=localStorage.getItem("dys")==="1"}catch(e){}
 function setDys(v){DYS=v;document.documentElement.setAttribute("data-dys",v?"1":"0");try{localStorage.setItem("dys",v?"1":"0")}catch(e){}}
 // lukihäiriötila on toistaiseksi piilossa: nappi ei näy eikä tallennettua tilaa käytetä (tallennettu arvo säilyy)
-var DYS_UI=false;
+var DYS_UI=true;
 if(DYS_UI)setDys(DYS);else{DYS=false;document.documentElement.setAttribute("data-dys","0")}
 var H=3600000,D=86400000,T=Date.UTC(2026,10,15,8,0,0);
 var CATS={};var BASE=["suomi","jalkapallo","teknologia","maailma","musiikki"];
